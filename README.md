@@ -1,6 +1,8 @@
-# Yog Guide — Book of Yog build reference in English
+# [➜ Open the guide: https://saxap123.github.io/yog-guide/](https://saxap123.github.io/yog-guide/)
 
-**Website: <https://saxap123.github.io/yog-guide/>**
+You don't need to download anything — just open the link.
+
+## Yog Guide — Book of Yog build reference in English
 
 An English reference for **Book of Yog Idle RPG** (依盖之书): how to build every Blackguard (gear by
 level, affixes, black stones 黑石, relics, runes), skills and blood ranks, the PvE tier list, and the
