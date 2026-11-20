@@ -1,0 +1,162 @@
+{
+  "subject": "引火巨镰",
+  "group": "gear",
+  "page_revid": 5136,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%BC%95%E7%81%AB%E5%B7%A8%E9%95%B0",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%BC%95%E7%81%AB%E5%B7%A8%E9%95%B0&format=json",
+  "fetched_at": "2026-11-20T16:16:25+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "引火巨镰#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/11/29/1/4/26/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/11/29/1/4/34/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "引火巨镰"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、5%火焰伤害增幅、5%最大生命值、20%暴击倍率、100怒气"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "切夏娅所携带的巨镰，燃烧，永不停歇。"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可嵌入"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "450"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑卫好感度"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "引火巨镰"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "场上有单位死亡或被魅惑时，延长【蝠影焰咒】的持续时间2秒，最多延长12秒，且秽翼魔女造成的所有伤害增加(6.00%-10.00%)。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "武器"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

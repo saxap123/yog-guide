@@ -1,0 +1,393 @@
+{
+ "id": "char-278",
+ "name": "自由炮手",
+ "page_title": "自由炮手",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "冥音",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "7月27日",
+  "birthplace": "瓦洛亚王国",
+  "height_weight": "163cm/45kg",
+  "specialties": [
+   "炼金术",
+   "音乐",
+   "插画"
+  ],
+  "likes": [
+   "红茶",
+   "龙",
+   "小众乐曲",
+   "音乐盒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "繁琐的礼仪",
+   "贵族裙装",
+   "被束缚"
+  ],
+  "release_date": "2023年06月28日"
+ },
+ "element": "闪电",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "秘术",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "诡影",
+    "id": "faction-2198"
+   },
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "聚变",
+    "id": "faction-2216"
+   },
+   {
+    "name": "雷暴",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "技能暴击",
+   "闪电穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "闪电伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "缭乱雷荆",
+   "cooldown_s": 2,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "朝前方释放一道光束，每道光束对触碰到的敌人造成2500％法术强度的闪电伤害",
+   "scaling": []
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "落雷之势",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "进入飞行状态，使【疾雷闪】造成的伤害提升50％，效果持续6秒，且释放时，恢复所有队友15点源力",
+   "scaling": []
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "疾雷闪",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "发射一道强大的光束，对前方敌人造成3次4000％法术强度的闪电伤害",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "雷龙刻印",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "冥音的感知属性+10",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "雷光协振",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "敌方队伍中有单位释放战技时，使冥音获得1点充能，最多可储存3点充能；发动概率：20%。当拥有充能点数时，冥音会释放闪电光束，对前方敌人造成4000％法术强度的闪电伤害。（闪电光束拥有最小1秒的释放间隔）",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "自由怒号",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "物理伤害减免和法术伤害减免+5%",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "炼金的奥义",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "冥音的技能暴击几率+20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "玻璃大炮",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "放弃防护，专心攻击，造成的伤害提高15%，但是自身受到的伤害也提高10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "元素充能",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "造成非物理伤害时，恢复造成伤害10%的生命值",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": null,
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猩红秘戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "戏谑者裤腿",
+    "徽章": "魔涌之徽",
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "极黑龙炮",
+    "护手": "雷云捕手"
+   },
+   "alternatives": {
+    "腰带": [
+     "炎护腰带"
+    ],
+    "裤子": [
+     "元素大师之裤"
+    ],
+    "徽章": [
+     "咒法徽印"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "炎护腰带": null,
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "魔涌之徽": "gear-1176",
+    "咒法徽印": "gear-1175",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "极黑龙炮": "gear-2306",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": {
+    "炎护腰带": {
+     "reason": "game_only",
+     "game_id": "1009",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1009",
+        "field": "name",
+        "text_id": 4025,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       4025
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "分解装备",
+       "自由炮手",
+       "璨然银龙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "闪鸣鸟",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【疾雷闪】的冷却时间减少0.5秒，且伤害范围+100%。"
+   },
+   {
+    "rank": 2,
+    "text": "【疾雷闪】暴击时，获得一层聚能，每层聚能都会使【疾雷闪】造成的伤害增加10%，最多可叠加5层。每次释放【缭乱雷棘】只会触发一次。"
+   },
+   {
+    "rank": 3,
+    "text": "【落雷之势】的持续时间+5秒，且每次释放时恢复的源力值+15点。"
+   },
+   {
+    "rank": 4,
+    "text": "【雷光协振】的发动概率+10%。"
+   },
+   {
+    "rank": 5,
+    "text": "敌方队伍中有角色触发不死效果时，复制该效果给自己。该效果有20秒触发间隔。"
+   },
+   {
+    "rank": 6,
+    "text": "自由炮手造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": "1阶可用，道中清小怪好手"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "命运忤逆",
+   "id": "relic-1939"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "秘术战格",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "no 推荐符文 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E8%87%AA%E7%94%B1%E7%82%AE%E6%89%8B",
+ "revid": 8929,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8929",
+ "rev_timestamp": "2026-05-27T07:04:41Z"
+}

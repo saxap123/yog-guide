@@ -1,0 +1,511 @@
+{
+  "subject": "妖刀",
+  "group": "characters",
+  "page_revid": 8624,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%A6%96%E5%88%80",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A6%96%E5%88%80&format=json",
+  "fetched_at": "2026-11-20T16:11:47+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "妖刀#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "获得专属武器：[[不祥之刃]]"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "《樱花》"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#F56C6C\">×聊聊过往的经历</span>"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#67C23A\">√聊聊平时的爱好</span>"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "《聊些什么》"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#67C23A\">√确实舍不得你走，我很在意你</span>"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#F56C6C\">×毕竟我们是好同事啊</span>"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "《去留大危机》"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "妖刀#0##_QUERY2a935796c56793f39127ba3ec32c5269"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/11/5/38/2/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/2/8/4/16/21/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "妖刀"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2022年09月27日"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "诡影、强袭、噬魂、召唤、统帅、暴怒、聚变"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "169cm/54kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "遥远东方"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "妖刀"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "毛茸茸的玩偶、烟草、樱花、<span style=\"color:red\">伯戈涅葡萄酒（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "刺杀"
+            }
+          ]
+        },
+        {
+          "property": "备注",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:red\">没氪金副手【[[落花庇护]]】玩不了，低等级妖刀自行替换配装</span>"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "狩樱"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "物理"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "释放后在一定范围内随机选择目标执行斩击，每次斩击都会造成物理强度107.3%的物理伤害，总共斩击7次。斩击过程中角色处于无敌状态。(斩击视为普攻）"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "旋转剑刃，每秒对周围3米范围内的所有敌人造成145%物理伤害，持续5秒。持续期间免疫冰冻、昏迷和冰缓效果，且不会受到火焰、冰霜、闪电伤害。"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对近战范围内的1名敌人造成100%物理强度的物理伤害。"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10月19日"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "妖刀"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SS"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "枷锁、奴隶、火焰"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "暴击几率提升30%,暴击伤害提升75%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "当自身6米范围内没有敌方单位时，会闪现到距离最近的敌方身后。影遁的触发几率增加10%，且触发的持续时间增加100%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【旋刃舞】持续期间，周期性对附近的随机敌人造成普攻伤害的60%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【袭首缭杀斩】斩击次数增加7次，物理精通每增加5点，额外增加一次斩击次数。"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对法术强度或物理强度低于自身的敌人造成伤害提高12%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对生命值为满的敌人造成伤害提高15%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到减益效果的持续时间减少30%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "CD减少、全伤害类型减免、最大生命值、体质、力量、暴击概率、暴击倍率、怒气恢复、怒气"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型增幅、物理伤害增幅、物理抗性、暴击伤害减免、受到物理伤害降低"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "妖刀#0##_QUERY2a935796c56793f39127ba3ec32c5269",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::妖刀]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "妖刀# QUERY2a935796c56793f39127ba3ec32c5269"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

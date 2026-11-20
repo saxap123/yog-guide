@@ -1,0 +1,366 @@
+{
+ "id": "char-1809",
+ "name": "Exotic Merchant",
+ "page_title": "异国商人",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Luta",
+  "gender": "Female",
+  "race": "Beastfolk",
+  "birthday": "Day 3 of Dewdrop",
+  "birthplace": "the Far East",
+  "height_weight": "153cm/41kg",
+  "specialties": [
+   "running a business",
+   "intelligence gathering",
+   "running away"
+  ],
+  "likes": [
+   "Lura",
+   "rare treasures",
+   "being treated to meals"
+  ],
+  "dislikes": [
+   "fines",
+   "business competitors",
+   "Celia"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Lightning",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Fire DMG equal to 100% Spell Power to 1 enemy within 10 meters",
+   "scaling": [
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 100% of Spell Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Cascading Beam",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Luta releases a beam that bounces between different enemy characters, up to 16 times. Each bounce deals Lightning DMG equal to 25% of Spell Power and Stuns the target for 0.5 seconds",
+   "scaling": [
+    {
+     "percent": "25%",
+     "values": [
+      25.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 25% of Spell Power"
+    }
+   ],
+   "name_zh": "魔能冲击"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Thunderballs",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Luta throws healing light orbs at the positions of 2 random enemy units, dealing Lightning DMG equal to 78.8% of Spell Power within a 2.5 meter range; allied units caught in it receive a healing effect of 157.5% Spell Power.",
+   "scaling": [
+    {
+     "percent": "78.8%",
+     "values": [
+      78.8
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 78.8% of Spell Power"
+    }
+   ],
+   "name_zh": "救死扶危"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Detox Cleanse",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Luta heals teammates, there is a 100% chance to dispel one abnormal status from the healed target. After casting the ultimate, increases the whole team's Attack Power by 30% and Physical & Spell Power by 30%, lasting 8 seconds.",
+   "scaling": [
+    {
+     "percent": "30%",
+     "values": [
+      30.0
+     ],
+     "stat": "Attack Power",
+     "effect": null,
+     "text": "30% of Attack Power"
+    }
+   ],
+   "name_zh": "凶秽退散"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Purge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Luta applies Rejuvenation to the allied hero with the lowest HP, restoring HP equal to 18.9% of Spell Power per second and granting a 15% DMG reduction effect, lasting 8 seconds",
+   "scaling": [
+    {
+     "percent": "18.9%",
+     "values": [
+      18.9
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 18.9% of Spell Power"
+    }
+   ],
+   "name_zh": "驱邪"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Critical Restoration",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Luta's Normal Attack crits, consumes 80 energy to release a Healing Chain that bounces between different allied heroes, up to 8 times. Each bounce restores HP equal to 8.9% of Spell Power (can bounce 2 times repeatedly), while reducing the cooldown of all active skills by 1 second",
+   "scaling": [
+    {
+     "percent": "8.9%",
+     "values": [
+      8.9
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 8.9% of Spell Power"
+    }
+   ],
+   "name_zh": "饮魔"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Heartstopper",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Luta fires 6 light bullets at the nearest enemy; each bullet hit deals Lightning DMG equal to 30% of Spell Power and steals 15 energy from the target, and reduces the target's Accuracy by 75%, lasting 8 seconds",
+   "scaling": [
+    {
+     "percent": "30%",
+     "values": [
+      30.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 30% of Spell Power"
+    }
+   ],
+   "name_zh": "连心"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "说来有趣，很难想象到，这个有着毛茸茸尾巴和耳朵的黑卫，最早居然是被巡逻队抓出来的走私贩子，士兵在她的仓库发现了大量走私货物、来源不明的路拉、军用管制品、甚至还有灭活魔物标本这种离谱的东西。露塔本人因此遭到审判庭收监，并被指控非法潜入神弃之地、非法走私、贩卖军用管制品等罪行，被判处永久监禁和巨额罚款。\n结果谁知，露塔不仅拒绝承认自己的罪行，还指责亚克兰斯的审查策略和经济政策相冲突，条款中频出的漏洞给她造成了巨额损失，要求获得商业许可令作为补偿，甚至大言不惭当庭提出反诉。正当审判庭准备强制执行惩戒时，亚克兰斯高层似乎有人对露塔起了兴趣，经过私下秘密协商，她最终得到了一份和解协议——如果她愿意参加圣血仪式，终身效力于亚克兰斯，并能在一年之内扭转黑卫学院的财政赤字，提升整个市场的商业交易额，那么她将得到豁免，并获得永久商业许可令。\n露塔毫不犹豫地签订这份协议，成为了一名行为举止不是那么“黑卫”的黑卫，而且真的在一年内完成预定财政目标，并从此打通了亚克兰斯的商业大门——至于代价，就是亚克兰斯曾经的肃杀气氛彻底成为历史，各路奸商嗅到路拉的气息从天南地北跑来，把这座要塞搅得鸡飞狗跳。",
+  "deeds": [
+   "露塔总能搞到来自遥远东方的精美货物,并将这些异域商品卖到极其不菲的价格,据说货源是跟狩樱有关。\n而作为交换,露塔也常常免费为狩樱带来各种充满异国风情的商品—―以烟酒为主。\n如果追问露塔这是怎么回事,她会义正言辞地表示:“商业机密，无可奉告。”",
+   "有什么生意是露塔不敢做的?答案是,没有。\n露塔是诺莉爆炸炼金物的原料提供商,是芭芭拉整蛊道具的销赃者，也是布拉欣多每次都戒不掉甜食的罪魁祸首，她甚至敢把巴基分裂出来的小史莱姆当成宠物售卖，能赚钱的事就没有她不敢干的。\n但要说露塔最怕的人,那一定是茜利娅,这位黑海舰队的无冕女王拥有丰富的查账经验,每次都能痛击露塔账本最薄弱的一环，以至于露塔现在每次想干一票大的，都要提前安排人去和茜利娅喝酒，确定她宿醉不醒才敢动手。",
+   "对于亚克兰斯,露塔的到来也不知道是福是祸，她来此之前，亚克兰斯作为抵御魔物的前线要塞，只有少数勇敢的商人、各国的军需补给官、以及虔诚的朝圣者会来此运送货物,可谓死气沉沉。\n自露塔到来之后,也不知她对外散播了什么夸大其词的消息,商队渐渐络绎不绝，贸易繁荣，也因此导致各路人马鱼龙混杂,动不动还有罪犯潜入，搞得黑卫还需要抽出人手维持治安,弄得整个亚克兰斯鸡犬不宁。\n不过……也正是许多商队的到来，让亚克兰斯的财政状况得到大幅改良——尤其是茜利娅每次查账查到奸商头上的时候。",
+   "露塔并非自愿成为黑卫,只是迫于无奈做了一场交易，所以别指望她对自己的黑卫身份多么有责任心。想要调动眼睛里只有路拉的露塔,除非说服她有利可图。\n如果告诉她：“别忙生意了，我们要去执行任务。”，她肯定会用各种理由搪塞。\n但如果告诉她:“我们在神弃之地发现了一批价值万金的旧帝国古董,不过门口有魔物游荡,挺危险的,你就别去了。”，那在黑卫队伍动身之前,肯定会有一批雇佣兵提前把那里翻个底朝天。\n不过,奸商从不是好忽悠的,如果露塔没从你提供的情报里找到利润，那么她就会想办法从你身上榨出足够的价值来补上差额。",
+   "和那些腰缠万贯的商人不太一样,露塔很少在自己身上花钱，既不买各种奢侈的珠宝，吃饭也总是想着法子让别人请,乃至平时出行都不雇佣护卫。\n露塔行商时难免结下仇家,曾有贵族花重金雇佣打手假扮成商队来到亚克兰斯,假借做生意之名把露塔骗到暗处，要用刀割掉她的耳朵和尾巴,以报复此前的亏损。\n因为从不雇佣护卫,露塔险些遭到毒手,所幸途经此处的加拉哈德听到尖叫声及时赶到把她救下。\n这件事之后，大家都劝露塔要花钱雇几个护卫,但她总是笑嘻嘻搪塞过去，然后继续从别人的口袋里赚取路拉。",
+   "除了那些自身地位过硬,或者有家庭背景的人,野兽人族群在大陆各地都不受待见，包括亚克兰斯。在大部分人类眼中，拥有兽化体征的野兽人只是一种另类的“动物”。\n因为百年前的黑潮冲击，以及近年来对森林的不断砍伐,从野外流落到城市的野兽人越来越多，他们在人类的冷眼与排挤下做着最低劣的工作,非常艰难地维持生存。\n露塔因为黑卫身份,外加是许多重要货物的供应商,在亚克兰斯的待遇还算不错，她平时除了出入黑卫学院与市场，还经常孤身前往北城贫民区，而且一去就是一整天。\n曾有同伴对露塔这一举动心生好奇，暗中偷偷跟随,最后发现露塔在贫民区买了一处秘密房产，里面安置的却不是行商货物，而是上百个和她—样有着尾巴和兽耳的幼年遗孤。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%BC%82%E5%9B%BD%E5%95%86%E4%BA%BA",
+ "revid": 8614,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8614",
+ "rev_timestamp": "2026-02-08T04:09:00Z",
+ "i18n": {
+  "name_zh": "异国商人",
+  "sources": {
+   "derived": 8,
+   "game_db": 5,
+   "glossary": 39,
+   "lore": 1,
+   "names": 15,
+   "translated": 17
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.birthday",
+    "zh": "滴露",
+    "en": "Dewdrop"
+   }
+  ]
+ }
+}

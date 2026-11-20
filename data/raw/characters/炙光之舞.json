@@ -1,0 +1,32 @@
+{
+  "title": "炙光之舞",
+  "pageid": 305,
+  "ns": 0,
+  "revid": 9132,
+  "rev_timestamp": "2026-08-11T03:22:51Z",
+  "wikitext": "<div class=\"row\">\n<div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8\">\n{{黑卫\n|称号=炙光之舞\n|姓名=凛蝶\n|性别=女\n|种族=\n|生日=7月13日\n|出生地=贸旧帝国地区\n|具体身高/体重=171cm/58kg\n|特长=舞蹈、编曲、园艺\n|喜爱的东西=蝴蝶、花卉、音乐、{{颜色|红|音乐盒（羁绊礼物）}}\n|讨厌的东西=大风天气、没礼貌的人、冬天\n|属性=火焰\n|稀有度=SS\n|基础阵线=守护\n|其他阵线=敌法、医者、坚韧、妖精、盾御、力场、暴怒\n|上线日期=2023年03月01日\n|配装-词条推荐1=法术精通\n|配装-词条推荐2=\n|备注=跟粉毛暗辅/妖精天使一队，全程无敌\n}}\n<div class=\"main-line-wrap\" style=\"width:100%; float: left; margin-top: 25px;\"> \n<div class=\"resp-tabs\" style=\"border-spacing: 0px;\"> \n<ul class=\"resp-tabs-list clearfix\" style=\"margin-left:0;margin-top:-5px;background: #ECE5D8;\"> \n<li class=\"active bili-list-style\"><span class=\"tab-panel\">800减抗装</span></li> \n</ul> \n<div class=\"resp-tabs-container\"> \n<div class=\"resp-tab-content\" style=\"display:block;\"> \n<div class=\"box-bg\" style=\"padding: 0;\">\n{{黑卫配装\n|黑卫名称=炙光之舞\n|头盔={{#arraydefine:头盔|定心精盔,圣守耀盔}}\n|项链={{#arraydefine:项链|扩散魔链}}\n|卡牌={{#arraydefine:卡牌|总攻卡牌,龙力魔牌}}\n|耳坠={{#arraydefine:耳坠|共生耳环,魔弦耳环}}\n|衣服={{#arraydefine:衣服|深渊壁垒,聚能之铠}}\n|戒指={{#arraydefine:戒指|怒焰圣戒}}\n|腰带={{#arraydefine:腰带|纯净炙金,沐光环绕}}\n|圣物={{#arraydefine:圣物|守护之利刃,凛冬}}\n|裤子={{#arraydefine:裤子|共生护腿,魔弦护腿}}\n|徽章={{#arraydefine:徽章|怒焰微印}}\n|鞋子={{#arraydefine:鞋子|法师长靴,月辉·东方锦靴}}\n|副手={{#arraydefine:副手|紫怒之盾,夺魂大盾}}\n|武器={{#arraydefine:武器|蹁跹蝶翼,渴血}}\n|护手={{#arraydefine:护手|铁卫魔手}}\n}}\n</div> \n</div> \n</div> \n</div>\n{{黑卫技能\n|技能名称={{#arraydefine:技能名称|普通攻击,炽盛回旋,火舞,光之触,浴火重生,幻魅,蝶翼之御,活力,躲闪,加护,护体}}\n|技能冷却时间={{#arraydefine:技能冷却时间|0,0,12,0,0,0,0,0,0,0,0}}\n|技能消耗={{#arraydefine:技能消耗|0,1000怒气,0,0,0,0,0,0,0,0,0}}\n|普攻=对近战范围内的1名敌人造成200%法术强度的火焰伤害。\n|必杀技=将周围15米范围内(竞技场中为7米)的敌人聚集至自身前方，并造成750%法术强度的火焰伤害(竞技场中造成的伤害减少50%)。且使被攻击到的的敌人受到的火焰和闪电伤害提高10%，持续15秒。\n|战斗技=跃向距离队友最近的敌人，落地后对落点周围3.5米范围敌人造成500%法术强度的火焰伤害(竞技场中造成的伤害减少50%)，并将受到伤害的怪物(不会对英雄和BOSS生效)聚集至落点附近并对其施加嘲讽。如果敌人是黑卫，则嘲讽最近的1名敌方黑卫持续1.5秒。\n|辅助技1=每2次普攻后释放，召唤光盾，对身前5米范围内所有敌人造成500%法术强度的火焰伤害(竞技场中造成的伤害减少50%)，且光之触有额外10%+法术精通0.25%暴击几率。\n|辅助技2=光之触额外附加自身体质450%的伤害。且当自身受到致命伤害时会触发一次复活，并恢复自身100%的最大生命值和怒气值。\n|辅助技3=炽盛回旋命中后，有100%的几率使命中的所有敌人进入嘲讽状态3秒(对BOSS无效)。嘲讽状态下的敌人仅使用普攻，且只会攻击嘲讽释放者。自身受到嘲讽状态敌人的伤害时，该伤害降低50%。\n|辅助技4=火舞释放后使所有队友的全伤害减免增加30%，持续3秒，且在持续期间内处于霸体状态(无法被击退、击飞)。同时炙光之舞每拥有4000体质增加1%火焰伤害增幅，上限不超过150%。【火舞】和【炽盛回旋】造成的伤害提升100%。\n|通用辅助技1=最大生命值提升6%，最大护盾值提升6%\n|通用辅助技2=普通攻击闪避几率提升15%\n|通用辅助技3=受到的治疗效果提升10%\n|通用辅助技4=生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒\n}}\n</div>{{黑卫遗物|黑卫名称=炙光之舞}}{{黑卫背景故事\n|角色故事=角色故事\n|事迹一=事迹1\n|事迹二=事迹2\n|事迹三=事迹3\n|事迹四=事迹4\n|事迹五=事迹5\n|事迹六=事迹6\n}}\n</div>\n<div class=\"col-xs-12 col-sm-4 col-md-4 col-lg-4\">\n<p id=\"DownloadHtmlImg\" data-param=\"炙光之舞\" class=\"visible-md visible-sm visible-lg\" style=\"margin-bottom: 20px;\">将本页保存为图片</p>\n{{黑卫立绘|名称=炙光之舞|立绘1=立绘1|立绘2=|立绘3=|立绘4=}}\n{{推荐符文\n|名称=\n|主符文=\n|辅助符文=\n|备注=\n}}\n{{推荐黑石\n|恐熊=\n|巫妖=2\n|怒兽=\n|猎蛛=\n|蝮蛇=\n|诡眼=\n|幽鬼=\n|雷影狼=\n|石像鬼=8\n|雪甲虫=\n|感电狐=\n|霜蹄=\n|冰凤=\n|诅咒灵=\n|闪鸣鸟=\n|金乌=8\n|迅角兽=4\n|炎龙=\n|备注=\n}}{{黑卫羁绊好感度\n|2Q=《练舞》\n|2A1={{颜色|对|√没关系，我帮你收拾}}\n|2A2={{颜色|错|×别在寝室练舞，去活动室}}\n|5Q=《后援会》\n|5A1={{颜色|对|√我不装了，就是我}}\n|5A2={{颜色|错|×当然不是我}}\n|10Q=《永生》\n|10A=获得专属武器：[[蹁跹蝶翼]]\n}}\n</div>\n</div>\n{{#css:\n#DownloadHtmlImg{\n    display: inline-block;\n    line-height: 1;\n    white-space: nowrap;\n    cursor: pointer;\n    background: #fff;\n    border: 1px solid #dcdfe6;\n    color: #606266;\n    -webkit-appearance: none;\n    text-align: center;\n    box-sizing: border-box;\n    outline: none;\n    margin: 0;\n    transition: .1s;\n    font-weight: 500;\n    -moz-user-select: none;\n    -webkit-user-select: none;\n    -ms-user-select: none;\n    padding: 8px 14px;\n    width: 100%;\n    font-size: 14px;\n    border-radius: 4px;\n    margin-bottom: 14px;\n    animation: throttle 1s step-end forwards;\n}\n#DownloadHtmlImg:hover {\n    background: #fff;\n    border-color: #409eff;\n    color: #409eff;\n}\n\n#DownloadHtmlImg:active {\n    animation: none;\n}\n\n@keyframes throttle {\n    from {\n        pointer-events: none;\n    }\n    to {\n        pointer-events: all;\n    }\n}\n.sy-title-1 {\n    line-height: 24px;\n    margin-bottom: 6px;\n}\n.BOX-title-2 {\n    padding-top: 2px;\n}\n\n.main-line-wrap + p {\ndisplay: none;\n}\n\n}}\n{{JS|Html2canvas.min.js}}\n{{JS|Html2img.js}}",
+  "redirected_from": null,
+  "group": "characters",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%82%99%E5%85%89%E4%B9%8B%E8%88%9E",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9132",
+  "fetched_at": "2026-11-20T15:54:49+00:00",
+  "templates": [
+    "模板:JS",
+    "模板:ResourceLoader",
+    "模板:推荐符文",
+    "模板:推荐黑石",
+    "模板:空白占位符",
+    "模板:遗物筛选/黑卫",
+    "模板:阵线图标",
+    "模板:颜色",
+    "模板:黑卫",
+    "模板:黑卫技能",
+    "模板:黑卫立绘",
+    "模板:黑卫羁绊好感度",
+    "模板:黑卫背景故事",
+    "模板:黑卫遗物",
+    "模板:黑卫配装",
+    "模板:黑石图标"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

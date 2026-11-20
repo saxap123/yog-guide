@@ -1,0 +1,673 @@
+{
+ "id": "char-2224",
+ "name": "Silverblade Oath",
+ "page_title": "银刃之誓",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Delyanne",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--05-19",
+  "birthplace": null,
+  "height_weight": "143cm/42kg",
+  "specialties": [
+   "swordsmanship, ice sculpting"
+  ],
+  "likes": [
+   "coffee, current affairs, pretty dresses",
+   "(bond gift: old-fashioned pocket watch)"
+  ],
+  "dislikes": [
+   "disorder, people who create chaos, irresponsible people"
+  ],
+  "release_date": "2025-12-25"
+ },
+ "element": "Frost",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Striker Front",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Attack Speed",
+   "Critical Chance (Attack)",
+   "Frost Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Frost Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Rage Recovery",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Ritual Bladecraft",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Slashes the nearest enemy, dealing 600% Spell Power Frost damage. (Skill affected by Attack Speed: +1% cast speed per 2% Attack Speed. Damage treated as Basic Attack damage.)",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 600% of Spell Power"
+    }
+   ],
+   "name_zh": "仪式剑术"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Blade & Frost Ripple",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Charges energy into the longsword and unleashes a powerful Frost wave forward, dealing 3500% Spell Power Frost damage 5 times to enemies in the path.",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 3500% of Spell Power"
+    }
+   ],
+   "name_zh": "叠刃霜涟"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Silver Feather Gleam",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "10 Force",
+   "description": "On Basic Attack hit, 25% chance to conjure a Frost Sword and deal 6000% Spell Power Frost damage to the target. (Min cooldown: 1s)",
+   "scaling": [
+    {
+     "percent": "6000%",
+     "values": [
+      6000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 6000% of Spell Power"
+    }
+   ],
+   "name_zh": "银羽流光"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Silent Featherfall",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "35 Force",
+   "description": "After 10 Basic Attack hits on enemies, chance to activate [Silent Featherfall]. (Chance increases based on the difference between user's Bravery and target's stats if user's Bravery > target's.) [Silent Featherfall] instantly teleports to the enemy and deals 2000% Spell Power Frost damage, repeating 3 times. (Min cooldown: 2s)",
+   "scaling": [
+    {
+     "percent": "2000%",
+     "values": [
+      2000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 2000% of Spell Power"
+    }
+   ],
+   "name_zh": "羽落无声"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Oathbound Heart",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Silent Featherfall] damage increased by 100%, and [Silent Featherfall] is active at the start of combat.",
+   "scaling": [],
+   "name_zh": "铭诺归心"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Break the Formation",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Delyanne Bravery +10.",
+   "scaling": [],
+   "name_zh": "破阵"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Stalwart",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Delyanne Tenacity +10.",
+   "scaling": [],
+   "name_zh": "不屈"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "One Man Army",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "More targets means its harder to miss, each enemy within a range of 5 meters will increase damage caused by 3%",
+   "scaling": [],
+   "name_zh": "孤军深入"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Mercilessly executes wounded enemies: DMG dealt to targets with HP below 15 % is increased by 20%",
+   "scaling": [],
+   "name_zh": "刽子手"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Berserker's Wrath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The sight of your own blood enrages you, the lower your health, the higher your damage Increases damage by 1% for every 5% HP lost",
+   "scaling": [],
+   "name_zh": "狂战士之怒"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Time Keeper",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Primordial Blood",
+    "Trousers": "Elementalist's Britches",
+    "Emblem": "Badge of the Rohir",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Higan's Last Stand",
+    "Weapon": "Frostblade Skies",
+    "Handguard": null
+   },
+   "alternatives": {
+    "Necklace": [
+     "Spiral Guide"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "时间守护者": "gear-1715",
+    "指路吊坠": "gear-1081",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "始祖之血": "gear-1604",
+    "元素大师之裤": "gear-1174",
+    "陷阵徽章": "gear-2292",
+    "月辉·王室金靴": "gear-1177",
+    "浴火之盾": "gear-1205",
+    "寒刃霜天": "gear-2294"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "Level 1000",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": null,
+    "Necklace": "Chain of Radiance",
+    "Card": null,
+    "Earrings": "Ring of Radiance",
+    "Armor": null,
+    "Ring": "Ring of Snow Shadow",
+    "Belt": null,
+    "Relic": "Legacy of Snow Shadow",
+    "Trousers": "Frost-Condensed Trousers",
+    "Emblem": "Emblem of Snow Shadow",
+    "Shoes": null,
+    "Off-hand": "Guard of Snow Shadow",
+    "Weapon": null,
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": "Frostblade Skies",
+   "item_ids": {
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "雪影冰戒": "gear-185",
+    "雪影之遗": "gear-179",
+    "霜凝咒裤": "gear-1859",
+    "雪影白徽": "gear-158",
+    "雪影守护": "gear-166",
+    "幽冥初水": "gear-game-90323",
+    "寒刃霜天": "gear-2294"
+   },
+   "unlinked": {
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Absolute Blade",
+    "id": "rune-1406",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Condensation",
+    "id": "rune-1996",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Frost Snow",
+    "id": "rune-1421",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks to [Hunluoli@Huancheng] for providing the Normal Attack DMG-boost rune board centered on Absolute Blade + Condensation"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Ursus",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Hoarfrost Hoof",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Rime Phoenix",
+    "id": "black_stone-13",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "For every 50 Bravery on Delyanne, gain +1 max use of [Silent Featherfall]."
+   },
+   {
+    "rank": 2,
+    "text": "[Silent Featherfall] base activation chance +10%, and [Silent Featherfall] damage is treated as Basic Attack damage."
+   },
+   {
+    "rank": 3,
+    "text": "Aura: All allied Blackguard response skill activation chance +6%. On entry, grants Clarity to the Blackguard with the highest Bravery or Perception for 6s.\r\nClarity: Immune to Stun, Freeze, Charm, Hex, and Confusion effects."
+   },
+   {
+    "rank": 4,
+    "text": "When [Blade & Frost Ripple] deals damage, 5% chance to inflict Frozen on the target for 3s. (Chance increases based on the difference between user's Bravery and target's stats.)"
+   },
+   {
+    "rank": 5,
+    "text": "When [Silent Featherfall] repeatedly attacks the same target, damage increases by 10% per hit, this effect resets after each cast."
+   },
+   {
+    "rank": 6,
+    "text": "All DMG dealt by Silverblade Oath is increased by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Heartbound Oath",
+   "id": "relic-2234"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Striker battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%B6%E5%88%83%E4%B9%8B%E8%AA%93",
+ "revid": 9186,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9186",
+ "rev_timestamp": "2026-09-21T07:19:40Z",
+ "i18n": {
+  "name_zh": "银刃之誓",
+  "sources": {
+   "derived": 6,
+   "game_db": 17,
+   "glossary": 85,
+   "lore": 1,
+   "names": 58,
+   "translated": 8
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 84835,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 84837,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 84836,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 84838,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 84839,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 84840,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 84841,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4292,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4293,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 84844,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 84845,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 84846,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 84847,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 84848,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "波瓦王国",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[8].name",
+    "zh": "刽子手",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.note",
+    "zh": "魂萝莉",
+    "en": "Hunluoli"
+   },
+   {
+    "path": "runes.note",
+    "zh": "幻檉",
+    "en": "Huancheng"
+   }
+  ]
+ }
+}

@@ -1,0 +1,198 @@
+{
+  "subject": "青琅玲珑金杯",
+  "group": "gear",
+  "page_revid": 4469,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%9D%92%E7%90%85%E7%8E%B2%E7%8F%91%E9%87%91%E6%9D%AF",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9D%92%E7%90%85%E7%8E%B2%E7%8F%91%E9%87%91%E6%9D%AF&format=json",
+  "fetched_at": "2026-11-20T16:22:23+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "青琅玲珑金杯#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/9/7/26/39/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/24/12/10/55/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "青琅玲珑金杯"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "主属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "7.8%全伤害类型增幅"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "一盏碧琉璃，涤荡世间邪恶。"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258体质、9258体质、9258意志、9258意志、5%最大生命值、43冰霜抗性、43闪电抗性、43火焰抗性、43混沌抗性"
+            }
+          ]
+        },
+        {
+          "property": "副属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "%最大生命值、%命中、%闪避、%提高施加的治疗效果、%暴击伤害减免、%暴击概率、%技能暴击、%攻击速度"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258魔力、9258魔力、9258力量、9258力量、43冰霜抗性、43闪电抗性、43火焰抗性、43混沌抗性、70幸运、70幸运、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "青琅玲珑"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "青琅玲珑(2)：释放战技后，物理伤害增幅+15%，持续5秒；青琅玲珑(4)：物理属性黑卫造成的最终伤害提升20%"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "血手：对生命值大于50%的敌方单位，造成的伤害增加(5.00%-10.00%)"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "旅途故事"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "青琅玲珑金杯"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "圣物"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

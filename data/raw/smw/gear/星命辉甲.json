@@ -1,0 +1,153 @@
+{
+  "subject": "星命辉甲",
+  "group": "gear",
+  "page_revid": 6069,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%98%9F%E5%91%BD%E8%BE%89%E7%94%B2",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%98%9F%E5%91%BD%E8%BE%89%E7%94%B2&format=json",
+  "fetched_at": "2026-11-20T16:17:03+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "星命辉甲#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/2/26/12/26/47/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/2/26/12/26/47/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "星命辉甲"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、2%全伤害类型增幅、2%全伤害类型减免、5精神精通、5法术精通、5物理精通、50幸运、10%暴击倍率、5法术豁免、5精神豁免、5物理豁免"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532力量、17532力量、17532魔力、17532魔力、17532体质、17532体质、5%最大生命值、10%全伤害类型减免、35火焰抗性、35冰霜抗性、35闪电抗性、7物理豁免、7法术豁免、7精神豁免"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532力量、17532力量、17532力量、17532力量、17532魔力、17532魔力、17532魔力、17532魔力、17532体质、17532体质、20%暴击抗性、86闪电穿透、86冰霜穿透、86火焰穿透"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "聚能之铠：造成伤害有15%概率回复(30-50)点怒气，每8秒最多触发4次；雷霆号令：使佩戴者造成的感电伤害增幅效果提升(20.00%-30.00%)，感电:每层感电都会增加感电目标受到的闪电伤害1%，最多可叠加30层，持续5秒，闪电抗性+25"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "追忆之帆-黑渊"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "星命辉甲"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "生命值低于50%时，如果自身怒气值大于300，则立刻消耗全部怒气值给自身添加(10.00%6-20.00%)最大生命值魔法盾，持续10秒，每额外消耗3点怒气值，魔法盾效果提升1%。触发间隔60秒。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "衣服"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

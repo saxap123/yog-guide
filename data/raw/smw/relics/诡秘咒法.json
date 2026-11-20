@@ -1,0 +1,108 @@
+{
+  "subject": "诡秘咒法",
+  "group": "relics",
+  "page_revid": 6390,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E8%AF%A1%E7%A7%98%E5%92%92%E6%B3%95",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%AF%A1%E7%A7%98%E5%92%92%E6%B3%95&format=json",
+  "fetched_at": "2026-11-20T16:24:40+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "诡秘咒法#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/6/57/37/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "遗物#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/6/58/2/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "诡秘咒法"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "史诗"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无法改造"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "通用"
+            }
+          ]
+        },
+        {
+          "property": "遗物名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "诡秘咒法"
+            }
+          ]
+        },
+        {
+          "property": "遗物技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到的非物理伤害降低10%+50%；当生命值低于50%时，你对冰霜、火焰和闪电伤害的抗性提高75%。"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

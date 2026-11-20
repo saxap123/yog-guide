@@ -1,0 +1,162 @@
+{
+  "subject": "灵咒珠牙",
+  "group": "relics",
+  "page_revid": 7570,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E5%92%92%E7%8F%A0%E7%89%99",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%B5%E5%92%92%E7%8F%A0%E7%89%99&format=json",
+  "fetched_at": "2026-11-20T16:24:07+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "灵咒珠牙#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/6/5/23/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "遗物#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/10/14/7/28/7/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "灵咒珠牙"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、15%火焰伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%全伤害类型减免、8.5%全伤害类型减免、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%受到法术伤害降低、8.5%受到法术伤害降低、8.5%受到物理伤害降低、8.5%受到物理伤害降低、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "专属"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑市-长城被狼血提红的乳牙。长大，总是悄然而至圣殿"
+            }
+          ]
+        },
+        {
+          "property": "进阶固有技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受【血月低语】影响的敌人，每层【血月低语】都会使其有10%(额外增加(自身精神精通-对手精神豁免)*0.15%)的几率对绮夜梦影造成的伤害降低75%。"
+            }
+          ]
+        },
+        {
+          "property": "进阶随机技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【烙印相结】提供的火焰伤害增幅增加(10.00%-20.00%)；【狼血沸腾】造成的伤害提升(5.00%-10.00%；【牵魂夺魄】造成的伤害提升(5.00%-10.00%)"
+            }
+          ]
+        },
+        {
+          "property": "遗物名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "灵咒珠牙"
+            }
+          ]
+        },
+        {
+          "property": "遗物技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绮夜梦影佩戴时，造成的所有伤害增加5%+25%；【血月低语】将对附近的一个额外敌方目标起效"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绮夜梦影"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

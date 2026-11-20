@@ -1,0 +1,538 @@
+{
+  "subject": "百花旅者",
+  "group": "characters",
+  "page_revid": 9137,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%99%BE%E8%8A%B1%E6%97%85%E8%80%85",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%99%BE%E8%8A%B1%E6%97%85%E8%80%85&format=json",
+  "fetched_at": "2026-11-20T16:13:01+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "百花旅者#0##",
+      "data": [
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "百花旅者#0##_QUERY6f4f7a1b307276e41e446804ddd7ebe2"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/11/5/31/12/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/8/11/3/27/34/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2023年03月30日"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "强袭、魔导、噬魂、医者、盾御、风涌、回馈"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "171cm/54kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "迷雾山脉"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "音乐盒、茶点、好看的布料、<span style=\"color:red\">音乐盒（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "辅助"
+            }
+          ]
+        },
+        {
+          "property": "备注",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不堆体质、生命"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凌"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "冰霜"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者选择队伍中物理强度或法术强度最高的角色进行栖身，栖身后，对被栖身的角色添加可以吸收百花旅者500%体质的魔力护盾(重复释放时刷新护盾)。且被栖身的角色受到【落花狂舞】影响时，获得的攻速加成提升100%。"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "恐熊",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者在场上时，所有队友获得落花狂舞，攻击速度增加25%，移动速度增加10%。"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对8米范围内的1名敌人造成400%法术强度的冰霜伤害。"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1月21日"
+            }
+          ]
+        },
+        {
+          "property": "石像鬼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SS"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无礼的人、脏东西、噪音"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者所栖身的黑卫造成普攻伤害时，会额外造成百花旅者300%/150%(近战黑卫/远程黑卫)的法术强度的冰霜伤害。该伤害视为普攻，且会受到被栖身角色的全伤害增幅、普攻暴击几率、暴击倍率等属性影响;但是该伤害不会再额外触发其他任何效果;该伤害在被栖身角色触发弹射时也会等比衰减。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者栖身于近战黑卫时，会在其身周召唤旋风，每秒其近战范围内的所有敌人造成百花旅者500%法术强度的冰霜伤害。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者栖身于远程黑卫时，在释放必杀技同时，朝前方释放缓慢移动的花伞，花伞移动过程中会朝四周发射冰霜旋风，对触碰到的敌人造成百花旅者1000%法术强度的冰霜伤害，并冰冻2.5秒。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者在场上时，所有队友获得旅者慧智，物理和元素穿透增加30点，且百花旅者每拥有一点法术精通都会增加0.5的穿透值。(通过精通增加的穿透值最多不会超过50点)"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "振奋鼓舞战友，所有友方单位初始怒气增加25点"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "能够轻松快速的释放法术，主动技能冷却时间降低10%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "法术强度提升6%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全抗性提升8点，伤害减免8%"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免、%法术强度、冰霜穿透、魔力、暴击倍率、暴击概率、攻击速度、全伤害类型增幅、法术伤害增幅、冰霜伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "物理抗性、暴击伤害减免、受到物理伤害降低"
+            }
+          ]
+        },
+        {
+          "property": "金乌",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "百花旅者"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "百花旅者#0##_QUERY6f4f7a1b307276e41e446804ddd7ebe2",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::百花旅者]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "百花旅者# QUERY6f4f7a1b307276e41e446804ddd7ebe2"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

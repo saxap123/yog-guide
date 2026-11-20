@@ -1,0 +1,538 @@
+{
+ "id": "char-2224",
+ "name": "银刃之誓",
+ "page_title": "银刃之誓",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "黛莉安",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "5月19日",
+  "birthplace": "波瓦王国",
+  "height_weight": "143cm/42kg",
+  "specialties": [
+   "剑术，冰雕"
+  ],
+  "likes": [
+   "咖啡，新闻时事，漂亮的裙子",
+   "（羁绊礼物：守旧怀表）"
+  ],
+  "dislikes": [
+   "无序，制造混乱的人，不负责任的人"
+  ],
+  "release_date": "2025年12月25日"
+ },
+ "element": "冰霜",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "前锋",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "攻击速度",
+   "暴击概率",
+   "冰霜穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "冰霜伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "怒气回复",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "仪式剑术",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对最近的一名敌人发动斩击造成600%法术强度的冰霜伤害。(本技能会受攻速影响，每2%攻速提升1%技能释放速度。造成的伤害视为普攻伤害。)",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "600%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "叠刃霜涟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "在长剑中汇聚能量后，向前方释放出强烈的冰霜波动，对路径上的敌人造成5次3500%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "3500%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "银羽流光",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "10源力",
+   "description": "普攻命中敌人时，有几率释放凝聚出一枚冰霜之剑，对目标造成一次6000%法术强度的冰霜伤害。发动几率:25%。(该技能的最小触发间隔为1秒)",
+   "scaling": [
+    {
+     "percent": "6000%",
+     "values": [
+      6000.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "6000%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "羽落无声",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "35源力",
+   "description": "普攻命中敌人10次后，有几率激活【羽落无声】(自身的勇猛大于目标时，和对方的差值越高，触发几率越高)。【羽落无声】会立刻闪现到敌人附近，对其造成2000%法术强度的冰霜伤害，该效果会重复释放3次。(该技能的最小触发间隔为2秒)",
+   "scaling": [
+    {
+     "percent": "2000%",
+     "values": [
+      2000.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "2000%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "铭诺归心",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【羽落无声】造成的伤害提升100%，且进入战斗时，【羽落无声】处于激活状态。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "破阵",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "银刃之誓的勇猛+10。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "不屈",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "银刃之誓的强韧+10。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "孤军深入",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "刽子手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对受伤的敌人进行毫不留情的处决，对生命值低于15 %的目标造成伤害提高20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "狂战士之怒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "时间守护者",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猩红秘戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "始祖之血",
+    "裤子": "元素大师之裤",
+    "徽章": "陷阵徽章",
+    "鞋子": "月辉·王室金靴",
+    "副手": "浴火之盾",
+    "武器": "寒刃霜天",
+    "护手": null
+   },
+   "alternatives": {
+    "项链": [
+     "指路吊坠"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "时间守护者": "gear-1715",
+    "指路吊坠": "gear-1081",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "始祖之血": "gear-1604",
+    "元素大师之裤": "gear-1174",
+    "陷阵徽章": "gear-2292",
+    "月辉·王室金靴": "gear-1177",
+    "浴火之盾": "gear-1205",
+    "寒刃霜天": "gear-2294"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "1000级",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": null,
+    "项链": "辉耀之链",
+    "卡牌": null,
+    "耳坠": "辉耀之环",
+    "衣服": null,
+    "戒指": "雪影冰戒",
+    "腰带": null,
+    "圣物": "雪影之遗",
+    "裤子": "霜凝咒裤",
+    "徽章": "雪影白徽",
+    "鞋子": null,
+    "副手": "雪影守护",
+    "武器": null,
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "项链": [
+     "逆厄辉链"
+    ],
+    "耳坠": [
+     "逆厄辉环"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": "寒刃霜天",
+   "item_ids": {
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "雪影冰戒": "gear-185",
+    "雪影之遗": "gear-179",
+    "霜凝咒裤": "gear-1859",
+    "雪影白徽": "gear-158",
+    "雪影守护": "gear-166",
+    "幽冥初水": null,
+    "寒刃霜天": "gear-2294"
+   },
+   "unlinked": {
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "绝刃",
+    "id": "rune-1406",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "凝冰",
+    "id": "rune-1996",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "圣光守护",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "霜雪",
+    "id": "rune-1421",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "感谢魂萝莉@幻檉提供绝刃+凝冰为主的普攻增伤符文盘"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "恐熊",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "霜蹄",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "冰凤",
+    "id": "black_stone-13",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "银刃之誓每有50点勇猛，都会增加1次【羽落无声】的释放次数。"
+   },
+   {
+    "rank": 2,
+    "text": "【羽落无声】的基础发动几率+10%，且【羽落无声】视为普攻伤害。"
+   },
+   {
+    "rank": 3,
+    "text": "光环：全体友方黑卫的响应技能发动几率提升6%，且入场时给场上勇猛或感知属性最高的黑卫添加【清醒】效果，清醒效果持续6秒。清醒：清醒状态的黑卫不会被击晕、冰冻、魅惑、妖术、混乱效果影响。"
+   },
+   {
+    "rank": 4,
+    "text": "【叠刃霜涟】造成伤害时，有5%几率对敌人添加3秒的冰冻效果(自身的勇猛和对方的差值越高，触发几率越高)。"
+   },
+   {
+    "rank": 5,
+    "text": "【羽落无声】的重复攻击同一个单位时，每次造成的伤害都会累加10%，效果在每次释放结束后清空"
+   },
+   {
+    "rank": 6,
+    "text": "银刃之誓造成的所有伤害增加10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "铭心一诺",
+   "id": "relic-2234"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "前锋战格",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%B6%E5%88%83%E4%B9%8B%E8%AA%93",
+ "revid": 9186,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9186",
+ "rev_timestamp": "2026-09-21T07:19:40Z"
+}

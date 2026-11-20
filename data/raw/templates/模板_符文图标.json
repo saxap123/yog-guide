@@ -1,0 +1,15 @@
+{
+  "title": "模板:符文图标",
+  "pageid": 2345,
+  "ns": 10,
+  "revid": 8762,
+  "rev_timestamp": "2026-03-26T05:44:15Z",
+  "wikitext": "<div class=\"fuwen-icon\" >[[file:{{{1|}}}.png|{{{2|}}}|center|link={{{1|}}}]]{{#if: {{{3|}}}|[[{{{3|}}}]]|}}</div>\n{{#css:\n.fuwen-icon {\n    display:inline-block;\n    text-align: center;\n    font-size: 11px;\n}\n.fuwen-icon img {\n    max-height: 80px;\n    max-width: 80px;\n}\n}}",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E7%AC%A6%E6%96%87%E5%9B%BE%E6%A0%87",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8762",
+  "fetched_at": "2026-11-20T15:55:43+00:00",
+  "templates": [],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

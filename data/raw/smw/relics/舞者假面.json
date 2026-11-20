@@ -1,0 +1,144 @@
+{
+  "subject": "舞者假面",
+  "group": "relics",
+  "page_revid": 7618,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E8%88%9E%E8%80%85%E5%81%87%E9%9D%A2",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%88%9E%E8%80%85%E5%81%87%E9%9D%A2&format=json",
+  "fetched_at": "2026-11-20T16:24:36+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "舞者假面#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/6/44/9/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "遗物#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/10/14/7/45/12/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "舞者假面"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、3000体质"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%全伤害类型减免、8.5%全伤害类型减免、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%受到法术伤害降低、8.5%受到法术伤害降低、8.5%受到物理伤害降低、8.5%受到物理伤害降低、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "专属"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑市-长城圣殿"
+            }
+          ]
+        },
+        {
+          "property": "遗物名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "舞者假面"
+            }
+          ]
+        },
+        {
+          "property": "遗物技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "炙光之舞佩戴时，造成的所有伤害提升5%+15%；炙光之舞佩戴时，火舞的冷却时间减少20%，释放火舞后的聚怪范围增加2米。每拥有10法术精通，额外增加1米聚怪范围。(不会超过10米)"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "炙光之舞"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "subject": "黑石",
+  "group": "black_stones",
+  "page_revid": 7194,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%BB%91%E7%9F%B3&format=json",
+  "fetched_at": "2026-11-20T16:27:38+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "黑石#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/2/5/8/44/3/0"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/8/5/7/52/13/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑石"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

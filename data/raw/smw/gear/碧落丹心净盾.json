@@ -1,0 +1,198 @@
+{
+  "subject": "碧落丹心净盾",
+  "group": "gear",
+  "page_revid": 4817,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%A2%A7%E8%90%BD%E4%B8%B9%E5%BF%83%E5%87%80%E7%9B%BE",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%A2%A7%E8%90%BD%E4%B8%B9%E5%BF%83%E5%87%80%E7%9B%BE&format=json",
+  "fetched_at": "2026-11-20T16:19:47+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "碧落丹心净盾#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/26/1/15/53/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/26/1/15/53/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "碧落丹心净盾"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "主属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10.8%技能暴击、暴击概率、15%最大生命值、30怒气恢复、%命中、%闪避、%提高施加的治疗效果、%暴击伤害减免"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "以精铁为骨，碧落石为血肉，是力量，亦是保护。"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258魔力、9258魔力、9258力量、9258力量、9258体质、9258体质、20%受到冰冻时间减少、20%受到昏迷时间下降"
+            }
+          ]
+        },
+        {
+          "property": "副属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "%全伤害类型增幅、%最大生命值、%命中、%闪避、%提高施加的治疗效果、%暴击伤害减免、%攻击速度"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258魔力、9258魔力、9258力量、9258力量、9258体质、9258体质、43%暴击倍率、43冰霜抗性、43火焰抗性、43混沌抗性"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "碧落丹心"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "碧落丹心(2)：造成的治疗效果+25%；碧落丹心(4)：对其他单位进行治疗时，使该单位物理伤害减免和法术伤害减免+10%，持续3秒。"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "暂无"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "旅途故事"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "碧落丹心净盾"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "副手"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

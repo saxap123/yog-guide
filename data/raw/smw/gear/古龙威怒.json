@@ -1,0 +1,180 @@
+{
+  "subject": "古龙威怒",
+  "group": "gear",
+  "page_revid": 4766,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%A4%E9%BE%99%E5%A8%81%E6%80%92",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%8F%A4%E9%BE%99%E5%A8%81%E6%80%92&format=json",
+  "fetched_at": "2026-11-20T16:14:55+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "古龙威怒#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/20/6/48/33/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/20/6/53/57/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "古龙威怒"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、5%全伤害类型增幅、5%技能暴击、20%暴击倍率、8%冰霜伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "以不朽该抢铸魂所造，古老而原始的龙威不断弥漫。"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258力量、9258力量、9258力量、9258力量、9258魔力、9258魔力、9258魔力、9258魔力、5物理精通、5法术精通、2299物理强度、2299法术强度"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "11.5%全伤害类型增幅、11.5%全伤害类型增幅、11.5%全伤害类型增幅、36%暴击倍率、15命中、43火焰穿透、43闪电穿透、43冰霜穿透"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "屠灭：每次普通攻击，降低目标的攻击速度5%，提升自身攻击速度5%，可叠加5层当前敌人生命低于50%时，对其造成的伤害提高(10.00%-20.00%)；狂热征伐：每主动驱散一个负面状态，回复自身(5.00%-10.00%)生命上限，精神专精提升1点，混沌伤害提升5%，持续20秒，可叠加20层"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "铸魂"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "古龙威怒"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "维娜造成的所有伤害+10%，且【振翼追击】触发后时有25%几率再触发一次相同效果；真空切割要求的冲锋次数-1次。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "武器"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "subject": "狂热征伐",
+  "group": "gear",
+  "page_revid": 594,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%8B%82%E7%83%AD%E5%BE%81%E4%BC%90",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%8B%82%E7%83%AD%E5%BE%81%E4%BC%90&format=json",
+  "fetched_at": "2026-11-20T16:18:47+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "狂热征伐#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/9/11/38/46/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/9/11/57/41/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "狂热征伐"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "20%暴击倍率、8%攻击速度、5%最大生命值、9%暴击概率、1500全属性"
+            }
+          ]
+        },
+        {
+          "property": "主属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "“斐利皇帝绝对是父神的忠实信徒，帝国旧贵族们都是不可教药的无信者，但唯有他信仰着父神，并向我表达了支持圣战的意愿，来吧，骑士团的各位，让我们举杯向那位年轻的皇帝祝福，甚至提前称呼他声“圣悲利”，我相信这位虚诚的鲁主未来一定会被对圣堂骑士未代大团长雅克”"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2881力量、2881力量、2881魔力、2881魔力、9%物理伤害增幅、9%火焰伤害增幅、9%闪电伤害增幅、9%冰霜伤害增幅、9%混沌伤害增幅、4物理精通、4法术精通、21%攻击速度"
+            }
+          ]
+        },
+        {
+          "property": "副属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "21%攻击速度、16命中、19%暴击概率、37%暴击倍率、1540物理强度、5%CD减少"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可嵌入"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "350"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "主线-普通难度、主线-困难难度、主线-黑潮难度、勇者试炼、旧日之门、装备碎片合成"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "狂热征伐"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "每主动驱散一个负面状态，回复自身15%生命上限精神专精提升1点，混沌伤害提升5%，持续20秒，可叠加20层。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "武器"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

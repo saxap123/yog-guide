@@ -1,0 +1,1075 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yog-guide.local/schema/character.schema.json",
+  "title": "Character (黑卫), Chinese",
+  "description": "One file per page of Category:黑卫. null = no data on the wiki page (or only placeholder text).",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/provenance"
+    }
+  ],
+  "required": [
+    "id",
+    "name",
+    "page_title",
+    "in_category_黑卫",
+    "profile",
+    "element",
+    "rarity",
+    "factions",
+    "affix_recommendations",
+    "note",
+    "skills",
+    "builds",
+    "runes",
+    "black_stones",
+    "blood_ranks",
+    "divinity",
+    "relics",
+    "battle_grid",
+    "portraits",
+    "lore",
+    "affection",
+    "placeholders_nulled",
+    "parse_notes",
+    "rev_timestamp"
+  ],
+  "unevaluatedProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^char-[0-9]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "黑卫.称号"
+    },
+    "page_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "in_category_黑卫": {
+      "type": "boolean"
+    },
+    "rev_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "profile": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "real_name",
+        "gender",
+        "race",
+        "birthday",
+        "birthplace",
+        "height_weight",
+        "specialties",
+        "likes",
+        "dislikes",
+        "release_date"
+      ],
+      "properties": {
+        "real_name": {
+          "$ref": "common.schema.json#/$defs/str",
+          "description": "姓名"
+        },
+        "gender": {
+          "$ref": "common.schema.json#/$defs/str"
+        },
+        "race": {
+          "$ref": "common.schema.json#/$defs/str"
+        },
+        "birthday": {
+          "$ref": "common.schema.json#/$defs/str"
+        },
+        "birthplace": {
+          "$ref": "common.schema.json#/$defs/str"
+        },
+        "height_weight": {
+          "$ref": "common.schema.json#/$defs/str"
+        },
+        "specialties": {
+          "$ref": "common.schema.json#/$defs/strList"
+        },
+        "likes": {
+          "$ref": "common.schema.json#/$defs/strList"
+        },
+        "dislikes": {
+          "$ref": "common.schema.json#/$defs/strList"
+        },
+        "release_date": {
+          "$ref": "common.schema.json#/$defs/str"
+        }
+      }
+    },
+    "element": {
+      "$ref": "common.schema.json#/$defs/str",
+      "description": "属性"
+    },
+    "rarity": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "SP",
+        "SS",
+        "S",
+        "A",
+        "B",
+        null
+      ]
+    },
+    "factions": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "base",
+        "others"
+      ],
+      "properties": {
+        "base": {
+          "anyOf": [
+            {
+              "$ref": "common.schema.json#/$defs/ref"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "基础阵线"
+        },
+        "others": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "$ref": "common.schema.json#/$defs/ref"
+          },
+          "minItems": 1,
+          "description": "其他阵线"
+        }
+      }
+    },
+    "affix_recommendations": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "primary",
+        "secondary"
+      ],
+      "properties": {
+        "primary": {
+          "$ref": "common.schema.json#/$defs/strList",
+          "description": "配装-词条推荐1"
+        },
+        "secondary": {
+          "$ref": "common.schema.json#/$defs/strList",
+          "description": "配装-词条推荐2"
+        }
+      }
+    },
+    "note": {
+      "$ref": "common.schema.json#/$defs/str",
+      "description": "黑卫.备注"
+    },
+    "skills": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "黑卫技能: 11 slots in template order",
+      "minItems": 11,
+      "maxItems": 11,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "slot",
+          "category",
+          "name",
+          "cooldown_s",
+          "cooldown_raw",
+          "cost",
+          "description",
+          "scaling"
+        ],
+        "properties": {
+          "slot": {
+            "enum": [
+              "普攻",
+              "必杀技",
+              "战斗技",
+              "辅助技1",
+              "辅助技2",
+              "辅助技3",
+              "辅助技4",
+              "通用辅助技1",
+              "通用辅助技2",
+              "通用辅助技3",
+              "通用辅助技4"
+            ]
+          },
+          "category": {
+            "enum": [
+              "普攻",
+              "必杀技",
+              "战斗技",
+              "辅助技",
+              "通用辅助技"
+            ]
+          },
+          "name": {
+            "$ref": "common.schema.json#/$defs/str"
+          },
+          "cooldown_s": {
+            "type": [
+              "number",
+              "null"
+            ],
+            "minimum": 0
+          },
+          "cooldown_raw": {
+            "$ref": "common.schema.json#/$defs/str"
+          },
+          "cost": {
+            "$ref": "common.schema.json#/$defs/str"
+          },
+          "description": {
+            "$ref": "common.schema.json#/$defs/str"
+          },
+          "scaling": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "percent",
+                "values",
+                "stat",
+                "effect",
+                "text"
+              ],
+              "properties": {
+                "percent": {
+                  "type": "string",
+                  "pattern": "%"
+                },
+                "values": {
+                  "type": "array",
+                  "items": {
+                    "type": "number"
+                  },
+                  "minItems": 1
+                },
+                "stat": {
+                  "enum": [
+                    "物理&法术强度",
+                    "法术&物理强度",
+                    "物理与法术强度",
+                    "法术与物理强度",
+                    "法术强度",
+                    "物理强度",
+                    "攻击力",
+                    "最大生命值",
+                    "体质"
+                  ]
+                },
+                "effect": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "text": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "builds": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "level_tier",
+          "tier_kind",
+          "level",
+          "levels",
+          "qualifier",
+          "tier_note",
+          "slots",
+          "alternatives",
+          "extracts",
+          "signature_weapon",
+          "item_ids",
+          "unlinked",
+          "empty"
+        ],
+        "properties": {
+          "level_tier": {
+            "$ref": "common.schema.json#/$defs/str",
+            "description": "tab label as written, e.g. 450/700级"
+          },
+          "tier_kind": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "level",
+              "special",
+              null
+            ],
+            "description": "level = the label names a level; special = placeholder/role/condition label"
+          },
+          "level": {
+            "type": [
+              "integer",
+              "null"
+            ],
+            "minimum": 1,
+            "description": "first level number in the label (450 for 450/700级)"
+          },
+          "levels": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "minItems": 1
+          },
+          "qualifier": {
+            "$ref": "common.schema.json#/$defs/str",
+            "description": "rest of a level label, e.g. 旅途 in 旅途800级"
+          },
+          "tier_note": {
+            "$ref": "common.schema.json#/$defs/str",
+            "description": "short English explanation of a special label (editorial, not wiki data)"
+          },
+          "slots": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "头盔",
+              "项链",
+              "卡牌",
+              "耳坠",
+              "衣服",
+              "戒指",
+              "腰带",
+              "圣物",
+              "裤子",
+              "徽章",
+              "鞋子",
+              "副手",
+              "武器",
+              "护手"
+            ],
+            "properties": {
+              "头盔": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "项链": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "卡牌": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "耳坠": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "衣服": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "戒指": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "腰带": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "圣物": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "裤子": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "徽章": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "鞋子": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "副手": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "武器": {
+                "$ref": "#/$defs/slotItem"
+              },
+              "护手": {
+                "$ref": "#/$defs/slotItem"
+              }
+            }
+          },
+          "alternatives": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              },
+              "minItems": 1
+            }
+          },
+          "extracts": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": {
+              "type": "string"
+            }
+          },
+          "signature_weapon": {
+            "$ref": "common.schema.json#/$defs/str"
+          },
+          "item_ids": {
+            "type": "object",
+            "additionalProperties": {
+              "anyOf": [
+                {
+                  "type": "string",
+                  "pattern": "^gear-[0-9]+$"
+                },
+                {
+                  "type": "null"
+                }
+              ]
+            }
+          },
+          "unlinked": {
+            "type": [
+              "object",
+              "null"
+            ],
+            "additionalProperties": {
+              "$ref": "#/$defs/unlinkedInfo"
+            },
+            "description": "why each null in item_ids is null"
+          },
+          "empty": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "runes": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "main",
+        "support",
+        "note"
+      ],
+      "properties": {
+        "main": {
+          "$ref": "#/$defs/runeList"
+        },
+        "support": {
+          "$ref": "#/$defs/runeList"
+        },
+        "note": {
+          "$ref": "common.schema.json#/$defs/str"
+        }
+      }
+    },
+    "black_stones": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "stones",
+        "note"
+      ],
+      "properties": {
+        "stones": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "name",
+              "id",
+              "count",
+              "raw"
+            ],
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "id": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "pattern": "^black_stone-[0-9]+$"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "count": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1
+              },
+              "raw": {
+                "$ref": "common.schema.json#/$defs/str"
+              }
+            }
+          }
+        },
+        "note": {
+          "$ref": "common.schema.json#/$defs/str"
+        }
+      }
+    },
+    "blood_ranks": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "ranks",
+        "recommendation"
+      ],
+      "properties": {
+        "ranks": {
+          "type": "array",
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "rank",
+              "text"
+            ],
+            "properties": {
+              "rank": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 6
+              },
+              "text": {
+                "$ref": "common.schema.json#/$defs/str"
+              }
+            }
+          }
+        },
+        "recommendation": {
+          "$ref": "common.schema.json#/$defs/str"
+        }
+      }
+    },
+    "divinity": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "description": "黑卫神格",
+      "additionalProperties": false,
+      "required": [
+        "levels",
+        "total_cost"
+      ],
+      "properties": {
+        "levels": {
+          "type": "array",
+          "minItems": 10,
+          "maxItems": 10,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "index",
+              "name",
+              "level_range",
+              "cost",
+              "effect"
+            ],
+            "properties": {
+              "index": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 10
+              },
+              "name": {
+                "$ref": "common.schema.json#/$defs/str"
+              },
+              "level_range": {
+                "$ref": "common.schema.json#/$defs/str"
+              },
+              "cost": {
+                "$ref": "#/$defs/costList"
+              },
+              "effect": {
+                "$ref": "common.schema.json#/$defs/str"
+              }
+            }
+          }
+        },
+        "total_cost": {
+          "$ref": "#/$defs/costList"
+        }
+      }
+    },
+    "relics": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "id"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "id": {
+            "type": "string",
+            "pattern": "^relic-[0-9]+$"
+          }
+        }
+      }
+    },
+    "battle_grid": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "template",
+          "recommended"
+        ],
+        "properties": {
+          "template": {
+            "enum": [
+              "前锋战格",
+              "守护战格",
+              "秘术战格"
+            ]
+          },
+          "recommended": {
+            "$ref": "common.schema.json#/$defs/str"
+          }
+        }
+      }
+    },
+    "portraits": {
+      "$ref": "common.schema.json#/$defs/strList"
+    },
+    "lore": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "story",
+        "deeds"
+      ],
+      "properties": {
+        "story": {
+          "$ref": "common.schema.json#/$defs/str"
+        },
+        "deeds": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "minItems": 6,
+          "maxItems": 6,
+          "items": {
+            "$ref": "common.schema.json#/$defs/str"
+          }
+        }
+      }
+    },
+    "affection": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "level",
+          "question",
+          "answers"
+        ],
+        "properties": {
+          "level": {
+            "enum": [
+              2,
+              5,
+              10
+            ]
+          },
+          "question": {
+            "$ref": "common.schema.json#/$defs/str"
+          },
+          "answers": {
+            "$ref": "common.schema.json#/$defs/strList"
+          }
+        }
+      }
+    },
+    "placeholders_nulled": {
+      "$ref": "common.schema.json#/$defs/strList"
+    },
+    "parse_notes": {
+      "$ref": "common.schema.json#/$defs/strList"
+    }
+  },
+  "$defs": {
+    "slotItem": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "minLength": 1,
+      "description": "item name as written on the page"
+    },
+    "runeList": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "id",
+          "options",
+          "unlinked"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "id": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^rune-[0-9]+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "options": {
+            "type": [
+              "array",
+              "null"
+            ],
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "id",
+                "unlinked"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^rune-[0-9]+$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "unlinked": {
+                  "anyOf": [
+                    {
+                      "type": "null"
+                    },
+                    {
+                      "$ref": "#/$defs/unlinkedInfo"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "unlinked": {
+            "anyOf": [
+              {
+                "type": "null"
+              },
+              {
+                "$ref": "#/$defs/unlinkedInfo"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "costList": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "item",
+          "amount",
+          "raw"
+        ],
+        "properties": {
+          "item": {
+            "type": "string"
+          },
+          "amount": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "raw": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "unlinkedInfo": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "reason",
+        "game_id",
+        "possible_match",
+        "game",
+        "wiki_lookup"
+      ],
+      "properties": {
+        "reason": {
+          "enum": [
+            "not_an_item",
+            "game_only",
+            "typo_candidate",
+            "nowhere"
+          ]
+        },
+        "game_id": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "row id in the game DB table (tpl_sc_equipment / tpl_sc_rune first)"
+        },
+        "possible_match": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "id",
+                "source",
+                "status"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "id": {
+                  "anyOf": [
+                    {
+                      "type": "string",
+                      "pattern": "^(gear|rune)-[0-9]+$"
+                    },
+                    {
+                      "type": "null"
+                    }
+                  ]
+                },
+                "source": {
+                  "type": "string"
+                },
+                "status": {
+                  "const": "unverified"
+                }
+              }
+            }
+          ]
+        },
+        "game": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "refs",
+                "text_ids"
+              ],
+              "properties": {
+                "refs": {
+                  "type": [
+                    "array",
+                    "null"
+                  ],
+                  "items": {
+                    "type": "object",
+                    "additionalProperties": false,
+                    "required": [
+                      "table",
+                      "row",
+                      "game_id",
+                      "field",
+                      "text_id",
+                      "type"
+                    ],
+                    "properties": {
+                      "table": {
+                        "type": "string"
+                      },
+                      "row": {
+                        "type": "string"
+                      },
+                      "game_id": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      },
+                      "field": {
+                        "type": "string"
+                      },
+                      "text_id": {
+                        "type": [
+                          "integer",
+                          "null"
+                        ]
+                      },
+                      "type": {
+                        "type": [
+                          "string",
+                          "null"
+                        ]
+                      }
+                    }
+                  }
+                },
+                "text_ids": {
+                  "type": [
+                    "array",
+                    "null"
+                  ],
+                  "items": {
+                    "type": "integer"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        "wiki_lookup": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "title_found",
+                "page",
+                "search_hits"
+              ],
+              "properties": {
+                "title_found": {
+                  "type": "boolean"
+                },
+                "page": {
+                  "type": [
+                    "string",
+                    "null"
+                  ]
+                },
+                "search_hits": {
+                  "type": "array",
+                  "items": {
+                    "type": "string"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

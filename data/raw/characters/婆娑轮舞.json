@@ -1,0 +1,33 @@
+{
+  "title": "婆娑轮舞",
+  "pageid": 297,
+  "ns": 0,
+  "revid": 8620,
+  "rev_timestamp": "2026-02-08T04:14:33Z",
+  "wikitext": "<div class=\"row\">\n<div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8\">\n{{黑卫\n|称号=婆娑轮舞\n|姓名=奥黛特&奥吉莉雅\n|性别=女\n|种族=人造生物\n|生日=9月25日\n|出生地=布瑞德\n|具体身高/体重=167cm/49kg\n|特长=角色扮演、情景芭蕾\n|喜爱的东西=羽毛、爱、美、{{颜色|红|毛茸茸的玩偶（羁绊礼物）}}\n|讨厌的东西=魔物、软弱、谎言\n|属性=物理\n|稀有度=SP\n|基础阵线=刺杀\n|其他阵线=智慧、敌法、通灵、妖精、力场、暴怒、风涌\n|上线日期=2024年04月25日\n|配装-词条推荐1=全伤害类型减免{{颜色|红|（PVE要95%）}}、CD减少、%物理强度、技能暴击、暴击倍率、力量、全伤害类型增幅、物理伤害增幅、物理穿透\n|配装-词条推荐2=物理抗性、怒气、受到法术伤害降低、受到物理伤害降低、最大生命值、体质、怒气恢复、暴击伤害减免\n|备注=\n}}\n<div class=\"main-line-wrap\" style=\"width:100%; float: left; margin-top: 25px;\"> \n<div class=\"resp-tabs\" style=\"border-spacing: 0px;\"> \n<ul class=\"resp-tabs-list clearfix\" style=\"margin-left:0;margin-top:-5px;background: #ECE5D8;\"> \n<li class=\"active bili-list-style\"><span class=\"tab-panel\">450级</span></li> \n</ul> \n<div class=\"resp-tabs-container\"> \n<div class=\"resp-tab-content\" style=\"display:block;\"> \n<div class=\"box-bg\" style=\"padding: 0;\">\n{{黑卫配装\n|黑卫名称=婆娑轮舞\n|头盔={{#arraydefine:头盔|月辉·烁金荧紫}}\n|项链={{#arraydefine:项链|咒石项链}}\n|卡牌={{#arraydefine:卡牌|}}\n|耳坠={{#arraydefine:耳坠|}}\n|衣服={{#arraydefine:衣服|聚能之铠}}\n|戒指={{#arraydefine:戒指|猩红秘戒}}\n|腰带={{#arraydefine:腰带|王室荣尊}}\n|圣物={{#arraydefine:圣物|月辉·紫晶鸦首,漆黑十字}}\n|裤子={{#arraydefine:裤子|戏谑者裤腿,元素大师之裤}}\n|徽章={{#arraydefine:徽章|秘影徽识,残虐之徽}}\n|鞋子={{#arraydefine:鞋子|月辉·王室金靴}}\n|副手={{#arraydefine:副手|死灵法盾}}\n|武器={{#arraydefine:武器|白羽声生,渴血}}\n|护手={{#arraydefine:护手|深渊之握,狂铁驭手}}\n}}\n</div> \n</div> \n</div> \n</div>\n{{黑卫技能\n|技能名称={{#arraydefine:技能名称|浮光掠影,白羽黑翼,舞步轻俏,挥鞭断骨,纵身一跃,梦之圆舞,冶艳怒放,恃强凌弱,致命伏击,暗影斗篷,影遁}}\n|技能冷却时间={{#arraydefine:技能冷却时间|3,0,18,15,0,0,0,0,0,0,0}}\n|技能消耗={{#arraydefine:技能消耗|0,1000怒气,0,0,0,0,0,0,0,0,0}}\n|普攻=挥舞环刃对身前敌人释放5段连击，每一次攻击造成200%物理强度的物理伤害。(伤害视为技能伤害，且此效果不会受攻速影响)\n|必杀技=使自己在接下来10秒内，进行攻击时创造一个幻影和自己做出相同行动，幻影造成的伤害为自身的75%。\n|战斗技=对周围大范围的敌人造成最多5次300%物理强度的物理伤害，技能释放期间技能回避+100%，不会受妖术嘲讽效果影响，无法被击退击飞。且不会受回避衰减影响。\n|辅助技1=受到伤害时，会立刻瞬移至血量最低的敌方位置释放一次【舞步轻俏】，伤害为【舞步轻俏】的100%，该效果拥有15秒触发间隔。(不受冷却效果影响)\n|辅助技2=【浮光掠影】前4段连击，每一段都有50%几率投出环刃，对路径上所有敌人造成400%物理强度的物理伤害。\n|辅助技3=【浮光掠影】和【纵身一跃】造成的伤害提升100%。\n|辅助技4=婆娑轮舞的技能暴击几率+30\n|通用辅助技1=对法术强度或物理强度低于自身的敌人造成伤害提高12%\n|通用辅助技2=对生命值为满的敌人造成伤害提高15%\n|通用辅助技3=受到减益效果的持续时间减少30%\n|通用辅助技4=受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒\n}}\n</div>{{黑卫遗物|黑卫名称=婆娑轮舞}}{{黑卫背景故事\n|角色故事=角色故事\n|事迹一=事迹1\n|事迹二=事迹2\n|事迹三=事迹3\n|事迹四=事迹4\n|事迹五=事迹5\n|事迹六=事迹6\n}}\n</div>\n<div class=\"col-xs-12 col-sm-4 col-md-4 col-lg-4\">\n<p id=\"DownloadHtmlImg\" data-param=\"婆娑轮舞\" class=\"visible-md visible-sm visible-lg\" style=\"margin-bottom: 20px;\">将本页保存为图片</p>\n{{黑卫立绘|名称=婆娑轮舞|立绘1=立绘1|立绘2=|立绘3=|立绘4=}}{{推荐符文\n|名称=婆娑轮舞\n|主符文=\n|辅助符文=铁荆\n}}\n{{推荐黑石\n|恐熊=\n|巫妖=\n|怒兽=8\n|猎蛛=\n|蝮蛇=\n|诡眼=2\n|幽鬼=\n|雷影狼=\n|石像鬼=\n|雪甲虫=\n|感电狐=\n|霜蹄=\n|冰凤=\n|诅咒灵=8\n|闪鸣鸟=\n|金乌=\n|迅角兽=4\n|炎龙=\n|备注=\n}}{{黑卫血阶\n|血阶1=【白羽黑翼】创造的幻影数量+1，且【白羽黑翼】持续期间不会被昏迷效果影响。\n|血阶2=【白羽黑翼】的持续时间+100%，且幻象造成的伤害比率+25%。\n|血阶3=【纵身一跃】的触发几率增加50%。\n|血阶4=【舞步轻俏】的伤害提升100%，且可以对无敌状态的敌人造成伤害。\n|血阶5=被【舞步轻俏】命中的敌人会处于【破妄】状态，持续3秒。破妄:破妄状态下，无敌效果将不生效。\n|血阶6=婆娑轮舞造成的所有伤害+10%。\n|血阶推荐及理由=1阶可用，2阶伤害拉满，4阶pvp破CD妖刀\n}}\n{{黑卫羁绊好感度\n|2Q=2级好感度问题\n|2A1=2级好感度答案1\n|2A2=2级好感度答案2\n|5Q=5级好感度问题\n|5A1=5级好感度答案1\n|5A2=5级好感度答案2\n|10Q=10级好感度问题\n|10A=10级好感度答案\n}}\n</div>\n</div>\n{{#css:\n#DownloadHtmlImg{\n    display: inline-block;\n    line-height: 1;\n    white-space: nowrap;\n    cursor: pointer;\n    background: #fff;\n    border: 1px solid #dcdfe6;\n    color: #606266;\n    -webkit-appearance: none;\n    text-align: center;\n    box-sizing: border-box;\n    outline: none;\n    margin: 0;\n    transition: .1s;\n    font-weight: 500;\n    -moz-user-select: none;\n    -webkit-user-select: none;\n    -ms-user-select: none;\n    padding: 8px 14px;\n    width: 100%;\n    font-size: 14px;\n    border-radius: 4px;\n    margin-bottom: 14px;\n    animation: throttle 1s step-end forwards;\n}\n#DownloadHtmlImg:hover {\n    background: #fff;\n    border-color: #409eff;\n    color: #409eff;\n}\n\n#DownloadHtmlImg:active {\n    animation: none;\n}\n\n@keyframes throttle {\n    from {\n        pointer-events: none;\n    }\n    to {\n        pointer-events: all;\n    }\n}\n.sy-title-1 {\n    line-height: 24px;\n    margin-bottom: 6px;\n}\n.BOX-title-2 {\n    padding-top: 2px;\n}\n\n.main-line-wrap + p {\ndisplay: none;\n}\n\n}}\n{{JS|Html2canvas.min.js}}\n{{JS|Html2img.js}}",
+  "redirected_from": null,
+  "group": "characters",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%A9%86%E5%A8%91%E8%BD%AE%E8%88%9E",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8620",
+  "fetched_at": "2026-11-20T15:53:38+00:00",
+  "templates": [
+    "模板:JS",
+    "模板:ResourceLoader",
+    "模板:推荐符文",
+    "模板:推荐黑石",
+    "模板:空白占位符",
+    "模板:遗物筛选/黑卫",
+    "模板:阵线图标",
+    "模板:颜色",
+    "模板:黑卫",
+    "模板:黑卫技能",
+    "模板:黑卫立绘",
+    "模板:黑卫羁绊好感度",
+    "模板:黑卫背景故事",
+    "模板:黑卫血阶",
+    "模板:黑卫遗物",
+    "模板:黑卫配装",
+    "模板:黑石图标"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

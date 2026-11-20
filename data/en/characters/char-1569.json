@@ -1,0 +1,594 @@
+{
+ "id": "char-1569",
+ "name": "Falling Samele",
+ "page_title": "秽翼魔女",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Chesia",
+  "gender": "Female",
+  "race": "Fairies",
+  "birthday": "--06-21",
+  "birthplace": null,
+  "height_weight": "167cm/49kg",
+  "specialties": [
+   "luring others into dreams",
+   "building dreams"
+  ],
+  "likes": [
+   "sweet dreams",
+   "nightmares",
+   "liquor?",
+   "game dice (bond gift)"
+  ],
+  "dislikes": [
+   "death",
+   "grudges",
+   "breaking promises"
+  ],
+  "release_date": "2024-09-25"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Striker Front",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "Fire Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Fire Damage Boost",
+   "Max HP",
+   "CD Reduction"
+  ],
+  "secondary": [
+   "Constitution",
+   "Physical Resistance",
+   "Rage Recovery",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "PVE: Not recommended for now",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Soul Burning Scythe",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Swings the scythe three times in succession, dealing Fire DMG equal to 600% of Spell Power to nearby enemies; once [Alluring Phantom] is unlocked, the third hit applies Charmed Mark to the enemies hit. (The DMG counts as Skill DMG, and this effect is not affected by Attack Speed)",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 600% of Spell Power"
+    }
+   ],
+   "name_zh": "焚魂镰击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Flame Bat Curse",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Chesia releases fire bats to surround herself, deals Fire DMG equal to 1200% of Spell Power to surrounding enemies per sec, last for 8 sec. When [Alluring Phantom] unlocked, each DMG Dealt will inflict Charmed Mark to enemy hit.",
+   "scaling": [
+    {
+     "percent": "1200%",
+     "values": [
+      1200.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 1200% of Spell Power"
+    }
+   ],
+   "name_zh": "蝠影焰咒"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Fire Charm Instastrike",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When there are no enemy units within melee range, dashes toward 1 nearby enemy; upon reaching it, swings the scythe, dealing 800% Spell Power as Fire DMG to surrounding enemies. Once [Alluring Phantom] is unlocked, inflicts Charmed Mark on enemies hit.",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 800% of Spell Power"
+    }
+   ],
+   "name_zh": "火魅瞬袭"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Alluring Phantom",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All of Chesia's skill can inflict Charmed Mark to enemies, when it stacks to 15 times, Charmed the target for 2 sec. Every time when an enemy on the field be Charmed or dead, increases Chesia's DMG Dealt by 5%, up to 50%(. (Additional DMG Boost lasts until battle ends)",
+   "scaling": [],
+   "name_zh": "迷心魅纹"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Mortal Waltz",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "During the releasing of [Soul Burning Scythe], Chesia will unleash the demonic power, deals additional Fire DMG equal to 2250% of Spell Power + 16% of Chesia's Max HP to the surrounding enemies. (In Arena, the value of Chesia's Max HP added to the additional Fire DMG is halved)",
+   "scaling": [
+    {
+     "percent": "2250%",
+     "values": [
+      2250.0
+     ],
+     "stat": "Spell Power",
+     "effect": null,
+     "text": "2250% of Spell Power"
+    }
+   ],
+   "name_zh": "死亡共舞"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Satisfying Feast",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases the DMG Dealt for [Flame Bat Curse] by 100%, when dealing DMG during the duration, Chesia will drain the enemy's Max HP, equal to 0.5% of Chesia's Max HP, and convert it into her Max HP. (Additional HP Boost lasts until battle ends) The additional HP Boost gained from HP Drain is up to 25% of Chesia's Max HP.",
+   "scaling": [],
+   "name_zh": "餍足一餐"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Contract Conclusion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Falling Samele's Skill Crit Chance +30",
+   "scaling": [],
+   "name_zh": "契约缔结"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "One Man Army",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "More targets means its harder to miss, each enemy within a range of 5 meters will increase damage caused by 3%",
+   "scaling": [],
+   "name_zh": "孤军深入"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Mercilessly executes wounded enemies: DMG dealt to targets with HP below 15% is increased by 20%",
+   "scaling": [],
+   "name_zh": "刽子手"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Berserker's Wrath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The sight of your own blood enrages you, the lower your health, the higher your damage Increases damage by 1% for every 5% HP lost",
+   "scaling": [],
+   "name_zh": "狂战士之怒"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Lv 1000 PVP",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": "PVP",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Star Helmet",
+    "Necklace": "Chain of Radiance",
+    "Card": null,
+    "Earrings": "Ring of Radiance",
+    "Armor": "Armor of Cursed Orbs",
+    "Ring": "Netherflame's Glory",
+    "Belt": "Belt of Exocist",
+    "Relic": "Netherflame's Justice",
+    "Trousers": "Flame-Forged Greaves",
+    "Emblem": "Netherflame's Verdict",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Dragonbane",
+    "Weapon": "Chaos Blade",
+    "Handguard": "Netherflame's Gloves"
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": "Blazing Chain Scythe",
+   "item_ids": {
+    "星辰战盔": "gear-1276",
+    "辉耀之链": "gear-134",
+    "辉耀之环": "gear-138",
+    "法球咒铠": "gear-1686",
+    "幽焰剑士荣耀": "gear-187",
+    "圣职驱魔": "gear-1689",
+    "幽焰剑士截断": "gear-180",
+    "炎铸胫甲": "gear-1861",
+    "幽焰剑士裁决": "gear-147",
+    "月辉·王室金靴": "gear-1177",
+    "龙猎大盾": "gear-game-5026",
+    "混沌利刃": "gear-2435",
+    "幽焰剑士碧手": "gear-1661",
+    "炽链斩魂": "gear-game-90358"
+   },
+   "unlinked": {
+    "龙猎大盾": {
+     "reason": "game_only",
+     "game_id": "5026",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5026",
+        "field": "name",
+        "text_id": 54127,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       54127
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "秽翼魔女",
+       "怒气装备"
+      ]
+     }
+    },
+    "炽链斩魂": {
+     "reason": "game_only",
+     "game_id": "90358",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90358",
+        "field": "name",
+        "text_id": 77352,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       77352
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "秽翼魔女"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": "Fire Spell",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Flame Dragon",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": "PVE: Not recommended for now"
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "The cap of Chesia's own Max HP increase from [Satisfying Feast] is raised to 50%."
+   },
+   {
+    "rank": 2,
+    "text": "The efficiency of each Max HP drain by Chesia through [Satisfying Feast] is increased by 100%, and gains 300 Rage immediately upon entering battle."
+   },
+   {
+    "rank": 3,
+    "text": "When Chesia releases the [Mortal Waltz], the additional Chesia's Max HP added to the DMG Dealt is increased by 100%."
+   },
+   {
+    "rank": 4,
+    "text": "During the duration of [Flame Bat Curse], Chesia is immune to Charmed and Stunned."
+   },
+   {
+    "rank": 5,
+    "text": "The number of stacks required to trigger [Alluring Tattoo] is reduced by 3, and the duration of Charmed is increased by 1 sec."
+   },
+   {
+    "rank": 6,
+    "text": "Increases Chesia's DMG Dealt by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Nightmare Whispers",
+   "id": "relic-1943"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Striker battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "2级好感度问题：切夏娅不住地叹气。",
+   "answers": [
+    "2级好感度答案1：你也会感到烦恼吗？",
+    "2级好感度答案2：我能帮你什么吗？"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "立绘2",
+  "立绘3",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%A7%BD%E7%BF%BC%E9%AD%94%E5%A5%B3",
+ "revid": 9188,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9188",
+ "rev_timestamp": "2026-09-21T07:19:42Z",
+ "i18n": {
+  "name_zh": "秽翼魔女",
+  "sources": {
+   "derived": 6,
+   "game_db": 12,
+   "glossary": 65,
+   "lore": 2,
+   "names": 41,
+   "translated": 18
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 76342,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 76343,
+    "match": "loose"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 76344,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 76345,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4292,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4293,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   },
+   "black_stones.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 76411,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 76412,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 76413,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 76414,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "布兰岛",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[8].name",
+    "zh": "刽子手",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ]
+ }
+}

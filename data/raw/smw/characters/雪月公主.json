@@ -1,0 +1,641 @@
+{
+  "subject": "雪月公主",
+  "group": "characters",
+  "page_revid": 8608,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%AA%E6%9C%88%E5%85%AC%E4%B8%BB",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%AA%E6%9C%88%E5%85%AC%E4%B8%BB&format=json",
+  "fetched_at": "2026-11-20T16:13:58+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "雪月公主#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度答案"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "雪月公主#0##_QUERY3a73061cf01414923cd2e4c58ee8541f"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/11/4/36/38/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/2/8/4/4/45/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雪月公主"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2023年12月27日"
+            }
+          ]
+        },
+        {
+          "property": "主符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "毒牙、雷霆咆哮、戏火者、不灭、圣光守护、霜咬、寒月"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "魔导、医者、超导、回能、回馈、灭法、咒蚀"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "167cm/52kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "乌露席恩"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雪月公主"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "葡萄酒、冬季的雪、勿忘草、<span style=\"color:red\">伯戈涅葡萄酒（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "辅助"
+            }
+          ]
+        },
+        {
+          "property": "备注",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "在此感谢&nbsp;<span style=\"color:rgb(69 113 236)\">观海大佬（水金861）</span>提供符文图"
+            },
+            {
+              "type": 2,
+              "item": "<span style=\"color:red\">450配装不朽即可，不需要神话</span>"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "海妮薇"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "冰霜"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "召唤暴风雪，对雪月公主周围大范围的敌人每秒造成300%法术强度的冰霜伤害，持续8秒。"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "恐熊",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对所有队友释放庇护，吸收1000%法术强度的伤害，持续10秒。(该效果视为魔法盾)"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对12米范围内的1名敌人造成250%法术强度的冰霜伤害。"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "12月25日"
+            }
+          ]
+        },
+        {
+          "property": "石像鬼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "人类"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雪月公主"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到【雪月绽放】影响的敌人将被视为处于冰冻状态。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【霜寒冰蚀】的增伤效果提升40%"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【百年饮冰】恢复的怒气值提升50%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雪月公主在场时，所有己方单位受到冰冻效果的持续时间减少75%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受【雾雪庇护】影响的队友受到伤害时，会冰冻造成伤害的敌人2秒(该效果有20秒触发间隔)"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雪月公主造成的所有伤害+10%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶推荐及理由",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1阶可用，队友佩戴4霜蹄全程增伤，2阶继续为队友增伤，3阶给队友恢复更多怒气，45阶pvp"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "夏天、烫的食物、言行粗鄙之辈"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "每隔2秒，使除自身外的所有队友恢复30怒气值。当拥有冰霜球时，消耗1个冰霜球，使恢复的怒气值加倍。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雪月公主在场时，所有队友对冰冻状态的敌人造成的伤害提升12.5%，冰霜属性的黑卫造成的效果翻倍。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【雪月绽放】的持续时间增加100%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【雾雪庇护】的吸收伤害效果提升100%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "闪击"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "振奋鼓舞战友，所有友方单位初始怒气增加25点"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "能够轻松快速的释放法术，主动技能冷却时间降低10%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "法术强度提升6%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全抗性提升8点，伤害减免8%"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、CD减少、怒气、怒气恢复、魔力、攻击速度、体质、最大生命值、%法术强度"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "物理抗性、暴击伤害减免、受到法术伤害降低、受到物理伤害降低"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雪月公主"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "雪月公主#0##_QUERY3a73061cf01414923cd2e4c58ee8541f",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::雪月公主]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "雪月公主# QUERY3a73061cf01414923cd2e4c58ee8541f"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

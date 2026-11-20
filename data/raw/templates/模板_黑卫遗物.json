@@ -1,0 +1,15 @@
+{
+  "title": "模板:黑卫遗物",
+  "pageid": 2155,
+  "ns": 10,
+  "revid": 7569,
+  "rev_timestamp": "2025-10-14T07:27:44Z",
+  "wikitext": "{{#ask:[[分类:遗物]][[黑卫名称::{{{黑卫名称|}}}]]\n|?遗物名称\n|?品质\n|?专属\n|?遗物技能\n|?进阶固有技能\n|?进阶随机技能\n|template=遗物筛选/黑卫\n|format=template\n}}",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E9%BB%91%E5%8D%AB%E9%81%97%E7%89%A9",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7569",
+  "fetched_at": "2026-11-20T15:56:11+00:00",
+  "templates": [],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

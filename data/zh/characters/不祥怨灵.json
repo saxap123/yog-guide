@@ -1,0 +1,232 @@
+{
+ "id": "char-1808",
+ "name": "不祥怨灵",
+ "page_title": "不祥怨灵",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "无名之魂",
+  "gender": "未知",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": null,
+  "dislikes": null,
+  "release_date": "2021年06月27日"
+ },
+ "element": "冰霜",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "守护",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "诡影",
+    "id": "faction-2198"
+   },
+   {
+    "name": "医者",
+    "id": "faction-2204"
+   },
+   {
+    "name": "通灵",
+    "id": "faction-2206"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": []
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "寒彻入骨",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "对单体目标造成300%法术强度的冰霜伤害，并冻结目标(2+0.2*法术精通)秒",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "300%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "冰冷诅咒",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对单体目标造成420%法术强度的冰霜伤害",
+   "scaling": [
+    {
+     "percent": "420%",
+     "values": [
+      420.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "420%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "灵界躯体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "获得50%技能回避,每次回避时恢复1173点生命值+350%法术强度生命值。",
+   "scaling": [
+    {
+     "percent": "350%",
+     "values": [
+      350.0
+     ],
+     "stat": "法术强度",
+     "effect": "生命值",
+     "text": "350%法术强度生命值"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "回避强化",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "获得15%闪避,每次闪避时恢复151点生命值+200%法术强度生命值。",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "法术强度",
+     "effect": "生命值",
+     "text": "200%法术强度生命值"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "寒冰护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "击中不详怨灵的单位，将受到怨灵冰霜气息的诅咒，攻击者的攻击速度将降低40%，持续5秒",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "不详狂热",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "战斗开始后6秒后，随机嘲讽自身6米范围内一名当前目标不是自己最近的敌方单位，并提升自身100%攻击速度，持续10秒",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "活力",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升6%，最大护盾值提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "躲闪",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普通攻击闪避几率提升15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "加护",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到的治疗效果提升10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%8D%E7%A5%A5%E6%80%A8%E7%81%B5",
+ "revid": 8666,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8666",
+ "rev_timestamp": "2026-02-08T04:50:59Z"
+}

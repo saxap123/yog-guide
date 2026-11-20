@@ -1,0 +1,153 @@
+{
+  "subject": "生息",
+  "group": "runes",
+  "page_revid": 6457,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%94%9F%E6%81%AF",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%94%9F%E6%81%AF&format=json",
+  "fetched_at": "2026-11-20T16:25:32+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "生息#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/8/1/38/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "符文#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/8/10/10/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "生息"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性"
+            }
+          ]
+        },
+        {
+          "property": "专属属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "体质"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1763力量、1763力量、1763魔力、1763魔力、1763体质、1763体质、1763意志、1763意志、1939物理强度、1939物理强度、1939法术强度、1939法术强度、35260生命、35260护盾"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1763力量、1763力量、1763魔力、1763魔力、1763体质、1763体质、1763意志、1763意志、10闪电穿透、10冰霜穿透、10火焰穿透、5%金币获取提升"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1892全属性"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "符文名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "生息"
+            }
+          ]
+        },
+        {
+          "property": "符文技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到治疗效果+5%；受到昏迷时间下降+10%；复活几率+5%；所有元素抗性+20；受到昏迷效果影响时，立刻恢复5%最大生命值。(该效果有10秒间隔)；体质+5%"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "主符文"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑渊商铺兑换"
+            }
+          ]
+        },
+        {
+          "property": "边",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#f18a9f\">/////</span><span style=\"color:#87c8ff\">/</span>"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

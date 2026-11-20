@@ -1,0 +1,1762 @@
+{
+ "kind": "rune",
+ "license": "CC BY-NC-SA 4.0",
+ "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
+ "count": 27,
+ "items": [
+  {
+   "id": "rune-2351",
+   "name": "万象余烬",
+   "page_title": "万象余烬",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "全元素抗性+(1-10)",
+    "源力初始值+(5-15)",
+    "全属性+(2-5)",
+    "随机技能强度等级+(1-3)",
+    "勇猛、感知、强韧随机一条属性+(5)",
+    "勇猛、感知和强韧+(1-8)"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "异界"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%87%E8%B1%A1%E4%BD%99%E7%83%AC",
+   "revid": 8785,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8785",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B8%87%E8%B1%A1%E4%BD%99%E7%83%AC&format=json"
+  },
+  {
+   "id": "rune-1429",
+   "name": "不灭",
+   "page_title": "不灭",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "意志",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "受到法术伤害降低5%",
+    "生命上限提升7%",
+    "吸血抗性+5%",
+    "护盾上限提升15%",
+    "意志+5%",
+    "受到伤害时，如果处于低血状态，立刻恢复5%生命上限(该效果有10秒间隔)"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 5
+    },
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "忘却迷境-至冬宫殿通关",
+    "忘却迷境-封印深处通关",
+    "精铸符文宝箱II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%8D%E7%81%AD",
+   "revid": 4114,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4114",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B8%8D%E7%81%AD&format=json"
+  },
+  {
+   "id": "rune-1996",
+   "name": "凝冰",
+   "page_title": "凝冰",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "体质",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "受到物理伤害降低5%",
+    "生命上限提升7%",
+    "回避几率+10%",
+    "受到技能暴击概率下降+7%",
+    "受到技能暴击时，获得1个冰霜球。(该效果有4秒间隔)",
+    "体质+5%"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 5
+    },
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "黑渊商铺兑换"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%87%9D%E5%86%B0",
+   "revid": 6458,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6458",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%87%9D%E5%86%B0&format=json"
+  },
+  {
+   "id": "rune-1998",
+   "name": "命轮",
+   "page_title": "命轮",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "意志",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "复活几率+3%",
+    "受到冰冻时间下降+10%",
+    "生命上限提升10%",
+    "受到暴击伤害下降30%",
+    "意志+5%",
+    "触发复活同时恢复200怒气值。(该效果有15秒间隔)"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "黑渊商铺兑换"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%91%BD%E8%BD%AE",
+   "revid": 6460,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6460",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%91%BD%E8%BD%AE&format=json"
+  },
+  {
+   "id": "rune-1428",
+   "name": "圣光守护",
+   "page_title": "圣光守护",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "意志",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "受到物理伤害降低5%",
+    "生命上限提升7%",
+    "吸血抗性+5%",
+    "护盾上限提升15%",
+    "意志+5%",
+    "受到伤害时，如果没有护盾值，立刻恢复10%护盾值(该效果有10秒间隔)"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 5
+    },
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "忘却迷境-至冬宫殿通关",
+    "忘却迷境-封印深处通关",
+    "精铸符文宝箱II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E5%85%89%E5%AE%88%E6%8A%A4",
+   "revid": 4112,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4112",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%9C%A3%E5%85%89%E5%AE%88%E6%8A%A4&format=json"
+  },
+  {
+   "id": "rune-1412",
+   "name": "寒月",
+   "page_title": "寒月",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "法术伤害+5%",
+    "生命上限提升7%",
+    "法术精通+5",
+    "普通攻击击中有5%几率获得一个冰霜球，持续4秒",
+    "冰霜球数量上限+2",
+    "每一个冰霜球额外提升造成的2%冰霜伤害"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "迷雾山脉501-550层通关",
+    "精铸符文宝箱I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%AF%92%E6%9C%88",
+   "revid": 4116,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4116",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%AF%92%E6%9C%88&format=json"
+  },
+  {
+   "id": "rune-1417",
+   "name": "强健",
+   "page_title": "强健",
+   "type": "辅助符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "2.5%最大生命值"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "永冬之地（黑潮难度23层以上）"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%BC%BA%E5%81%A5",
+   "revid": 4143,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4143",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%BC%BA%E5%81%A5&format=json"
+  },
+  {
+   "id": "rune-1408",
+   "name": "怒法",
+   "page_title": "怒法",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "物理伤害+5%",
+    "生命上限提升7%",
+    "受到暴击伤害下降30%",
+    "普通攻击击中有5%几率获得一个能量球，持续4秒",
+    "能量球数量上限+2",
+    "每一个能量球额外提升2%造成的必杀技伤害"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "迷雾山脉501-550层通关",
+    "精铸符文宝箱I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%80%92%E6%B3%95",
+   "revid": 4117,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4117",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%80%92%E6%B3%95&format=json"
+  },
+  {
+   "id": "rune-1430",
+   "name": "戏火者",
+   "page_title": "戏火者",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "体质",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "火焰穿透+15",
+    "生命上限提升7%",
+    "法术伤害增幅+7%",
+    "造成火焰伤害时，有3%几率获得1个能量球",
+    "火焰伤害增幅+10%",
+    "体质+5%"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "忘却迷境-至冬宫殿通关",
+    "忘却迷境-封印深处通关",
+    "精铸符文宝箱II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%88%8F%E7%81%AB%E8%80%85",
+   "revid": 4108,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4108",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%88%8F%E7%81%AB%E8%80%85&format=json"
+  },
+  {
+   "id": "rune-1997",
+   "name": "断钢",
+   "page_title": "断钢",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "力量",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "物理伤害增幅+5%",
+    "生命上限提升7%",
+    "所有元素抗性+10",
+    "暴击倍率提升15%",
+    "力量+5%",
+    "受到非物理伤害时，有3%几率获得1个狂怒球"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "黑渊商铺兑换"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%96%AD%E9%92%A2",
+   "revid": 6459,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6459",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%96%AD%E9%92%A2&format=json"
+  },
+  {
+   "id": "rune-1426",
+   "name": "残月",
+   "page_title": "残月",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "魔力",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "闪电伤害增幅+5%",
+    "生命上限提升7%",
+    "受到暴击伤害下降30%",
+    "造成闪电伤害有3%几率得一个闪电球，持续4秒，最多存在3个",
+    "每一个闪电球增加2%闪电伤害增幅",
+    "魔力+5%"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "忘却迷境-至冬宫殿通关",
+    "忘却迷境-封印深处通关",
+    "精铸符文宝箱II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%AE%8B%E6%9C%88",
+   "revid": 4109,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4109",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%AE%8B%E6%9C%88&format=json"
+  },
+  {
+   "id": "rune-1410",
+   "name": "毒牙",
+   "page_title": "毒牙",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "体质",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "全抗性+5",
+    "生命上限提升7%",
+    "暴击倍率提升15%",
+    "受到普攻暴击概率下降+7%",
+    "体质增加5%",
+    "携带者的物理伤害将有3%几率触发中毒"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "迷雾山脉551-600层通关",
+    "精铸符文宝箱I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%AF%92%E7%89%99",
+   "revid": 4120,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4120",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%AF%92%E7%89%99&format=json"
+  },
+  {
+   "id": "rune-1413",
+   "name": "火咒",
+   "page_title": "火咒",
+   "type": "辅助符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "2.5%火焰伤害增幅"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "永冬之地（黑潮难度23层以上）"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%AB%E5%92%92",
+   "revid": 4137,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4137",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%AB%E5%92%92&format=json"
+  },
+  {
+   "id": "rune-1995",
+   "name": "生息",
+   "page_title": "生息",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "体质",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "受到治疗效果+5%",
+    "受到昏迷时间下降+10%",
+    "复活几率+5%",
+    "所有元素抗性+20",
+    "受到昏迷效果影响时，立刻恢复5%最大生命值。(该效果有10秒间隔)",
+    "体质+5%"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 5
+    },
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "黑渊商铺兑换"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%94%9F%E6%81%AF",
+   "revid": 6457,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6457",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%94%9F%E6%81%AF&format=json"
+  },
+  {
+   "id": "rune-1422",
+   "name": "盎然",
+   "page_title": "盎然",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "力量",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "物理伤害增幅+7%",
+    "生命上限提升7%",
+    "物理精通+5",
+    "物理伤害击中有3%几率得一个狂怒球，持续4秒，最多存在每3个",
+    "每一个狂怒球额外提升2%造成的技能伤害",
+    "力量+5%"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "忘却迷境-至冬宫殿通关",
+    "忘却迷境-封印深处通关",
+    "精铸符文宝箱II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%9B%8E%E7%84%B6",
+   "revid": 4111,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4111",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%9B%8E%E7%84%B6&format=json"
+  },
+  {
+   "id": "rune-1419",
+   "name": "神风",
+   "page_title": "神风",
+   "type": "辅助符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "25幸运",
+    "2.5%攻击速度"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "永冬之地（黑潮难度23层以上）"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%A5%9E%E9%A3%8E",
+   "revid": 4139,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4139",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%A5%9E%E9%A3%8E&format=json"
+  },
+  {
+   "id": "rune-1406",
+   "name": "绝刃",
+   "page_title": "绝刃",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "攻击力提升5%",
+    "生命上限提升7%",
+    "物理精通+5",
+    "普通攻击击中有5%几率获得一个狂怒球，持续4秒",
+    "狂怒球数量上限+2",
+    "每一个狂怒球额外提升造成的2%普通攻击伤害"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "迷雾山脉501-550层通关",
+    "精铸符文宝箱I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9D%E5%88%83",
+   "revid": 4118,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4118",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BB%9D%E5%88%83&format=json"
+  },
+  {
+   "id": "rune-1424",
+   "name": "腐朽者",
+   "page_title": "腐朽者",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "力量",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "物理伤害增幅+5%",
+    "生命上限提升7%",
+    "物理精通+5",
+    "暴击倍率提升15%",
+    "力量+5%",
+    "携带者的物理伤害对中毒目标伤害提升8%"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "忘却迷境-至冬宫殿通关",
+    "忘却迷境-封印深处通关",
+    "精铸符文宝箱II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%85%90%E6%9C%BD%E8%80%85",
+   "revid": 4115,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4115",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%85%90%E6%9C%BD%E8%80%85&format=json"
+  },
+  {
+   "id": "rune-1409",
+   "name": "逐日者",
+   "page_title": "逐日者",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "魔力",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "法术伤害+5%",
+    "生命上限提升7%",
+    "法术精通+6点",
+    "暴击倍率提升15%",
+    "魔力增加5%",
+    "携带者的火焰伤害有3%几率触发点燃，且对点燃目标的伤害额外提升8%"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 5
+    },
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "迷雾山脉551-600层通关",
+    "精铸符文宝箱I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%80%90%E6%97%A5%E8%80%85",
+   "revid": 4119,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4119",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%80%90%E6%97%A5%E8%80%85&format=json"
+  },
+  {
+   "id": "rune-1420",
+   "name": "铁棘",
+   "page_title": "铁棘",
+   "type": "辅助符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "2.5%物理伤害增幅"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "永冬之地（黑潮难度23层以上）"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%81%E6%A3%98",
+   "revid": 4140,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4140",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%93%81%E6%A3%98&format=json"
+  },
+  {
+   "id": "rune-1418",
+   "name": "闪击",
+   "page_title": "闪击",
+   "type": "辅助符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "2.5%攻击速度"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "永冬之地（黑潮难度23层以上）"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%97%AA%E5%87%BB",
+   "revid": 4138,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4138",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%97%AA%E5%87%BB&format=json"
+  },
+  {
+   "id": "rune-1425",
+   "name": "雷灭之刃",
+   "page_title": "雷灭之刃",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "力量",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "物理穿透+15",
+    "生命上限提升7%",
+    "物理伤害增幅+7%",
+    "物理技能造成的伤害+10%",
+    "物理伤害击中有3%几率得一个能量球，持续4秒，最多存在3个",
+    "力量+5%"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 5
+    },
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "忘却迷境-至冬宫殿通关",
+    "忘却迷境-封印深处通关",
+    "精铸符文宝箱II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E7%81%AD%E4%B9%8B%E5%88%83",
+   "revid": 4107,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4107",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E7%81%AD%E4%B9%8B%E5%88%83&format=json"
+  },
+  {
+   "id": "rune-1416",
+   "name": "雷纹",
+   "page_title": "雷纹",
+   "type": "辅助符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "2.5%闪电伤害增幅"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "永冬之地（黑潮难度23层以上）"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E7%BA%B9",
+   "revid": 4142,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4142",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E7%BA%B9&format=json"
+  },
+  {
+   "id": "rune-1411",
+   "name": "雷霆咆哮",
+   "page_title": "雷霆咆哮",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "魔力",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "闪电穿透+15",
+    "生命上限提升7%",
+    "法术伤害+7%",
+    "闪电伤害+10%",
+    "魔力增加5%",
+    "携带者的闪电伤害将有3%几率触发感电"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 5
+    },
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "迷雾山脉551-600层通关",
+    "精铸符文宝箱I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E9%9C%86%E5%92%86%E5%93%AE",
+   "revid": 4121,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4121",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E9%9C%86%E5%92%86%E5%93%AE&format=json"
+  },
+  {
+   "id": "rune-1423",
+   "name": "霜咬",
+   "page_title": "霜咬",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "冰霜伤害增幅+10%",
+    "生命上限提升7%",
+    "法术精通+5",
+    "冰霜伤害有3%几率获得一个冰霜球",
+    "冰霜球提供的生命回复效果增加2%",
+    "冰霜球持续时间+1秒"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "符文蓝",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "忘却迷境-至冬宫殿通关",
+    "忘却迷境-封印深处通关",
+    "精铸符文宝箱II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%9C%E5%92%AC",
+   "revid": 4113,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4113",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9C%9C%E5%92%AC&format=json"
+  },
+  {
+   "id": "rune-1421",
+   "name": "霜雪",
+   "page_title": "霜雪",
+   "type": "辅助符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "2.5%冰霜伤害增幅"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "永冬之地（黑潮难度23层以上）"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%9C%E9%9B%AA",
+   "revid": 4141,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4141",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9C%9C%E9%9B%AA&format=json"
+  },
+  {
+   "id": "rune-1427",
+   "name": "魔哮",
+   "page_title": "魔哮",
+   "type": "主符文",
+   "max_level": 700,
+   "attribute": "1892全属性",
+   "exclusive": [
+    "1500全属性"
+   ],
+   "exclusive_attribute": "魔力",
+   "prefixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "1939物理强度",
+    "1939物理强度",
+    "1939法术强度",
+    "1939法术强度",
+    "35260生命",
+    "35260护盾"
+   ],
+   "suffixes": [
+    "1763力量",
+    "1763力量",
+    "1763魔力",
+    "1763魔力",
+    "1763体质",
+    "1763体质",
+    "1763意志",
+    "1763意志",
+    "10闪电穿透",
+    "10冰霜穿透",
+    "10火焰穿透",
+    "5%金币获取提升"
+   ],
+   "skills": [
+    "冰霜穿透+15",
+    "生命上限提升7%",
+    "法术伤害增幅+7%",
+    "冰霜伤害增幅+10%",
+    "携带者的冰霜伤害将有3%几率触发冰缓，造成冰缓的效果增加3%",
+    "魔力+5%"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "符文红",
+     "count": 5
+    },
+    {
+     "color": "#09eb84",
+     "color_name": "符文绿",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "忘却迷境-至冬宫殿通关",
+    "忘却迷境-封印深处通关",
+    "精铸符文宝箱II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%AD%94%E5%93%AE",
+   "revid": 4110,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4110",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%AD%94%E5%93%AE&format=json"
+  }
+ ]
+}

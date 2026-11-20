@@ -1,0 +1,587 @@
+{
+ "id": "char-2059",
+ "name": "凌空械羽",
+ "page_title": "凌空械羽",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "金莉娅",
+  "gender": "女",
+  "race": "人造生物",
+  "birthday": "12月23日",
+  "birthplace": "阿格纳城",
+  "height_weight": "163cm/68kg",
+  "specialties": [
+   "编织",
+   "手工",
+   "制作机械玩具"
+  ],
+  "likes": [
+   "下雨天",
+   "植物",
+   "独处",
+   "音乐盒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "权贵阶级",
+   "酒",
+   "鲜血",
+   "死尸"
+  ],
+  "release_date": "2025年06月26日"
+ },
+ "element": "闪电",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "秘术",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "通灵",
+    "id": "faction-2206"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "雷暴",
+    "id": "faction-2218"
+   },
+   {
+    "name": "共鸣",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "攻击速度",
+   "技能暴击",
+   "CD减少",
+   "闪电穿透",
+   "暴击倍率",
+   "魔力",
+   "%法术强度",
+   "体质"
+  ],
+  "secondary": [
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "闪电伤害增幅",
+   "最大生命值",
+   "物理抗性",
+   "怒气回复",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "怒气"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "雷霆耀空",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "使用光束枪对前方敌人射击，造成600%法术强度的闪电伤害。(本技能会受攻速影响，每2%攻速提升1%技能释放速度。造成的伤害视为技能伤害。)",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "600%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "极光电暴",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "使用光束炮攻击前方直线范围内敌人，光束炮每0.3秒对范围内敌人造成一次1500%法术强度的闪电伤害持续1.2秒。",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "1500%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "羽刃雷杀",
+   "cooldown_s": 20,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "召唤3枚羽刃协同自己攻击，羽刃每秒攻击一次，对目标造成800%法术强度的闪电伤害，每个羽刃的攻击次数为15次，场上羽刃数量上限为6个。(羽刃造成伤害可受到通灵阵线加成)",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "800%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "银羽之绊",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【极光电暴】释放时，额外召唤两枚羽刃协同自己释放光束，羽刃造成的伤害为本体的60%。(羽刃造成伤害可受到通灵阵线加成)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "落影回声",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【雷霆耀空】释放时获得1点动能，动能达到20点时会立刻发射6枚导弹，对随机敌人造成750%法术强度的闪电伤害。",
+   "scaling": [
+    {
+     "percent": "750%",
+     "values": [
+      750.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "750%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "无穷光境",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【羽刃雷杀】造成的伤害提升40%，且【羽刃雷杀】释放羽刃时，将消耗所有闪电球增加释放的羽刃数量每消耗2个闪电球，都会使释放的羽刃数量+1。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "灵窍密语",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "凌空械羽的技能暴击几率+30%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "玻璃大炮",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "放弃防护，专心攻击，造成的伤害提高15%，但是自身受到的伤害也提高10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "元素充能",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "造成非物理伤害时，恢复造成伤害10%的生命值",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "狂法者",
+    "项链": "指路吊坠",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猩红秘戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "元素大师之裤",
+    "徽章": "魔涌之徽",
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "电磁光羽",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "头盔": [
+     "月辉·烁金荧紫"
+    ],
+    "裤子": [
+     "戏谑者裤腿"
+    ],
+    "徽章": [
+     "咒法徽印"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "狂法者": null,
+    "月辉·烁金荧紫": "gear-1168",
+    "指路吊坠": "gear-1081",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "元素大师之裤": "gear-1174",
+    "戏谑者裤腿": "gear-1182",
+    "魔涌之徽": "gear-1176",
+    "咒法徽印": "gear-1175",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "电磁光羽": "gear-2296",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "狂法者": {
+     "reason": "game_only",
+     "game_id": "90012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90012",
+        "field": "name",
+        "text_id": 55963,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       55963
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "蚀骨魂龙",
+       "北境公主",
+       "凌空械羽"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "祭仪羽冠",
+    "项链": "辉耀之链",
+    "卡牌": "精魄魔牌",
+    "耳坠": "辉耀之环",
+    "衣服": "法球咒铠",
+    "戒指": "霆霓猩红血戒",
+    "腰带": "感电者",
+    "圣物": "霆霓猩红血玺",
+    "裤子": "奏雷鸣裤",
+    "徽章": "霆霓猩红血印",
+    "鞋子": "宗室礼靴",
+    "副手": "霆霓猩红血盾",
+    "武器": "电磁光羽",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "项链": [
+     "逆厄辉链"
+    ],
+    "卡牌": [
+     "龙力魔牌"
+    ],
+    "耳坠": [
+     "逆厄辉环"
+    ],
+    "衣服": [
+     "雷咒长袍"
+    ],
+    "护手": [
+     "妖精秘手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "精魄魔牌": "gear-1291",
+    "龙力魔牌": "gear-1691",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "法球咒铠": "gear-1686",
+    "雷咒长袍": "gear-1687",
+    "霆霓猩红血戒": "gear-188",
+    "感电者": "gear-1690",
+    "霆霓猩红血玺": "gear-176",
+    "奏雷鸣裤": "gear-1860",
+    "霆霓猩红血印": "gear-145",
+    "宗室礼靴": "gear-1282",
+    "霆霓猩红血盾": "gear-164",
+    "电磁光羽": "gear-2296",
+    "幽冥初水": null,
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "腐朽者",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "不灭",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "雷纹",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "闪鸣鸟",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "释放必杀技时，将获得上限数量的闪电球。"
+   },
+   {
+    "rank": 2,
+    "text": "每有50%攻速都可减少【羽刃雷杀】召唤的羽刃的攻击间隔0.1秒，最多减少至0.4秒。"
+   },
+   {
+    "rank": 3,
+    "text": "【羽刃雷杀】的羽刃攻击次数+10，且可同时存在的上限+2。"
+   },
+   {
+    "rank": 4,
+    "text": "【雷密耀空】每次获取的充能+1，且【落影回声】触发时会同时执行闪避动作，并获得0.5秒的无敌。"
+   },
+   {
+    "rank": 5,
+    "text": "【落影回声】触发后，恢复20%最大护盾值，并在接下来3秒内免疫冰冻、昏迷、魅惑。"
+   },
+   {
+    "rank": 6,
+    "text": "凌空械羽造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "灵窍之心",
+   "id": "relic-2159"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "秘术战格",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%87%8C%E7%A9%BA%E6%A2%B0%E7%BE%BD",
+ "revid": 8926,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8926",
+ "rev_timestamp": "2026-05-27T07:04:18Z"
+}

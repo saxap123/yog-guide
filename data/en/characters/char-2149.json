@@ -1,0 +1,676 @@
+{
+ "id": "char-2149",
+ "name": "Blazing Shear",
+ "page_title": "绞刃流火",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Morante",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--07-21",
+  "birthplace": null,
+  "height_weight": "176cm/56kg",
+  "specialties": [
+   "hand-to-hand combat",
+   "cooking",
+   "hunting things"
+  ],
+  "likes": [
+   "watching the moon",
+   "liveliness",
+   "gossip",
+   "royal chess pieces (bond gift)"
+  ],
+  "dislikes": [
+   "deception",
+   "abuse",
+   "grey liquid"
+  ],
+  "release_date": "2025-09-25"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   },
+   {
+    "name": "Resonance Front",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "Attack Speed",
+   "Fire Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Fire Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Blazing Heartfire",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack the nearest enemy, dealing 1000% Magic Fire Damage with a 15% chance to apply Ignite.",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 1000% of Spell Power"
+    }
+   ],
+   "name_zh": "灼灼心火"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Inferno Eclipse",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Blinks behind the farthest enemy and delivers a fierce slash (Invincible during the cast), clears all of its Rage and Stuns it for 2 seconds (each 100 Rage cleared adds 0.2 seconds of Stun), dealing Fire DMG equal to 8500% of Spell Power, and puts both self and that enemy into the Take off the force state for 5 seconds. Take off the force: cannot naturally restore Rage.",
+   "scaling": [
+    {
+     "percent": "8500%",
+     "values": [
+      8500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 8500% of Spell Power"
+    }
+   ],
+   "name_zh": "烬焰影劫"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Scorching Blade's Kiss",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Scissor Slash a small area in front, dealing 2 hits of 3500% Magic Fire Damage.",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 3500% of Spell Power"
+    }
+   ],
+   "name_zh": "烈焚刀吻"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Flameblade Dance",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Scorching Blade's Kiss damage +30%. Gain 6 Flameblade upon casting Blazing Heartfire. For every 20 Flameblade, triggers an additional scissor slash, up to 80 Flameblade can be stored.",
+   "scaling": [],
+   "name_zh": "朱焰刃舞"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Blazing Hex",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Inferno Eclipse damage +50%. After blinking, instantly silences the affected target for 3s.",
+   "scaling": [],
+   "name_zh": "流炎禁咒"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Tempered Body",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Immune to non-basic attack damage when hit, and gain 3s immunity to non-basic attack damage. Cooldown: 20s.",
+   "scaling": [],
+   "name_zh": "淬炼之身"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Crimson Finale",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Blazing Shear's Normal Attack Crit Chance and Skill Crit Chance +30%.",
+   "scaling": [],
+   "name_zh": "赤芒绝响"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Head of Asasin",
+    "Necklace": "Meteorite Necklace",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Primordial Blood",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Emblem of Cruelty",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Blazing Edge",
+    "Handguard": "Abyssal Grasps"
+   },
+   "alternatives": {
+    "Relic": [
+     "Moonlight · Amethyst Ravenhead"
+    ],
+    "Handguard": [
+     "Spark Catcher"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "阿萨辛之首": "gear-1683",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "始祖之血": "gear-1604",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "残虐之徽": "gear-1189",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "烈刃炎上": "gear-2297",
+    "深渊之握": "gear-1192",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Nightfall Helmet",
+    "Necklace": "Black Ocean",
+    "Card": "Soul Abyss Curse Card",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Shadowthorn Lock Armor",
+    "Ring": "Netherflame's Glory",
+    "Belt": "Belt of Electrify",
+    "Relic": "Netherflame's Justice",
+    "Trousers": "Flame-Forged Greaves",
+    "Emblem": "Netherflame's Verdict",
+    "Shoes": "Soul-Chase Boots",
+    "Off-hand": "Netherflame's Supremacy",
+    "Weapon": "Blazing Edge",
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Chain of Radiance"
+    ],
+    "Card": [
+     "Spirit Magic Card"
+    ],
+    "Shoes": [
+     "Royal Family Boots"
+    ],
+    "Handguard": [
+     "Abyssal Grasps"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "夜幕暗盔": "gear-1272",
+    "黑色汪洋": "gear-game-90324",
+    "辉耀之链": "gear-134",
+    "魂渊咒牌": "gear-1505",
+    "精魄魔牌": "gear-1291",
+    "辉耀之环": "gear-138",
+    "刺影锁甲": "gear-1507",
+    "幽焰剑士荣耀": "gear-187",
+    "感电者": "gear-1690",
+    "幽焰剑士截断": "gear-180",
+    "炎铸胫甲": "gear-1861",
+    "幽焰剑士裁决": "gear-147",
+    "影步追魂靴": "gear-1512",
+    "宗室礼靴": "gear-1282",
+    "幽焰剑士极致": "gear-162",
+    "烈刃炎上": "gear-2297",
+    "幽冥初水": "gear-game-90323",
+    "深渊之握": "gear-1192"
+   },
+   "unlinked": {
+    "黑色汪洋": {
+     "reason": "game_only",
+     "game_id": "90324",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90324",
+        "field": "name",
+        "text_id": 69057,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       69057
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪",
+       "不熄曜日",
+       "绞刃流火",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Fire Spell",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Flame Dragon",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "When Scorching Blade's Kiss hits a target, 50% chance to increase damage taken from basic attacks by 5% (10% if the attacker is Morante), last 12 seconds,stacking up to 6 times."
+   },
+   {
+    "rank": 2,
+    "text": "At the start of battle, gain the maximum number of Energy Orbs, and when casting [Flame Shadow Calamity], each Energy Orb consumed extends the enemy's Exhaustion (Take off the force) duration by 0.5 seconds."
+   },
+   {
+    "rank": 3,
+    "text": "When casting [Flame Shadow Calamity], treats the target as having at least 500 Rage"
+   },
+   {
+    "rank": 4,
+    "text": "Tempered Body duration +2s, and immune to Stun, Freeze, Charm, and Polymorph."
+   },
+   {
+    "rank": 5,
+    "text": "At the start of battle, silence all enemy units for 3s."
+   },
+   {
+    "rank": 6,
+    "text": "All damage dealt by Morante +10%"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Bodyforge Heartforge",
+   "id": "relic-2161"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9E%E5%88%83%E6%B5%81%E7%81%AB",
+ "revid": 8951,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8951",
+ "rev_timestamp": "2026-05-28T01:48:35Z",
+ "i18n": {
+  "name_zh": "绞刃流火",
+  "sources": {
+   "derived": 5,
+   "game_db": 16,
+   "glossary": 82,
+   "lore": 1,
+   "names": 64,
+   "translated": 14
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 82343,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 82344,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 82346,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 82347,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 82348,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 82330,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 82333,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 82334,
+    "match": "loose"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 82335,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "翡翠城",
+    "reason": "not translatable (see translate/manual/texts)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "blood_ranks.ranks[1].text",
+    "zh": "焰影劫",
+    "en": "Flame Shadow Calamity"
+   },
+   {
+    "path": "blood_ranks.ranks[2].text",
+    "zh": "焰影劫",
+    "en": "Flame Shadow Calamity"
+   }
+  ]
+ }
+}

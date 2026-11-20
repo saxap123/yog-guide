@@ -1,0 +1,162 @@
+{
+  "subject": "告死之徽",
+  "group": "relics",
+  "page_revid": 7621,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%91%8A%E6%AD%BB%E4%B9%8B%E5%BE%BD",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%91%8A%E6%AD%BB%E4%B9%8B%E5%BE%BD&format=json",
+  "fetched_at": "2026-11-20T16:23:17+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "告死之徽#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/6/1/44/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "遗物#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/10/14/7/47/30/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "告死之徽"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、15%闪电伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%全伤害类型减免、8.5%全伤害类型减免、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%受到法术伤害降低、8.5%受到法术伤害降低、8.5%受到物理伤害降低、8.5%受到物理伤害降低、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "专属"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑市-长城圣殿"
+            }
+          ]
+        },
+        {
+          "property": "进阶固有技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【乱舞手里剑】造成伤害时，有4%几率(每拥有1点法术精通，增加0.1%触发几率)使下一次释放的【奥义·雷狱】的持续时间延长0.1秒。"
+            }
+          ]
+        },
+        {
+          "property": "进阶随机技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【飞刃】造成的伤害提升(6.00%-10.00%)；【乱舞手里剑】造成的伤害提升(6.00%-10.00%)；【奥义·雷狱】造成的伤害提升(6.00%-10.00%)"
+            }
+          ]
+        },
+        {
+          "property": "遗物名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "告死之徽"
+            }
+          ]
+        },
+        {
+          "property": "遗物技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "夜行暹罗佩戴时，造成的所有伤害增加5%+25%；夜行暹罗必杀技：【奥义·雷狱】的伤害间隔减少0.3秒。"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "夜行暹罗"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,520 @@
+{
+  "subject": "纯白之羽",
+  "group": "characters",
+  "page_revid": 9127,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%BA%AF%E7%99%BD%E4%B9%8B%E7%BE%BD",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BA%AF%E7%99%BD%E4%B9%8B%E7%BE%BD&format=json",
+  "fetched_at": "2026-11-20T16:13:16+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "纯白之羽#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "获得专属项链：[[纯白澄晶]]"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "《我们的约定》"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#F56C6C\">×重油重盐的肉，补充营养</span>"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#67C23A\">√采来的果子</span>"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "《安黛莉的食物》"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#F56C6C\">×把他狂揍一顿，替安黛莉出气</span>"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#67C23A\">√坐下来促膝长谈，跟他讲道理</span>"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "《医者天职》"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "纯白之羽#0##_QUERYd884cf7b9c42f1292aaa3152ad16af85"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/11/5/39/50/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/8/11/3/15/16/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "纯白之羽"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2022年08月15日"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "智慧、敌法、魔导、医者、通灵、流星、风涌"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "167cm/65kg（包含翅膀）"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "蒙特沃德森林"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "纯白之羽"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "小动物、大自然、鲜花、<span style=\"color:red\">花草茶（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "辅助"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "安黛莉"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "火焰"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "被动效果:拥有神圣力量的安黛莉，进行普通攻击时释放天罚，对最多4个敌人造成80%法术强度的火焰伤害。主动释放:立即回复生命最低的队友120%法术强度的生命，并获得神圣赐福，赐福持续期间所受到的所有伤害转化为治疗效果,持续1.5秒(可被净化)"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "恐熊",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "普攻击中敌人后，安黛莉的攻击速度提升5%,最多叠加16次。"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对10米范围内的1名敌人造成73%攻击力的火焰伤害。"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "12月25日"
+            }
+          ]
+        },
+        {
+          "property": "石像鬼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "纯白之羽"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SS"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "流血受伤、锋利的武器"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "安黛莉造成伤害的10%转化为对全体友方的治疗。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "}安黛莉攻击时，造成伤害的10%将用于治疗攻击目标5米范围内所有友方单位。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "自身受到致命伤害时，立刻对自己释放一次。【纯净祝福每隔25秒触发一次】"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【纯净祝福】释放对象变为全体队友，且持续时间增加1.5秒。"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "振奋鼓舞战友，所有友方单位初始怒气增加25点"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "能够轻松快速的释放法术，主动技能冷却时间降低10%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "法术强度提升6%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全抗性提升8点，伤害减免8%"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "纯白之羽"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "纯白之羽#0##_QUERYd884cf7b9c42f1292aaa3152ad16af85",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::纯白之羽]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "纯白之羽# QUERYd884cf7b9c42f1292aaa3152ad16af85"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

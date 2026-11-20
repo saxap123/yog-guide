@@ -1,0 +1,45 @@
+{
+  "subject": "扩散魔链",
+  "group": "extra_items",
+  "page_revid": 9040,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%89%A9%E6%95%A3%E9%AD%94%E9%93%BE",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%89%A9%E6%95%A3%E9%AD%94%E9%93%BE&format=json",
+  "fetched_at": "2026-11-20T17:05:00+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "扩散魔链#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/7/19/6/14/5/0"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/7/19/6/14/52/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "扩散魔链"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

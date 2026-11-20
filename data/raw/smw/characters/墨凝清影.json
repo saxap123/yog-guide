@@ -1,0 +1,641 @@
+{
+  "subject": "墨凝清影",
+  "group": "characters",
+  "page_revid": 8607,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%A2%A8%E5%87%9D%E6%B8%85%E5%BD%B1",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A2%A8%E5%87%9D%E6%B8%85%E5%BD%B1&format=json",
+  "fetched_at": "2026-11-20T16:11:36+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "墨凝清影#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "获得专属武器：[[云梦纤笔]]"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "《未沫的画卷》"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#67C23A\">✓去天台</span>"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#F56C6C\">×回家</span>"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "《消失的未沫》"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#67C23A\">✓摸摸角</span>"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#F56C6C\">×摸摸头</span>"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "《奇怪的未沫》"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "墨凝清影#0##_QUERY8082352521603c61e666b7d3b94e00d9"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/11/4/37/46/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/2/8/4/4/13/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2024年06月27日"
+            }
+          ]
+        },
+        {
+          "property": "主符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "生息、凝冰、戏火者、毒牙、雷灭之刃、不灭、圣光守护"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "强袭、敌法、医者、妖精、流星、聚变、灭法"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "147cm/43kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "亚克兰斯"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "甜味植物、甜味食物、抚摸、<span style=\"color:red\">可口小蛋糕（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "辅助"
+            }
+          ]
+        },
+        {
+          "property": "备注",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "在此感谢&nbsp;<span style=\"color:rgb(69 113 236)\">观海大佬（水金861）</span>提供符文图"
+            },
+            {
+              "type": 2,
+              "item": "<span style=\"color:red\">配装思路：2血阶配合100技爆等于150技爆（【笔底春花】技能），105回怒配合遗物进阶全程大招，剩下的全堆CD配合武器-2秒，让其他物理黑卫吃满小鹿的伤害加成</span>"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "未沫"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "物理"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影使所有己方单位移动速度提升30%，持续8秒。【挥翰成风】带来的增益效果生效的4秒内无法被驱散。"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影在场时，友方黑卫造成的物理伤害提升12%。"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影朝前方展开画作，对路径上敌人造成700%物理强度的物理伤害。(伤害视为技能伤害，且此效果不会受攻速影响)"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "6月26日"
+            }
+          ]
+        },
+        {
+          "property": "石像鬼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "妖精"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "触发【仙禽鸣应】的角色技能暴击概率达到100%/150%/200%时，生成的仙禽数量分别+1。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【呦呦鹿鸣】额外提高10%的技能暴击概率。"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【墨光淋漓】额外提升8%物理伤害。"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "每只仙禽造成伤害时，会使目标降低1%受到的治疗效果，该效果无法驱散。(上限100层)"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影在场时，强袭阵线提供的防御穿透值+2.5%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影造成的所有伤害+10%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶推荐及理由",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1阶可用，2阶加技爆完全体，45阶pvp"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑暗、火光、孤单"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影绘制仙禽祝福所有队友，当被祝福的队友释放物理技能造成暴击时，该队友触发仙禽祝福生成仙禽攻击敌人，对敌人造成相当于触发者6000%物理强度的物理伤害，不同队友的触发间隔独立计算。该效果有10秒触发间隔，且会受到墨凝清影冷却效果影响，最低不会少于2秒。(仙禽的伤害不享受全伤害和物理伤害增幅影响)"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【挥翰成风】释放时增加所有队友15%技能暴击概率物理黑卫额外提升一倍，持续8秒。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影每拥有1.5%的技能暴击概率，可使【仙禽鸣应】造成的伤害提高1%(加成上限为100%)，同时【泼墨绘彩】造成伤害时，恢复所有队友800%物理强度的生命。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【挥翰成风】提供的移动速度提升20%，且期间免疫昏迷。"
+            }
+          ]
+        },
+        {
+          "property": "辅助符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "强健"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "振奋鼓舞战友，所有友方单位初始怒气增加25点"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "能够轻松快速的释放法术，主动技能冷却时间降低10%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "法术强度提升6%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全抗性提升8点，伤害减免8%"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、技能暴击、最大生命值、体质、CD减少、怒气、怒气恢复"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "物理抗性、暴击伤害减免、受到法术伤害降低、受到物理伤害降低、力量"
+            }
+          ]
+        },
+        {
+          "property": "金乌",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "墨凝清影"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "墨凝清影#0##_QUERY8082352521603c61e666b7d3b94e00d9",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::墨凝清影]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "墨凝清影# QUERY8082352521603c61e666b7d3b94e00d9"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

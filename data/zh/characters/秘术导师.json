@@ -1,0 +1,236 @@
+{
+ "id": "char-1810",
+ "name": "秘术导师",
+ "page_title": "秘术导师",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "薇琪",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "6月23日",
+  "birthplace": "帝国首都马恩",
+  "height_weight": "169cm/50kg",
+  "specialties": [
+   "调教坏孩子"
+  ],
+  "likes": [
+   "良好的课堂纪律,干净整洁的环境,各类布料"
+  ],
+  "dislikes": [
+   "杂乱",
+   "以下犯上",
+   "破坏规矩的人"
+  ],
+  "release_date": "2021年06月27日"
+ },
+ "element": "闪电",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "秘术",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": []
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "不可侵犯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "吸收雷电，恢复自身600%法术强度的生命值,并获得【不稳定电流】。当受到10%生命的伤害值时，对12米范围内的随机目标释放闪电,造成10%法术强度的雷电伤害，并有10%几率驱散其所有增益状态，降低其90%移动速度和50%攻击速度。",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "法术强度",
+     "effect": "生命值",
+     "text": "600%法术强度的生命值"
+    },
+    {
+     "percent": "10%",
+     "values": [
+      10.0
+     ],
+     "stat": "法术强度",
+     "effect": "雷电伤害",
+     "text": "10%法术强度的雷电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "雷云风暴",
+   "cooldown_s": 15,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "召唤雷云风暴,风暴每秒电击随机敌方单位，造成50%法术强度的闪电伤害。雷云风暴存在6秒。",
+   "scaling": [
+    {
+     "percent": "50%",
+     "values": [
+      50.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "50%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "雷引",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "5秒内每进行一次普攻,都会使普攻的闪电链额外连锁一次。最多可增加至5次。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "雷霆灼目",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普攻击中敌人时，有25%几率使目标目盲。目盲:降低75%普攻命中几率。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "感电力场",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普攻击中敌人时，有100%几率使目标感电。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "狂雷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普攻时有25%的几率会额外执行一次。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "玻璃大炮",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "放弃防护，专心攻击，造成的伤害提高15%，但是自身受到的伤害也提高10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "元素充能",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "造成非物理伤害时，恢复造成伤害10%的生命值",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "薇琪的童年并不快乐,早年丧父,母亲一手将她带大，并对她施行了严苛的教育,要求她能够继承父亲的皇家学院教授职位。\n重重压力没有压垮薇琪，反而使她成为了待人律己都非常苛刻的完美主义者，她以优异的成绩考入皇家学院后，发现父亲的研究并不适合自己，便拒绝了教授身份,选择了帝国军方为她提供的一条路――成为帝国支援人员加入黑卫学院。\n天赋异禀的薇琪很快就成为了首屈一指的大法师，她曾效力于秘术部队并取得优异战果,但为了让她更好发挥自己的才能，学院高层决定让薇琪退到二线担任导师，用来培育更多掌控秘术力量的黑卫。\n由此，这位完美主义者成了一位严厉、不苟言笑、惩戒手段强硬的秘术导师，她是黑卫新生的噩梦，课堂出勤率永远是100%,再调皮的学生都会被调教得服服帖帖。",
+  "deeds": [
+   "依照黑卫学院与帝国的协议，薇琪需要定期返回马恩皇宫述职，尽管帝国一再暗示她对黑卫的训练要有保留，不可传授太多，但在她眼里,所有学生都是一样的,她都会倾囊传授。\n在学生里,薇琪对乌西洛蒂寄托了厚望,这个女孩在秘术领域钻研奋斗的精神，让薇琪仿佛能看到了当年的自己，她很期待乌西洛蒂能在冰系秘术上得到远超于她的成果。",
+   "作为完美主义者，薇琪对自己和他人的要求都非常高，再加之成长期间受到了帝国文化的极大影响,她对纪律和秩序格外重视，两者相加使得她有一定程度上的强迫症，无法容忍杂乱的环境。\n薇琪的学生普遍都不喜欢她，或者说是怕她，甚至同事都觉得她有时会显得过于固执,难以交流――恐怕连薇琪自己都放弃了人际关系的缓和，只专注于成为一名秘术导师，教授学生们怎么在和磨物的对抗中活下来。",
+   "薇琪与薇薇恩的关系比较糟糕，两人性格不合加教育理念不同，让两人势如水火，针尖对麦芒―—这个时候就是芭芭拉偷溜的最好时机了。",
+   "薇琪喜欢收集美丽的织物和各式布料，压力大的时候会打开收藏柜，—边摩裟手中的布料一边想事情。\n薇琪的少女时期,周边所有的人，所有的态度,所有的环境都是强硬刚性的,唯一陪伴她的柔软之物只有母亲裁缝铺里各式纹路的布料和半成品的织物。\n在母亲积劳过世之后，这个习惯似乎就永远刻在了她的心里。",
+   "薇琪身上的法师长袍是旧帝国时代的风格，是帝国皇家学院颁发一种奖励，象征着对穿戴者本人魔法造诣的认可，薇琪似乎对此引以为豪，非常喜欢穿着这件长袍，但这也引来了不少旧帝国仇视者的不满。",
+   "除了常规秘术,薇琪还会一些黑魔法,这是她当年坚持钻研旧帝国魔法理论的产物，她付出了常人难以想象的努力，换来了对黑魔法的擅长——但在这种古老的领域，光靠努力依旧无法深入前沿。\n当然,如果是作为教育者,那么不论是理论还是实战，她的经验都太丰厚了。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%A7%98%E6%9C%AF%E5%AF%BC%E5%B8%88",
+ "revid": 8637,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8637",
+ "rev_timestamp": "2026-02-08T04:25:06Z"
+}

@@ -1,0 +1,632 @@
+{
+  "subject": "绯红荆棘",
+  "group": "characters",
+  "page_revid": 8836,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%AF%E7%BA%A2%E8%8D%86%E6%A3%98",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BB%AF%E7%BA%A2%E8%8D%86%E6%A3%98&format=json",
+  "fetched_at": "2026-11-20T16:13:31+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "绯红荆棘#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "相似而又不同"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "你是你自己"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "伊丽莎白"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "理解"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不理解"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "绯红荆棘#0##_QUERY26abac3e211be8c67e2adfd55247c008"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/11/4/34/44/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "含有受损文件链接的页面#14##"
+            },
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/5/1/6/30/5/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯红荆棘"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2023年10月25日"
+            }
+          ]
+        },
+        {
+          "property": "主符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "残月、魔哮、毒牙、雷霆咆哮、逐日者、戏火者、怒法"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "诡影、噬魂、统帅、超导、力场、流星、聚变"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "171cm/52kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "未知的古老山脉"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯红荆棘"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "飞鸟、甜食、伊丽莎白、<span style=\"color:red\">可口小蛋糕（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "刺杀"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "伊丽莎白"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "火焰"
+            }
+          ]
+        },
+        {
+          "property": "巫妖",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "在距离最近的敌方位置处释放强力攻击，目标及其周围5米范围内的敌人造成5000%法术强度的火焰伤害如果是竞技场环境中，则额外选择范围内一名敌人。"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "快速移动到生命最低的敌方单位处，并对路径上所有敌人造成5000%法术强度的火焰伤害。"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对近战范围内的1名敌人造成600%法术强度的火焰伤害"
+            }
+          ]
+        },
+        {
+          "property": "炎龙",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8月4日"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "龙裔"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯红荆棘"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【炽焰狂蔓】击中敌方目标获得追猎状态，如果是竞技场环境中，则有几率获得追猎状态，状态持续7.5秒。(自身的感知高于目标越多，触发的几率越高)追猎状态，持续期间可无条件的消耗所有剩余能量释放【炽焰狂蔓】。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【焰影灼痕】的发动概率+10%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【焰影灼痕】触发时有几率偷取普攻命中目标的最多20点源力值。(自身的感知越高，触发几率越高"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【焰影灼痕】偷取的源力值，会用来恢复队伍内所有黑卫的源力值。当绯红荆棘击杀敌人时，将延长<追猎状态>的持续时间1.5秒；如果命中了BOSS怪物/敌方黑卫，则使<追猎状态>分别延长1/0.5秒。通过以上效果<追猎状态>最多可延长至15秒。"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "进入战斗时，队伍中所有黑卫的反击技能发动概率+10%，持续30秒"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯红荆棘造成的所有伤害+10%。"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "荣耀与使命、“伊丽莎白”、各种做法的蔬菜"
+            }
+          ]
+        },
+        {
+          "property": "诡眼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯红荆棘每释放8次【炽焰狂蔓】，都有概率对目标及其附近的大范围敌人造成40000%法术强度的火焰伤害。发动概率：20%。该效果有最小8秒的触发间隔(该技能视为普攻伤害)"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【炽焰狂蔓】会造成一次6000%法术强度的额外火焰伤害，该伤害视为必杀技伤害。如果目标生命值低于15%(竞技场中减半)，则会被直接杀死。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯红荆棘受到伤害时，会迅速朝身后闪避，闪避动作开始后的0.5秒内，绯红荆棘不会受到任何伤害。该技能最小触发间隔为3秒。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯红荆棘的技能暴击几率+20%"
+            }
+          ]
+        },
+        {
+          "property": "辅助符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "火咒"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对法术强度或物理强度低于自身的敌人造成伤害提高12%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对生命值为满的敌人造成伤害提高15%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到减益效果的持续时间减少30%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、%法术强度、技能暴击、火焰穿透、暴击倍率、魔力、全伤害类型增幅、法术伤害增幅、火焰伤害增幅、法术精通"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "最大护盾值、意志、物理抗性、暴击伤害减免、受到法术伤害降低、受到物理伤害降低"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯红荆棘"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "绯红荆棘#0##_QUERY26abac3e211be8c67e2adfd55247c008",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::绯红荆棘]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "绯红荆棘# QUERY26abac3e211be8c67e2adfd55247c008"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

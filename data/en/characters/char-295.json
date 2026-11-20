@@ -1,0 +1,835 @@
+{
+ "id": "char-295",
+ "name": "Blooming Ink Deer",
+ "page_title": "墨凝清影",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Weimo",
+  "gender": "Female",
+  "race": "Fairies",
+  "birthday": "--06-26",
+  "birthplace": "Arklance",
+  "height_weight": "147cm/43kg",
+  "specialties": [
+   "night vision",
+   "drafting",
+   "granting wishes"
+  ],
+  "likes": [
+   "sweet plants",
+   "sweet food",
+   "petting",
+   "tasty little cakes (bond gift)"
+  ],
+  "dislikes": [
+   "Dark",
+   "firelight",
+   "being lonely"
+  ],
+  "release_date": "2024-06-27"
+ },
+ "element": "Physical",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Skill Crit",
+   "Max HP",
+   "Constitution",
+   "CD Reduction",
+   "Rage",
+   "Rage Restore"
+  ],
+  "secondary": [
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Strength"
+  ]
+ },
+ "note": "Build idea: Sanguine 2 with 100 Skill Crit equals 150 Skill Crit ([Spring Blossoms of the Brush] skill); 105 Rage regen with the relic advancement gives the ultimate for the whole fight; stack everything else into CD together with the Weapon's -2 seconds, so the other Physical Black Guards get the full DMG bonus of the little deer [Little Deer]",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Splash Ink, Paint Fate",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Weimo unfolds a scroll forward, causing Physical DMG equal to 700% of Physical Power to enemies on the path. (Consider as Skill DMG, and Attack Speed Boost won't take effect on it)",
+   "scaling": [
+    {
+     "percent": "700%",
+     "values": [
+      700.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 700% of Physical Power"
+    }
+   ],
+   "name_zh": "泼墨绘彩"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Swipe Brush like Wind",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Weimo increases all allies' Movement Speed by 30%, last for 8 sec. The Buff granted by [Swipe Brush like Wind] can't be dispelled within 4 sec after it takes effect.",
+   "scaling": [],
+   "name_zh": "挥翰成风"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Flowing Ink Swell",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "While Blooming Ink Deer is on the field, Physical DMG dealt by allied Blackguards is increased by 12%.",
+   "scaling": [],
+   "name_zh": "墨光淋漓"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Fairy Swallow Sings",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Blooming Ink Deer paints Fairy Swallows to bless all allies. When a blessed ally casts a Physical skill and lands a crit, that ally triggers the Fairy Swallow blessing, creating a Fairy Swallow that attacks enemies, dealing Physical DMG equal to 6000% of the triggerer's Physical Power; the trigger intervals of different allies are calculated independently. This effect has a 10-second trigger interval, which is affected by Blooming Ink Deer's cooldown effects, down to a minimum of 2 seconds. (Fairy Swallow DMG does not benefit from All DMG and Physical Damage Boost)",
+   "scaling": [
+    {
+     "percent": "6000%",
+     "values": [
+      6000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 6000% of Physical Power"
+    }
+   ],
+   "name_zh": "仙禽鸣应"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When [Swipe Brush like Wind] is cast, increases all allies' Critical Chance (Skill) by 15%, with Physical Blackguards additionally getting double the increase, lasting 8 seconds.",
+   "scaling": [],
+   "name_zh": "呦呦鹿鸣"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "For every 1.5% Critical Chance (Skill) Blooming Ink Deer has, DMG dealt by [Fairy Swallow Sings] increases by 1% (bonus cap 100%); also, when [Splash Ink, Paint Fate] deals DMG, restores HP equal to 800% Physical Power to all allies.",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Physical Power",
+     "effect": "HP",
+     "text": "HP equal to 800% of Physical Power"
+    }
+   ],
+   "name_zh": "笔底春花"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Portray Cloud Mists",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases the Movement Speed Boost granted by [Swipe Brush like Wind] by 20%, and gain Stun immune during the duration.",
+   "scaling": [],
+   "name_zh": "落纸云烟"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Bullseye",
+    "Necklace": "Spiral Guide",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Abyssal Bastion",
+    "Ring": "Crimson Band",
+    "Belt": "Girdle of Light",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Elementalist's Britches",
+    "Emblem": "Runes of the Surge",
+    "Shoes": "Sandals of the Sages",
+    "Off-hand": "Ancient Arcanist's Barrier",
+    "Weapon": "Yunmeng Slim Pen",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Moonlight · Supernova"
+    ],
+    "Armor": [
+     "Raging Armor"
+    ],
+    "Emblem": [
+     "Disc of Revival"
+    ],
+    "Off-hand": [
+     "Necromancer's Deliverance"
+    ],
+    "Handguard": [
+     "Embroidered Sacrificial Gloves"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·精英射手": "gear-1080",
+    "月辉·芒星守护": "gear-1194",
+    "指路吊坠": "gear-1081",
+    "深渊壁垒": "gear-1082",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "沐光环绕": "gear-1199",
+    "月辉·紫晶鸦首": "gear-1173",
+    "元素大师之裤": "gear-1174",
+    "魔涌之徽": "gear-1176",
+    "复苏徽识": "gear-game-7007",
+    "智者足具": "gear-game-15016",
+    "古老魔盾": "gear-game-5020",
+    "死灵法盾": "gear-1178",
+    "云梦纤笔": "gear-1186",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627"
+   },
+   "unlinked": {
+    "复苏徽识": {
+     "reason": "game_only",
+     "game_id": "7007",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "7007",
+        "field": "name",
+        "text_id": 54995,
+        "type": "12"
+       }
+      ],
+      "text_ids": [
+       54995
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "古老魔盾": {
+     "reason": "game_only",
+     "game_id": "5020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5020",
+        "field": "name",
+        "text_id": 53826,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53826
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "忘却迷境攻略",
+       "冷却装备"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Ritual Feather Crown",
+    "Necklace": "Chain of Radiance",
+    "Card": null,
+    "Earrings": "Ring of Radiance",
+    "Armor": "Raging Armor",
+    "Ring": "Ring of Fervor Heart",
+    "Belt": "Spiritual Healing Wheel",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Revitalizing Trousers",
+    "Emblem": "Emblem of Fervor Heart",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Shield of Fervor Heart",
+    "Weapon": "Spring Rises",
+    "Handguard": "Azure Stone Gloves"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ],
+    "Relic": [
+     "Wish of Support"
+    ],
+    "Trousers": [
+     "Elemental Holy Spirit Pants"
+    ],
+    "Shoes": [
+     "Boots of Mercy"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "聚能之铠": "gear-1170",
+    "碧落丹心净戒": "gear-1593",
+    "灵愈生轮": "gear-1516",
+    "月辉·紫晶鸦首": "gear-1173",
+    "辅助之愿": "gear-game-90286",
+    "气韵回生裤": "gear-1509",
+    "元素圣灵裤": "gear-1285",
+    "碧落丹心净徽": "gear-1595",
+    "月辉·王室金靴": "gear-1177",
+    "怜悯圣靴": "gear-2024",
+    "碧落丹心净盾": "gear-1596",
+    "云起春鸣": "gear-game-90355",
+    "碧落丹心净手": "gear-1657"
+   },
+   "unlinked": {
+    "辅助之愿": {
+     "reason": "game_only",
+     "game_id": "90286",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90286",
+        "field": "name",
+        "text_id": 63325,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       63325
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "云起春鸣": {
+     "reason": "game_only",
+     "game_id": "90355",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90355",
+        "field": "name",
+        "text_id": 76606,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       76606
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "墨凝清影"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Animus",
+    "id": "rune-1995",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Condensation",
+    "id": "rune-1996",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Blade of Thunder",
+    "id": "rune-1425",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Strong Rock",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "When the Skill Crit Chance of the character that trigger the [Fairy Swallow Sings] is reaching 100%/150%/200%, the Fairy Swallow summoned is increased by 1 respectively."
+   },
+   {
+    "rank": 2,
+    "text": "[Inky Deer Sounds] additionally increases Skill Crit Chance by 10%."
+   },
+   {
+    "rank": 3,
+    "text": "[Flowing Ink Swell] additionally increases Physical DMG Dealt by 8%."
+   },
+   {
+    "rank": 4,
+    "text": "When each Fairy Swallow deals DMG, reduces the Healing Taken of the target by 1%, this effect can't be dispelled. (Stack up to 100 times)"
+   },
+   {
+    "rank": 5,
+    "text": "When Weimo is on the field, Armor Penetration effect gained from Avengers Front is increased by 2.5%."
+   },
+   {
+    "rank": 6,
+    "text": "Weimo's All DMG Dealt is increased by 10%."
+   }
+  ],
+  "recommendation": "Usable from rank 1; rank 2 adds Skill Crit (complete form); ranks 45 for PVP"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "All things come together",
+   "id": "relic-1946"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《消失的未沫》",
+   "answers": [
+    "✓去天台",
+    "×回家"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《奇怪的未沫》",
+   "answers": [
+    "✓摸摸角",
+    "×摸摸头"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《未沫的画卷》",
+   "answers": [
+    "获得专属武器：云梦纤笔"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A2%A8%E5%87%9D%E6%B8%85%E5%BD%B1",
+ "revid": 8607,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8607",
+ "rev_timestamp": "2026-02-08T04:04:13Z",
+ "i18n": {
+  "name_zh": "墨凝清影",
+  "sources": {
+   "derived": 5,
+   "game_db": 16,
+   "glossary": 82,
+   "lore": 2,
+   "names": 65,
+   "translated": 18
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 73559,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 73561,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 73565,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 73568,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 73569,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 73570,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 73571,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 73572,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 73573,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[4].name",
+    "zh": "呦呦鹿鸣",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[5].name",
+    "zh": "笔底春花",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ],
+  "unofficial_names": [
+   {
+    "path": "note",
+    "zh": "笔底春花",
+    "en": "Spring Blossoms of the Brush"
+   },
+   {
+    "path": "note",
+    "zh": "小鹿",
+    "en": "Little Deer"
+   },
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

@@ -1,0 +1,148 @@
+{
+  "subject": "悬日金翎",
+  "group": "relics",
+  "page_revid": 8783,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%82%AC%E6%97%A5%E9%87%91%E7%BF%8E",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%82%AC%E6%97%A5%E9%87%91%E7%BF%8E&format=json",
+  "fetched_at": "2026-11-20T16:23:48+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "悬日金翎#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/3/26/10/24/7/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "含有受损文件链接的页面#14##"
+            },
+            {
+              "type": 9,
+              "item": "遗物#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/3/26/10/24/7/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "悬日金翎"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、15%物理伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%全伤害类型减免、8.5%全伤害类型减免、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%受到法术伤害降低、8.5%受到法术伤害降低、8.5%受到物理伤害降低、8.5%受到物理伤害降低、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "专属"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑市-长城圣殿"
+            }
+          ]
+        },
+        {
+          "property": "遗物名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "悬日金翎"
+            }
+          ]
+        },
+        {
+          "property": "遗物技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯晶战影佩戴时，造成的所有伤害增加5%+25%；【怒甲之护】触发时，自身获得20000%物理强度的魔法盾，持续3秒。(该效果不与其他魔法盾效果共存)"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绯晶战影"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

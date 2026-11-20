@@ -1,0 +1,677 @@
+{
+  "subject": "玉尘灵仙",
+  "group": "characters",
+  "page_revid": 9187,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%8E%89%E5%B0%98%E7%81%B5%E4%BB%99",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%8E%89%E5%B0%98%E7%81%B5%E4%BB%99&format=json",
+  "fetched_at": "2026-11-20T16:12:48+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "玉尘灵仙#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度答案"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "玉尘灵仙#0##_QUERYd081c6916ab66c3e55538fc6027d37af"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/1/22/9/31/21/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "含有受损文件链接的页面#14##"
+            },
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/9/21/7/19/41/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "玉尘灵仙"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2025年01月22日"
+            }
+          ]
+        },
+        {
+          "property": "专武",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "萧瑟鸣锋"
+            }
+          ]
+        },
+        {
+          "property": "主符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雷灭之刃、盎然、腐朽者、毒牙、怒法、不灭、锻钢/绝刃"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "强袭、坚韧、通灵、统帅、盾御、流星、暴怒"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "173cm/52kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "九域国"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "玉尘灵仙"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "被她重视的一切、<span style=\"color:red\">金翠茶壶（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "前锋"
+            }
+          ]
+        },
+        {
+          "property": "备注",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "在此感谢&nbsp;<span style=\"color:rgb(69 113 236)\">观海大佬（水金861）</span>提供符文图"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "若英"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "物理"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "进入通玄妙境，开天目，释放神光，对前方大范围敌人进行扫射，造成5000%物理强度的物理伤害。"
+            }
+          ]
+        },
+        {
+          "property": "怒兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "朝最近的敌人冲锋，并对路径上所有敌人造成2500%物理强度的物理伤害。"
+            }
+          ]
+        },
+        {
+          "property": "推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "舞动长枪对前方敌人进行攻击，造成1200%物理强度的物理伤害。(不受攻速影响，视为技能伤害)"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "3月18日"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "人类"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "玉尘灵仙"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "立绘2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘2"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【无穷妙道】的释放间隔-1秒，凝聚的法身数量+1。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "获得每秒恢复20点神通力的效果，且【无穷妙道】造成的伤害提升60%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【天目神光】释放时将额外凝聚一道法身代替自身进行释放。"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【证吾神通】每命中1名敌人都将恢复1000%物理强度的生命值，且造成的伤害提升75%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凝聚的法身造成伤害时将无视敌方的无敌效果。"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "玉尘灵仙造成的所有伤害+10%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶推荐及理由",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "PVE3阶可用，PVP5阶完全体，养成成本较高，酌情考虑。"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "魔物、魔修"
+            }
+          ]
+        },
+        {
+          "property": "诅咒灵",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "诡眼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "附近有敌人时，每隔3秒凝聚两具法身，对敌方释放神光，造成3500%物理强度的物理伤害，每拥有1点神通力将提升1%此技能造成的伤害，并消耗所有神通力。习得此技能后，【飞燕入栊】和【凌云逐风】释放时将分别获得5/15点神通力，神通力上限50点。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【天目神光】造成的伤害提升100%，且释放时凝聚一具法身和自己一同释放。玉尘灵仙对首领怪物造成的伤害提升50%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到伤害时，有10%的几率凝聚2具法身，对敌人发射神光进行反击，造成1500%物理强度的物理伤害；且触发时会解除自身受到的冰冻、昏迷、魅惑、妖术效果；反击效果具有3秒的基础间隔。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "玉尘灵仙的技能暴击几率+30"
+            }
+          ]
+        },
+        {
+          "property": "辅助符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "铁荆"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对受伤的敌人进行毫不留情的处决，对生命值低于15%的目标造成伤害提高20%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、%物理强度、技能暴击、物理穿透、暴击倍率、力量、全伤害类型增幅、物理伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "最大生命值、体质、物理抗性、怒气回复、暴击伤害减免、受到法术伤害降低、受到物理伤害降低、怒气"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "玉尘灵仙"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "玉尘灵仙#0##_QUERYd081c6916ab66c3e55538fc6027d37af",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::玉尘灵仙]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "玉尘灵仙# QUERYd081c6916ab66c3e55538fc6027d37af"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

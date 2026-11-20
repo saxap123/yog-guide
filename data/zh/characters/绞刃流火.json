@@ -1,0 +1,553 @@
+{
+ "id": "char-2149",
+ "name": "绞刃流火",
+ "page_title": "绞刃流火",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "莫兰提",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "7月21日",
+  "birthplace": "翡翠城",
+  "height_weight": "176cm/56kg",
+  "specialties": [
+   "格斗",
+   "烹饪",
+   "打猎东西"
+  ],
+  "likes": [
+   "看月亮",
+   "热闹",
+   "八卦东西",
+   "王权棋子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "欺骗",
+   "虐待",
+   "灰液"
+  ],
+  "release_date": "2025年09月25日"
+ },
+ "element": "火焰",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "刺杀",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "诡影",
+    "id": "faction-2198"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   },
+   {
+    "name": "共鸣",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "技能暴击",
+   "攻击速度",
+   "火焰穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "火焰伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "灼灼心火",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对最近的单个敌人进行攻击，造成1000%法术强度的火焰伤害，并有15%几率对目标施加点燃。",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "1000%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "烬焰影劫",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "闪现到最远的敌人身后，对其进行强烈的斩击(释放过程中处于无敌状态)，清空其所有怒气值并对其施加2秒的击晕(每清空100怒气，额外增加0.2秒击晕)，并造成8500%法术强度的火焰伤害，且会使自己和该敌人陷入5秒的脱力状态。脱力:无法自然恢复怒气值。",
+   "scaling": [
+    {
+     "percent": "8500%",
+     "values": [
+      8500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "8500%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "烈焚刀吻",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对前方小范围敌人进行剪切，造成2次3500%法术强度的火焰伤害。",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "3500%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "朱焰刃舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【烈焚刀吻】造成的伤害提升30%，且【灼灼心火】释放时，获得6点“朱焰”，释放【烈焚刀吻】时，每有20点“朱焰”，都将额外释放一次剪切，最多可以储存80点“朱焰”",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "流炎禁咒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【烬焰影劫】造成的伤害提升50%，且【烬焰影劫】闪现后，立刻沉默技能的释放对象，持续3秒。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "淬炼之身",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到非普攻伤害时，免疫该次伤害，并使自己在接下来3秒内不会受到非普攻伤害，该效果有20秒的触发间隔。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "赤芒绝响",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "绞刃流火的普攻暴击几率和技能暴击几率+30%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "恃强凌弱",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对法术强度或物理强度低于自身的敌人造成伤害提高12%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "致命伏击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对生命值为满的敌人造成伤害提高15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "暗影斗篷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到减益效果的持续时间减少30%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "影遁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "阿萨辛之首",
+    "项链": "咒石项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猩红秘戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "始祖之血",
+    "裤子": "戏谑者裤腿",
+    "徽章": "残虐之徽",
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "烈刃炎上",
+    "护手": "深渊之握"
+   },
+   "alternatives": {
+    "圣物": [
+     "月辉·紫晶鸦首"
+    ],
+    "护手": [
+     "雷云捕手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "阿萨辛之首": "gear-1683",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "始祖之血": "gear-1604",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "残虐之徽": "gear-1189",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "烈刃炎上": "gear-2297",
+    "深渊之握": "gear-1192",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "夜幕暗盔",
+    "项链": "黑色汪洋",
+    "卡牌": "魂渊咒牌",
+    "耳坠": "辉耀之环",
+    "衣服": "刺影锁甲",
+    "戒指": "幽焰剑士荣耀",
+    "腰带": "感电者",
+    "圣物": "幽焰剑士截断",
+    "裤子": "炎铸胫甲",
+    "徽章": "幽焰剑士裁决",
+    "鞋子": "影步追魂靴",
+    "副手": "幽焰剑士极致",
+    "武器": "烈刃炎上",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "项链": [
+     "辉耀之链"
+    ],
+    "卡牌": [
+     "精魄魔牌"
+    ],
+    "鞋子": [
+     "宗室礼靴"
+    ],
+    "护手": [
+     "深渊之握"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "夜幕暗盔": "gear-1272",
+    "黑色汪洋": null,
+    "辉耀之链": "gear-134",
+    "魂渊咒牌": "gear-1505",
+    "精魄魔牌": "gear-1291",
+    "辉耀之环": "gear-138",
+    "刺影锁甲": "gear-1507",
+    "幽焰剑士荣耀": "gear-187",
+    "感电者": "gear-1690",
+    "幽焰剑士截断": "gear-180",
+    "炎铸胫甲": "gear-1861",
+    "幽焰剑士裁决": "gear-147",
+    "影步追魂靴": "gear-1512",
+    "宗室礼靴": "gear-1282",
+    "幽焰剑士极致": "gear-162",
+    "烈刃炎上": "gear-2297",
+    "幽冥初水": null,
+    "深渊之握": "gear-1192"
+   },
+   "unlinked": {
+    "黑色汪洋": {
+     "reason": "game_only",
+     "game_id": "90324",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90324",
+        "field": "name",
+        "text_id": 69057,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       69057
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪",
+       "不熄曜日",
+       "绞刃流火",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "戏火者",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "火咒",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "炎龙",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【烈焚刀吻】对目标造成伤害时，50%几率使其受到的普攻伤害提升5%(攻击者是绞刃流火，提升的伤害为10%)，持续12秒，最多叠加6层。"
+   },
+   {
+    "rank": 2,
+    "text": "战斗开始时，获得上限数量的能量球，且释放【焰影劫】时，每消耗一个能量球，使敌人的脱力时间延长0.5秒。"
+   },
+   {
+    "rank": 3,
+    "text": "释放【烬焰影劫】时，将目标视为最低拥有500怒气"
+   },
+   {
+    "rank": 4,
+    "text": "【淬炼之身】的持续时间延长2秒，且持续期间免疫昏迷、冰冻、妖术、魅惑。"
+   },
+   {
+    "rank": 5,
+    "text": "战斗开始时，立刻沉默所有敌方单位，持续3秒"
+   },
+   {
+    "rank": 6,
+    "text": "绞刃流火造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "锻体铸心",
+   "id": "relic-2161"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9E%E5%88%83%E6%B5%81%E7%81%AB",
+ "revid": 8951,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8951",
+ "rev_timestamp": "2026-05-28T01:48:35Z"
+}

@@ -1,0 +1,20 @@
+{
+  "title": "祭仪羽冠",
+  "pageid": 1271,
+  "ns": 0,
+  "revid": 4447,
+  "rev_timestamp": "2024-08-24T12:04:50Z",
+  "wikitext": "{{装备图鉴\n|装备名称=祭仪羽冠\n|部位=头盔\n|品质=神话\n|最大等级=800\n|主属性=\n|副属性=\n|前缀=9258意志、9258意志、9258意志、9258意志、34488护盾、10%全伤害类型减免、10%受到法术伤害降低、120%暴击伤害减免、5%最大生命值\n|后缀=9258力量、9258力量、9258力量、9258力量、9258魔力、9258魔力、9258魔力、9258魔力、9258体质、9258体质、9258体质、9258体质、7%受到物理伤害降低、7%受到物理伤害降低、7%受到法术伤害降低、7%受到法术伤害降低\n|专属=1500全属性、2%全伤害类型增幅、2%全伤害类型减免、5精神精通、5法术精通、5物理精通、50幸运、10%暴击倍率、5法术豁免、5精神豁免、5物理豁免\n|装备技能=技能冷却缩短15%\n|套装=\n|套装技能=\n|萃取技能=不可萃取\n|嵌入技能推荐={{嵌入技能|部位=头盔}}\n|获取途径=追忆之帆-黑渊\n|介绍=\n}}",
+  "redirected_from": null,
+  "group": "extra_items",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%A5%AD%E4%BB%AA%E7%BE%BD%E5%86%A0",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4447",
+  "fetched_at": "2026-11-20T17:04:57+00:00",
+  "templates": [
+    "模板:嵌入技能",
+    "模板:装备图鉴"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "in_category_装备": null,
+  "found_via": "resolve_missing.py title/redirect lookup"
+}

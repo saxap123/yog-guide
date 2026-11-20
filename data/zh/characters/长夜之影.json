@@ -1,0 +1,212 @@
+{
+ "id": "char-1802",
+ "name": "长夜之影",
+ "page_title": "长夜之影",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "赫达莱",
+  "gender": "未知",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": null,
+  "dislikes": null,
+  "release_date": "2021年06月27日"
+ },
+ "element": "冰霜",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "刺杀",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": []
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "永夜之舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "赫达莱向四周放出 12把飞刀，所有飞刀在完全展开2秒后飞回长夜之影所在位置，每次穿过敌人都将对其造成62.5%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "62.5%",
+     "values": [
+      62.5
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "62.5%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "暗夜奇袭",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "赫达莱闪烁到血量最少的敌人身后，对当前目标造成120%法术强度的冰霜伤害，暴击时将窃取目标当前10%的怒气。",
+   "scaling": [
+    {
+     "percent": "120%",
+     "values": [
+      120.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "120%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "能量损毁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "攻速提升25%，赫达莱的每次攻击将损毁目标10(额外受到法术精通影响)点怒气。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "破魔斗篷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "赫达莱创造的法术斗篷使他1秒内只会受到一次法术伤害，并且使该伤害降低6%(额外受到法术精通影响)。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "冷酷刀锋",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "赫达莱对暗夜女神的忠心侍奉得到了回报，提升赫达莱15%技能暴击率。永夜之舞在命中时有10% + 2% * 法术精通几率附加冰缓效果。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "献祭",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每当队友释放一次必杀，赫达莱获得【能量转移】攻击速度提升6%，伤害提升6%（叠加上限25层）此外赫达莱死亡时，将自己100%当前怒气值，平均分享给存活的所有友方单位。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "恃强凌弱",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对法术强度或物理强度低于自身的敌人造成伤害提高12%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "致命伏击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对生命值为满的敌人造成伤害提高15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "暗影斗篷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到减益效果的持续时间减少30%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "影遁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%95%BF%E5%A4%9C%E4%B9%8B%E5%BD%B1",
+ "revid": 8627,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8627",
+ "rev_timestamp": "2026-02-08T04:17:26Z"
+}

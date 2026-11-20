@@ -1,0 +1,530 @@
+{
+ "kind": "black_stone",
+ "license": "CC BY-NC-SA 4.0",
+ "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
+ "count": 18,
+ "items": [
+  {
+   "id": "black_stone-01",
+   "name": "恐熊",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "攻击力提升2%",
+     "text_template": "攻击力提升2%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "普攻造成伤害提升10%",
+     "text_template": "普攻造成伤害提升10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "攻击速度提升25%",
+     "text_template": "攻击速度提升25%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-02",
+   "name": "巫妖",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "法术精通+2",
+     "text_template": "法术精通+2",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "法术强度提升5%",
+     "text_template": "法术强度提升5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "怒气上限+150",
+     "text_template": "怒气上限+150",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-03",
+   "name": "怒兽",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "物理精通+2",
+     "text_template": "物理精通+2",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "攻击速度提升10%",
+     "text_template": "攻击速度提升10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "物理强度提升5%",
+     "text_template": "物理强度提升5%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-04",
+   "name": "猎蛛",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "精神精通+2",
+     "text_template": "精神精通+2",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "受到暴击伤害减少25%",
+     "text_template": "受到暴击伤害减少25%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "最大生命值提升15%",
+     "text_template": "最大生命值提升15%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-05",
+   "name": "蝮蛇",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "冲锋类技能冷却时间缩短10%",
+     "text_template": "冲锋类技能冷却时间缩短10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "前锋职业黑卫攻击速度提升15%",
+     "text_template": "前锋职业黑卫攻击速度提升15%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "冲锋类技能释放后自身攻击速度提升60%，持续4秒",
+     "text_template": "冲锋类技能释放后自身攻击速度提升60%，持续4秒",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-06",
+   "name": "诡眼",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "暴击倍率提升25%",
+     "text_template": "暴击倍率提升25%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "狩魔职业黑卫物理强度提升12%",
+     "text_template": "狩魔职业黑卫物理强度提升12%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "击杀敌方目标后，伤害提升20%，持续5秒",
+     "text_template": "击杀敌方目标后，伤害提升20%，持续5秒",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-07",
+   "name": "幽鬼",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "最大生命值提升5%",
+     "text_template": "最大生命值提升5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "闪避提升12%",
+     "text_template": "闪避提升12%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "复活几率提升15%",
+     "text_template": "复活几率提升15%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-08",
+   "name": "雷影狼",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "刺杀职业黑卫普通攻击暴击几率提升10%",
+     "text_template": "刺杀职业黑卫普通攻击暴击几率提升10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "技能回避率提升10%",
+     "text_template": "技能回避率提升10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "刺杀职业黑卫拥有【闪电之剑：攻击向敌方射出一支闪电箭，对其造成造成408+(50%-60%)*物理&法术强度的闪电伤害，随后这支闪电箭会继续攻击它周围最近的敌人。闪电箭每跳跃一次，伤害就减少30%，最多可攻击6个自标。】",
+     "text_template": "刺杀职业黑卫拥有【闪电之剑：攻击向敌方射出一支闪电箭，对其造成造成408+(50%-60%)*物理&法术强度的闪电伤害，随后这支闪电箭会继续攻击它周围最近的敌人。闪电箭每跳跃一次，伤害就减少30%，最多可攻击6个自标。】效果",
+     "same_in_template": false
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-09",
+   "name": "石像鬼",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "最大生命值提升5%",
+     "text_template": "最大生命值提升5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "守护职业黑卫获得援护技能，一场战斗起效1次",
+     "text_template": "守护职业黑卫获得援护技能，一场战斗起效1次",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "触发护体时，回复30%生命上限的血量",
+     "text_template": "触发护体时，回复30%生命上限的血量",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-10",
+   "name": "雪甲虫",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "每2秒恢复10%上限护盾",
+     "text_template": "每2秒恢复10%上限护盾",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "法术伤害提升10%",
+     "text_template": "法术伤害提升10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "开启冰霜护盾并获得3个冰霜之球，抵御3次伤害，并对其伤害来源施加冰缓效果，持续4秒，冷却30秒",
+     "text_template": "开启冰霜护盾并获得3个冰霜之球，抵御3次伤害，并对其伤害来源施加冰缓效果，持续4秒，冷却30秒示穿戴中的道具",
+     "same_in_template": false
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-11",
+   "name": "感电狐",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "每5秒回复生命上限1%的生命值",
+     "text_template": "每5秒回复生命上限1%的生命值",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "技能回避率提升10%",
+     "text_template": "技能回避率提升10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "受到伤害时，有15%几率对附近8米范围内的最多3个单位释放叉型闪电，对目标造成【77+2%*自身法术强度】的闪电伤害并添加一层感电，冷却1秒",
+     "text_template": "受到伤害时，有15%几率对附近8米范围内的最多3个单位释放叉型闪电，对目标造成【77+2%*自身法术强度】的闪电伤害并添加一层感电，冷却1秒",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-12",
+   "name": "霜蹄",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "冰霜伤害提升5%",
+     "text_template": "冰霜伤害提升5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "对冰缓状态的目标造成的冰霜伤害提升20%，对冰冻目标造成的冰霜伤害提升50%",
+     "text_template": "对冰缓状态的目标造成的冰霜伤害提升20%，对冰冻目标造成的冰霜伤害提升50%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "普通攻击有3%几率造成冰缓",
+     "text_template": "普通攻击有3%几率造成冰缓",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-13",
+   "name": "冰凤",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "冰霜穿透+15",
+     "text_template": "冰霜穿透+15",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "冰霜伤害+10%",
+     "text_template": "冰霜伤害+10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "携带者普通攻击命中冰缓单位时，有20%几率触发冰暴效果。冰冻目标以及附近3米范围的内敌人持续1秒，造成100%法术&物理强度伤害(CD:1秒)",
+     "text_template": "携带者普通攻击命中冰缓单位时，有20%几率触发冰暴效果。冰冻目标以及附近3米范围的内敌人持续1秒，造成100%法术&物理强度伤害(CD:1秒)",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-14",
+   "name": "诅咒灵",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "物理伤害增幅+5%",
+     "text_template": "物理伤害增幅+5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "物理伤害对虚弱状态的敌人造成伤害增加10%",
+     "text_template": "物理伤害对虚弱状态的敌人造成伤害增加10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "物理伤害暴击时有3%几率时目标处于虚弱状态，持续4秒",
+     "text_template": "物理伤害暴击时有3%几率时目标处于虚弱状态，持续4秒。",
+     "same_in_template": false
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-15",
+   "name": "闪鸣鸟",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "闪电伤害增幅+5%",
+     "text_template": "闪电伤害增幅+5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "闪电属性的黑卫恢复护盾时的恢复量提高25%",
+     "text_template": "闪电属性的黑卫恢复护盾时的恢复量提高25%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "自身存在护盾时，造成的闪电伤害增加10%",
+     "text_template": "自身存在护盾时，造成的闪电伤害增加10%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-16",
+   "name": "金乌",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "造成的治疗效果+7%",
+     "text_template": "造成的治疗效果+7%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "治疗时如果目标处于低血状态，则回复量额外提升25%",
+     "text_template": "治疗时如果目标处于低血状态，则回复量额外提升25%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "治疗目标同时恢复目标等同治疗值10%的护盾",
+     "text_template": "治疗目标同时恢复目标等同治疗值10%的护盾。",
+     "same_in_template": false
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-17",
+   "name": "迅角兽",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "初始怒气/能量+50",
+     "text_template": "初始怒气/能量+50",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "怒气/能量恢复+5/秒",
+     "text_template": "怒气/能量恢复+5/秒",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "当存在护盾时，每释放一次必杀技都会使下一次必杀技造成的伤害提高5%，最高不会超过20%，护盾为0时增伤效果清零",
+     "text_template": "当存在护盾时，每释放一次必杀技都会使下一次必杀技造成的伤害提高5%，最高不会超过20%，护盾为0时增伤效果清零",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  },
+  {
+   "id": "black_stone-18",
+   "name": "炎龙",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "火焰伤害增幅+5%",
+     "text_template": "火焰伤害增幅+5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "火焰属性的黑卫受到的治疗效果+15%",
+     "text_template": "火焰属性的黑卫受到的治疗效果+15%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "造成的火焰伤害提升5%，当自身生命值小于50%时，该效果提升至10%",
+     "text_template": "造成的火焰伤害提升5%，当自身生命值小于50%时，该效果提升至10%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770
+  }
+ ]
+}

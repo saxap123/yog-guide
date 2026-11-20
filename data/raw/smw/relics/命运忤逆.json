@@ -1,0 +1,162 @@
+{
+  "subject": "命运忤逆",
+  "group": "relics",
+  "page_revid": 7724,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%91%BD%E8%BF%90%E5%BF%A4%E9%80%86",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%91%BD%E8%BF%90%E5%BF%A4%E9%80%86&format=json",
+  "fetched_at": "2026-11-20T16:23:20+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "命运忤逆#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/5/56/31/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "遗物#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/11/27/7/16/55/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "命运忤逆"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、15%闪电伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%全伤害类型减免、8.5%全伤害类型减免、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%受到法术伤害降低、8.5%受到法术伤害降低、8.5%受到物理伤害降低、8.5%受到物理伤害降低、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "专属"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑市-长城圣殿"
+            }
+          ]
+        },
+        {
+          "property": "进阶固有技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "释放【落雷之势】时，有55%几率使敌方生命值最高的黑卫全伤害减免降低15%，效果持续10秒，且无法驱散。(自由炮手每点法术精通都会使该几率提升1%，敌方目标每点法术豁免都会使该几率降低1%。)"
+            }
+          ]
+        },
+        {
+          "property": "进阶随机技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【缭乱雷棘】造成的伤害提升(6.00%-10.00%)；【落雷之势】提升的伤害提升(6.00%-10.00%)；每层【聚能】带来的伤害增幅增加(1.50%-2.50%)"
+            }
+          ]
+        },
+        {
+          "property": "遗物名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "命运忤逆"
+            }
+          ]
+        },
+        {
+          "property": "遗物技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "自由炮手佩戴时，造成的所有伤害增加5%+25%；【雷光协振】消耗的源力降低50%"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "自由炮手"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

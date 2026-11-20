@@ -1,0 +1,2662 @@
+{
+ "kind": "rune",
+ "license": "CC BY-NC-SA 4.0",
+ "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
+ "count": 27,
+ "language": "en",
+ "translation": "see data/names.json, data/glossary.json, translate/README.md",
+ "items": [
+  {
+   "id": "rune-2351",
+   "name": "Omni Embers",
+   "page_title": "万象余烬",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "All Elemental Resistance +(1-10)",
+    "Initial Force +(5-15)",
+    "All Attrs +(2-5)",
+    "Random Skill Power Level +1–3",
+    "Random bonus: Bravery / Perception / Tenacity +5",
+    "Bravery , Perception, and Tenacity +(1-8)."
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "Otherrealm"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%87%E8%B1%A1%E4%BD%99%E7%83%AC",
+   "revid": 8785,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8785",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B8%87%E8%B1%A1%E4%BD%99%E7%83%AC&format=json",
+   "i18n": {
+    "name_zh": "万象余烬",
+    "sources": {
+     "game_db": 4,
+     "glossary": 31,
+     "names": 1,
+     "translated": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "translated"
+     },
+     "skills[1]": {
+      "source": "translated"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 1714,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 86336,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 86335,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 86234,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1429",
+   "name": "Athanasia",
+   "page_title": "不灭",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Willpower",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Reduces Spell damage taken by 5%",
+    "Max HP +7%",
+    "+5% Life Steal Resistance",
+    "+15% Max Shield Value",
+    "Willpower +5%",
+    "When taking damage, if under [Hypohemia] status, immediately restore 5% of Max HP. (Cooldown: 10 seconds)"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 5
+    },
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Complete Winter Palace",
+    "[Deep in the Seal] Elites",
+    "Precision Cast Rune Chest II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%8D%E7%81%AD",
+   "revid": 4114,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4114",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B8%8D%E7%81%AD&format=json",
+   "i18n": {
+    "name_zh": "不灭",
+    "sources": {
+     "game_db": 6,
+     "glossary": 35,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62660,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 62113,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 62114,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62236,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62116,
+      "match": "loose"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1996",
+   "name": "Condensation",
+   "page_title": "凝冰",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Constitution",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Reduces Physical damage taken by 5%",
+    "Max HP +7%",
+    "Dodge chance +10%",
+    "Chance of being critically hit by skills -7%",
+    "Gain 1 Frost Orb on skill crit. (4s cooldown)",
+    "Constitution+5%"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 5
+    },
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Dark Abyss Shop Exchange"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%87%9D%E5%86%B0",
+   "revid": 6458,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6458",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%87%9D%E5%86%B0&format=json",
+   "i18n": {
+    "name_zh": "凝冰",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62234,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 78321,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 78322,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 78323,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62237,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1998",
+   "name": "Anankē",
+   "page_title": "命轮",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Willpower",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Revival chance +3%",
+    "Reduce 10% Freeze Taken",
+    "Maximum HP +10%",
+    "Damage Taken from critical hits reduced by 30%",
+    "Willpower +5%",
+    "Revival will restore 200 Rage. (15s cooldown)"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Dark Abyss Shop Exchange"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%91%BD%E8%BD%AE",
+   "revid": 6460,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6460",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%91%BD%E8%BD%AE&format=json",
+   "i18n": {
+    "name_zh": "命轮",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 78326,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 78327,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 78328,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 56815,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62236,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 78329,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1428",
+   "name": "Light Guard",
+   "page_title": "圣光守护",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Willpower",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Reduces Physical damage taken by 5%",
+    "Max HP +7%",
+    "+5% Life Steal Resistance",
+    "+15% Max Shield Value",
+    "Willpower +5%",
+    "When taking damage, if there is no shield value, immediately restore 10% of Max Shield Value. (Cooldown: 10 seconds)"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 5
+    },
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Complete Winter Palace",
+    "[Deep in the Seal] Elites",
+    "Precision Cast Rune Chest II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E5%85%89%E5%AE%88%E6%8A%A4",
+   "revid": 4112,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4112",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%9C%A3%E5%85%89%E5%AE%88%E6%8A%A4&format=json",
+   "i18n": {
+    "name_zh": "圣光守护",
+    "sources": {
+     "game_db": 6,
+     "glossary": 35,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62234,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 62113,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 62114,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62236,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62115,
+      "match": "loose"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1412",
+   "name": "Cold Moon",
+   "page_title": "寒月",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Spell Damage +5%",
+    "Max HP +7%",
+    "Spell Mastery +5",
+    "There is a 5% chance to gain a Frost Orb when normal attack hits, last for 4 seconds.",
+    "Max Frost Orb +2",
+    "Increases Frost damage dealt by an additional 2% from each Frost Orb."
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "Complete Misty Mountains floors 501-550",
+    "Precision Cast Rune Chest I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%AF%92%E6%9C%88",
+   "revid": 4116,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4116",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%AF%92%E6%9C%88&format=json",
+   "i18n": {
+    "name_zh": "寒月",
+    "sources": {
+     "game_db": 6,
+     "glossary": 32,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 56814,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56817,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 56818,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 56825,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 56819,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1417",
+   "name": "Strong Rock",
+   "page_title": "强健",
+   "type": "Sub Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "2.5% Max HP"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "Everwinter Land (Blacktide difficulty, floor 23 and above)"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%BC%BA%E5%81%A5",
+   "revid": 4143,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4143",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%BC%BA%E5%81%A5&format=json",
+   "i18n": {
+    "name_zh": "强健",
+    "sources": {
+     "glossary": 30,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1408",
+   "name": "Magic Wrath",
+   "page_title": "怒法",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Physical Damage +5%",
+    "Max HP +7%",
+    "Damage Taken from critical hits reduced by 30%",
+    "There is a 5% chance to gain a Energy Orb when normal attack hits, last for 4 seconds.",
+    "Max Energy Orb +2",
+    "Increases damage dealt of ultimate skill by an additional 2% from each Energy Orb."
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "Complete Misty Mountains floors 501-550",
+    "Precision Cast Rune Chest I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%80%92%E6%B3%95",
+   "revid": 4117,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4117",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%80%92%E6%B3%95&format=json",
+   "i18n": {
+    "name_zh": "怒法",
+    "sources": {
+     "game_db": 6,
+     "glossary": 32,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 56813,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56815,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 56820,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 56824,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 56821,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1430",
+   "name": "Fireplayer",
+   "page_title": "戏火者",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Constitution",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Fire Penetration +15",
+    "Max HP +7%",
+    "+7% Spell Damage Boost",
+    "When dealing Fire DMG, 3% chance to gain 1 Energy Orb",
+    "+10% Fire Damage Boost",
+    "Constitution+5%"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Complete Winter Palace",
+    "[Deep in the Seal] Elites",
+    "Precision Cast Rune Chest II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%88%8F%E7%81%AB%E8%80%85",
+   "revid": 4108,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4108",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%88%8F%E7%81%AB%E8%80%85&format=json",
+   "i18n": {
+    "name_zh": "戏火者",
+    "sources": {
+     "game_db": 5,
+     "glossary": 35,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62117,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 62111,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "translated"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62120,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62237,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1997",
+   "name": "Fracture",
+   "page_title": "断钢",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Strength",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "+5% Physical Damage Boost",
+    "Max HP +7%",
+    "All elemental resistances +10",
+    "Crit Damage increased by 15%",
+    "Strength+5%",
+    "3% chance to gain 1 Fury Orb when taking non-physical damage."
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Dark Abyss Shop Exchange"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%96%AD%E9%92%A2",
+   "revid": 6459,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6459",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%96%AD%E9%92%A2&format=json",
+   "i18n": {
+    "name_zh": "断钢",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62034,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 78324,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 56829,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62232,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 78325,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1426",
+   "name": "Waning Moon",
+   "page_title": "残月",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Intelligence",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "+5% Lightning Damage Boost",
+    "Max HP +7%",
+    "Damage Taken from critical hits reduced by 30%",
+    "Lightning DMG has a 3% chance to grant one Lightning Orb, lasting 4 seconds, up to 3 at a time",
+    "Each Lightning Orb increases Lightning Damage Boost by an additional 2%.",
+    "Intelligence+5%"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "Complete Winter Palace",
+    "[Deep in the Seal] Elites",
+    "Precision Cast Rune Chest II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%AE%8B%E6%9C%88",
+   "revid": 4109,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4109",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%AE%8B%E6%9C%88&format=json",
+   "i18n": {
+    "name_zh": "残月",
+    "sources": {
+     "game_db": 5,
+     "glossary": 34,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62037,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56815,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "translated"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62109,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62233,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1410",
+   "name": "Poison Fang",
+   "page_title": "毒牙",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Constitution",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "All Resistance +5",
+    "Max HP +7%",
+    "Crit Damage increased by 15%",
+    "Chance of being critical hit by normal attack reduced by 7%",
+    "Constitution +5%",
+    "Physical damage dealt by the wearer has a 3% chance to trigger Poisoning"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Complete Misty Mountains floors 551-600",
+    "Precision Cast Rune Chest I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%AF%92%E7%89%99",
+   "revid": 4120,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4120",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%AF%92%E7%89%99&format=json",
+   "i18n": {
+    "name_zh": "毒牙",
+    "sources": {
+     "game_db": 6,
+     "glossary": 34,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 56832,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56829,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 56834,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 56837,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 56838,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1413",
+   "name": "Fire Spell",
+   "page_title": "火咒",
+   "type": "Sub Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "2.5% Fire Damage Boost"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "Everwinter Land (Blacktide difficulty, floor 23 and above)"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%AB%E5%92%92",
+   "revid": 4137,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4137",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%AB%E5%92%92&format=json",
+   "i18n": {
+    "name_zh": "火咒",
+    "sources": {
+     "glossary": 30,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1995",
+   "name": "Animus",
+   "page_title": "生息",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Constitution",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Healing effect +5%",
+    "Reduce Stun Taken +10%",
+    "Revival chance +5%",
+    "All elemental resistances +20",
+    "Instantly restore 5% max HP when Stun. (10-second cooldown)",
+    "Constitution+5%"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 5
+    },
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Dark Abyss Shop Exchange"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%94%9F%E6%81%AF",
+   "revid": 6457,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6457",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%94%9F%E6%81%AF&format=json",
+   "i18n": {
+    "name_zh": "生息",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 78316,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 78318,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 78319,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 78320,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62237,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1422",
+   "name": "Exuberant",
+   "page_title": "盎然",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Strength",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "+7% Physical Damage Boost",
+    "Max HP +7%",
+    "Physical Mastery +5",
+    "Physical DMG hits have a 3% chance to grant one Fury Orb, lasting 4 seconds, up to 3 at a time",
+    "Each Fury Orb increases skill damage by an additional 2%.",
+    "Strength+5%"
+   ],
+   "edges": [
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "Complete Winter Palace",
+    "[Deep in the Seal] Elites",
+    "Precision Cast Rune Chest II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%9B%8E%E7%84%B6",
+   "revid": 4111,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4111",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%9B%8E%E7%84%B6&format=json",
+   "i18n": {
+    "name_zh": "盎然",
+    "sources": {
+     "game_db": 5,
+     "glossary": 34,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62094,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56816,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "translated"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62097,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62232,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1419",
+   "name": "Holy Wind",
+   "page_title": "神风",
+   "type": "Sub Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "25 Luck",
+    "2.5% Attack Speed"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "Everwinter Land (Blacktide difficulty, floor 23 and above)"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%A5%9E%E9%A3%8E",
+   "revid": 4139,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4139",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%A5%9E%E9%A3%8E&format=json",
+   "i18n": {
+    "name_zh": "神风",
+    "sources": {
+     "glossary": 31,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1406",
+   "name": "Absolute Blade",
+   "page_title": "绝刃",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "ATK +5%",
+    "Max HP +7%",
+    "Physical Mastery +5",
+    "There is a 5% chance to gain a Fury Orb when normal attack hits, last for 4 seconds.",
+    "Max Fury Orb +2",
+    "Increases damage dealt of normal attack by an additional 2% from each Fury Orb."
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "Complete Misty Mountains floors 501-550",
+    "Precision Cast Rune Chest I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9D%E5%88%83",
+   "revid": 4118,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4118",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BB%9D%E5%88%83&format=json",
+   "i18n": {
+    "name_zh": "绝刃",
+    "sources": {
+     "game_db": 6,
+     "glossary": 32,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 56826,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56816,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 56822,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 56827,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 56823,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1424",
+   "name": "Degenerate",
+   "page_title": "腐朽者",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Strength",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "+5% Physical Damage Boost",
+    "Max HP +7%",
+    "Physical Mastery +5",
+    "Crit Damage increased by 15%",
+    "Strength+5%",
+    "Wearer's Physical DMG against Poisoning targets increased by 8%"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 5
+    },
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Complete Winter Palace",
+    "[Deep in the Seal] Elites",
+    "Precision Cast Rune Chest II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%85%90%E6%9C%BD%E8%80%85",
+   "revid": 4115,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4115",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%85%90%E6%9C%BD%E8%80%85&format=json",
+   "i18n": {
+    "name_zh": "腐朽者",
+    "sources": {
+     "game_db": 5,
+     "glossary": 35,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62034,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56816,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 56829,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62232,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1409",
+   "name": "Sunstrider",
+   "page_title": "逐日者",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Intelligence",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Spell Damage +5%",
+    "Max HP +7%",
+    "Spell Mastery +6",
+    "Crit Damage increased by 15%",
+    "Intelligence +5%",
+    "Fire damage dealt has a 3% chance to trigger Ignition.\nIncrease damage dealt to [Ignited] target by an additional 8%."
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 5
+    },
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Complete Misty Mountains floors 551-600",
+    "Precision Cast Rune Chest I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%80%90%E6%97%A5%E8%80%85",
+   "revid": 4119,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4119",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%80%90%E6%97%A5%E8%80%85&format=json",
+   "i18n": {
+    "name_zh": "逐日者",
+    "sources": {
+     "game_db": 6,
+     "glossary": 34,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 56814,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56830,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 56829,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 56839,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 56835,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1420",
+   "name": "Iron Thorn",
+   "page_title": "铁棘",
+   "type": "Sub Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "2.5% Physical Damage Boost"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "Everwinter Land (Blacktide difficulty, floor 23 and above)"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%81%E6%A3%98",
+   "revid": 4140,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4140",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%93%81%E6%A3%98&format=json",
+   "i18n": {
+    "name_zh": "铁棘",
+    "sources": {
+     "glossary": 30,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1418",
+   "name": "Lightning Strike",
+   "page_title": "闪击",
+   "type": "Sub Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "2.5% Attack Speed"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "Everwinter Land (Blacktide difficulty, floor 23 and above)"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%97%AA%E5%87%BB",
+   "revid": 4138,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4138",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%97%AA%E5%87%BB&format=json",
+   "i18n": {
+    "name_zh": "闪击",
+    "sources": {
+     "glossary": 30,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1425",
+   "name": "Blade of Thunder",
+   "page_title": "雷灭之刃",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Strength",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Physical Penetration +15",
+    "Max HP +7%",
+    "+7% Physical Damage Boost",
+    "DMG dealt by Physical skills +10%",
+    "Physical DMG hits have a 3% chance to grant one Energy Orb, lasting 4 seconds, up to 3 at a time",
+    "Strength+5%"
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 5
+    },
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Complete Winter Palace",
+    "[Deep in the Seal] Elites",
+    "Precision Cast Rune Chest II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E7%81%AD%E4%B9%8B%E5%88%83",
+   "revid": 4107,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4107",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E7%81%AD%E4%B9%8B%E5%88%83&format=json",
+   "i18n": {
+    "name_zh": "雷灭之刃",
+    "sources": {
+     "game_db": 4,
+     "glossary": 35,
+     "names": 1,
+     "translated": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62104,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 62094,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "translated"
+     },
+     "skills[4]": {
+      "source": "translated"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62232,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1416",
+   "name": "Thunder Veins",
+   "page_title": "雷纹",
+   "type": "Sub Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "2.5% Lightning Damage Boost"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "Everwinter Land (Blacktide difficulty, floor 23 and above)"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E7%BA%B9",
+   "revid": 4142,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4142",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E7%BA%B9&format=json",
+   "i18n": {
+    "name_zh": "雷纹",
+    "sources": {
+     "glossary": 30,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1411",
+   "name": "Thunder Roar",
+   "page_title": "雷霆咆哮",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Intelligence",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Lightning Penetration +15",
+    "Max HP +7%",
+    "Spell Damage +7%",
+    "Lightning Damage +10%",
+    "Intelligence +5%",
+    "Lightning damage dealt by the wearer has a 3% chance to trigger Electrocution."
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 5
+    },
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Complete Misty Mountains floors 551-600",
+    "Precision Cast Rune Chest I"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E9%9C%86%E5%92%86%E5%93%AE",
+   "revid": 4121,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4121",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E9%9C%86%E5%92%86%E5%93%AE&format=json",
+   "i18n": {
+    "name_zh": "雷霆咆哮",
+    "sources": {
+     "game_db": 6,
+     "glossary": 34,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 56833,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56831,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 56828,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 56839,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 56836,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1423",
+   "name": "Frostbite",
+   "page_title": "霜咬",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "+10% Frost Damage Boost",
+    "Max HP +7%",
+    "Spell Mastery +5",
+    "Frost DMG has a 3% chance to grant one Frost Orb",
+    "Each Frost Orb increases HP regeneration effects by 2%.",
+    "Increase the duration of Frost Orb by 1 second."
+   ],
+   "edges": [
+    {
+     "color": "#87c8ff",
+     "color_name": "Rune Blue",
+     "count": 6
+    }
+   ],
+   "obtain": [
+    "Complete Winter Palace",
+    "[Deep in the Seal] Elites",
+    "Precision Cast Rune Chest II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%9C%E5%92%AC",
+   "revid": 4113,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4113",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9C%9C%E5%92%AC&format=json",
+   "i18n": {
+    "name_zh": "霜咬",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62098,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 56817,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "translated"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62101,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62102,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1421",
+   "name": "Frost Snow",
+   "page_title": "霜雪",
+   "type": "Sub Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "2.5% Frost Damage Boost"
+   ],
+   "exclusive_attribute": null,
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": null,
+   "edges": null,
+   "obtain": [
+    "Everwinter Land (Blacktide difficulty, floor 23 and above)"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%9C%E9%9B%AA",
+   "revid": 4141,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4141",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9C%9C%E9%9B%AA&format=json",
+   "i18n": {
+    "name_zh": "霜雪",
+    "sources": {
+     "glossary": 30,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "rune-1427",
+   "name": "Devil Roar",
+   "page_title": "魔哮",
+   "type": "Main Rune",
+   "max_level": 700,
+   "attribute": "1892 All Attrs",
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "exclusive_attribute": "Intelligence",
+   "prefixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "1939 Physical Power",
+    "1939 Physical Power",
+    "1939 Spell Power",
+    "1939 Spell Power",
+    "35260 HP",
+    "35260 Shield"
+   ],
+   "suffixes": [
+    "1763 Strength",
+    "1763 Strength",
+    "1763 Intelligence",
+    "1763 Intelligence",
+    "1763 Constitution",
+    "1763 Constitution",
+    "1763 Willpower",
+    "1763 Willpower",
+    "10 Lightning Penetration",
+    "10 Frost Penetration",
+    "10 Fire Penetration",
+    "5% Gold Gain Boost"
+   ],
+   "skills": [
+    "Ice Resistance +15",
+    "Max HP +7%",
+    "+7% Spell Damage Boost",
+    "+10% Frost Damage Boost",
+    "Frost damage has a 3% chance of triggering [Chilled] status, increasing the effect of [Chilled] status by 3%.",
+    "Intelligence+5%"
+   ],
+   "edges": [
+    {
+     "color": "#f18a9f",
+     "color_name": "Rune Red",
+     "count": 5
+    },
+    {
+     "color": "#09eb84",
+     "color_name": "Rune Green",
+     "count": 1
+    }
+   ],
+   "obtain": [
+    "Complete Winter Palace",
+    "[Deep in the Seal] Elites",
+    "Precision Cast Rune Chest II"
+   ],
+   "in_category": true,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%AD%94%E5%93%AE",
+   "revid": 4110,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=4110",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%AD%94%E5%93%AE&format=json",
+   "i18n": {
+    "name_zh": "魔哮",
+    "sources": {
+     "game_db": 6,
+     "glossary": 35,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 6973,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 56811,
+      "match": "exact"
+     },
+     "skills[2]": {
+      "source": "game_db",
+      "text_id": 62111,
+      "match": "exact"
+     },
+     "skills[3]": {
+      "source": "game_db",
+      "text_id": 62098,
+      "match": "exact"
+     },
+     "skills[4]": {
+      "source": "game_db",
+      "text_id": 62112,
+      "match": "exact"
+     },
+     "skills[5]": {
+      "source": "game_db",
+      "text_id": 62233,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  }
+ ]
+}

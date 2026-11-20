@@ -1,0 +1,313 @@
+{
+ "id": "char-1810",
+ "name": "Mystic Instructor",
+ "page_title": "秘术导师",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Vicky",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--06-23",
+  "birthplace": "Marne, the imperial capital",
+  "height_weight": "169cm/50kg",
+  "specialties": [
+   "disciplining naughty children"
+  ],
+  "likes": [
+   "good classroom discipline, a clean and tidy environment, all kinds of fabrics"
+  ],
+  "dislikes": [
+   "clutter",
+   "insubordination",
+   "rule breakers"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Lightning",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Thunderbird's Treatise",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Absorbs lightning, restoring own HP by 600% Spell Power, and gains [Unstable Current]. When taking DMG equal to 10% HP, releases Lightning at a random target within 12 meters, dealing Lightning DMG equal to 10% Spell Power, with a 10% chance to dispel all its buffs and reduce its movement speed by 90% and Attack Speed by 50%.",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 600% of Spell Power"
+    },
+    {
+     "percent": "10%",
+     "values": [
+      10.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 10% of Spell Power"
+    }
+   ],
+   "name_zh": "不可侵犯"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Thunderstorm",
+   "cooldown_s": 15,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Summons a Thunderstorm; the storm shocks a random enemy unit every second, dealing Lightning DMG equal to 50% Spell Power. The Thunderstorm lasts 6 seconds.",
+   "scaling": [
+    {
+     "percent": "50%",
+     "values": [
+      50.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 50% of Spell Power"
+    }
+   ],
+   "name_zh": "雷云风暴"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Chain Lightning",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each Normal Attack performed within 5 seconds makes the Normal Attack's chain lightning chain one additional time. Can increase up to 5 times.",
+   "scaling": [],
+   "name_zh": "雷引"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Thunderclap",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When a Normal Attack hits an enemy, there is a 25% chance to inflict Blind on the target. Blind: reduces Normal Attack Accuracy by 75%.",
+   "scaling": [],
+   "name_zh": "雷霆灼目"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Overload",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When a Normal Attack hits an enemy, there is a 100% chance to inflict Electrocution on the target.",
+   "scaling": [],
+   "name_zh": "感电力场"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Thunderfury",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Normal Attacks have a 25% chance to be performed once more.",
+   "scaling": [],
+   "name_zh": "狂雷"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "薇琪的童年并不快乐,早年丧父,母亲一手将她带大，并对她施行了严苛的教育,要求她能够继承父亲的皇家学院教授职位。\n重重压力没有压垮薇琪，反而使她成为了待人律己都非常苛刻的完美主义者，她以优异的成绩考入皇家学院后，发现父亲的研究并不适合自己，便拒绝了教授身份,选择了帝国军方为她提供的一条路――成为帝国支援人员加入黑卫学院。\n天赋异禀的薇琪很快就成为了首屈一指的大法师，她曾效力于秘术部队并取得优异战果,但为了让她更好发挥自己的才能，学院高层决定让薇琪退到二线担任导师，用来培育更多掌控秘术力量的黑卫。\n由此，这位完美主义者成了一位严厉、不苟言笑、惩戒手段强硬的秘术导师，她是黑卫新生的噩梦，课堂出勤率永远是100%,再调皮的学生都会被调教得服服帖帖。",
+  "deeds": [
+   "依照黑卫学院与帝国的协议，薇琪需要定期返回马恩皇宫述职，尽管帝国一再暗示她对黑卫的训练要有保留，不可传授太多，但在她眼里,所有学生都是一样的,她都会倾囊传授。\n在学生里,薇琪对乌西洛蒂寄托了厚望,这个女孩在秘术领域钻研奋斗的精神，让薇琪仿佛能看到了当年的自己，她很期待乌西洛蒂能在冰系秘术上得到远超于她的成果。",
+   "作为完美主义者，薇琪对自己和他人的要求都非常高，再加之成长期间受到了帝国文化的极大影响,她对纪律和秩序格外重视，两者相加使得她有一定程度上的强迫症，无法容忍杂乱的环境。\n薇琪的学生普遍都不喜欢她，或者说是怕她，甚至同事都觉得她有时会显得过于固执,难以交流――恐怕连薇琪自己都放弃了人际关系的缓和，只专注于成为一名秘术导师，教授学生们怎么在和磨物的对抗中活下来。",
+   "薇琪与薇薇恩的关系比较糟糕，两人性格不合加教育理念不同，让两人势如水火，针尖对麦芒―—这个时候就是芭芭拉偷溜的最好时机了。",
+   "薇琪喜欢收集美丽的织物和各式布料，压力大的时候会打开收藏柜，—边摩裟手中的布料一边想事情。\n薇琪的少女时期,周边所有的人，所有的态度,所有的环境都是强硬刚性的,唯一陪伴她的柔软之物只有母亲裁缝铺里各式纹路的布料和半成品的织物。\n在母亲积劳过世之后，这个习惯似乎就永远刻在了她的心里。",
+   "薇琪身上的法师长袍是旧帝国时代的风格，是帝国皇家学院颁发一种奖励，象征着对穿戴者本人魔法造诣的认可，薇琪似乎对此引以为豪，非常喜欢穿着这件长袍，但这也引来了不少旧帝国仇视者的不满。",
+   "除了常规秘术,薇琪还会一些黑魔法,这是她当年坚持钻研旧帝国魔法理论的产物，她付出了常人难以想象的努力，换来了对黑魔法的擅长——但在这种古老的领域，光靠努力依旧无法深入前沿。\n当然,如果是作为教育者,那么不论是理论还是实战，她的经验都太丰厚了。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%A7%98%E6%9C%AF%E5%AF%BC%E5%B8%88",
+ "revid": 8637,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8637",
+ "rev_timestamp": "2026-02-08T04:25:06Z",
+ "i18n": {
+  "name_zh": "秘术导师",
+  "sources": {
+   "derived": 5,
+   "game_db": 3,
+   "glossary": 32,
+   "lore": 1,
+   "names": 16,
+   "translated": 13
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.birthplace",
+    "zh": "马恩",
+    "en": "Marne"
+   }
+  ]
+ }
+}

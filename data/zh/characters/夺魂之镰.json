@@ -1,0 +1,237 @@
+{
+ "id": "char-1805",
+ "name": "夺魂之镰",
+ "page_title": "夺魂之镰",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "斯卡莉特",
+  "gender": "女",
+  "race": "半精灵",
+  "birthday": "凛冬19日",
+  "birthplace": "马克公国",
+  "height_weight": "167cm/49kg",
+  "specialties": [
+   "精算",
+   "辨声",
+   "弹钢琴"
+  ],
+  "likes": [
+   "书",
+   "散步",
+   "独处的环境"
+  ],
+  "dislikes": [
+   "人群",
+   "噪音",
+   "路拉"
+  ],
+  "release_date": "2021年06月27日"
+ },
+ "element": "冰霜",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "刺杀",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "诡影",
+    "id": "faction-2198"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": []
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "镰刃突袭",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "斯卡莉特闪烁至场上距离自己最远的敌方目标身后，挥动镰刀对当前敌方目标造成400%法术强度的冰霜伤害",
+   "scaling": [
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "400%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "冰冷收割",
+   "cooldown_s": 9,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "斯卡莉特闪烁至10米范围内随机敌方目标身后，挥动镰刀对当前敌方目标造成225%法术强度的冰霜伤害",
+   "scaling": [
+    {
+     "percent": "225%",
+     "values": [
+      225.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "225%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "死神魅影",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "斯卡莉特生命低于20%时闪烁到血量最低的敌人背后，并无敌2秒丢失仇恨",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "影之庇护",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "斯卡莉特每次闪烁后一段时间内受到伤害降低20%，持续5秒",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "开刃",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "斯卡莉特初始怒气提高500",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "速镰",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "斯卡莉特技能冷却降低20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "恃强凌弱",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对法术强度或物理强度低于自身的敌人造成伤害提高12%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "致命伏击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对生命值为满的敌人造成伤害提高15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "暗影斗篷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到减益效果的持续时间减少30%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "影遁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "斯卡莉特出生在富裕的商人家庭，成长过程却算不上好，她的母亲早逝，父亲则是一个过于理性的族长，所有心思都放在了家族的兴盛上。从小，斯卡莉特得到奖励也好，被父亲责骂也罢，都只会默默地看着，不会哭闹，也不会笑，仿佛毫无情绪，像人偶般完成各种要求。而她那忙碌的父亲也从不在意，毕竟女儿这样也好，沉默，听话，说什么就做什么，容易控制，不用耗费太多精力在她身上，只需将她培养长大，换取一场充满价值利益的家族联姻就好。\n在斯卡莉特成为黑卫的半年前，家族收获意外之喜，她的二哥荣获宝剑骑士团爵位，但也必须遵循一个规定——骑士团成员的家族，每代都必须将一名子嗣送往修道院隐修，或者前往亚克兰斯守卫长城，以此表明家族对圣父的信仰。当时，家族内只剩继承家业的长子和斯卡莉特，老族长就只能让女儿去修道院，但意外的是，斯卡莉特最终选择前往亚克兰斯，希望投身前线。\n没有人知道为什么她会想去那么危险的地方，她也从没告诉任何人自己心里的想法。也许，那里能找到某种她失落已久的东西吧……",
+  "deeds": [
+   "商人不在乎圣书上的各类道德故事,他们的教育格外实用，连请来的家庭教师都是让斯卡莉特学习复杂的纹章学、以及隐藏在背后的贵族发家史。\n这让斯卡莉特早早看透了人情世故,甚至可以说过度早慧。见过的人越多，她就越喜欢书，也变得愈发沉默。",
+   "成为黑卫以后,沉默的斯卡莉特让很多人都对她非常疏远，她也从来不跟任何人交流。\n就连待人亲切的乌西洛蒂,也是在几十次并肩作战、足足小半年后，才在神恩节晚宴互赠礼物时，收到了斯卡莉特亲手谱写的钢琴谱，以及一句“谢谢”。\n“原来你会说话啊?!”乌西洛蒂当时惊讶到几近失声。",
+   "斯卡莉特以前总是独来独往,但不知道是从什么时候起,她经常与菲奇、维娜一起出现在食堂用餐。\n三个沉默的人坐在一起,彼此间从不交谈，只是埋头吃饭―—维娜是因为不善言语，菲奇是凡事无可奉告，而斯卡莉特…纯粹是觉得三人组的气场可以减少被人搭话的概率。",
+   "斯卡莉特并非纯种精灵，她的精灵血脉来自于母亲,这种血脉给她和她的兄弟姐妹们带来了漂亮的外貌，也使得他们家族的联姻格外成功，短短十几年就从商人世家成功攀上男爵之位。\n和那名精灵女子的婚姻，是她父亲做过的最划算的一笔生意。而现在,这位族长似乎在用美貌的女儿谋划一场更大的生意，据说是和某个上位继承人有关。",
+   "斯卡莉特的沉默并非冷血无情,虽然她认识不到内心的某些情感,但潜意识里依旧在受情感驱动，就像她自己也不知道为什么会选择来亚克兰斯,而不是在修道院平平安安。\n也许正是因为这种潜在的心理矛盾，斯卡莉特在与「渡鸦」的秘密会面中没有得到认可，亦未能成为一只告死鸟。",
+   "在圣血仪式上，斯卡莉特所饮下的圣血和其他人的不太一样，它在杯中散发着淡淡的金色光辉。\n斯卡莉特本以为每个人饮下的圣血都是如此，直到她成为黑卫很久后才无意得知，那是父亲花费了巨额代价，甚至险些丢掉族长之位，才得到的初代黑卫莱泽克之血。\n这种金色圣血不仅能保证觉醒,也一定能让试炼者安然无恙。"
+  ]
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "2级好感度问题：为什么那么晚会出现在那里听琴？",
+   "answers": [
+    "凑巧，我偶尔也会去那儿静一静。",
+    "准备外出听到有钢琴声。"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%BA%E9%AD%82%E4%B9%8B%E9%95%B0",
+ "revid": 8700,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8700",
+ "rev_timestamp": "2026-03-14T14:01:11Z"
+}

@@ -1,0 +1,162 @@
+{
+  "subject": "圣蹄图腾",
+  "group": "relics",
+  "page_revid": 7638,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E8%B9%84%E5%9B%BE%E8%85%BE",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%9C%A3%E8%B9%84%E5%9B%BE%E8%85%BE&format=json",
+  "fetched_at": "2026-11-20T16:23:28+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "圣蹄图腾#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/6/28/47/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "遗物#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/10/14/7/48/56/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "圣蹄图腾"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、15%物理伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%全伤害类型减免、8.5%全伤害类型减免、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8.5%受到法术伤害降低、8.5%受到法术伤害降低、8.5%受到物理伤害降低、8.5%受到物理伤害降低、10494体质、10494体质、10494体质、10494魔力、10494魔力、10494魔力、10494力量、10494力量、10494力量、70幸运、70幸运"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "专属"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑市-长城圣殿"
+            }
+          ]
+        },
+        {
+          "property": "进阶固有技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【三祈矢破】命中敌方后，如果该敌方附近有其他敌人，则箭矢会额外分裂出最多两支箭矢，对额外敌方造成伤害，伤害等于【三祈矢破】伤害的35%(分裂的箭矢也会受屏息风涌】的影响)"
+            }
+          ]
+        },
+        {
+          "property": "进阶随机技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【三祈矢破】造成的伤害提升(10.00%-15.00%)；【烟聚风缠】造成的命中下降和移动速度下降效果增加(6.00%-10.00%)；【屏息风涌】造成的伤害提升(10.00%-15.00%)"
+            }
+          ]
+        },
+        {
+          "property": "遗物名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "圣蹄图腾"
+            }
+          ]
+        },
+        {
+          "property": "遗物技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "战争之蹄佩戴时，造成的所有伤害增加5%+25%；【三祈矢破】发射的所有箭矢都会追踪附近的随机敌人"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "战争之蹄"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

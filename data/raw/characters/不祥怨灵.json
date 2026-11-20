@@ -1,0 +1,27 @@
+{
+  "title": "不祥怨灵",
+  "pageid": 1808,
+  "ns": 0,
+  "revid": 8666,
+  "rev_timestamp": "2026-02-08T04:50:59Z",
+  "wikitext": "<div class=\"row\">\n<div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8\">\n{{黑卫\n|称号=不祥怨灵\n|姓名=无名之魂\n|性别=未知\n|种族=\n|生日=\n|出生地=\n|具体身高/体重=\n|特长=\n|喜爱的东西=\n|讨厌的东西=\n|属性=冰霜\n|稀有度=S\n|基础阵线=守护\n|其他阵线=诡影、医者、通灵\n|上线日期=2021年06月27日\n|配装-词条推荐1=\n|配装-词条推荐2=\n|备注=\n}}\n<div class=\"main-line-wrap\" style=\"width:100%; float: left;\"> \n<div class=\"sy-box-1\" style=\"margin-top: 20px\"> \n<div class=\"sy-box-1-n\"> \n<div class=\"sy-title-1\" style=\"margin-bottom: 0;\">S狗粮，暂不推荐配装、符文、黑石</div> \n</div>\n</div>\n{{黑卫技能\n|技能名称={{#arraydefine:技能名称|普通攻击,寒彻入骨,冰冷诅咒,灵界躯体,回避强化,寒冰护体,不详狂热,活力,躲闪,加护,护体}}\n|技能冷却时间={{#arraydefine:技能冷却时间|0,0,12,0,0,0,0,0,0,0,0}}\n|技能消耗={{#arraydefine:技能消耗|0,1000怒气,0,0,0,0,0,0,0,0,0}}\n|普攻=\n|必杀技=对单体目标造成300%法术强度的冰霜伤害，并冻结目标(2+0.2*法术精通)秒\n|战斗技=对单体目标造成420%法术强度的冰霜伤害\n|辅助技1=获得50%技能回避,每次回避时恢复1173点生命值+350%法术强度生命值。\n|辅助技2=获得15%闪避,每次闪避时恢复151点生命值+200%法术强度生命值。\n|辅助技3=击中不详怨灵的单位，将受到怨灵冰霜气息的诅咒，攻击者的攻击速度将降低40%，持续5秒\n|辅助技4=战斗开始后6秒后，随机嘲讽自身6米范围内一名当前目标不是自己最近的敌方单位，并提升自身100%攻击速度，持续10秒\n|通用辅助技1=最大生命值提升6%，最大护盾值提升6%\n|通用辅助技2=普通攻击闪避几率提升15%\n|通用辅助技3=受到的治疗效果提升10%\n|通用辅助技4=生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒\n}}\n</div>{{黑卫背景故事\n|角色故事=\n|事迹一=\n|事迹二=\n|事迹三=\n|事迹四=\n|事迹五=\n|事迹六=\n}}\n</div>\n<div class=\"col-xs-12 col-sm-4 col-md-4 col-lg-4\">\n<p id=\"DownloadHtmlImg\" data-param=\"无名之魂\" class=\"visible-md visible-sm visible-lg\" style=\"margin-bottom: 20px;\">将本页保存为图片</p>\n{{黑卫立绘|名称=无名之魂|立绘1=立绘1|立绘2=|立绘3=|立绘4=}}\n{{推荐黑石\n|恐熊=\n|巫妖=\n|怒兽=\n|猎蛛=\n|蝮蛇=\n|诡眼=\n|幽鬼=\n|雷影狼=\n|石像鬼=\n|雪甲虫=\n|感电狐=\n|霜蹄=\n|冰凤=\n|诅咒灵=\n|闪鸣鸟=\n|金乌=\n|迅角兽=\n|炎龙=\n}}{{黑卫羁绊好感度\n|2Q=2级好感度问题\n|2A1=2级好感度答案1\n|2A2=2级好感度答案2\n|5Q=5级好感度问题\n|5A1=5级好感度答案1\n|5A2=5级好感度答案2\n|10Q=10级好感度问题\n|10A1=10级好感度答案1\n|10A2=10级好感度答案2\n}}\n</div>\n</div>\n{{#css:\n#DownloadHtmlImg{\n    display: inline-block;\n    line-height: 1;\n    white-space: nowrap;\n    cursor: pointer;\n    background: #fff;\n    border: 1px solid #dcdfe6;\n    color: #606266;\n    -webkit-appearance: none;\n    text-align: center;\n    box-sizing: border-box;\n    outline: none;\n    margin: 0;\n    transition: .1s;\n    font-weight: 500;\n    -moz-user-select: none;\n    -webkit-user-select: none;\n    -ms-user-select: none;\n    padding: 8px 14px;\n    width: 100%;\n    font-size: 14px;\n    border-radius: 4px;\n    margin-bottom: 14px;\n    animation: throttle 1s step-end forwards;\n}\n#DownloadHtmlImg:hover {\n    background: #fff;\n    border-color: #409eff;\n    color: #409eff;\n}\n\n#DownloadHtmlImg:active {\n    animation: none;\n}\n\n@keyframes throttle {\n    from {\n        pointer-events: none;\n    }\n    to {\n        pointer-events: all;\n    }\n}\n.sy-title-1 {\n    line-height: 24px;\n    margin-bottom: 6px;\n}\n.BOX-title-2 {\n    padding-top: 2px;\n}\n\n.main-line-wrap + p {\ndisplay: none;\n}\n\n}}\n{{JS|Html2canvas.min.js}}\n{{JS|Html2img.js}}",
+  "redirected_from": null,
+  "group": "characters",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%8D%E7%A5%A5%E6%80%A8%E7%81%B5",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8666",
+  "fetched_at": "2026-11-20T15:52:11+00:00",
+  "templates": [
+    "模板:JS",
+    "模板:ResourceLoader",
+    "模板:推荐黑石",
+    "模板:空白占位符",
+    "模板:阵线图标",
+    "模板:颜色",
+    "模板:黑卫",
+    "模板:黑卫技能",
+    "模板:黑卫立绘",
+    "模板:黑卫羁绊好感度",
+    "模板:黑卫背景故事"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

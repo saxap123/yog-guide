@@ -1,0 +1,18 @@
+{
+  "title": "遗物",
+  "pageid": 1905,
+  "ns": 0,
+  "revid": 6407,
+  "rev_timestamp": "2025-03-28T07:10:33Z",
+  "wikitext": "{|class=\"wikitable\" style=\"width:100%\"\n|-\n! style=\"width: 10%;min-width: calc(4em + 10px);\" | 查看全部\n|\n{{筛选项|0|查看全部|查看全部}}\n|-\n!遗物类型\n|\n{{筛选项|1|通用|}}\n{{筛选项|1|专属|}}\n|-\n!遗物品质\n|\n{{筛选项|2|史诗|}}\n{{筛选项|2|神话|}}\n{{筛选项|2|永恒|}}\n|}\n\n{|id=\"CardSelectTr\" class=\"CardSelect wikitable sortable\" style=\"width:100%;text-align: center;font-size:12px\"\n|-id=\"CardSelectTabHeader\"class=\"freeze\"\n!style=\"width:10%;\"|遗物图\n!style=\"width:5%;\"|遗物名称 \n!class=\"visible-md visible-sm visible-lg\" style=\"width:4%;\"|最大等级\n!class=\"visible-md visible-sm visible-lg\" style=\"width:12%;\"|前缀\n!class=\"visible-md visible-sm visible-lg\" style=\"width:12%;\"|后缀\n!class=\"visible-md visible-sm visible-lg\" style=\"width:10%;\"|专属\n!class=\"visible-md visible-sm visible-lg\" style=\"width:14%;\"|遗物技能\n!class=\"visible-md visible-sm visible-lg\" style=\"width:14%;\"|进阶固有技能\n!class=\"visible-md visible-sm visible-lg\" style=\"width:14%;\"|进阶随机技能\n!style=\"width:5%;\"|获取途径\n|-\n{{#ask:[[分类:遗物]]\n|?遗物名称\n|?类型\n|?品质\n|?最大等级\n|?前缀\n|?后缀\n|?专属\n|?遗物技能\n|?进阶固有技能\n|?进阶随机技能\n|?获取途径\n|link=none\n|sort=品质\n|template=遗物筛选/行\n|headers=hide\n|order=desc\n|format=template\n|limit=1000\n}}\n|}\n\n{{#css:\n.freeze th,.freeze td{\nposition:sticky;\ntop:55px;\n}\n@media(max-width:768px){\n.freeze th,.freeze td{\ntop:-1px;\n}\n}\n.wikitable * {\nword-break: break-all;\n}\n}}",
+  "redirected_from": null,
+  "group": "pages",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%81%97%E7%89%A9",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6407",
+  "fetched_at": "2026-11-20T15:55:10+00:00",
+  "templates": [
+    "模板:筛选项",
+    "模板:遗物筛选/行"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

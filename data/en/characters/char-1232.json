@@ -1,0 +1,486 @@
+{
+ "id": "char-1232",
+ "name": "Marine Rime",
+ "page_title": "唤霜海灵",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Stephine",
+  "gender": "Female",
+  "race": "Elf",
+  "birthday": "--08-15",
+  "birthplace": null,
+  "height_weight": "170cm/50kg",
+  "specialties": [
+   "music",
+   "poetry"
+  ],
+  "likes": [
+   "fish",
+   "seafood",
+   "soaking her tail",
+   "music box (bond gift)"
+  ],
+  "dislikes": [
+   "monster",
+   "cats",
+   "exhaustion"
+  ],
+  "release_date": "2024-07-31"
+ },
+ "element": "Frost",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   },
+   {
+    "name": "Resonance Front",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction",
+   "Skill Crit",
+   "Spell Power %",
+   "Max HP",
+   "Intelligence",
+   "Constitution",
+   "Frost Penetration"
+  ],
+  "secondary": [
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Gelid Flurry",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Unleashes three consecutive attacks, firing one Ice Cone / four Ice Cones / one Cold Torrent at enemies respectively, dealing Frost DMG equal to 250% of Spell Power to the target / target / enemies on the path. Each attack accumulates 10/15/25 Ocean Energy respectively.",
+   "scaling": [
+    {
+     "percent": "250%",
+     "values": [
+      250.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 250% of Spell Power"
+    }
+   ],
+   "name_zh": "冰雪流矢"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Glacial Quietus",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Stephine unleashes an Ice Spear, deals Frost DMG equal to 2500% of Spell Power to an enemy, then dealing Frost DMG equal to 1000% of Spell Power to the target and surrounding enemies every 0.5 sec for the next 2.5 sec.",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 2500% of Spell Power"
+    },
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 1000% of Spell Power"
+    }
+   ],
+   "name_zh": "霜寒寂灭"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Frigid Winds",
+   "cooldown_s": 8,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Released when Cold value reaches 50. Marine Rime condenses five ice lances which, after a short delay, are launched at the target, dealing Frost DMG equal to 370% Spell Power to enemies within an area.",
+   "scaling": [
+    {
+     "percent": "370%",
+     "values": [
+      370.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 370% of Spell Power"
+    }
+   ],
+   "name_zh": "寒意纷至"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Requiem of Delusion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When [Glacial Quietus] hits, inflicts [Confuse] state on enemy Blackguard for 3 sec, the enemy Blackguard in [Confuse] state will attack their allies. If the target is a non-blackguard unit or the last Blackguard in the team, then increases Stephine's DMG Dealt by 50% to the target for next 5 sec.",
+   "scaling": [],
+   "name_zh": "迷狂灵曲"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Ode of Mermaid",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When casting [Frigid Winds], consumes all Frost Orbs and Energy Orbs. Every 2 Frost Orbs add one Ice Lance (up to 5), and every 1 Energy Orb increases Ice Lance DMG by 10% (up to 100%).",
+   "scaling": [],
+   "name_zh": "人鱼欢颂"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Incantation of Love",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Marine Rime enters the battle, all enemy Blackguards immediately lose Rage; amount reduced = (Marine Rime's Spell Mastery - enemy Blackguard's Spell Negation) X2+200; this effect then triggers once every 20 seconds.",
+   "scaling": [],
+   "name_zh": "爱的咒言"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Song of Sailing",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Marine Rime's Skill Crit Chance +30",
+   "scaling": [],
+   "name_zh": "溯海行歌"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Waiting for a Lv 450 build — suggestions welcome in the comments below",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder: editors ask for a 450 build in the comments",
+   "slots": {
+    "Helmet": null,
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": null,
+    "Ring": null,
+    "Belt": null,
+    "Relic": null,
+    "Trousers": null,
+    "Emblem": null,
+    "Shoes": null,
+    "Off-hand": null,
+    "Weapon": null,
+    "Handguard": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {},
+   "unlinked": null,
+   "empty": true
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": "Frost Snow",
+    "id": "rune-1421",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "[Frigid Winds] deals 50% increased DMG to enemies in Freeze state, and each hit of [Gelid Flurry] grants 1 Energy Orb."
+   },
+   {
+    "rank": 2,
+    "text": "Increases [Gelid Flurry]'s unleash speed by 25%, and there is (20 + Spell Mastery) % of chance to gain 1 Frost Orb per sec."
+   },
+   {
+    "rank": 3,
+    "text": "Increases the [Confuse] state inflicted by [Requiem of Delusion] to enemy Blackguard by 2 sec, and increases DMG Boost duration to the non-blackguard units by 5 sec."
+   },
+   {
+    "rank": 4,
+    "text": "[Glacial Quietus] will choose the enemy target with the highest Spell Power/Physical Power to release."
+   },
+   {
+    "rank": 5,
+    "text": "Increases the effect of [Incantation of Love] by 100%."
+   },
+   {
+    "rank": 6,
+    "text": "All DMG dealt by Marine Rime is increased by 10%."
+   }
+  ],
+  "recommendation": "PVE: Not recommended for now; ranks 345 for PVP"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Rising waves",
+   "id": "relic-1945"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Mystic battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%94%A4%E9%9C%9C%E6%B5%B7%E7%81%B5",
+ "revid": 9062,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9062",
+ "rev_timestamp": "2026-07-28T09:34:34Z",
+ "i18n": {
+  "name_zh": "唤霜海灵",
+  "sources": {
+   "derived": 6,
+   "game_db": 10,
+   "glossary": 59,
+   "lore": 1,
+   "names": 27,
+   "translated": 18
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 74845,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 74846,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 74851,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 74852,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 74853,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 74854,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "translated"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "风暴海",
+    "reason": "not translatable (see translate/manual/texts)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

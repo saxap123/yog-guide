@@ -1,0 +1,28 @@
+{
+  "title": "神之嫡子",
+  "pageid": 298,
+  "ns": 0,
+  "revid": 8642,
+  "rev_timestamp": "2026-02-08T04:30:31Z",
+  "wikitext": "<div class=\"row\">\n<div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8\">\n{{黑卫\n|称号=神之嫡子\n|姓名=芙兰幽儿\n|性别=女\n|种族=\n|生日=？？？\n|出生地=？？？\n|具体身高/体重=169cm/??kg\n|特长=变形咒术、蛇语、捉弄人\n|喜爱的东西=苹果、热闹的地方、观察人类、{{颜色|红|王权棋子（羁绊礼物）}}\n|讨厌的东西=魔物、被人指手画脚、睡觉被吵醒\n|属性=闪电\n|稀有度=SS\n|基础阵线=狩魔\n|其他阵线=游侠、强袭、智慧、魔导、召唤、聚变、回馈\n|上线日期=2022年12月01日\n|配装-词条推荐1=全伤害类型减免、%法术强度、暴击概率、闪电穿透、暴击倍率、魔力、攻击速度、物理精通、全伤害类型增幅、法术伤害增幅、闪电伤害增幅\n|配装-词条推荐2=最大生命值、体质、物理抗性、暴击伤害减免、受到法术伤害降低、受到物理伤害降低\n|备注=\n}}\n<div class=\"main-line-wrap\" style=\"width:100%; float: left;\"> \n<div class=\"sy-box-1\" style=\"margin-top: 20px\"> \n<div class=\"sy-box-1-n\"> \n<div class=\"sy-title-1\" style=\"margin-bottom: 0;\">阵线工具人或PVP大爹，暂不推荐配装、符文、黑石</div> \n</div>\n</div>\n{{黑卫技能\n|技能名称={{#arraydefine:技能名称|普通攻击,死光,蛇灵召唤,蛇蟒横行,神子英姿,驭灵之力,噬灵,致命瞄准,体质增强,急速,强击}}\n|技能冷却时间={{#arraydefine:技能冷却时间|2,0,0,0,0,0,0,0,0,0,0}}\n|技能消耗={{#arraydefine:技能消耗|0,1000怒气,0,0,0,0,0,0,0,0,0}}\n|普攻=对直线范围内的敌人造成两次75%攻击力的闪电伤害。\n|必杀技=朝前方发射强力光束炮，光束炮持续2.1秒，光束炮范围内的敌人每0.3秒受到一次500%法术强度的闪电伤害。\n|战斗技=在自身周围召唤1个蛇灵(蛇灵不视作场上单位)蛇灵每隔3秒对10米范围内的敌人造成芙兰幽儿36.8%法术强度的闪电伤害。(蛇灵的伤害视为普攻伤害且攻击频率受攻速影响)\n|辅助技1=蛇灵召唤上限+1，蛇灵造成的伤害增加50%\n|辅助技2=芙兰幽儿每有1点物理精通，都将增加自身与蛇灵的5%暴击倍率。\n|辅助技3=全队增加10点物理精通。\n|辅助技4=芙兰幽儿每点魔力转化为0.1攻击力。\n|通用辅助技1=抓住敌人的虚弱时刻，对生命值低于35%的目标造成的伤害提升10%。\n|通用辅助技2=最大生命值提升2300点\n|通用辅助技3=攻击速度提升25%\n|通用辅助技4=物理强度提升7%，法术强度提升7%\n}}\n</div>{{黑卫遗物|黑卫名称=神之嫡子}}{{黑卫背景故事\n|角色故事=角色故事\n|事迹一=事迹1\n|事迹二=事迹2\n|事迹三=事迹3\n|事迹四=事迹4\n|事迹五=事迹5\n|事迹六=事迹6\n}}\n</div>\n<div class=\"col-xs-12 col-sm-4 col-md-4 col-lg-4\">\n<p id=\"DownloadHtmlImg\" data-param=\"神之嫡子\" class=\"visible-md visible-sm visible-lg\" style=\"margin-bottom: 20px;\">将本页保存为图片</p>\n{{黑卫立绘|名称=神之嫡子|立绘1=立绘1|立绘2=|立绘3=|立绘4=}}{{黑卫羁绊好感度\n|2Q=《去哪里玩》\n|2A1={{颜色|错|去安静的咖啡厅看书吃蛋糕}}\n|2A2={{颜色|对|去逛逛热闹的集市}}\n|5Q=《苹果》\n|5A1={{颜色|错|你不是吗}}\n|5A2={{颜色|对|没错，芙兰幽儿最温柔了}}\n|10Q=《神子之吻》\n|10A=获得专属武器：[[神子之书]]\n}}\n</div>\n</div>\n{{#css:\n#DownloadHtmlImg{\n    display: inline-block;\n    line-height: 1;\n    white-space: nowrap;\n    cursor: pointer;\n    background: #fff;\n    border: 1px solid #dcdfe6;\n    color: #606266;\n    -webkit-appearance: none;\n    text-align: center;\n    box-sizing: border-box;\n    outline: none;\n    margin: 0;\n    transition: .1s;\n    font-weight: 500;\n    -moz-user-select: none;\n    -webkit-user-select: none;\n    -ms-user-select: none;\n    padding: 8px 14px;\n    width: 100%;\n    font-size: 14px;\n    border-radius: 4px;\n    margin-bottom: 14px;\n    animation: throttle 1s step-end forwards;\n}\n#DownloadHtmlImg:hover {\n    background: #fff;\n    border-color: #409eff;\n    color: #409eff;\n}\n\n#DownloadHtmlImg:active {\n    animation: none;\n}\n\n@keyframes throttle {\n    from {\n        pointer-events: none;\n    }\n    to {\n        pointer-events: all;\n    }\n}\n.sy-title-1 {\n    line-height: 24px;\n    margin-bottom: 6px;\n}\n.BOX-title-2 {\n    padding-top: 2px;\n}\n\n.main-line-wrap + p {\ndisplay: none;\n}\n\n}}\n{{JS|Html2canvas.min.js}}\n{{JS|Html2img.js}}",
+  "redirected_from": null,
+  "group": "characters",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%A5%9E%E4%B9%8B%E5%AB%A1%E5%AD%90",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8642",
+  "fetched_at": "2026-11-20T15:53:51+00:00",
+  "templates": [
+    "模板:JS",
+    "模板:ResourceLoader",
+    "模板:空白占位符",
+    "模板:遗物筛选/黑卫",
+    "模板:阵线图标",
+    "模板:颜色",
+    "模板:黑卫",
+    "模板:黑卫技能",
+    "模板:黑卫立绘",
+    "模板:黑卫羁绊好感度",
+    "模板:黑卫背景故事",
+    "模板:黑卫遗物"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

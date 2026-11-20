@@ -1,0 +1,712 @@
+{
+ "id": "char-304",
+ "name": "百花旅者",
+ "page_title": "百花旅者",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "凌",
+  "gender": "女",
+  "race": null,
+  "birthday": "1月21日",
+  "birthplace": "迷雾山脉",
+  "height_weight": "171cm/54kg",
+  "specialties": [
+   "琴棋书画诗酒花茶"
+  ],
+  "likes": [
+   "音乐盒",
+   "茶点",
+   "好看的布料",
+   "音乐盒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "无礼的人",
+   "脏东西",
+   "噪音"
+  ],
+  "release_date": "2023年03月30日"
+ },
+ "element": "冰霜",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "辅助",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "医者",
+    "id": "faction-2204"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   },
+   {
+    "name": "回馈",
+    "id": "faction-2196"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免",
+   "%法术强度",
+   "冰霜穿透",
+   "魔力",
+   "暴击倍率",
+   "暴击概率",
+   "攻击速度",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "冰霜伤害增幅"
+  ],
+  "secondary": [
+   "物理抗性",
+   "暴击伤害减免",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": "不堆体质、生命",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对8米范围内的1名敌人造成400%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "400%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "百花栖身",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "百花旅者选择队伍中物理强度或法术强度最高的角色进行栖身，栖身后，对被栖身的角色添加可以吸收百花旅者500%体质的魔力护盾(重复释放时刷新护盾)。且被栖身的角色受到【落花狂舞】影响时，获得的攻速加成提升100%。",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "体质",
+     "effect": null,
+     "text": "500%体质"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "落花狂舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "百花旅者在场上时，所有队友获得落花狂舞，攻击速度增加25%，移动速度增加10%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "花之和弦",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "百花旅者所栖身的黑卫造成普攻伤害时，会额外造成百花旅者300%/150%(近战黑卫/远程黑卫)的法术强度的冰霜伤害。该伤害视为普攻，且会受到被栖身角色的全伤害增幅、普攻暴击几率、暴击倍率等属性影响;但是该伤害不会再额外触发其他任何效果;该伤害在被栖身角色触发弹射时也会等比衰减。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "回旋伞舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "百花旅者栖身于近战黑卫时，会在其身周召唤旋风，每秒其近战范围内的所有敌人造成百花旅者500%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "500%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "花伞映雪",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "百花旅者栖身于远程黑卫时，在释放必杀技同时，朝前方释放缓慢移动的花伞，花伞移动过程中会朝四周发射冰霜旋风，对触碰到的敌人造成百花旅者1000%法术强度的冰霜伤害，并冰冻2.5秒。",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "1000%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "旅者慧智",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "百花旅者在场上时，所有队友获得旅者慧智，物理和元素穿透增加30点，且百花旅者每拥有一点法术精通都会增加0.5的穿透值。(通过精通增加的穿透值最多不会超过50点)",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "振奋鼓舞战友，所有友方单位初始怒气增加25点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "能够轻松快速的释放法术，主动技能冷却时间降低10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延迟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "法术强度提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "血包",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "'blood pack' build (healing / HP support role)",
+   "slots": {
+    "头盔": "决斗大师的帽子",
+    "项链": "指路吊坠",
+    "卡牌": "总攻卡牌",
+    "耳坠": "魔弦耳环",
+    "衣服": "月辉·轻盈软甲",
+    "戒指": "魔人之指",
+    "腰带": "嗜战者束腰",
+    "圣物": "精灵飞羽",
+    "裤子": "魔弦护腿",
+    "徽章": "复苏徽识",
+    "鞋子": "怜悯圣靴",
+    "副手": "古老魔盾",
+    "武器": "渴血",
+    "护手": null
+   },
+   "alternatives": {
+    "项链": [
+     "碎星项链"
+    ],
+    "卡牌": [
+     "急速之牌"
+    ],
+    "衣服": [
+     "月辉·达特穆尔酋长披风"
+    ],
+    "戒指": [
+     "花间圣戒"
+    ],
+    "腰带": [
+     "沐光环绕"
+    ],
+    "圣物": [
+     "月辉·夜影蝠翼"
+    ],
+    "裤子": [
+     "戏谑者裤腿"
+    ],
+    "鞋子": [
+     "月辉·高岭军靴"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "决斗大师的帽子": null,
+    "指路吊坠": "gear-1081",
+    "碎星项链": null,
+    "总攻卡牌": "gear-1692",
+    "急速之牌": null,
+    "魔弦耳环": null,
+    "月辉·轻盈软甲": "gear-1180",
+    "月辉·达特穆尔酋长披风": null,
+    "魔人之指": null,
+    "花间圣戒": null,
+    "嗜战者束腰": "gear-1210",
+    "沐光环绕": "gear-1199",
+    "精灵飞羽": null,
+    "月辉·夜影蝠翼": "gear-1181",
+    "魔弦护腿": null,
+    "戏谑者裤腿": "gear-1182",
+    "复苏徽识": null,
+    "怜悯圣靴": "gear-2024",
+    "月辉·高岭军靴": "gear-1201",
+    "古老魔盾": null,
+    "渴血": "gear-1190"
+   },
+   "unlinked": {
+    "决斗大师的帽子": {
+     "reason": "game_only",
+     "game_id": "11022",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "11022",
+        "field": "name",
+        "text_id": 3832,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       3832
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者",
+       "璨然银龙",
+       "分解装备",
+       "回怒装备",
+       "怒气装备"
+      ]
+     }
+    },
+    "碎星项链": {
+     "reason": "game_only",
+     "game_id": "4013",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4013",
+        "field": "name",
+        "text_id": 8335,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       8335
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者",
+       "怒气装备"
+      ]
+     }
+    },
+    "急速之牌": {
+     "reason": "game_only",
+     "game_id": "90210",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90210",
+        "field": "name",
+        "text_id": 62167,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62167
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "北境公主",
+       "百花旅者",
+       "忘却迷境-至冬宫殿"
+      ]
+     }
+    },
+    "魔弦耳环": {
+     "reason": "game_only",
+     "game_id": "90306",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90306",
+        "field": "name",
+        "text_id": 63588,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       63588
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "千宵月守"
+      ]
+     }
+    },
+    "月辉·达特穆尔酋长披风": {
+     "reason": "game_only",
+     "game_id": "12078",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "12078",
+        "field": "name",
+        "text_id": 3914,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       3914
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "百花旅者",
+       "璨然银龙"
+      ]
+     }
+    },
+    "魔人之指": {
+     "reason": "game_only",
+     "game_id": "2012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2012",
+        "field": "name",
+        "text_id": 4046,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       4046
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者",
+       "怒气装备"
+      ]
+     }
+    },
+    "花间圣戒": {
+     "reason": "game_only",
+     "game_id": "90053",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90053",
+        "field": "name",
+        "text_id": 59200,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       59200
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者"
+      ]
+     }
+    },
+    "精灵飞羽": {
+     "reason": "game_only",
+     "game_id": "13003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13003",
+        "field": "name",
+        "text_id": 3927,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3927
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "百花旅者",
+       "分解装备",
+       "夜行暹罗",
+       "黑话解读"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "复苏徽识": {
+     "reason": "game_only",
+     "game_id": "7007",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "7007",
+        "field": "name",
+        "text_id": 54995,
+        "type": "12"
+       }
+      ],
+      "text_ids": [
+       54995
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "古老魔盾": {
+     "reason": "game_only",
+     "game_id": "5020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5020",
+        "field": "name",
+        "text_id": 53826,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53826
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "忘却迷境攻略",
+       "冷却装备"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "恐熊",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "金乌",
+    "id": "black_stone-16",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "灵鹿遗骨",
+   "id": "relic-1962"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%99%BE%E8%8A%B1%E6%97%85%E8%80%85",
+ "revid": 9137,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9137",
+ "rev_timestamp": "2026-08-11T03:27:34Z"
+}

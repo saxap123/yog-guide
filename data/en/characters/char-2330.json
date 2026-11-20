@@ -1,0 +1,529 @@
+{
+ "id": "char-2330",
+ "name": "Green Whisper",
+ "page_title": "绿森山灵",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Undine",
+  "gender": "Female",
+  "race": "Elf",
+  "birthday": "--05-16",
+  "birthplace": null,
+  "height_weight": "168cm/55kg",
+  "specialties": [
+   "planting",
+   "the way of the bow"
+  ],
+  "likes": [
+   "sunshine",
+   "rainwater",
+   "blossoms",
+   "rose bouquet (bond gift)"
+  ],
+  "dislikes": [
+   "fire",
+   "monster"
+  ],
+  "release_date": "2026-02-28"
+ },
+ "element": "Lightning",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Thunderstorm Front",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "Lightning Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Lightning Damage Boost"
+  ],
+  "secondary": [
+   "Rage Recovery",
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Lightning Hunt",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Fires multiple arrows forward, dealing 700% Lightning DMG based on Magic Power to enemies hit.",
+   "scaling": [
+    {
+     "percent": "700%",
+     "values": [
+      700.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 700% of Spell Power"
+    }
+   ],
+   "name_zh": "电光追狩"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Star Barrage",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Enter Rapid-Fire Mode. Fires volleys of arrows forward every 0.4s, each arrow dealing 3000% Lightning DMG based on Magic Power to enemies along the path. Fires 8 times.",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 3000% of Spell Power"
+    }
+   ],
+   "name_zh": "星矢连袭"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Thunder Wrath",
+   "cooldown_s": 1,
+   "cooldown_raw": null,
+   "cost": "20 Force",
+   "description": "When [Lightning Hunt] is cast, has a chance to trigger Chain Lightning, dealing 7500% Lightning DMG based on Magic Power to up to 4 nearby enemies.",
+   "scaling": [
+    {
+     "percent": "7500%",
+     "values": [
+      7500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 7500% of Spell Power"
+    }
+   ],
+   "name_zh": "天雷之怒"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Thunderbind Rend",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The first cast of [Lightning Hunt] at battle start will always trigger [Thunder Wrath], and [Thunder Wrath] damage +100%.",
+   "scaling": [],
+   "name_zh": "雷索绞杀"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Forestward Grace",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Damage dealt by [Star Barrage] +50%.",
+   "scaling": [],
+   "name_zh": "森岳之佑"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Tenacity",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Green Whisper's Tenacity +10.",
+   "scaling": [],
+   "name_zh": "韧心"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Stalwart",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Green Whisper's Bravery +10.",
+   "scaling": [],
+   "name_zh": "骁锐"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Meteorite Necklace",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Emblem of the Hunt",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Skybreaker Thunder",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Trousers": [
+     "Elementalist's Britches"
+    ],
+    "Handguard": [
+     "Spark Catcher"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "狩猎徽章": "gear-1184",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "雷狩裂空": "gear-2336",
+    "妖精秘手": "gear-1179",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": null,
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Thunder Veins",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Songbird",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Thunderbind Rend trigger count +2."
+   },
+   {
+    "rank": 2,
+    "text": "When Green Whisper's Bravery exceeds 50, every additional 25 Bravery grants Star Barrage one extra wave of arrows and increases its cast speed by 8%."
+   },
+   {
+    "rank": 3,
+    "text": "Aura: Reaction Skill trigger rate of Lightning Blackguards in the team +12%."
+   },
+   {
+    "rank": 4,
+    "text": "When an enemy casts an Ultimate Skill, there is a chance to attack the enemy with a wave of arrows identical to [Star Barrage]; trigger chance: 60%."
+   },
+   {
+    "rank": 5,
+    "text": "While Green Whisper is active, she applies 1 stack of Shock every 2s to all enemies whose Bravery is lower than hers."
+   },
+   {
+    "rank": 6,
+    "text": "All damage dealt by Green Whisper +10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Rain-Kissed Bud",
+   "id": "relic-2338"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%BF%E6%A3%AE%E5%B1%B1%E7%81%B5",
+ "revid": 8797,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8797",
+ "rev_timestamp": "2026-03-31T15:05:24Z",
+ "i18n": {
+  "name_zh": "绿森山灵",
+  "sources": {
+   "derived": 5,
+   "game_db": 18,
+   "glossary": 63,
+   "lore": 1,
+   "names": 44,
+   "translated": 9
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 86090,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 86092,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 86091,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 86093,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 86094,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 86095,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 86096,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 86100,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 86101,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 86102,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 86104,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 86105,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "埃俄比斯山",
+    "reason": "not translatable (see translate/manual/texts)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

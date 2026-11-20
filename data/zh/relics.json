@@ -1,0 +1,3593 @@
+{
+ "kind": "relic",
+ "license": "CC BY-NC-SA 4.0",
+ "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
+ "count": 60,
+ "items": [
+  {
+   "id": "relic-1946",
+   "name": "万象归一",
+   "page_title": "万象归一",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "墨凝清影",
+    "id": "char-295"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%最大生命值"
+   ],
+   "skills": [
+    "墨凝清影佩戴时，造成的所有伤害增加5%+25%",
+    "墨凝清影必杀技：【挥翰成风】生效期间会使队伍免疫冰冻和魅惑效果"
+   ],
+   "advanced_fixed_skill": "队友触发【仙禽鸣应】时，未沫将立刻恢复30点怒气值",
+   "advanced_random_skills": [
+    "【墨光淋漓】提供的物理伤害增幅增加(1.00%-3.00%)",
+    "【仙禽鸣应】造成的伤害提升(10.00%-15.00%)",
+    "【笔底春风】造成的治疗效果提升(12.00%-20.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "落于画妖画卷上的第一滴墨珠。经历万千，终于给成她们此生最爱。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%87%E8%B1%A1%E5%BD%92%E4%B8%80",
+   "revid": 7624,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7624",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B8%87%E8%B1%A1%E5%BD%92%E4%B8%80&format=json"
+  },
+  {
+   "id": "relic-1970",
+   "name": "不灭之魂",
+   "page_title": "不灭之魂",
+   "type": "通用",
+   "quality": "史诗",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500全属性"
+   ],
+   "skills": [
+    "每秒回复10000+50000点生命",
+    "当你在过去4秒没有受到伤害时，会获得一道伤害吸收护盾，吸收相当于你每秒回复生命200%的伤害"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": [
+    "黑市-迷雾商铺"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%8D%E7%81%AD%E4%B9%8B%E9%AD%82",
+   "revid": 6391,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6391",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B8%8D%E7%81%AD%E4%B9%8B%E9%AD%82&format=json"
+  },
+  {
+   "id": "relic-1953",
+   "name": "乐园之握",
+   "page_title": "乐园之握",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "玉面九尾",
+    "id": "char-286"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "玉面九尾佩戴时，造成的所有伤害增加5%+25%",
+    "【禁咒封魔】的发动概率+10%"
+   ],
+   "advanced_fixed_skill": "玉面九尾施加魅惑时，有45%几率使敌方受到治疗效果降低35%。(玉面九尾每点精神精通都会使该几率提升1%，敌方目标每点精神豁免都会使该几率降低1%。)",
+   "advanced_random_skills": [
+    "【魅惑之影】造成的伤害提升(6.00%-10.00%)",
+    "【魅惑之影】造成的魅惑持续时间提升(0.5-1)",
+    "【禁咒封魔】提供的法术强度增加(0.50%-1.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "狐妖一族遗传的秘密，便是那人间至乐的乐园。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B9%90%E5%9B%AD%E4%B9%8B%E6%8F%A1",
+   "revid": 7726,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7726",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B9%90%E5%9B%AD%E4%B9%8B%E6%8F%A1&format=json"
+  },
+  {
+   "id": "relic-2080",
+   "name": "光明缔约",
+   "page_title": "光明缔约",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "长辉照夜",
+    "id": "char-2069"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "长辉照夜佩戴时，造成的所有伤害增加5%+25%",
+    "【回岸折光】触发时，立刻使自己恢复60点怒气值。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%85%89%E6%98%8E%E7%BC%94%E7%BA%A6",
+   "revid": 7614,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7614",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%85%89%E6%98%8E%E7%BC%94%E7%BA%A6&format=json"
+  },
+  {
+   "id": "relic-1967",
+   "name": "凌春独绽",
+   "page_title": "凌春独绽",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "不熄曜日",
+    "id": "char-1631"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "不熄曜日佩戴时，造成的所有伤害增加5%+25%",
+    "【全域爆轰】释放同时会立刻获得上限数量的能量球"
+   ],
+   "advanced_fixed_skill": "【全域爆轰】释放后6秒内，不熄曜日免疫冰冻、昏迷、魅惑效果。",
+   "advanced_random_skills": [
+    "【落葬枪焰】造成的伤害提升(5.00%-10.00%)",
+    "【全域爆轰】造成的伤害提升(5.00%-10.00%)",
+    "【协同策略】无人机发射的导弹造成的伤害提升(5.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "这是她的阵煌，也是她的荣耀。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%87%8C%E6%98%A5%E7%8B%AC%E7%BB%BD",
+   "revid": 7623,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7623",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%87%8C%E6%98%A5%E7%8B%AC%E7%BB%BD&format=json"
+  },
+  {
+   "id": "relic-1960",
+   "name": "利刃徽印",
+   "page_title": "利刃徽印",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "灵刃之主",
+    "id": "char-306"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "灵刃之主佩戴时，物理伤害提升50%+50%",
+    "灵刃之主佩戴时，释放的剑气大小+20%，爱丽丝在战斗中造成物理伤害时，全伤害增幅以及物理伤害增幅带来的效果加倍，但是获得的攻击速度提升效果变为-半。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "一名武器大师所留下的遗物，死前不断挥剑，死后亦庇护挥剑之人。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%88%A9%E5%88%83%E5%BE%BD%E5%8D%B0",
+   "revid": 7619,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7619",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%88%A9%E5%88%83%E5%BE%BD%E5%8D%B0&format=json"
+  },
+  {
+   "id": "relic-1966",
+   "name": "半倚云湾",
+   "page_title": "半倚云湾",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "玉尘灵仙",
+    "id": "char-1702"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "玉尘灵仙佩戴时，造成的所有伤害增加5%+25%",
+    "【天目神光】释放时，将立刻恢复全部神通力"
+   ],
+   "advanced_fixed_skill": "【天目神光】造成伤害时，如果自身拥有狂怒球，则会消耗掉所有狂怒球，每消耗1个狂怒球都会使敌方受到的治疗效果-10%，持续5秒。",
+   "advanced_random_skills": [
+    "【天目神光】造成的伤害提升(2.00%-5.00%）",
+    "【无穷妙道】造成的伤害提升(2.00%-5.00%)",
+    "【证吾神通】造成的伤害提升(5.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "归魂，倚岸，春色融融，一如当年。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8D%8A%E5%80%9A%E4%BA%91%E6%B9%BE",
+   "revid": 7639,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7639",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%8D%8A%E5%80%9A%E4%BA%91%E6%B9%BE&format=json"
+  },
+  {
+   "id": "relic-1954",
+   "name": "古龙之怒",
+   "page_title": "古龙之怒",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "传承之龙",
+    "id": "char-288"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "传承之龙佩戴时，造成的所有伤害增加5%+25%",
+    "传承之龙冲锋造成的控制时间增加50%"
+   ],
+   "advanced_fixed_skill": "【冰洁之破】的释放速度加快，且释放期间不会被击飞击退。",
+   "advanced_random_skills": [
+    "【冰驰冲击】造成的伤害提升(6.00%-10.00%)",
+    "【真空切割】造成的伤害提升(6.00%-10.00%)",
+    "【冰洁之破】造成的伤害提升(6.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "传说中不朽古龙之骨，流淌着最为至上的龙血力量，无时不刻散发着来自远古的狂怒。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%A4%E9%BE%99%E4%B9%8B%E6%80%92",
+   "revid": 7632,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7632",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%8F%A4%E9%BE%99%E4%B9%8B%E6%80%92&format=json"
+  },
+  {
+   "id": "relic-1940",
+   "name": "告死之徽",
+   "page_title": "告死之徽",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "夜行暹罗",
+    "id": "char-296"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "夜行暹罗佩戴时，造成的所有伤害增加5%+25%",
+    "夜行暹罗必杀技：【奥义·雷狱】的伤害间隔减少0.3秒。"
+   ],
+   "advanced_fixed_skill": "【乱舞手里剑】造成伤害时，有4%几率(每拥有1点法术精通，增加0.1%触发几率)使下一次释放的【奥义·雷狱】的持续时间延长0.1秒。",
+   "advanced_random_skills": [
+    "【飞刃】造成的伤害提升(6.00%-10.00%)",
+    "【乱舞手里剑】造成的伤害提升(6.00%-10.00%)",
+    "【奥义·雷狱】造成的伤害提升(6.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "象征死亡的微章，带着夜行之猫的蛛道。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%91%8A%E6%AD%BB%E4%B9%8B%E5%BE%BD",
+   "revid": 7621,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7621",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%91%8A%E6%AD%BB%E4%B9%8B%E5%BE%BD&format=json"
+  },
+  {
+   "id": "relic-1939",
+   "name": "命运忤逆",
+   "page_title": "命运忤逆",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "自由炮手",
+    "id": "char-278"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "自由炮手佩戴时，造成的所有伤害增加5%+25%",
+    "【雷光协振】消耗的源力降低50%"
+   ],
+   "advanced_fixed_skill": "释放【落雷之势】时，有55%几率使敌方生命值最高的黑卫全伤害减免降低15%，效果持续10秒，且无法驱散。(自由炮手每点法术精通都会使该几率提升1%，敌方目标每点法术豁免都会使该几率降低1%。)",
+   "advanced_random_skills": [
+    "【缭乱雷棘】造成的伤害提升(6.00%-10.00%)",
+    "【落雷之势】提升的伤害提升(6.00%-10.00%)",
+    "每层【聚能】带来的伤害增幅增加(1.50%-2.50%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "纵使生来命运注定，叛逆之人亦不会听天由命，终其一生都在为自由而战。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%91%BD%E8%BF%90%E5%BF%A4%E9%80%86",
+   "revid": 7724,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7724",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%91%BD%E8%BF%90%E5%BF%A4%E9%80%86&format=json"
+  },
+  {
+   "id": "relic-2171",
+   "name": "和光同暖",
+   "page_title": "和光同暖",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "爱恋花见",
+    "id": "char-2166"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "爱恋花见佩戴时，造成的所有伤害增加5%+25%",
+    "【光阴回还】释放后，爱恋花见会恢复已损失生命值的30%"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%92%8C%E5%85%89%E5%90%8C%E6%9A%96",
+   "revid": 7714,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7714",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%92%8C%E5%85%89%E5%90%8C%E6%9A%96&format=json"
+  },
+  {
+   "id": "relic-1968",
+   "name": "噬魂毒印",
+   "page_title": "噬魂毒印",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "双鸣追猎",
+    "id": "char-1885"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%冰霜伤害增幅"
+   ],
+   "skills": [
+    "双鸣追猎佩戴时，造成的所有伤害增加5%+25%",
+    "双鸣追猎造成普攻伤害时，有25%的几率恢复65点怒气值"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "是希望，也是绝望。是生命，也是死亡。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%99%AC%E9%AD%82%E6%AF%92%E5%8D%B0",
+   "revid": 7613,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7613",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%99%AC%E9%AD%82%E6%AF%92%E5%8D%B0&format=json"
+  },
+  {
+   "id": "relic-1976",
+   "name": "圣剑裁决",
+   "page_title": "圣剑裁决",
+   "type": "通用",
+   "quality": "史诗",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500全属性"
+   ],
+   "skills": [
+    "每次对敌人造成的伤害时，使该敌人受到来自穿戴者的伤害提高0.8%+1%，触发间隔0.5秒",
+    "对首领的伤害提高25%"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": null,
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E5%89%91%E8%A3%81%E5%86%B3",
+   "revid": 6398,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6398",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%9C%A3%E5%89%91%E8%A3%81%E5%86%B3&format=json"
+  },
+  {
+   "id": "relic-1950",
+   "name": "圣蹄图腾",
+   "page_title": "圣蹄图腾",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "战争之蹄",
+    "id": "char-291"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "战争之蹄佩戴时，造成的所有伤害增加5%+25%",
+    "【三祈矢破】发射的所有箭矢都会追踪附近的随机敌人"
+   ],
+   "advanced_fixed_skill": "【三祈矢破】命中敌方后，如果该敌方附近有其他敌人，则箭矢会额外分裂出最多两支箭矢，对额外敌方造成伤害，伤害等于【三祈矢破】伤害的35%(分裂的箭矢也会受屏息风涌】的影响)",
+   "advanced_random_skills": [
+    "【三祈矢破】造成的伤害提升(10.00%-15.00%)",
+    "【烟聚风缠】造成的命中下降和移动速度下降效果增加(6.00%-10.00%)",
+    "【屏息风涌】造成的伤害提升(10.00%-15.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "崇拜圣兽的部族所留下的图题，象征着对纯洁与善良的崇拜。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E8%B9%84%E5%9B%BE%E8%85%BE",
+   "revid": 7638,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7638",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%9C%A3%E8%B9%84%E5%9B%BE%E8%85%BE&format=json"
+  },
+  {
+   "id": "relic-1948",
+   "name": "复仇徽印",
+   "page_title": "复仇徽印",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "裁决圣锤",
+    "id": "char-294"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%冰霜伤害增幅"
+   ],
+   "skills": [
+    "裁决圣锤佩戴时，造成的所有伤害增加5%+25%",
+    "战斗开始时，立刻对所有队友释放一次【铸冰为铠】效果，持续8秒。"
+   ],
+   "advanced_fixed_skill": "受到伤害时，如果该次伤害未暴击，则立刻释放一次【寒冷钢铁】。(该效果有3秒的触发间隔)",
+   "advanced_random_skills": [
+    "【重锤猛击】造成的伤害提升(10.00%-15.00%)",
+    "【寒冷钢铁】造成的伤害提升(10.00%-15.00%)",
+    "【铸冰为铠】提供的技能暴击抗性增加(2.00%-5.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "复仇之心，炽盛如火。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%8D%E4%BB%87%E5%BE%BD%E5%8D%B0",
+   "revid": 7629,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7629",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A4%8D%E4%BB%87%E5%BE%BD%E5%8D%B0&format=json"
+  },
+  {
+   "id": "relic-1943",
+   "name": "夜魅呓语",
+   "page_title": "夜魅呓语",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "秽翼魔女",
+    "id": "char-1569"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "秽翼魔女佩戴时，造成的所有伤害增加5%+25%",
+    "场上有单位死亡或被魅惑时，提升【死亡共舞】造成的伤害8%，最多不会超过40%。(效果持续至战斗结束)"
+   ],
+   "advanced_fixed_skill": "【蝠影焰咒】范围内的敌人，有35%几率(额外增加(自身法术精通-对手法术豁免)0.5%的几率)无法触发驱散效果。",
+   "advanced_random_skills": [
+    "【焚魂镰击】造成的伤害提升(10.00%-15.00%",
+    "【死亡共舞】造成的伤害提升(2.50%6-5.00%)",
+    "【蝠影焰咒】造成的伤害提升(10.00%-15.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "给予她猩红的美梦。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%9C%E9%AD%85%E5%91%93%E8%AF%AD",
+   "revid": 7630,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7630",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A4%9C%E9%AD%85%E5%91%93%E8%AF%AD&format=json"
+  },
+  {
+   "id": "relic-2457",
+   "name": "天律奥典",
+   "page_title": "天律奥典",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "司正天座",
+    "id": "char-2450"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "司正天座佩戴时，造成的所有伤害增加5%+25%",
+    "【昭如日月】的持续时间+1秒。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%A9%E5%BE%8B%E5%A5%A5%E5%85%B8",
+   "revid": 9257,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9257",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A4%A9%E5%BE%8B%E5%A5%A5%E5%85%B8&format=json"
+  },
+  {
+   "id": "relic-2157",
+   "name": "天谴印记",
+   "page_title": "天谴印记",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "纯白之羽",
+    "id": "char-308"
+   },
+   "exclusive": [
+    "1500全属性",
+    "35%暴击伤害减免"
+   ],
+   "skills": [
+    "纯白之羽佩戴时，火焰伤害增幅提升50%+50%",
+    "纯白之羽范围12米内的所有敌方目标攻击速度下降20%，若目标处于点燃状态则该效果为40%。竞技场中攻速降低效果翻倍。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%A9%E8%B0%B4%E5%8D%B0%E8%AE%B0",
+   "revid": 7641,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7641",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A4%A9%E8%B0%B4%E5%8D%B0%E8%AE%B0&format=json"
+  },
+  {
+   "id": "relic-2057",
+   "name": "始见新生",
+   "page_title": "始见新生",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "绚彩星绘",
+    "id": "char-2050"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "绚彩星绘佩戴时，造成的所有伤害增加5%+25%",
+    "【焰火戏法】触发时，立刻使自己恢复120点怒气值。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "交换生命的天秤，曾经的伙伴是否一如始终?",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F",
+   "revid": 7610,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7610",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F&format=json"
+  },
+  {
+   "id": "relic-1956",
+   "name": "巨龙之息",
+   "page_title": "巨龙之息",
+   "type": "通用",
+   "quality": "神话",
+   "max_level": 700,
+   "character": null,
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "火焰伤害增幅提升25%+50%",
+    "火焰伤害击杀目标时，释放火焰冲击对周围5米范围所有单位造成300%物理强度+法术强度的伤害。火焰冲击具有1秒的触发间隔，该次伤害不会暴击，且不会再触发其他效果。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "强大龙裔所留下的遗物，龙之血脉在他们体内流淌，带来比拟巨龙的力量。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%B7%A8%E9%BE%99%E4%B9%8B%E6%81%AF",
+   "revid": 6376,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6376",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%B7%A8%E9%BE%99%E4%B9%8B%E6%81%AF&format=json"
+  },
+  {
+   "id": "relic-2019",
+   "name": "幽冥悬停",
+   "page_title": "幽冥悬停",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "蚀骨魂龙",
+    "id": "char-2016"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "蚀骨魂龙佩戴时，造成的所有伤害增加5%+25%",
+    "【暗息牵引】造成伤害时，有20%几率会对敌人施加致盲、沉默、虚弱随机一种异常状态，每个状态持续4秒。"
+   ],
+   "advanced_fixed_skill": "蚀骨魂龙拥有的狂怒球上限+2",
+   "advanced_random_skills": [
+    "【魂噬】造成的伤害提升(5.00%-10.00%)",
+    "【暗息牵引】造成的伤害提升(2.00%-5.00%)",
+    "【碎星倾泻】造成的伤害提升(2.00%-5.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%B9%BD%E5%86%A5%E6%82%AC%E5%81%9C",
+   "revid": 7653,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7653",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%B9%BD%E5%86%A5%E6%82%AC%E5%81%9C&format=json"
+  },
+  {
+   "id": "relic-1908",
+   "name": "幽焰龙吟",
+   "page_title": "幽焰龙吟",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "炽焰降生",
+    "id": "char-284"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "炽焰降生佩戴时，造成的所有伤害增加5%+25%",
+    "感知+15"
+   ],
+   "advanced_fixed_skill": "【红龙狂舞】造成伤害时，有12%几率(额外增加(自身法术精通-对手法术豁免)*0.25%的几率使受伤目标受到的治疗效果降低65%，持续4秒。",
+   "advanced_random_skills": [
+    "【赤焰龙息】造成的伤害提升(5.00%-10.00%)",
+    "【红龙狂舞】造成的伤害提升(5.00%-10.00%)",
+    "【烈焰流光】造成的伤害提升(5.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "古龙的鳞片，铭刻着血与火的狂歌，记录着往昔的辉煌。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%B9%BD%E7%84%B0%E9%BE%99%E5%90%9F",
+   "revid": 7730,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7730",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%B9%BD%E7%84%B0%E9%BE%99%E5%90%9F&format=json"
+  },
+  {
+   "id": "relic-2350",
+   "name": "悬日金翎",
+   "page_title": "悬日金翎",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "绯晶战影",
+    "id": "char-2339"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "绯晶战影佩戴时，造成的所有伤害增加5%+25%",
+    "【怒甲之护】触发时，自身获得20000%物理强度的魔法盾，持续3秒。(该效果不与其他魔法盾效果共存)"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%82%AC%E6%97%A5%E9%87%91%E7%BF%8E",
+   "revid": 8783,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8783",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%82%AC%E6%97%A5%E9%87%91%E7%BF%8E&format=json"
+  },
+  {
+   "id": "relic-1947",
+   "name": "惊鸿翩影",
+   "page_title": "惊鸿翩影",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "婆娑轮舞",
+    "id": "char-297"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "婆娑轮舞佩戴时，造成的所有伤害增加5%+25%",
+    "受到致命伤害时，会解除所有异常状态，并立刻使【挥鞭断骨】完成冷却。(该效果拥有300秒触发间\n隔)"
+   ],
+   "advanced_fixed_skill": "造成伤害时，如果敌方目标带有中毒、感电、点燃、冰缓状态，每有一个上述状态会增加婆娑轮舞对其造成的伤害5%。",
+   "advanced_random_skills": [
+    "【浮光掠影】造成的伤害提升(10.00%-15.00%)",
+    "【舞步轻俏】造成的伤害提升(10.00%-15.00%)",
+    "【纵身一跃】造成的伤害提升(10.00%-15.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "记藏着轮回美梦的徽印。现在她已翩翩来到人间。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%83%8A%E9%B8%BF%E7%BF%A9%E5%BD%B1",
+   "revid": 7626,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7626",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%83%8A%E9%B8%BF%E7%BF%A9%E5%BD%B1&format=json"
+  },
+  {
+   "id": "relic-1945",
+   "name": "扬波清浪",
+   "page_title": "扬波清浪",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "唤霜海灵",
+    "id": "char-1232"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%冰霜伤害增幅"
+   ],
+   "skills": [
+    "唤霜海灵佩戴时，造成的所有伤害增加5%+25%",
+    "唤霜海灵释放必杀技：【霜寒寂灭】后，立刻获得5个能量球和冰霜球。"
+   ],
+   "advanced_fixed_skill": "每当【爱的咒言】触发时，都会选中敌方队伍中法术强度最高的黑卫，有25%几率(额外增加(自身法术精通-对手法术豁免)0.5%的几率)使其怒气恢复速度下降50%，持续10秒。(该效果无法被驱散)",
+   "advanced_random_skills": [
+    "【冰雪流矢】造成的伤害提升(10.00%-15.00%)",
+    "【寒意纷至】造成的伤害提升(5.00%-10.00%)",
+    "【霜寒寂灭】造成的伤害提升(10.00%-15.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "扬起清波，向前，向着美丽新世界。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%89%AC%E6%B3%A2%E6%B8%85%E6%B5%AA",
+   "revid": 7640,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7640",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%89%AC%E6%B3%A2%E6%B8%85%E6%B5%AA&format=json"
+  },
+  {
+   "id": "relic-2361",
+   "name": "暗之侧影",
+   "page_title": "暗之侧影",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "霓裳若仙",
+    "id": "char-2354"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%全伤害伤害增幅"
+   ],
+   "skills": [
+    "霓裳若仙佩戴时，造成的所有伤害增加5%+25%",
+    "进入战斗时，立刻获得30点【灯影】"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%9A%97%E4%B9%8B%E4%BE%A7%E5%BD%B1",
+   "revid": 8828,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8828",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%9A%97%E4%B9%8B%E4%BE%A7%E5%BD%B1&format=json"
+  },
+  {
+   "id": "relic-1961",
+   "name": "永冻容颜",
+   "page_title": "永冻容颜",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "冰封之心",
+    "id": "char-309"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%冰霜伤害增幅"
+   ],
+   "skills": [
+    "冰封之心佩戴时，造成的所有伤害增加5%+15%",
+    "冰封之心在场时，所有处于冰封之心16米范围内的敌方单位下降25%攻击速度和5%的技能暴击概率。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "在冰封试练塔中失败的法师黯然故去，只留下永远充满霜冻气息的面甲。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B0%B8%E5%86%BB%E5%AE%B9%E9%A2%9C",
+   "revid": 7609,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7609",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%B0%B8%E5%86%BB%E5%AE%B9%E9%A2%9C&format=json"
+  },
+  {
+   "id": "relic-2385",
+   "name": "涅槃之火",
+   "page_title": "涅槃之火",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "天邪魅影",
+    "id": "char-2381"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "天邪魅影佩戴时，造成的所有伤害增加5%+25%",
+    "【纵影】召唤的鬼面发射火焰弹时的最大目标数+1。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B6%85%E6%A7%83%E4%B9%8B%E7%81%AB",
+   "revid": 9008,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9008",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%B6%85%E6%A7%83%E4%B9%8B%E7%81%AB&format=json"
+  },
+  {
+   "id": "relic-2379",
+   "name": "淬骨化生",
+   "page_title": "淬骨化生",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "璨然银龙",
+    "id": "char-2373"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%冰霜伤害增幅"
+   ],
+   "skills": [
+    "璨然银龙佩戴时，造成的所有伤害增加5%+25%",
+    "【无息绝杀】造成伤害时，有25%几率窃取目标8%的攻击速度，持续4秒，最多叠加5层。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B7%AC%E9%AA%A8%E5%8C%96%E7%94%9F",
+   "revid": 8988,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8988",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%B7%AC%E9%AA%A8%E5%8C%96%E7%94%9F&format=json"
+  },
+  {
+   "id": "relic-1965",
+   "name": "渐见新绿",
+   "page_title": "渐见新绿",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "拂光破雪",
+    "id": "char-1648"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%冰霜伤害增幅"
+   ],
+   "skills": [
+    "拂光破雪佩戴时，造成的所有伤害增加5%+25%",
+    "每隔2秒，都会自动获得1个冰霜球"
+   ],
+   "advanced_fixed_skill": "造成伤害时，自身当前每拥有有1个冰霜球，都会增加自身2.5%的全伤害减免穿透：最多获得15%的全伤害减免穿透。",
+   "advanced_random_skills": [
+    "【雪舞纷扬】造成的伤害提升(2.00%-5.00%)",
+    "【剑势蓄发】造成的伤害提升(2.00%-5.00%)",
+    "【无念一心】提供的偏斜几率增加(2.00%-5.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "惊觉人间春色已盎然。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B8%90%E8%A7%81%E6%96%B0%E7%BB%BF",
+   "revid": 7634,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7634",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%B8%90%E8%A7%81%E6%96%B0%E7%BB%BF&format=json"
+  },
+  {
+   "id": "relic-1963",
+   "name": "火刑审判",
+   "page_title": "火刑审判",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "审判使者",
+    "id": "char-303"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "审判使者佩戴时，造成的所有伤害增加5%+15%",
+    "审判使者佩戴时，对点燃单位造成伤害时，额外造成-次35%法术强度的火焰伤害，最小触发间隔2秒。(分身也会触发该效果)"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "【异端战争】中死于火刑架之人的遗物，熊熊烈焰肆虐席卷，那是属于审判庭不可撼动的威严。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%AB%E5%88%91%E5%AE%A1%E5%88%A4",
+   "revid": 7615,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7615",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%AB%E5%88%91%E5%AE%A1%E5%88%A4&format=json"
+  },
+  {
+   "id": "relic-1941",
+   "name": "灵咒珠牙",
+   "page_title": "灵咒珠牙",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "绮夜梦影",
+    "id": "char-1843"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "绮夜梦影佩戴时，造成的所有伤害增加5%+25%",
+    "【血月低语】将对附近的一个额外敌方目标起效"
+   ],
+   "advanced_fixed_skill": "受【血月低语】影响的敌人，每层【血月低语】都会使其有10%(额外增加(自身精神精通-对手精神豁免)*0.15%)的几率对绮夜梦影造成的伤害降低75%。",
+   "advanced_random_skills": [
+    "【烙印相结】提供的火焰伤害增幅增加(10.00%-20.00%)",
+    "【狼血沸腾】造成的伤害提升(5.00%-10.00%",
+    "【牵魂夺魄】造成的伤害提升(5.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城被狼血提红的乳牙。长大，总是悄然而至圣殿"
+   ],
+   "description": "被狼血浸红的乳牙。长大，总是悄然而至。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E5%92%92%E7%8F%A0%E7%89%99",
+   "revid": 7570,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7570",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%B5%E5%92%92%E7%8F%A0%E7%89%99&format=json"
+  },
+  {
+   "id": "relic-2159",
+   "name": "灵窍之心",
+   "page_title": "灵窍之心",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "凌空械羽",
+    "id": "char-2059"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "凌空械羽佩戴时，造成的所有伤害增加5%+25%",
+    "【银羽之绊】召唤协同释放激光的羽刃数量+2"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E7%AA%8D%E4%B9%8B%E5%BF%83",
+   "revid": 7646,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7646",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%B5%E7%AA%8D%E4%B9%8B%E5%BF%83&format=json"
+  },
+  {
+   "id": "relic-1962",
+   "name": "灵鹿遗骨",
+   "page_title": "灵鹿遗骨",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "百花旅者",
+    "id": "char-304"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%冰霜伤害增幅"
+   ],
+   "skills": [
+    "百花旅者佩戴时，造成的所有伤害提升5%+15%",
+    "百花旅者佩戴时，普通攻击将额外攻击一个目标，但是获得的攻击速度提升效果变为一半。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "曾经跃动于广袤森林的灵鹿，死后亦充满着春之生机。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E9%B9%BF%E9%81%97%E9%AA%A8",
+   "revid": 7611,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7611",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%B5%E9%B9%BF%E9%81%97%E9%AA%A8&format=json"
+  },
+  {
+   "id": "relic-2430",
+   "name": "灼华轻羽",
+   "page_title": "灼华轻羽",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "飞焰铃舞",
+    "id": "char-2425"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "飞焰铃舞佩戴时，造成的所有伤害增加5%+25%",
+    "【火灵双生】绑定的黑卫存活时，自身将视为绑定黑卫的召唤物。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%BC%E5%8D%8E%E8%BD%BB%E7%BE%BD",
+   "revid": 9184,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9184",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%BC%E5%8D%8E%E8%BD%BB%E7%BE%BD&format=json"
+  },
+  {
+   "id": "relic-1955",
+   "name": "热情之翼",
+   "page_title": "热情之翼",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "迷迭妖精",
+    "id": "char-289"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "迷迭妖精佩戴时，造成的所有伤害增加5%+25%",
+    "当自身存在护盾时，贯穿之星的变形持续时间增加25%。"
+   ],
+   "advanced_fixed_skill": "迷迭妖精造成的妖术持续期间，有25%几率敌方黑卫无法触发“不死”效果。(迷迭妖精每点精神精通都会使该几率提升1%，敌方目标每点精神豁免都会使该几率降低1%。)",
+   "advanced_random_skills": [
+    "【飞星】造成的伤害提升(10.00%-15.00%)",
+    "【贯穿之星】造成的妖术持续时间提升(0.5-1)秒",
+    "【贯穿之星】造成的伤害提升(6.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "正义之人挥动着双翼，一生都在奉献着火一般的热情。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%83%AD%E6%83%85%E4%B9%8B%E7%BF%BC",
+   "revid": 7637,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7637",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%83%AD%E6%83%85%E4%B9%8B%E7%BF%BC&format=json"
+  },
+  {
+   "id": "relic-1972",
+   "name": "狂战意志",
+   "page_title": "狂战意志",
+   "type": "通用",
+   "quality": "史诗",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500全属性"
+   ],
+   "skills": [
+    "每次进行普攻时都会使受到的治疗效果提高1.00%+2%，持续5秒，最多叠加10次",
+    "对冰冻，昏迷，冰缓效果免疫。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": [
+    "黑市-迷雾商铺"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%8B%82%E6%88%98%E6%84%8F%E5%BF%97",
+   "revid": 6393,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6393",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%8B%82%E6%88%98%E6%84%8F%E5%BF%97&format=json"
+  },
+  {
+   "id": "relic-1975",
+   "name": "狮首之怒",
+   "page_title": "狮首之怒",
+   "type": "通用",
+   "quality": "史诗",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500全属性"
+   ],
+   "skills": [
+    "每次普通攻击获得迅捷效果，使攻击速度提高1%，闪避几率提高0.5%+1%，持续4秒。该效果最多可叠加15次",
+    "每一层迅捷带来1%的冷却时间缩短效果"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": null,
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%8B%AE%E9%A6%96%E4%B9%8B%E6%80%92",
+   "revid": 6397,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6397",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%8B%AE%E9%A6%96%E4%B9%8B%E6%80%92&format=json"
+  },
+  {
+   "id": "relic-1949",
+   "name": "王室剑徽",
+   "page_title": "王室剑徽",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "雪月公主",
+    "id": "char-292"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%冰霜伤害增幅"
+   ],
+   "skills": [
+    "雪月公主佩戴时，造成的所有伤害增加5%+25%",
+    "队友获得冰霜球时，自身也同时获得冰霜球。(通过该方式获得的冰霜球无法触发其他获取球时的效果。如：法球大师等)"
+   ],
+   "advanced_fixed_skill": "【雪月绽放】持续期间，所有敌方单位有40%基础几率无法获得额外的怒气恢复(除了自然恢复怒气以外的所有怒气恢复都视为额外怒气恢复)。(雪月公主每点精神精通都会使该几率提升1%，敌方目标每点精神豁免都会使该几率降低1%。)",
+   "advanced_random_skills": [
+    "【雾雪庇护】提供的魔法盾提升(10.00%-15.00%)",
+    "【雪月绽放】造成的伤害提升(10.00%-15.00%)",
+    "【霜寒冰蚀】提供的伤害增幅基础值增加(1.50%-2.50%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "隶属乌露席恩王室的微章，故国湮灭于历史，血裔却依旧尚存。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%8E%8B%E5%AE%A4%E5%89%91%E5%BE%BD",
+   "revid": 7633,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7633",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%8E%8B%E5%AE%A4%E5%89%91%E5%BE%BD&format=json"
+  },
+  {
+   "id": "relic-2395",
+   "name": "神龙之吟",
+   "page_title": "神龙之吟",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "月渊龙女",
+    "id": "char-2394"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "月渊龙女佩戴时，造成的所有伤害增加5%+25%",
+    "进入战斗时立刻获得上限数量的剑元。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%A5%9E%E9%BE%99%E4%B9%8B%E5%90%9F",
+   "revid": 9056,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9056",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%A5%9E%E9%BE%99%E4%B9%8B%E5%90%9F&format=json"
+  },
+  {
+   "id": "relic-2419",
+   "name": "紫电残响",
+   "page_title": "紫电残响",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "夜宴霆光",
+    "id": "char-2414"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "夜宴霆光佩戴时，造成的所有伤害增加5%+25%",
+    "【夜辉变奏】状态下，【极光电掣]造成的伤害额外提升30%。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%B4%AB%E7%94%B5%E6%AE%8B%E5%93%8D",
+   "revid": 9158,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9158",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%B4%AB%E7%94%B5%E6%AE%8B%E5%93%8D&format=json"
+  },
+  {
+   "id": "relic-2160",
+   "name": "织香结蜜",
+   "page_title": "织香结蜜",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "金蜂破茧",
+    "id": "char-2141"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "金蜂破茧佩戴时，造成的所有伤害增加5%+25%",
+    "每有1点法术精通，都会使【独家放送】额外发射光弹效果的几率增加0.5%"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%87%E9%A6%99%E7%BB%93%E8%9C%9C",
+   "revid": 7647,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7647",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BB%87%E9%A6%99%E7%BB%93%E8%9C%9C&format=json"
+  },
+  {
+   "id": "relic-2158",
+   "name": "维宪徽章",
+   "page_title": "维宪徽章",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "御刃神锋",
+    "id": "char-302"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%冰霜伤害增幅"
+   ],
+   "skills": [
+    "御刃神锋佩戴时，造成的所有伤害增加5%+5%",
+    "有护盾时，秩序冲锋命中目标将会使目标冰冻1秒。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%B4%E5%AE%AA%E5%BE%BD%E7%AB%A0",
+   "revid": 7642,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7642",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BB%B4%E5%AE%AA%E5%BE%BD%E7%AB%A0&format=json"
+  },
+  {
+   "id": "relic-1951",
+   "name": "羽龙之蜕",
+   "page_title": "羽龙之蜕",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "绯红荆棘",
+    "id": "char-290"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%火焰伤害增幅"
+   ],
+   "skills": [
+    "绯红荆棘佩戴时，造成的所有伤害增加5%+25%",
+    "【炽焰狂蔓】释放时，有几率触发触发霸体效果，持续5秒"
+   ],
+   "advanced_fixed_skill": "释放【炽焰狂蔓】时，会将周围6米范围内的小型怪物单位牵引至自己附近。(绯红荆棘每点法术精通都会使牵引范围增加0.1米最多不会超过15米)",
+   "advanced_random_skills": [
+    "【炽焰狂蔓】造成的伤害提升(10.00%-15.00%)",
+    "【烈焰追逐】造成的伤害提升(0.1-0.15)",
+    "【狱火囹圄】造成的伤害提升(6.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "羽龙飞升后留下的龙蜕，仍残留着这种传说生物的法力。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BE%BD%E9%BE%99%E4%B9%8B%E8%9C%95",
+   "revid": 7728,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7728",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BE%BD%E9%BE%99%E4%B9%8B%E8%9C%95&format=json"
+  },
+  {
+   "id": "relic-1944",
+   "name": "胜利昭告",
+   "page_title": "胜利昭告",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "圣翼降临",
+    "id": "char-1484"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "圣翼降临佩戴时，造成的所有伤害增加5%+25%",
+    "圣翼降临必杀技：【拂晓绝息】释放过程中，被攻击的目标将被强制束缚。(束缚：角色无法行动，且该状态无法被驱散)"
+   ],
+   "advanced_fixed_skill": "造成必杀技伤害时，若法术精通高于敌方法术豁免，每10点差值将额外提升1%的对敌方全伤害减免的穿透效果，最高提升5%。",
+   "advanced_random_skills": [
+    "【命运编结】造成的伤害提升(5.00%-10.00%)",
+    "【拂晓绝息】造成的伤害提升(5.00%-10.00%)",
+    "【断星飞刃】和【胜利宣告】释放的飞剑造成的伤害提升(5.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "以雷鸣和鲜血昭告胜利降临",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%83%9C%E5%88%A9%E6%98%AD%E5%91%8A",
+   "revid": 7635,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7635",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%83%9C%E5%88%A9%E6%98%AD%E5%91%8A&format=json"
+  },
+  {
+   "id": "relic-2326",
+   "name": "胧月之影",
+   "page_title": "胧月之影",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "千宵月守",
+    "id": "char-2308"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%全伤害伤害增幅"
+   ],
+   "skills": [
+    "千宵月守佩戴时，造成的所有伤害增加5%+25%",
+    "【暗渊咒杀】释放时生成的暗影长矛数量+4"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "皎皎光照水，非我朦胧月。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%83%A7%E6%9C%88%E4%B9%8B%E5%BD%B1",
+   "revid": 8556,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8556",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%83%A7%E6%9C%88%E4%B9%8B%E5%BD%B1&format=json"
+  },
+  {
+   "id": "relic-1959",
+   "name": "舞者假面",
+   "page_title": "舞者假面",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "炙光之舞",
+    "id": "char-305"
+   },
+   "exclusive": [
+    "1500全属性",
+    "3000体质"
+   ],
+   "skills": [
+    "炙光之舞佩戴时，造成的所有伤害提升5%+15%",
+    "炙光之舞佩戴时，火舞的冷却时间减少20%，释放火舞后的聚怪范围增加2米。每拥有10法术精通，额外增加1米聚怪范围。(不会超过10米)"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "舞者在自己脸上佩戴面具，希望人们只看见她的舞姿，无需关注她的容颜。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%88%9E%E8%80%85%E5%81%87%E9%9D%A2",
+   "revid": 7618,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7618",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%88%9E%E8%80%85%E5%81%87%E9%9D%A2&format=json"
+  },
+  {
+   "id": "relic-1957",
+   "name": "诅咒符剑",
+   "page_title": "诅咒符剑",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "妖刀",
+    "id": "char-307"
+   },
+   "exclusive": [
+    "1500全属性",
+    "8物理精通"
+   ],
+   "skills": [
+    "妖刀佩戴时，物理伤害增幅提升50%+50%",
+    "妖刀佩戴时，造成物理伤害时，额外释放一次斩击，对目标及其周围最多2名敌人造成300%物理强度的物理伤害。斩击有1秒的释放间隔。该次伤害不会暴击，且不会再触发其他效果。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "遥远东方某位著名武士的遗物，强大的剑圣死于邪崇诅咒，上面至今缠绕着无法散去的怨意。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%AF%85%E5%92%92%E7%AC%A6%E5%89%91",
+   "revid": 7612,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7612",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%AF%85%E5%92%92%E7%AC%A6%E5%89%91&format=json"
+  },
+  {
+   "id": "relic-1969",
+   "name": "诡秘咒法",
+   "page_title": "诡秘咒法",
+   "type": "通用",
+   "quality": "史诗",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500全属性"
+   ],
+   "skills": [
+    "受到的非物理伤害降低10%+50%",
+    "当生命值低于50%时，你对冰霜、火焰和闪电伤害的抗性提高75%。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": null,
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%AF%A1%E7%A7%98%E5%92%92%E6%B3%95",
+   "revid": 6390,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6390",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%AF%A1%E7%A7%98%E5%92%92%E6%B3%95&format=json"
+  },
+  {
+   "id": "relic-1942",
+   "name": "远见之眼",
+   "page_title": "远见之眼",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "雷鸣掠空",
+    "id": "char-1615"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "雷鸣掠空佩戴时，造成的所有伤害增加5%+25%",
+    "【唯此一心】释放同时会清除自身和所有队友的迷、冰冻、妖术状态。"
+   ],
+   "advanced_fixed_skill": "释放【唯此一心】，有50%几率(额外增加自身精神精通*1%的几率)在额外一名敌方身后召唤圣兽(几率超过100%时，则按超出的几率来额外对一名敌方目标进行释放)",
+   "advanced_random_skills": [
+    "【引雷震魂】造成的伤害减少效果增加(1.00%-3.00%)",
+    "【引雷震魂】造成的伤害提升(5.00%-10.00%)",
+    "【唯此一心】造成的伤害提升(5.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "立于风雪，破开混沌。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%BF%9C%E8%A7%81%E4%B9%8B%E7%9C%BC",
+   "revid": 7627,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7627",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%BF%9C%E8%A7%81%E4%B9%8B%E7%9C%BC&format=json"
+  },
+  {
+   "id": "relic-1974",
+   "name": "邪徒徽印",
+   "page_title": "邪徒徽印",
+   "type": "通用",
+   "quality": "史诗",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500全属性"
+   ],
+   "skills": [
+    "使普通攻击造成的伤害提升25%+50%",
+    "每次进行普攻时会恢复生命值上限的4%"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": null,
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%82%AA%E5%BE%92%E5%BE%BD%E5%8D%B0",
+   "revid": 6395,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6395",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%82%AA%E5%BE%92%E5%BE%BD%E5%8D%B0&format=json"
+  },
+  {
+   "id": "relic-2234",
+   "name": "铭心一诺",
+   "page_title": "铭心一诺",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "银刃之誓",
+    "id": "char-2224"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "银刃之誓佩戴时，造成的所有伤害增加5%+25%",
+    "【羽落无声】的释放次数+1。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%AD%E5%BF%83%E4%B8%80%E8%AF%BA",
+   "revid": 8383,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8383",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%93%AD%E5%BF%83%E4%B8%80%E8%AF%BA&format=json"
+  },
+  {
+   "id": "relic-2161",
+   "name": "锻体铸心",
+   "page_title": "锻体铸心",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "绞刃流火",
+    "id": "char-2149"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "绞刃流火佩戴时，造成的所有伤害增加5%+25%",
+    "绞刃流火击杀敌方目标后，会立即重置【淬炼之身】的触发间隔"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%94%BB%E4%BD%93%E9%93%B8%E5%BF%83",
+   "revid": 7648,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7648",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%94%BB%E4%BD%93%E9%93%B8%E5%BF%83&format=json"
+  },
+  {
+   "id": "relic-2338",
+   "name": "雨润花蕾",
+   "page_title": "雨润花蕾",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "绿森山灵",
+    "id": "char-2330"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "绿森山灵佩戴时，造成的所有伤害增加5%+25%",
+    "绿森山灵在释放【星矢连袭】时，有一定几率免疫冰冻和昏迷。(绿森山灵的强韧值越高，触发几率越高)"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%A8%E6%B6%A6%E8%8A%B1%E8%95%BE",
+   "revid": 8692,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8692",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%A8%E6%B6%A6%E8%8A%B1%E8%95%BE&format=json"
+  },
+  {
+   "id": "relic-1958",
+   "name": "雷蟒晶骸",
+   "page_title": "雷蟒晶骸",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "神之嫡子",
+    "id": "char-298"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "神之嫡子佩戴时，闪电伤害增幅提升50%+50%",
+    "神之嫡子佩戴时，召唤的蛇灵数量+2，但是蛇灵造成的伤害变为原先的60%。"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "庞大巨蟒死后所留下的晶体，电光交织，充盈着雷霆的力量。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E8%9F%92%E6%99%B6%E9%AA%B8",
+   "revid": 7616,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7616",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E8%9F%92%E6%99%B6%E9%AA%B8&format=json"
+  },
+  {
+   "id": "relic-1971",
+   "name": "雷霆铁腕",
+   "page_title": "雷霆铁腕",
+   "type": "通用",
+   "quality": "史诗",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500全属性"
+   ],
+   "skills": [
+    "每次进行普攻时有15%的几率重击附近的一名敌人，对其造成1000%+1000%攻击力的混沌伤害，并治疗你自己生命值上限3%的生命",
+    "每3秒重击附近一名敌人"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": [
+    "黑市-迷雾商铺"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E9%9C%86%E9%93%81%E8%85%95",
+   "revid": 6392,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6392",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E9%9C%86%E9%93%81%E8%85%95&format=json"
+  },
+  {
+   "id": "relic-1973",
+   "name": "霜冻之灾",
+   "page_title": "霜冻之灾",
+   "type": "通用",
+   "quality": "史诗",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500全属性"
+   ],
+   "skills": [
+    "对受到控制类限制效果影响的敌人造成的伤害提高15%+30%",
+    "获得光环，使15码范围内敌人的移动速度降低30%"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": [
+    "黑市-迷雾商铺"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%9C%E5%86%BB%E4%B9%8B%E7%81%BE",
+   "revid": 6394,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6394",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9C%9C%E5%86%BB%E4%B9%8B%E7%81%BE&format=json"
+  },
+  {
+   "id": "relic-2181",
+   "name": "青焰破空",
+   "page_title": "青焰破空",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "青鸾巽羽",
+    "id": "char-2172"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "青鸾巽羽佩戴时，造成的所有伤害增加5%+25%",
+    "青鸾巽羽的勇猛+15"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9D%92%E7%84%B0%E7%A0%B4%E7%A9%BA",
+   "revid": 7752,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7752",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9D%92%E7%84%B0%E7%A0%B4%E7%A9%BA&format=json"
+  },
+  {
+   "id": "relic-1964",
+   "name": "青锋斩妖",
+   "page_title": "青锋斩妖",
+   "type": "专属",
+   "quality": "神话",
+   "max_level": 700,
+   "character": {
+    "name": "黑衫刃影",
+    "id": "char-293"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%闪电伤害增幅"
+   ],
+   "skills": [
+    "黑衫刃影佩戴时，造成的所有伤害增加5%+25%",
+    "战斗开始时，刀意值立刻恢复到最大值"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "流传于九域国斩妖司之物，执三尺青锋，斩妖除魔。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9D%92%E9%94%8B%E6%96%A9%E5%A6%96",
+   "revid": 7617,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7617",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9D%92%E9%94%8B%E6%96%A9%E5%A6%96&format=json"
+  },
+  {
+   "id": "relic-1952",
+   "name": "魂狩之握",
+   "page_title": "魂狩之握",
+   "type": "专属",
+   "quality": "永恒",
+   "max_level": 700,
+   "character": {
+    "name": "魂棺语者",
+    "id": "char-287"
+   },
+   "exclusive": [
+    "1500全属性",
+    "15%物理伤害增幅"
+   ],
+   "skills": [
+    "魂棺语者佩戴时，造成的所有伤害增加5%+25%",
+    "【命数倾轧】的抗性削弱效果提升50%"
+   ],
+   "advanced_fixed_skill": "受【延命锁链】影响的黑卫，每隔5秒获得1个狂怒球。(魂棺语者每点物理精通都会使间隔时间减少0.04秒，减少的时间最低不会小于1秒。)",
+   "advanced_random_skills": [
+    "【宵晖梦魇】造成的伤害提升(6.00%-10.00%)",
+    "【晦朔恩泽】提供的伤害减免增加(2.50%-5.00%)",
+    "【棺击尘落】造成的伤害提升(6.00%-10.00%)"
+   ],
+   "prefixes": [
+    "8.5%全伤害类型减免",
+    "8.5%全伤害类型减免",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "suffixes": [
+    "8.5%受到法术伤害降低",
+    "8.5%受到法术伤害降低",
+    "8.5%受到物理伤害降低",
+    "8.5%受到物理伤害降低",
+    "10494体质",
+    "10494体质",
+    "10494体质",
+    "10494魔力",
+    "10494魔力",
+    "10494魔力",
+    "10494力量",
+    "10494力量",
+    "10494力量",
+    "70幸运",
+    "70幸运"
+   ],
+   "obtain": [
+    "黑市-长城圣殿"
+   ],
+   "description": "唯有经历过死亡的人，才能找到灵魂的真谛。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%AD%82%E7%8B%A9%E4%B9%8B%E6%8F%A1",
+   "revid": 7625,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7625",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%AD%82%E7%8B%A9%E4%B9%8B%E6%8F%A1&format=json"
+  }
+ ]
+}

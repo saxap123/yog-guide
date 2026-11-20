@@ -1,0 +1,56 @@
+{
+ "id": "char-301",
+ "name": "地精妖术师",
+ "page_title": "地精妖术师",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "地精妖术师",
+  "gender": "女",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": null,
+  "dislikes": null,
+  "release_date": "2021年06月25日"
+ },
+ "element": "火焰",
+ "rarity": "B",
+ "factions": {
+  "base": {
+   "name": "秘术",
+   "id": "faction-2195"
+  },
+  "others": null
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": null,
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": null,
+ "affection": null,
+ "placeholders_nulled": null,
+ "parse_notes": [
+  "no 黑卫技能 template on the page",
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%B0%E7%B2%BE%E5%A6%96%E6%9C%AF%E5%B8%88",
+ "revid": 6482,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6482",
+ "rev_timestamp": "2025-04-14T04:02:22Z"
+}

@@ -1,0 +1,312 @@
+{
+ "id": "char-1813",
+ "name": "Arson Fairy",
+ "page_title": "纵火妖精",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Lara",
+  "gender": "Female",
+  "race": "Fairies",
+  "birthday": "Tree lost its 30,",
+  "birthplace": "the dream world of fairies",
+  "height_weight": "55cm/8kg",
+  "specialties": [
+   "weaving garlands",
+   "caring for animals",
+   "setting off fireworks"
+  ],
+  "likes": [
+   "festivals",
+   "fresh flowers",
+   "hedgehogs"
+  ],
+  "dislikes": [
+   "pranks",
+   "Rainy Days",
+   "being startled"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Fire",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Internal Combustion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Lara gathers her concentration, triggering an explosion from within the targets, dealing 798% Spell Power as Fire DMG to the two nearest enemies. After casting, Lara becomes exhausted and does not naturally regenerate Rage for 10s",
+   "scaling": [
+    {
+     "percent": "798%",
+     "values": [
+      798.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 798% of Spell Power"
+    }
+   ],
+   "name_zh": "群体爆燃"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Fireball",
+   "cooldown_s": 8,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Lara releases a fireball at the target, dealing 60.0% (affected by spell power) Fire damage, and the fireball has a 25% chance to scatter",
+   "scaling": [
+    {
+     "percent": "60.0%",
+     "values": [
+      60.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 60.0% of Spell Power"
+    }
+   ],
+   "name_zh": "火球"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Forged in Flame",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Lara shows off her extraordinary magical talent, increasing the critical strike chance of spells by 30%",
+   "scaling": [],
+   "name_zh": "纵火天性"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Flame Commandment",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Lara's innate Fire affinity increases her Skill Crit% by 1%*Spell Mastery. Each time she casts Fireball, there is a 50% chance (additionally affected by Spell Mastery) to add one stack of Flame Commandment; each stack of Flame Commandment increases the Crit Chance of the next Internal Combustion by 3%; stacks are cleared after [Implosion] crits. Stacks up to 15 times.",
+   "scaling": [],
+   "name_zh": "临界之炎"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Critical Mass",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Although Lara deeply loathes her own gift, she is still affected by it: Crit Dmg increased by 50%, and when casting Fireball, the chance for the Fireball to launch forward in a fan shape increases to 100%.",
+   "scaling": [],
+   "name_zh": "灼炎"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Ignition",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Thanks to the mischievous nature of the Arson Fairy kin, gains 150 Rage; after casting Internal Combustion, Flame Commandment is no longer consumed.",
+   "scaling": [],
+   "name_zh": "薪火"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "「纵火妖精」是妖精种群中非常可怕的存在，她们漠视死亡，有着极其恶劣的纵火天性，对致命性的破坏行为非常上瘾，经常进入人类领地焚毁农舍，烧死牛羊，在熊熊燃烧的村庄中尖声大笑。然而在这个充满邪恶的种群之中，有一只纵火妖精非常特殊，那就是拉拉克。拉拉克在幼年时就非常抗拒与生俱来的天性，不愿纵容那份疯狂的破坏本能，所以在成长过程中，她一直与其他纵火妖精格格不入，自幼就显得非常孤僻，并遭到了大家的排挤。最终，拉拉克选择离开族群，一个人踏上了流徙之路。漫长的旅途充满了拉拉克从未见过的异景，花朵的鲜艳和芬芳，自然的安宁和清新，四季的流转变幻，这使她对美好的大自然愈发向往。\n但随着年龄的增长，纵火妖精骨子里的破坏本能也越来越难以抑制，她心中总会不由自主浮现这样的念头——烧尽一切，看着人和动物在大火中“欢快”地跑来跑去。为了对抗这种本能，拉拉克总是摧残自己，用身体的疼痛来抑制那股熊熊燃烧的纵火欲望。有一次，拉拉克的破坏天性到了难以按捺的地步，为了不让自己烧毁森林，她一头撞在树上晕了过去。醒来以后，她发现自己躺在一处陌生的地方，旁边围了不少人，其中还包括妖精同类。经过交流，拉拉克得知自己晕倒后不久，被一支黑卫队伍发现，他们把她带回了这座叫“亚克兰斯”的城市，安置在学院的医护室中。\n这场邂逅也是拉拉克成为黑卫的关键契机。\n克雷蒂安娜听说了拉拉克的事，对她能够压制纵火本能的事非常惊叹，并提出了一个建议——让拉拉克加入黑卫学院，将那份难以按捺的破坏本能用在魔物身上，在作战中尽情“纵火”。拉拉克本来就是一只无家可归的妖精，现在又有一个将邪恶本能用于正道的机会，双方可谓一拍即合。就这样，拉拉克加入了黑卫学院，原本对人类来说极其可恶的纵火妖精，成为了黑卫们无比可靠的战友。",
+  "deeds": [
+   "拉拉克曾寒冷的冬夜遇见过一个在白雪皑皑的森林中独行的少年,他在森林里遇到了麻烦，夜行的雪狼盯上了他,发出声声嚎叫呼唤着群狼。\n拉拉克看到这一幕很担心，想要帮助少年,但同时又很犹豫，她担心自己的火焰太过强大,很有可能在驱赶群狼的同时伤害到这个少年。\n就在拉拉克焦急无措时，另一个拿着木棒的少年从森林里跑了出来,并呼唤之前那个少年为哥哥。\n两人背靠背与狼群搏斗，就在弟弟被头狼压制时，哥哥发疯似的扑住头狼,任由群狼撕咬自己,抽出匕首在它的身上疯狂刺击，自己和头狼的血洒遍雪地。\n头狼身负重伤，也被这个凶狠的少年震慑到了，最终放弃对弟弟的撕咬，跟群狼一起落荒而逃。\n劫后余生的两兄弟拥抱在一起，互相给对方包扎伤口，依偎着离去,当清晨第一缕阳光照耀在他们身上，拉拉克第一次意识到——力量，应该是为了保护某些东西而存在的。",
+   "拉拉克虽然来自大自然,但对亚克兰斯这座城市也非常喜爱，因为每逢节日,城中就会举办隆重的庆典,经常会有烟花盛宴。\n每次燃放烟花的庆典之夜，就是拉拉克最快乐的时光，她可以伪装成烟花在夜空中飞翔盘旋,尽情“纵火”，与肆意绽放的绚丽烟花共舞。\n有时候,拉拉克绽放的烟花比寻常烟花更令人惊叹,充满蓬勃欢快的生命力，成为了夜幕上最独特的存在，也经常会让庆典负责人摸不着头脑:“咦，为什么有一朵烟花永远不灭,还会拐弯?是炼金术士研制的新款式吗?”",
+   "拉拉克虽然来自大自然,但对亚克兰斯这座城市也非常喜爱，因为每逢节日,城中就会举办隆重的庆典,经常会有烟花盛宴。\n每次燃放烟花的庆典之夜,就是拉拉克最快乐的时光，她可以伪装成烟花在夜空中飞翔盘旋,尽情“纵火”，与肆意绽放的绚丽烟花共舞。\n有时候，拉拉克绽放的烟花比寻常烟花更令人惊叹，充满蓬勃欢快的生命力，成为了夜幕上最独特的存在，也经常会让庆典负责人摸不着头脑：“咦，为什么有一朵烟花永远不灭，还会拐弯?是炼金术士研制的新款式吗?”",
+   "拉拉克和芙荔的初次相遇是在一次节日庆典上，也许是出于火焰之间的互相感知，拉拉克在烟花丛中撒欢的时候，总感觉学院的露台上有一双眼睛盯着自己，循着目光回望，她看见了露台上的瑞芙荔，仔细洞察后发现对方果然和自己一样，拥有掌控火焰的能力。\n就在拉拉克愣神时，不慎被一簇突如其来的烟花冲到,翅膀受伤的她失去制空能力，不断坠落。千钧一发之际,瑞芙荔唤出一团柔和的火焰托举着拉拉克,让她安全落在了地上。\n拉拉克格外羡慕可以随意控火的瑞芙荔,也很感激她的出手相救，她是拉拉克在黑卫学院中难得的朋友。",
+   "黑卫学院中有很多女孩都擅长编织花环,但如果拉拉克称自己为第二，那么暂时也找不到足够当第一的人。\n也许是这种需要沉静下来的手艺活很适合内敛的拉拉克，又也许是长期在大自然游涉对植物的了解,拉拉克自从进入黑卫学院起就一直是手作比赛中花环编织组的第一名，她编制的精美花环也一度成了学院中举办比赛、纪念日庆典等特殊日子的常驻精美礼品。\n但同时大家也知道,绝对不要在拉拉克专心致志编织花环时打扰或是惊吓到她,芭芭拉曾经就盯上了这个“看起来总是不开心的妖精同类”,用巫术变了个恶作剧逗她开心。\n拉拉克在专注中受到惊扰,力量失控,原本用于制作花环的原材料当场遭殃,手作室也险些被烧毁,万幸的是花房没事。",
+   "自从拉拉克差点烧毁手作室，芭芭拉总是想着怎么能让她开心起来，而拉拉克则是有了阴影，担心自己再被芭芭拉吓到力量失控，就一直小心谨慎地与她保持距离。\n直到有一天，大家发现芭芭拉和拉拉克坐在同一张野餐垫上吃着香喷喷的烤串,那种悠然自得的感觉，仿佛先前的不愉快都已一扫而空。\n原来,芭芭拉找到一个好方法,那就是带拉拉克去野炊，让她既能对生食材释放火焰,又能享受食材烤熟后的美味。\n好几次野炊之后,拉拉克控制火焰的能力得到了些许提升，而且据医护室负责体检的医生说,她比刚来的时候胖了小半斤。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BA%B5%E7%81%AB%E5%A6%96%E7%B2%BE",
+ "revid": 8634,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8634",
+ "rev_timestamp": "2026-02-08T04:23:38Z",
+ "i18n": {
+  "name_zh": "纵火妖精",
+  "sources": {
+   "derived": 3,
+   "game_db": 7,
+   "glossary": 30,
+   "lore": 1,
+   "names": 16,
+   "translated": 14
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 3045,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 2976,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[4].description",
+    "zh": "内向聚爆",
+    "en": "Implosion"
+   }
+  ]
+ }
+}

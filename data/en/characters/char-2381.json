@@ -1,0 +1,639 @@
+{
+ "id": "char-2381",
+ "name": "Sinister Shade",
+ "page_title": "天邪魅影",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Ying",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--06-01",
+  "birthplace": null,
+  "height_weight": "173cm/57kg",
+  "specialties": [
+   "drinking",
+   "reciting poetry",
+   "blade techniques"
+  ],
+  "likes": [
+   "good drinks",
+   "napping",
+   "landscape paintings",
+   "tasty little cakes (bond gift)"
+  ],
+  "dislikes": [
+   "tofu",
+   "black tea",
+   "petty people"
+  ],
+  "release_date": "2026-06-26"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Critical Chance (Attack)",
+   "Attack Speed",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Fire Damage Boost"
+  ],
+  "secondary": [
+   "Fire Penetration",
+   "Rage",
+   "Rage Recovery",
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Physical Damage Reduction",
+   "Spell Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Windbreaker",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Releases a blade wave that deals 1500% Spell Power as Fire damage to all enemies in its path. (This skill is affected by Attack Speed. Damage is treated as Normal Attack damage.)",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 1500% of Spell Power"
+    }
+   ],
+   "name_zh": "破风"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Scorching Rampage",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Summons a phantom at the feet of the nearest enemy, dealing 6000% Spell Power as Fire damage.",
+   "scaling": [
+    {
+     "percent": "6000%",
+     "values": [
+      6000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 6000% of Spell Power"
+    }
+   ],
+   "name_zh": "烽火燎原"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Searing Sigil Overlay",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "5 Force",
+   "description": "When [Windbreaker] deals DMG, 10% chance to apply one stack of [Blazing Curse] to the target (max 3 stacks). [Blazing Curse] explodes after 6 seconds, or when overwritten after reaching the stack cap, dealing Fire DMG equal to 3500% Spell Power to the target and stunning it for 1.5 seconds.",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 3500% of Spell Power"
+    }
+   ],
+   "name_zh": "炽符叠印"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Cursed Flame Crescendo",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When [Scorching Rampage] hits an enemy, it immediately detonates what is on the enemy unit, and on detonation, [Blazing Curse] DMG is increased by 50%.",
+   "scaling": [],
+   "name_zh": "咒焰焚鸣"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Flame Sigil Binding",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When applying [Searing Flame Curse] to a target, has a chance to drain 50 Rage. The higher Sinister Shade's Bravery, the greater the trigger chance.",
+   "scaling": [],
+   "name_zh": "炎纹缚身"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Shadow Unleashed",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Summons a Ghastly Mask that follows you. Every 1s, the mask fires a fireball at a random enemy, dealing 1500% Spell Power as Fire damage. Damage from fireballs can also trigger [Searing Sigil Overlay]. (This damage is treated as Normal Attack damage. Your Attack Speed also increases the fireball's firing rate.)",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 1500% of Spell Power"
+    }
+   ],
+   "name_zh": "纵影"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Unyielding",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Sinister Shade's Bravery +10.",
+   "scaling": [],
+   "name_zh": "不摧"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Time Keeper",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Moonlight · Light Chainmail",
+    "Ring": null,
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Luminous Feather",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Emblem of the Hunt",
+    "Shoes": "Thunderous Rage",
+    "Off-hand": null,
+    "Weapon": "Scorching Blade",
+    "Handguard": "Abyssal Grasps"
+   },
+   "alternatives": {
+    "Belt": [
+     "Honor of House Rudolph"
+    ],
+    "Relic": [
+     "Primordial Blood"
+    ],
+    "Weapon": [
+     "Wild Hunt"
+    ],
+    "Handguard": [
+     "Sprite's Spite"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "时间守护者": "gear-1715",
+    "月辉·轻盈软甲": "gear-1180",
+    "嗜战者束腰": "gear-1210",
+    "王室荣尊": "gear-1172",
+    "精灵飞羽": "gear-game-13003",
+    "始祖之血": "gear-1604",
+    "戏谑者裤腿": "gear-1182",
+    "狩猎徽章": "gear-1184",
+    "雷霆之怒": "gear-1183",
+    "焰刃焚心": "gear-game-90386",
+    "狂猎": "gear-128",
+    "深渊之握": "gear-1192",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "精灵飞羽": {
+     "reason": "game_only",
+     "game_id": "13003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13003",
+        "field": "name",
+        "text_id": 3927,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3927
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "百花旅者",
+       "分解装备",
+       "夜行暹罗",
+       "黑话解读"
+      ]
+     }
+    },
+    "焰刃焚心": {
+     "reason": "game_only",
+     "game_id": "90386",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90386",
+        "field": "name",
+        "text_id": 88592,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       88592
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "天邪魅影"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Omni Embers",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Fire Spell",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Lightning Strike",
+    "id": "rune-1418",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Flame Dragon",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "[Shadow Unleashed] summons +1 Ghastly Mask, and the fireballs it fires can ricochet."
+   },
+   {
+    "rank": 2,
+    "text": "Before [Scorching Rampage] is cast, there is a 50% chance to apply one stack of [Searing Flame Curse] to the nearest target; the higher Sinister Shade's Bravery, the higher the trigger chance."
+   },
+   {
+    "rank": 3,
+    "text": "[Searing Flame Curse] max stacks +2. When detonated, if [Searing Flame Curse] has more than 3 stacks, each additional 1 stack increases Stun duration by 0.5 seconds."
+   },
+   {
+    "rank": 4,
+    "text": "[Flame Sigil Binding] drains an additional 50 Rage."
+   },
+   {
+    "rank": 5,
+    "text": "When [Searing Flame Curse] detonates, the Stun effect it triggers has a 10% chance to be changed into Divine Decree; the more Sinister Shade's Bravery exceeds the target's, the higher the trigger chance. Divine Decree: the character cannot act, and this effect cannot be dispelled."
+   },
+   {
+    "rank": 6,
+    "text": "All damage dealt by Sinister Shade +10%"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Flame of Rebirth",
+   "id": "relic-2385"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%A9%E9%82%AA%E9%AD%85%E5%BD%B1",
+ "revid": 9031,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9031",
+ "rev_timestamp": "2026-06-27T21:34:43Z",
+ "i18n": {
+  "name_zh": "天邪魅影",
+  "sources": {
+   "derived": 6,
+   "game_db": 12,
+   "glossary": 71,
+   "lore": 1,
+   "names": 48,
+   "translated": 17
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 88870,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 88872,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 88874,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 88875,
+    "match": "loose"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 88878,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 88881,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 88883,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "九域国",
+    "reason": "not translatable (see translate/manual/texts)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[2].description",
+    "zh": "炽焰咒",
+    "en": "Blazing Curse"
+   },
+   {
+    "path": "skills[2].description",
+    "zh": "炽焰咒",
+    "en": "Blazing Curse"
+   },
+   {
+    "path": "skills[3].description",
+    "zh": "炽焰咒",
+    "en": "Blazing Curse"
+   }
+  ]
+ }
+}

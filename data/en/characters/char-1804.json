@@ -1,0 +1,361 @@
+{
+ "id": "char-1804",
+ "name": "Fleur of the Heart",
+ "page_title": "深庭玫瑰",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Alanah",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "Says 12",
+  "birthplace": "Senblen, the royal capital",
+  "height_weight": "161cm/45kg",
+  "specialties": [
+   "planting",
+   "gardening",
+   "making desserts"
+  ],
+  "likes": [
+   "flowers",
+   "warm spring",
+   "adventure stories"
+  ],
+  "dislikes": [
+   "enclosed spaces",
+   "Bleed",
+   "F-Father..."
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Frost",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Frost DMG equal to 36% Attack Power to 4 enemies within 12 meters",
+   "scaling": [
+    {
+     "percent": "36%",
+     "values": [
+      36.0
+     ],
+     "stat": "Attack Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 36% of Attack Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Efflorescence",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Alanah casts a large heal, restoring HP equal to 272.0% Spell Power to all allied Blackguards Alanah casts a large heal, restoring HP equal to 400% Spell Power to all allied Blackguards.",
+   "scaling": [
+    {
+     "percent": "272.0%",
+     "values": [
+      272.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 272.0% of Spell Power"
+    },
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 400% of Spell Power"
+    }
+   ],
+   "name_zh": "盛绽蔷薇"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Lifebloom",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Alanah heals 3 random allied Blackguards with the lowest HP, restoring HP equal to 160.0% Spell Power to the target Blackguards and granting them [Attack Speed increase] 25% for 5 seconds.",
+   "scaling": [
+    {
+     "percent": "160.0%",
+     "values": [
+      160.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 160.0% of Spell Power"
+    }
+   ],
+   "name_zh": "生命绽放"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Seal of Penance",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Alanah can have a maximum of 6 stacks of [Sacred Seal], and each stack of [Sacred Seal] will convert 13% of Alanah's damage taken into healing, healing herself and all nearby party members A seal is destroyed when she takes more than 10% of her maximum health.",
+   "scaling": [],
+   "name_zh": "救赎圣印"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Benediction",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Alanah is blessed by Mana, making [Divine Seal] sturdier. Only DMG exceeding 15% of Max HP can destroy a seal, and the seal cap is increased by 1 (an additional 1 per 4 Mental Mastery). When a hero in the team falls below 50% of Max HP, consumes 1 seal to restore 40% of the target's Max HP; each hero can only be healed 1 time within 5 seconds.",
+   "scaling": [],
+   "name_zh": "祝福印记"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Absolution",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each [Divine Seal] increases own Attack Power by 10% and Normal Attack Crit% by 2.5%. When a Normal Attack crits, a Nova falls (trigger interval: 2 seconds), dealing Frost DMG equal to 30% of Attack Power to the target, and the target's DMG taken is additionally increased by 35%, lasting 6 seconds.",
+   "scaling": [
+    {
+     "percent": "10%",
+     "values": [
+      10.0
+     ],
+     "stat": "Attack Power",
+     "effect": null,
+     "text": "10% of own Attack Power"
+    },
+    {
+     "percent": "30%",
+     "values": [
+      30.0
+     ],
+     "stat": "Attack Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 30% of Attack Power"
+    }
+   ],
+   "name_zh": "强化印记"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Seal Reclamation",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seal Reclamation (unlock level 250): every 6 seconds (each 4 Mental Mastery reduces it by an additional 1 second), Alanah consumes 50 Rage to restore one stack of [Divine Seal]. Each time a [Divine Seal] is destroyed, restores 75 Rage to self.",
+   "scaling": [],
+   "name_zh": "印记再生"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "安丽诺是北境王国一名侯爵殿下的女儿，她的童年时代在深闺中度过，安稳平和，和很多贵族千金没什么区别，每日都在重复学习上流社会的淑女们应该掌握的一切技能——餐桌礼仪、舞蹈体态、园艺插花……但实际上，安丽诺的内心一直渴望着截然不同的生活，她不爱绮丽的诗篇和深邃的哲思，偏偏喜爱跌宕起伏的冒险故事，或许这也是她独自出来闯荡的原因之一。在幽居深庭的那段时光里，安丽诺专门学习了大量医学知识，并在后来的外出中与芙萝巧合相识，跟随她来到了黑卫学院。\n初来乍到的安丽诺只是一名编制外的临时护士，但她毫无保留地践行着自己学到的医疗知识，在医护室与其他医者一同救死扶伤。在安丽诺来到黑卫学院的三年间，学院中的植物造景美不胜收，经她救治过的伤员也是不计其数，最终由此获得了学院师生的认可，正式成为医护室的一名常驻医者，与黑卫们一同在壁外执行任务，积极投入到伤员救治中。",
+  "deeds": [
+   "安丽诺能成为黑卫，与芙萝分不开干系。\n安丽诺是一个离家出走的孩子,由于从小养在深闺，缺乏实际在外生活的经验，她刚到亚克兰斯就被小偷偷走了傍身的包裹。\n安丽诺及时反应过来,和小偷在市井间展开了一场激烈的角逐，由于她不熟悉集市地形，体力也有限,很快被小偷远远甩在身后，只能无助地看着他越跑越远。\n这一幕刚好被乘马车路过的芙萝看见,她派出亲卫抓住小偷，拿到了安丽诺的包裹,被扯得几乎散架的包裹中掉出了一本日记，字里行间记满了安丽诺掌握的医药知识和对黑卫的崇拜,这让芙萝对安丽诺产生了一些兴趣。\n就这样,安丽诺被芙萝带回了黑卫学院,这个女孩用了三年的时间获得了大家的认可，并最终成为了一名黑卫，她也一直对有相助之恩的芙萝非常感激。",
+   "每个初次来到黑卫学院的人总会感叹,这里的花开得特别艳丽,在学院中走走停停，一年四季都有各不相同的花朵绽放。\n学院中人气最高的景点,毫无疑问是美不胜收的花房，尤其是下午茶时间,花房几乎天天爆满,不少外宾会议都会在那里举行。有一次,闭关许久的克雷蒂安娜来到花房赏花，当她看到欣欣向荣的花卉，也由衷表示了肯定。\n资深黑卫们都知道,学院此前并没有这样的美景,而是在安丽诺来到黑卫学院之后，经由她高超的花卉栽培技术和细心的养护，才使得这里的植物景观变得越来越美。",
+   "安丽诺为人谦逊,很受同学和老师的欢迎,唯独柯扬娜对她非常冷落。\n安丽诺曾想过各种办法和柯扬娜搞好关系,包括但不限于送她美丽的盆栽,亲手给她做美味的鲜花饼，在她身负重伤的时候写信鼓励她。\n然而,不管安丽诺怎么做,也不管送给柯扬娜什么,那些东西当天晚上就会被原封不动放回她的宿舍门口。\n安丽诺曾对这一切非常不解,后来是芙萝半开玩笑告诉她:“别费心思了，我们的出身就是‘原罪’。”",
+   "大家都曾听说安丽诺出身名门，从小在深闺中长大，举手投足间充满涵养，给人的印象也一直是如沐春风般的和善阳光、落落大方，很少会看到她有什么失态之举，但也曾有过例外——\n安丽诺刚来黑卫学院的时候,曾有人为了向她表示好感，在她房间门口放了一束从山野田间采来的野玫瑰。晨起出门的安丽诺看到这束野玫瑰后突然大哭起来,逃难似的跑出宿舍。\n安丽诺失踪了整整一天一夜，大家才看到她出现在学院花房中照料玫瑰幼苗，没有人知道她当时为什么失态，总之在那以后，虽然她依旧有许多爱慕者，但再也没有人敢在她房间门口放野玫瑰花束。",
+   "在安丽诺的童年时期，家中有一位花匠姐姐，安丽诺素来与她交好，两人常在侯爵府邸的花房中相伴度过一个又一个漫长的午后，那些时光充斥着惊心动魄的冒险故事，总能让安丽诺心神向往。\n然而好景不长，安丽诺10岁的一个午后，她在花房没有等到花匠姐姐，就跑向她的寝房,并在她的房门上发现了一束野玫瑰。\n安丽诺推门而入时,看到了永生难忘的一幕,花匠姐姐倒在床上，身体被数支弩箭贯穿，血将床单彻底染红,死未瞑目。\n行凶的蒙面凶手就在房内,他看到安丽诺后没有慌乱，而是视若无睹地离开房间，并在楼下大堂中从她的侯爵父亲手里接走了赏金。\n侯爵抬起头看过来的时候,安丽诺第一次发现,父亲的眼神竟能如此可怖……\n安丽诺也是后来才知道的,这位花匠姐姐是一名间谍，在府中效力是为了获取她父亲秘密倒卖军用物资的证据。",
+   "花匠姐姐之死，让安丽诺与侯爵之间的关系降到冰点，从那之后，她就搬离了曾经离侯爵卧室很近的闺房，执意住进花房旁的偏僻小屋，并谢绝任何人的询问与探视。\n安丽诺作为一名贵族千金的课程依然每日照旧,但除此之外，她又主动为自己增设了园艺课和医术研习课,并不再参加任何下午茶、晚宴和舞会之类的社交场合。\n安丽诺成年那天，她留下一封家书不告而别，孤身前往亚克兰斯。\n至于她为什么要专门学习园艺……也许，那些盛绽的玫瑰,可以让她回想起童年时那位陪伴着她长大的花匠姐姐吧。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%B7%B1%E5%BA%AD%E7%8E%AB%E7%91%B0",
+ "revid": 8615,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8615",
+ "rev_timestamp": "2026-02-08T04:09:43Z",
+ "i18n": {
+  "name_zh": "深庭玫瑰",
+  "sources": {
+   "derived": 6,
+   "game_db": 7,
+   "glossary": 37,
+   "lore": 1,
+   "names": 15,
+   "translated": 16
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 4318,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.birthplace",
+    "zh": "森布伦",
+    "en": "Senblen"
+   },
+   {
+    "path": "skills[4].description",
+    "zh": "玛娜",
+    "en": "Mana"
+   }
+  ]
+ }
+}

@@ -1,0 +1,144 @@
+{
+  "subject": "寒月",
+  "group": "runes",
+  "page_revid": 4116,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%AF%92%E6%9C%88",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%AF%92%E6%9C%88&format=json",
+  "fetched_at": "2026-11-20T16:25:15+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "寒月#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/19/2/3/9/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "符文#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/19/3/21/49/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "寒月"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1763力量、1763力量、1763魔力、1763魔力、1763体质、1763体质、1763意志、1763意志、1939物理强度、1939物理强度、1939法术强度、1939法术强度、35260生命、35260护盾"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1763力量、1763力量、1763魔力、1763魔力、1763体质、1763体质、1763意志、1763意志、10闪电穿透、10冰霜穿透、10火焰穿透、5%金币获取提升"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1892全属性"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "符文名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "寒月"
+            }
+          ]
+        },
+        {
+          "property": "符文技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "法术伤害+5%；生命上限提升7%；法术精通+5；普通攻击击中有5%几率获得一个冰霜球，持续4秒；冰霜球数量上限+2；每一个冰霜球额外提升造成的2%冰霜伤害"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "主符文"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "迷雾山脉501-550层通关、精铸符文宝箱I"
+            }
+          ]
+        },
+        {
+          "property": "边",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#87c8ff\">//////</span>"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yog-guide.local/schema/rune.schema.json",
+  "title": "Rune (符文), Chinese",
+  "description": "One element of runes.json → items. Values from SMW (模板:主符文图鉴 / 辅助符文图鉴).",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/provenance"
+    }
+  ],
+  "required": [
+    "id",
+    "name",
+    "page_title",
+    "type",
+    "max_level",
+    "attribute",
+    "exclusive",
+    "exclusive_attribute",
+    "prefixes",
+    "suffixes",
+    "skills",
+    "edges",
+    "obtain",
+    "smw_api_request",
+    "in_category"
+  ],
+  "unevaluatedProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^rune-[0-9]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "page_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "type": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "enum": [
+        "主符文",
+        "辅助符文",
+        null
+      ]
+    },
+    "max_level": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "attribute": {
+      "$ref": "common.schema.json#/$defs/str",
+      "description": "属性"
+    },
+    "exclusive": {
+      "$ref": "common.schema.json#/$defs/strList"
+    },
+    "exclusive_attribute": {
+      "$ref": "common.schema.json#/$defs/str",
+      "description": "专属属性"
+    },
+    "prefixes": {
+      "$ref": "common.schema.json#/$defs/strList"
+    },
+    "suffixes": {
+      "$ref": "common.schema.json#/$defs/strList"
+    },
+    "skills": {
+      "$ref": "common.schema.json#/$defs/strList",
+      "description": "符文技能, split on ；"
+    },
+    "edges": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "边: coloured slash groups as shown on the wiki (meaning not stated on the page)",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "color",
+          "color_name",
+          "count"
+        ],
+        "properties": {
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9a-f]{3,6}$"
+          },
+          "color_name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "count": {
+            "type": "integer",
+            "minimum": 1
+          }
+        }
+      }
+    },
+    "obtain": {
+      "$ref": "common.schema.json#/$defs/strList"
+    },
+    "smw_api_request": {
+      "type": "string"
+    },
+    "in_category": {
+      "type": "boolean",
+      "description": "false = page found by scraper/resolve_missing.py, not a member of the category"
+    }
+  }
+}

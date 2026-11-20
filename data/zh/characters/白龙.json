@@ -1,0 +1,250 @@
+{
+ "id": "char-299",
+ "name": "白龙",
+ "page_title": "白龙",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "维娜",
+  "gender": "女",
+  "race": "龙裔",
+  "birthday": "12月24日",
+  "birthplace": "未知的古老山脉",
+  "height_weight": "171cm/52kg",
+  "specialties": [
+   "飞行",
+   "干重活",
+   "战斗技艺"
+  ],
+  "likes": [
+   "各种做法的肉",
+   "猫咪",
+   "亲切的人"
+  ],
+  "dislikes": [
+   "各种做法的蔬菜",
+   "下雨天",
+   "绕口令"
+  ],
+  "release_date": "2021年06月27日"
+ },
+ "element": "物理",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "前锋",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": []
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "横扫千军",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "维娜势如破竹般对最远目标发动三次冲锋攻击，每次造成133.3%物理强度的物理伤害，并击飞目标造成2秒眩晕。",
+   "scaling": [
+    {
+     "percent": "133.3%",
+     "values": [
+      133.3
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "133.3%物理强度的物理伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "冲锋",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "维娜朝最远的敌方目标发起猛烈的冲锋，击退沿途所有敌方单位，造成300%物理强度的物理伤害，并眩晕受到伤害的敌方单位2秒。",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "300%物理强度的物理伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "与子同袍",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "当友方黑卫受到致命伤害时，维娜会释放一次冲锋，冷却时间2秒。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "振翼",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "冲锋所造成的伤害提高40%(额外受到物理精通影响)。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "龙刃",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "冲锋获得10%(额外受到物理精通影响)技能暴击几率。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "炙热龙血",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "维娜将所承受的每一分创伤和疼痛转变为自身力量和回复能力。每损失5%生命值就会获得4%物理强度与相当于30%攻击力的生命回复。",
+   "scaling": [
+    {
+     "percent": "4%",
+     "values": [
+      4.0
+     ],
+     "stat": "物理强度",
+     "effect": null,
+     "text": "4%物理强度"
+    },
+    {
+     "percent": "30%",
+     "values": [
+      30.0
+     ],
+     "stat": "攻击力",
+     "effect": "生命",
+     "text": "30%攻击力的生命"
+    }
+   ]
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "孤军深入",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "刽子手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对受伤的敌人进行毫不留情的处决，对生命值低于15%的目标造成伤害提高20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "狂战士之怒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "这些体内拥有龙血的人，被认为是「不朽古龙」的后裔，他们隐居于群山之中，拥有属于自己的龙语，很少和人类社会发生交集。\n直到黑潮来临,生灵涂炭,龙裔们为了那些素不相识、却血缘相依的物种，毅然走出群山，在战场挥洒自己的炙热龙血，与大陆联军一起将魔物挡在了长城之外。\n百年时光流转,春去秋来,潮起汐落。\n当魔物再次出现在内陆，黑潮阴影涌动之际,一名手持巨大兵器的龙裔少女突然拜访亚克兰斯，因其发如冬雪,人们称她为“白龙”。\n经过交涉,白龙自愿以人类之名“维娜”加入黑卫学院，并告诉学院的黑卫们,族人让她带来一句龙语——Tar dov claan。\n其意为“与子同袍”。",
+  "deeds": [
+   "炙热龙血对于任何入侵体内的异物都有着强大的杀灭作用，所以身为龙裔的维娜并不畏惧魔物感染,也不需要参加圣血仪式,仅凭自愿就能成为一名黑卫。\n对于黑卫学院来说，百年前曾和大陆联军并肩作战的龙裔们是值得信赖的战友,所以谁都没有对维娜的加入表示反对。",
+   "龙裔们的力量远超常人,同时习惯使用人类无法理解的巨大兵器。\n据说，维娜使用的赤色巨枪重量要用“吨”来计算,学院里没几个人举得动,只有咚咚可以把它当成大型杠铃来玩。",
+   "维娜来到黑卫学院以后,很少和战友交流,总是孤身一人,让人感觉非常冷漠,难以相处。\n事实上，维娜的性格并不冷，只是因为龙语和人类语言并不共通,她不知道怎么用大陆语和人交流，所以显得很孤僻。\n但也许是沉默之人彼此间的默契,维娜经常会和斯卡莉特、菲奇一起出入于餐厅，她们大多时候都不会交流，然而沉默本身也是一种相处的方式。",
+   "龙裔体内的龙血源自于不朽古龙，自带浑然天成的龙威,导致动物会对维娜感到害怕。\n然而,维娜似乎又很喜欢猫咪.....\n据芙萝说，她有一次在图书馆抱着猫看书，突然发现维娜远远趴在窗户边，偷看她怀里的猫，那只猫被吓得当场逃走,维娜也因此失落了一整天。",
+   "每名龙裔头上都有龙角,维娜也不是例外。\n曾经有人想摸摸维娜的龙角,但被长辈严厉制止了。\n据说在龙裔的习俗里,龙角是圣洁之物,只有父母或彼此的歃血之人才可以触碰。",
+   "对于绝大多数龙裔来说,他们都很爱护象征圣洁的龙角，但也有些龙裔会用刀在自己的龙角上刻下刀痕。\n这是龙裔中的一种习俗—―如果有龙裔亲手杀死了自己的族人，则必须在自己的龙角上刻痕,以示自己曾经做过同族相残之事。\n而维娜的龙角上……就有着一道刻痕。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%99%BD%E9%BE%99",
+ "revid": 8654,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8654",
+ "rev_timestamp": "2026-02-08T04:40:27Z"
+}

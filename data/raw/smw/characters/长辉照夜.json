@@ -1,0 +1,920 @@
+{
+  "subject": "长辉照夜",
+  "group": "characters",
+  "page_revid": 8854,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%95%BF%E8%BE%89%E7%85%A7%E5%A4%9C",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%95%BF%E8%BE%89%E7%85%A7%E5%A4%9C&format=json",
+  "fetched_at": "2026-11-20T16:13:55+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "长辉照夜#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度答案"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "长辉照夜#0##_QUERYd944155acbe05b16dac5aff1a4edd069"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/7/29/12/35/38/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "含有受损文件链接的页面#14##"
+            },
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/5/3/15/43/26/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "长辉照夜"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2025年07月30日"
+            }
+          ]
+        },
+        {
+          "property": "专武",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "佑世之锋"
+            }
+          ]
+        },
+        {
+          "property": "主符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雷灭之刃、盎然、腐朽者、毒牙、怒法、不灭、锻钢/绝刃"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "强袭、敌法、统帅、超导、坚韧、力场、暴怒、回馈、共鸣"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "162cm/47kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "古战场遗址"
+            }
+          ]
+        },
+        {
+          "property": "合计",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×18000</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×410</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "长辉照夜"
+            }
+          ]
+        },
+        {
+          "property": "名称1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "初芒"
+            }
+          ]
+        },
+        {
+          "property": "名称10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神耀"
+            }
+          ]
+        },
+        {
+          "property": "名称2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "启明"
+            }
+          ]
+        },
+        {
+          "property": "名称3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凝辉"
+            }
+          ]
+        },
+        {
+          "property": "名称4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "炽华"
+            }
+          ]
+        },
+        {
+          "property": "名称5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逐光"
+            }
+          ]
+        },
+        {
+          "property": "名称6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "明辰"
+            }
+          ]
+        },
+        {
+          "property": "名称7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月白"
+            }
+          ]
+        },
+        {
+          "property": "名称8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "晴晖"
+            }
+          ]
+        },
+        {
+          "property": "名称9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "灼日"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "阳光、和平、正直善良的品质、<span style=\"color:red\">音乐盒（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "前锋"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "希亚娜"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "光明"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凝聚神圣之剑，锤击前方地面，对范围内所有敌人造成7000%物理强度的神圣伤害。"
+            }
+          ]
+        },
+        {
+          "property": "怒兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "释放【神召一剑】后将获得3层充能(充能在每次释放必杀技时重置，不可叠加)，每层充能都会使自己在释放【金辉满路】同时，在前方大范围生成光矛，对命中的敌人造成3000%物理强度的神圣伤害。"
+            }
+          ]
+        },
+        {
+          "property": "效果1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv1-Lv2</span>怒气回复+20"
+            }
+          ]
+        },
+        {
+          "property": "效果10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv30</span>被施加混乱或嘲讽效果时，有100%几率免疫该效果"
+            }
+          ]
+        },
+        {
+          "property": "效果2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv3-Lv4</span>狂怒球数量上限+2"
+            }
+          ]
+        },
+        {
+          "property": "效果3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv5-Lv6</span>【照影生辉】造成的伤害提升60%，但是释放【神召一剑】后获得的【照影生辉】的充能层数-1"
+            }
+          ]
+        },
+        {
+          "property": "效果4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv7-Lv9</span>技能暴击概率+10.00%；暴击倍率+30.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv10-Lv12</span>长辉照夜造成的所有伤害都有45%几率不会产生偏移，自身每有1点物理精通都会增加0.5%的几率"
+            }
+          ]
+        },
+        {
+          "property": "效果6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv13-Lv17</span>【金晖满路】和【神召一剑】的释放速度+15%"
+            }
+          ]
+        },
+        {
+          "property": "效果7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv18-Lv19</span>【神召一剑】释放后，立刻恢复自身400怒气值"
+            }
+          ]
+        },
+        {
+          "property": "效果8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv20-Lv24</span>普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv25-Lv29</span>物理伤害减免+5.00%；法术伤害减免+5.00%"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "挥动武器对附近大范围敌人造成1000%物理强度的神圣伤害。(本技能不会受攻速影响，且造成的伤害视为技能伤害。)"
+            }
+          ]
+        },
+        {
+          "property": "消耗1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×640</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1850</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×860</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×2160</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×960</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1290</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×50</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3240</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1800</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "7月13日"
+            }
+          ]
+        },
+        {
+          "property": "石像鬼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神使"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "长辉照夜"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【金晖满路】和【神召一剑】的释放速度+20%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【神召一剑】释放时，自身拥有的每个狂怒球会使【神召一剑】的伤害提升20%(需要习得【星流撞日】，效果上限也等同于该技能)，且【神召一剑】释放过程中免疫控制效果和击飞。"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【照影生辉】释放的光矛将额外穿刺一次敌方目标"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "触发【回岸折光】时，会免疫当次伤害，并击晕敌人1秒，同时对敌方施加物理破甲，持续4秒。物理破甲:物理护甲-10%，最多叠加3层。(破甲效果不会使物理护甲小于0)"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "长辉照夜的所有技能可以对无敌状态的敌人造成伤害。"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "长辉照夜造成的所有伤害+10%。"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "死亡、遗忘、混沌"
+            }
+          ]
+        },
+        {
+          "property": "诅咒灵",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "诡眼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【神召一剑】造成的伤害提升75%；且长辉照夜对首领怪物造成的伤害提升25%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "自身每拥有一个狂怒球，都会提升【照影生辉】造成的伤害10%，起效上限不会超过10个狂怒球。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到伤害时，有10%几率对攻击者使用光矛进行反击，造成3000%物理强度的神圣伤害，该伤害会受到【星流撞日】效果的加成。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "长辉照夜的技能暴击几率+30%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "铁荆"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对受伤的敌人进行毫不留情的处决，对生命值低于15 %的目标造成伤害提高20%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、%物理强度、暴击倍率、力量、全伤害类型增幅、物理伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "最大生命值、体质、物理抗性、怒气回复、暴击伤害减免、受到法术伤害降低、受到物理伤害降低、怒气"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "长辉照夜"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "长辉照夜#0##_QUERYd944155acbe05b16dac5aff1a4edd069",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::长辉照夜]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "长辉照夜# QUERYd944155acbe05b16dac5aff1a4edd069"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,891 @@
+{
+ "id": "char-2450",
+ "name": null,
+ "page_title": "司正天座",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": null,
+  "gender": "Female",
+  "race": "Light Envoy",
+  "birthday": "--10-10",
+  "birthplace": "Arklance",
+  "height_weight": "168cm/49kg",
+  "specialties": [
+   "handling official documents",
+   "organizing and sorting"
+  ],
+  "likes": [
+   "tidiness",
+   "fairness",
+   "jigsaw puzzles",
+   "(bond gift)"
+  ],
+  "dislikes": [
+   "clutter",
+   "injustice",
+   "ambiguity"
+  ],
+  "release_date": "2026-11-02"
+ },
+ "element": "Light",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Guardian Front",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Constitution",
+   "Max HP",
+   "Rage",
+   "Rage Restore"
+  ],
+  "secondary": [
+   "Strength",
+   "Physical Power %",
+   "Physical Resistance",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": "PVP character, playable from 5+19/6+30",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Gathers the Light of Judgment to strike a single enemy in three hits: each hit deals Holy DMG equal to 1200% Spell Power, plus additional Holy DMG equal to 1500%/5000%/5000% Physical Power respectively (this skill is not affected by Attack Speed; its DMG counts as Skill DMG.)",
+   "scaling": [
+    {
+     "percent": "1200%",
+     "values": [
+      1200.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 1200% of Spell Power"
+    },
+    {
+     "percent": "1500%/5000%/5000%",
+     "values": [
+      1500.0,
+      5000.0,
+      5000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 1500%/5000%/5000% of Physical Power"
+    }
+   ],
+   "name_zh": "天罚"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Forges the radiance of sun and moon for 4 seconds (+1 second per stack of relic bonus), firing a beam at a random nearby target every 0.4 seconds, dealing Holy DMG equal to {3000 + 500 × skill level}% Physical Power. When own Tenacity exceeds 100, every 50 Tenacity reduces the beam interval by 0.05 seconds (minimum 0.2 seconds).",
+   "scaling": [],
+   "name_zh": "昭如日月"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": null,
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "40 Force",
+   "description": "Deploys a judgment array lasting 4 sec; every 1 sec, deals {3000 + 500 × skill level}% Physical Power as Holy DMG to enemies within the array, with a 30% chance to inflict Taunt on them for 3 sec. While the array is active, self also receives healing equal to {6000 + 1000 × talent level}% Physical Power every second.",
+   "scaling": [],
+   "name_zh": "无垢之境"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "While [Realm of Purity] is active, own healing received per second is increased to {6000 + 1000 × talent level}% Physical Power.",
+   "scaling": [],
+   "name_zh": "洄游天平"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking DMG, {50% × (0.6 + 0.1 × talent level)} of the DMG is converted into own Max HP, lasting 10 seconds.",
+   "scaling": [],
+   "name_zh": "溯光"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When a beam fired by [Bright as Sun and Moon] hits, 20% chance to apply 1 stack of Flare to the enemy. Flare bursts after 5 seconds or when the target dies, dealing Holy DMG equal to {48% + 8% × talent level} of Celestial Magistrate's Max HP to the target and nearby enemies.",
+   "scaling": [],
+   "name_zh": "天光乍破"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Celestial Magistrate's Tenacity +{6 + talent level}.",
+   "scaling": [],
+   "name_zh": "赤诚"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 6%, Maximum Shield increased by 6%",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Dodge (Attack) chance against Normal Attacks increased by 15%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spell Permanency",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Healing received increased by 10%",
+   "scaling": [],
+   "name_zh": "法术延时"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When HP falls below 75%/45%/15%, triggers the Barricade state, reducing DMG taken by 30%, lasting 2.5 seconds",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Waiting (not filled in yet)",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder ('waiting'): build not filled in yet",
+   "slots": {
+    "Helmet": null,
+    "Necklace": "Chain of Radiance",
+    "Card": null,
+    "Earrings": "Ring of Radiance",
+    "Armor": null,
+    "Ring": null,
+    "Belt": null,
+    "Relic": "Badge of the Bulwark",
+    "Trousers": "Deathslumber Shorts",
+    "Emblem": "Emblem of Resistance",
+    "Shoes": null,
+    "Off-hand": null,
+    "Weapon": null,
+    "Handguard": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "辉耀之链": "gear-134",
+    "辉耀之环": "gear-138",
+    "盾形徽章": "gear-game-13009",
+    "死眠短裤": "gear-game-95033",
+    "抵抗勋章": "gear-1204",
+    "清光昭雪": "gear-2465"
+   },
+   "unlinked": {
+    "盾形徽章": {
+     "reason": "game_only",
+     "game_id": "13009",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13009",
+        "field": "name",
+        "text_id": 3933,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3933
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "怒气装备",
+       "司正天座"
+      ]
+     }
+    },
+    "死眠短裤": {
+     "reason": "game_only",
+     "game_id": "95033",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95033",
+        "field": "name",
+        "text_id": 82540,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       82540
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "司正天座"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Omni Embers",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Strong Rock",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "DMG dealt by [Realm of Purity] additionally deals Holy DMG equal to 2% of [Celestial Magistrate]'s Max HP."
+   },
+   {
+    "rank": 2,
+    "text": "When [Bright as Sun and Moon] is cast, if own Tenacity exceeds 100, every 50 points of Tenacity reduce the beam's cast interval by 0.05 seconds (to no less than 0.2 seconds)."
+   },
+   {
+    "rank": 3,
+    "text": "The Max HP converted by [Tracing Light] each time damage is taken is raised to at most 45% (depending on skill level)."
+   },
+   {
+    "rank": 4,
+    "text": "When others in the team die, Tenacity +25, stacking up to 4 times, lasting 15 seconds."
+   },
+   {
+    "rank": 5,
+    "text": "Immune to instant-death effects"
+   },
+   {
+    "rank": 6,
+    "text": "All DMG dealt by [Celestial Magistrate] +10%"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "Firstlight",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Physical Armor and Spell Armor +3000"
+   },
+   {
+    "index": 2,
+    "name": "Lightward Guide",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Rage Restore +10"
+   },
+   {
+    "index": 3,
+    "name": "Soluna",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "[Tracing Light] duration +5 sec"
+   },
+   {
+    "index": 4,
+    "name": "Blazeglow",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "Tenacity +30"
+   },
+   {
+    "index": 5,
+    "name": "Lightchaser",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "Max HP increased by 30%"
+   },
+   {
+    "index": 6,
+    "name": "Brightstar",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "Physical Power increased by 5%"
+   },
+   {
+    "index": 7,
+    "name": "Moonwhite",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Automatically casts a cost-free [Realm of Purity] once every 6 sec"
+   },
+   {
+    "index": 8,
+    "name": "Sun Halo",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "Crit Resistance (Attack) +10.00%; Crit Resistance (Skill) +10.00%"
+   },
+   {
+    "index": 9,
+    "name": "Scorching Sun",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "Physical Damage Reduction +5.00%; Spell Damage Reduction +5.00%"
+   },
+   {
+    "index": 10,
+    "name": "Divine Radiance",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Restores 5% of own Max HP per second, and is immune to Holy DMG while [Bright as Sun and Moon] is active"
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "Sanguine Stone",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "Blacktide Medal",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": null,
+   "id": "relic-2457"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%B8%E6%AD%A3%E5%A4%A9%E5%BA%A7",
+ "revid": 9259,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9259",
+ "rev_timestamp": "2026-11-08T13:46:36Z",
+ "i18n": {
+  "name_zh": "司正天座",
+  "sources": {
+   "derived": 4,
+   "game_db": 13,
+   "glossary": 78,
+   "lore": 1,
+   "names": 29,
+   "translated": 37
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "translated"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "translated"
+   },
+   "divinity.levels[0].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[1].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[2].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[3].effect": {
+    "source": "game_db",
+    "text_id": 85703,
+    "match": "exact"
+   },
+   "divinity.levels[4].effect": {
+    "source": "game_db",
+    "text_id": 3001,
+    "match": "exact"
+   },
+   "divinity.levels[5].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[6].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[7].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[8].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[9].effect": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "name",
+    "zh": "司正天座",
+    "reason": "names.json/characters: not in tpl_sc_hero (game files dated 2026-09-22; wiki release 2026年11月2日)"
+   },
+   {
+    "path": "profile.real_name",
+    "zh": "露米娜",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "天罚",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[1].name",
+    "zh": "昭如日月",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[2].name",
+    "zh": "无垢之境",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[3].name",
+    "zh": "洄游天平",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[4].name",
+    "zh": "溯光",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[5].name",
+    "zh": "天光乍破",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[6].name",
+    "zh": "赤诚",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "builds[0].slots.武器",
+    "zh": "清光昭雪",
+    "reason": "names.json/gear: not in tpl_sc_equipment"
+   },
+   {
+    "path": "relics[0]",
+    "zh": "天律奥典",
+    "reason": "names.json/relics: not in tpl_sc_heirloom"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[3].description",
+    "zh": "无垢之境",
+    "en": "Realm of Purity"
+   },
+   {
+    "path": "skills[5].description",
+    "zh": "昭如日月",
+    "en": "Bright as Sun and Moon"
+   },
+   {
+    "path": "skills[5].description",
+    "zh": "司正天座",
+    "en": "Celestial Magistrate"
+   },
+   {
+    "path": "skills[6].description",
+    "zh": "司正天座",
+    "en": "Celestial Magistrate"
+   },
+   {
+    "path": "blood_ranks.ranks[0].text",
+    "zh": "无垢之境",
+    "en": "Realm of Purity"
+   },
+   {
+    "path": "blood_ranks.ranks[0].text",
+    "zh": "司正天座",
+    "en": "Celestial Magistrate"
+   },
+   {
+    "path": "blood_ranks.ranks[1].text",
+    "zh": "昭如日月",
+    "en": "Bright as Sun and Moon"
+   },
+   {
+    "path": "blood_ranks.ranks[2].text",
+    "zh": "溯光",
+    "en": "Tracing Light"
+   },
+   {
+    "path": "blood_ranks.ranks[5].text",
+    "zh": "司正天座",
+    "en": "Celestial Magistrate"
+   },
+   {
+    "path": "divinity.levels[2].effect",
+    "zh": "溯光",
+    "en": "Tracing Light"
+   },
+   {
+    "path": "divinity.levels[6].effect",
+    "zh": "无垢之境",
+    "en": "Realm of Purity"
+   },
+   {
+    "path": "divinity.levels[9].effect",
+    "zh": "昭如日月",
+    "en": "Bright as Sun and Moon"
+   }
+  ]
+ }
+}

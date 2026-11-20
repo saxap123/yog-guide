@@ -1,0 +1,510 @@
+{
+ "id": "char-278",
+ "name": "Coltish Artillerist",
+ "page_title": "自由炮手",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Meine",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--07-27",
+  "birthplace": null,
+  "height_weight": "163cm/45kg",
+  "specialties": [
+   "alchemy",
+   "music",
+   "illustration"
+  ],
+  "likes": [
+   "black tea",
+   "dragons",
+   "niche music",
+   "music box (bond gift)"
+  ],
+  "dislikes": [
+   "tedious etiquette",
+   "aristocratic dresses",
+   "being restrained"
+  ],
+  "release_date": "2023-06-28"
+ },
+ "element": "Lightning",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Thunderstorm Front",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "Lightning Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Lightning Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 2,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Fires one beam forward; each beam deals 2500% Spell Power as Lightning DMG to enemies it touches",
+   "scaling": [],
+   "name_zh": "缭乱雷荆"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Falling Thunder",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Enters Flight Mode, increasing Lightning Blaze damage by 50% for 6 seconds, and restores 15 Force to all allies upon activation.",
+   "scaling": [],
+   "name_zh": "落雷之势"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Lightning Blaze",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Fires a powerful beam, dealing Lightning DMG equal to 4000% Spell Power to enemies in front 3 times",
+   "scaling": [],
+   "name_zh": "疾雷闪"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Stigma of Thunderthorn",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Meine's Perception +10.",
+   "scaling": [],
+   "name_zh": "雷龙刻印"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Lightning Harmony",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When an enemy uses a Combat Skill, Meine gains 1 Charge (up to 3). Trigger chance: 20%.\r\nIf Meine has Charges, she releases a Lightning Beam, dealing 4000% Spell Power as lightning damage to enemies in front of her. (Minimum interval: 1s)",
+   "scaling": [],
+   "name_zh": "雷光协振"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Roar of Freedom",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical Damage Reduction and Magic Damage Reduction +5%.",
+   "scaling": [],
+   "name_zh": "自由怒号"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Mystery of Alchemy",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Meine's skill crit rate +20%.",
+   "scaling": [],
+   "name_zh": "炼金的奥义"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Runes of the Surge",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Dark Draco Cannon",
+    "Handguard": "Spark Catcher"
+   },
+   "alternatives": {
+    "Belt": [
+     "Flame Infused Sash"
+    ],
+    "Trousers": [
+     "Elementalist's Britches"
+    ],
+    "Emblem": [
+     "Sigil of Mystic"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "炎护腰带": "gear-game-1009",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "魔涌之徽": "gear-1176",
+    "咒法徽印": "gear-1175",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "极黑龙炮": "gear-2306",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": {
+    "炎护腰带": {
+     "reason": "game_only",
+     "game_id": "1009",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1009",
+        "field": "name",
+        "text_id": 4025,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       4025
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "分解装备",
+       "自由炮手",
+       "璨然银龙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Songbird",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Cooldown of Lightning Blaze reduced by 0.5s, and its damage radius increased by 100%."
+   },
+   {
+    "rank": 2,
+    "text": "When [Lightning Blaze] crits, gain one stack of Charge; each stack of Charge increases the DMG dealt by [Lightning Blaze] by 10%, stacking up to 5 times. Triggers only once per cast of [Thunderthorn Strike]."
+   },
+   {
+    "rank": 3,
+    "text": "Falling Thunder +5s.\r\nRestores +15 Source Energy each time it is cast."
+   },
+   {
+    "rank": 4,
+    "text": "Trigger chance of Lightning Harmony +10%."
+   },
+   {
+    "rank": 5,
+    "text": "If there is an enemy target triggering [Unyielding] effect, copy the effect to Meine herself. This effect has a 20 sec of trigger interval."
+   },
+   {
+    "rank": 6,
+    "text": "All DMG dealt by Coltish Artillerist +10%."
+   }
+  ],
+  "recommendation": "Usable from rank 1; great at clearing trash mobs along the way"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Disobedience of Fate",
+   "id": "relic-1939"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Mystic battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "no 推荐符文 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E8%87%AA%E7%94%B1%E7%82%AE%E6%89%8B",
+ "revid": 8929,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8929",
+ "rev_timestamp": "2026-05-27T07:04:41Z",
+ "i18n": {
+  "name_zh": "自由炮手",
+  "sources": {
+   "derived": 2,
+   "game_db": 13,
+   "glossary": 59,
+   "lore": 1,
+   "names": 39,
+   "translated": 17
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 83680,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 83681,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 83682,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 83683,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 83684,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 60815,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 60817,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 60818,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 60819,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "translated"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "瓦洛亚王国",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "缭乱雷荆",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

@@ -1,0 +1,1100 @@
+{
+ "kind": "faction",
+ "license": "CC BY-NC-SA 4.0",
+ "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
+ "count": 45,
+ "items": [
+  {
+   "id": "faction-2217",
+   "name": "共鸣",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3
+     ],
+     "label": "(2/3)",
+     "text": "共鸣阵线达到2/3级时，共鸣阵线的黑卫所有球的上限增加1/2个。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%85%B1%E9%B8%A3",
+   "revid": 7906,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7906",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2194",
+   "name": "刺杀",
+   "type": "基础",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "刺杀阵线的强度达到2/3/4时，刺杀型黑卫增加25%/35%/50%闪避。"
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "刺杀阵线的强度达到5/6/7时,所有刺杀型黑卫增加15%/30%/50%技能回避。"
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "刺杀阵线的强度达到8/9时,所有黑卫技能暴击率增加4%/8%。刺杀型黑卫终结普通单位获得的怒气提升25%/50%，终结英雄单位获得对方50%/75%的怒气。"
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "刺杀阵线的强度达到10/11时，所有黑卫生命值增加5%/10%。刺杀型黑卫造成普通伤害后，目标治疗量下降35%/70%，持续3秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%88%BA%E6%9D%80",
+   "revid": 7883,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7883",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2193",
+   "name": "前锋",
+   "type": "基础",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "前锋阵线的强度达到2/3/4时，队伍中的前锋型黑卫有5%/8%//12%的几率完全抵挡该次受到的伤害"
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "前锋阵线的强度达到5/6/7时，前锋阵线的黑卫在受到致命伤害时，会触发[不死状态]，在后续3/4/5秒内受到任意伤害都不会死亡。"
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "前锋阵线的强度达到8/9时，所有黑卫增加8%/15%吸血。"
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "前锋阵线的强度达到10/11时，所有黑卫生命值增加5%/10%。每有一个激活的阵线效果(除自身和组合阵线外)，前锋型黑卫获得额外1%/3%伤害。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%89%8D%E9%94%8B",
+   "revid": 7882,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7882",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2212",
+   "name": "力场",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "力场阵线达到2/3/4时，力场阵线黑卫每隔20秒在自身位置释放抵挡弹道的护罩，持续3/4/5秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8A%9B%E5%9C%BA",
+   "revid": 7901,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7901",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2204",
+   "name": "医者",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "医者阵线的强度达到2/3/4/5/6时，上阵黑卫施加的治疗效果提升15%/25%/35%/50%/50%。医者英雄阵亡时可复活0/0/0/0/1次，回复45%生命值。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8C%BB%E8%80%85",
+   "revid": 7893,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7893",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2205",
+   "name": "召唤",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "召唤阵线的强度达到2/3/4/5/6时，召唤物普通攻击附带0.1%6/0.2%/0.3%6/0.5%/1%物理和法术强变的混沌伤害。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%AC%E5%94%A4",
+   "revid": 7894,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7894",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2445",
+   "name": "咒印回响",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%92%92%E5%8D%B0%E5%9B%9E%E5%93%8D",
+   "revid": 9237,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9237",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2219",
+   "name": "咒蚀",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "咒蚀阵线达到2/3/4时，每当队伍中有角色对敌人造成冰缓、感电、中毒、点燃状态时，咒蚀阵线的黑卫将获得1个随机球，触发间隔为3/1.5/0.5秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%92%92%E8%9A%80",
+   "revid": 7908,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7908",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2203",
+   "name": "噬魂",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "噬魂阵线的强度达到2/3/4时，上阵的噬魂型黑卫在进行普通攻击时，有15%/35%/75%几率偷取目标25怒气，每0.5秒起效一次。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%99%AC%E9%AD%82",
+   "revid": 7892,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7892",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2215",
+   "name": "回能",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "回能阵线达到2/3/4时，魔法盾消失时，恢复自身怒气值50/75/100。效果每5秒可触发1次。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9B%9E%E8%83%BD",
+   "revid": 7904,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7904",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2196",
+   "name": "回馈",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(3/4/5/6)",
+     "text": "回馈阵线达到3/4/5/6时，属于自身的召唤物死亡时，召唤者获得25%/50%/75%/100%强度的魔法盾，该效果5秒触发1次。召唤物死亡，召唤者还会恢复0/0/0/250点怒气，该效果10秒触发一次。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9B%9E%E9%A6%88",
+   "revid": 7885,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7885",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2444",
+   "name": "圣盾",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E7%9B%BE",
+   "revid": 9236,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9236",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2207",
+   "name": "坚韧",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "label": "(2/3/4/5)",
+     "text": "坚韧阵线的强度达到2/3/4/5时，上阵黑卫的生命值提升8%/12%/20%/20%，受到伤害额外减免0%/0%/0%/20%。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9D%9A%E9%9F%A7",
+   "revid": 7896,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7896",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2443",
+   "name": "天人",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%A9%E4%BA%BA",
+   "revid": 9235,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9235",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2208",
+   "name": "妖精",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "妖精阵线的强度达到2/3/4时，上阵黑卫受到的治疗效果提升10%/20%/40%，每个妖精死亡时，回复所有友军0/0/300点怒气。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A6%96%E7%B2%BE",
+   "revid": 7897,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7897",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-1618",
+   "name": "守护",
+   "type": "基础",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "守护阵线的强度达到2/3/4时，所有黑卫增加3%/6%/10%生命值和护盾值。"
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "守护阵线的强度达到5/6/7时,所有黑卫增加6%/12%/18%体质。"
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "守护阵线的强度达到8/9时，队伍中其他黑卫受到的单次伤害超过自身最大生命值30%时，由队伍中生命最高的守护黑卫对其添加守护黑卫10%/20%最大生命值的魔法盾，持续6秒。该效果有10秒的触发间隔。"
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "守护阵线的强度到达10/11时，由队伍中生命最高的守护黑卫召唤1只中级/高级护卫(诡面刺客/静谧猎手)助战，持续30秒。护卫拥有召唤者25%/40%生命值和60%攻击力以及强度。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%AE%88%E6%8A%A4",
+   "revid": 7879,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7879",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2199",
+   "name": "强袭",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "强袭阵线的强度达到2/3/4/5/6时，所有上阵黑卫忽视目标4%/6%/8%/10%/10%的全伤害减免，前锋型黑卫的[不死状态]持续时间增加0/0/0/0/2秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%BC%BA%E8%A2%AD",
+   "revid": 7888,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7888",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2448",
+   "name": "影之使魔",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%BD%B1%E4%B9%8B%E4%BD%BF%E9%AD%94",
+   "revid": 9240,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9240",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2201",
+   "name": "敌法",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "敌法阵线的强度达到2/3/4时，上阵黑卫受到的技能暴击几率降低4%/8%/15%。敌法阵线黑卫受到暴击时，恢复0/0/50点怒气，该效果有1秒的触发间隔。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%95%8C%E6%B3%95",
+   "revid": 7890,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7890",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2200",
+   "name": "智慧",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "智慧阵线的强度达到2/3/4时，上阵黑卫的怒气上限增加50/80/200。每个在场的智慧黑卫使全队造成的所有伤害增加0%/0%/3%。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%99%BA%E6%85%A7",
+   "revid": 7889,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7889",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2190",
+   "name": "暴怒",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "暴怒阵线达到2/3/4/5/6时，暴怒阵线黑卫每次受伤会增加造成的所有伤害1%/1.5%/2%/3%/3%，最多叠加5次，持续30秒。队伍中其他黑卫死亡时暴怒阵线黑卫有0%/0%/0%/0%/100%概率立刻恢复生命值并处于狂怒状态，增加的伤害效果提升100%。持续30秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%9A%B4%E6%80%92",
+   "revid": 7873,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7873",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2437",
+   "name": "死战",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%AD%BB%E6%88%98",
+   "revid": 9229,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9229",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2438",
+   "name": "洞穿",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B4%9E%E7%A9%BF",
+   "revid": 9230,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9230",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2213",
+   "name": "流星",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "流星阵线达到2/3/4时，10秒1次，召唤流星对场上所有敌人造成1000%/1500%/2000%强度的火焰伤害。(释放者为全队法术强度最高角色)"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B5%81%E6%98%9F",
+   "revid": 7902,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7902",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2197",
+   "name": "游侠",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "游侠阵线的强度达到2/3/4时，所有上阵的游侠型黑卫攻击速度提升10%/15%/30%，其它上阵黑卫攻击速度提升5%/10%/20%。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B8%B8%E4%BE%A0",
+   "revid": 7886,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7886",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2220",
+   "name": "灭法",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "灭法阵线达到2/3/4级时，队伍中灭法阵线黑卫死亡时，会沉默所有敌方黑卫3/4/5秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%AD%E6%B3%95",
+   "revid": 7909,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7909",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2446",
+   "name": "灵术叠咏",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E6%9C%AF%E5%8F%A0%E5%92%8F",
+   "revid": 9238,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9238",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-1629",
+   "name": "狩魔",
+   "type": "基础",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "狩魔阵线的强度达到2/3/4时，狩魔阵线的黑卫暴击几率增加5%/7%/10%。"
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "狩魔阵线的强度达到5/6/7时，所有黑卫暴击伤害增加50%/75%/100%。"
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "狩魔阵线的强度达到8/9时，所有黑卫的攻击速度提升15%/40%。"
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "狩魔阵线的强度达到10/11时，所有黑卫生命值增加5%/10%，获得10%/30%技能回避。成功技能回避后，伤害提升10%/25%，持续5秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%8B%A9%E9%AD%94",
+   "revid": 7881,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7881",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2210",
+   "name": "盾御",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "盾御阵线的强度达到2/3/4/5/6时，当上阵黑卫的护盾值不为0时，造成的伤害提升6%/8%/10%/12%/15%，如果是盾御型黑卫，则有0/0/0/0/35%几率免疫昏迷与冰冻。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%9B%BE%E5%BE%A1",
+   "revid": 7899,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7899",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2440",
+   "name": "磐石",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%A3%90%E7%9F%B3",
+   "revid": 9232,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9232",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2195",
+   "name": "秘术",
+   "type": "基础",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "秘术阵线的强度达到2/3/4时，秘术型黑卫在释放大招后，会立即回复100/125/150怒气。"
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "秘术阵线的强度达到5/6/7时，所有秘术型黑卫增加8%/10%/15%法术强度。"
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "秘术阵线的强度达到8/9时，所有黑卫初始怒气值增加50/200。"
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "秘术阵线的强度达到10/11时，所有黑卫增加100/200怒气上限。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%A7%98%E6%9C%AF",
+   "revid": 7884,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7884",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2191",
+   "name": "组合",
+   "type": "基础",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2
+     ],
+     "label": "(2)",
+     "text": "上阵的不同阵线的黑卫数量达到2种时，增加生命值和护盾值5%，造成伤害增加5%。"
+    },
+    {
+     "levels": [
+      3
+     ],
+     "label": "(3)",
+     "text": "上阵的不同阵线的黑卫数量达到3种时，增加生命值和护盾值10%，造成伤害增加10%。"
+    },
+    {
+     "levels": [
+      4
+     ],
+     "label": "(4)",
+     "text": "上阵的不同阵线的黑卫数量达到4种时，增加生命值和护盾值20%，造成伤害增加20%。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%84%E5%90%88",
+   "revid": 7878,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7878",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2209",
+   "name": "统帅",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      1,
+      2
+     ],
+     "label": "(1/2)",
+     "text": "统帅阵线的强度达到1/2时，每拥有一个阵线效果(除自身和组合阵线外)，统帅型黑卫的生命值提升5%/8%，伤害提升3%/5%。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9F%E5%B8%85",
+   "revid": 7898,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7898",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2216",
+   "name": "聚变",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "聚变阵线达到2/3/4/5/6时，聚变阵线黑卫获得的所有球的基础效果增加20%/30%/40%/50%/50%当聚变阵线黑卫获得球时，累积0/0/0/0/1层充能，达到20层时，在随机敌方位置召唤离子风暴每秒对范围内敌人进行打击，造成800%法术强度的闪电伤害，持续5秒。冷却时间:10秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%81%9A%E5%8F%98",
+   "revid": 7905,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7905",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2447",
+   "name": "血契制约",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%A1%80%E5%A5%91%E5%88%B6%E7%BA%A6",
+   "revid": 9239,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9239",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2198",
+   "name": "诡影",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "诡影阵线的强度达到2/3/4时，所有上阵黑卫技能回避增加10%/20%/30%，技能回避后攻击速度提升0%/0%/30%，持续6秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%AF%A1%E5%BD%B1",
+   "revid": 7887,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7887",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2211",
+   "name": "超导",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "label": "(2/3/4/5)",
+     "text": "超导阵线达到2/3/4/5时，全队能量回复速度提升3%/6%/10%/10%，且超导阵线黑卫每5秒对随机敌方释放0/0/0/1道闪电链，闪电链会连锁4次，每次连锁衰减30%伤害。闪电链伤害=5秒内额外获得的怒气值/140*(法术+物理)强度。(额外获得能量:偷取怒气、技能直接恢复怒气等效果。）"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%B6%85%E5%AF%BC",
+   "revid": 7900,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7900",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2192",
+   "name": "辅助",
+   "type": "基础",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "辅助阵线的强度达到2/3/4时，溢出的治疗量的50%/75%/100%会转换为护盾值。"
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "辅助阵线的强度达到5/6/7时，所有黑卫每5秒回复3%/4%/5%生命值。"
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "辅助阵线的强度达到8/9时,黑卫阵亡时有30%/65%几率触发复活，回复30%生命值。"
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "辅助阵线的强度达到10/11时，所有黑卫生命值增加5%/10%,所有暴击抗性增加5%/15%。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%BE%85%E5%8A%A9",
+   "revid": 7880,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7880",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2206",
+   "name": "通灵",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4/",
+     "text": "通灵阵线的强度达到2/3/4/5时，召唤物造成的伤害提升10%/15%/20%/20%，且会额外召唤0/0/0/1只魔狼作战，魔狼拥有全队平均属性值以及50%的伤害减免，且会每隔10秒嘲讽最近的敌人5秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%80%9A%E7%81%B5",
+   "revid": 7895,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7895",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2439",
+   "name": "铁血",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%81%E8%A1%80",
+   "revid": 9231,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9231",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2441",
+   "name": "铁骨",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%81%E9%AA%A8",
+   "revid": 9233,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9233",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2442",
+   "name": "锐意",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%94%90%E6%84%8F",
+   "revid": 9234,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9234",
+   "effects_source_url": null,
+   "effects_revid": null
+  },
+  {
+   "id": "faction-2218",
+   "name": "雷暴",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "雷暴阵线达到2/3/4级时，队伍中的该阵线黑卫在释放必杀技同时，朝随机敌人释放2/4/8道闪电，对落点附近敌人造成800%法术强度闪电伤害。(该伤害视为技能伤害，且只会受到全伤害增幅和闪电伤害增幅的影响)"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E6%9A%B4",
+   "revid": 7907,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7907",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2214",
+   "name": "风涌",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "风涌阵线达到2/3/4时，每隔20秒召唤持续2.5/3.5/4.5秒的龙卷吹起一名敌方单位，期间该敌人无法行动，也不会受到伤害。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%A3%8E%E6%B6%8C",
+   "revid": 7903,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7903",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  },
+  {
+   "id": "faction-2202",
+   "name": "魔导",
+   "type": "其他",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "魔导阵线的强度达到2/3/4/5/6时，队伍中魔导型黑卫血量降低至50%以下时，对随机1个目标释放妖术，使其变为羊，持续1.5/2/3/4/4秒，冷却时间为14/14/14/14/8秒。"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%AD%94%E5%AF%BC",
+   "revid": 7891,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7891",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977
+  }
+ ]
+}

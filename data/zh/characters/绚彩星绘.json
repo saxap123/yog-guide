@@ -1,0 +1,678 @@
+{
+ "id": "char-2050",
+ "name": "绚彩星绘",
+ "page_title": "绚彩星绘",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "蜜露儿",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "6月21日\n埃蒙特小镇",
+  "birthplace": "埃蒙特小镇",
+  "height_weight": "158cm/46kg",
+  "specialties": [
+   "变魔术",
+   "画宠物啾啾",
+   "制作炸药"
+  ],
+  "likes": [
+   "宠物啾啾",
+   "恶作剧",
+   "捉弄他人",
+   "游戏骰子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "猫",
+   "比她聪明的人",
+   "胆子大的人"
+  ],
+  "release_date": "2025年05月28日"
+ },
+ "element": "火焰",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "辅助",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "医者",
+    "id": "faction-2204"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "妖精",
+    "id": "faction-2208"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "体质",
+   "魔力",
+   "怒气",
+   "怒气恢复"
+  ],
+  "secondary": [
+   "物理抗性",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "暴击伤害减免",
+   "CD减少",
+   "最大生命值"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "火花奇袭",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对单个敌人投掷惊喜道具，造成1500%法术强度的火焰伤害，且造成伤害时，有30%几率对敌人造成点燃效果，持续6秒。(本技能不会受攻速影响，且造成的伤害视为技能伤害。)",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "1500%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "百景愈卷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "立刻绘制充满生机的绘卷，绘卷持续15秒，持续期间所有友方单位每秒恢复800%法术强度的生命值。",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "生命值",
+     "text": "800%法术强度的生命值"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "甜蜜冲击",
+   "cooldown_s": 16,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "在最近的敌人上空绘制糖果炸弹，糖果炸弹落地后对目标及其附近的敌人造成最多4次3000%法术强度的火焰伤害。",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "3000%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "特别惊喜",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【甜蜜冲击】击中点燃状态的敌人时，会立刻恢复自身150怒气值。(该效果有6秒的触发间隔)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "叠韵愈生",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【百景愈卷】的可以最多叠加3次，每次叠加时，使【百景愈卷】造成的治疗效果提升30%。(每次叠加的效果独立计时)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "焰火戏法",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "绚彩星绘免疫击晕效果，且当我方单位受到击晕、冰冻、妖术、魅惑效果影响时，立刻释放烟花解除所有队友的这些状态，并使所有队友在接下来4秒内受到的所有伤害都有25%几率产生偏移，偏移时受到的伤害为原先的25%。(该效果有10秒的触发间隔)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "锦绘流金",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【百景愈卷】生效时，每层都会使所有队友的暴击倍率+15%，火焰属性黑卫获得的该效果翻倍。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "振奋鼓舞战友，所有友方单位初始怒气增加25点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "能够轻松快速的释放法术，主动技能冷却时间降低10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延迟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "法术强度提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·精英射手",
+    "项链": "星痕项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "深渊壁垒",
+    "戒指": "阳炎之指",
+    "腰带": "沐光环绕",
+    "圣物": "漆黑十字",
+    "裤子": "元素大师之裤",
+    "徽章": "复苏徽识",
+    "鞋子": "智者足具",
+    "副手": "源辉石盾",
+    "武器": "云图点睛",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "头盔": [
+     "月辉·芒星守护"
+    ],
+    "项链": [
+     "指路吊坠"
+    ],
+    "衣服": [
+     "聚能之铠"
+    ],
+    "徽章": [
+     "魔涌之徽"
+    ],
+    "护手": [
+     "贵族手套"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·精英射手": "gear-1080",
+    "月辉·芒星守护": "gear-1194",
+    "星痕项链": null,
+    "指路吊坠": "gear-1081",
+    "深渊壁垒": "gear-1082",
+    "聚能之铠": "gear-1170",
+    "阳炎之指": "gear-1083",
+    "沐光环绕": "gear-1199",
+    "漆黑十字": "gear-1187",
+    "元素大师之裤": "gear-1174",
+    "复苏徽识": null,
+    "魔涌之徽": "gear-1176",
+    "智者足具": null,
+    "源辉石盾": "gear-2353",
+    "云图点睛": "gear-2295",
+    "妖精秘手": "gear-1179",
+    "贵族手套": null
+   },
+   "unlinked": {
+    "星痕项链": {
+     "reason": "game_only",
+     "game_id": "4003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4003",
+        "field": "name",
+        "text_id": 4068,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       4068
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "幸运装备",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "复苏徽识": {
+     "reason": "game_only",
+     "game_id": "7007",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "7007",
+        "field": "name",
+        "text_id": 54995,
+        "type": "12"
+       }
+      ],
+      "text_ids": [
+       54995
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "贵族手套": {
+     "reason": "game_only",
+     "game_id": "3011",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3011",
+        "field": "name",
+        "text_id": 8325,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       8325
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "祭仪羽冠",
+    "项链": "辉耀之链",
+    "卡牌": null,
+    "耳坠": "辉耀之环",
+    "衣服": "聚能之铠",
+    "戒指": "碧落丹心净戒",
+    "腰带": "灵愈生轮",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "气韵回生裤",
+    "徽章": "碧落丹心净徽",
+    "鞋子": "怜悯圣靴",
+    "副手": "碧落丹心净盾",
+    "武器": "云图点睛",
+    "护手": "碧落丹心净手"
+   },
+   "alternatives": {
+    "项链": [
+     "逆厄辉链"
+    ],
+    "耳坠": [
+     "逆厄辉环"
+    ],
+    "圣物": [
+     "辅助之愿"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "聚能之铠": "gear-1170",
+    "碧落丹心净戒": "gear-1593",
+    "灵愈生轮": "gear-1516",
+    "月辉·紫晶鸦首": "gear-1173",
+    "辅助之愿": null,
+    "气韵回生裤": "gear-1509",
+    "碧落丹心净徽": "gear-1595",
+    "怜悯圣靴": "gear-2024",
+    "碧落丹心净盾": "gear-1596",
+    "云图点睛": "gear-2295",
+    "碧落丹心净手": "gear-1657"
+   },
+   "unlinked": {
+    "辅助之愿": {
+     "reason": "game_only",
+     "game_id": "90286",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90286",
+        "field": "name",
+        "text_id": 63325,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       63325
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "圣光守护",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "不灭",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "戏火者",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "强健",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "在此感谢 观海大佬（水金861）提供符文图"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "金乌",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【百景愈卷】的持续时间+10秒。"
+   },
+   {
+    "rank": 2,
+    "text": "【锦绘流金】提供的暴击倍率每层+10%，火焰属性黑卫获得的效果翻倍。"
+   },
+   {
+    "rank": 3,
+    "text": "【百景愈卷】的叠加次数上限+2。"
+   },
+   {
+    "rank": 4,
+    "text": "【焰火戏法】触发时，有20%+(自身精神精通-敌方精神豁免)*1%的几率使敌人损失150点怒气值"
+   },
+   {
+    "rank": 5,
+    "text": "(百景愈卷】持续期间所有队友免疫击飞效果，且【焰火戏法】提供的伤害偏移几率+15%。"
+   },
+   {
+    "rank": 6,
+    "text": "绚彩星绘造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "始见新生",
+   "id": "relic-2057"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "？？？",
+   "answers": [
+    "？？？",
+    "？？？"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "？？？",
+   "answers": [
+    "？？？",
+    "？？？"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "？？？",
+   "answers": [
+    "获得专属武器："
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9A%E5%BD%A9%E6%98%9F%E7%BB%98",
+ "revid": 8606,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8606",
+ "rev_timestamp": "2026-02-08T04:03:30Z"
+}

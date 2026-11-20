@@ -1,0 +1,571 @@
+{
+ "id": "char-1615",
+ "name": "Tundra Thunder",
+ "page_title": "雷鸣掠空",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Epona",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--12-21",
+  "birthplace": "the Northern Kingdom",
+  "height_weight": "168cm/46kg",
+  "specialties": [
+   "whipping",
+   "horsemanship"
+  ],
+  "likes": [
+   "the Northland",
+   "The rain of flowers...",
+   "freedom",
+   "gold-and-jade teapot (bond gift)"
+  ],
+  "dislikes": [
+   null,
+   "hypocrisy",
+   "breaking promises"
+  ],
+  "release_date": "2024-10-30"
+ },
+ "element": "Lightning",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Guardian Front",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ],
+  "secondary": [
+   "Crit Damage Reduction",
+   "Rage",
+   "Rage Restore"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Silver Chain Assault",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Wields weapon to deal 850% spell power as lightning damage to enemies in a certain range ahead. (considered as skill damage and not affected by attack speed.)",
+   "scaling": [
+    {
+     "percent": "850%",
+     "values": [
+      850.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 850% of Spell Power"
+    }
+   ],
+   "name_zh": "银索前袭"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Sole Heart",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Summon a holy beast behind a random enemy. Upon appearing, the holy beast charges towards Epona, dealing 3000% spell power as lightning damage to enemies in its path.",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 3000% of Spell Power"
+    }
+   ],
+   "name_zh": "唯此一心"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Lightning's Soulcall",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Release a lightning force field centered on Epona, which expands to its maximum before contracting. Both the expansion and contraction deal 1500% spell power as lightning damage, and enemies hit will have their damage output reduced by 15% for the next 5 seconds.",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 1500% of Spell Power"
+    }
+   ],
+   "name_zh": "引雷震魂"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Sanctuary Blessing",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage of [Sole Heart] by 50% and places a totem in front upon casting. The totem lasts 6 seconds, granting allies immunity to knockback and Polymorph.",
+   "scaling": [],
+   "name_zh": "圣域庇佑"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Centennial Vigil",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Lightning's Soulcall] increases damage by 100%, and enemies hit by it will have their elemental resistances reduced by an additional 5%, with lightning resistance also reduced by an extra 5%, lasting for 5 seconds. (This effect can reduce enemy resistance to negative values, where every 1% of negative resistance increases damage taken from that element by 1%.)",
+   "scaling": [],
+   "name_zh": "百年守望"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Head Held High",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When an ally's health drops below 75% due to damage, Epona will immediately dash towards the attacker, dealing 2000% spell power as lightning damage to all enemies in her path, then apply a taunt on the attacker that lasts for 3 seconds. This effect has a cooldown of 10 seconds.",
+   "scaling": [
+    {
+     "percent": "2000%",
+     "values": [
+      2000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 2000% of Spell Power"
+    }
+   ],
+   "name_zh": "昂首向前"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Holy Spirit Echoes",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The holy beast summoned by [Sole Heart] will charge towards the totem. It will summon another holy beast that charges in the opposite direction when it reaches the totem, dealing 100% damage of [Sole Heart] to and knocking back all enemies in its path.",
+   "scaling": [],
+   "name_zh": "圣灵回响"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Vitality",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 6%, Max shield increased by 6%",
+   "scaling": [],
+   "name_zh": "活力"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Evasion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Normal attack evasion chance increased by 15%",
+   "scaling": [],
+   "name_zh": "躲闪"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Intensive Care",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Healing effect received increased by 10%",
+   "scaling": [],
+   "name_zh": "加护"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Waiting for a Lv 450 build — suggestions welcome in the comments below",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder: editors ask for a 450 build in the comments",
+   "slots": {
+    "Helmet": null,
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": null,
+    "Ring": null,
+    "Belt": null,
+    "Relic": null,
+    "Trousers": null,
+    "Emblem": null,
+    "Shoes": null,
+    "Off-hand": null,
+    "Weapon": null,
+    "Handguard": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {},
+   "unlinked": null,
+   "empty": true
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Strong Rock",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "[Sanctuary Blessing] ensures that all teammates are immune to stuns while the totem remains."
+   },
+   {
+    "rank": 2,
+    "text": "Increases fire and frost resistance reduction of [Centennial Vigil] by 5% and lightning resistance reduction by 10%."
+   },
+   {
+    "rank": 3,
+    "text": "The damage reduction effect of [Lightning's Soulcall] increased by 15%."
+   },
+   {
+    "rank": 4,
+    "text": "When receiving lethal damage, instantly restore all Health and Rage. This effect can trigger only once per combat (it does not count as Revival)."
+   },
+   {
+    "rank": 5,
+    "text": "While the totem from [Sanctuary Blessing] remains, all enemies' Rage regeneration rate decreases by 30%."
+   },
+   {
+    "rank": 6,
+    "text": "All damage dealt by Epona is increased by 10%."
+   }
+  ],
+  "recommendation": "PVE: usable from rank 0; PVP: usable from rank 1"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Eye of foresight",
+   "id": "relic-1942"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Guard battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《一见如故》",
+   "answers": [
+    "√不知道（碎片）",
+    "×随便乱说（钻石）"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《再度交锋》",
+   "answers": [
+    "×夸奖能力（钻石）",
+    "√似曾相识（碎片）"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《三次未来》",
+   "answers": [
+    "获得专属武器：追雷星锤"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E9%B8%A3%E6%8E%A0%E7%A9%BA",
+ "revid": 9066,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9066",
+ "rev_timestamp": "2026-07-28T10:15:02Z",
+ "i18n": {
+  "name_zh": "雷鸣掠空",
+  "sources": {
+   "derived": 6,
+   "game_db": 19,
+   "glossary": 58,
+   "lore": 2,
+   "names": 33,
+   "translated": 11
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 76703,
+    "match": "loose"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 76705,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 76704,
+    "match": "loose"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 76706,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 76707,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 76708,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 76709,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2961,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2970,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2992,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 76689,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 76690,
+    "match": "loose"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 76691,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 76692,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 76693,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 76694,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.dislikes[0]",
+    "zh": "血云堡",
+    "reason": "not translatable (see translate/manual/texts)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

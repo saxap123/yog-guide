@@ -1,0 +1,1141 @@
+{
+ "id": "char-2166",
+ "name": "Blossom Amour",
+ "page_title": "爱恋花见",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Freyja",
+  "gender": "Female",
+  "race": "Light Envoy",
+  "birthday": "--02-28",
+  "birthplace": null,
+  "height_weight": "166cm/52kg",
+  "specialties": [
+   "communicating with plants",
+   "cultivating plants"
+  ],
+  "likes": [
+   "swinging on swings",
+   "toys",
+   "plants",
+   "game dice (bond gift)"
+  ],
+  "dislikes": [
+   "Withered",
+   "violence",
+   "lifelessness"
+  ],
+  "release_date": "2025-10-30"
+ },
+ "element": "Light",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "CD Reduction",
+   "Rage Restore",
+   "Rage"
+  ],
+  "secondary": [
+   "Constitution",
+   "Max HP",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "Rage regen, DMG boost, ultimate saves allies",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Holy Judgment",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 1000% Physical Power as Holy DMG to the nearest 1 enemy. Each cast restores 6 Rage to self. (This skill's cast speed is affected by Attack Speed; its damage counts as Skill DMG.)",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 1000% of Physical Power"
+    }
+   ],
+   "name_zh": "圣洁裁决"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Time Return",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Pauses time on the field. When the pause ends, reverts the bound ally's HP, Shield value, Rage, Skill Cooldown and other attributes to their state at the start of battle (this also works when the bound ally is dead; if at the start of battle the team has only one Blackguard, Blossom Amour, this skill is not cast), and deals 10000% Physical Power as Holy DMG to all enemies on the field. Blossom Amour cannot restore Rage by any other means and is unaffected by Rage reduction effects; it can only restore Rage through its own skills.",
+   "scaling": [
+    {
+     "percent": "10000%",
+     "values": [
+      10000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 10000% of Physical Power"
+    }
+   ],
+   "name_zh": "光阴回还"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "All Revival",
+   "cooldown_s": 10,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Restores 250 rage to the bound ally; each cast restores 30 rage to itself.",
+   "scaling": [],
+   "name_zh": "万物复苏"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Pause Echo",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【Holy Judgment】: Every 10 attacks, applies a Time Bomb to the current target, exploding after 5 seconds for holy damage equal to 7500% physical strength. Restores 20 rage on each trigger.",
+   "scaling": [
+    {
+     "percent": "7500%",
+     "values": [
+      7500.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 7500% of Physical Power"
+    }
+   ],
+   "name_zh": "时停回响"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Amorous Wish",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "While Freyja is present, all allied Blackguards deal 15% more Ultimate Skill damage; Light-Type Blackguards get double this bonus.",
+   "scaling": [],
+   "name_zh": "爱语心愿"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Heart Confinement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "For targets with Time Bomb from 【Pause Echo】: if Time Bomb is reapplied or dispelled, the original one explodes immediately, with damage increased by 100%.",
+   "scaling": [],
+   "name_zh": "囚心禁时"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Time Concerto",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When the bound Blackguard uses a Ultimate Skill，Freyja also casts Time Bomb on 1 nearby enemy, dealing 100% of the original damage. Restores 20 rage on each trigger.",
+   "scaling": [],
+   "name_zh": "时光协奏"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Sanguine < 3",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "for blood rank below 3",
+   "slots": {
+    "Helmet": "Ritual Feather Crown",
+    "Necklace": "Spiral Guide",
+    "Card": null,
+    "Earrings": "Ring of Radiance",
+    "Armor": "Raging Armor",
+    "Ring": null,
+    "Belt": "Wolf Knight's Sash",
+    "Relic": "Nox Cross",
+    "Trousers": "Legguard of Magic String",
+    "Emblem": "Runes of the Surge",
+    "Shoes": "Sandals of the Sages",
+    "Off-hand": "Ancient Arcanist's Barrier",
+    "Weapon": "Moonlight · Soluna",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Moonlight · Bullseye"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ],
+    "Armor": [
+     "Abyssal Bastion"
+    ],
+    "Belt": [
+     "Thor's Meditation"
+    ],
+    "Relic": [
+     "Moonlight · Amethyst Ravenhead"
+    ],
+    "Off-hand": [
+     "Onyx Guard"
+    ],
+    "Handguard": [
+     "Embroidered Sacrificial Gloves"
+    ]
+   },
+   "extracts": {
+    "Trousers": "Elementalist's Britches"
+   },
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "月辉·精英射手": "gear-1080",
+    "指路吊坠": "gear-1081",
+    "任意太古装备": null,
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "聚能之铠": "gear-1170",
+    "深渊壁垒": "gear-1082",
+    "苍狼骑士带": "gear-game-95057",
+    "托尔之冥思": "gear-1712",
+    "漆黑十字": "gear-1187",
+    "月辉·紫晶鸦首": "gear-1173",
+    "魔弦护腿": "gear-game-90309",
+    "魔涌之徽": "gear-1176",
+    "智者足具": "gear-game-15016",
+    "古老魔盾": "gear-game-5020",
+    "源辉石盾": "gear-2353",
+    "月辉·凝辉": "gear-game-10092",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627",
+    "元素大师之裤": "gear-1174"
+   },
+   "unlinked": {
+    "任意太古装备": {
+     "reason": "not_an_item",
+     "game_id": null,
+     "possible_match": null,
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "霓裳若仙",
+       "爱恋花见",
+       "千宵月守"
+      ]
+     }
+    },
+    "苍狼骑士带": {
+     "reason": "game_only",
+     "game_id": "95057",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95057",
+        "field": "name",
+        "text_id": 85347,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       85347
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "爱恋花见"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "古老魔盾": {
+     "reason": "game_only",
+     "game_id": "5020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5020",
+        "field": "name",
+        "text_id": 53826,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53826
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "忘却迷境攻略",
+       "冷却装备"
+      ]
+     }
+    },
+    "月辉·凝辉": {
+     "reason": "game_only",
+     "game_id": "10092",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10092",
+        "field": "name",
+        "text_id": 3800,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3800
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "玉面九尾",
+       "爱恋花见",
+       "冷却装备",
+       "迷迭妖精"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Sanguine ≥ 3",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "for blood rank 3 or higher",
+   "slots": {
+    "Helmet": "Ritual Feather Crown",
+    "Necklace": "Spiral Guide",
+    "Card": null,
+    "Earrings": "Ring of Radiance",
+    "Armor": "Raging Armor",
+    "Ring": "Soul Stealer's Ring",
+    "Belt": "Wolf Knight's Sash",
+    "Relic": "Nox Cross",
+    "Trousers": "Legguard of Magic String",
+    "Emblem": "Runes of the Surge",
+    "Shoes": "Sandals of the Sages",
+    "Off-hand": "Soul Stealer's Shield",
+    "Weapon": "Moonlight · Soluna",
+    "Handguard": "Embroidered Sacrificial Gloves"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Moonlight · Bullseye"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ],
+    "Armor": [
+     "Abyssal Bastion"
+    ],
+    "Belt": [
+     "Thor's Meditation"
+    ],
+    "Relic": [
+     "Moonlight · Amethyst Ravenhead"
+    ],
+    "Emblem": [
+     "Soul Stealer's Emblem"
+    ],
+    "Handguard": [
+     "Sprite's Spite"
+    ]
+   },
+   "extracts": {
+    "Trousers": "Elementalist's Britches"
+   },
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "月辉·精英射手": "gear-1080",
+    "指路吊坠": "gear-1081",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "聚能之铠": "gear-1170",
+    "深渊壁垒": "gear-1082",
+    "穿魂夺魄秘戒": "gear-1600",
+    "苍狼骑士带": "gear-game-95057",
+    "托尔之冥思": "gear-1712",
+    "漆黑十字": "gear-1187",
+    "月辉·紫晶鸦首": "gear-1173",
+    "魔弦护腿": "gear-game-90309",
+    "魔涌之徽": "gear-1176",
+    "穿魂夺魄秘徽": "gear-1598",
+    "智者足具": "gear-game-15016",
+    "穿魂夺魄秘盾": "gear-1597",
+    "月辉·凝辉": "gear-game-10092",
+    "祭礼手套": "gear-1627",
+    "妖精秘手": "gear-1179",
+    "元素大师之裤": "gear-1174"
+   },
+   "unlinked": {
+    "苍狼骑士带": {
+     "reason": "game_only",
+     "game_id": "95057",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95057",
+        "field": "name",
+        "text_id": 85347,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       85347
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "爱恋花见"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "月辉·凝辉": {
+     "reason": "game_only",
+     "game_id": "10092",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10092",
+        "field": "name",
+        "text_id": 3800,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3800
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "玉面九尾",
+       "爱恋花见",
+       "冷却装备",
+       "迷迭妖精"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Ursus",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Raging Beast",
+    "id": "black_stone-03",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Targets affected by [Time Return] deal 30% increased damage for 30 seconds. If the target is a Light-Type Blackguard, this effect is doubled."
+   },
+   {
+    "rank": 2,
+    "text": "When [Time Concerto] triggers, the Time Bomb it releases additionally targets 1 more enemy (it will not target the same enemy 2 times in a row)."
+   },
+   {
+    "rank": 3,
+    "text": "For every 1 Rage restored to Freyja, the Rage restored to allies by [All Revival] increases by 2."
+   },
+   {
+    "rank": 4,
+    "text": "After Time Bomb explodes, it inflicts Time Slowness on the target and nearby enemies for 4 seconds. Slowness: Characters under Slowness have their attack speed halved."
+   },
+   {
+    "rank": 5,
+    "text": "For each enemy afflicted with Slowness on the field, Freyja restores 1% of its maximum HP per second (maximum count of enemies capped at 10)."
+   },
+   {
+    "rank": 6,
+    "text": "All damage dealt by Freyja +10%"
+   }
+  ],
+  "recommendation": "Sanguine 3 + Divinity 12: PVE charging\nSanguine 3 + Divinity 19: PVE DMG boost\nSanguine 6 + Divinity 30: PVP"
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "Firstlight",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Skill Cooldown +10.00%"
+   },
+   {
+    "index": 2,
+    "name": "Lightward Guide",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Attack Speed +50.00%"
+   },
+   {
+    "index": 3,
+    "name": "Soluna",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "When releasing a Time Bomb in any form, there is a 10% chance to release it an extra time."
+   },
+   {
+    "index": 4,
+    "name": "Blazeglow",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "Rage Recovery +15"
+   },
+   {
+    "index": 5,
+    "name": "Lightchaser",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "【All Revival】 will additionally target the team's Blackguard with the lowest rage, with 100% of the original effect."
+   },
+   {
+    "index": 6,
+    "name": "Brightstar",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "Revival +15.00 %"
+   },
+   {
+    "index": 7,
+    "name": "Moonwhite",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【Amorous Wish】's boost effect increases by 10%."
+   },
+   {
+    "index": 8,
+    "name": "Sun Halo",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "Crit Resistance (Attack) +10.00%; Crit Resistance (Skill) +10.00%"
+   },
+   {
+    "index": 9,
+    "name": "Scorching Sun",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "Physical Damage Reduction +5.00%; Spell Damage Reduction +5.00%"
+   },
+   {
+    "index": 10,
+    "name": "Divine Radiance",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "When Freyja takes damage, there is a 30% chance to negate the damage, fully avoid it, and remove stun, freeze, charm, confusion, and silence from itself."
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "Sanguine Stone",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "Blacktide Medal",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": "Warmth with Light",
+   "id": "relic-2171"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%88%B1%E6%81%8B%E8%8A%B1%E8%A7%81",
+ "revid": 9125,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9125",
+ "rev_timestamp": "2026-08-11T03:11:53Z",
+ "i18n": {
+  "name_zh": "爱恋花见",
+  "sources": {
+   "derived": 5,
+   "game_db": 29,
+   "glossary": 108,
+   "lore": 1,
+   "names": 66,
+   "translated": 22
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 83476,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 83478,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 83479,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 83480,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 83481,
+    "match": "loose"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 83501,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 83503,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 83504,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 83505,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 83506,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   },
+   "divinity.levels[0].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[1].effect": {
+    "source": "game_db",
+    "text_id": 83510,
+    "match": "exact"
+   },
+   "divinity.levels[2].effect": {
+    "source": "game_db",
+    "text_id": 83482,
+    "match": "exact"
+   },
+   "divinity.levels[3].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[4].effect": {
+    "source": "game_db",
+    "text_id": 83484,
+    "match": "exact"
+   },
+   "divinity.levels[5].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[6].effect": {
+    "source": "game_db",
+    "text_id": 83483,
+    "match": "exact"
+   },
+   "divinity.levels[7].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[8].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[9].effect": {
+    "source": "game_db",
+    "text_id": 83485,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "艾伦庄园",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "builds[0].slots.卡牌",
+    "zh": "任意太古装备",
+    "reason": "names.json/gear: not an item name (wiki text)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "模板:消耗品icon",
+  "pageid": 2139,
+  "ns": 10,
+  "revid": 7401,
+  "rev_timestamp": "2025-08-17T04:07:09Z",
+  "wikitext": "<span class=\"xhp-icon\" style=\"height:{{{3|}}}px;\">[[file:{{{1|}}}.png|{{{3|}}}px]]<span>{{{2|}}}</span></span>{{#css: \n.xhp-icon {\n    display: table-cell;\n    margin: 0 4px;\n    min-width: 72px;\n}\n.xhp-icon > span:last-child {\n    font-size: 12px;\n    vertical-align: bottom;\n}\n}}",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%B6%88%E8%80%97%E5%93%81icon",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7401",
+  "fetched_at": "2026-11-20T15:55:36+00:00",
+  "templates": [],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

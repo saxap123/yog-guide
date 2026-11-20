@@ -1,0 +1,409 @@
+{
+ "id": "char-292",
+ "name": "雪月公主",
+ "page_title": "雪月公主",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "海妮薇",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "12月25日",
+  "birthplace": "乌露席恩",
+  "height_weight": "167cm/52kg",
+  "specialties": [
+   "棋艺",
+   "诗唱",
+   "裁花"
+  ],
+  "likes": [
+   "葡萄酒",
+   "冬季的雪",
+   "勿忘草",
+   "伯戈涅葡萄酒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "夏天",
+   "烫的食物",
+   "言行粗鄙之辈"
+  ],
+  "release_date": "2023年12月27日"
+ },
+ "element": "冰霜",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "辅助",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "医者",
+    "id": "faction-2204"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "回能",
+    "id": "faction-2215"
+   },
+   {
+    "name": "回馈",
+    "id": "faction-2196"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "CD减少",
+   "怒气",
+   "怒气恢复",
+   "魔力",
+   "攻击速度",
+   "体质",
+   "最大生命值",
+   "%法术强度"
+  ],
+  "secondary": [
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": "450配装不朽即可，不需要神话",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对12米范围内的1名敌人造成250%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "250%",
+     "values": [
+      250.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "250%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "雪月绽放",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "召唤暴风雪，对雪月公主周围大范围的敌人每秒造成300%法术强度的冰霜伤害，持续8秒。",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "300%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "雾雪庇护",
+   "cooldown_s": 10,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对所有队友释放庇护，吸收1000%法术强度的伤害，持续10秒。(该效果视为魔法盾)",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "法术强度",
+     "effect": "伤害",
+     "text": "1000%法术强度的伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "百年饮冰",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每隔2秒，使除自身外的所有队友恢复30怒气值。当拥有冰霜球时，消耗1个冰霜球，使恢复的怒气值加倍。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "霜寒冰蚀",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "雪月公主在场时，所有队友对冰冻状态的敌人造成的伤害提升12.5%，冰霜属性的黑卫造成的效果翻倍。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "王室威仪",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【雪月绽放】的持续时间增加100%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "冰盏之体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【雾雪庇护】的吸收伤害效果提升100%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "振奋鼓舞战友，所有友方单位初始怒气增加25点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "能够轻松快速的释放法术，主动技能冷却时间降低10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延迟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "法术强度提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "蹲一个450配装，欢迎下方评论区留言",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder: editors ask for a 450 build in the comments",
+   "slots": {
+    "头盔": null,
+    "项链": null,
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": null,
+    "戒指": null,
+    "腰带": null,
+    "圣物": null,
+    "裤子": null,
+    "徽章": null,
+    "鞋子": null,
+    "副手": null,
+    "武器": "凛冬祈雪",
+    "护手": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "凛冬祈雪": "gear-2303"
+   },
+   "unlinked": null,
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "戏火者",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "不灭",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "圣光守护",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "霜咬",
+    "id": "rune-1423",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "寒月",
+    "id": "rune-1412",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "闪击",
+    "id": "rune-1418",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "在此感谢 观海大佬（水金861）提供符文图"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "恐熊",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "受到【雪月绽放】影响的敌人将被视为处于冰冻状态。"
+   },
+   {
+    "rank": 2,
+    "text": "【霜寒冰蚀】的增伤效果提升40%"
+   },
+   {
+    "rank": 3,
+    "text": "【百年饮冰】恢复的怒气值提升50%。"
+   },
+   {
+    "rank": 4,
+    "text": "雪月公主在场时，所有己方单位受到冰冻效果的持续时间减少75%。"
+   },
+   {
+    "rank": 5,
+    "text": "受【雾雪庇护】影响的队友受到伤害时，会冰冻造成伤害的敌人2秒(该效果有20秒触发间隔)"
+   },
+   {
+    "rank": 6,
+    "text": "雪月公主造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": "1阶可用，队友佩戴4霜蹄全程增伤，2阶继续为队友增伤，3阶给队友恢复更多怒气，45阶pvp"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "王室剑徽",
+   "id": "relic-1949"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%AA%E6%9C%88%E5%85%AC%E4%B8%BB",
+ "revid": 8608,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8608",
+ "rev_timestamp": "2026-02-08T04:04:45Z"
+}

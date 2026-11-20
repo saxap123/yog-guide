@@ -1,0 +1,15 @@
+{
+  "title": "模板:黑卫血阶",
+  "pageid": 1061,
+  "ns": 10,
+  "revid": 7538,
+  "rev_timestamp": "2025-09-28T09:04:24Z",
+  "wikitext": "{{#set:\n|血阶1={{{血阶1|}}}\n|血阶2={{{血阶2|}}}\n|血阶3={{{血阶3|}}}\n|血阶4={{{血阶4|}}}\n|血阶5={{{血阶5|}}}\n|血阶6={{{血阶6|}}}\n|血阶推荐及理由={{{血阶推荐及理由|}}}\n}}\n<div class=\"sy-box-1\"> \n<div class=\"sy-box-1-n\"> \n<div class=\"sy-title-1\">血阶</div> \n<div class=\"sy-divider\"></div> \n<div class=\"sy-content\">\n{| class=\"heiwei-table xuejie-table\" style=\"margin-top:0px;width:100%\"\n|-\n! style=\"width:20%\" | [[file:血阶icon.png|19px]]<span>1阶</span>\n| {{{血阶1|}}}\n|-\n! [[file:血阶icon.png|19px]]<span>2阶</span>\n| {{{血阶2|}}}\n|-\n! [[file:血阶icon.png|19px]]<span>3阶</span>\n| {{{血阶3|}}}\n|-\n! [[file:血阶icon.png|19px]]<span>4阶</span>\n| {{{血阶4|}}}\n|-\n! [[file:血阶icon.png|19px]]<span>5阶</span>\n| {{{血阶5|}}}\n|-\n! [[file:血阶icon.png|19px]]<span>6阶</span>\n| {{{血阶6|}}}\n|}\n<div class=\"BOX-title-2 border-color-ccc\" style=\"margin-top: 10px\">血阶推荐及理由</div>\n<div class=\"BOX-N py-1\">\n<div style=\"width:100%;overflow:hidden\">{{{血阶推荐及理由|}}}</div>\n</div>\n</div>\n</div>\n</div>\n{{#css: \n.xuejie-table th > a{\n    vertical-align: top;\n}\n}}",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E9%BB%91%E5%8D%AB%E8%A1%80%E9%98%B6",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7538",
+  "fetched_at": "2026-11-20T15:56:09+00:00",
+  "templates": [],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

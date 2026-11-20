@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yog-guide.local/schema/common.schema.json",
+  "title": "Shared definitions",
+  "$defs": {
+    "str": {"type": ["string", "null"], "minLength": 1},
+    "strList": {"type": ["array", "null"], "items": {"type": "string", "minLength": 1}, "minItems": 1},
+    "id": {"type": "string", "pattern": "^(char|gear|relic|rune|faction|black_stone)-[0-9]+$"},
+    "idOrNull": {"anyOf": [{"$ref": "#/$defs/id"}, {"type": "null"}]},
+    "ref": {
+      "type": "object",
+      "required": ["name", "id"],
+      "additionalProperties": false,
+      "properties": {"name": {"type": "string", "minLength": 1}, "id": {"$ref": "#/$defs/idOrNull"}}
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["source_url", "revid", "permalink"],
+      "properties": {
+        "source_url": {"type": "string", "pattern": "^https://wiki\\.biligame\\.com/bookofyog/"},
+        "revid": {"type": "integer", "minimum": 1},
+        "permalink": {"type": "string", "pattern": "^https://wiki\\.biligame\\.com/bookofyog/index\\.php\\?oldid=[0-9]+$"}
+      }
+    },
+    "collection": {
+      "type": "object",
+      "required": ["kind", "license", "source", "count", "items"],
+      "additionalProperties": false,
+      "properties": {
+        "kind": {"type": "string"},
+        "license": {"const": "CC BY-NC-SA 4.0"},
+        "source": {"type": "string"},
+        "count": {"type": "integer", "minimum": 0},
+        "items": {"type": "array"}
+      }
+    }
+  }
+}

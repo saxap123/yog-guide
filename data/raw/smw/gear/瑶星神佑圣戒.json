@@ -1,0 +1,189 @@
+{
+  "subject": "瑶星神佑圣戒",
+  "group": "gear",
+  "page_revid": 7085,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%91%B6%E6%98%9F%E7%A5%9E%E4%BD%91%E5%9C%A3%E6%88%92",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%91%B6%E6%98%9F%E7%A5%9E%E4%BD%91%E5%9C%A3%E6%88%92&format=json",
+  "fetched_at": "2026-11-20T16:19:02+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "瑶星神佑圣戒#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/7/30/16/41/30/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/7/30/16/41/30/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "瑶星神佑圣戒"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "主属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9.9%攻击速度"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258魔力、9258魔力、9258魔力、9258魔力、9258力量、9258力量、9258力量、9258力量、20%受到冰冻时间减少、20%受到昏迷时间下降、2321生命恢复"
+            }
+          ]
+        },
+        {
+          "property": "副属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "%最大生命值、%命中、%闪避、%提高施加的治疗效果、%暴击伤害减免、%暴击概率、%技能暴击、%CD减少、%暴击倍率、%全伤害类型增幅"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258魔力、9258魔力、9258魔力、9258魔力、9258力量、9258力量、9258力量、9258力量、43%暴击倍率、20%造成昏迷时间提升、20%造成冰冻时间增加"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "瑶星神佑"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "瑶星神佑(2)：释放必杀技后，暴击倍率+30%，持续6秒；瑶星神佑(4)：神圣属性黑卫造成的最终伤害提升20%"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "猩红秘戒：无法通过吸血效果恢复生命值，技能暴击几率增加(5.00%-12.00%)；许诺之戒：每当重生触发时，都会将生命值恢复至100%，重生几率增加(5.00%-15.00%)"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "旅途故事"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "瑶星神佑圣戒"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "戒指"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "title": "模板:黑卫",
+  "pageid": 283,
+  "ns": 10,
+  "revid": 8523,
+  "rev_timestamp": "2026-01-29T09:57:29Z",
+  "wikitext": "{{#set:\n|称号={{{称号|}}}\n|姓名={{{姓名|}}}\n|性别={{{性别|}}}\n|种族={{{种族|}}}\n|生日={{{生日|}}}\n|出生地={{{出生地|}}}\n|具体身高/体重={{{具体身高/体重|}}}\n|喜爱的东西={{{喜爱的东西|}}}\n|讨厌的东西={{{讨厌的东西|}}}\n|属性={{{属性|}}}\n|稀有度={{{稀有度|}}}\n|基础阵线={{{基础阵线|}}}\n|其他阵线={{{其他阵线|}}}\n|上线日期={{{上线日期|}}}\n|羁绊-喜爱的东西={{{羁绊-喜爱的东西|}}}\n|配装-词条推荐1={{{配装-词条推荐1|}}}\n|配装-词条推荐2={{{配装-词条推荐2|}}}\n|备注={{{备注|}}}\n}}{{#arraydefine:其他阵线图标|{{#arraymap:{{{其他阵线|}}}|、|@|@|,}}}}<div style=\"padding: 0\">\n{| class=\"heiwei-table\" style=\"margin-top:0px;width:100%\"\n|-\n! style=\"width:20%\" | 姓名\n| {{{姓名|}}}\n|rowspan=5 class=\"heiwei-toux\" style=\"width: 160px;\"|[[文件:{{{称号|}}}头像.png|160px||link=]]\n|-\n! 称号\n| {{{称号|}}}\n|-\n! 性别\n| {{{性别|}}}\n|-\n! 种族\n| {{{种族|}}}\n|-\n! 生日\n| {{{生日|}}}\n|-\n! 出生地\n|colspan=2 | {{{出生地|}}}\n|-\n! 具体身高/体重\n|colspan=2 | {{{具体身高/体重|}}}\n|-\n! 特长\n|colspan=2 | {{{特长|}}}\n|-\n! 喜爱的东西\n|colspan=2 | {{{喜爱的东西|}}}\n|-\n! 讨厌的东西\n|colspan=2 | {{{讨厌的东西|}}}\n|-\n! 基础阵线\n|colspan=2 | {{阵线图标|{{{基础阵线|}}}|22px}}\n|-\n! 其他阵线\n|colspan=2 |{{#if: {{#arrayindex:其他阵线图标 |0 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |0 }}|22px}}|}}{{空白占位符|4}}{{#if: {{#arrayindex:其他阵线图标 |1 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |1 }}|22px}}|}}{{空白占位符|4}}{{#if: {{#arrayindex:其他阵线图标 |2 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |2 }}|22px}}|}}{{空白占位符|4}}{{#if: {{#arrayindex:其他阵线图标 |3 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |3 }}|22px}}|}}{{空白占位符|4}}{{#if: {{#arrayindex:其他阵线图标 |4 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |4 }}|22px}}|}}{{空白占位符|4}}{{#if: {{#arrayindex:其他阵线图标 |5 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |5 }}|22px}}|}}{{空白占位符|4}}{{#if: {{#arrayindex:其他阵线图标 |6 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |6 }}|22px}}|}}{{空白占位符|4}}{{#if: {{#arrayindex:其他阵线图标 |7 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |7 }}|22px}}|}}{{空白占位符|4}}{{#if: {{#arrayindex:其他阵线图标 |8 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |8 }}|22px}}|}}{{空白占位符|4}}{{#if: {{#arrayindex:其他阵线图标 |9 }} |{{阵线图标|{{#arrayindex:其他阵线图标 |9 }}|22px}}|}}\n|-\n! 属性\n|colspan=2 | {{颜色|{{{属性|}}}|{{{属性|}}}}}\n|-\n! 稀有度\n|colspan=2 | {{颜色|{{{稀有度|}}}|{{{稀有度|}}}}}\n|-\n! 上线日期\n|colspan=2 | {{{上线日期|}}}\n|-\n! 配装-词条推荐1\n|colspan=2 | {{{配装-词条推荐1|}}}\n|-\n! 配装-词条推荐2\n|colspan=2 | {{{配装-词条推荐2|}}}\n|-\n! 备注\n|colspan=2 | {{颜色|红|450级配装装备品质【不朽】即可，融合加技能数值的装备融合⭐⭐⭐，其余不融合}}\n|-\n! 备注\n|colspan=2 | {{{备注|}}}\n|}\n</div>\n{{#if:{{{称号|}}}|[[分类:黑卫]]|}}\n{{#css: \n.heiwei-toux img {\n    height: 149px;\n    width: 149px;\n    object-fit: cover;\n}\n}}",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E9%BB%91%E5%8D%AB",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8523",
+  "fetched_at": "2026-11-20T15:55:56+00:00",
+  "templates": [
+    "模板:空白占位符",
+    "模板:阵线图标",
+    "模板:颜色"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

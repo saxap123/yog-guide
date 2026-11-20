@@ -1,0 +1,314 @@
+{
+ "id": "char-1725",
+ "name": "Woodland Dryad",
+ "page_title": "密林之眼",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Myoni",
+  "gender": "Female",
+  "race": "Beast Blood",
+  "birthday": "--06-29",
+  "birthplace": null,
+  "height_weight": "163cm/45kg",
+  "specialties": [
+   "Hunting",
+   "racing",
+   "ball games"
+  ],
+  "likes": [
+   "fresh fish",
+   "catnip",
+   "sunbathing"
+  ],
+  "dislikes": [
+   "having her ears touched",
+   "swimming",
+   "arrogant humans"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Physical",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Multi-Shot",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Myoni fires 8 arrows like a raging storm (the number of arrows is affected by Physical Mastery), each arrow dealing Physical DMG equal to 75% of Physical Power to the target.",
+   "scaling": [
+    {
+     "percent": "75%",
+     "values": [
+      75.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 75% of Physical Power"
+    }
+   ],
+   "name_zh": "风暴射击"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Piercing Shot",
+   "cooldown_s": 9,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Myoni shoots a piercing arrow, dealing physical damage of 30% (affected by physical strength) to the target and the enemies behind them Hits have a chance to proc [Energy Surge]: Each surge increases skill critical strike chance by 3% and critical strike damage by 5%, stacking up to 10 times.",
+   "scaling": [
+    {
+     "percent": "30%",
+     "values": [
+      30.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 30% of Physical Power"
+    }
+   ],
+   "name_zh": "贯穿箭"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Exploit Weakness",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Myoni's precise shooting technique increases her attack crit chance and skill crit chance by 30%.",
+   "scaling": [],
+   "name_zh": "弱点瞄准"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Heavy Caliber",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Piercing Shots crit, they knocks back enemy targets",
+   "scaling": [],
+   "name_zh": "震慑"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Eagle Eye",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Piercing Shots changes to “fires 3 arrows in a cone forward, and the Physical Power of Piercing Shots is increased by 6.1%.",
+   "scaling": [],
+   "name_zh": "多重贯穿箭"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Lone Hunter",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Myoni's technique grants her 10% Skill Crit Chance and 30% Skill Crit Dmg.",
+   "scaling": [],
+   "name_zh": "射手专注"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "百年前爆发的黑潮，使米奥妮的先祖族群失去了自己的故乡「达特穆尔」，多年来一直四处迁徙，她对故乡的印象也只停留在长辈们传述的故事里——\n在黑潮爆发之前,他们的族群世世代代生活在达特穆尔，那里有冰冷清澈的泉水，芬芳清新的草地。每年花语时节都有名为「马尔斯」的庆典比赛,庆祝春日的万物复苏。\n参加马尔斯的族人需要先穿过辽阔的草地,接着是复杂茂密的丛林，爬至山峦顶峰,最后拿起弓箭射中百米外的火种引爆烟火，预示庆典的正式开始……\n米奥妮永远不会忘记长辈们讲述达特穆尔时，那种思乡的口吻和眼中的泪光。\n虽然米奥妮在后来的流浪生活中去过许多繁华的城镇,和人类产生了种种交集,但那未曾见过的达特穆尔一直都是她心中渴望回归的故乡。\n米奥妮之所以成为一名黑卫,就是希望有朝一日能终结黑潮,带族人们回到世世代代生存的达特穆尔，一如黑卫誓言的最后一句――以立此誓，献此生，为离民归乡。",
+  "deeds": [
+   "米奥妮年幼时偶尔会跟父母去人类城镇卖草药，从而换取饱腹的粮食。\n有一次,在码头等待父母交货的时候,米奥妮看到市场巷道有非常规整漂亮的地砖,还有一个人类小女孩在上面蹦蹦跳跳，玩着跳格子的游戏。\n米奥妮很快看懂了游戏规则,很默契地跑过去，和小女孩欢快地玩起了跳格子。\n正在米奥妮沉浸其中时，小女孩被她的父亲拽走并严厉训斥:“不准和野猫玩，它们脏得要命!”\n落寞的米奥妮独自一人回到码头,还亲眼目睹了母亲交货时遭到调戏，父亲被黑商陷害殴打的场景。\n这些事使米奥妮开始厌恶人类聚居的城镇，也越发思念先祖的故乡达特穆尔。",
+   "自从米奥妮来到黑卫学院，就是各种球赛的胜率标尺。\n大家都已经默认，不论是什么球类比赛项目,只要是有米奥妮在的队伍，一定可以获得最终的胜利。\n然而，米奥妮的零败绩却在有一天被诺莉打破了——\n那场比赛是争夺冠军归属的决赛,诺莉所在的队伍看到对面有米奥妮,开场就有些军心涣散。\n双方好不容易拉锯来到赛点,诺莉摔了一跤,兜袋里还掉出了一小团毛线球,原本正要破门的米奥妮突然停了下来,呆呆看着那团毛线球,然后不受控制地扑了过去，拍着毛线球在地上打滚。\n等米奥妮回过神,他们的队伍已经丢失赛点,输掉了比赛,这让她非常懊悔。\n诺莉其实也不是故意耍诈,那团毛线球是她制作炼金药剂时用剩下的，忘了从口袋里拿出来,而且她也实在没想到，米奥妮会有这么严重的……返祖现象。\n比赛结束后的某天,诺莉想表达歉意和友好,在宿舍楼下等着米奥妮,一看到她就问:“打……打球吗?”\n米奥妮沉默了一会，小心翼翼地说:“除了毛线球，什么球都可以……”",
+   "作为血统非常纯正的野兽人，米奥妮身上有非常浓的猫性，她有一次去集市做采购，路过一处售卖猫薄荷的摊位，眼神突然变得迷离起来,差点直接在地上打滚。\n野外训练期间，米奥妮和柯杨娜经常会进行竞速较量,不过每次柯杨娜叫米奥妮下水嬉戏，她要么保持沉默，要么就是翻个白眼回应:“无聊,你怎么这么幼稚,还在需要被喂奶的年纪吗?”，无论如何都拒不下水。\n反复多次后,若有所思的柯扬娜忍不住笑问:“米奥妮,你是不是怕水?”\n“我更怕你脑子进水。”米奥妮骂完,狼狈逃走。",
+   "米奥妮非常喜欢晒太阳,自从她换到了一间露台朝阳的寝室，就立刻着手在露台铺设了一张别致的软垫，每逢闲暇时就会趴在上面,享受阳光洒满周身的感觉。\n尤其是空气凉爽的秋天，米奥妮的午睡时间也会呈指数级地增长，经常有人在傍晚时分看到露台上悠然摇晃着的猫尾巴，不用想就知道是米奥妮午睡还没醒。\n一个秋日的下午，米奥妮和往常一样趴在洒满阳光的露台软垫上睡觉，后来天上响起了轰鸣声，她眼看穹顶阳光明媚，就没当回事，以为只是诺莉又把实验室炸了，继续午睡。\n可谁知,米奥妮刚睡没一会，哗哗大雨就把全身淋了个透，吓得她狼狈地逃回室内。\n米奥妮也是后来才知道的,亚克兰斯气候特殊,经常会出现太阳雨”，之后每次午睡晒太阳，她都会留个心眼,只要听到雷声，不管有没有太阳,都要赶紧逃回室内。",
+   "米奥妮来到黑卫学院的第一年生日，乌茜洛蒂和几个擅长制作甜品的女孩们准备做一个翻糖蛋糕来给她庆生。\n因为想要制造惊喜，女孩们特意选在夜晚时分悄悄讨论蛋糕的样式,有人提议把蛋糕做成一只正在打球的猫，也有人提议把它做成箭袋模样……女孩们全然不知，深夜正是米奥妮精神最好的时候，她早就拿着鱼罐头躲在角落，一直在听她们的讨论。\n正当女孩们不知选什么样式时，黑暗中传来米奥妮幽幽的声音︰“做成鱼的样子就好了。”\n女孩们被吓了一跳，随即露出笑容，欣然邀请米奥妮一起来做蛋糕，这也成为了她非常难忘的一个夜晚。\"",
+   "如果说米奥妮身上有什么禁忌,毫无疑问就是她的耳朵,和喜欢被摸头的咚咚不同,米奥妮被碰到耳朵的时候会直接炸毛。\n曾经有一次,米奥妮坐在花园长椅上看书，因为是背对坐着，路过的加拉哈德看到那对耳朵以为是咚咚，就顺手摸了上去。\n紧接着,加拉哈德听到非常凶狠的“哈”一声，脸上直接被抓破相,得亏凌的医术高超，才没落下什么疤痕。\""
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%AF%86%E6%9E%97%E4%B9%8B%E7%9C%BC",
+ "revid": 8646,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8646",
+ "rev_timestamp": "2026-02-08T04:32:30Z",
+ "i18n": {
+  "name_zh": "密林之眼",
+  "sources": {
+   "derived": 4,
+   "game_db": 8,
+   "glossary": 30,
+   "lore": 1,
+   "names": 16,
+   "translated": 11
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 3065,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 2982,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 4329,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "达特穆尔",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

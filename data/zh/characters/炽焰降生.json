@@ -1,0 +1,649 @@
+{
+ "id": "char-284",
+ "name": "炽焰降生",
+ "page_title": "炽焰降生",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "伊莉德",
+  "gender": "女",
+  "race": "精灵",
+  "birthday": "7月25日",
+  "birthplace": "马克公园",
+  "height_weight": "167cm/49kg",
+  "specialties": [
+   "独自生活",
+   "模仿"
+  ],
+  "likes": [
+   "玩火",
+   "可可米",
+   "苹果",
+   "玫瑰花束（羁绊礼物）"
+  ],
+  "dislikes": [
+   "孤独",
+   "无聊",
+   "胆小"
+  ],
+  "release_date": "2024年02月28日"
+ },
+ "element": "火焰",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "秘术",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "技能暴击",
+   "CD减少",
+   "火焰穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "火焰伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "赤焰龙息",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "变身前：朝敌人释放火球，造成2500%法术强度的火焰伤害。变身后：朝前方释放吐息，对范围内所有敌人造成5000%法术强度的火焰伤害。",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "2500%法术强度的火焰伤害"
+    },
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "5000%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "血火真龙",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "激发出血脉中潜藏的真龙之力，在12秒内变身为巨龙，并增加50%的最大生命值，且在持续期间内，免疫冰冻、妖术、击退击飞、以及吹风(风涌阵线)效果(变身为巨龙时，无法自然恢复怒气)。",
+   "scaling": [
+    {
+     "percent": "50%",
+     "values": [
+      50.0
+     ],
+     "stat": "最大生命值",
+     "effect": null,
+     "text": "50%的最大生命值"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "红龙狂舞",
+   "cooldown_s": 6,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "变身前：在敌人脚下创造烈焰之柱，对波及到的所有敌人造成7500%法术强度的火焰伤害。变身后：在敌方位置召唤陨石，陨石落地后对小范围的所有敌人造成2次12000%法术强度的火焰伤害",
+   "scaling": [
+    {
+     "percent": "7500%",
+     "values": [
+      7500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "7500%法术强度的火焰伤害"
+    },
+    {
+     "percent": "12000%",
+     "values": [
+      12000.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "12000%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "阳炎",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "释放【血火真龙】时，炽焰降生的感知属性+15，最多叠加3次。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "焚天",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "炽焰降生的所有技能造成的伤害提升100%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "烈焰流光",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每当场上有敌方单位陷入昏迷状态时，对其释放陨石造成4000%法术强度的火焰伤害。发动概率：25%(拥有最小1秒的释放间隔)",
+   "scaling": [
+    {
+     "percent": "4000%",
+     "values": [
+      4000.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "4000%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "业火之势",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "炽焰降生的技能暴击几率+20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "玻璃大炮",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "放弃防护，专心攻击，造成的伤害提高15%，但是自身受到的伤害也提高10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "元素充能",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "造成非物理伤害时，恢复造成伤害10%的生命值",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "蛇灵之怒",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猩红秘戒",
+    "腰带": "王室荣尊",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "戏谑者裤腿",
+    "徽章": "魔涌之徽",
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "燎原焰影",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "项链": [
+     "海晶项链"
+    ],
+    "衣服": [
+     "深渊壁垒"
+    ],
+    "腰带": [
+     "嗜战者束腰"
+    ],
+    "护手": [
+     "祭礼手套"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "蛇灵之怒": null,
+    "海晶项链": null,
+    "聚能之铠": "gear-1170",
+    "深渊壁垒": "gear-1082",
+    "猩红秘戒": "gear-1171",
+    "王室荣尊": "gear-1172",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "魔涌之徽": "gear-1176",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "燎原焰影": "gear-1209",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627"
+   },
+   "unlinked": {
+    "蛇灵之怒": {
+     "reason": "game_only",
+     "game_id": "90022",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90022",
+        "field": "name",
+        "text_id": 56452,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       56452
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炽焰降生"
+      ]
+     }
+    },
+    "海晶项链": {
+     "reason": "game_only",
+     "game_id": "4011",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4011",
+        "field": "name",
+        "text_id": 8333,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       8333
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "分解装备",
+       "炽焰降生",
+       "幸运装备",
+       "千宵月守"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "旅途800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "旅途",
+   "tier_note": null,
+   "slots": {
+    "头盔": "祈火灵盔",
+    "项链": "辉耀之链",
+    "卡牌": "龙力魔牌",
+    "耳坠": "辉耀之环",
+    "衣服": "法球咒铠",
+    "戒指": "幽焰剑士荣耀",
+    "腰带": "圣职驱魔",
+    "圣物": "幽焰剑士截断",
+    "裤子": "戏谑者裤腿",
+    "徽章": "幽焰剑士裁决",
+    "鞋子": null,
+    "副手": "幽焰剑士极致",
+    "武器": "灼日焚焰",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "头盔": [
+     "静默之盔"
+    ],
+    "腰带": [
+     "感电者"
+    ],
+    "护手": [
+     "祭礼手套"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祈火灵盔": "gear-1478",
+    "静默之盔": null,
+    "辉耀之链": "gear-134",
+    "龙力魔牌": "gear-1691",
+    "辉耀之环": "gear-138",
+    "法球咒铠": "gear-1686",
+    "幽焰剑士荣耀": "gear-187",
+    "圣职驱魔": "gear-1689",
+    "感电者": "gear-1690",
+    "幽焰剑士截断": "gear-180",
+    "戏谑者裤腿": "gear-1182",
+    "幽焰剑士裁决": "gear-147",
+    "幽焰剑士极致": "gear-162",
+    "灼日焚焰": "gear-1566",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627"
+   },
+   "unlinked": {
+    "静默之盔": {
+     "reason": "game_only",
+     "game_id": "90102",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90102",
+        "field": "name",
+        "text_id": 60210,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       60210
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炽焰降生",
+       "忘却迷境-凛风雪原"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "帆船800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "帆船",
+   "tier_note": null,
+   "slots": {
+    "头盔": "祭仪羽冠",
+    "项链": "辉耀之链",
+    "卡牌": "精魄魔牌",
+    "耳坠": "辉耀之环",
+    "衣服": "法球咒铠",
+    "戒指": "幽焰剑士荣耀",
+    "腰带": "圣职驱魔",
+    "圣物": "幽焰剑士截断",
+    "裤子": "魔源裤腿",
+    "徽章": "幽焰剑士裁决",
+    "鞋子": "宗室礼靴",
+    "副手": "幽焰剑士极致",
+    "武器": "灼日焚焰",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "头盔": [
+     "烁玉金盔"
+    ],
+    "腰带": [
+     "感电者"
+    ],
+    "裤子": [
+     "元素圣灵裤"
+    ],
+    "护手": [
+     "祭礼手套"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "烁玉金盔": "gear-1275",
+    "辉耀之链": "gear-134",
+    "精魄魔牌": "gear-1291",
+    "辉耀之环": "gear-138",
+    "法球咒铠": "gear-1686",
+    "幽焰剑士荣耀": "gear-187",
+    "圣职驱魔": "gear-1689",
+    "感电者": "gear-1690",
+    "幽焰剑士截断": "gear-180",
+    "魔源裤腿": "gear-1286",
+    "元素圣灵裤": "gear-1285",
+    "幽焰剑士裁决": "gear-147",
+    "宗室礼靴": "gear-1282",
+    "幽焰剑士极致": "gear-162",
+    "灼日焚焰": "gear-1566",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627"
+   },
+   "unlinked": null,
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": "火咒",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "炎龙",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "强化【赤焰龙息】效果；变身前发射的火球数量+2，且可以额外穿透3个目标，变身后，造成的伤害+50%"
+   },
+   {
+    "rank": 2,
+    "text": "【血火真龙】变身的持续时间增加100%"
+   },
+   {
+    "rank": 3,
+    "text": "受到致命伤害时，获得持续3秒不死并恢复全部的怒气，该效果有300秒触发间隔"
+   },
+   {
+    "rank": 4,
+    "text": "变身状态下，受到致命伤害不会死亡，会退出变身并保留20%的生命上限；该效果有150秒触发间隔"
+   },
+   {
+    "rank": 5,
+    "text": "【红龙狂舞】和【烈焰流光】释放的陨石，每累积10次，都有几率会使全场敌人陷入昏迷（炽焰降生感知高于敌方时，和敌方的感知属性差值越大，昏迷的几率越高）"
+   },
+   {
+    "rank": 6,
+    "text": "炽焰降生造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "幽焰龙吟",
+   "id": "relic-1908"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "秘术战格",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%82%BD%E7%84%B0%E9%99%8D%E7%94%9F",
+ "revid": 8928,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8928",
+ "rev_timestamp": "2026-05-27T07:04:38Z"
+}

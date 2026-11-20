@@ -1,0 +1,198 @@
+{
+  "subject": "霆霓猩红血印",
+  "group": "extra_items",
+  "page_revid": 605,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%86%E9%9C%93%E7%8C%A9%E7%BA%A2%E8%A1%80%E5%8D%B0",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9C%86%E9%9C%93%E7%8C%A9%E7%BA%A2%E8%A1%80%E5%8D%B0&format=json",
+  "fetched_at": "2026-11-20T17:05:07+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "霆霓猩红血印#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/9/6/50/0/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/9/12/10/46/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霆霓猩红血印"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "主属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "30%暴击倍率"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "闪耀着诡异的光芒，仿佛鲜血浸透其中。"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258体质、9258体质、9258体质、9258体质、4%物理强度、4%法术强度、43物理抗性、43冰霜抗性、43闪电抗性、43火焰抗性、43混沌抗性"
+            }
+          ]
+        },
+        {
+          "property": "副属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "%全伤害类型增幅、%最大生命值、%命中、%闪避、%提高施加的治疗效果、%暴击伤害减免、%暴击概率、%技能暴击、%攻击速度"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258魔力、9258魔力、9258魔力、9258魔力、9258力量、9258力量、9258力量、9258力量、43%暴击倍率、5%最大生命值"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霆霓猩红者的热渴"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霆霓猩红者的热渴(2)：释放战技后，法术强度提高5%，持续5秒；霆霓猩红者的热渴(4)：闪电属性黑卫造成的最终伤害提升20%。"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "暂无"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "旅途故事"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霆霓猩红血印"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "徽章"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

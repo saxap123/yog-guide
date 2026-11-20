@@ -1,0 +1,1105 @@
+{
+ "id": "char-2394",
+ "name": "月渊龙女",
+ "page_title": "月渊龙女",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "织雪衣",
+  "gender": "女",
+  "race": "龙裔",
+  "birthday": "10月11日",
+  "birthplace": "九域国",
+  "height_weight": "168cm/46kg",
+  "specialties": [
+   "飞行",
+   "游泳"
+  ],
+  "likes": [
+   "做梦",
+   "捉迷藏",
+   "玩具球",
+   "游戏骰子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "不辞而别",
+   "被蒙骗"
+  ],
+  "release_date": "2026年07月28日"
+ },
+ "element": "光明",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "秘术",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%物理强度",
+   "暴击倍率",
+   "力量",
+   "全伤害类型增幅",
+   "物理伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "怒气回复",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "怒气"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "天剑破邪",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "凝聚飞剑攻击前方小范围敌人，造成600%物理强度的神圣伤害，并有20%几率对其施加昏迷效果，持续1秒。(本技能不会受攻速影响，造成的伤害视为技能伤害。)",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "600%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "剑落九霄",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "在空中凝聚巨型飞剑，对目标及其附近的敌方单位造成18000%物理强度的神圣伤害。",
+   "scaling": [
+    {
+     "percent": "18000%",
+     "values": [
+      18000.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "18000%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "飞星惊梦",
+   "cooldown_s": 0.5,
+   "cooldown_raw": null,
+   "cost": "5源力",
+   "description": "当队伍中有人对敌方施加昏迷效果时，朝目标释放5枚飞剑，每一枚飞剑都会造成3000%物理强度的神圣伤害。(该效果有0.5秒触发间隔)",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "3000%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "剑意凝元",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每一次触发【飞星惊梦】，可积攒10点剑元；每20点剑元能让【剑落九霄】多生出一柄辅剑，辅剑造成3500%物理强度的神圣伤害。剑元存储上限为100点。",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "3500%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "曙光归甲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "场上有黑卫死亡时，自身的物理强度提升10%，最多叠加3层。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "无我",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "进入战斗时，会获得15秒的无敌。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "明心",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "月渊龙女的感知+10。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "玻璃大炮",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "放弃防护，专心攻击，造成的伤害提高15%，但是自身受到的伤害也提高10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "元素充能",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "造成非物理伤害时，恢复造成伤害10%的生命值",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "血钩吊坠",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猎杀时刻",
+    "腰带": "铁铸束腰",
+    "圣物": "活体火焰",
+    "裤子": "戏谑者裤腿",
+    "徽章": null,
+    "鞋子": "月辉·王室金靴",
+    "副手": "浴火之盾",
+    "武器": "沧澜天剑",
+    "护手": "深渊之握"
+   },
+   "alternatives": {
+    "腰带": [
+     "狂猎之腰"
+    ],
+    "裤子": [
+     "元素大师之裤"
+    ],
+    "护手": [
+     "牛皮护手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "血钩吊坠": null,
+    "聚能之铠": "gear-1170",
+    "猎杀时刻": null,
+    "铁铸束腰": null,
+    "狂猎之腰": null,
+    "活体火焰": "gear-1198",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "月辉·王室金靴": "gear-1177",
+    "浴火之盾": "gear-1205",
+    "沧澜天剑": null,
+    "深渊之握": "gear-1192",
+    "牛皮护手": null
+   },
+   "unlinked": {
+    "血钩吊坠": {
+     "reason": "game_only",
+     "game_id": "4004",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4004",
+        "field": "name",
+        "text_id": 4069,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       4069
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "辉耀之链",
+       "幽影绝链",
+       "蚀骨魂龙",
+       "幸运装备",
+       "月渊龙女"
+      ]
+     }
+    },
+    "猎杀时刻": {
+     "reason": "game_only",
+     "game_id": "2031",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2031",
+        "field": "name",
+        "text_id": 54368,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       54368
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉",
+       "迷雾山脉-迷雾幻境",
+       "魂棺语者",
+       "蚀骨魂龙",
+       "绯晶战影"
+      ]
+     }
+    },
+    "铁铸束腰": {
+     "reason": "game_only",
+     "game_id": "1014",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1014",
+        "field": "name",
+        "text_id": 4030,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       4030
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "青鸾巽羽",
+       "月渊龙女",
+       "王国猎手"
+      ]
+     }
+    },
+    "狂猎之腰": {
+     "reason": "game_only",
+     "game_id": "1023",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1023",
+        "field": "name",
+        "text_id": 54203,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       54203
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽",
+       "月渊龙女"
+      ]
+     }
+    },
+    "沧澜天剑": {
+     "reason": "game_only",
+     "game_id": "90387",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90387",
+        "field": "name",
+        "text_id": 89458,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       89458
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    },
+    "牛皮护手": {
+     "reason": "game_only",
+     "game_id": "3006",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3006",
+        "field": "name",
+        "text_id": 4061,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       4061
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "分解装备",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "1000级",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "雷光庇护",
+    "项链": "黑色汪洋",
+    "卡牌": "灵龙契约",
+    "耳坠": "辉耀之环",
+    "衣服": "黑金护甲",
+    "戒指": "穿魂夺魄秘戒",
+    "腰带": "聚灵腰带",
+    "圣物": "穿魂夺魄秘杯",
+    "裤子": "质化织裤",
+    "徽章": "穿魂夺魄秘徽",
+    "鞋子": "宗室礼靴",
+    "副手": "穿魂夺魄秘盾",
+    "武器": "血隐长刃",
+    "护手": "辉耀炙芒星手"
+   },
+   "alternatives": {
+    "项链": [
+     "辉耀之链"
+    ],
+    "衣服": [
+     "绝对冰霜"
+    ],
+    "戒指": [
+     "瑶星神佑圣戒"
+    ],
+    "圣物": [
+     "瑶星神佑圣钥"
+    ],
+    "徽章": [
+     "瑶星神佑圣徽"
+    ],
+    "副手": [
+     "瑶星神佑圣盾"
+    ],
+    "武器": [
+     "混沌利刃"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": "沧澜天剑",
+   "item_ids": {
+    "雷光庇护": null,
+    "黑色汪洋": null,
+    "辉耀之链": "gear-134",
+    "灵龙契约": null,
+    "辉耀之环": "gear-138",
+    "黑金护甲": null,
+    "绝对冰霜": null,
+    "穿魂夺魄秘戒": "gear-1600",
+    "瑶星神佑圣戒": "gear-2083",
+    "聚灵腰带": null,
+    "穿魂夺魄秘杯": "gear-1599",
+    "瑶星神佑圣钥": "gear-2084",
+    "质化织裤": "gear-1858",
+    "穿魂夺魄秘徽": "gear-1598",
+    "瑶星神佑圣徽": "gear-2085",
+    "宗室礼靴": "gear-1282",
+    "穿魂夺魄秘盾": "gear-1597",
+    "瑶星神佑圣盾": "gear-2086",
+    "血隐长刃": "gear-2291",
+    "混沌利刃": "gear-2435",
+    "辉耀炙芒星手": "gear-1665",
+    "沧澜天剑": null
+   },
+   "unlinked": {
+    "雷光庇护": {
+     "reason": "game_only",
+     "game_id": "95053",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95053",
+        "field": "name",
+        "text_id": 85345,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       85345
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    },
+    "黑色汪洋": {
+     "reason": "game_only",
+     "game_id": "90324",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90324",
+        "field": "name",
+        "text_id": 69057,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       69057
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪",
+       "不熄曜日",
+       "绞刃流火",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "灵龙契约": {
+     "reason": "game_only",
+     "game_id": "95050",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95050",
+        "field": "name",
+        "text_id": 85342,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       85342
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    },
+    "黑金护甲": {
+     "reason": "game_only",
+     "game_id": "95012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95012",
+        "field": "name",
+        "text_id": 82498,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       82498
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "青鸾巽羽",
+       "千宵月守",
+       "月渊龙女"
+      ]
+     }
+    },
+    "绝对冰霜": {
+     "reason": "game_only",
+     "game_id": "95010",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95010",
+        "field": "name",
+        "text_id": 82494,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       82494
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "千宵月守",
+       "月渊龙女"
+      ]
+     }
+    },
+    "聚灵腰带": {
+     "reason": "game_only",
+     "game_id": "95028",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95028",
+        "field": "name",
+        "text_id": 82530,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       82530
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    },
+    "沧澜天剑": {
+     "reason": "game_only",
+     "game_id": "90387",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90387",
+        "field": "name",
+        "text_id": 89458,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       89458
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "雷灭之刃",
+    "id": "rune-1425",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "盎然",
+    "id": "rune-1422",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "腐朽者",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "怒法",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "万象余烬",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "断钢",
+    "id": "rune-1997",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "铁棘",
+    "id": "rune-1420",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "怒兽",
+    "id": "black_stone-03",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "诅咒灵",
+    "id": "black_stone-14",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "剑元的存储上限+200，且月渊龙女对首领怪物造成的伤害提升35%。"
+   },
+   {
+    "rank": 2,
+    "text": "释放【飞星惊梦】时获得的剑元+4。"
+   },
+   {
+    "rank": 3,
+    "text": "【曦光归甲】可以叠加的层数+2。"
+   },
+   {
+    "rank": 4,
+    "text": "【剑落九霄】造成的伤害将穿透目标10%的全伤害减免，当自身感知高于目标时，每超出10点，将增加1%的减免穿透。"
+   },
+   {
+    "rank": 5,
+    "text": "当月渊龙女生命值为100%使，造成的所有伤害必定暴击。"
+   },
+   {
+    "rank": 6,
+    "text": "月渊龙女造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "初芒",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "暴击倍率+20.00%"
+   },
+   {
+    "index": 2,
+    "name": "启明",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "初始怒气+300"
+   },
+   {
+    "index": 3,
+    "name": "凝辉",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【剑落九霄】释放时，如果剑元数量大于等于100，消耗掉的每1点剑元都会增加1%主剑和辅剑造成的伤害。"
+   },
+   {
+    "index": 4,
+    "name": "炽华",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "感知+30"
+   },
+   {
+    "index": 5,
+    "name": "逐光",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "怒气回复+30"
+   },
+   {
+    "index": 6,
+    "name": "明辰",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "源力每秒恢复+5"
+   },
+   {
+    "index": 7,
+    "name": "月白",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【飞星惊梦】每隔1秒自动释放一次，且当自身感知超过180时，每额外拥有40点感知，都将为【飞星惊梦】额外增加一名攻击目标。"
+   },
+   {
+    "index": 8,
+    "name": "晴晖",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+   },
+   {
+    "index": 9,
+    "name": "灼日",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "物理伤害减免+5.00%；法术伤害减免+5.00%"
+   },
+   {
+    "index": 10,
+    "name": "神耀",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "当前队伍除了自身外还有其他存活黑卫(且其不处于无敌状态)时，自己将持续保持无敌状态。"
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "圣血晶石",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "黑潮勋章",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": "神龙之吟",
+   "id": "relic-2395"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%9C%88%E6%B8%8A%E9%BE%99%E5%A5%B3",
+ "revid": 9143,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9143",
+ "rev_timestamp": "2026-08-13T09:00:43Z"
+}

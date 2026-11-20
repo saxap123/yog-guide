@@ -1,0 +1,153 @@
+{
+  "subject": "圣战辉牌",
+  "group": "gear",
+  "page_revid": 4527,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E6%88%98%E8%BE%89%E7%89%8C",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%9C%A3%E6%88%98%E8%BE%89%E7%89%8C&format=json",
+  "fetched_at": "2026-11-20T16:15:26+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "圣战辉牌#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/6/7/46/16/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/1/9/18/50/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "圣战辉牌"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、2%全伤害类型增幅、2%全伤害类型减免、5精神精通、5法术精通、5物理精通、50幸运、3%基础复活率、5法术豁免、5精神豁免、5物理豁免"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "7物理豁免、7法术豁免、7精神豁免、17532魔力、17532魔力、17532力量、17532力量、60幸运、60幸运、43%暴击伤害减免、43%暴击伤害减免、7物理精通、7法术精通"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532魔力、17532魔力、1753力量、1753力量、60幸运、60幸运、43%暴击伤害减免、43%暴击伤害减免、0.25吸血抗性"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可嵌入"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "追忆之帆-黑渊"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "圣战辉牌"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "当队伍的辅助阵线达到6/9/11级时，属于自身的召唤物最大生命值将提升50%6/100%/200%。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "卡牌"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

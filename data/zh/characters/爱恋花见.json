@@ -1,0 +1,974 @@
+{
+ "id": "char-2166",
+ "name": "爱恋花见",
+ "page_title": "爱恋花见",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "芙蕾雅",
+  "gender": "女",
+  "race": "神使",
+  "birthday": "2月28日",
+  "birthplace": "艾伦庄园",
+  "height_weight": "166cm/52kg",
+  "specialties": [
+   "和植物沟通",
+   "种植栽培"
+  ],
+  "likes": [
+   "荡秋千",
+   "玩具",
+   "植物",
+   "游戏骰子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "枯萎",
+   "暴力",
+   "死气沉沉"
+  ],
+  "release_date": "2025年10月30日"
+ },
+ "element": "光明",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "辅助",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "妖精",
+    "id": "faction-2208"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "CD减少",
+   "怒气恢复",
+   "怒气"
+  ],
+  "secondary": [
+   "体质",
+   "最大生命值",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": "回怒、增伤、开大救人",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "圣洁裁决",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对最近的1名敌人造成1000%物理强度的神圣伤害每次释放时，使自身恢复6点怒气值。(本技能的释放速度会受攻速影响，造成的伤害视为技能伤害。)",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "1000%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "光阴回还",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "暂停场上的时间，暂停结束时，使绑定队友的生命值、护盾值、怒气值、技能冷却等属性回溯到战斗开始时(绑定队友死亡时也可进行回湖，战斗开始时，队伍中只有爱恋花见一名黑卫，则该技能不会释放)同时对所有场上的敌人造成10000%物理强度的神圣伤害。爱恋花见无法通过任何其他手段恢复怒气，也不会受怒气削减效果影响，仅能通过自身的技能来恢复怒气值。",
+   "scaling": [
+    {
+     "percent": "10000%",
+     "values": [
+      10000.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "10000%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "万物复苏",
+   "cooldown_s": 10,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "使绑定的队友恢复250点怒气值，每次释放时，使自身恢复30点怒气值。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "时停回响",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【圣洁裁决】每攻击10次，会给当前目标添加一枚时光炸弹，时光炸弹延迟5秒后爆炸，造成7500%物理强度的神圣伤害。每次触发时，恢复自身20怒气值。",
+   "scaling": [
+    {
+     "percent": "7500%",
+     "values": [
+      7500.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "7500%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "爱语心愿",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "爱恋花见在场时，所有己方黑卫造成的必杀技伤害提升15%，光明属性的黑卫受到的加成翻倍。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "囚心禁时",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受【时停回响】被添加时光炸弹的目标被重复添加时光炸弹或时光炸弹被驱散时，原先的时光炸弹会立刻爆炸，并且使这次爆炸的伤害提升100%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "时光协奏",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "绑定的黑卫释放必杀技时，也使爱恋花见对附近的1名敌人释放时光炸弹，炸弹造成伤害为原先的100%每次触发时，恢复自身20怒气值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "振奋鼓舞战友，所有友方单位初始怒气增加25点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "能够轻松快速的释放法术，主动技能冷却时间降低10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延迟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "法术强度提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "＜3血阶",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "for blood rank below 3",
+   "slots": {
+    "头盔": "祭仪羽冠",
+    "项链": "指路吊坠",
+    "卡牌": "任意太古装备",
+    "耳坠": "辉耀之环",
+    "衣服": "聚能之铠",
+    "戒指": null,
+    "腰带": "苍狼骑士带",
+    "圣物": "漆黑十字",
+    "裤子": "魔弦护腿",
+    "徽章": "魔涌之徽",
+    "鞋子": "智者足具",
+    "副手": "古老魔盾",
+    "武器": "月辉·凝辉",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "头盔": [
+     "月辉·精英射手"
+    ],
+    "耳坠": [
+     "逆厄辉环"
+    ],
+    "衣服": [
+     "深渊壁垒"
+    ],
+    "腰带": [
+     "托尔之冥思"
+    ],
+    "圣物": [
+     "月辉·紫晶鸦首"
+    ],
+    "副手": [
+     "源辉石盾"
+    ],
+    "护手": [
+     "祭礼手套"
+    ]
+   },
+   "extracts": {
+    "裤子": "元素大师之裤"
+   },
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "月辉·精英射手": "gear-1080",
+    "指路吊坠": "gear-1081",
+    "任意太古装备": null,
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "聚能之铠": "gear-1170",
+    "深渊壁垒": "gear-1082",
+    "苍狼骑士带": null,
+    "托尔之冥思": "gear-1712",
+    "漆黑十字": "gear-1187",
+    "月辉·紫晶鸦首": "gear-1173",
+    "魔弦护腿": null,
+    "魔涌之徽": "gear-1176",
+    "智者足具": null,
+    "古老魔盾": null,
+    "源辉石盾": "gear-2353",
+    "月辉·凝辉": null,
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627",
+    "元素大师之裤": "gear-1174"
+   },
+   "unlinked": {
+    "任意太古装备": {
+     "reason": "not_an_item",
+     "game_id": null,
+     "possible_match": null,
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "霓裳若仙",
+       "爱恋花见",
+       "千宵月守"
+      ]
+     }
+    },
+    "苍狼骑士带": {
+     "reason": "game_only",
+     "game_id": "95057",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95057",
+        "field": "name",
+        "text_id": 85347,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       85347
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "爱恋花见"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "古老魔盾": {
+     "reason": "game_only",
+     "game_id": "5020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5020",
+        "field": "name",
+        "text_id": 53826,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53826
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "忘却迷境攻略",
+       "冷却装备"
+      ]
+     }
+    },
+    "月辉·凝辉": {
+     "reason": "game_only",
+     "game_id": "10092",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10092",
+        "field": "name",
+        "text_id": 3800,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3800
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "玉面九尾",
+       "爱恋花见",
+       "冷却装备",
+       "迷迭妖精"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "≥3血阶",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "for blood rank 3 or higher",
+   "slots": {
+    "头盔": "祭仪羽冠",
+    "项链": "指路吊坠",
+    "卡牌": null,
+    "耳坠": "辉耀之环",
+    "衣服": "聚能之铠",
+    "戒指": "穿魂夺魄秘戒",
+    "腰带": "苍狼骑士带",
+    "圣物": "漆黑十字",
+    "裤子": "魔弦护腿",
+    "徽章": "魔涌之徽",
+    "鞋子": "智者足具",
+    "副手": "穿魂夺魄秘盾",
+    "武器": "月辉·凝辉",
+    "护手": "祭礼手套"
+   },
+   "alternatives": {
+    "头盔": [
+     "月辉·精英射手"
+    ],
+    "耳坠": [
+     "逆厄辉环"
+    ],
+    "衣服": [
+     "深渊壁垒"
+    ],
+    "腰带": [
+     "托尔之冥思"
+    ],
+    "圣物": [
+     "月辉·紫晶鸦首"
+    ],
+    "徽章": [
+     "穿魂夺魄秘徽"
+    ],
+    "护手": [
+     "妖精秘手"
+    ]
+   },
+   "extracts": {
+    "裤子": "元素大师之裤"
+   },
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "月辉·精英射手": "gear-1080",
+    "指路吊坠": "gear-1081",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "聚能之铠": "gear-1170",
+    "深渊壁垒": "gear-1082",
+    "穿魂夺魄秘戒": "gear-1600",
+    "苍狼骑士带": null,
+    "托尔之冥思": "gear-1712",
+    "漆黑十字": "gear-1187",
+    "月辉·紫晶鸦首": "gear-1173",
+    "魔弦护腿": null,
+    "魔涌之徽": "gear-1176",
+    "穿魂夺魄秘徽": "gear-1598",
+    "智者足具": null,
+    "穿魂夺魄秘盾": "gear-1597",
+    "月辉·凝辉": null,
+    "祭礼手套": "gear-1627",
+    "妖精秘手": "gear-1179",
+    "元素大师之裤": "gear-1174"
+   },
+   "unlinked": {
+    "苍狼骑士带": {
+     "reason": "game_only",
+     "game_id": "95057",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95057",
+        "field": "name",
+        "text_id": 85347,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       85347
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "爱恋花见"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "月辉·凝辉": {
+     "reason": "game_only",
+     "game_id": "10092",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10092",
+        "field": "name",
+        "text_id": 3800,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3800
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "玉面九尾",
+       "爱恋花见",
+       "冷却装备",
+       "迷迭妖精"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "恐熊",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "怒兽",
+    "id": "black_stone-03",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "受到【光阴回还】影响的目标，在30秒内造成的伤害提升30%，如果目标是光明属性黑卫，该效果翻倍。"
+   },
+   {
+    "rank": 2,
+    "text": "【时光协奏】触发时释放的时光炸弹会额外选择1名目标进行释放(不会选择同一名敌人连续释放2次)。"
+   },
+   {
+    "rank": 3,
+    "text": "爱恋花见每有1点怒气恢复，都会使【万物复苏】提供的队友的怒气恢复值增加2点。"
+   },
+   {
+    "rank": 4,
+    "text": "时光炸弹爆炸后，对目标及其附近的敌人时间迟缓，持续4秒。迟缓：迟缓状态下的角色，攻击速度减半。"
+   },
+   {
+    "rank": 5,
+    "text": "场上每有一个处于迟缓状态的敌人，都会使爱恋花见每秒恢复1%最大生命值。(计数的敌人数量最多不会超过10)"
+   },
+   {
+    "rank": 6,
+    "text": "爱恋花见造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": "3血12神格PVE充能\n3血19神格PVE增伤\n6血30神格PVP"
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "初芒",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "技能冷却+10.00%"
+   },
+   {
+    "index": 2,
+    "name": "启明",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "攻击速度+50.00%"
+   },
+   {
+    "index": 3,
+    "name": "凝辉",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "以任何形式释放时光炸弹时，都有10%几率额外释放一次。"
+   },
+   {
+    "index": 4,
+    "name": "炽华",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "怒气回复+15"
+   },
+   {
+    "index": 5,
+    "name": "逐光",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "【万物复苏】会额外选择一名队伍中当前怒气值最低的黑卫释放，效果为原技能效果的100%。"
+   },
+   {
+    "index": 6,
+    "name": "明辰",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "复活+15.00 %"
+   },
+   {
+    "index": 7,
+    "name": "月白",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【爱语心愿】的增幅效果增加10%。"
+   },
+   {
+    "index": 8,
+    "name": "晴晖",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+   },
+   {
+    "index": 9,
+    "name": "灼日",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "物理伤害减免+5.00%；法术伤害减免+5.00%"
+   },
+   {
+    "index": 10,
+    "name": "神耀",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "爱恋花见受到伤害时，有30%几率抹消掉当前受到伤害的事实，完全规避该次伤害，并移除自身受到的昏迷、冰冻、魅惑、混乱、沉默状态。"
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "圣血晶石",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "黑潮勋章",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": "和光同暖",
+   "id": "relic-2171"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%88%B1%E6%81%8B%E8%8A%B1%E8%A7%81",
+ "revid": 9125,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9125",
+ "rev_timestamp": "2026-08-11T03:11:53Z"
+}

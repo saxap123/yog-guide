@@ -1,0 +1,569 @@
+{
+ "id": "char-293",
+ "name": "黑衫刃影",
+ "page_title": "黑衫刃影",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "上官影",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "6月1日",
+  "birthplace": "九域国",
+  "height_weight": "173cm/57kg",
+  "specialties": [
+   "饮酒",
+   "吟诗",
+   "刀技"
+  ],
+  "likes": [
+   "好喝的酒",
+   "睡午觉",
+   "山水画",
+   "伯戈涅葡萄酒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "豆腐",
+   "红茶",
+   "小人"
+  ],
+  "release_date": "2024年01月31日"
+ },
+ "element": "闪电",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "前锋",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "回能",
+    "id": "faction-2215"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   },
+   {
+    "name": "雷暴",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "技能暴击",
+   "CD减少",
+   "闪电穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "闪电伤害增幅"
+  ],
+  "secondary": [
+   "怒气回复",
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "雷闪",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "快速释放3次连续斩击，每次斩击对前方小范围敌人造成250%法术强度的闪电伤害（视为技能伤害，且不会受攻速和技能冷却的影响）；如果习得【刀意】，则每一次斩击分别获得1/2/3点刀意值。",
+   "scaling": [
+    {
+     "percent": "250%",
+     "values": [
+      250.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "250%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "雷龙莲华",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "朝目标挥出凝聚强烈雷电之力的斩击，对目标及其周围6米范围内的敌人造成2次1000%法术强度的闪电伤害。（释放过程中免疫击晕和冰冻）",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "1000%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "惊雷影袭",
+   "cooldown_s": 4.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "快速的朝前方突进，对路径上的敌人造成2次800%法术强度的闪电伤害，并对受到伤害的目标叠加3层感电；（释放过程中免疫击晕和冰冻）如果习得【刀意】，则释放时获得30点刀意值。",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "800%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "刀意",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "黑衫刃影拥有上限为100点的刀意，释放【雷闪】和【惊雷影袭】时，可以获得刀意值。释放【雷龙莲华】时，拥有的每1点刀意值都会增加【雷龙莲华】7.5%的伤害，并清空所有的刀意值。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "龙刃纳销",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "释放【惊雷影袭】后，获得1层锐意，锐意最多叠加3层。释放【雷龙莲华】时，每层锐意都会增加【雷龙莲华】50%的伤害，并清空所有锐意层数。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "雷霆万钧",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "被【惊雷影袭】命中的目标，如果处于感电状态，则受到的伤害额外提升150%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "大巧不工",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "黑衫刃影的技能暴击几率+30",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "孤军深入",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "刽子手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对受伤的敌人进行毫不留情的处决，对生命值低于15%的目标造成伤害提高20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "狂战士之怒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "咒石项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猩红秘戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "元素大师之裤",
+    "徽章": "咒法徽印",
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "诛恶斩邪",
+    "护手": "深渊之握"
+   },
+   "alternatives": {
+    "腰带": [
+     "王室荣尊"
+    ],
+    "徽章": [
+     "魔涌之徽"
+    ],
+    "护手": [
+     "妖精秘手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "王室荣尊": "gear-1172",
+    "月辉·紫晶鸦首": "gear-1173",
+    "元素大师之裤": "gear-1174",
+    "咒法徽印": "gear-1175",
+    "魔涌之徽": "gear-1176",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "诛恶斩邪": "gear-1609",
+    "深渊之握": "gear-1192",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "祭仪羽冠",
+    "项链": "辉耀之链",
+    "卡牌": "精魄魔牌",
+    "耳坠": "辉耀之环",
+    "衣服": "法球咒铠",
+    "戒指": "霆霓猩红血戒",
+    "腰带": "感电者",
+    "圣物": "霆霓猩红血玺",
+    "裤子": "奏雷鸣裤",
+    "徽章": "霆霓猩红血印",
+    "鞋子": "宗室礼靴",
+    "副手": "霆霓猩红血盾",
+    "武器": "侠影剑心",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "项链": [
+     "逆厄辉链"
+    ],
+    "卡牌": [
+     "龙力魔牌"
+    ],
+    "耳坠": [
+     "逆厄辉环"
+    ],
+    "衣服": [
+     "雷咒长袍"
+    ],
+    "护手": [
+     "妖精秘手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "精魄魔牌": "gear-1291",
+    "龙力魔牌": "gear-1691",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "法球咒铠": "gear-1686",
+    "雷咒长袍": "gear-1687",
+    "霆霓猩红血戒": "gear-188",
+    "感电者": "gear-1690",
+    "霆霓猩红血玺": "gear-176",
+    "奏雷鸣裤": "gear-1860",
+    "霆霓猩红血印": "gear-145",
+    "宗室礼靴": "gear-1282",
+    "霆霓猩红血盾": "gear-164",
+    "侠影剑心": "gear-1567",
+    "幽冥初水": null,
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "腐朽者",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "不灭",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "雷纹",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "在此感谢 观海大佬（水金861）提供符文图"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "闪鸣鸟",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "每秒获取6点刀意值。"
+   },
+   {
+    "rank": 2,
+    "text": "刀意值上限+50，刀意值获取效率+50%。"
+   },
+   {
+    "rank": 3,
+    "text": "【惊雷影袭】造成的伤害提升100%；每点刀意值增加的伤害从7.5%提升至10%。"
+   },
+   {
+    "rank": 4,
+    "text": "黑衫刃影对敌人造成致命伤害时，敌人将无法触发复活效果。"
+   },
+   {
+    "rank": 5,
+    "text": "【惊雷影袭】命中敌人时，100%对被命中的敌方单位释放驱散（该效果不会触发敌方单位的增益效果，如：法球咒铠），并麻痹其1秒。"
+   },
+   {
+    "rank": 6,
+    "text": "黑衫刃影造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": "1阶可用，3阶伤害拉满，45阶pvp"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "青锋斩妖",
+   "id": "relic-1964"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "前锋战格",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": null,
+   "answers": [
+    "×我不太信这个……",
+    "✓给我多画几张。"
+   ]
+  },
+  {
+   "level": 5,
+   "question": null,
+   "answers": [
+    "✓做个酒酿圆子。",
+    "×做个麻婆豆腐。"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "立绘2",
+  "立绘3",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "5Q",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E8%A1%AB%E5%88%83%E5%BD%B1",
+ "revid": 9189,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9189",
+ "rev_timestamp": "2026-09-21T07:19:45Z"
+}

@@ -1,0 +1,175 @@
+{
+  "subject": "抵抗勋章",
+  "group": "gear",
+  "page_revid": 8469,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%8A%B5%E6%8A%97%E5%8B%8B%E7%AB%A0",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%8A%B5%E6%8A%97%E5%8B%8B%E7%AB%A0&format=json",
+  "fetched_at": "2026-11-20T16:16:56+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "抵抗勋章#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/23/7/43/17/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            },
+            {
+              "type": 9,
+              "item": "在模板调用中使用重复参数的页面#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/1/8/3/29/36/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "抵抗勋章"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9%最大护盾值、5%最大生命值、1500全属性、9%基础复活率、12%受到治疗效果"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "3.8%最大生命值、3.8%最大生命值、3.8%最大生命值、16.5%受到昏迷时间下降、16.5%受到冰冻时间减少、1008生命恢复、3.5%物理强度、3.5%法术强度、31物理抗性、31火焰抗性、31闪电抗性、31冰霜抗性、31混沌抗性、7%全伤害类型增幅、8.5%全伤害类型增幅"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "3.8%最大生命值、9%物理伤害增幅、9%冰霜伤害增幅、9%闪电伤害增幅、9%火焰伤害增幅、9%混沌伤害增幅、37%暴击倍率、9%最大护盾值、4%物理伤害增幅、4%物理伤害增幅、4%法术伤害增幅、4%法术伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可嵌入"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "350"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "主线-普通难度、主线-困难难度、迷雾山脉、永冬之地、勇者试炼、忘却迷境、忘却迷境-凛风雪原精英、忘却迷境-至冬宫殿精英、忘却迷境-封印深处精英"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "抵抗勋章"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "守护英雄装备时，受到的非物理伤害降低20%；守护英雄装备时，受到的治疗效果增加15%"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "徽章"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

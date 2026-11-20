@@ -1,0 +1,273 @@
+{
+ "id": "char-302",
+ "name": "御刃神锋",
+ "page_title": "御刃神锋",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "诺戴尔",
+  "gender": "女",
+  "race": null,
+  "birthday": "5月6日",
+  "birthplace": "圣城",
+  "height_weight": "168cm/46kg",
+  "specialties": [
+   "速读",
+   "侦破",
+   "唇语"
+  ],
+  "likes": [
+   "怀表",
+   "骑士文学",
+   "整洁的环境",
+   "守时怀表（羁绊礼物）"
+  ],
+  "dislikes": [
+   "语多的人",
+   "玩笑",
+   "逃兵"
+  ],
+  "release_date": "2023年06月07日"
+ },
+ "element": "冰霜",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "前锋",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "诡影",
+    "id": "faction-2198"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "回馈",
+    "id": "faction-2196"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对近战范围内的1名敌人造成100%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "100%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "刀锋乱舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "在空中快速穿梭，在2秒内对周围6米范围内的所有敌人施加12次攻击，每次攻击造成75%法术强度的冰霜伤害，弱小的敌人将持续被击飞，过程中自身处于无敌状态。",
+   "scaling": [
+    {
+     "percent": "75%",
+     "values": [
+      75.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "75%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "秩序冲锋",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "快速的朝敌方冲刺2次，对经过的敌人造成125%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "125%",
+     "values": [
+      125.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "125%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "宪兵惩戒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "御刃神锋的技能暴击率+10%，场上每多1个友方单位，技能暴击率+3%，增加的技能暴击几率最多不会超过30%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "公正庇护",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "御刃神锋在场时，会使所有友方黑卫每3秒回复御刃神锋200%法术强度的护盾值。",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "法术强度",
+     "effect": "护盾",
+     "text": "200%法术强度的护盾"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "三相之力",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "友方单位每添加一种元素异常状态(冰缓、点燃、感电)，御刃神锋将获得1层【三相之力】(重复添加同一种异常状态只会添加1层)，最多3层，持续5秒每层【三相之力】增加御刃神锋16%的伤害。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "骑士荣耀",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "三相之力的持续时间增加100%，刀锋乱舞和秩序冲锋的伤害额外增加400%。所有友方召唤物伤害增加5%，御刃神锋每点法术精通使友方召唤物伤害额外增加0.1%，最高不会超过15%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "孤军深入",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "刽子手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对受伤的敌人进行毫不留情的处决，对生命值低于15%的目标造成伤害提高20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "狂战士之怒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "维宪徽章",
+   "id": "relic-2158"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%BE%A1%E5%88%83%E7%A5%9E%E9%94%8B",
+ "revid": 8652,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8652",
+ "rev_timestamp": "2026-02-08T04:39:25Z"
+}

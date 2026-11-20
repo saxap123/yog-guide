@@ -1,0 +1,685 @@
+{
+ "id": "char-289",
+ "name": "Salvia Fairy",
+ "page_title": "迷迭妖精",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Cacau",
+  "gender": "Female",
+  "race": "Fairies",
+  "birthday": "--02-01",
+  "birthplace": "the dream world of fairies",
+  "height_weight": "60cm (including antennae)/8kg",
+  "specialties": [
+   "\"Enforcing justice\"",
+   "Animal Communication"
+  ],
+  "likes": [
+   "Ornate Music Box",
+   "kitties",
+   "seedlings",
+   "rose bouquet (bond gift)"
+  ],
+  "dislikes": [
+   "rainy days",
+   "Lie...?",
+   "boring times"
+  ],
+  "release_date": "2023-06-28"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Max HP",
+   "Constitution",
+   "CD Reduction",
+   "Rage",
+   "Rage Restore"
+  ],
+  "secondary": [
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "PVE: focus on CD to regen teammates' Rage; PVP: focus on own Rage regen to cast the ultimate for control and healing",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 2,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Casts a slow-flying fireball that tracks enemies and explodes on hitting a target, dealing 360% Spell Power as Fire DMG; this damage counts as Skill DMG, and the skill is not affected by Attack Speed or cooldown reduction effects.",
+   "scaling": [
+    {
+     "percent": "360%",
+     "values": [
+      360.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 360% of Spell Power"
+    }
+   ],
+   "name_zh": "飞星"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Shooting Star",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Salvia Fairy fires a mysterious light bullet, dealing Fire DMG equal to 2500% of Spell Power to 1 random enemy target, and casts Polymorph on it, lasting 2 seconds.",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 2500% of Spell Power"
+    }
+   ],
+   "name_zh": "贯穿之星"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Warming Sunshine",
+   "cooldown_s": 10,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Salvia Fairy charges a selected allied Blackguard, restoring its Rage; the amount restored is the total number of allied units on the field * 100. (Never more than 1000)",
+   "scaling": [],
+   "name_zh": "振翅暖阳"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Nostalgia of Flame",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Cacau summons an Spark to follow an allied Blackguard, reduces target's Skill Cooldown by 10%, and increases target's Skill Crit Chance by 10%.",
+   "scaling": [],
+   "name_zh": "眷恋之炎"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When an ally is critically hit or near death, Salvia Fairy immediately heals them for 12% of the target's Max HP (minimum interval: 1 sec)",
+   "scaling": [],
+   "name_zh": "赤枕之心"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Fireball Reload",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Fireball released by Spunky Star +1, and increases the Damage Dealt by 25%.",
+   "scaling": [],
+   "name_zh": "火球再装填"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Twice Twinkle",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Light Ball released by Shooting Star +1, and increases the Damage Dealt by 20%.",
+   "scaling": [],
+   "name_zh": "流星再临"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Lv 450 CD style",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": "CD style",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Bullseye",
+    "Necklace": "Spiral Guide",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Abyssal Bastion",
+    "Ring": "Solar Commandment",
+    "Belt": "Girdle of Light",
+    "Relic": "Nox Cross",
+    "Trousers": "Elementalist's Britches",
+    "Emblem": "Runes of the Surge",
+    "Shoes": "Sandals of the Sages",
+    "Off-hand": "Ancient Arcanist's Barrier",
+    "Weapon": "Moonlight · Soluna",
+    "Handguard": "Embroidered Sacrificial Gloves"
+   },
+   "alternatives": {
+    "Relic": [
+     "Primordial Blood"
+    ],
+    "Off-hand": [
+     "Onyx Guard"
+    ],
+    "Handguard": [
+     "Sprite's Spite"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·精英射手": "gear-1080",
+    "指路吊坠": "gear-1081",
+    "深渊壁垒": "gear-1082",
+    "阳炎之指": "gear-1083",
+    "沐光环绕": "gear-1199",
+    "漆黑十字": "gear-1187",
+    "始祖之血": "gear-1604",
+    "元素大师之裤": "gear-1174",
+    "魔涌之徽": "gear-1176",
+    "智者足具": "gear-game-15016",
+    "古老魔盾": "gear-game-5020",
+    "源辉石盾": "gear-2353",
+    "月辉·凝辉": "gear-game-10092",
+    "祭礼手套": "gear-1627",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "古老魔盾": {
+     "reason": "game_only",
+     "game_id": "5020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5020",
+        "field": "name",
+        "text_id": 53826,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53826
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "忘却迷境攻略",
+       "冷却装备"
+      ]
+     }
+    },
+    "月辉·凝辉": {
+     "reason": "game_only",
+     "game_id": "10092",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10092",
+        "field": "name",
+        "text_id": 3800,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3800
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "玉面九尾",
+       "爱恋花见",
+       "冷却装备",
+       "迷迭妖精"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Strong Rock",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "+1 Fireball released by [Spunky Star]."
+   },
+   {
+    "rank": 2,
+    "text": "+1 Light Ball released by [Shooting Star]."
+   },
+   {
+    "rank": 3,
+    "text": "+50% Effect of [Nostalgia of Flame]"
+   },
+   {
+    "rank": 4,
+    "text": "+1 Healing Target of [Cordial Heart]"
+   },
+   {
+    "rank": 5,
+    "text": "Reduce cooldown time of [Warming Sunshine] by 1 second."
+   },
+   {
+    "rank": 6,
+    "text": "+10% All DMG Dealt by Cacau"
+   }
+  ],
+  "recommendation": "The only SP that can be pulled with diamonds; just max it gradually through the monthly gacha events. A charging device for the ice dragon [Ice Dragon]"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Wings of Passion",
+   "id": "relic-1955"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "“我，我是来带拉拉克回去的！”\n可可米和黑卫学院众人初次见面，就直截了当宣布了自己来到亚克兰斯的原因。\n同为纵火妖精，尽管可可米并不是像拉拉克一样抗拒自己的纵火天性，她在族群中也算是异类--与其他的纵火妖精相比，她多了一份与生俱来的正义之心。\n因为这份正义之心，她认为族群的大家排挤拉拉克是错误的。\n因为这份正义之心，她认为拉拉克擅自离群也是错误的。\n因为这份正义之心，她认为大家和拉拉克都应当受到惩罚---但是在这之前，她得先把拉拉克带回去。\n被这份与生俱来的正义感驱使，可可米踏上了寻找拉拉克的道路，她收拾行囊动身的那天，整个纵火妖精族群都松了一口气。\n在偌大的世界里寻找一只离群的妖精，就像是在花田里寻找一粒花粉。可可米的旅途非常匆忙，她无心欣赏花团锦簇与枝繁叶茂，也无心感受四季交替与晦明变化。\n靠着向各种动物打听拉拉克的下落，可可米一路赶到了亚克兰斯，却听到了一个意外的答案。\n“但是，我不想回去……”早已将黑卫学院当作家的拉拉克，怯生生拒绝了可可米的盛情邀请。\n完全没有预料到这样的可能性，一根筋的可可米第一反应是：那我也要留在这里。\n正义感驱动的小妖精思考回路就像她的行动一样横冲直撞，在可可米看来，不能把拉拉克带回族群就是没有完成自己的“正义任务”，所以她要留在黑卫学院劝说拉拉克，直到她愿意和自己一起回去。\n听闻又来了一只纵火妖精，克蕾蒂安娜院长敏锐捕捉到可可米言行中对“正义”的执念，她巧妙地将黑卫的任务描述为“维系正义”，向可可米发出诚挚邀请，让执意留下的她暂时加人了黑卫学院。",
+  "deeds": [
+   "可可米，正义执行中！\n集市上有小偷？请交给可可米！\n小猫咪在高处下不来?请交给可可米！\n后厨的燃料不足？请交给可可米！\n上至外出完成黑卫任务，下至帮助被抢食的猫咪夺回它的小鱼干，可可米的“正义执行”活动无时无刻不在进行中。\n不得不承认她是个热心肠，在她看来是“正义”的行为，她都会去执行。\n哪怕有时她所忙活的“正义”看起来就像是小孩子过家家。",
+   "可可米，拉拉克追踪中！\n刚刚来到黑卫学院的可可米，没什么外出任务，也没什么课程，每天有的是大把的闲暇时间，于是--\n拉拉克去食堂吃饭，可可米端着餐盘跟在她身后。\n拉拉克去教室上课，可可米贴在窗户上观察她。\n拉拉克外出执行黑卫任务，可可米……可可米：“那，我也去。”\n乖巧的拉拉克面对牛皮糖一样的可可米困扰万分，直到次外出任务，萨瑟兰终于找到了机会教导可可米：“你看可可米，虽然劝说拉拉克回家是正义的任务，但是给她的日常生活造成困扰可就不能算是正义行为了，老师不能支持你这样做。如果是像外出执行任务这样的正义行为，老师百分百支持。”\n这番教导非常有效，最近可可米已经没有像跟踪狂一样尾随拉拉克了，只是萨瑟兰多了一份苦恼--只要一见到可可米，她就会说：“哈啰老师，要一起去执行正义吗？！！！",
+   "可可米，动物会话中！\n作为妖精，可可米有着极其优秀的动物会话能力。毕竟她可是靠着与动物们对话打听拉拉克的下落，一路追到了黑卫学院。\n她乐于倾听学院里猫咪们的诉求，多次帮助猫咪们夺回被野狗抢走的食物，再加上身为纵火妖精，身体比较暖和，深受猫咪喜爱。\n最近她在忙着给猫咪们召开“正义联盟大会”，试图向猫咪们传授她的正义观。\n正义联盟大会的成效如何、可可米的正义观有没有传达给猫咪们，这些都暂且未知。反正猫咪们听她絮絮叨叨讲述自己的正义观时，都睡得很香。",
+   "可可米，晴天娃娃量产中！\n可可米非常讨厌雨天，讨厌到了想要“驱逐”雨天的地步。\n一次她从露塔那里听说，极东地区会制作晴天娃娃来祈祷天晴，当天便借用手作室，连夜赶制了一大批晴天娃娃。\n第二天，这些晴天娃娃挂满了学院走廊，可惜适逢雨季连好几天也没能窥见太阳的尊容。\n大失所望的可可米像牛皮糖一样黏着露塔追问了好几天最终被露塔以“晴天娃娃只能增加天晴的概率啦！”为由糊弄过去。\n而现在每逢雨季，还是能看到可可米在手作室里量产晴天娃娃的场面。",
+   "可可米，园艺进修中！\n喜欢幼苗和花朵香气的可可米，也很喜欢待在花房里学习园艺。\n但身为妖精的可可米很不凑巧没有什么园艺天赋，她曾经以为只要温度足够种子就可以发芽，闹出过把种子烤熟的笑话。\n同为花房常客的安丽诺主动提出教她园艺，尽管这条教学之路就像是玫瑰树一样，虽有鲜花，亦有尖刺，打花盆浇水过多、修枝过度……诸如此类的常识性错误频发，安丽诺还是非常耐心地指导她培育花朵。\n不仅仅是因为自身温柔的好脾气，或许还因为，在指导可可米时，安丽诺看到了某位旧友的影子。",
+   "“针对可可米的行为逻辑进行一连串的分析后，我们建议不要对她说谎。”\n“我们不能忽视掉她身为纵火妖精的危险性。”\n芭芭拉曾经恶作剧欺骗可可米，说庆典焰火是专门由纵火妖精制作的。\n信以为真的可可米主动去帮忙，却因为自身的危险性而被请出了庆典准备地。\n在那之后长达半个月里，芭芭拉一出门，头顶的帽子就会当场自燃，有几次差点烧到她的头发。\n直到拉拉克出面解围，称芭芭拉也是误解了，她将会帮忙制作焰火理解成了所有的烟火都是专门由纵火妖精制作的，这才让可可米对芭芭拉的“火刑”得以结束。"
+  ]
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《动物会话》",
+   "answers": [
+    "×给猫咪帮腔（钻石）",
+    "√帮可可米解围（碎片）"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《被猫淹没》",
+   "answers": [
+    "？？？",
+    "？？？"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《离群的心情》",
+   "answers": [
+    "获得专属武器：星火灵杖"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E8%BF%B7%E8%BF%AD%E5%A6%96%E7%B2%BE",
+ "revid": 8610,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8610",
+ "rev_timestamp": "2026-02-08T04:06:03Z",
+ "i18n": {
+  "name_zh": "迷迭妖精",
+  "sources": {
+   "derived": 4,
+   "game_db": 15,
+   "glossary": 57,
+   "lore": 2,
+   "names": 45,
+   "translated": 19
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 60137,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 60139,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 60140,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 60111,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 60112,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 60113,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 60114,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 60115,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 60116,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "飞星",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[4].name",
+    "zh": "赤枕之心",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   },
+   {
+    "path": "blood_ranks.recommendation",
+    "zh": "冰龙",
+    "en": "Ice Dragon"
+   }
+  ]
+ }
+}

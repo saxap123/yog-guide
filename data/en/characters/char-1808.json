@@ -1,0 +1,311 @@
+{
+ "id": "char-1808",
+ "name": "Ominous Wraith",
+ "page_title": "不祥怨灵",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Nameless Soul",
+  "gender": "Unknown",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": null,
+  "dislikes": null,
+  "release_date": "2021-06-27"
+ },
+ "element": "Frost",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Guardian Front",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Bonechilling Snap",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Deals 300% Spell Power as Frost DMG to a single target and inflicts Freeze on it for (2+0.2*Spell Mastery) sec",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 300% of Spell Power"
+    }
+   ],
+   "name_zh": "寒彻入骨"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Cryo Curse",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 420% Spell Power as Frost DMG to a single target",
+   "scaling": [
+    {
+     "percent": "420%",
+     "values": [
+      420.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 420% of Spell Power"
+    }
+   ],
+   "name_zh": "冰冷诅咒"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Astral Plane",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Gains 50% Dodge (Skill); each skill dodge restores 1173 HP + HP equal to 350% of Spell Power.",
+   "scaling": [
+    {
+     "percent": "350%",
+     "values": [
+      350.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 350% of Spell Power"
+    }
+   ],
+   "name_zh": "灵界躯体"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Evasion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Gains 15% Dodge (Attack); each dodge restores 151 HP + HP equal to 200% of Spell Power.",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 200% of Spell Power"
+    }
+   ],
+   "name_zh": "回避强化"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Rime Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Units that hit Unclear Wraith are cursed by the wraith's frost breath: the attacker's Attack Speed is reduced by 40% for 5 seconds",
+   "scaling": [],
+   "name_zh": "寒冰护体"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Ominous Zealotry",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "6 sec after the battle starts, randomly inflicts Taunt on the nearest enemy unit within 6 m whose current target is not itself, and increases own Attack Speed by 100% for 10 sec",
+   "scaling": [],
+   "name_zh": "不详狂热"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Vitality",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 6%, Max shield increased by 6%",
+   "scaling": [],
+   "name_zh": "活力"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Evasion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Normal attack evasion chance increased by 15%",
+   "scaling": [],
+   "name_zh": "躲闪"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Intensive Care",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Healing effect received increased by 10%",
+   "scaling": [],
+   "name_zh": "加护"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%8D%E7%A5%A5%E6%80%A8%E7%81%B5",
+ "revid": 8666,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8666",
+ "rev_timestamp": "2026-02-08T04:50:59Z",
+ "i18n": {
+  "name_zh": "不祥怨灵",
+  "sources": {
+   "derived": 5,
+   "game_db": 4,
+   "glossary": 33,
+   "lore": 1,
+   "names": 16,
+   "translated": 6
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2961,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2970,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2992,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[5].description",
+    "zh": "不详怨灵",
+    "en": "Unclear Wraith"
+   }
+  ]
+ }
+}

@@ -1,0 +1,319 @@
+{
+ "id": "char-1805",
+ "name": "Crimson Scythe",
+ "page_title": "夺魂之镰",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Scarlett",
+  "gender": "Female",
+  "race": "Half Elf",
+  "birthday": "19 winds in winter",
+  "birthplace": null,
+  "height_weight": "167cm/49kg",
+  "specialties": [
+   "precise calculation",
+   "identifying sounds",
+   "playing the piano"
+  ],
+  "likes": [
+   "Book",
+   "walks",
+   "solitary surroundings"
+  ],
+  "dislikes": [
+   "crowds",
+   "noise",
+   "Lura"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Frost",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Call of the Scythe",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Scarlett teleports behind the enemy target farthest from her on the field and swings her scythe, dealing 400% Spell Power as Frost DMG to the current enemy target",
+   "scaling": [
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 400% of Spell Power"
+    }
+   ],
+   "name_zh": "镰刃突袭"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Flashfreeze Harvest",
+   "cooldown_s": 9,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Scarlett teleports behind a random enemy target within 10 m and swings her scythe, dealing 225% Spell Power as Frost DMG to the current enemy target",
+   "scaling": [
+    {
+     "percent": "225%",
+     "values": [
+      225.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 225% of Spell Power"
+    }
+   ],
+   "name_zh": "冰冷收割"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Reaper's Mirage",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Scarlett's HP falls below 20%, she teleports behind the enemy with the lowest HP, becomes Invincible for 2 sec and drops aggro",
+   "scaling": [],
+   "name_zh": "死神魅影"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Netherrealm's Shelter",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "After each teleport, Scarlett takes 20% less DMG for a while, lasting 5 sec",
+   "scaling": [],
+   "name_zh": "影之庇护"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Harvest Season",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Scarlett's initial rage increases by 500",
+   "scaling": [],
+   "name_zh": "开刃"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Speed Harvest",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Scarlett's skills have their cooldowns reduced by 20%",
+   "scaling": [],
+   "name_zh": "速镰"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "斯卡莉特出生在富裕的商人家庭，成长过程却算不上好，她的母亲早逝，父亲则是一个过于理性的族长，所有心思都放在了家族的兴盛上。从小，斯卡莉特得到奖励也好，被父亲责骂也罢，都只会默默地看着，不会哭闹，也不会笑，仿佛毫无情绪，像人偶般完成各种要求。而她那忙碌的父亲也从不在意，毕竟女儿这样也好，沉默，听话，说什么就做什么，容易控制，不用耗费太多精力在她身上，只需将她培养长大，换取一场充满价值利益的家族联姻就好。\n在斯卡莉特成为黑卫的半年前，家族收获意外之喜，她的二哥荣获宝剑骑士团爵位，但也必须遵循一个规定——骑士团成员的家族，每代都必须将一名子嗣送往修道院隐修，或者前往亚克兰斯守卫长城，以此表明家族对圣父的信仰。当时，家族内只剩继承家业的长子和斯卡莉特，老族长就只能让女儿去修道院，但意外的是，斯卡莉特最终选择前往亚克兰斯，希望投身前线。\n没有人知道为什么她会想去那么危险的地方，她也从没告诉任何人自己心里的想法。也许，那里能找到某种她失落已久的东西吧……",
+  "deeds": [
+   "商人不在乎圣书上的各类道德故事,他们的教育格外实用，连请来的家庭教师都是让斯卡莉特学习复杂的纹章学、以及隐藏在背后的贵族发家史。\n这让斯卡莉特早早看透了人情世故,甚至可以说过度早慧。见过的人越多，她就越喜欢书，也变得愈发沉默。",
+   "成为黑卫以后,沉默的斯卡莉特让很多人都对她非常疏远，她也从来不跟任何人交流。\n就连待人亲切的乌西洛蒂,也是在几十次并肩作战、足足小半年后，才在神恩节晚宴互赠礼物时，收到了斯卡莉特亲手谱写的钢琴谱，以及一句“谢谢”。\n“原来你会说话啊?!”乌西洛蒂当时惊讶到几近失声。",
+   "斯卡莉特以前总是独来独往,但不知道是从什么时候起,她经常与菲奇、维娜一起出现在食堂用餐。\n三个沉默的人坐在一起,彼此间从不交谈，只是埋头吃饭―—维娜是因为不善言语，菲奇是凡事无可奉告，而斯卡莉特…纯粹是觉得三人组的气场可以减少被人搭话的概率。",
+   "斯卡莉特并非纯种精灵，她的精灵血脉来自于母亲,这种血脉给她和她的兄弟姐妹们带来了漂亮的外貌，也使得他们家族的联姻格外成功，短短十几年就从商人世家成功攀上男爵之位。\n和那名精灵女子的婚姻，是她父亲做过的最划算的一笔生意。而现在,这位族长似乎在用美貌的女儿谋划一场更大的生意，据说是和某个上位继承人有关。",
+   "斯卡莉特的沉默并非冷血无情,虽然她认识不到内心的某些情感,但潜意识里依旧在受情感驱动，就像她自己也不知道为什么会选择来亚克兰斯,而不是在修道院平平安安。\n也许正是因为这种潜在的心理矛盾，斯卡莉特在与「渡鸦」的秘密会面中没有得到认可，亦未能成为一只告死鸟。",
+   "在圣血仪式上，斯卡莉特所饮下的圣血和其他人的不太一样，它在杯中散发着淡淡的金色光辉。\n斯卡莉特本以为每个人饮下的圣血都是如此，直到她成为黑卫很久后才无意得知，那是父亲花费了巨额代价，甚至险些丢掉族长之位，才得到的初代黑卫莱泽克之血。\n这种金色圣血不仅能保证觉醒,也一定能让试炼者安然无恙。"
+  ]
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "2级好感度问题：为什么那么晚会出现在那里听琴？",
+   "answers": [
+    "凑巧，我偶尔也会去那儿静一静。",
+    "准备外出听到有钢琴声。"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%BA%E9%AD%82%E4%B9%8B%E9%95%B0",
+ "revid": 8700,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8700",
+ "rev_timestamp": "2026-03-14T14:01:11Z",
+ "i18n": {
+  "name_zh": "夺魂之镰",
+  "sources": {
+   "derived": 3,
+   "game_db": 9,
+   "glossary": 30,
+   "lore": 2,
+   "names": 16,
+   "translated": 11
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 2996,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 3096,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "马克公国",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ]
+ }
+}

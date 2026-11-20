@@ -1,0 +1,184 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yog-guide.local/schema/gear_item.schema.json",
+  "title": "Gear item (装备), Chinese",
+  "description": "One element of gear.json → items. Values from SMW (模板:装备图鉴 #set).",
+  "type": "object",
+  "allOf": [
+    {
+      "$ref": "common.schema.json#/$defs/provenance"
+    }
+  ],
+  "required": [
+    "id",
+    "name",
+    "page_title",
+    "slot",
+    "quality",
+    "max_level",
+    "main_stat",
+    "sub_stats",
+    "prefixes",
+    "suffixes",
+    "exclusive",
+    "skill",
+    "set",
+    "extract_skill",
+    "embed_recommendations",
+    "embed_recommendations_raw",
+    "obtain",
+    "description",
+    "smw_api_request",
+    "in_category"
+  ],
+  "unevaluatedProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^gear-[0-9]+$"
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "装备名称"
+    },
+    "page_title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "slot": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "description": "部位"
+    },
+    "quality": {
+      "$ref": "common.schema.json#/$defs/str",
+      "description": "品质"
+    },
+    "max_level": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 1
+    },
+    "main_stat": {
+      "$ref": "common.schema.json#/$defs/str",
+      "description": "主属性"
+    },
+    "sub_stats": {
+      "$ref": "common.schema.json#/$defs/strList",
+      "description": "副属性"
+    },
+    "prefixes": {
+      "$ref": "common.schema.json#/$defs/strList",
+      "description": "前缀"
+    },
+    "suffixes": {
+      "$ref": "common.schema.json#/$defs/strList",
+      "description": "后缀"
+    },
+    "exclusive": {
+      "$ref": "common.schema.json#/$defs/strList",
+      "description": "专属"
+    },
+    "skill": {
+      "$ref": "common.schema.json#/$defs/str",
+      "description": "装备技能"
+    },
+    "set": {
+      "type": [
+        "object",
+        "null"
+      ],
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "bonuses",
+        "raw"
+      ],
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "bonuses": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "pieces",
+              "text",
+              "set"
+            ],
+            "properties": {
+              "pieces": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "text": {
+                "type": "string"
+              },
+              "set": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "raw": {
+          "$ref": "common.schema.json#/$defs/str"
+        }
+      }
+    },
+    "extract_skill": {
+      "$ref": "common.schema.json#/$defs/str",
+      "description": "萃取技能"
+    },
+    "embed_recommendations": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "嵌入技能推荐",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "name",
+          "effect"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "effect": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "embed_recommendations_raw": {
+      "$ref": "common.schema.json#/$defs/str"
+    },
+    "obtain": {
+      "$ref": "common.schema.json#/$defs/strList",
+      "description": "获取途径"
+    },
+    "description": {
+      "$ref": "common.schema.json#/$defs/str",
+      "description": "介绍"
+    },
+    "smw_api_request": {
+      "type": "string"
+    },
+    "in_category": {
+      "type": "boolean",
+      "description": "false = page found by scraper/resolve_missing.py, not a member of the category"
+    }
+  }
+}

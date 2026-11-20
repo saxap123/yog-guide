@@ -1,0 +1,680 @@
+{
+ "id": "char-308",
+ "name": "纯白之羽",
+ "page_title": "纯白之羽",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "安黛莉",
+  "gender": "女",
+  "race": null,
+  "birthday": "12月25日",
+  "birthplace": "蒙特沃德森林",
+  "height_weight": "167cm/65kg（包含翅膀）",
+  "specialties": [
+   "做法",
+   "唱歌",
+   "照顾人"
+  ],
+  "likes": [
+   "小动物",
+   "大自然",
+   "鲜花",
+   "花草茶（羁绊礼物）"
+  ],
+  "dislikes": [
+   "流血受伤",
+   "锋利的武器"
+  ],
+  "release_date": "2022年08月15日"
+ },
+ "element": "火焰",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "辅助",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "医者",
+    "id": "faction-2204"
+   },
+   {
+    "name": "通灵",
+    "id": "faction-2206"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对10米范围内的1名敌人造成73%攻击力的火焰伤害。",
+   "scaling": [
+    {
+     "percent": "73%",
+     "values": [
+      73.0
+     ],
+     "stat": "攻击力",
+     "effect": "火焰伤害",
+     "text": "73%攻击力的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "纯净祝福",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "被动效果:拥有神圣力量的安黛莉，进行普通攻击时释放天罚，对最多4个敌人造成80%法术强度的火焰伤害。主动释放:立即回复生命最低的队友120%法术强度的生命，并获得神圣赐福，赐福持续期间所受到的所有伤害转化为治疗效果,持续1.5秒(可被净化)",
+   "scaling": [
+    {
+     "percent": "80%",
+     "values": [
+      80.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "80%法术强度的火焰伤害"
+    },
+    {
+     "percent": "120%",
+     "values": [
+      120.0
+     ],
+     "stat": "法术强度",
+     "effect": "生命",
+     "text": "120%法术强度的生命"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "圣洁狂热",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普攻击中敌人后，安黛莉的攻击速度提升5%,最多叠加16次。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "纯白福音",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "安黛莉造成伤害的10%转化为对全体友方的治疗。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "圣徒洗礼",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "}安黛莉攻击时，造成伤害的10%将用于治疗攻击目标5米范围内所有友方单位。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "神圣庇护",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自身受到致命伤害时，立刻对自己释放一次。【纯净祝福每隔25秒触发一次】",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "圣光激涌",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【纯净祝福】释放对象变为全体队友，且持续时间增加1.5秒。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "振奋鼓舞战友，所有友方单位初始怒气增加25点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "能够轻松快速的释放法术，主动技能冷却时间降低10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延迟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "法术强度提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "大招无敌流",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "playstyle: ultimate + invincibility",
+   "slots": {
+    "头盔": "神圣守护",
+    "项链": "纯白澄晶",
+    "卡牌": "总攻卡牌",
+    "耳坠": "魔弦耳环",
+    "衣服": "聚能之铠",
+    "戒指": "阳炎之指",
+    "腰带": "嗜战者束腰",
+    "圣物": "辅助之勇气",
+    "裤子": "魔弦护腿",
+    "徽章": "穿魂夺魄秘徽",
+    "鞋子": "怜悯圣靴",
+    "副手": "穿魂夺魄秘盾",
+    "武器": "月辉·疾雷之书",
+    "护手": "贵族手套"
+   },
+   "alternatives": {
+    "头盔": [
+     "定心精盔"
+    ],
+    "项链": [
+     "星痕项链"
+    ],
+    "衣服": [
+     "深渊壁垒"
+    ],
+    "戒指": [
+     "曜晶之戒"
+    ],
+    "腰带": [
+     "沐光环绕"
+    ],
+    "圣物": [
+     "漆黑十字"
+    ],
+    "徽章": [
+     "魔涌之徽"
+    ],
+    "鞋子": [
+     "月辉·高岭军靴"
+    ],
+    "副手": [
+     "浴火之盾"
+    ],
+    "武器": [
+     "纯净涤魂"
+    ],
+    "护手": [
+     "穿魂夺魄秘手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "神圣守护": null,
+    "定心精盔": "gear-1688",
+    "纯白澄晶": null,
+    "星痕项链": null,
+    "总攻卡牌": "gear-1692",
+    "魔弦耳环": null,
+    "聚能之铠": "gear-1170",
+    "深渊壁垒": "gear-1082",
+    "阳炎之指": "gear-1083",
+    "曜晶之戒": null,
+    "嗜战者束腰": "gear-1210",
+    "沐光环绕": "gear-1199",
+    "辅助之勇气": null,
+    "漆黑十字": "gear-1187",
+    "魔弦护腿": null,
+    "穿魂夺魄秘徽": "gear-1598",
+    "魔涌之徽": "gear-1176",
+    "怜悯圣靴": "gear-2024",
+    "月辉·高岭军靴": "gear-1201",
+    "穿魂夺魄秘盾": "gear-1597",
+    "浴火之盾": "gear-1205",
+    "月辉·疾雷之书": null,
+    "纯净涤魂": null,
+    "贵族手套": null,
+    "穿魂夺魄秘手": "gear-1658"
+   },
+   "unlinked": {
+    "神圣守护": {
+     "reason": "game_only",
+     "game_id": "11020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "11020",
+        "field": "name",
+        "text_id": 3830,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       3830
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽"
+      ]
+     }
+    },
+    "纯白澄晶": {
+     "reason": "game_only",
+     "game_id": "90005",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90005",
+        "field": "name",
+        "text_id": 55872,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       55872
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽"
+      ]
+     }
+    },
+    "星痕项链": {
+     "reason": "game_only",
+     "game_id": "4003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4003",
+        "field": "name",
+        "text_id": 4068,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       4068
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "幸运装备",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "魔弦耳环": {
+     "reason": "game_only",
+     "game_id": "90306",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90306",
+        "field": "name",
+        "text_id": 63588,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       63588
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "千宵月守"
+      ]
+     }
+    },
+    "曜晶之戒": {
+     "reason": "game_only",
+     "game_id": "2034",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2034",
+        "field": "name",
+        "text_id": 56720,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       56720
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "分解装备",
+       "回怒装备"
+      ]
+     }
+    },
+    "辅助之勇气": {
+     "reason": "game_only",
+     "game_id": "13051",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13051",
+        "field": "name",
+        "text_id": 55666,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       55666
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "幸运装备"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "月辉·疾雷之书": {
+     "reason": "game_only",
+     "game_id": "10087",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10087",
+        "field": "name",
+        "text_id": 3795,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3795
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "纯白之羽",
+       "冷却装备",
+       "回怒装备",
+       "怒气装备"
+      ]
+     }
+    },
+    "纯净涤魂": {
+     "reason": "game_only",
+     "game_id": "90272",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90272",
+        "field": "name",
+        "text_id": 63102,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       63102
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽"
+      ]
+     }
+    },
+    "贵族手套": {
+     "reason": "game_only",
+     "game_id": "3011",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3011",
+        "field": "name",
+        "text_id": 8325,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       8325
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "恐熊",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "天谴印记",
+   "id": "relic-2157"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《安黛莉的食物》",
+   "answers": [
+    "×重油重盐的肉，补充营养",
+    "√采来的果子"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《医者天职》",
+   "answers": [
+    "×把他狂揍一顿，替安黛莉出气",
+    "√坐下来促膝长谈，跟他讲道理"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《我们的约定》",
+   "answers": [
+    "获得专属项链：纯白澄晶"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BA%AF%E7%99%BD%E4%B9%8B%E7%BE%BD",
+ "revid": 9127,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9127",
+ "rev_timestamp": "2026-08-11T03:15:16Z"
+}

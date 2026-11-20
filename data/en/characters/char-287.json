@@ -1,0 +1,666 @@
+{
+ "id": "char-287",
+ "name": "Coffin Morrigan",
+ "page_title": "魂棺语者",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "...Morana.",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--12-05",
+  "birthplace": null,
+  "height_weight": "155cm/42kg",
+  "specialties": [
+   "alchemy",
+   "shorthand",
+   "tactical planning"
+  ],
+  "likes": [
+   "exquisite chess pieces",
+   "truth serum",
+   "atlases",
+   "royal chess pieces (bond gift)"
+  ],
+  "dislikes": [
+   "defeat in war",
+   "nobles",
+   "traitors"
+  ],
+  "release_date": "2023-09-27"
+ },
+ "element": "Physical",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Guardian Front",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Max HP",
+   "Constitution",
+   "Rage",
+   "Rage Restore",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ],
+  "secondary": [
+   "Physical Resistance",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 300% Physical Power as Physical DMG to 1 enemy within melee range.",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 300% of Physical Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Nightmare of Limbo",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Morana releases a Shadow Cage to deals Physical DMG equal to 1250% of Physical Power to enemies in front, then capture them in front of her, the enemies will receive Physical DMG equal to 1250% of Physical Power during the capture.",
+   "scaling": [
+    {
+     "percent": "1250%",
+     "values": [
+      1250.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 1250% of Physical Power"
+    },
+    {
+     "percent": "1250%",
+     "values": [
+      1250.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 1250% of Physical Power"
+    }
+   ],
+   "name_zh": "宵晖梦魇"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Chain of Asclepius",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Morana chooses a target ally and activates a Life Link, via which she will Distributes 50% of DMG the ally taken.",
+   "scaling": [],
+   "name_zh": "延命锁链"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Grace of Heaven",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Life Link is activated, Morana and the ally linked gain additional DMG Reduction by 25%.",
+   "scaling": [],
+   "name_zh": "晦朔恩泽"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Dust of Coffin",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Morana's Soul Coffin gains 100 points of Soul Energy, she will release [Dust of Coffin] immediately: Morana charges with her Soul Coffin forward 6 meters, she Knocks Back and deals Physical DMG equal to 800% of her Physical Power to all enemies on the path, then Knocks Back all enemies one more time. When the battle begins, the Soul Coffin gains 100 points of Soul Energy. And when the ally linked causes DMG, she can drain 4 points of Soul Energy (4 additional points from ally's Physical DMG Dealt), the Drain has a 0.5 sec of minimum interval.",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 800% of Physical Power"
+    }
+   ],
+   "name_zh": "棺击尘落"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Obituary of Lifetime",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistances of nearby enemies within 10 meters of self are reduced by 5%, and Physical Resistance is additionally reduced by 5%. (This effect can make enemy resistance negative; every 1% of negative resistance increases the DMG of the corresponding type taken by 1%)",
+   "scaling": [],
+   "name_zh": "命数倾轧"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Slumber in Thorns",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases DMG Dealt of [Nightmare of Limbo] by 100%. And when the ally linked is taking damage, Morana taunts the attacker immediately for 3 sec (Taunt has a 6 sec CoolDown).",
+   "scaling": [],
+   "name_zh": "蔓荆护佑"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Vitality",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 6%, Max shield increased by 6%",
+   "scaling": [],
+   "name_zh": "活力"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Evasion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Normal attack evasion chance increased by 15%",
+   "scaling": [],
+   "name_zh": "躲闪"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Intensive Care",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Healing effect received increased by 10%",
+   "scaling": [],
+   "name_zh": "加护"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Lv 450 build",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": "Build",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Supernova",
+    "Necklace": "Azure Phantom",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Abyssal Bastion",
+    "Ring": "Thrill of the Hunt",
+    "Belt": "Flagellant Strap",
+    "Relic": "Nox Cross",
+    "Trousers": "Iron Greaves",
+    "Emblem": "Emblem of Resistance",
+    "Shoes": "Moonlight · Highland Stompers",
+    "Off-hand": "Higan's Last Stand",
+    "Weapon": "Soul Sealer",
+    "Handguard": "Imperial Gauntlets"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Glory of the Horde"
+    ],
+    "Armor": [
+     "Raging Armor"
+    ],
+    "Ring": [
+     "Instructors' Testament"
+    ],
+    "Relic": [
+     "Eternal Flame"
+    ],
+    "Weapon": [
+     "Lazaraia"
+    ],
+    "Handguard": [
+     "Touch of Nox"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·芒星守护": "gear-1194",
+    "蔚蓝魅影": "gear-1195",
+    "血火荣耀": "gear-1196",
+    "深渊壁垒": "gear-1082",
+    "聚能之铠": "gear-1170",
+    "猎杀时刻": "gear-game-2031",
+    "导师之守护": "gear-1197",
+    "祈祷系带": "gear-game-1029",
+    "漆黑十字": "gear-1187",
+    "活体火焰": "gear-1198",
+    "铁铠胫甲": "gear-1203",
+    "抵抗勋章": "gear-1204",
+    "月辉·高岭军靴": "gear-1201",
+    "浴火之盾": "gear-1205",
+    "封魂巨棺": "gear-2305",
+    "渴血": "gear-1190",
+    "帝胄守护": "gear-1206",
+    "黑暗刺杀者": "gear-1207"
+   },
+   "unlinked": {
+    "猎杀时刻": {
+     "reason": "game_only",
+     "game_id": "2031",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2031",
+        "field": "name",
+        "text_id": 54368,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       54368
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉",
+       "迷雾山脉-迷雾幻境",
+       "魂棺语者",
+       "蚀骨魂龙",
+       "绯晶战影"
+      ]
+     }
+    },
+    "祈祷系带": {
+     "reason": "game_only",
+     "game_id": "1029",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1029",
+        "field": "name",
+        "text_id": 54209,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       54209
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "分解装备",
+       "魂棺语者",
+       "绯晶战影"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Condensation",
+    "id": "rune-1996",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fracture",
+    "id": "rune-1997",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Magic Wrath",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Strong Rock",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Restore 50 Rage for each hit enemy of [Dust of Coffin], up to 250 Rage per cast."
+   },
+   {
+    "rank": 2,
+    "text": "Increase damage of [Dust of Coffin] by 50%."
+   },
+   {
+    "rank": 3,
+    "text": "Enemies hit by [Nightglow Nightmare] cannot restore HP for 10 seconds."
+   },
+   {
+    "rank": 4,
+    "text": "Initial Rage + 250"
+   },
+   {
+    "rank": 5,
+    "text": "[Chain of Asclepius] restores 1% of Max HP each second for both chained units, and Morana became immune to taunts and silent during its existence."
+   },
+   {
+    "rank": 6,
+    "text": "+10% All DMG Dealt by Morana"
+   }
+  ],
+  "recommendation": "PVE: usable from rank 0; skills reduce enemies' Physical Resistance"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Grip of Soul",
+   "id": "relic-1952"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Guard battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 5,
+   "question": "打招呼/问问花",
+   "answers": [
+    "打招呼（碎片）",
+    "问问花（钻石）"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%AD%82%E6%A3%BA%E8%AF%AD%E8%80%85",
+ "revid": 9068,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9068",
+ "rev_timestamp": "2026-07-28T10:15:11Z",
+ "i18n": {
+  "name_zh": "魂棺语者",
+  "sources": {
+   "derived": 6,
+   "game_db": 15,
+   "glossary": 64,
+   "lore": 2,
+   "names": 49,
+   "translated": 18
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 63337,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 63336,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 63338,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 63339,
+    "match": "loose"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 63341,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2961,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2970,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2992,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 63166,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 63167,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 63169,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 63170,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 63171,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "涅拉斯",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   },
+   {
+    "path": "blood_ranks.ranks[2].text",
+    "zh": "宵晖梦魔",
+    "en": "Nightglow Nightmare"
+   }
+  ]
+ }
+}

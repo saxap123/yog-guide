@@ -1,0 +1,498 @@
+{
+ "id": "char-2425",
+ "name": "Flamebell Dance",
+ "page_title": "飞焰铃舞",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Nyanko",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--04-08",
+  "birthplace": null,
+  "height_weight": "165cm/51kg",
+  "specialties": [
+   "fishing",
+   "climbing trees",
+   "meowing like a cat"
+  ],
+  "likes": [
+   "Doll",
+   "fish cooked any way",
+   "little foxes",
+   "(bond gift)"
+  ],
+  "dislikes": [
+   "......oranges?",
+   "perfume",
+   "people who bully small animals"
+  ],
+  "release_date": "2026-09-21"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Summoners Front",
+    "id": "faction-2205"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Constitution",
+   "Max HP",
+   "Rage",
+   "Rage Restore"
+  ],
+  "secondary": [
+   "Intelligence",
+   "Spell Power %",
+   "Physical Resistance",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Blazing Bolt",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Fires an arrow at a single enemy, dealing Fire Damage equal to 500% of Spell Power. (This skill is unaffected by Attack Speed, and its damage is considered Skill Damage.)",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 500% of Spell Power"
+    }
+   ],
+   "name_zh": "飞焰流矢"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Eightfold Flame Dance",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Creates a barrier. Enemies within take Fire Damage equal to 10000% of Spell Power every second, while all allied units within gain +20% All Damage Reduction. The barrier lasts 8 sec.",
+   "scaling": [
+    {
+     "percent": "10000%",
+     "values": [
+      10000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 10000% of Spell Power"
+    }
+   ],
+   "name_zh": "八方火舞"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Heavenly Flamefeathers",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "40 Force",
+   "description": "Fires a rain of arrows at the nearest enemy in 5 waves. Each wave deals Fire Damage equal to 5000% of Spell Power to enemies within the area.",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 5000% of Spell Power"
+    }
+   ],
+   "name_zh": "流火天羽"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Twin Flame Spirits",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Binds to an allied Blackguard. When casting a barrier, summons a puppet of that unit. The puppet has 25% of the original's damage and 50% HP. If the bound Blackguard is Fire-attribute, the effects are doubled. The puppet lasts 8 sec. (A maximum of 4 puppets can exist at once.)",
+   "scaling": [],
+   "name_zh": "火灵双生"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Into Smoke",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each wave of arrow rain has a 15% chance to reduce the target's current Rage by 50. If own Perception is higher than the target's, the trigger chance increases by 1% for every 5 additional Perception.",
+   "scaling": [],
+   "name_zh": "散为云烟"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Crimson Eye",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "During [Eightfold Flame Dance], allied units' Normal Attack Crit Chance and Skill Crit Chance increase by 20%.",
+   "scaling": [],
+   "name_zh": "赤瞳"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Heartlink",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Flamebell Dance's Perception +10.",
+   "scaling": [],
+   "name_zh": "灵犀"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Waiting (not filled in yet)",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder ('waiting'): build not filled in yet",
+   "slots": {
+    "Helmet": null,
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": null,
+    "Ring": null,
+    "Belt": null,
+    "Relic": null,
+    "Trousers": null,
+    "Emblem": null,
+    "Shoes": null,
+    "Off-hand": null,
+    "Weapon": "Blazing Shooting Stars",
+    "Handguard": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "飞星如焰": "gear-game-90389"
+   },
+   "unlinked": {
+    "飞星如焰": {
+     "reason": "game_only",
+     "game_id": "90389",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90389",
+        "field": "name",
+        "text_id": 91620,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       91620
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "飞焰铃舞"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Crit Chance granted by [Crimson Eye] +10%."
+   },
+   {
+    "rank": 2,
+    "text": "During [Eightfold Flame Dance], all allied summons on the field take 20% less damage."
+   },
+   {
+    "rank": 3,
+    "text": "[Eightfold Flame Dance] grants an additional +10% All Damage Reduction."
+   },
+   {
+    "rank": 4,
+    "text": "When casting [Eightfold Flame Dance], if own Rage is above 1000, every 100 above it removes 20% of the Shield value of all enemy units on the field."
+   },
+   {
+    "rank": 5,
+    "text": "During [Eightfold Flame Dance], enemy characters on the field have a 15% chance to fail to trigger Revival effects. If own Perception is higher than the target's, the trigger chance increases by 1% for every 5 additional Perception."
+   },
+   {
+    "rank": 6,
+    "text": "All damage dealt by Flamebell Dance +10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": null,
+   "id": "relic-2430"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%A3%9E%E7%84%B0%E9%93%83%E8%88%9E",
+ "revid": 9205,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9205",
+ "rev_timestamp": "2026-09-22T20:54:13Z",
+ "i18n": {
+  "name_zh": "飞焰铃舞",
+  "sources": {
+   "derived": 5,
+   "game_db": 18,
+   "glossary": 58,
+   "lore": 1,
+   "names": 23,
+   "translated": 11
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 91667,
+    "match": "loose"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 91669,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 91668,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 91670,
+    "match": "loose"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 91671,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 91672,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 91673,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 91675,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 91676,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 91677,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 91679,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 91680,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "科伦达尔",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "relics[0]",
+    "zh": "灼华轻羽",
+    "reason": "names.json/relics: in the game table but the dictionary has no English text"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

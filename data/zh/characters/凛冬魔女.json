@@ -1,0 +1,56 @@
+{
+ "id": "char-300",
+ "name": "凛冬魔女",
+ "page_title": "凛冬魔女",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "乌西洛蒂",
+  "gender": "女",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": null,
+  "dislikes": null,
+  "release_date": "2021年06月26日"
+ },
+ "element": "冰霜",
+ "rarity": "A",
+ "factions": {
+  "base": {
+   "name": "秘术",
+   "id": "faction-2195"
+  },
+  "others": null
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": null,
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": null,
+ "affection": null,
+ "placeholders_nulled": null,
+ "parse_notes": [
+  "no 黑卫技能 template on the page",
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%87%9B%E5%86%AC%E9%AD%94%E5%A5%B3",
+ "revid": 6483,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6483",
+ "rev_timestamp": "2025-04-14T04:02:27Z"
+}

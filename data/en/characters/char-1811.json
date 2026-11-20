@@ -1,0 +1,492 @@
+{
+ "id": "char-1811",
+ "name": "Kingdom Huntress",
+ "page_title": "王国猎手",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Nia",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--08-22",
+  "birthplace": "the Northern Kingdom",
+  "height_weight": "167cm/48kg",
+  "specialties": [
+   "cooking",
+   "Tea Art",
+   "Hunting"
+  ],
+  "likes": [
+   "canines",
+   "iron chains",
+   "leather whips",
+   "game dice (bond gift)"
+  ],
+  "dislikes": [
+   "looking up at others",
+   "being ordered around",
+   "dirty things"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Physical",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Scourge Bolts",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Fires a large number of poison-tipped crossbow bolts at enemies in front, dealing 31.3% Physical Power as Physical DMG to each enemy touched, and each bolt hit applies [Poisoning] to the target for 10 sec. [Poisoning]: deals 2.5% Physical Power as Physical DMG per second, stacks up to 100 times, each stack increases Poisoning DMG by 1%.",
+   "scaling": [
+    {
+     "percent": "31.3%",
+     "values": [
+      31.3
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 31.3% of Physical Power"
+    },
+    {
+     "percent": "2.5%",
+     "values": [
+      2.5
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 2.5% of Physical Power"
+    }
+   ],
+   "name_zh": "淬毒箭雨"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Heavy Bolter",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Fires a large arrow forward that explodes upon reaching its destination or touching a target, dealing 0.45 Physical Power as Physical DMG to enemies within a 3 m radius around it and putting them into the Mutilate state: all DMG taken increased by 20% for 6 sec.",
+   "scaling": [],
+   "name_zh": "爆破重弩"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Venom",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "On Normal Attack hit, there is a 50% chance to inflict [Poisoning] on the target for 10 sec.",
+   "scaling": [],
+   "name_zh": "蛇蝎猎手"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Digitalis Shrapnel",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "If the target hit by [Heavy Bolter] has the [Poisoning] effect, 100% chance to [Blind] the target for 6 seconds\n[Blind]: reduces Normal Attack Accuracy by 75%. [Blind]: reduces Normal Attack Accuracy by 75%.",
+   "scaling": [],
+   "name_zh": "视觉剥夺"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Plague Bearer",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When [Scourge Bolts] hits a target, the Crit Chance of Normal Attacks and skills it receives is increased by 10% for 10 seconds.",
+   "scaling": [],
+   "name_zh": "毒性深化"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Multi-Bolt",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Normal Attack target count +3; chance to inflict [Poisoning] increased by 50%.",
+   "scaling": [],
+   "name_zh": "多重弩箭"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Sailing support",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "support build for Sailing (sailing mode)",
+   "slots": {
+    "Helmet": "Moonlight · Supernova",
+    "Necklace": "Necklace of Sanguine Love",
+    "Card": "Card of Total Attacker",
+    "Earrings": null,
+    "Armor": "Abyssal Bastion",
+    "Ring": "Ring of Divine Soul",
+    "Belt": "Primal Iron Girdle",
+    "Relic": "Nox Cross",
+    "Trousers": "Elementalist's Britches",
+    "Emblem": "Emblem of Divine Soul",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Guard of Divine Soul",
+    "Weapon": "Blizzard's End",
+    "Handguard": "Gloves of Divine Soul"
+   },
+   "alternatives": {
+    "Belt": [
+     "Waistband of the Wild Hunt"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·芒星守护": "gear-1194",
+    "恋血钩坠": "gear-game-90046",
+    "总攻卡牌": "gear-1692",
+    "深渊壁垒": "gear-1082",
+    "圣临光戒": "gear-186",
+    "铁铸束腰": "gear-game-1014",
+    "狂猎之腰": "gear-game-1023",
+    "漆黑十字": "gear-1187",
+    "元素大师之裤": "gear-1174",
+    "圣临光徽": "gear-155",
+    "月辉·王室金靴": "gear-1177",
+    "圣临庇护": "gear-165",
+    "霜雨": "gear-game-10037",
+    "圣临光手": "gear-1655"
+   },
+   "unlinked": {
+    "恋血钩坠": {
+     "reason": "game_only",
+     "game_id": "90046",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90046",
+        "field": "name",
+        "text_id": 58796,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       58796
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "王国猎手"
+      ]
+     }
+    },
+    "铁铸束腰": {
+     "reason": "game_only",
+     "game_id": "1014",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1014",
+        "field": "name",
+        "text_id": 4030,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       4030
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "青鸾巽羽",
+       "月渊龙女",
+       "王国猎手"
+      ]
+     }
+    },
+    "狂猎之腰": {
+     "reason": "game_only",
+     "game_id": "1023",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1023",
+        "field": "name",
+        "text_id": 54203,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       54203
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽",
+       "月渊龙女"
+      ]
+     }
+    },
+    "霜雨": {
+     "reason": "game_only",
+     "game_id": "10037",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10037",
+        "field": "name",
+        "text_id": 3754,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3754
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境攻略",
+       "王国猎手"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "尼娅并非通过正常流程进入黑卫学院，她的档案上写的是:北境王国男爵府女仆，外出执行任务的黑卫约翰在一场变故中发现了她身上的潜力，引荐她参与圣血仪式,最终成功觉醒,成为了黑卫的一员。”\n只有尼娅自己知道，这个“偶然”花了她多少功夫―—用猎兽陷阱让约翰的马匹“不慎”受伤，让他入住“恰好”临近废弃男爵府的酒馆，喝酒时“无意”听说前些日子魔物入侵内陆,男爵一家死于魔物爪下，“据悉”府上的一位女仆以自己的勇敢和智慧对抗魔物，帮助其它仆人幸存了下来。\n约翰在这位机敏勇敢的女仆身上看到了黑卫必须具备的品质，他以自己为举荐人，向院长克雷蒂安娜写下了举荐信……\n现在，北境王国秘密培养的顶级猎手带着无比干净的档案，成功进入亚克兰斯黑卫学院，并接近了她的目标--芙萝公主。而其中的目的，恐怕只有国王霍夫曼三世和尼娅自己知道了。\n至于约翰，则在后来的一场任务中意外坠崖，不过尼娅当时不在场嘛，怎么都和她没关系……吧？",
+  "deeds": [
+   "作为曾经的“男爵府女仆”，尼娅的“本职工作”熟练度无可挑剔，她非常注重整洁与卫生,打扫过的地方一尘不染,还能在一分钟内洗上五十个盘子，干净得跟新的一样。\n这也是为什么，尼娅后来成为了学院里的内务长。",
+   "尼娅的茶艺非常具有观赏性，甚至会让人忘记喝茶本身。不过，凌对它的评价是:“她很重视形式，但本身似乎并没有喝过多少茶，分辨不出茶叶的细微差别。恐怕她重视的不是品茶本身，而是喝茶这个时机。”",
+   "作为王室培养的顶级猎手，尼娅有着堪比野兽的直觉，能够轻松分辨谁是同类,谁是异类。她刚进学院没多久就注意到了菲奇，以及其背后所代表的身份，只是一直没有点穿。\n不过,相关情报已经通过秘密飞书送往森布伦，在指令正式到来之前，两人可以暂时相安无事。",
+   "尼娅在毒药上有着惊人的造诣，她可以凭借肉眼与嗅觉识别上千种草药，并熟识它们之间糅杂后的产物,甚至能够在几分钟内调制出可以放倒一头巨象的猛毒。\n不过颇具反差的是,这位善于用毒的猎手做饭非常好吃，哪怕不小心采到有毒的蘑菇给她，她也能用不同食材调和毒性，最后炖出一锅鲜美可口的浓汤。",
+   "尼娅喜欢听话的孩子，而乖巧的安黛莉正是她最宠护的人。尼娅经常抱着安黛莉,温柔地给她梳头发，摸摸头,挠挠下巴，再往天上扔个飞盘,让她飞过去捡回来。安黛莉乐此不疲，任何事上都听尼娅的话，还总是黏着她撒娇。\n尼娅从不在意别人异样的目光，毕竟这么可爱又听话的宠物，难道不应该好好疼爱吗?",
+   "温柔或冷酷,住往取决于面对的是谁。\n有些人面对敌人时的残虐是天生的,无可救药。\n尼娅在战场上从不留情,甚至有着极其恶劣的爱好，她曾将一支支弩箭射进巴别塔教众的身体，却又处处避开要害，只为让对方继续逃亡，最后在一步之遥的逃生曙光中，一箭钉穿他的喉咙，静静欣赏着“猎物”窒息死去的模样。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%8E%8B%E5%9B%BD%E7%8C%8E%E6%89%8B",
+ "revid": 8644,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8644",
+ "rev_timestamp": "2026-02-08T04:31:25Z",
+ "i18n": {
+  "name_zh": "王国猎手",
+  "sources": {
+   "derived": 4,
+   "game_db": 7,
+   "glossary": 45,
+   "lore": 1,
+   "names": 30,
+   "translated": 15
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[4].description",
+    "zh": "致盲",
+    "en": "Blind"
+   },
+   {
+    "path": "skills[4].description",
+    "zh": "致盲",
+    "en": "Blind"
+   },
+   {
+    "path": "skills[4].description",
+    "zh": "致盲",
+    "en": "Blind"
+   },
+   {
+    "path": "builds[0].tier_note",
+    "zh": "帆船",
+    "en": "Sailing"
+   }
+  ]
+ }
+}

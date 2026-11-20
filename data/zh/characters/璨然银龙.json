@@ -1,0 +1,755 @@
+{
+ "id": "char-2373",
+ "name": "璨然银龙",
+ "page_title": "璨然银龙",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "维娜",
+  "gender": "女",
+  "race": "龙裔",
+  "birthday": "12月24日",
+  "birthplace": "未知的古老山脉",
+  "height_weight": "171cm/52kg",
+  "specialties": [
+   "飞行",
+   "干重活",
+   "战斗技艺"
+  ],
+  "likes": [
+   "各种做法的肉",
+   "猫咪",
+   "亲切的人",
+   "毛茸茸的玩偶（羁绊礼物）"
+  ],
+  "dislikes": [
+   "各种做法的蔬菜",
+   "下雨天",
+   "绕口令"
+  ],
+  "release_date": "2026年05月30日"
+ },
+ "element": "冰霜",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "刺杀",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "攻击速度",
+   "暴击概率",
+   "冰霜穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "冰霜伤害增幅"
+  ],
+  "secondary": [
+   "初始怒气",
+   "怒气恢复",
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "一线霜寒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对前方小范围敌人造成500%法术强度的冰霜伤害。(本技能会受攻速影响，造成的伤害视为普攻伤害。)",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "500%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "无息绝杀",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "快速在敌方目标之间闪现突刺，对目标以及路径上的敌方单位造成4500%法术强度的冰霜伤害，闪现突刺的释放速度会受自身攻速影响。",
+   "scaling": [
+    {
+     "percent": "4500%",
+     "values": [
+      4500.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "4500%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "若风回雪",
+   "cooldown_s": 0.5,
+   "cooldown_raw": null,
+   "cost": "10源力",
+   "description": "造成普攻伤害时，有几率触发一次强力的额外攻击，对小范围目标造成4500%法术强度的冰霜伤害。(该技能造成的伤害视为普攻伤害)发动率：25%",
+   "scaling": [
+    {
+     "percent": "4500%",
+     "values": [
+      4500.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "4500%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "不朽之骨",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自身在1.5秒内受到的伤害不会超过最大生命值的49%，但是自身也无法受到护盾恢复、治疗效果的影响(魔法盾吸收的伤害不记录在伤害限制范围内)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "龙契啼鸣",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【若风回雪】触发时，累积充能，充能达到100时下次【若风回雪】造成的伤害提升300%。触发时，在PVP场景中，有1%几率使目标立刻死亡。如果是其他战斗场景，则改为将【龙契啼鸣】的伤害提升5000%。(自身的感知超越目标越多，触发的概率越大）",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "寒鳞锋锐",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普攻暴击几率+30。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "不摧",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "感知和强韧+5。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "恃强凌弱",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对法术强度或物理强度低于自身的敌人造成伤害提高12%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "致命伏击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对生命值为满的敌人造成伤害提高15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "暗影斗篷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到减益效果的持续时间减少30%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "影遁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "阿萨辛之首",
+    "项链": "时间守护者",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": null,
+    "腰带": "炎护腰带",
+    "圣物": "始祖之血",
+    "裤子": "戏谑者裤腿",
+    "徽章": "秘影徽识",
+    "鞋子": null,
+    "副手": null,
+    "武器": "龙脊寒枪",
+    "护手": "深渊之握"
+   },
+   "alternatives": {
+    "头盔": [
+     "决斗大师的帽子"
+    ],
+    "衣服": [
+     "月辉·达特穆尔酋长披风"
+    ],
+    "腰带": [
+     "王室荣尊"
+    ],
+    "徽章": [
+     "残虐之徽"
+    ],
+    "武器": [
+     "狂猎"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "阿萨辛之首": "gear-1683",
+    "决斗大师的帽子": null,
+    "时间守护者": "gear-1715",
+    "聚能之铠": "gear-1170",
+    "月辉·达特穆尔酋长披风": null,
+    "炎护腰带": null,
+    "王室荣尊": "gear-1172",
+    "始祖之血": "gear-1604",
+    "戏谑者裤腿": "gear-1182",
+    "秘影徽识": "gear-1188",
+    "残虐之徽": "gear-1189",
+    "龙脊寒枪": null,
+    "狂猎": "gear-128",
+    "深渊之握": "gear-1192"
+   },
+   "unlinked": {
+    "决斗大师的帽子": {
+     "reason": "game_only",
+     "game_id": "11022",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "11022",
+        "field": "name",
+        "text_id": 3832,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       3832
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者",
+       "璨然银龙",
+       "分解装备",
+       "回怒装备",
+       "怒气装备"
+      ]
+     }
+    },
+    "月辉·达特穆尔酋长披风": {
+     "reason": "game_only",
+     "game_id": "12078",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "12078",
+        "field": "name",
+        "text_id": 3914,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       3914
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "百花旅者",
+       "璨然银龙"
+      ]
+     }
+    },
+    "炎护腰带": {
+     "reason": "game_only",
+     "game_id": "1009",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1009",
+        "field": "name",
+        "text_id": 4025,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       4025
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "分解装备",
+       "自由炮手",
+       "璨然银龙"
+      ]
+     }
+    },
+    "龙脊寒枪": {
+     "reason": "game_only",
+     "game_id": "90385",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90385",
+        "field": "name",
+        "text_id": 87822,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       87822
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "璨然银龙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "夜幕暗盔",
+    "项链": "时间守护者",
+    "卡牌": null,
+    "耳坠": "辉耀之环",
+    "衣服": "刺影锁甲",
+    "戒指": "雪影冰戒",
+    "腰带": "感电者",
+    "圣物": "雪影之遗",
+    "裤子": "霜凝咒裤",
+    "徽章": "雪影白徽",
+    "鞋子": null,
+    "副手": "雪影守护",
+    "武器": "龙脊寒枪",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "头盔": [
+     "决斗大师的帽子"
+    ],
+    "项链": [
+     "黑色汪洋"
+    ],
+    "武器": [
+     "狂猎"
+    ],
+    "护手": [
+     "深渊之握"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "夜幕暗盔": "gear-1272",
+    "决斗大师的帽子": null,
+    "时间守护者": "gear-1715",
+    "黑色汪洋": null,
+    "辉耀之环": "gear-138",
+    "刺影锁甲": "gear-1507",
+    "雪影冰戒": "gear-185",
+    "感电者": "gear-1690",
+    "雪影之遗": "gear-179",
+    "霜凝咒裤": "gear-1859",
+    "雪影白徽": "gear-158",
+    "雪影守护": "gear-166",
+    "龙脊寒枪": null,
+    "狂猎": "gear-128",
+    "幽冥初水": null,
+    "深渊之握": "gear-1192"
+   },
+   "unlinked": {
+    "决斗大师的帽子": {
+     "reason": "game_only",
+     "game_id": "11022",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "11022",
+        "field": "name",
+        "text_id": 3832,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       3832
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者",
+       "璨然银龙",
+       "分解装备",
+       "回怒装备",
+       "怒气装备"
+      ]
+     }
+    },
+    "黑色汪洋": {
+     "reason": "game_only",
+     "game_id": "90324",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90324",
+        "field": "name",
+        "text_id": 69057,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       69057
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪",
+       "不熄曜日",
+       "绞刃流火",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "龙脊寒枪": {
+     "reason": "game_only",
+     "game_id": "90385",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90385",
+        "field": "name",
+        "text_id": 87822,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       87822
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "璨然银龙"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "万象余烬",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "霜咬",
+    "id": "rune-1423",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "寒月",
+    "id": "rune-1412",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "霜雪",
+    "id": "rune-1421",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "闪击",
+    "id": "rune-1418",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "霜蹄",
+    "id": "black_stone-12",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "每当造成普攻伤害时，有20%几率使自身的法术护甲穿透+150"
+   },
+   {
+    "rank": 2,
+    "text": "进入战斗后第20秒，立刻获得【龙契啼鸣】的全部充能，并且该次效果必定会触发即死效果；之后每隔60秒触发一次。自身感知超过150时，每有1点感知可以减少0.1秒初始以及后续的触发间隔。"
+   },
+   {
+    "rank": 3,
+    "text": "【无息绝杀】造成的伤害也将视为普攻伤害，并能够触发【若风回雪】效果；且【无息绝杀】的攻击次数+2。"
+   },
+   {
+    "rank": 4,
+    "text": "【不朽之骨】的锁定受伤时间延长1.5秒。"
+   },
+   {
+    "rank": 5,
+    "text": "提高强韧可降低【不朽之骨】受伤限制的比率，强韧超过50时，每4点降低1%，受伤限制的比率最低不会低于20%。且战斗开始时，立刻获得持续15秒的清醒效果。"
+   },
+   {
+    "rank": 6,
+    "text": "璨然银龙造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "淬骨化生",
+   "id": "relic-2379"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%92%A8%E7%84%B6%E9%93%B6%E9%BE%99",
+ "revid": 9028,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9028",
+ "rev_timestamp": "2026-06-27T07:00:34Z"
+}

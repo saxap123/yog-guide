@@ -1,0 +1,17 @@
+{
+  "title": "死灵法盾",
+  "pageid": 1178,
+  "ns": 0,
+  "revid": 2858,
+  "rev_timestamp": "2024-07-22T06:49:31Z",
+  "wikitext": "{{装备图鉴\n|装备名称=死灵法盾\n|部位=副手\n|品质=神话\n|最大等级=400\n|主属性=\n|副属性=\n|前缀=\n|后缀=\n|专属=5%最大生命值、4%吸血、120怒气、5%技能暴击、14%闪避\n|装备技能=当第一次被一名敌人伤害时，这次伤害降低(35.00%50.00%6)，并击晕该敌人1秒。(全队仅生效一件)\n|套装=无\n|套装技能=无\n|萃取技能=不可萃取\n|嵌入技能推荐=不可嵌入\n|获取途径=迷雾山脉通关\n|介绍=\n}}",
+  "redirected_from": null,
+  "group": "gear",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%AD%BB%E7%81%B5%E6%B3%95%E7%9B%BE",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=2858",
+  "fetched_at": "2026-11-20T16:10:14+00:00",
+  "templates": [
+    "模板:装备图鉴"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

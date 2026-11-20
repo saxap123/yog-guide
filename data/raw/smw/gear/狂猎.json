@@ -1,0 +1,198 @@
+{
+  "subject": "狂猎",
+  "group": "gear",
+  "page_revid": 2288,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%8B%82%E7%8C%8E",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%8B%82%E7%8C%8E&format=json",
+  "fetched_at": "2026-11-20T16:18:49+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "狂猎#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/8/3/36/2/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/14/5/9/28/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "狂猎"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "20%暴击倍率、8%攻击速度、5%技能暴击、5%全伤害类型增幅、3000力量"
+            }
+          ]
+        },
+        {
+          "property": "主属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "“每年冬天，暗精灵会为取说他们的血神进行名为[狂猎]的仪式复仇女神的战士们会在血夜之下，扫荡北方自霜中所有非自然的物，这一仪式不仅会令血神大说，也被先代精灵的另一个神灵--自然与美之神所支持”"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2881力量、2881力量、2881魔力、2881魔力、9%物理伤害增幅、9%火焰伤害增幅、9%闪电伤害增幅、9%冰霜伤害增幅、9%混沌伤害增幅、4物理精通、4法术精通、7%全伤害类型增幅、21%攻击速度"
+            }
+          ]
+        },
+        {
+          "property": "副属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8怒气恢复、21%攻击速度、16命中、19%暴击概率、37%暴击倍率、1540物理强度、1540法术强度、5%CD减少、16.5%造成昏迷时间提升、16.5%造成冰冻时间提升"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可嵌入"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "350"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "主线-普通难度、主线-困难难度、主线-黑潮难度、勇者试炼、旧日之门、装备碎片合成"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "狂猎"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "攻击有30%几率进入狂暴状态，所有普通攻击都一定命中，并且一定是爆击，持续5秒，且普攻对流血状态下的目标伤害提升50%。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "武器"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

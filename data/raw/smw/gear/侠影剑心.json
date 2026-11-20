@@ -1,0 +1,180 @@
+{
+  "subject": "侠影剑心",
+  "group": "gear",
+  "page_revid": 4927,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E4%BE%A0%E5%BD%B1%E5%89%91%E5%BF%83",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%BE%A0%E5%BD%B1%E5%89%91%E5%BF%83&format=json",
+  "fetched_at": "2026-11-20T16:14:28+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "侠影剑心#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/20/6/53/50/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/10/6/13/58/29/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "侠影剑心"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、5%CD减少、5%技能暴击、20%暴击倍率、8%闪电伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "以谍恶斩邪铸魂所造，充满仗剑行游的不羁侠气。"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258力量、9258力量、9258力量、9258力量、9258魔力、9258魔力、9258魔力、9258魔力、5物理精通、5法术精通、2299物理强度、2299法术强度"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "11.5%全伤害类型增幅、11.5%全伤害类型增幅、11.5%全伤害类型增幅、36%暴击倍率、15命中、43火焰穿透、43闪电穿透、43冰霜穿透"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "屠灭：每次普通攻击，降低目标的攻击速度5%，提升自身攻击速度5%，可叠加5层当前敌人生命低于50%时，对其造成的伤害提高(10.00%-20.00%)；狂热征伐：每主动驱散一个负面状态，回复自身(5.00%-10.00%)生命上限，精神专精提升1点，混沌伤害提升5%，持续20秒，可叠加20层"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "铸魂"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "侠影剑心"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【惊雷影袭】的冷却时间减少1秒，黑衫刃影造成的所有伤害增加10%；释放【惊雷影袭】时，如果自身携带有闪电球，则会消耗最多3个闪电球，每个被消耗的闪电球都会减少【惊雷影袭】0.5秒冷却时间。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "武器"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

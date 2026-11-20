@@ -1,0 +1,162 @@
+{
+  "subject": "苍珀玄帽",
+  "group": "gear",
+  "page_revid": 4434,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E8%8B%8D%E7%8F%80%E7%8E%84%E5%B8%BD",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%8B%8D%E7%8F%80%E7%8E%84%E5%B8%BD&format=json",
+  "fetched_at": "2026-11-20T16:20:39+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "苍珀玄帽#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/23/11/59/35/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/23/12/19/26/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "苍珀玄帽"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、2%全伤害类型增幅、2%全伤害类型减免、5精神精通、5法术精通、5物理精通、50幸运、10%暴击倍率"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258意志、9258意志、9258意志、9258意志、34488护盾、10%全伤害类型减免、10%受到法术伤害降低、120%暴击伤害减免、5%最大生命值"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258力量、9258力量、9258力量、9258力量、9258魔力、9258魔力、9258魔力、9258魔力、9258体质、9258体质、9258体质、9258体质、7%受到物理伤害降低、7%受到物理伤害降低、7%受到法术伤害降低、7%受到法术伤害降低"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "苍珀玄魂"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "苍珀玄魂(2)：物理伤害增幅+20%，幸运值+100；苍珀玄魂(4)：物理伤害增幅+20%，幸运值+100"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "极限法帽：怒气自然回复速度下降25%，全伤害增幅提升52.25%；蛮族面具：若本方阵营场上只剩自己一人，濒死时获得无敌效果，持续4秒，生命上限增加103%+1632"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "迷雾山脉-时空幻境"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "苍珀玄帽"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "头盔"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

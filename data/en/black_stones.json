@@ -1,0 +1,1266 @@
+{
+ "kind": "black_stone",
+ "license": "CC BY-NC-SA 4.0",
+ "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
+ "count": 18,
+ "language": "en",
+ "translation": "see data/names.json, data/glossary.json, translate/README.md",
+ "items": [
+  {
+   "id": "black_stone-01",
+   "name": "Ursus",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "ATK + 2%",
+     "text_template": "ATK + 2%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Normal Attack Damage +10%",
+     "text_template": "Normal Attack Damage +10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Attack Speed +25%",
+     "text_template": "Attack Speed +25%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "恐熊",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6947,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6947,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 6948,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 6948,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 3025,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 3025,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-02",
+   "name": "Occultist",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Spell Mastery +2",
+     "text_template": "Spell Mastery +2",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Spell Power +5%",
+     "text_template": "Spell Power +5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Max Rage +150",
+     "text_template": "Max Rage +150",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "巫妖",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6949,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6949,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 3027,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 3027,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 6950,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 6950,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-03",
+   "name": "Raging Beast",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Physical Mastery +2",
+     "text_template": "Physical Mastery +2",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Attack Speed +10%",
+     "text_template": "Attack Speed +10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Physical Power +5%",
+     "text_template": "Physical Power +5%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "怒兽",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6951,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6951,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 3029,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 3029,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 3030,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 3030,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-04",
+   "name": "Arachnia",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Mental Mastery +2",
+     "text_template": "Mental Mastery +2",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Crit Damage Taken reduced by 25%",
+     "text_template": "Crit Damage Taken reduced by 25%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Max HP +15%",
+     "text_template": "Max HP +15%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "猎蛛",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6952,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6952,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 6953,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 6953,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 3032,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 3032,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-05",
+   "name": "Serpentia",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Charge Skills Cooldown Reduction +10%",
+     "text_template": "Charge Skills Cooldown Reduction +10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Strikers' Attack Speed +15%",
+     "text_template": "Strikers' Attack Speed +15%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "60% increase in attack speed for 4 seconds after the release of charge type skills",
+     "text_template": "60% increase in attack speed for 4 seconds after the release of charge type skills",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "蝮蛇",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6954,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6954,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 6955,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 6955,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 6956,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 6956,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-06",
+   "name": "Evil Eye",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Critical Damage +25%",
+     "text_template": "Critical Damage +25%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Physical Power of Hunters +12%",
+     "text_template": "Physical Power of Hunters +12%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "After killing an enemy, Damage +20% for 5 seconds",
+     "text_template": "After killing an enemy, Damage +20% for 5 seconds",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "诡眼",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6957,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6957,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 6958,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 6958,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 6959,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 6959,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-07",
+   "name": "Spectre",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Max HP +5%",
+     "text_template": "Max HP +5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "+12% Dodge",
+     "text_template": "+12% Dodge",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Revival Chance +15%",
+     "text_template": "Revival Chance +15%",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "幽鬼",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 3034,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 3034,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 57214,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 57214,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 6960,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 6960,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-08",
+   "name": "Wolverine",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Assassins' Critical Chance +10%",
+     "text_template": "Assassins' Critical Chance +10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Skill Dodge +10%",
+     "text_template": "Skill Dodge +10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Assassin class Blackguards gain [Lightning Cutlass: Attacks fire a lightning arrow at the enemy, dealing 408+(50%-60%)*Physical & Spell Power Lightning DMG, after which the arrow continues to strike the nearest enemy around it. Each bounce of the arrow reduces its DMG by 30%, hitting up to 6 targets.]",
+     "text_template": "Assassin class Blackguards gain the [Lightning Cutlass: Attacks fire a lightning arrow at the enemy, dealing 408+(50%-60%)*Physical & Spell Power Lightning DMG, after which the arrow continues to strike the nearest enemy around it. Each bounce of the arrow reduces its DMG by 30%, hitting up to 6 targets.] effect",
+     "same_in_template": false
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "雷影狼",
+    "sources": {
+     "game_db": 4,
+     "names": 1,
+     "translated": 2
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6961,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6961,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 3035,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 3035,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "translated"
+     },
+     "effects[2].text_template": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null,
+    "unofficial_names": [
+     {
+      "path": "effects[2].text",
+      "zh": "闪电之剑",
+      "en": "Lightning Cutlass"
+     },
+     {
+      "path": "effects[2].text_template",
+      "zh": "闪电之剑",
+      "en": "Lightning Cutlass"
+     }
+    ]
+   }
+  },
+  {
+   "id": "black_stone-09",
+   "name": "Gargoyle",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Max HP +5%",
+     "text_template": "Max HP +5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Guardian class Blackguards gain the Emergency Assist skill, which takes effect 1 time per battle",
+     "text_template": "Guardian class Blackguards gain the Emergency Assist skill, which takes effect 1 time per battle",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "When Barricade is triggered, restore 30% health",
+     "text_template": "When Barricade is triggered, restore 30% health",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "石像鬼",
+    "sources": {
+     "game_db": 4,
+     "names": 1,
+     "translated": 2
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 3034,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 3034,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "translated"
+     },
+     "effects[1].text_template": {
+      "source": "translated"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 6963,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 6963,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-10",
+   "name": "Snow Beetle",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Restore 10% of Max Shield every 2 seconds",
+     "text_template": "Restore 10% of Max Shield every 2 seconds",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Spell Damage +10%",
+     "text_template": "Spell Damage +10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Activates Frost Shield and gains 3 Frost Orbs, blocking 3 instances of DMG and inflicting Chill on the DMG source for 4 sec. Cooldown 30 sec",
+     "text_template": "Activates Frost Shield and gains 3 Frost Orbs, blocking 3 instances of DMG and inflicting Chill on the DMG source for 4 sec. Cooldown 30 sec Shows equipped items",
+     "same_in_template": false
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "雪甲虫",
+    "sources": {
+     "game_db": 4,
+     "names": 1,
+     "translated": 2
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6965,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6965,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 3036,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 3036,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "translated"
+     },
+     "effects[2].text_template": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-11",
+   "name": "Voltaic Vulpes",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Restores 1% Max HP every 5 seconds",
+     "text_template": "Restores 1% Max HP every 5 seconds",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Skill Dodge +10%",
+     "text_template": "Skill Dodge +10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "When damage is dealt, there is a 15% chance of releasing a forked lightning bolt to up to 3 units within 8 meters of the target, dealing [77+2%*Self Spell Strength] lightning damage and adding a layer of sensory electricity to the target, with a cooldown of 1 second",
+     "text_template": "When damage is dealt, there is a 15% chance of releasing a forked lightning bolt to up to 3 units within 8 meters of the target, dealing [77+2%*Self Spell Strength] lightning damage and adding a layer of sensory electricity to the target, with a cooldown of 1 second",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "感电狐",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6967,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6967,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 3035,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 3035,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 6969,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 6969,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-12",
+   "name": "Hoarfrost Hoof",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Frost Damage Boost +5%",
+     "text_template": "Frost Damage Boost +5%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Frost damage dealt increased by 20% to Chilled targets, and Frost damage dealt increased by 50% to Frozen targets",
+     "text_template": "Frost damage dealt increased by 20% to Chilled targets, and Frost damage dealt increased by 50% to Frozen targets",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Normal attacks have a 3% chance of inflicting Chill",
+     "text_template": "Normal attacks have a 3% chance of inflicting Chill",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "霜蹄",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6970,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6970,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 6972,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 6972,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 6971,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 6971,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-13",
+   "name": "Rime Phoenix",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Ice Resistance +15",
+     "text_template": "Ice Resistance +15",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Frost Damage +10%",
+     "text_template": "Frost Damage +10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "When the wearer's normal attack hits the target in [Chilled] state, there is a 20% of chance to trigger a Frost Explosion. Freeze the target and the enemies within a range of 3 meters for 1 sec, causes damage equal to 100% of Spell & Physical Power. (CD: 1sec)",
+     "text_template": "When the wearer's normal attack hits the target in [Chilled] state, there is a 20% of chance to trigger a Frost Explosion. Freeze the target and the enemies within a range of 3 meters for 1 sec, causes damage equal to 100% of Spell & Physical Power. (CD: 1sec)",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "冰凤",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 6973,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 6973,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 6974,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 6974,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 6975,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 6975,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-14",
+   "name": "Cursed Soul",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "+5% Physical Damage Boost",
+     "text_template": "+5% Physical Damage Boost",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Physical DMG dealt to Weak enemies increased by 10%",
+     "text_template": "Physical DMG dealt to Weak enemies increased by 10%",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Physical DMG crits have a 3% chance to inflict Weak on the target for 4 sec",
+     "text_template": "Physical DMG crits have a 3% chance to inflict Weak on the target for 4 sec.",
+     "same_in_template": false
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "诅咒灵",
+    "sources": {
+     "game_db": 2,
+     "names": 1,
+     "translated": 4
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 62034,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 62034,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "translated"
+     },
+     "effects[1].text_template": {
+      "source": "translated"
+     },
+     "effects[2].text": {
+      "source": "translated"
+     },
+     "effects[2].text_template": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-15",
+   "name": "Songbird",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "+5% Lightning Damage Boost",
+     "text_template": "+5% Lightning Damage Boost",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "+25% Shield Restoration for Blackguard with Lightning Attributes.",
+     "text_template": "+25% Shield Restoration for Blackguard with Lightning Attributes.",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "+10% Lightning Damage Dealt when self Shield is on.",
+     "text_template": "+10% Lightning Damage Dealt when self Shield is on.",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "闪鸣鸟",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 62037,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 62037,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 62038,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 62038,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 62039,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 62039,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-16",
+   "name": "Golden Crow",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "+7% Healing dealt",
+     "text_template": "+7% Healing dealt",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "If the healing target is under [Hypohemia] status, recovery is increased by an additional 25%.",
+     "text_template": "If the healing target is under [Hypohemia] status, recovery is increased by an additional 25%.",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Healing a target also restores the target's shield equal to 10% of healing value.",
+     "text_template": "Healing a target also restores the target's shield equal to 10% of healing value.",
+     "same_in_template": false
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "金乌",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 62041,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 62041,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 62042,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 62042,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 62043,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 62043,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-17",
+   "name": "Skitoceros",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "+50 Initial Rage/Energy",
+     "text_template": "+50 Initial Rage/Energy",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "+5 Rage/Energy Restoration each second",
+     "text_template": "+5 Rage/Energy Restoration each second",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "When shield is on, each Ultimate Skill increases the damage dealt by the next Ultimate Skill by 5%, up to a maximum of 20%, and the damage increase resets to zero when shield reaches 0.",
+     "text_template": "When shield is on, each Ultimate Skill increases the damage dealt by the next Ultimate Skill by 5%, up to a maximum of 20%, and the damage increase resets to zero when shield reaches 0.",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "迅角兽",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 62044,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 62044,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 62045,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 62045,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 62046,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 62046,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "black_stone-18",
+   "name": "Flame Dragon",
+   "effects": [
+    {
+     "pieces": 2,
+     "text": "Fire DMG Boost is increased by 5%.",
+     "text_template": "Fire DMG Boost is increased by 5%.",
+     "same_in_template": true
+    },
+    {
+     "pieces": 4,
+     "text": "Increases Incoming Healing of Fire Type Blackguard by 15%.",
+     "text_template": "Increases Incoming Healing of Fire Type Blackguard by 15%.",
+     "same_in_template": true
+    },
+    {
+     "pieces": 8,
+     "text": "Fire DMG Dealt is increased by 5%, when HP is less than 50%, the Boost effect is increased to 10%.",
+     "text_template": "Fire DMG Dealt is increased by 5%, when HP is less than 50%, the Boost effect is increased to 10%.",
+     "same_in_template": true
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3",
+   "revid": 7194,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7194",
+   "template_source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+   "template_revid": 8770,
+   "i18n": {
+    "name_zh": "炎龙",
+    "sources": {
+     "game_db": 6,
+     "names": 1
+    },
+    "text_sources": {
+     "effects[0].text": {
+      "source": "game_db",
+      "text_id": 69032,
+      "match": "exact"
+     },
+     "effects[0].text_template": {
+      "source": "game_db",
+      "text_id": 69032,
+      "match": "exact"
+     },
+     "effects[1].text": {
+      "source": "game_db",
+      "text_id": 69033,
+      "match": "exact"
+     },
+     "effects[1].text_template": {
+      "source": "game_db",
+      "text_id": 69033,
+      "match": "exact"
+     },
+     "effects[2].text": {
+      "source": "game_db",
+      "text_id": 69034,
+      "match": "exact"
+     },
+     "effects[2].text_template": {
+      "source": "game_db",
+      "text_id": 69034,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  }
+ ]
+}

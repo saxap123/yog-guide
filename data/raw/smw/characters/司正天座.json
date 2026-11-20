@@ -1,0 +1,902 @@
+{
+  "subject": "司正天座",
+  "group": "characters",
+  "page_revid": 9259,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%B8%E6%AD%A3%E5%A4%A9%E5%BA%A7",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%8F%B8%E6%AD%A3%E5%A4%A9%E5%BA%A7&format=json",
+  "fetched_at": "2026-11-20T16:11:25+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "司正天座#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度答案"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "司正天座#0##_QUERY93f336d50530e92e7ccb2a4ac1674cfd"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/11/8/12/48/23/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "含有受损文件链接的页面#14##"
+            },
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/11/8/14/29/58/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "司正天座"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2026年11月2日"
+            }
+          ]
+        },
+        {
+          "property": "主符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逐日者、圣光守护、不灭、魔哮、戏火者、毒牙、雷霆咆哮、万象余烬"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "医者、坚韧、妖精、统帅、盾御、力场、暴怒、回能"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "168cm/49kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "亚克兰斯"
+            }
+          ]
+        },
+        {
+          "property": "合计",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×18000</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×410</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "司正天座"
+            }
+          ]
+        },
+        {
+          "property": "名称1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "初芒"
+            }
+          ]
+        },
+        {
+          "property": "名称10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神耀"
+            }
+          ]
+        },
+        {
+          "property": "名称2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "启明"
+            }
+          ]
+        },
+        {
+          "property": "名称3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凝辉"
+            }
+          ]
+        },
+        {
+          "property": "名称4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "炽华"
+            }
+          ]
+        },
+        {
+          "property": "名称5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逐光"
+            }
+          ]
+        },
+        {
+          "property": "名称6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "明辰"
+            }
+          ]
+        },
+        {
+          "property": "名称7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月白"
+            }
+          ]
+        },
+        {
+          "property": "名称8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "晴晖"
+            }
+          ]
+        },
+        {
+          "property": "名称9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "灼日"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "整洁、公正、拼图、<span style=\"color:red\">（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "守护"
+            }
+          ]
+        },
+        {
+          "property": "备注",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "PVP角色 5+19/6+30起玩"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "露米娜"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "光明"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凝铸日月光华，持续4秒（每层遗物加成额外+1秒），每0.4秒朝周围随机目标发射一道光束，对其造成{3000+500×技能等级}%物理强度的神圣伤害。自身强韧超过100时，每拥有50点强韧都会减少0.05秒光束释放间隔（最低不会少于0.2秒）。"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "展开持续4秒的审判法阵，每隔1秒对法阵范围内的敌人造成{3000+500×技能等级}%物理强度的神圣伤害，并有30%几率对其施加3秒嘲讽；法阵生效期间自身每秒也会受到{6000+1000×天赋等级}%物理强度的治疗效果。"
+            }
+          ]
+        },
+        {
+          "property": "效果1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv1-Lv2</span>物理护甲和法术护甲+3000"
+            }
+          ]
+        },
+        {
+          "property": "效果10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv30</span>每秒恢复自身5%的最大生命值，且【昭如日月】持续期间免疫神圣伤害"
+            }
+          ]
+        },
+        {
+          "property": "效果2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv3-Lv4</span>怒气恢复+10"
+            }
+          ]
+        },
+        {
+          "property": "效果3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv5-Lv6</span>【溯光】的持续时间+5秒"
+            }
+          ]
+        },
+        {
+          "property": "效果4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv7-Lv9</span>强韧+30"
+            }
+          ]
+        },
+        {
+          "property": "效果5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv10-Lv12</span>最大生命值提升30%"
+            }
+          ]
+        },
+        {
+          "property": "效果6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv13-Lv17</span>物理强度增加5%"
+            }
+          ]
+        },
+        {
+          "property": "效果7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv18-Lv19</span>每隔6秒自动释放一次无消耗的【无垢之境】"
+            }
+          ]
+        },
+        {
+          "property": "效果8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv20-Lv24</span>普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv25-Lv29</span>物理伤害减免+5.00%；法术伤害减免+5.00%"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凝聚审判之光，对单个敌人进行三段攻击：每段造成1200%法术强度的神圣伤害，并分别附加1500%/5000%/5000%物理强度的神圣伤害（本技能不会受攻速影响，造成的伤害视为技能伤害。）"
+            }
+          ]
+        },
+        {
+          "property": "消耗1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×640</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1850</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×860</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×2160</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×960</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1290</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×50</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3240</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1800</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10月10日"
+            }
+          ]
+        },
+        {
+          "property": "石像鬼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神使"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "司正天座"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【无垢之境】造成的伤害会附加司正天座最大生命值2%的神圣伤害。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【昭如日月】释放时，自身强韧如果超过100，每拥有50点强韧都会减少光束0.05秒释放间隔（最低不会少于0.2秒）。"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【溯光】每次受伤转化的最大生命值最多（根据技能等级）提升至45%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "队伍中有其他单位死亡时，强韧+25，最多叠加4次，持续15秒。"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "免疫即死效果"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "司正天座造成的所有伤害+10%"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "杂乱、不公的行为、模棱两可"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【无垢之境】生效期间，自身每秒受到的治疗效果提升至{6000+1000×天赋等级}%物理强度。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "自身受到伤害时，{50%×(0.6+0.1×天赋等级)}的伤害会转化为自身的最大生命值，持续10秒。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【昭如日月】发射的光束命中时，有20%几率对敌人叠加1层耀斑，耀斑在5秒或目标死亡后爆发，对目标及其周围的敌人造成司正天座最大生命值{48%+8%×天赋等级}的神圣伤害。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "司正天座的强韧+{6+天赋等级}点。"
+            }
+          ]
+        },
+        {
+          "property": "辅助符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "强健"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "最大生命值提升6%，最大护盾值提升6%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "普通攻击闪避几率提升15%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到的治疗效果提升10%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、体质、最大生命值、怒气、怒气恢复"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "力量、%物理强度、物理抗性、受到法术伤害降低、受到物理伤害降低、暴击伤害减免"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "司正天座"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "司正天座#0##_QUERY93f336d50530e92e7ccb2a4ac1674cfd",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::司正天座]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "司正天座# QUERY93f336d50530e92e7ccb2a4ac1674cfd"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

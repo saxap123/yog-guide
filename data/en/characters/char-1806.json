@@ -1,0 +1,311 @@
+{
+ "id": "char-1806",
+ "name": "Shrouded Slasher",
+ "page_title": "封魔利爪",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Fitch",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "Day 7 of Grain Ear",
+  "birthplace": "Marne, the imperial capital",
+  "height_weight": "147cm/36kg",
+  "specialties": [
+   "stealth reconnaissance",
+   "maintaining weapons and gear",
+   "imitating all kinds of animal calls"
+  ],
+  "likes": [
+   "spacing out",
+   "high places",
+   "candy"
+  ],
+  "dislikes": [
+   "head pats",
+   "being called short",
+   "doggies"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Physical",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Seal Lift",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Temporarily releases the seal on the right hand, unleashing immense magic power for 5 seconds. During this time, Attack Speed 100%, Normal Attack DMG increased by 100%, attack range increased by 2 meters, and cannot be knocked back.",
+   "scaling": [],
+   "name_zh": "封禁解除"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Arcblade",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Dashes to the farthest target, dealing Physical DMG equal to 216% of Physical Power to enemies along the path.",
+   "scaling": [
+    {
+     "percent": "216%",
+     "values": [
+      216.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 216% of Physical Power"
+    }
+   ],
+   "name_zh": "弧光碎影"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Demonic Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking fatal DMG, restores 20% HP, gains 1 second of Invincible, and enters the transformed state for 5 seconds. 1 time per battle",
+   "scaling": [],
+   "name_zh": "凶魔护体"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Ignis Fatuus",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Gain 40% skill dodge rating and 20% dodge rating in her transformed state",
+   "scaling": [],
+   "name_zh": "幻影无形"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "The Final Seal",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increase the Initial Rage of Shrouded Slasher by 300",
+   "scaling": [],
+   "name_zh": "铸锋"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Curse Expansion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "In the transformation state, each time a basic attack hits an enemy, the duration of the transformation state is increased by 0.2 seconds, up to 5 seconds",
+   "scaling": [],
+   "name_zh": "咒缚界限"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "菲奇虽然身材娇小，像一只精致的洋娃娃，但她肃清魔物的能力和任务完成率，在黑卫学院里始终名列前茅，深受同学和老师的信任。然而，恐怕就连诸多学院高层都不知道，菲奇暗中有另一个身份——瓦洛亚帝国「蜘蛛皇帝」多菲内从小培养的密探，用来监视过继皇子加拉哈德，必要时将其抹杀。\n菲奇从幼年开始就接受了严酷的密探训练，表面上则是以帝国军人的身份为掩饰，通过选拔成为了一名预备役黑卫，前往亚克兰斯。然而，在黑卫学院的圣血试炼中，不幸降临在了菲奇身上，圣血融入她的体内时发生了排斥现象，导致她的身体遭到侵蚀。就在菲奇命悬一线时，是加拉哈德将她抱起，跪倒在总指挥的殿门前，恳求克雷蒂安娜拯救菲奇。克雷蒂安娜被加拉哈德的诚意所打动，召集学院中最优秀的医者予以抢救，并将自己的力量注入枷锁，封住了菲奇魔化的右臂，但她的左手最后没能保住，不得不手术截除，换上炼金术士们打造的金属义肢。\n菲奇本人似乎没有被这场意外所打击，依旧是原来那种沉默寡言的模样，但她的内心有没有因为加拉哈德的举动而发生改变，这个谁也不知道，毕竟没有人能看透斗篷下那张淡漠如水的脸。",
+  "deeds": [
+   "“蜘蛛皇帝对于密探有一套专门的培养标准,其中一条就是必须从幼年开始培养,受训年龄不得超过6岁。6岁以上的候选者一律不要,天赋多强都不要,因为6岁以上的孩子已经有了初步的人生观与世界观,不易施加思想干预,难以彻底控制。”——《帝国密卷》",
+   "对于在圣血试炼中失败的预备役黑卫来说，绝大部分人只会生一场病,但也有那么几个不幸的人可能遭到圣血侵蚀，菲奇就是其中之一。\n一旦被圣血侵蚀,死亡概率无限逼近100%，所以很多时候，学院不会去抢救遭到侵蚀的人，因为他们无法扭转必死的结局，延缓死亡只是给对方徒增痛苦而已。\n菲奇能被抢救成功,有非常多的因素――圣血侵蚀最初只出现在身体部分区域、学院医者们的激进治疗方案取得极大成功、菲奇自幼训练铸就了强大的身体素质……\n当然,最重要的还是加拉哈德及时找到克雷蒂安娜，用诚意打动了总指挥,让她同意尝试急救措施,最终诞生了这场医学奇迹。",
+   "以菲奇沉默寡淡的性格,很少有人能成为她的朋友――没有谁能忍受双方相处时一整天不说话。\n所以菲奇刚进入学院的时候总是孤身一人，从来不和任何人交流,即使别人主动与她搭话,她也不怎么搭理。\n但异类有时候也会找到自己的同类，也不知从哪天开始，菲奇经常和斯卡莉特、维娜一起吃饭，这三人彼此之间几乎不说话，但对她们来说,沉默也许才是最好的相处方式。",
+   "作为曾经的蜘蛛密探、后来学院中专精刺杀的黑卫，菲奇的性格非常纯粹，内心只有猎杀目标和任务，但正因为太过纯粹，导致她毫无生活常识……\n菲奇很喜欢吃糖果,这种食物方便携带,可以快速补充体力，但她每次去集市买糖果的时候,都会因为不懂市价,被人狠狠宰钱包。\n据同学们说,每个月发薪水补贴的时候,菲奇到手的路拉很快就会所剩无几,而且那几天露塔晚上睡觉都会莫名奇妙笑醒。",
+   "作为潜行高手,菲奇能借各种手段隐蔽自己的存在,比如模拟各种动物的叫声，让敌人的岗哨放松警惕。\n而在那许许多多的动物里，菲奇最讨厌的动物就是狗狗，这种动物的嗅觉太过灵敏,无论她怎么隐匿自己，都有可能被发觉。\n有一次，菲奇躲在草丛里监视遛狗的加拉哈德,那只狗狗跑着跑着，突然钻进草丛扑中菲奇，舔了她一脸口水。\n从那以后,每次加拉哈德遛狗，菲奇都只能放弃潜行。",
+   "菲奇的右臂在圣血试炼中遭到侵蚀,后来被克雷蒂安娜施加了封印枷锁才得以保全,但这种封印是可以临时解除的。\n每当遇到左手金属利爪无法对抗的敌人，魔化的右臂就会成为菲奇毙敌的杀手锏。\n不过,这种封印不能长时间解除,否则有可能让枷锁失效,侵蚀区域扩散，一旦侵蚀扩散至全身，陷入不可逆的魔化畸变，等待菲奇的只有一个结局――被黑卫们当成魔物肃清。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%B0%81%E9%AD%94%E5%88%A9%E7%88%AA",
+ "revid": 8626,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8626",
+ "rev_timestamp": "2026-02-08T04:17:07Z",
+ "i18n": {
+  "name_zh": "封魔利爪",
+  "sources": {
+   "derived": 2,
+   "game_db": 7,
+   "glossary": 28,
+   "lore": 1,
+   "names": 16,
+   "translated": 14
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 4371,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 2997,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 4372,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.birthday",
+    "zh": "孕穗",
+    "en": "Grain Ear"
+   },
+   {
+    "path": "profile.birthplace",
+    "zh": "马恩",
+    "en": "Marne"
+   }
+  ]
+ }
+}

@@ -1,0 +1,920 @@
+{
+  "subject": "霓裳若仙",
+  "group": "characters",
+  "page_revid": 9124,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%93%E8%A3%B3%E8%8B%A5%E4%BB%99",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9C%93%E8%A3%B3%E8%8B%A5%E4%BB%99&format=json",
+  "fetched_at": "2026-11-20T16:14:03+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "霓裳若仙#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度答案"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "霓裳若仙#0##_QUERYc3628191f15ce07f4e1495a4bb980b01"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/4/27/7/10/37/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "含有受损文件链接的页面#14##"
+            },
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/8/11/3/4/6/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霓裳若仙"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2026年04月27日"
+            }
+          ]
+        },
+        {
+          "property": "专武",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "结灯焕彩"
+            }
+          ]
+        },
+        {
+          "property": "主符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逐日者、残月、雷霆咆哮、魔哮、戏火者、毒牙、万象余烬"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "强袭、敌法、魔导、坚韧、统帅、盾御、风涌、回能"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "158cm/44kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永寂深渊"
+            }
+          ]
+        },
+        {
+          "property": "合计",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×18000</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×410</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霓裳若仙"
+            }
+          ]
+        },
+        {
+          "property": "名称1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "伏夜"
+            }
+          ]
+        },
+        {
+          "property": "名称10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "冥神"
+            }
+          ]
+        },
+        {
+          "property": "名称2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "暗潮"
+            }
+          ]
+        },
+        {
+          "property": "名称3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "囚光"
+            }
+          ]
+        },
+        {
+          "property": "名称4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "晦影"
+            }
+          ]
+        },
+        {
+          "property": "名称5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "蚀暗"
+            }
+          ]
+        },
+        {
+          "property": "名称6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "通幽"
+            }
+          ]
+        },
+        {
+          "property": "名称7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永暝"
+            }
+          ]
+        },
+        {
+          "property": "名称8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "宵烬"
+            }
+          ]
+        },
+        {
+          "property": "名称9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黯域"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "花灯、猜灯谜、莲花、<span style=\"color:red\">玫瑰花束（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "辅助"
+            }
+          ]
+        },
+        {
+          "property": "备注",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "异界后万象换怒法"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "玲珑"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑暗"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对1名敌方单位释放魂灯，持续5秒，持续期间，每0.5秒对该敌人及其附近5米范围内所有敌方单位造成9000%法术强度的黑暗伤害，同时会对队伍中血量最低的黑卫释放不死效果，持续3秒。"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "使所有队友造成的伤害提升15%，物理属性的黑卫受到的增幅效果仅有一半，该效果持续8秒。"
+            }
+          ]
+        },
+        {
+          "property": "效果1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv1-Lv2</span>技能冷却+15.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv30</span>霓裳若仙不会受到沉默和怒气削减效果的影响，且霓裳若仙受到致命伤害时，获得不死状态，持续4秒，并恢复全部【灯影】。(该效果有50秒触发间隔)"
+            }
+          ]
+        },
+        {
+          "property": "效果2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv3-Lv4</span>怒气回复+10"
+            }
+          ]
+        },
+        {
+          "property": "效果3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv5-Lv6</span>【冥火灼魂】有10%的几率会对额外1名敌人释放，且霓裳若仙的感知越高，触发的几率越高；同时【冥火灼魂】造成伤害时获得【灯影】的几率+15%。【烛影破梦】的增伤效果+10%。"
+            }
+          ]
+        },
+        {
+          "property": "效果4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv7-Lv9</span>感知+30"
+            }
+          ]
+        },
+        {
+          "property": "效果5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv10-Lv12</span>源力初始值+50"
+            }
+          ]
+        },
+        {
+          "property": "效果6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv13-Lv17</span>源力每秒恢复+5"
+            }
+          ]
+        },
+        {
+          "property": "效果7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv18-Lv19</span>【冥火灼魂】释放的不死效果持续时间提升100%，且同时获得相同持续时间的【圣恩】状态，该状态下，自身的所有增益效果都不会被驱散。"
+            }
+          ]
+        },
+        {
+          "property": "效果8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv20-Lv24</span>普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv25-Lv29</span>物理伤害减免+5.00%；法术伤害减免+5.00%"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对前方小范围敌人造成5000%法术强度的黑暗伤害。(本技能不会受攻速影响，造成的伤害视为技能伤害）"
+            }
+          ]
+        },
+        {
+          "property": "消耗1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×640</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1850</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×860</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×2160</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×960</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1290</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×50</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3240</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1800</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "7月31日"
+            }
+          ]
+        },
+        {
+          "property": "石像鬼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神使"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霓裳若仙"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【灯影】的存储上限+20，【烛影破梦】的伤害增幅效果+20%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霓裳若仙在场时，敌方黑卫有25%的基础几率无法触发复活效果，霓裳若仙的感知越高，触发的几率越高。"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【不入轮回】触发时的不死效果将对全体队友起效"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霓裳若仙施加不死效果同时，也会给目标添加清醒状态。清醒：不会受到昏迷、冰冻、魅惑、妖术、混乱等效果的影响。"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【不入轮回】触发时，将同时获得相同持续时间的【圣恩】状态，该状态下，自身的所有增益效果都不会被驱散。"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霓裳若仙造成的所有伤害+10%。"
+            }
+          ]
+        },
+        {
+          "property": "裤子萃取",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "元素大师之裤"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "烈火、深水"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "场上有友方单位受到致命伤害时，使其获得5秒不死效果，该效果有30秒触发间隔。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【冥火灼魂】造成伤害提升50%，且【冥火灼魂】造成伤害时，有75%的几率获得2点灯影。最多存储30点。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【烛影破梦】释放同时，给目标施加可吸收6000%法术强度伤害的魔法盾，持续8秒，如果当前拥有【灯影】，则会消耗所有【灯影】，每1点被消耗的【灯影】都会使魔法盾效果提升10%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【冥火灼魂】释放的不死效果会对所有队友起效，且持续时间+2秒。"
+            }
+          ]
+        },
+        {
+          "property": "辅助符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "火咒"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "振奋鼓舞战友，所有友方单位初始怒气增加25点"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "能够轻松快速的释放法术，主动技能冷却时间降低10%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "法术强度提升6%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全抗性提升8点，伤害减免8%"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、技能暴击、%法术强度、暴击倍率、魔力、全伤害类型增幅、法术伤害增幅、冰霜/火焰/闪电伤害增幅（取最高值）、冰霜/火焰/闪电穿透（取最高值）"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "怒气恢复、怒气、CD减少、体质、最大生命值、物理抗性、暴击伤害减免、受到法术伤害降低、受到物理伤害降低"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霓裳若仙"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "霓裳若仙#0##_QUERYc3628191f15ce07f4e1495a4bb980b01",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::霓裳若仙]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "霓裳若仙# QUERYc3628191f15ce07f4e1495a4bb980b01"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,657 @@
+{
+ "id": "char-2450",
+ "name": "司正天座",
+ "page_title": "司正天座",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "露米娜",
+  "gender": "女",
+  "race": "神使",
+  "birthday": "10月10日",
+  "birthplace": "亚克兰斯",
+  "height_weight": "168cm/49kg",
+  "specialties": [
+   "处理公文",
+   "整理归纳"
+  ],
+  "likes": [
+   "整洁",
+   "公正",
+   "拼图",
+   "（羁绊礼物）"
+  ],
+  "dislikes": [
+   "杂乱",
+   "不公的行为",
+   "模棱两可"
+  ],
+  "release_date": "2026年11月2日"
+ },
+ "element": "光明",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "守护",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "医者",
+    "id": "faction-2204"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "妖精",
+    "id": "faction-2208"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "回能",
+    "id": "faction-2215"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "体质",
+   "最大生命值",
+   "怒气",
+   "怒气恢复"
+  ],
+  "secondary": [
+   "力量",
+   "%物理强度",
+   "物理抗性",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "暴击伤害减免"
+  ]
+ },
+ "note": "PVP角色 5+19/6+30起玩",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "天罚",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "凝聚审判之光，对单个敌人进行三段攻击：每段造成1200%法术强度的神圣伤害，并分别附加1500%/5000%/5000%物理强度的神圣伤害（本技能不会受攻速影响，造成的伤害视为技能伤害。）",
+   "scaling": [
+    {
+     "percent": "1200%",
+     "values": [
+      1200.0
+     ],
+     "stat": "法术强度",
+     "effect": "神圣伤害",
+     "text": "1200%法术强度的神圣伤害"
+    },
+    {
+     "percent": "1500%/5000%/5000%",
+     "values": [
+      1500.0,
+      5000.0,
+      5000.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "1500%/5000%/5000%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "昭如日月",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "凝铸日月光华，持续4秒（每层遗物加成额外+1秒），每0.4秒朝周围随机目标发射一道光束，对其造成{3000+500×技能等级}%物理强度的神圣伤害。自身强韧超过100时，每拥有50点强韧都会减少0.05秒光束释放间隔（最低不会少于0.2秒）。",
+   "scaling": []
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "无垢之境",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "40源力",
+   "description": "展开持续4秒的审判法阵，每隔1秒对法阵范围内的敌人造成{3000+500×技能等级}%物理强度的神圣伤害，并有30%几率对其施加3秒嘲讽；法阵生效期间自身每秒也会受到{6000+1000×天赋等级}%物理强度的治疗效果。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "洄游天平",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【无垢之境】生效期间，自身每秒受到的治疗效果提升至{6000+1000×天赋等级}%物理强度。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "溯光",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自身受到伤害时，{50%×(0.6+0.1×天赋等级)}的伤害会转化为自身的最大生命值，持续10秒。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "天光乍破",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【昭如日月】发射的光束命中时，有20%几率对敌人叠加1层耀斑，耀斑在5秒或目标死亡后爆发，对目标及其周围的敌人造成司正天座最大生命值{48%+8%×天赋等级}的神圣伤害。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "赤诚",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "司正天座的强韧+{6+天赋等级}点。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升6%，最大护盾值提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普通攻击闪避几率提升15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延时",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到的治疗效果提升10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "蹲",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder ('waiting'): build not filled in yet",
+   "slots": {
+    "头盔": null,
+    "项链": "辉耀之链",
+    "卡牌": null,
+    "耳坠": "辉耀之环",
+    "衣服": null,
+    "戒指": null,
+    "腰带": null,
+    "圣物": "盾形徽章",
+    "裤子": "死眠短裤",
+    "徽章": "抵抗勋章",
+    "鞋子": null,
+    "副手": null,
+    "武器": "清光昭雪",
+    "护手": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "辉耀之链": "gear-134",
+    "辉耀之环": "gear-138",
+    "盾形徽章": null,
+    "死眠短裤": null,
+    "抵抗勋章": "gear-1204",
+    "清光昭雪": "gear-2465"
+   },
+   "unlinked": {
+    "盾形徽章": {
+     "reason": "game_only",
+     "game_id": "13009",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13009",
+        "field": "name",
+        "text_id": 3933,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3933
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "怒气装备",
+       "司正天座"
+      ]
+     }
+    },
+    "死眠短裤": {
+     "reason": "game_only",
+     "game_id": "95033",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95033",
+        "field": "name",
+        "text_id": 82540,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       82540
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "司正天座"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "圣光守护",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "不灭",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "戏火者",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "万象余烬",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "强健",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【无垢之境】造成的伤害会附加司正天座最大生命值2%的神圣伤害。"
+   },
+   {
+    "rank": 2,
+    "text": "【昭如日月】释放时，自身强韧如果超过100，每拥有50点强韧都会减少光束0.05秒释放间隔（最低不会少于0.2秒）。"
+   },
+   {
+    "rank": 3,
+    "text": "【溯光】每次受伤转化的最大生命值最多（根据技能等级）提升至45%。"
+   },
+   {
+    "rank": 4,
+    "text": "队伍中有其他单位死亡时，强韧+25，最多叠加4次，持续15秒。"
+   },
+   {
+    "rank": 5,
+    "text": "免疫即死效果"
+   },
+   {
+    "rank": 6,
+    "text": "司正天座造成的所有伤害+10%"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "初芒",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "物理护甲和法术护甲+3000"
+   },
+   {
+    "index": 2,
+    "name": "启明",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "怒气恢复+10"
+   },
+   {
+    "index": 3,
+    "name": "凝辉",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【溯光】的持续时间+5秒"
+   },
+   {
+    "index": 4,
+    "name": "炽华",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "强韧+30"
+   },
+   {
+    "index": 5,
+    "name": "逐光",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "最大生命值提升30%"
+   },
+   {
+    "index": 6,
+    "name": "明辰",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "物理强度增加5%"
+   },
+   {
+    "index": 7,
+    "name": "月白",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "每隔6秒自动释放一次无消耗的【无垢之境】"
+   },
+   {
+    "index": 8,
+    "name": "晴晖",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+   },
+   {
+    "index": 9,
+    "name": "灼日",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "物理伤害减免+5.00%；法术伤害减免+5.00%"
+   },
+   {
+    "index": 10,
+    "name": "神耀",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "每秒恢复自身5%的最大生命值，且【昭如日月】持续期间免疫神圣伤害"
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "圣血晶石",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "黑潮勋章",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": "天律奥典",
+   "id": "relic-2457"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%B8%E6%AD%A3%E5%A4%A9%E5%BA%A7",
+ "revid": 9259,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9259",
+ "rev_timestamp": "2026-11-08T13:46:36Z"
+}

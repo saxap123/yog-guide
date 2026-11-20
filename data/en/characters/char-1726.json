@@ -1,0 +1,348 @@
+{
+ "id": "char-1726",
+ "name": "Esoteric Sylph",
+ "page_title": "秘境仙灵",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Barbara",
+  "gender": "Female",
+  "race": "Fairies",
+  "birthday": "--01-16",
+  "birthplace": "the dream world of fairies",
+  "height_weight": "67cm/0-1000kg",
+  "specialties": [
+   "tricks, magic, pranks"
+  ],
+  "likes": [
+   "seeing others scared to tears, fun gifts, training dummies (preferably with Vivian's or Brahindor's face on them)"
+  ],
+  "dislikes": [
+   "serious, dull folks",
+   "oak sticks",
+   "being put in confinement"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Fire",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Summoners Front",
+    "id": "faction-2205"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Fire DMG equal to 200% Spell Power to 1 enemy within 12 meters",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 200% of Spell Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Chakra Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Barbara empowers a friendly Blackguard and instantly causes the Blackguard with the highest Attack Power to gain 1000 Rage",
+   "scaling": [],
+   "name_zh": "充盈蓄能"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Sylph Minions",
+   "cooldown_s": 9,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Summons 2 sylphs to fight for Barbara; their attacks deal Fire DMG equal to 26% Spell Power, and they have 40% of the main body's HP and 100% of its Spell Power. (Max 2 sylphs summoned)",
+   "scaling": [
+    {
+     "percent": "26%",
+     "values": [
+      26.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 26% of Spell Power"
+    },
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "Spell Power",
+     "effect": null,
+     "text": "100% of Spell Power"
+    }
+   ],
+   "name_zh": "妖精帮手"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "To Damage or Heal?",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Balala upgrades her energy transfer spell, converting 150% of the DMG dealt by Normal Attacks into healing, distributed evenly among surviving teammates on the field",
+   "scaling": [],
+   "name_zh": "能量循环"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "6th and 7th Sense",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Balala foresees the future, gaining 15% Dodge (Attack) chance. And when in danger she tries to return to the secret realm: in the near death state, Balala gains a 30% Dodge (Skill) effect.\n[Near death state]: HP below 35%",
+   "scaling": [],
+   "name_zh": "危机感知"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Jackass Prankster",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When casting spells, also applies a Vulnerable curse to the target for 4 seconds; during this time, DMG taken from Barbara's Normal Attacks is increased by 50%",
+   "scaling": [],
+   "name_zh": "整蛊"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Blessing of the Sylph",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Protects the allied hero unit with the highest max HP on the field, granting it 25% Damage Reduction, and every 8 sec heals it for HP equal to 280% Attack Power",
+   "scaling": [
+    {
+     "percent": "280%",
+     "values": [
+      280.0
+     ],
+     "stat": "Attack Power",
+     "effect": "HP",
+     "text": "HP equal to 280% of Attack Power"
+    }
+   ],
+   "name_zh": "仙灵庇护"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "一切的开端如同一个童话故事，在神弃之地执行任务的黑卫约翰遭遇魔物袭击，慌不择路掉下悬崖，醒来后发现自己来到了一个梦幻般的世界。这里的景物都笼罩在幻光之中，花草水木能够对话交流，万事万物都在不稳定中进行着变化，前一刻绽放的花朵，下一刻就可能会把闯入者吞下肚中，但花的肚子里却是一片糖果屋。\n在这里，约翰遇到了一只自称芭芭拉的妖精。芭芭拉可怜兮兮地表示，自己被关在这里好久了，还有一个名叫“薇薇恩”的怪物打算把她吃掉。面对这只娇小可爱的妖精，心软的约翰做了他这辈子最后悔的决定——背着芭芭拉攀上悬崖，逃离崖底幻境。然后，事情开始变得不对劲，约翰接连遭遇怪事——逃离魔物的追赶时，脚下的靴子变成了小蛋糕；撤往亚克兰斯的途中，连续踩了六七个香蕉皮；清洗伤口的军用药物，莫名其妙变成了蜂蜜柠檬水……带芭芭拉回到亚克兰斯后，约翰始终没意识到问题所在，直到有一天，黑卫学院圣血库失窃，真理骑士团在秘库中发现了被变成青蛙的守卫，还有把圣血当饮料、喝完以后趴在地上呼呼大睡的芭芭拉，这才发现一系列怪事的“元凶”。\n虽然圣血对于妖精种族没有任何影响，但按照律令，饮下圣血者，无论是否觉醒，都必须终身服役于亚克兰斯。就这样，芭芭拉再也不能回到曾经的梦幻世界，不过对于这个古灵精怪的小妖精来说，这可太棒了！她可以和魔物玩捉迷藏，被那些受她捉弄的黑卫们追着跑来跑去，还有比这更有意思的事吗？生活如此美好——直到薇薇恩拿着专揍熊孩子的橡木棍，突然出现在亚克兰斯……",
+  "deeds": [
+   "芭芭拉非常喜欢吃乌西洛蒂烤的小甜点，也因此很讨厌经常来抢甜点的戈欧克鞑，怎奈她又打不过这只强壮的哥布林，所以就只能偷偷欺负他的弟弟拉鲁格——比如用魔法把他变成一只仓鼠，然后丢进没有出口的旋转滚轮。",
+   "芭芭拉的身高可以目测，但她的体重至今仍是个谜。\n每次体检，芭芭拉总会在体重秤上蹦来蹦去，要么把自己变成一坨铁块，要么变成一根羽毛,以至于体重数据总在0到1000斤之间浮动。\n“它就从来没好好测过!”医生如此哭诉。",
+   "对于芭芭拉来说,噩梦就是当你唱着魔咒、给催眠的人喂着辣椒、开开心心恶作剧的时候,身后突然出现一个薇薇恩。\n如果说还有更可怕的,那就是旁边站着一个布拉欣多在给薇薇恩递棍子。",
+   "布拉欣多掌握的咒术之中,有不少具备驱逐妖精的效果。自从芭芭拉被此类咒术教训过一次，她就彻底盯上了这个“白胡子老魔鬼”，怎奈术力又比不过这位老法师，那就明着不行来暗的。\n当布拉欣多练完剑,结束一天的辛劳，坐在火炉旁靠着躺椅，美滋滋地喝下加入大量砂糖的糊状浓茶时，猛然发现砂糖被换成了食盐，这一大口下去差点把他当场带走，在医疗室洗胃吐了大半天才缓过来。",
+   "要说谁是芭芭拉最好的玩伴,无疑只有诺莉,她们都对这个世界充满好奇，而且总能想出一些稀奇古怪的点子――比如用魔法修改炼金原料的结构，给不稳定的试管施加剧烈催化咒术，骗维娜用龙息炙烤已经严重过热的反应炉…….\n小精灵与小妖精“联手”的那天,从炼金实验室绽放的烈焰似乎在高呼着:“谁来治治这两个熊孩子!”",
+   "妖精有着独特的生死观,不管以什么形式死亡，都会在花蕾中重生,这导致它们对所谓的“危险”毫无概念。\n尤其是芭芭拉这种幼年妖精,完全不明白滥用魔法会带来什么严重后果,也不明白有些恶作剧对妖精来说是童年游戏，对其他人来说却是灾难。\n而且，妖精的魔法天生带有不可控性,尤其是幼年妖精,它们可能只是想点个火，结果天上掉下来一堆烂苹果。想帮人清理身上沾着的猫毛,结果头发掉光光……各种奇怪的效果都有可能发生。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%A7%98%E5%A2%83%E4%BB%99%E7%81%B5",
+ "revid": 8616,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8616",
+ "rev_timestamp": "2026-02-08T04:10:24Z",
+ "i18n": {
+  "name_zh": "秘境仙灵",
+  "sources": {
+   "derived": 6,
+   "game_db": 4,
+   "glossary": 33,
+   "lore": 1,
+   "names": 15,
+   "translated": 13
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 3052,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.likes[0]",
+    "zh": "薇薇安",
+    "en": "Vivian"
+   },
+   {
+    "path": "skills[3].description",
+    "zh": "芭拉拉",
+    "en": "Balala"
+   },
+   {
+    "path": "skills[4].description",
+    "zh": "芭拉拉",
+    "en": "Balala"
+   },
+   {
+    "path": "skills[4].description",
+    "zh": "芭拉拉",
+    "en": "Balala"
+   }
+  ]
+ }
+}

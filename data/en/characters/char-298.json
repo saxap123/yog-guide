@@ -1,0 +1,383 @@
+{
+ "id": "char-298",
+ "name": "Soul of Divinity",
+ "page_title": "神之嫡子",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Florentia",
+  "gender": "Female",
+  "race": null,
+  "birthday": "？？？",
+  "birthplace": "？？？",
+  "height_weight": "169cm/??kg",
+  "specialties": [
+   "transformation spells",
+   "speaking with snakes",
+   "pranking people"
+  ],
+  "likes": [
+   "Apple",
+   "lively places",
+   "observing humans",
+   "royal chess pieces (bond gift)"
+  ],
+  "dislikes": [
+   "monster",
+   "being told what to do",
+   "being woken from sleep"
+  ],
+  "release_date": "2022-12-01"
+ },
+ "element": "Lightning",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Summoners Front",
+    "id": "faction-2205"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction",
+   "Spell Power %",
+   "Critical Chance (Attack)",
+   "Lightning Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "Attack Speed",
+   "Physical Mastery",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Lightning Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 2,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 75% Attack Power as Lightning DMG twice to enemies in a straight line.",
+   "scaling": [
+    {
+     "percent": "75%",
+     "values": [
+      75.0
+     ],
+     "stat": "Attack Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 75% of Attack Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Dead Light",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Fires a powerful lightning beam forward for 2.1 sec. Enemies within the range of lightning beam will take lightning damage equal to 500% of Spell Power every 0.3 sec.",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 500% of Spell Power"
+    }
+   ],
+   "name_zh": "死光"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Jormungand",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Summons 1 serpent spirit around self (the serpent spirit is not counted as a unit on the field); the serpent spirit deals Lightning DMG equal to 36.8% of Florentia's Spell Power to enemies within 10 meters every 3 seconds. (Serpent spirit DMG counts as Normal Attack DMG, and its attack frequency is affected by Attack Speed)",
+   "scaling": [
+    {
+     "percent": "36.8%",
+     "values": [
+      36.8
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 36.8% of Spell Power"
+    }
+   ],
+   "name_zh": "蛇灵召唤"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Ragnarok",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The upper limit of Jormungand to be summoned +1, and the damage caused by Jormungand is increased by 50%",
+   "scaling": [],
+   "name_zh": "蛇蟒横行"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Inspiring Presence",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Every 1 point of Florentia's Physical Mastery, increases Florentia and Jormungand's Crit Damage by 5%.",
+   "scaling": [],
+   "name_zh": "神子英姿"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Ride Spirit",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases Physical Mastery of the party by 10 points",
+   "scaling": [],
+   "name_zh": "驭灵之力"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Devouring Spirit",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Every points of Florentia's intelligence will convert into 0.1 damage",
+   "scaling": [],
+   "name_zh": "噬灵"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Thunder Python's Crystal Remains",
+   "id": "relic-1958"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《去哪里玩》",
+   "answers": [
+    "去安静的咖啡厅看书吃蛋糕",
+    "去逛逛热闹的集市"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《苹果》",
+   "answers": [
+    "你不是吗",
+    "没错，芙兰幽儿最温柔了"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《神子之吻》",
+   "answers": [
+    "获得专属武器：神子之书"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%A5%9E%E4%B9%8B%E5%AB%A1%E5%AD%90",
+ "revid": 8642,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8642",
+ "rev_timestamp": "2026-02-08T04:30:31Z",
+ "i18n": {
+  "name_zh": "神之嫡子",
+  "sources": {
+   "derived": 4,
+   "game_db": 11,
+   "glossary": 48,
+   "lore": 2,
+   "names": 21,
+   "translated": 10
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 55915,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 55916,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 55917,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 55918,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 55919,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ]
+ }
+}

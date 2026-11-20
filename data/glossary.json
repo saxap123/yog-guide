@@ -1,0 +1,2191 @@
+{
+ "meta": {
+  "description": "game terms used in data/zh -> English",
+  "rule": "exact zhcn match in the game dictionary (source game_db); otherwise our translation (source translated)",
+  "game_snapshot": "2026-09-22",
+  "generated_by": "translate/build_glossary.py",
+  "counts": {
+   "game_db": 241,
+   "translated": 65,
+   "missing": 6
+  }
+ },
+ "terms": {
+  "魔力": {
+   "en": "Intelligence",
+   "source": "game_db",
+   "text_id": 1656,
+   "category": "stat",
+   "count": 1248
+  },
+  "力量": {
+   "en": "Strength",
+   "source": "game_db",
+   "text_id": 215,
+   "category": "stat",
+   "count": 1230
+  },
+  "体质": {
+   "en": "Constitution",
+   "source": "game_db",
+   "text_id": 1657,
+   "category": "stat",
+   "count": 980
+  },
+  "幸运": {
+   "en": "Luck",
+   "source": "game_db",
+   "text_id": 2312,
+   "category": "stat",
+   "count": 410
+  },
+  "法术强度": {
+   "en": "Spell Power",
+   "source": "game_db",
+   "text_id": 256,
+   "category": "stat",
+   "count": 323
+  },
+  "最大生命值": {
+   "en": "Max HP",
+   "source": "game_db",
+   "text_id": 157,
+   "category": "stat",
+   "count": 319
+  },
+  "全伤害类型增幅": {
+   "en": "All Damage Boost",
+   "source": "game_db",
+   "text_id": 2779,
+   "category": "stat",
+   "count": 310
+  },
+  "暴击伤害减免": {
+   "en": "Crit Damage Reduction",
+   "source": "game_db",
+   "text_id": 53987,
+   "category": "stat",
+   "count": 310
+  },
+  "辅助技": {
+   "en": "Support Skill",
+   "source": "game_db",
+   "text_id": 1586,
+   "category": "skill_slot",
+   "count": 296
+  },
+  "通用辅助技": {
+   "en": "General Support Skill",
+   "source": "translated",
+   "note": "wiki label for the shared support skills; game term 辅助技 = Support Skill",
+   "category": "skill_slot",
+   "count": 296
+  },
+  "全伤害类型减免": {
+   "en": "All Damage Reduction",
+   "source": "game_db",
+   "text_id": 2782,
+   "category": "stat",
+   "count": 287
+  },
+  "全属性": {
+   "en": "All Attrs",
+   "source": "game_db",
+   "text_id": 156,
+   "variants": [
+    "All attribute",
+    "Attr"
+   ],
+   "category": "stat",
+   "count": 267
+  },
+  "不可萃取": {
+   "en": "Cannot be extracted",
+   "source": "translated",
+   "category": "item_flag",
+   "count": 230
+  },
+  "受到法术伤害降低": {
+   "en": "Spell Damage Reduction",
+   "source": "game_db",
+   "text_id": 54027,
+   "category": "stat",
+   "count": 220
+  },
+  "意志": {
+   "en": "Willpower",
+   "source": "game_db",
+   "text_id": 1298,
+   "category": "stat",
+   "count": 216
+  },
+  "暴击倍率": {
+   "en": "Crit Damage Boost",
+   "source": "game_db",
+   "text_id": 2776,
+   "category": "stat",
+   "count": 211
+  },
+  "物理强度": {
+   "en": "Physical Power",
+   "source": "game_db",
+   "text_id": 257,
+   "category": "stat",
+   "count": 211
+  },
+  "受到物理伤害降低": {
+   "en": "Physical Damage Reduction",
+   "source": "game_db",
+   "text_id": 54026,
+   "category": "stat",
+   "count": 205
+  },
+  "怒气": {
+   "en": "Rage",
+   "source": "translated",
+   "note": "as in the game's compounds 怒气上限 Max Rage, 初始怒气 Initial Rage",
+   "category": "stat",
+   "count": 167
+  },
+  "物理精通": {
+   "en": "Physical Mastery",
+   "source": "game_db",
+   "text_id": 1940,
+   "category": "stat",
+   "count": 167
+  },
+  "法术精通": {
+   "en": "Spell Mastery",
+   "source": "game_db",
+   "text_id": 1941,
+   "category": "stat",
+   "count": 166
+  },
+  "神话": {
+   "en": "Mythic",
+   "source": "game_db",
+   "text_id": 957,
+   "category": "quality",
+   "count": 158
+  },
+  "必杀技": {
+   "en": "Ultimate Skill",
+   "source": "game_db",
+   "text_id": 1588,
+   "category": "skill_slot",
+   "count": 148
+  },
+  "战斗技": {
+   "en": "Combat Skill",
+   "source": "game_db",
+   "text_id": 1587,
+   "category": "skill_slot",
+   "count": 148
+  },
+  "普攻": {
+   "en": "Normal Attack",
+   "source": "game_db",
+   "text_id": 58714,
+   "category": "skill_slot",
+   "count": 148
+  },
+  "精神精通": {
+   "en": "Mental Mastery",
+   "source": "game_db",
+   "text_id": 1942,
+   "category": "stat",
+   "count": 138
+  },
+  "法术豁免": {
+   "en": "Spell Negation",
+   "source": "game_db",
+   "text_id": 2811,
+   "category": "stat",
+   "count": 137
+  },
+  "物理豁免": {
+   "en": "Physical Negation",
+   "source": "game_db",
+   "text_id": 2810,
+   "category": "stat",
+   "count": 137
+  },
+  "精神豁免": {
+   "en": "Mental Negation",
+   "source": "game_db",
+   "text_id": 2812,
+   "category": "stat",
+   "count": 137
+  },
+  "护手": {
+   "en": "Handguard",
+   "source": "game_db",
+   "text_id": 1955,
+   "category": "slot",
+   "count": 135
+  },
+  "永恒": {
+   "en": "Eternal",
+   "source": "game_db",
+   "text_id": 54542,
+   "category": "quality",
+   "count": 132
+  },
+  "武器": {
+   "en": "Weapon",
+   "source": "game_db",
+   "text_id": 54175,
+   "category": "slot",
+   "count": 127
+  },
+  "命中": {
+   "en": "Accuracy",
+   "source": "game_db",
+   "text_id": 2783,
+   "category": "stat",
+   "count": 124
+  },
+  "腰带": {
+   "en": "Belt",
+   "source": "game_db",
+   "text_id": 1957,
+   "category": "slot",
+   "count": 124
+  },
+  "不可嵌入": {
+   "en": "Cannot be socketed",
+   "source": "translated",
+   "category": "item_flag",
+   "count": 119
+  },
+  "头盔": {
+   "en": "Helmet",
+   "source": "game_db",
+   "text_id": 151,
+   "category": "slot",
+   "count": 115
+  },
+  "徽章": {
+   "en": "Emblem",
+   "source": "game_db",
+   "text_id": 54954,
+   "category": "slot",
+   "count": 114
+  },
+  "衣服": {
+   "en": "Armor",
+   "source": "game_db",
+   "text_id": 54176,
+   "category": "slot",
+   "count": 111
+  },
+  "项链": {
+   "en": "Necklace",
+   "source": "game_db",
+   "text_id": 54173,
+   "category": "slot",
+   "count": 110
+  },
+  "圣物": {
+   "en": "Relic",
+   "source": "game_db",
+   "text_id": 1954,
+   "category": "slot",
+   "count": 109
+  },
+  "裤子": {
+   "en": "Trousers",
+   "source": "game_db",
+   "text_id": 54953,
+   "category": "slot",
+   "count": 106
+  },
+  "鞋子": {
+   "en": "Shoes",
+   "source": "game_db",
+   "text_id": 56906,
+   "category": "slot",
+   "count": 102
+  },
+  "攻击速度": {
+   "en": "Attack Speed",
+   "source": "game_db",
+   "text_id": 2774,
+   "category": "stat",
+   "count": 101
+  },
+  "戒指": {
+   "en": "Ring",
+   "source": "game_db",
+   "text_id": 54174,
+   "category": "slot",
+   "count": 100
+  },
+  "闪电穿透": {
+   "en": "Lightning Penetration",
+   "source": "game_db",
+   "text_id": 2799,
+   "category": "stat",
+   "count": 99
+  },
+  "卡牌": {
+   "en": "Card",
+   "source": "game_db",
+   "text_id": 60582,
+   "category": "slot",
+   "count": 98
+  },
+  "火焰穿透": {
+   "en": "Fire Penetration",
+   "source": "game_db",
+   "text_id": 2797,
+   "category": "stat",
+   "count": 96
+  },
+  "技能暴击": {
+   "en": "Skill Crit",
+   "source": "game_db",
+   "text_id": 1939,
+   "category": "stat",
+   "count": 95
+  },
+  "副手": {
+   "en": "Off-hand",
+   "source": "game_db",
+   "text_id": 1956,
+   "category": "slot",
+   "count": 94
+  },
+  "耳坠": {
+   "en": "Earrings",
+   "source": "game_db",
+   "text_id": 60583,
+   "category": "slot",
+   "count": 90
+  },
+  "最大生命": {
+   "en": "Max HP",
+   "source": "game_db",
+   "text_id": 2772,
+   "category": "in_text",
+   "count": 84
+  },
+  "暴击几率": {
+   "en": "Crit Chance",
+   "source": "translated",
+   "category": "stat",
+   "count": 75
+  },
+  "物理伤害增幅": {
+   "en": "Physical Damage Boost",
+   "source": "game_db",
+   "text_id": 2777,
+   "category": "stat",
+   "count": 75
+  },
+  "辅助技1": {
+   "en": "Support Skill 1",
+   "source": "translated",
+   "category": "skill_slot",
+   "count": 74
+  },
+  "辅助技2": {
+   "en": "Support Skill 2",
+   "source": "translated",
+   "category": "skill_slot",
+   "count": 74
+  },
+  "辅助技3": {
+   "en": "Support Skill 3",
+   "source": "translated",
+   "category": "skill_slot",
+   "count": 74
+  },
+  "辅助技4": {
+   "en": "Support Skill 4",
+   "source": "translated",
+   "category": "skill_slot",
+   "count": 74
+  },
+  "通用辅助技1": {
+   "en": "General Support Skill 1",
+   "source": "translated",
+   "category": "skill_slot",
+   "count": 74
+  },
+  "通用辅助技2": {
+   "en": "General Support Skill 2",
+   "source": "translated",
+   "category": "skill_slot",
+   "count": 74
+  },
+  "通用辅助技3": {
+   "en": "General Support Skill 3",
+   "source": "translated",
+   "category": "skill_slot",
+   "count": 74
+  },
+  "通用辅助技4": {
+   "en": "General Support Skill 4",
+   "source": "translated",
+   "category": "skill_slot",
+   "count": 74
+  },
+  "闪避": {
+   "en": "Dodge (Attack)",
+   "source": "game_db",
+   "text_id": 2784,
+   "category": "stat",
+   "count": 74
+  },
+  "伤害减免": {
+   "en": "Damage Reduction",
+   "source": "game_db",
+   "text_id": 7227,
+   "category": "in_text",
+   "count": 71
+  },
+  "冰霜穿透": {
+   "en": "Frost Penetration",
+   "source": "game_db",
+   "text_id": 2798,
+   "category": "stat",
+   "count": 70
+  },
+  "女": {
+   "en": "Female",
+   "source": "translated",
+   "category": "profile",
+   "count": 70
+  },
+  "提高施加的治疗效果": {
+   "en": "Boost healing effects given to allies",
+   "source": "game_db",
+   "text_id": 53940,
+   "category": "stat",
+   "count": 68
+  },
+  "感电": {
+   "en": "Electrocution",
+   "source": "game_db",
+   "text_id": 7988,
+   "category": "in_text",
+   "count": 67
+  },
+  "冰霜抗性": {
+   "en": "Frost Resistance",
+   "source": "game_db",
+   "text_id": 2803,
+   "category": "stat",
+   "count": 66
+  },
+  "圣血晶石": {
+   "en": "Sanguine Stone",
+   "source": "game_db",
+   "text_id": 60064,
+   "category": "material",
+   "count": 66
+  },
+  "火焰抗性": {
+   "en": "Fire Resistance",
+   "source": "game_db",
+   "text_id": 2802,
+   "category": "stat",
+   "count": 66
+  },
+  "黑潮勋章": {
+   "en": "Blacktide Medal",
+   "source": "game_db",
+   "text_id": 57046,
+   "category": "material",
+   "count": 66
+  },
+  "旅途故事": {
+   "en": "Journey Story",
+   "source": "game_db",
+   "text_id": 66616,
+   "category": "source",
+   "count": 65
+  },
+  "暴击概率": {
+   "en": "Critical Chance (Attack)",
+   "source": "game_db",
+   "text_id": 2775,
+   "category": "stat",
+   "count": 65
+  },
+  "闪电伤害增幅": {
+   "en": "Lightning Damage Boost",
+   "source": "game_db",
+   "text_id": 2791,
+   "category": "stat",
+   "count": 64
+  },
+  "物理抗性": {
+   "en": "Physical Resistance",
+   "source": "game_db",
+   "text_id": 54053,
+   "category": "stat",
+   "count": 63
+  },
+  "追忆之帆-黑渊": {
+   "en": "Paradox Sailing - Dark Abyss",
+   "source": "game_db",
+   "text_id": 75134,
+   "category": "source",
+   "count": 62
+  },
+  "怒气恢复": {
+   "en": "Rage Restore",
+   "source": "game_db",
+   "text_id": 53976,
+   "variants": [
+    "Rage Restored"
+   ],
+   "category": "stat",
+   "count": 60
+  },
+  "感知": {
+   "en": "Perception",
+   "source": "game_db",
+   "text_id": 83603,
+   "category": "in_text",
+   "count": 58
+  },
+  "火焰伤害增幅": {
+   "en": "Fire Damage Boost",
+   "source": "game_db",
+   "text_id": 2789,
+   "category": "stat",
+   "count": 58
+  },
+  "冰霜伤害增幅": {
+   "en": "Frost Damage Boost",
+   "source": "game_db",
+   "text_id": 2790,
+   "category": "stat",
+   "count": 57
+  },
+  "怒气值": {
+   "en": "Rage",
+   "source": "translated",
+   "category": "resource",
+   "count": 55
+  },
+  "闪电抗性": {
+   "en": "Lightning Resistance",
+   "source": "game_db",
+   "text_id": 2804,
+   "category": "stat",
+   "count": 54
+  },
+  "火焰伤害": {
+   "en": "Fire DMG",
+   "source": "game_db",
+   "text_id": 61834,
+   "category": "damage",
+   "count": 52
+  },
+  "专属": {
+   "en": "Exclusive",
+   "source": "game_db",
+   "text_id": 137,
+   "category": "relic_type",
+   "count": 51
+  },
+  "冰霜伤害": {
+   "en": "Frost DMG",
+   "source": "game_db",
+   "text_id": 61833,
+   "category": "damage",
+   "count": 51
+  },
+  "混沌抗性": {
+   "en": "Chaos Resistance",
+   "source": "game_db",
+   "text_id": 2805,
+   "category": "stat",
+   "count": 51
+  },
+  "黑市-长城圣殿": {
+   "en": "Black Market - Great Temple",
+   "source": "translated",
+   "note": "composed of the game terms 黑市, 长城圣殿",
+   "category": "source",
+   "count": 51
+  },
+  "受到昏迷时间下降": {
+   "en": "Reduce Stun Taken",
+   "source": "translated",
+   "note": "pattern of the game's 受到冰冻时间减少 Reduce Freeze Taken",
+   "category": "stat",
+   "count": 49
+  },
+  "物理伤害": {
+   "en": "Physical DMG",
+   "source": "game_db",
+   "text_id": 61830,
+   "category": "damage",
+   "count": 49
+  },
+  "冰冻": {
+   "en": "Freeze",
+   "source": "game_db",
+   "text_id": 8004,
+   "category": "in_text",
+   "count": 47
+  },
+  "CD减少": {
+   "en": "CD Reduction",
+   "source": "game_db",
+   "text_id": 54025,
+   "category": "stat",
+   "count": 46
+  },
+  "受到冰冻时间减少": {
+   "en": "Reduce Freeze Taken",
+   "source": "game_db",
+   "text_id": 1950,
+   "category": "stat",
+   "count": 46
+  },
+  "攻速": {
+   "en": "Attack Speed",
+   "source": "translated",
+   "note": "short for 攻击速度",
+   "category": "stat",
+   "count": 46
+  },
+  "造成冰冻时间增加": {
+   "en": "Extend Freeze Inflicted",
+   "source": "game_db",
+   "text_id": 1949,
+   "category": "stat",
+   "count": 45
+  },
+  "闪电伤害": {
+   "en": "Lightning DMG",
+   "source": "translated",
+   "note": "pattern of the game's 火焰伤害 Fire DMG / 冰霜伤害 Frost DMG",
+   "category": "damage",
+   "count": 45
+  },
+  "护盾": {
+   "en": "Shield",
+   "source": "game_db",
+   "text_id": 260,
+   "category": "stat",
+   "count": 44
+  },
+  "造成昏迷时间提升": {
+   "en": "Extend Stun Inflicted",
+   "source": "game_db",
+   "text_id": 1947,
+   "category": "stat",
+   "count": 43
+  },
+  "法术伤害增幅": {
+   "en": "Spell Damage Boost",
+   "source": "game_db",
+   "text_id": 2778,
+   "category": "stat",
+   "count": 42
+  },
+  "无敌": {
+   "en": "Invincible",
+   "source": "game_db",
+   "text_id": 8019,
+   "category": "in_text",
+   "count": 41
+  },
+  "技能冷却": {
+   "en": "Skill Cooldown",
+   "source": "game_db",
+   "text_id": 53942,
+   "category": "in_text",
+   "count": 40
+  },
+  "护盾值": {
+   "en": "Shield value",
+   "source": "game_db",
+   "text_id": 1297,
+   "category": "in_text",
+   "count": 39
+  },
+  "其他": {
+   "en": "Others",
+   "source": "game_db",
+   "text_id": 86265,
+   "category": "faction_type",
+   "count": 38
+  },
+  "狂怒球": {
+   "en": "Fury Orb",
+   "source": "game_db",
+   "text_id": 56425,
+   "category": "in_text",
+   "count": 32
+  },
+  "生命": {
+   "en": "HP",
+   "source": "game_db",
+   "text_id": 253,
+   "variants": [
+    "Vitality"
+   ],
+   "category": "stat",
+   "count": 32
+  },
+  "技能伤害": {
+   "en": "Skill DMG",
+   "source": "game_db",
+   "text_id": 61831,
+   "category": "in_text",
+   "count": 30
+  },
+  "魅惑": {
+   "en": "Charmed",
+   "source": "game_db",
+   "text_id": 61996,
+   "category": "in_text",
+   "count": 30
+  },
+  "最大护盾值": {
+   "en": "Maximum Shield",
+   "source": "game_db",
+   "text_id": 54052,
+   "category": "stat",
+   "count": 29
+  },
+  "冰霜球": {
+   "en": "Frost Orb",
+   "source": "game_db",
+   "text_id": 56424,
+   "category": "in_text",
+   "count": 28
+  },
+  "驱散": {
+   "en": "dispel",
+   "source": "translated",
+   "category": "in_text",
+   "count": 28
+  },
+  "人类": {
+   "en": "Human",
+   "source": "game_db",
+   "text_id": 59868,
+   "category": "profile",
+   "count": 27
+  },
+  "冰霜传统": {
+   "en": null,
+   "source": null,
+   "status": "unverified",
+   "note": "probably a typo on the wiki; not corrected",
+   "possible_match": "冰霜穿透",
+   "category": "stat",
+   "count": 27
+  },
+  "金币获取提升": {
+   "en": "Gold Gain Boost",
+   "source": "translated",
+   "category": "stat",
+   "count": 27
+  },
+  "黑卫好感度": {
+   "en": "Favorability",
+   "source": "game_db",
+   "text_id": 60913,
+   "category": "source",
+   "count": 27
+  },
+  "勇猛": {
+   "en": "Bravery",
+   "source": "game_db",
+   "text_id": 83602,
+   "category": "in_text",
+   "count": 26
+  },
+  "嘲讽": {
+   "en": "Taunt",
+   "source": "game_db",
+   "text_id": 61977,
+   "category": "in_text",
+   "count": 26
+  },
+  "主线-困难难度": {
+   "en": "Main - Hard Diff",
+   "source": "game_db",
+   "text_id": 60910,
+   "category": "source",
+   "count": 25
+  },
+  "冰缓": {
+   "en": "Chill",
+   "source": "game_db",
+   "text_id": 7989,
+   "category": "in_text",
+   "count": 25
+  },
+  "强韧": {
+   "en": "Tenacity",
+   "source": "game_db",
+   "text_id": 83604,
+   "category": "in_text",
+   "count": 25
+  },
+  "法术伤害": {
+   "en": "Spell DMG",
+   "source": "translated",
+   "note": "game: 法术伤害增幅 Spell Damage Boost",
+   "category": "damage",
+   "count": 23
+  },
+  "能量球": {
+   "en": "Energy Orb",
+   "source": "game_db",
+   "text_id": 56357,
+   "category": "in_text",
+   "count": 23
+  },
+  "主线-普通难度": {
+   "en": "Main - Normal Diff",
+   "source": "game_db",
+   "text_id": 60909,
+   "category": "source",
+   "count": 22
+  },
+  "元素穿透": {
+   "en": "Elemental Penetration",
+   "source": "game_db",
+   "text_id": 2796,
+   "category": "stat",
+   "count": 22
+  },
+  "最大护盾": {
+   "en": "Max Shield",
+   "source": "game_db",
+   "text_id": 2773,
+   "category": "in_text",
+   "count": 22
+  },
+  "濒死": {
+   "en": "near death",
+   "source": "translated",
+   "category": "in_text",
+   "count": 22
+  },
+  "生命恢复": {
+   "en": "HP Recovery",
+   "source": "game_db",
+   "text_id": 53973,
+   "category": "stat",
+   "count": 22
+  },
+  "虚弱": {
+   "en": "Weak",
+   "source": "game_db",
+   "text_id": 7997,
+   "category": "in_text",
+   "count": 22
+  },
+  "普攻伤害": {
+   "en": "Normal Attack DMG",
+   "source": "translated",
+   "category": "damage",
+   "count": 21
+  },
+  "主符文": {
+   "en": "Main Rune",
+   "source": "game_db",
+   "text_id": 58486,
+   "category": "rune_type",
+   "count": 20
+  },
+  "吸血抗性": {
+   "en": "Life Steal Resistance",
+   "source": "game_db",
+   "text_id": 53944,
+   "category": "stat",
+   "count": 20
+  },
+  "基础复活率": {
+   "en": "Base Revival Chance",
+   "source": "game_db",
+   "text_id": 54001,
+   "category": "stat",
+   "count": 20
+  },
+  "点燃": {
+   "en": "Ignition",
+   "source": "game_db",
+   "text_id": 7996,
+   "category": "in_text",
+   "count": 20
+  },
+  "主线-黑潮难度": {
+   "en": "Main - Blacktide Diff",
+   "source": "game_db",
+   "text_id": 60911,
+   "category": "source",
+   "count": 19
+  },
+  "召唤物": {
+   "en": "summon",
+   "source": "translated",
+   "note": "as in the game's English blood-rank text of 飞焰铃舞",
+   "category": "in_text",
+   "count": 19
+  },
+  "冰霜": {
+   "en": "Frost",
+   "source": "game_db",
+   "text_id": 57013,
+   "category": "element",
+   "count": 18
+  },
+  "暴击抗性": {
+   "en": "Crit Resistance (Attack)",
+   "source": "game_db",
+   "text_id": 53986,
+   "category": "stat",
+   "count": 18
+  },
+  "火焰": {
+   "en": "Fire",
+   "source": "game_db",
+   "text_id": 57015,
+   "category": "element",
+   "count": 18
+  },
+  "物理": {
+   "en": "Physical",
+   "source": "game_db",
+   "text_id": 57012,
+   "category": "element",
+   "count": 18
+  },
+  "全伤害减免": {
+   "en": "Damage Reduction",
+   "source": "game_db",
+   "text_id": 54028,
+   "category": "in_text",
+   "count": 17
+  },
+  "暴击伤害": {
+   "en": "Crit Dmg",
+   "source": "game_db",
+   "text_id": 55358,
+   "category": "in_text",
+   "count": 17
+  },
+  "勇者试炼": {
+   "en": "Brave Trial",
+   "source": "game_db",
+   "text_id": 56860,
+   "category": "source",
+   "count": 16
+  },
+  "迷雾山脉通关": {
+   "en": "Complete Misty Mountains",
+   "source": "game_db",
+   "text_id": 60959,
+   "category": "source",
+   "count": 16
+  },
+  "闪电": {
+   "en": "Lightning",
+   "source": "game_db",
+   "text_id": 57014,
+   "category": "element",
+   "count": 16
+  },
+  "全元素抗性": {
+   "en": "All Elemental Resistance",
+   "source": "game_db",
+   "text_id": 2801,
+   "category": "stat",
+   "count": 15
+  },
+  "怒气回复": {
+   "en": "Rage Recovery",
+   "source": "game_db",
+   "text_id": 53938,
+   "category": "stat",
+   "count": 15
+  },
+  "振奋": {
+   "en": "Excited",
+   "source": "game_db",
+   "text_id": 7987,
+   "category": "in_text",
+   "count": 15
+  },
+  "沉默": {
+   "en": "Silence",
+   "source": "game_db",
+   "text_id": 64137,
+   "category": "in_text",
+   "count": 15
+  },
+  "混沌伤害增幅": {
+   "en": "Chaos Damage Boost",
+   "source": "game_db",
+   "text_id": 2792,
+   "category": "stat",
+   "count": 15
+  },
+  "狂暴": {
+   "en": "Violent",
+   "source": "game_db",
+   "text_id": 8012,
+   "category": "in_text",
+   "count": 15
+  },
+  "生命值": {
+   "en": "HP",
+   "source": "game_db",
+   "text_id": 1352,
+   "category": "damage",
+   "count": 15
+  },
+  "鼓舞": {
+   "en": "Inspired",
+   "source": "game_db",
+   "text_id": 7991,
+   "category": "in_text",
+   "count": 15
+  },
+  "永冬之地": {
+   "en": "Everwinter Land",
+   "source": "game_db",
+   "text_id": 365,
+   "category": "source",
+   "count": 14
+  },
+  "混沌穿透": {
+   "en": "Chaos Penetration",
+   "source": "game_db",
+   "text_id": 2800,
+   "category": "stat",
+   "count": 14
+  },
+  "回避": {
+   "en": "Dodge (Skill)",
+   "source": "game_db",
+   "text_id": 53943,
+   "category": "stat",
+   "count": 13
+  },
+  "混乱": {
+   "en": "Confused",
+   "source": "game_db",
+   "text_id": 74912,
+   "category": "in_text",
+   "count": 13
+  },
+  "神圣伤害": {
+   "en": "Holy DMG",
+   "source": "translated",
+   "note": "game: 神圣伤害增幅 Holy Damage Boost",
+   "category": "damage",
+   "count": 13
+  },
+  "攻击力": {
+   "en": "Attack Power",
+   "source": "game_db",
+   "text_id": 158,
+   "category": "stat",
+   "count": 12
+  },
+  "法术伤害减免": {
+   "en": "Spell Damage Reduction",
+   "source": "game_db",
+   "text_id": 2781,
+   "category": "in_text",
+   "count": 12
+  },
+  "源力": {
+   "en": "Force",
+   "source": "game_db",
+   "text_id": 83677,
+   "category": "resource",
+   "count": 12
+  },
+  "物理伤害减免": {
+   "en": "Physical Damage Reduction",
+   "source": "game_db",
+   "text_id": 2780,
+   "category": "in_text",
+   "count": 12
+  },
+  "迷雾山脉": {
+   "en": "Misty Mountains",
+   "source": "game_db",
+   "text_id": 380,
+   "category": "source",
+   "count": 12
+  },
+  "忘却迷境": {
+   "en": "Oblivion Places",
+   "source": "game_db",
+   "text_id": 60085,
+   "category": "source",
+   "count": 11
+  },
+  "忘却迷境-凛风雪原精英": {
+   "en": "Howling Snowfield Elites",
+   "source": "game_db",
+   "text_id": 60970,
+   "category": "source",
+   "count": 11
+  },
+  "忘却迷境-封印深处精英": {
+   "en": "Complete [Deep in the Seal]",
+   "source": "game_db",
+   "text_id": 63287,
+   "category": "source",
+   "count": 11
+  },
+  "忘却迷境-至冬宫殿精英": {
+   "en": "Winter Palace Elites",
+   "source": "game_db",
+   "text_id": 62677,
+   "category": "source",
+   "count": 11
+  },
+  "混沌伤害": {
+   "en": "Chaos DMG",
+   "source": "translated",
+   "note": "game: 混沌伤害增幅 Chaos Damage Boost",
+   "category": "damage",
+   "count": 11
+  },
+  "符文红": {
+   "en": "Rune Red",
+   "source": "translated",
+   "category": "rune_colour",
+   "count": 11
+  },
+  "符文绿": {
+   "en": "Rune Green",
+   "source": "translated",
+   "category": "rune_colour",
+   "count": 11
+  },
+  "符文蓝": {
+   "en": "Rune Blue",
+   "source": "translated",
+   "category": "rune_colour",
+   "count": 11
+  },
+  "中毒": {
+   "en": "Poisoning",
+   "source": "game_db",
+   "text_id": 8029,
+   "category": "in_text",
+   "count": 10
+  },
+  "帆船": {
+   "en": "Sailing",
+   "source": "translated",
+   "note": "game mode, as in the game's 追忆之帆 Paradox Sailing",
+   "category": "in_text",
+   "count": 10
+  },
+  "忘却迷境-至冬宫殿通关": {
+   "en": "Complete Winter Palace",
+   "source": "game_db",
+   "text_id": 62676,
+   "category": "source",
+   "count": 10
+  },
+  "锻造台": {
+   "en": "Forging Table",
+   "source": "game_db",
+   "text_id": 7327,
+   "category": "source",
+   "count": 10
+  },
+  "霜蚀": {
+   "en": "Frost Erosion",
+   "source": "game_db",
+   "text_id": 79548,
+   "category": "in_text",
+   "count": 10
+  },
+  "吸血": {
+   "en": "Life Steal",
+   "source": "game_db",
+   "text_id": 6127,
+   "category": "stat",
+   "count": 9
+  },
+  "忘却迷境-封印深处通关": {
+   "en": "[Deep in the Seal] Elites",
+   "source": "game_db",
+   "text_id": 63288,
+   "category": "source",
+   "count": 9
+  },
+  "技能暴击抗性": {
+   "en": "Crit Resistance (Skill)",
+   "source": "game_db",
+   "text_id": 54959,
+   "category": "in_text",
+   "count": 9
+  },
+  "精铸符文宝箱II": {
+   "en": "Precision Cast Rune Chest II",
+   "source": "game_db",
+   "text_id": 62244,
+   "category": "source",
+   "count": 9
+  },
+  "通用": {
+   "en": "Universal",
+   "source": "game_db",
+   "text_id": 130,
+   "category": "relic_type",
+   "count": 9
+  },
+  "免疫冰冻": {
+   "en": "Freeze Immunity",
+   "source": "game_db",
+   "text_id": 54087,
+   "category": "in_text",
+   "count": 8
+  },
+  "剑元": {
+   "en": "Sword Essence",
+   "source": "game_db",
+   "text_id": 90267,
+   "category": "in_text",
+   "count": 8
+  },
+  "可萃取": {
+   "en": "Can be extracted",
+   "source": "translated",
+   "category": "item_flag",
+   "count": 8
+  },
+  "史诗": {
+   "en": "Epic",
+   "source": "game_db",
+   "text_id": 142,
+   "category": "quality",
+   "count": 8
+  },
+  "复活几率": {
+   "en": "Revival Rate",
+   "source": "game_db",
+   "text_id": 55681,
+   "category": "in_text",
+   "count": 8
+  },
+  "指挥值": {
+   "en": "Command Point",
+   "source": "game_db",
+   "text_id": 76974,
+   "category": "in_text",
+   "count": 8
+  },
+  "旅途": {
+   "en": "Journey",
+   "source": "translated",
+   "note": "game mode, as in the game's 旅途故事 Journey Story",
+   "category": "in_text",
+   "count": 8
+  },
+  "旧日之门": {
+   "en": "Primeval Gates",
+   "source": "game_db",
+   "text_id": 356,
+   "category": "source",
+   "count": 8
+  },
+  "暴击率": {
+   "en": "Crit%",
+   "source": "game_db",
+   "text_id": 6003,
+   "category": "in_text",
+   "count": 8
+  },
+  "灯影": {
+   "en": "Lamplight",
+   "source": "game_db",
+   "text_id": 87304,
+   "category": "in_text",
+   "count": 8
+  },
+  "低迷": {
+   "en": "Enfeebled",
+   "source": "game_db",
+   "text_id": 83937,
+   "category": "in_text",
+   "count": 7
+  },
+  "初始怒气": {
+   "en": "Initial Rage",
+   "source": "game_db",
+   "text_id": 202,
+   "category": "stat",
+   "count": 7
+  },
+  "基础": {
+   "en": "Basic",
+   "source": "game_db",
+   "text_id": 61267,
+   "category": "faction_type",
+   "count": 7
+  },
+  "技能暴击概率": {
+   "en": "Critical Chance (Skill)",
+   "source": "game_db",
+   "text_id": 2813,
+   "category": "in_text",
+   "count": 7
+  },
+  "永冬之地（黑潮难度23层以上）": {
+   "en": "Everwinter Land (Blacktide difficulty, floor 23 and above)",
+   "source": "translated",
+   "category": "source",
+   "count": 7
+  },
+  "血阶": {
+   "en": "Sanguine",
+   "source": "game_db",
+   "text_id": 60108,
+   "category": "in_text",
+   "count": 7
+  },
+  "辅助符文": {
+   "en": "Sub Rune",
+   "source": "game_db",
+   "text_id": 58487,
+   "category": "rune_type",
+   "count": 7
+  },
+  "伤害": {
+   "en": "DMG",
+   "source": "game_db",
+   "text_id": 6002,
+   "category": "damage",
+   "count": 6
+  },
+  "前锋战格": {
+   "en": "Striker battle grid",
+   "source": "translated",
+   "note": "前锋 as in the game's 前锋阵线 Striker Front",
+   "category": "battle_grid",
+   "count": 6
+  },
+  "普攻暴击抗性": {
+   "en": "Crit Resistance (Attack)",
+   "source": "game_db",
+   "text_id": 56236,
+   "category": "in_text",
+   "count": 6
+  },
+  "格挡值": {
+   "en": "Block Value",
+   "source": "game_db",
+   "text_id": 2786,
+   "category": "stat",
+   "count": 6
+  },
+  "物理穿透": {
+   "en": "Physical Penetration",
+   "source": "game_db",
+   "text_id": 54054,
+   "category": "stat",
+   "count": 6
+  },
+  "神圣印记": {
+   "en": "Divine Seal",
+   "source": "game_db",
+   "text_id": 8007,
+   "category": "in_text",
+   "count": 6
+  },
+  "精铸符文宝箱I": {
+   "en": "Precision Cast Rune Chest I",
+   "source": "translated",
+   "note": "pattern of the game's 精铸符文宝箱II",
+   "category": "source",
+   "count": 6
+  },
+  "野兽血裔": {
+   "en": "Beast Blood",
+   "source": "game_db",
+   "text_id": 59866,
+   "category": "profile",
+   "count": 6
+  },
+  "铸魂": {
+   "en": "Casting",
+   "source": "game_db",
+   "text_id": 59878,
+   "category": "source",
+   "count": 6
+  },
+  "龙裔": {
+   "en": "Dragonborn",
+   "source": "game_db",
+   "text_id": 59869,
+   "category": "profile",
+   "count": 6
+  },
+  "妖精": {
+   "en": "Fairies",
+   "source": "game_db",
+   "text_id": 55289,
+   "variants": [
+    "Fairy"
+   ],
+   "category": "profile",
+   "count": 5
+  },
+  "守护战格": {
+   "en": "Guard battle grid",
+   "source": "translated",
+   "note": "守护 as in the game's tpl_typeDes 守护 Guard",
+   "category": "battle_grid",
+   "count": 5
+  },
+  "神使": {
+   "en": "Light Envoy",
+   "source": "game_db",
+   "text_id": 80994,
+   "category": "profile",
+   "count": 5
+  },
+  "神格": {
+   "en": "Divinity",
+   "source": "game_db",
+   "text_id": 81398,
+   "category": "in_text",
+   "count": 5
+  },
+  "秘术战格": {
+   "en": "Mystic battle grid",
+   "source": "translated",
+   "note": "秘术 as in the game's tpl_typeDes 秘术 Mystic",
+   "category": "battle_grid",
+   "count": 5
+  },
+  "结界": {
+   "en": "barrier",
+   "source": "translated",
+   "note": "as in the game's English skill text of 八方火舞",
+   "category": "in_text",
+   "count": 5
+  },
+  "装备碎片合成": {
+   "en": "Fragment Fusion",
+   "source": "game_db",
+   "text_id": 60914,
+   "category": "source",
+   "count": 5
+  },
+  "迟缓": {
+   "en": "Slow",
+   "source": "game_db",
+   "text_id": 83568,
+   "category": "in_text",
+   "count": 5
+  },
+  "黑暗伤害": {
+   "en": "Dark DMG",
+   "source": "translated",
+   "note": "game: 黑暗 Dark",
+   "category": "damage",
+   "count": 5
+  },
+  "傀儡": {
+   "en": "puppet",
+   "source": "translated",
+   "note": "as in the game's English skill text of 火灵双生",
+   "category": "in_text",
+   "count": 4
+  },
+  "光明": {
+   "en": "Light",
+   "source": "game_db",
+   "text_id": 81627,
+   "category": "element",
+   "count": 4
+  },
+  "全伤害伤害增幅": {
+   "en": null,
+   "source": null,
+   "status": "unverified",
+   "note": "probably a typo on the wiki; not corrected",
+   "possible_match": "全伤害类型增幅",
+   "category": "stat",
+   "count": 4
+  },
+  "反击螺旋": {
+   "en": "Counter Helix",
+   "source": "game_db",
+   "text_id": 78467,
+   "category": "in_text",
+   "count": 4
+  },
+  "忘却迷境-凛风雪原通关": {
+   "en": "Complete Howling Snowfield",
+   "source": "game_db",
+   "text_id": 60912,
+   "category": "source",
+   "count": 4
+  },
+  "未知": {
+   "en": "Unknown",
+   "source": "game_db",
+   "text_id": 83397,
+   "category": "profile",
+   "count": 4
+  },
+  "法术护甲": {
+   "en": "Spell Armor",
+   "source": "game_db",
+   "text_id": 2788,
+   "category": "in_text",
+   "count": 4
+  },
+  "生命之种": {
+   "en": "Life Seed",
+   "source": "game_db",
+   "text_id": 75523,
+   "category": "in_text",
+   "count": 4
+  },
+  "累充礼包": {
+   "en": "Cumulative top-up pack",
+   "source": "translated",
+   "category": "source",
+   "count": 4
+  },
+  "迷雾山脉-时空幻境": {
+   "en": "Misty Mountains - Time Rift",
+   "source": "game_db",
+   "text_id": 73640,
+   "category": "source",
+   "count": 4
+  },
+  "魅惑印记": {
+   "en": "Charmed Mark",
+   "source": "game_db",
+   "text_id": 76456,
+   "category": "in_text",
+   "count": 4
+  },
+  "黑市-迷雾商铺": {
+   "en": "Black Market - Misty Shop",
+   "source": "translated",
+   "note": "composed of the game terms 黑市, 迷雾商铺",
+   "category": "source",
+   "count": 4
+  },
+  "黑渊商铺兑换": {
+   "en": "Dark Abyss Shop Exchange",
+   "source": "game_db",
+   "text_id": 78557,
+   "category": "source",
+   "count": 4
+  },
+  "【异界迷踪-鹰之国度】获得": {
+   "en": "Obtained from [Otherworld Maze - Eagle Kingdom]",
+   "source": "translated",
+   "category": "source",
+   "count": 3
+  },
+  "人造生物": {
+   "en": "Artificial Being",
+   "source": "game_db",
+   "text_id": 59867,
+   "category": "profile",
+   "count": 3
+  },
+  "免疫击晕": {
+   "en": "Stun Immunity",
+   "source": "game_db",
+   "text_id": 54088,
+   "category": "in_text",
+   "count": 3
+  },
+  "太古": {
+   "en": "Archaic",
+   "source": "game_db",
+   "text_id": 82591,
+   "category": "quality",
+   "count": 3
+  },
+  "怒气上限": {
+   "en": "Max Rage",
+   "source": "game_db",
+   "text_id": 53984,
+   "category": "in_text",
+   "count": 3
+  },
+  "易伤": {
+   "en": "Vulnerable",
+   "source": "game_db",
+   "text_id": 7992,
+   "category": "in_text",
+   "count": 3
+  },
+  "普通商铺": {
+   "en": "Market",
+   "source": "game_db",
+   "text_id": 357,
+   "category": "source",
+   "count": 3
+  },
+  "暗蚀引力": {
+   "en": "Umbral Gravity",
+   "source": "game_db",
+   "text_id": 79921,
+   "category": "in_text",
+   "count": 3
+  },
+  "朱焰": {
+   "en": "Flameblade",
+   "source": "game_db",
+   "text_id": 82360,
+   "category": "in_text",
+   "count": 3
+  },
+  "流血": {
+   "en": "Bleed",
+   "source": "game_db",
+   "text_id": 7993,
+   "category": "in_text",
+   "count": 3
+  },
+  "物理护甲": {
+   "en": "Physical Armor",
+   "source": "game_db",
+   "text_id": 2787,
+   "category": "in_text",
+   "count": 3
+  },
+  "电磁护盾": {
+   "en": "Energy Shield",
+   "source": "game_db",
+   "text_id": 8006,
+   "category": "in_text",
+   "count": 3
+  },
+  "破甲": {
+   "en": "Armour Break",
+   "source": "game_db",
+   "text_id": 73683,
+   "category": "in_text",
+   "count": 3
+  },
+  "精灵": {
+   "en": "Elf",
+   "source": "game_db",
+   "text_id": 59872,
+   "category": "profile",
+   "count": 3
+  },
+  "脱力": {
+   "en": "Take off the force",
+   "source": "game_db",
+   "text_id": 7998,
+   "category": "in_text",
+   "count": 3
+  },
+  "衰退": {
+   "en": "Weaken",
+   "source": "game_db",
+   "text_id": 84182,
+   "category": "in_text",
+   "count": 3
+  },
+  "迷雾山脉501-550层通关": {
+   "en": "Complete Misty Mountains floors 501-550",
+   "source": "translated",
+   "note": "game: 迷雾山脉通关 Complete Misty Mountains",
+   "category": "source",
+   "count": 3
+  },
+  "迷雾山脉551-600层通关": {
+   "en": "Complete Misty Mountains floors 551-600",
+   "source": "translated",
+   "category": "source",
+   "count": 3
+  },
+  "麻木": {
+   "en": "Numb",
+   "source": "game_db",
+   "text_id": 83938,
+   "category": "in_text",
+   "count": 3
+  },
+  "冰霜/火焰/闪电伤害增幅": {
+   "en": "Frost/Fire/Lightning Damage Boost",
+   "source": "translated",
+   "note": "composed of the game terms",
+   "category": "stat",
+   "count": 2
+  },
+  "冰霜/火焰/闪电穿透": {
+   "en": "Frost/Fire/Lightning Penetration",
+   "source": "translated",
+   "note": "composed of the game terms",
+   "category": "stat",
+   "count": 2
+  },
+  "受到治疗效果": {
+   "en": "Healing Received Boost",
+   "source": "game_db",
+   "text_id": 53941,
+   "category": "stat",
+   "count": 2
+  },
+  "圣恩": {
+   "en": "Divine Grace",
+   "source": "game_db",
+   "text_id": 87803,
+   "category": "in_text",
+   "count": 2
+  },
+  "暴击减免": {
+   "en": "Crit Reduction",
+   "source": "translated",
+   "category": "stat",
+   "count": 2
+  },
+  "物理破甲": {
+   "en": "Physical Armor Break",
+   "source": "game_db",
+   "text_id": 81620,
+   "category": "in_text",
+   "count": 2
+  },
+  "狂怒球数量上限": {
+   "en": "Max Fury Orb",
+   "source": "game_db",
+   "text_id": 56441,
+   "category": "in_text",
+   "count": 2
+  },
+  "生命回复": {
+   "en": "Health Regeneration",
+   "source": "game_db",
+   "text_id": 73630,
+   "category": "in_text",
+   "count": 2
+  },
+  "男": {
+   "en": "Male",
+   "source": "translated",
+   "category": "profile",
+   "count": 2
+  },
+  "目盲": {
+   "en": "Blind",
+   "source": "game_db",
+   "text_id": 8009,
+   "category": "in_text",
+   "count": 2
+  },
+  "累计充值": {
+   "en": "Bounties",
+   "source": "game_db",
+   "text_id": 4451,
+   "category": "source",
+   "count": 2
+  },
+  "绝对伤害": {
+   "en": "Absolute DMG",
+   "source": "translated",
+   "category": "damage",
+   "count": 2
+  },
+  "绝对零度": {
+   "en": "Absolute Zero",
+   "source": "game_db",
+   "text_id": 2196,
+   "category": "in_text",
+   "count": 2
+  },
+  "羁绊": {
+   "en": "Bonds",
+   "source": "game_db",
+   "text_id": 75483,
+   "category": "source",
+   "count": 2
+  },
+  "翼人族": {
+   "en": "Seraphim",
+   "source": "game_db",
+   "text_id": 59873,
+   "category": "profile",
+   "count": 2
+  },
+  "迷雾商铺": {
+   "en": "Misty Shop",
+   "source": "game_db",
+   "text_id": 1012,
+   "category": "source",
+   "count": 2
+  },
+  "雷电伤害": {
+   "en": "Lightning DMG",
+   "source": "translated",
+   "note": "wiki wording; the game's element is 闪电 Lightning",
+   "category": "damage",
+   "count": 2
+  },
+  "雷痕": {
+   "en": "Thunder Mark",
+   "source": "game_db",
+   "text_id": 91219,
+   "category": "in_text",
+   "count": 2
+  },
+  "黑暗": {
+   "en": "Dark",
+   "source": "game_db",
+   "text_id": 85844,
+   "category": "element",
+   "count": 2
+  },
+  "10级羁绊等级": {
+   "en": "Bond level 10",
+   "source": "translated",
+   "category": "source",
+   "count": 1
+  },
+  "不可萃取，同技能装备蔚蓝吊坠可萃取": {
+   "en": "Cannot be extracted; Azure Pendant, which has the same skill, can be extracted",
+   "source": "translated",
+   "category": "item_flag",
+   "count": 1
+  },
+  "不推荐": {
+   "en": "Not recommended",
+   "source": "translated",
+   "category": "item_flag",
+   "count": 1
+  },
+  "不稳定电流": {
+   "en": "Unstable Current",
+   "source": "game_db",
+   "text_id": 54162,
+   "category": "in_text",
+   "count": 1
+  },
+  "主线-困难度": {
+   "en": null,
+   "source": null,
+   "status": "unverified",
+   "note": "probably a typo on the wiki; not corrected",
+   "possible_match": "主线-困难难度",
+   "category": "source",
+   "count": 1
+  },
+  "事件": {
+   "en": "Event",
+   "source": "game_db",
+   "text_id": 327,
+   "category": "source",
+   "count": 1
+  },
+  "产出于忘却迷境-凛风雪原": {
+   "en": "Drops in Oblivion Places - Howling Snowfield",
+   "source": "game_db",
+   "text_id": 64326,
+   "category": "source",
+   "count": 1
+  },
+  "免疫魅惑": {
+   "en": "Charmed Immune",
+   "source": "game_db",
+   "text_id": 73542,
+   "category": "in_text",
+   "count": 1
+  },
+  "冰霜球数量上限": {
+   "en": "Max Frost Orb",
+   "source": "game_db",
+   "text_id": 56433,
+   "category": "in_text",
+   "count": 1
+  },
+  "冰霜理伤害增幅": {
+   "en": null,
+   "source": null,
+   "status": "unverified",
+   "note": "garbled value on the wiki; not corrected",
+   "possible_match": "冰霜伤害增幅",
+   "category": "stat",
+   "count": 1
+  },
+  "击中回复生命": {
+   "en": "On Hit Restore Health",
+   "source": "game_db",
+   "text_id": 53989,
+   "category": "stat",
+   "count": 1
+  },
+  "半精灵": {
+   "en": "Half Elf",
+   "source": "game_db",
+   "text_id": 59871,
+   "category": "profile",
+   "count": 1
+  },
+  "反弹": {
+   "en": "Reflecting",
+   "source": "game_db",
+   "text_id": 6815,
+   "variants": [
+    "Reflection"
+   ],
+   "category": "stat",
+   "count": 1
+  },
+  "反弹比率": {
+   "en": "Damage Reflection",
+   "source": "game_db",
+   "text_id": 54004,
+   "category": "stat",
+   "count": 1
+  },
+  "圣临状态": {
+   "en": "Holy Presence",
+   "source": "game_db",
+   "text_id": 75519,
+   "category": "in_text",
+   "count": 1
+  },
+  "学院商铺": {
+   "en": "Academy Shop",
+   "source": "game_db",
+   "text_id": 55937,
+   "category": "source",
+   "count": 1
+  },
+  "学院商铺 31500学院硬币获得 后续需要升级升品质": {
+   "en": "Academy Shop: obtained for 31500 Academy Coin; must be upgraded afterwards to raise its quality",
+   "source": "translated",
+   "category": "source",
+   "count": 1
+  },
+  "居合状态": {
+   "en": "Iaido stance",
+   "source": "game_db",
+   "text_id": 77483,
+   "category": "in_text",
+   "count": 1
+  },
+  "异界": {
+   "en": "Otherrealm",
+   "source": "game_db",
+   "text_id": 82425,
+   "category": "source",
+   "count": 1
+  },
+  "护盾恢复速度": {
+   "en": "Shield Recovery Speed",
+   "source": "game_db",
+   "text_id": 53974,
+   "category": "stat",
+   "count": 1
+  },
+  "新生的邂逅": {
+   "en": "Newborn Encounter",
+   "source": "game_db",
+   "text_id": 381,
+   "variants": [
+    "Rally to Heroes"
+   ],
+   "category": "source",
+   "count": 1
+  },
+  "施加治疗效果": {
+   "en": "Healing Given Boost",
+   "source": "game_db",
+   "text_id": 53947,
+   "category": "stat",
+   "count": 1
+  },
+  "普攻暴击概率": {
+   "en": "Critical Chance (Attack)",
+   "source": "game_db",
+   "text_id": 56235,
+   "category": "in_text",
+   "count": 1
+  },
+  "暴击伤害全免": {
+   "en": "Crit Damage fully negated",
+   "source": "translated",
+   "category": "stat",
+   "count": 1
+  },
+  "毁伤": {
+   "en": "Mutilate",
+   "source": "game_db",
+   "text_id": 54401,
+   "category": "in_text",
+   "count": 1
+  },
+  "法强": {
+   "en": "Spell Power",
+   "source": "translated",
+   "note": "wiki shorthand for 法术强度",
+   "category": "stat",
+   "count": 1
+  },
+  "法术护甲穿透": {
+   "en": "Spell Armor Penetration",
+   "source": "game_db",
+   "text_id": 88393,
+   "category": "in_text",
+   "count": 1
+  },
+  "源力上限": {
+   "en": "Origin Force Cap",
+   "source": "game_db",
+   "text_id": 83438,
+   "category": "in_text",
+   "count": 1
+  },
+  "满怒": {
+   "en": "Full Rage",
+   "source": "translated",
+   "category": "resource",
+   "count": 1
+  },
+  "皮肤礼包": {
+   "en": "Skin pack",
+   "source": "translated",
+   "category": "source",
+   "count": 1
+  },
+  "真实伤害": {
+   "en": "True DMG",
+   "source": "translated",
+   "category": "damage",
+   "count": 1
+  },
+  "神圣伤害增幅": {
+   "en": "Holy Damage Boost",
+   "source": "game_db",
+   "text_id": 83458,
+   "category": "stat",
+   "count": 1
+  },
+  "第4章区域8 3选1": {
+   "en": "Chapter 4, Area 8 (choose 1 of 3)",
+   "source": "translated",
+   "category": "source",
+   "count": 1
+  },
+  "类型增幅": {
+   "en": null,
+   "source": null,
+   "status": "unverified",
+   "note": "truncated value on the wiki; not completed",
+   "possible_match": "全伤害类型增幅",
+   "category": "stat",
+   "count": 1
+  },
+  "精灵祝福": {
+   "en": "Elvenor's Blessing",
+   "source": "game_db",
+   "text_id": 55098,
+   "category": "in_text",
+   "count": 1
+  },
+  "能量回复": {
+   "en": "Energy Recovery",
+   "source": "game_db",
+   "text_id": 53983,
+   "category": "in_text",
+   "count": 1
+  },
+  "能量奔涌": {
+   "en": "Energy Surge",
+   "source": "game_db",
+   "text_id": 7986,
+   "category": "in_text",
+   "count": 1
+  },
+  "能量球数量上限": {
+   "en": "Max Energy Orb",
+   "source": "game_db",
+   "text_id": 56434,
+   "category": "in_text",
+   "count": 1
+  },
+  "落花庇护": {
+   "en": "Aegis of Shattered Sakura",
+   "source": "game_db",
+   "text_id": 57100,
+   "category": "in_text",
+   "count": 1
+  },
+  "迷雾山脉通关（1-30层）": {
+   "en": "Complete Misty Mountains (floors 1-30)",
+   "source": "translated",
+   "category": "source",
+   "count": 1
+  },
+  "造成冰冻时间提升": {
+   "en": "Extend Freeze Inflicted",
+   "source": "translated",
+   "note": "game: 造成冰冻时间增加 Extend Freeze Inflicted",
+   "category": "stat",
+   "count": 1
+  },
+  "野兽人": {
+   "en": "Beastfolk",
+   "source": "translated",
+   "category": "profile",
+   "count": 1
+  },
+  "降低受到反弹": {
+   "en": "Reflected DMG Resistance",
+   "source": "game_db",
+   "text_id": 54006,
+   "category": "stat",
+   "count": 1
+  },
+  "魂棺充能": {
+   "en": "Coffin Charge",
+   "source": "game_db",
+   "text_id": 63276,
+   "category": "in_text",
+   "count": 1
+  },
+  "麻痹": {
+   "en": "Paralysis",
+   "source": "game_db",
+   "text_id": 58052,
+   "category": "in_text",
+   "count": 1
+  },
+  "黑市-长城被狼血提红的乳牙。长大，总是悄然而至圣殿": {
+   "en": null,
+   "source": null,
+   "status": "unverified",
+   "note": "garbled wiki value (an unrelated sentence inside 黑市-长城圣殿); not translated",
+   "possible_match": "黑市-长城圣殿",
+   "category": "source",
+   "count": 1
+  },
+  "黑潮": {
+   "en": "Blacktide",
+   "source": "game_db",
+   "text_id": 1833,
+   "category": "in_text",
+   "count": 1
+  }
+ }
+}

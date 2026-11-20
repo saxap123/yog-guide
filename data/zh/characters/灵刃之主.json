@@ -1,0 +1,305 @@
+{
+ "id": "char-306",
+ "name": "灵刃之主",
+ "page_title": "灵刃之主",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "爱丽丝",
+  "gender": "女",
+  "race": null,
+  "birthday": "8月20日",
+  "birthplace": "贸易之都威尼托",
+  "height_weight": "166cm/48kg",
+  "specialties": [
+   "手工",
+   "针线缝纫",
+   "做甜点"
+  ],
+  "likes": [
+   "当模特",
+   "玩偶",
+   "漂亮的布料",
+   "毛茸茸的玩偶（羁绊礼物）"
+  ],
+  "dislikes": [
+   "弄脏衣服",
+   "下雨天",
+   "虫子"
+  ],
+  "release_date": "2023年01月03日"
+ },
+ "element": "物理",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "前锋",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免",
+   "%物理强度",
+   "物理穿透",
+   "力量",
+   "物理精通",
+   "暴击倍率",
+   "技能暴击",
+   "攻击速度",
+   "全伤害类型增幅",
+   "物理伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到物理伤害降低",
+   "受到法术伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对近战范围内的1名敌人造成384%攻击力的物理伤害。",
+   "scaling": [
+    {
+     "percent": "384%",
+     "values": [
+      384.0
+     ],
+     "stat": "攻击力",
+     "effect": "物理伤害",
+     "text": "384%攻击力的物理伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "致命剪切",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "快速朝前方挥出10次斩击，对身前5米范围内的敌人造成200%物理强度的物理伤害，最后一次斩击释放大型剑气，对路径上敌人造成两次相当于225%物理强度的物理伤害。",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "200%物理强度的物理伤害"
+    },
+    {
+     "percent": "225%",
+     "values": [
+      225.0
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "225%物理强度的物理伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "灵刃剑气",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "当自身周围3米范围内没有敌方单位时，爱丽丝快速冲向周围8米范围内最近的敌方目标。且爱丽丝进行普攻时，朝前方释放一道剑气，对路径上的敌人造成相当于150%物理强度的物理伤害。",
+   "scaling": [
+    {
+     "percent": "150%",
+     "values": [
+      150.0
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "150%物理强度的物理伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "裁艺",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "剑气拥有10%基础暴击几率。爱丽丝的每点物理精通使她的技能暴击几率提高0.25%，暴击倍率提高5%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "魔偶之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "爱丽丝的每2000点力量使她造成的物理伤害增加1%(最多不超过450%)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "追猎游戏",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "剑气暴击时将使敌人减速，降低30%的移动速度和攻击速度，且剑气对处于减速状态的敌人伤害增加20%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "剑气横扫",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【灵刃剑气】所释放的剑气数量+1，剑气的范围扩大30%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "孤军深入",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "刽子手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对受伤的敌人进行毫不留情的处决，对生命值低于15%的目标造成伤害提高20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "狂战士之怒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "利刃徽印",
+   "id": "relic-1960"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《玩偶》",
+   "answers": [
+    "×要多交朋友，别太依赖玩偶",
+    "√洛蒂很可爱，好好对待它"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《手工小礼物》",
+   "answers": [
+    "√手工小布偶",
+    "辟邪的驱灵符"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《模特》",
+   "answers": [
+    "获得专属戒指：恶意之力"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E5%88%83%E4%B9%8B%E4%B8%BB",
+ "revid": 8653,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8653",
+ "rev_timestamp": "2026-02-08T04:40:03Z"
+}

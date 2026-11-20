@@ -1,0 +1,15 @@
+{
+  "title": "模板:黑卫羁绊好感度",
+  "pageid": 1115,
+  "ns": 10,
+  "revid": 5526,
+  "rev_timestamp": "2025-01-16T03:51:49Z",
+  "wikitext": "{{#set:\n|2Q={{{2Q|}}}\n|2A1={{{2A1|}}}\n|2A2={{{2A2|}}}\n|5Q={{{5Q|}}}\n|5A1={{{5A1|}}}\n|5A2={{{5A2|}}}\n|10Q={{{10Q|}}}\n|10A={{{10A|}}}\n}}\n<div class=\"sy-box-1\"> \n<div class=\"sy-box-1-n\"> \n<div class=\"sy-title-1\">羁绊好感度</div> \n<div class=\"sy-divider\"></div> \n<div class=\"sy-content\">\n<div class=\"BOX-title-2 border-color-ccc\">2级</div>\n<div class=\"BOX-N py-1\">\n<div style=\"width:100%;overflow:hidden\">\n<span class=\"box-hs-num\">问题</span><span class=\"box-hs-text\">{{{2Q|}}}</span>\n<span class=\"box-hs-num\">选项一</span><span class=\"box-hs-text\">{{{2A1|}}}</span>\n<span class=\"box-hs-num\">选项二</span><span class=\"box-hs-text\">{{{2A2|}}}</span>\n</div>\n</div>\n<div class=\"BOX-title-2 border-color-ccc\">5级</div>\n<div class=\"BOX-N py-1\">\n<div style=\"width:100%;overflow:hidden\">\n<span class=\"box-hs-num\">问题</span><span class=\"box-hs-text\">{{{5Q|}}}</span>\n<span class=\"box-hs-num\">选项一</span><span class=\"box-hs-text\">{{{5A1|}}}</span>\n<span class=\"box-hs-num\">选项二</span><span class=\"box-hs-text\">{{{5A2|}}}</span>\n</div>\n</div>\n<div class=\"BOX-title-2 border-color-ccc\">10级</div>\n<div class=\"BOX-N py-1\">\n<div style=\"width:100%;overflow:hidden\">\n<span class=\"box-hs-num\">对话</span><span class=\"box-hs-text\">{{{10Q|}}}</span>\n<span class=\"box-hs-num\">无选项</span><span class=\"box-hs-text\">{{{10A|}}}</span>\n</div>\n</div>\n</div>\n</div>\n</div>\n{{#css:\n.box-hs-num {\n    float:left;\n    width:56px;\n    height:22px;\n    line-height:22px;\n    background-color:#614783;\n    font-weight: bold;\n    border-radius: 2px;\n    color: #fff;\n    text-align: center;\n    margin:5px 0px;\n    margin-right:6px;\n    font-size:12px\n}\n.box-hs-text {\n    float:left;\n    width:calc(100% - 62px);\n    line-height:22px;\n    margin:5px 0px;\n}\n}}",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E9%BB%91%E5%8D%AB%E7%BE%81%E7%BB%8A%E5%A5%BD%E6%84%9F%E5%BA%A6",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=5526",
+  "fetched_at": "2026-11-20T15:56:05+00:00",
+  "templates": [],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

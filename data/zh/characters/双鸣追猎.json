@@ -1,0 +1,525 @@
+{
+ "id": "char-1885",
+ "name": "双鸣追猎",
+ "page_title": "双鸣追猎",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "达莉塔",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "2月22日",
+  "birthplace": "极北之地",
+  "height_weight": "167cm/45kg",
+  "specialties": [
+   "冒险",
+   "直觉敏锐",
+   "逢赌必输"
+  ],
+  "likes": [
+   "未知",
+   "草",
+   "小说",
+   "游戏骰子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "理财",
+   "话痨",
+   "魔物"
+  ],
+  "release_date": "2025年03月26日"
+ },
+ "element": "冰霜",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "狩魔",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "回能",
+    "id": "faction-2215"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "技能暴击",
+   "攻击速度",
+   "冰霜穿透",
+   "怒气回复",
+   "暴击概率",
+   "CD减少",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "冰霜伤害增幅"
+  ],
+  "secondary": [
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "%法术强度",
+   "最大生命值"
+  ]
+ },
+ "note": "PVP角色、大招攻速弹射流",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "灵活战术",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "朝单个敌人开枪，造成800%法术强度的冰霜伤害;当近战范围内有敌人时，会挥动利刃对敌人造成800%法术强度的冰霜伤害。且造成伤害时，远程/近战各有50%/100%的几率对敌人添加1层霜蚀(普攻触发弹射效果造成的伤害无法添加霜蚀)，每层使其怒气恢复速度-5点，持续4秒，最多叠加5层。(伤害为普攻伤害，但不受攻速影响)",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "800%法术强度的冰霜伤害"
+    },
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "800%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "猎影风华",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "释放枪舞，每0.2秒对附近最多2名随机敌人造成12(%法术强度的冰霜伤害，持续2秒。释放期间双鸣追猎免疫法术伤害，且不会被击飞。",
+   "scaling": []
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "寒泣双鸣",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "朝远处敌人发射带有冻结效果的子弹/近战范围有敌时，则改为朝近战敌人挥舞利刃，造成2500%法术强度的冰霜伤害，并使其冰冻3秒。",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "2500%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "极夜蚀咒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【寒泣双鸣】造成的伤害提升100%，且命中敌人时如果敌人处于霜蚀状态，对其施加的冰冻效果将变更为3秒绝对零度效果。该效果每个目标15秒只可被施加一次。绝对零度:持续期间无法行动，该效果无法被免疫和驱散。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "寒息蚀心",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【猎影风华】命中霜蚀状态的敌人时，有20%+霜蚀层数*10%的几率对目标造成其最大生命值3%的冰霜伤害，该伤害最多不会超过自身1000%的法术强度。",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "法术强度",
+     "effect": null,
+     "text": "1000%的法术强度"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "蚀魂危袭",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对敌人施加霜蚀效果时，有10%几率触发一次追击效果，向该敌人快速冲刺并造成2500%法术强度的冰霜伤害，释放期间免疫法术伤害。(【猎影风华】释放期间无法触发，该效果有5秒触发间隔。)",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "2500%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "自北而来",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "双鸣追猎的普攻暴击几率和技能暴击几率+30%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "致命瞄准",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "抓住敌人的虚弱时刻，对生命值低于35%的目标造成的伤害提升10%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "急速",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "攻击速度提升25%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "强击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "物理强度提升7%，法术强度提升7%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "咒石项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "月辉·轻盈软甲",
+    "戒指": "猩红秘戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "月辉·夜影蝠翼",
+    "裤子": "戏谑者裤腿",
+    "徽章": "狩猎徽章",
+    "鞋子": "雷霆之怒",
+    "副手": "死灵法盾",
+    "武器": "疾风劲射",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "衣服": [
+     "聚能之铠"
+    ],
+    "腰带": [
+     "王室荣尊"
+    ],
+    "鞋子": [
+     "月辉·王室金靴"
+    ],
+    "护手": [
+     "雷云捕手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "月辉·轻盈软甲": "gear-1180",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "王室荣尊": "gear-1172",
+    "月辉·夜影蝠翼": "gear-1181",
+    "戏谑者裤腿": "gear-1182",
+    "狩猎徽章": "gear-1184",
+    "雷霆之怒": "gear-1183",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "疾风劲射": "gear-2300",
+    "妖精秘手": "gear-1179",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "烁玉金盔",
+    "项链": "辉耀之链",
+    "卡牌": "精魄魔牌",
+    "耳坠": "辉耀之环",
+    "衣服": "法球咒铠",
+    "戒指": "雪影冰戒",
+    "腰带": "圣职驱魔",
+    "圣物": "雪影之遗",
+    "裤子": "魔源裤腿",
+    "徽章": "雪影白徽",
+    "鞋子": "暗夜刺足",
+    "副手": "雪影守护",
+    "武器": "疾风劲射",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "圣物": [
+     "月辉·夜影蝠翼"
+    ],
+    "徽章": [
+     "狩猎徽章"
+    ],
+    "鞋子": [
+     "宗室礼靴"
+    ],
+    "护手": [
+     "雪影霜冻冰手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "烁玉金盔": "gear-1275",
+    "辉耀之链": "gear-134",
+    "精魄魔牌": "gear-1291",
+    "辉耀之环": "gear-138",
+    "法球咒铠": "gear-1686",
+    "雪影冰戒": "gear-185",
+    "圣职驱魔": "gear-1689",
+    "雪影之遗": "gear-179",
+    "月辉·夜影蝠翼": "gear-1181",
+    "魔源裤腿": "gear-1286",
+    "雪影白徽": "gear-158",
+    "狩猎徽章": "gear-1184",
+    "暗夜刺足": "gear-1283",
+    "宗室礼靴": "gear-1282",
+    "雪影守护": "gear-166",
+    "疾风劲射": "gear-2300",
+    "幽冥初水": null,
+    "雪影霜冻冰手": "gear-1656"
+   },
+   "unlinked": {
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": "霜雪",
+    "id": "rune-1421",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "霜蹄",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": "PVP黑石"
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【猎影风华】对近战范围内的敌人造成1次额外伤害。"
+   },
+   {
+    "rank": 2,
+    "text": "【霜蚀】的最大层数+3，且添加【霜蚀】效果时如果自身存在冰霜球，会消耗1个冰霜球，额外添加1层。"
+   },
+   {
+    "rank": 3,
+    "text": "【猎影风华】释放期间还将免疫魅惑、冰冻、妖术"
+   },
+   {
+    "rank": 4,
+    "text": "【猎影风华】释放期间，每秒还会对周围1名随机敌人发射一颗子弹(释放速度会受攻速影响，最多可以提升至0.2秒1次)，造成400%法术强度的冰霜伤害，该子弹视为普攻。"
+   },
+   {
+    "rank": 5,
+    "text": "【霜蚀】每一层还会使敌人受到治疗效果降低8%"
+   },
+   {
+    "rank": 6,
+    "text": "双鸣追猎造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "噬魂毒印",
+   "id": "relic-1968"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%8C%E9%B8%A3%E8%BF%BD%E7%8C%8E",
+ "revid": 8638,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8638",
+ "rev_timestamp": "2026-02-08T04:28:23Z"
+}

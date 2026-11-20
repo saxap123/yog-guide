@@ -1,0 +1,372 @@
+{
+ "id": "char-307",
+ "name": "Asura's Katana",
+ "page_title": "妖刀",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Sakura",
+  "gender": "Female",
+  "race": null,
+  "birthday": "--10-19",
+  "birthplace": "the Far East",
+  "height_weight": "169cm/54kg",
+  "specialties": [
+   "sword dancing",
+   "painting",
+   "unique foreign spells"
+  ],
+  "likes": [
+   "Furry Doll",
+   "tobacco",
+   "Sakura",
+   "Bergogne wine (bond gift)"
+  ],
+  "dislikes": [
+   "shackles",
+   "slavery",
+   "Fire"
+  ],
+  "release_date": "2022-09-27"
+ },
+ "element": "Physical",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Summoners Front",
+    "id": "faction-2205"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "CD Reduction",
+   "All Damage Reduction",
+   "Max HP",
+   "Constitution",
+   "Strength",
+   "Critical Chance (Attack)",
+   "Crit Damage Boost",
+   "Rage Restore",
+   "Rage"
+  ],
+  "secondary": [
+   "All Damage Boost",
+   "Physical Damage Boost",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "Unplayable without the paid Off-hand [Aegis of Shattered Sakura]; low-level Asura's Katana players should swap the build themselves",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 100% Physical Power as Physical DMG to 1 enemy within melee range.",
+   "scaling": [
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 100% of Physical Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Dazzling Sakura Slash",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "After release, randomly select a target to execute slash, each slash will cause physical damage of physical strength 107.3%, a total of 7 slashes. The character is invincible during the slashing process. (Slashes are considered normal attacks)",
+   "scaling": [],
+   "name_zh": "袭首缭杀斩"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Blossom Blade Dance",
+   "cooldown_s": 20,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Rotates the blade, dealing 145% physical damage to all enemies within 3 meters every sec for 5 sec. Immune to Frozen, Stun and Chilled for the duration, and will not take fire, frost, and lightning damage.",
+   "scaling": [],
+   "name_zh": "旋刃舞"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Heart of Killing",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Critical strike chance increased by 30%, crit damage increased by 75%",
+   "scaling": [],
+   "name_zh": "戮心"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Blessing of Kimono",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When there are no enemies within 6 meters, Sakura will step through the shadow to flash behind the nearest enemy. The trigger chance of Shadowmeld increased by 10% and the duration increased by 100%.",
+   "scaling": [],
+   "name_zh": "落樱华服"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Ghostly Blade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Blossom Blade Dance] Periodically deals 60% basic attack damage to random nearby enemies during the duration.",
+   "scaling": [],
+   "name_zh": "鬼刃剑气"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Mastery of Slash",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Dazzling Sakura Slash]'s slashes increased by 7 times, and every 5 points of physical mastery increases the number of slashes by one additional time.",
+   "scaling": [],
+   "name_zh": "缭杀奥义"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Cursed Runeblade",
+   "id": "relic-1957"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《聊些什么》",
+   "answers": [
+    "×聊聊过往的经历",
+    "√聊聊平时的爱好"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《去留大危机》",
+   "answers": [
+    "√确实舍不得你走，我很在意你",
+    "×毕竟我们是好同事啊"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《樱花》",
+   "answers": [
+    "获得专属武器：不祥之刃"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A6%96%E5%88%80",
+ "revid": 8624,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8624",
+ "rev_timestamp": "2026-02-08T04:16:21Z",
+ "i18n": {
+  "name_zh": "妖刀",
+  "sources": {
+   "derived": 3,
+   "game_db": 13,
+   "glossary": 41,
+   "lore": 2,
+   "names": 21,
+   "translated": 10
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 54688,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 54699,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 54701,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 54690,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 54693,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 54696,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.likes[3]",
+    "zh": "伯戈涅",
+    "en": "Bergogne"
+   }
+  ]
+ }
+}

@@ -1,0 +1,153 @@
+{
+  "subject": "托尔之冥思",
+  "group": "gear",
+  "page_revid": 5644,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%89%98%E5%B0%94%E4%B9%8B%E5%86%A5%E6%80%9D",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%89%98%E5%B0%94%E4%B9%8B%E5%86%A5%E6%80%9D&format=json",
+  "fetched_at": "2026-11-20T16:16:45+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "托尔之冥思#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/2/5/7/14/8/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/2/5/7/29/47/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "托尔之冥思"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5%物理强度、12元素穿透、8攻击速度、5%CD减少、10%闪电伤害、4500全属性"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258力量、9258力量、9258力量、9258力量、9258魔力、9258魔力、9258魔力、9258魔力、9258体质、9258体质、9258体质、9258体质、9258意志、5%最大生命值、12%最大护盾值"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "12%物理伤害增幅、12%火焰伤害增幅、12%冰霜伤害增幅、12%闪电伤害增幅、12%混沌伤害增幅、86火焰穿透、86冰霜穿透、86闪电穿透、86混沌穿透、9258力量、9258力量、9258魔力、9258魔力"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "托尔之魂"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可嵌入"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "累充礼包"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "托尔之冥思"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "腰带"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

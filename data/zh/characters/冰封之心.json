@@ -1,0 +1,275 @@
+{
+ "id": "char-309",
+ "name": "冰封之心",
+ "page_title": "冰封之心",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "乌西洛蒂",
+  "gender": "女",
+  "race": null,
+  "birthday": "3月4日",
+  "birthplace": "圣父教廷",
+  "height_weight": "165cm/54kg",
+  "specialties": [
+   "烘焙",
+   "打雪仗",
+   "照顾别人"
+  ],
+  "likes": [
+   "甜点",
+   "朋友",
+   "闲暇时光",
+   "游戏骰子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "火刑架",
+   "巴别塔",
+   "欺凌弱小"
+  ],
+  "release_date": "2022年04月01日"
+ },
+ "element": "冰霜",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "秘术",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "回能",
+    "id": "faction-2215"
+   },
+   {
+    "name": "聚变",
+    "id": "faction-2216"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对10米范围内的1名敌人造成70%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "70%",
+     "values": [
+      70.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "70%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "霜冻之雨",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "乌西洛蒂召唤三阵暴风雪打击她的敌人，每阵暴风雪对范围内的所有敌人造成82.9%法术强度的冰霜伤害(竞技场伤害降低50%)，并使敌人冻结2(额外受到法术精通影响)秒。",
+   "scaling": [
+    {
+     "percent": "82.9%",
+     "values": [
+      82.9
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "82.9%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "御法觉醒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "乌西洛蒂进入御法者状态，自动向攻击范围内的敌方目标发射5枚飞弹，每枚飞弹造成30%法术强度的冰霜伤害(竞技场伤害降低50%)，发射间隔为0.7秒。",
+   "scaling": [
+    {
+     "percent": "30%",
+     "values": [
+      30.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "30%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "冻伤",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到来自冰封之心伤害的目标，攻击速度下降6%+0.1%*法术精通，(竞技场中攻速下降效果加倍)普攻暴击几率下降15%+0.2%*法术精通，持续3秒。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "永续寒冬",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "乌西洛蒂的普通攻击命中时有25%%几率偷取目标的法术与物理强度，偷取的数值为自身法术强度的0.1%偷取上限为自身法术强度的5%，被偷取的目标的强度最低为0。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "寒冰萃能",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "乌西洛蒂从寒冰中汲取力量，提高自身3.4%(额外受到法术精通影响)技能暴击几率。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "寒冰之盾",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每隔6秒，冰封之心就会冻结自身6米范围内的一个随机目标，持续3秒。且冰封之心的护盾值不为0时，造成的所有伤害提升6%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "玻璃大炮",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "放弃防护，专心攻击，造成的伤害提高15%，但是自身受到的伤害也提高10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "元素充能",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "造成非物理伤害时，恢复造成伤害10%的生命值",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "霜蹄",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "永冻容颜",
+   "id": "relic-1961"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%86%B0%E5%B0%81%E4%B9%8B%E5%BF%83",
+ "revid": 8635,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8635",
+ "rev_timestamp": "2026-02-08T04:23:59Z"
+}

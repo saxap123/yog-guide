@@ -1,0 +1,18 @@
+{
+  "title": "符文",
+  "pageid": 1431,
+  "ns": 0,
+  "revid": 5555,
+  "rev_timestamp": "2025-01-16T03:57:01Z",
+  "wikitext": "{|class=\"wikitable\" style=\"width:100%\"\n|-\n! style=\"width: 10%;min-width: calc(4em + 10px);\" | 查看全部\n|\n{{筛选项|0|查看全部|查看全部}}\n|-\n!符文类型\n|\n{{筛选项|1|主符文|}}\n{{筛选项|1|辅助符文|}}\n|-\n!符文技能\n|\n{{筛选项|2|力量|}}\n{{筛选项|2|魔力|}}\n{{筛选项|2|体质|}}\n{{筛选项|2|意志|}}\n|}\n\n{|id=\"CardSelectTr\" class=\"CardSelect wikitable sortable\" style=\"width:100%;text-align: center;font-size:12px\"\n|-id=\"CardSelectTabHeader\"class=\"freeze\"\n!style=\"width:10%;\"|符文图\n!style=\"width:5%;\"|符文名称 \n!class=\"visible-md visible-sm visible-lg\" style=\"width:5%;\"|类型\n!style=\"width:5%;\"|边\n!class=\"visible-md visible-sm visible-lg\" style=\"width:5%;\"|最大等级\n!class=\"visible-md visible-sm visible-lg\" style=\"width:8%;\"|属性\n!class=\"visible-md visible-sm visible-lg\" style=\"width:10%;\"|前缀\n!class=\"visible-md visible-sm visible-lg\" style=\"width:10%;\"|后缀\n!class=\"visible-md visible-sm visible-lg\" style=\"width:9%;\"|专属\n!class=\"visible-md visible-sm visible-lg\" style=\"width:21%;\"|符文技能\n!style=\"width:12%;\"|获取途径\n|-\n{{#ask:[[分类:符文]]\n|?符文名称\n|?类型\n|?边\n|?最大等级\n|?属性\n|?前缀\n|?后缀\n|?专属\n|?符文技能\n|?获取途径\n|?专属属性\n|link=none\n|sort=类型\n|template=符文筛选/行\n|headers=hide\n|order=asc\n|format=template\n|limit=1000\n}}\n|}\n\n{{#css:\n.freeze th,.freeze td{\nposition:sticky;\ntop:55px;\n}\n@media(max-width:768px){\n.freeze th,.freeze td{\ntop:-1px;\n}\n}\n.wikitable * {\nword-break: break-all;\n}\n}}",
+  "redirected_from": null,
+  "group": "pages",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%AC%A6%E6%96%87",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=5555",
+  "fetched_at": "2026-11-20T15:55:08+00:00",
+  "templates": [
+    "模板:符文筛选/行",
+    "模板:筛选项"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

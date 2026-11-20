@@ -1,0 +1,144 @@
+{
+  "subject": "霜咬",
+  "group": "runes",
+  "page_revid": 4113,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%9C%E5%92%AC",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9C%9C%E5%92%AC&format=json",
+  "fetched_at": "2026-11-20T16:25:54+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "霜咬#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/19/2/13/16/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "符文#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/19/3/20/15/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霜咬"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1763力量、1763力量、1763魔力、1763魔力、1763体质、1763体质、1763意志、1763意志、1939物理强度、1939物理强度、1939法术强度、1939法术强度、35260生命、35260护盾"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1763力量、1763力量、1763魔力、1763魔力、1763体质、1763体质、1763意志、1763意志、10闪电穿透、10冰霜穿透、10火焰穿透、5%金币获取提升"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1892全属性"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "符文名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "霜咬"
+            }
+          ]
+        },
+        {
+          "property": "符文技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "冰霜伤害增幅+10%；生命上限提升7%；法术精通+5；冰霜伤害有3%几率获得一个冰霜球；冰霜球提供的生命回复效果增加2%；冰霜球持续时间+1秒"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "主符文"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "忘却迷境-至冬宫殿通关、忘却迷境-封印深处通关、精铸符文宝箱II"
+            }
+          ]
+        },
+        {
+          "property": "边",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#87c8ff\">//////</span>"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yog-guide.local/schema/relic.schema.json",
+  "title": "Relic (遗物), Chinese",
+  "description": "One element of relics.json → items. Values from SMW (模板:遗物图鉴); description (介绍) from wikitext.",
+  "type": "object",
+  "allOf": [{"$ref": "common.schema.json#/$defs/provenance"}],
+  "required": ["id", "name", "page_title", "type", "quality", "max_level", "character", "exclusive", "skills",
+               "advanced_fixed_skill", "advanced_random_skills", "prefixes", "suffixes", "obtain", "description",
+               "description_source", "smw_api_request"],
+  "unevaluatedProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^relic-[0-9]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "page_title": {"type": "string", "minLength": 1},
+    "type": {"$ref": "common.schema.json#/$defs/str", "description": "类型"},
+    "quality": {"$ref": "common.schema.json#/$defs/str"},
+    "max_level": {"type": ["integer", "null"], "minimum": 1},
+    "character": {
+      "anyOf": [{"type": "null"}, {"type": "object", "additionalProperties": false, "required": ["name", "id"],
+                "properties": {"name": {"type": "string"}, "id": {"anyOf": [{"type": "string", "pattern": "^char-[0-9]+$"}, {"type": "null"}]}}}],
+      "description": "黑卫名称"
+    },
+    "exclusive": {"$ref": "common.schema.json#/$defs/strList"},
+    "skills": {"$ref": "common.schema.json#/$defs/strList", "description": "遗物技能, split on ；"},
+    "advanced_fixed_skill": {"$ref": "common.schema.json#/$defs/str", "description": "进阶固有技能"},
+    "advanced_random_skills": {"$ref": "common.schema.json#/$defs/strList", "description": "进阶随机技能"},
+    "prefixes": {"$ref": "common.schema.json#/$defs/strList"},
+    "suffixes": {"$ref": "common.schema.json#/$defs/strList"},
+    "obtain": {"$ref": "common.schema.json#/$defs/strList"},
+    "description": {"$ref": "common.schema.json#/$defs/str"},
+    "description_source": {"enum": ["wikitext", null]},
+    "smw_api_request": {"type": "string"}
+  }
+}

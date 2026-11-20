@@ -1,0 +1,475 @@
+{
+ "id": "char-1569",
+ "name": "秽翼魔女",
+ "page_title": "秽翼魔女",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "切夏娅",
+  "gender": "女",
+  "race": "妖精",
+  "birthday": "6月21日",
+  "birthplace": "布兰岛",
+  "height_weight": "167cm/49kg",
+  "specialties": [
+   "引诱入梦",
+   "构建梦境"
+  ],
+  "likes": [
+   "美梦",
+   "噩梦",
+   "酒",
+   "游戏骰子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "死亡",
+   "怨念",
+   "失信"
+  ],
+  "release_date": "2024年09月25日"
+ },
+ "element": "火焰",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "前锋",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "妖精",
+    "id": "faction-2208"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "技能暴击",
+   "火焰穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "火焰伤害增幅",
+   "最大生命值",
+   "CD减少"
+  ],
+  "secondary": [
+   "体质",
+   "物理抗性",
+   "怒气回复",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": "PVE暂不推荐",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "焚魂镰击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "连续挥舞三次镰刀对附近的敌人造成600%法术强度的火焰伤害;【迷心魅纹】解锁后，第三段会对命中的敌人施加魅惑印记。(伤害视为技能伤害，且此效果不会受攻速影响)",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "600%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "蝠影焰咒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "释放火蝠环绕自身，每秒对周围敌人造成1200%法术强度的火焰伤害，持续8秒;【迷心魅纹】解锁后，每次伤害都会对命中的敌人施加魅惑印记。",
+   "scaling": [
+    {
+     "percent": "1200%",
+     "values": [
+      1200.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "1200%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "火魅瞬袭",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "当近战范围内没有敌方单位时，朝附近的1名敌人冲刺，到达该敌人附近时，挥舞镰刀，对周围敌人造成800%法术强度的火焰伤害;【迷心魅纹】解锁后，会对命中的敌人施加魅惑印记。",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "800%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "迷心魅纹",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自身的所有技能都可以对敌方添加魅惑印记，印记达到15层时，会魅惑敌人2秒，当场上有敌人被魅惑或死亡时，自身造成的伤害提升5%，最多提升至50%(效果持续至战斗结束)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "死亡共舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【焚魂镰击】过程中释放恶魔之力，额外对周围敌人造成2250%法术强度+自身最大生命值16%的火焰伤害。(竞技场中附加最大生命值的效果减半)",
+   "scaling": [
+    {
+     "percent": "2250%",
+     "values": [
+      2250.0
+     ],
+     "stat": "法术强度",
+     "effect": null,
+     "text": "2250%法术强度"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "餍足一餐",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【蝠影焰咒】造成伤害提升100%，且造成伤害时会额外汲取受伤害单位的最大生命值，汲取数值为自身最大生命值的0.5%，并给自身增加对应的最大生命值(效果持续至战斗结束);通过汲取提升的最大生命值不会超过自身最大生命值的25%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "契约缔结",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "秽翼魔女的技能暴击几率+30",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "孤军深入",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "刽子手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对受伤的敌人进行毫不留情的处决，对生命值低于15%的目标造成伤害提高20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "狂战士之怒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "1000级PVP",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": "PVP",
+   "tier_note": null,
+   "slots": {
+    "头盔": "星辰战盔",
+    "项链": "辉耀之链",
+    "卡牌": null,
+    "耳坠": "辉耀之环",
+    "衣服": "法球咒铠",
+    "戒指": "幽焰剑士荣耀",
+    "腰带": "圣职驱魔",
+    "圣物": "幽焰剑士截断",
+    "裤子": "炎铸胫甲",
+    "徽章": "幽焰剑士裁决",
+    "鞋子": "月辉·王室金靴",
+    "副手": "龙猎大盾",
+    "武器": "混沌利刃",
+    "护手": "幽焰剑士碧手"
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": "炽链斩魂",
+   "item_ids": {
+    "星辰战盔": "gear-1276",
+    "辉耀之链": "gear-134",
+    "辉耀之环": "gear-138",
+    "法球咒铠": "gear-1686",
+    "幽焰剑士荣耀": "gear-187",
+    "圣职驱魔": "gear-1689",
+    "幽焰剑士截断": "gear-180",
+    "炎铸胫甲": "gear-1861",
+    "幽焰剑士裁决": "gear-147",
+    "月辉·王室金靴": "gear-1177",
+    "龙猎大盾": null,
+    "混沌利刃": "gear-2435",
+    "幽焰剑士碧手": "gear-1661",
+    "炽链斩魂": null
+   },
+   "unlinked": {
+    "龙猎大盾": {
+     "reason": "game_only",
+     "game_id": "5026",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5026",
+        "field": "name",
+        "text_id": 54127,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       54127
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "秽翼魔女",
+       "怒气装备"
+      ]
+     }
+    },
+    "炽链斩魂": {
+     "reason": "game_only",
+     "game_id": "90358",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90358",
+        "field": "name",
+        "text_id": 77352,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       77352
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "秽翼魔女"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": "火咒",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "金乌",
+    "id": "black_stone-16",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "炎龙",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": "PVE暂不推荐"
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "切夏娅通过【餍足一餐】提升的自身最大生命值上限增加至50%。"
+   },
+   {
+    "rank": 2,
+    "text": "切夏娅通过【餍足一餐】每次汲取的最大生命值的效率提升100%，且进入战斗时立刻获得300怒气。"
+   },
+   {
+    "rank": 3,
+    "text": "切夏娅释放【死亡共舞】造成伤害时附加的自身最大生命值提升100%。"
+   },
+   {
+    "rank": 4,
+    "text": "【蝠影焰咒】持续期间，自身不会被魅惑以及昏迷。"
+   },
+   {
+    "rank": 5,
+    "text": "【迷心魅纹】触发魅惑要求的次数-3，且造成的魅惑时间+1秒。"
+   },
+   {
+    "rank": 6,
+    "text": "秽翼魔女造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "夜魅呓语",
+   "id": "relic-1943"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "前锋战格",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "2级好感度问题：切夏娅不住地叹气。",
+   "answers": [
+    "2级好感度答案1：你也会感到烦恼吗？",
+    "2级好感度答案2：我能帮你什么吗？"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "立绘2",
+  "立绘3",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%A7%BD%E7%BF%BC%E9%AD%94%E5%A5%B3",
+ "revid": 9188,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9188",
+ "rev_timestamp": "2026-09-21T07:19:42Z"
+}

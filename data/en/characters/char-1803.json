@@ -1,0 +1,298 @@
+{
+ "id": "char-1803",
+ "name": "King of the Damned",
+ "page_title": "诅咒之王",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Orion",
+  "gender": "Unknown",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": null,
+  "dislikes": null,
+  "release_date": "2021-06-27"
+ },
+ "element": "Physical",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Guardian Front",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Summoners Front",
+    "id": "faction-2205"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Sword of Absolute Corruption",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Orion slashes down with all his might, causing physical damage of 350% (affected by physical strength), this is guaranteed to crit Increases Revival chance by 15% after his return (only occurs once)",
+   "scaling": [
+    {
+     "percent": "350%",
+     "values": [
+      350.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 350% of Physical Power"
+    }
+   ],
+   "name_zh": "腐朽王权之剑"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Glimpse of Purgatory",
+   "cooldown_s": 15,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "No escape, no evasion: this is the price of immortality. When Orion is reborn, he deals 450% Physical Power as Physical DMG to enemy units within 2.5 m around him and applies [Curse of Immortality] to targets hit.",
+   "scaling": [
+    {
+     "percent": "450%",
+     "values": [
+      450.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 450% of Physical Power"
+    }
+   ],
+   "name_zh": "冥界归来"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "The Old Guard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Orion's thirst for living beings gives him a 50% chance to revive, restoring 100% HP on revival",
+   "scaling": [],
+   "name_zh": "不死之躯"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Straw Man Curse",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Orion revives, he brings down [Curse of Immortality] on the enemy unit with the lowest current HP: 10%+0.5*(Mental Mastery) of the DMG he takes is converted into DMG to this unit, lasting 5+0.5*(Mental Mastery) seconds",
+   "scaling": [],
+   "name_zh": "嗜骨诅咒"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Everlasting Frenzy",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Orion's endless greed lets him drain the enemy's soul on crits: 15% of each Crit Dmg dealt is converted into Max HP cap.",
+   "scaling": [],
+   "name_zh": "猩红狂热"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Death Wish",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Orion revives, he gains the [Death Wish] effect. Each stack of [Death Wish] grants 20% Attack Speed, 10% Crit Chance, and 5% DMG boost. [Death Wish] stacks up to 5 times. The DMG boost is additionally affected by Mental Mastery.",
+   "scaling": [],
+   "name_zh": "死亡意志"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Vitality",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 6%, Max shield increased by 6%",
+   "scaling": [],
+   "name_zh": "活力"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Evasion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Normal attack evasion chance increased by 15%",
+   "scaling": [],
+   "name_zh": "躲闪"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Intensive Care",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Healing effect received increased by 10%",
+   "scaling": [],
+   "name_zh": "加护"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E8%AF%85%E5%92%92%E4%B9%8B%E7%8E%8B",
+ "revid": 8667,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8667",
+ "rev_timestamp": "2026-02-08T04:51:20Z",
+ "i18n": {
+  "name_zh": "诅咒之王",
+  "sources": {
+   "derived": 3,
+   "game_db": 5,
+   "glossary": 29,
+   "lore": 1,
+   "names": 16,
+   "translated": 5
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 3076,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2961,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2970,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2992,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[2].description",
+    "zh": "永生诅咒",
+    "en": "Curse of Immortality"
+   },
+   {
+    "path": "skills[4].description",
+    "zh": "永生诅咒",
+    "en": "Curse of Immortality"
+   }
+  ]
+ }
+}

@@ -1,0 +1,789 @@
+{
+ "id": "char-296",
+ "name": "Shamneko in Night",
+ "page_title": "夜行暹罗",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Nyanko",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--04-08",
+  "birthplace": null,
+  "height_weight": "165cm/51kg",
+  "specialties": [
+   "fishing",
+   "climbing trees",
+   "meowing like a cat"
+  ],
+  "likes": [
+   "Doll",
+   "fish cooked any way",
+   "little foxes",
+   "fluffy plush toy (bond gift)"
+  ],
+  "dislikes": [
+   "......oranges?",
+   "perfume",
+   "people who bully small animals"
+  ],
+  "release_date": "2024-05-29"
+ },
+ "element": "Lightning",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   },
+   {
+    "name": "Thunderstorm Front",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "Lightning Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Lightning Damage Boost"
+  ],
+  "secondary": [
+   "Rage Recovery",
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Lightning Knife",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Throws a Lightning Knife at the enemy that pierces all targets in its path, dealing 800% Spell Power as Lightning DMG. (The damage counts as Skill DMG, and this effect is not affected by Attack Speed)",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 800% of Spell Power"
+    }
+   ],
+   "name_zh": "飞刃"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Secret Art: Thunder Cage",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Deploys a lightning field on a random enemy for 5 seconds.\r\nThe field strikes lightning every second, dealing 5000% Spell Power lightning damage to up to 5 enemies.",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 5000% of Spell Power"
+    }
+   ],
+   "name_zh": "奥义·雷狱"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Kunai Flurry",
+   "cooldown_s": 8,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Whenever an enemy is afflicted with special statuses such as [Numb], Weaken, [Enfeebled], [Slow] or [Judgment], there is a chance to throw 2 Kunai Flurry at it, dealing Lightning DMG equal to 1500% of Spell Power on hit. Trigger chance: 15%. (This skill's cooldown cannot go below 1 second)",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 1500% of Spell Power"
+    }
+   ],
+   "name_zh": "乱舞手里剑"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Mark of Lightning Blade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Ultimate · Thunder Prison hits, it has a 5% chance to stun the target for 1.5 seconds.\r\nIf the caster's Perception exceeds the target's, the greater the difference, the higher the trigger chance.\r\nAdditionally, Thunder Prison damage is increased by 100%.",
+   "scaling": [],
+   "name_zh": "电刃之印"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Spellbound of Senbon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Lightning Knife] can bounce 1 time, with DMG reduced by 50% on bounce; [Kunai Flurry] DMG dealt is increased by 50%.",
+   "scaling": [],
+   "name_zh": "咒缚千本"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Thunderous Slash",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Nyanko's Perception +10.",
+   "scaling": [],
+   "name_zh": "雷鸣缭杀"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Lightning Release: Nyanko",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases Nyanko's Skill Crit Chance by 20%",
+   "scaling": [],
+   "name_zh": "雷遁"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Meteorite Necklace",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Moonlight · Light Chainmail",
+    "Ring": "Crimson Band",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Luminous Feather",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Emblem of the Hunt",
+    "Shoes": "Thunderous Rage",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Night Hunting Scythe",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Belt": [
+     "Honor of House Rudolph"
+    ],
+    "Relic": [
+     "Moonlight · Shadow's Batwings"
+    ],
+    "Handguard": [
+     "Embroidered Sacrificial Gloves"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "月辉·轻盈软甲": "gear-1180",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "王室荣尊": "gear-1172",
+    "精灵飞羽": "gear-game-13003",
+    "月辉·夜影蝠翼": "gear-1181",
+    "戏谑者裤腿": "gear-1182",
+    "狩猎徽章": "gear-1184",
+    "雷霆之怒": "gear-1183",
+    "死灵法盾": "gear-1178",
+    "夜狩风镰": "gear-1639",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627"
+   },
+   "unlinked": {
+    "精灵飞羽": {
+     "reason": "game_only",
+     "game_id": "13003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13003",
+        "field": "name",
+        "text_id": 3927,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3927
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "百花旅者",
+       "分解装备",
+       "夜行暹罗",
+       "黑话解读"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Journey Lv 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "Journey",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Lightning Linker",
+    "Necklace": "Chain of Radiance",
+    "Card": "Card of Magic Orb",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Robe of Cursed Thunder",
+    "Ring": "Neon Slayer's Blood Ring",
+    "Belt": "Belt of Electrify",
+    "Relic": "Neon Slayer's Blood Seal",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Neon Slayer's Blood Mark",
+    "Shoes": "Thunderous Rage",
+    "Off-hand": "Neon Slayer's Blood Shield",
+    "Weapon": "Stealthy Soul Hunter",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "连锁雷帽": "gear-game-90101",
+    "辉耀之链": "gear-134",
+    "魔球卡牌": "gear-game-90212",
+    "辉耀之环": "gear-138",
+    "雷咒长袍": "gear-1687",
+    "霆霓猩红血戒": "gear-188",
+    "感电者": "gear-1690",
+    "霆霓猩红血玺": "gear-176",
+    "戏谑者裤腿": "gear-1182",
+    "霆霓猩红血印": "gear-145",
+    "雷霆之怒": "gear-1183",
+    "霆霓猩红血盾": "gear-164",
+    "隐猎魂息": "gear-1579",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "连锁雷帽": {
+     "reason": "game_only",
+     "game_id": "90101",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90101",
+        "field": "name",
+        "text_id": 60209,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       60209
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "夜行暹罗",
+       "忘却迷境-凛风雪原"
+      ]
+     }
+    },
+    "魔球卡牌": {
+     "reason": "game_only",
+     "game_id": "90212",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90212",
+        "field": "name",
+        "text_id": 62169,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62169
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "战争之蹄",
+       "不熄曜日",
+       "夜行暹罗",
+       "千宵月守"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Sailing Lv 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "Sailing",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Ritual Feather Crown",
+    "Necklace": "Chain of Radiance",
+    "Card": null,
+    "Earrings": "Ring of Radiance",
+    "Armor": null,
+    "Ring": "Neon Slayer's Blood Ring",
+    "Belt": "Belt of Electrify",
+    "Relic": "Neon Slayer's Blood Seal",
+    "Trousers": "Thunder-Summoning Trousers",
+    "Emblem": "Neon Slayer's Blood Mark",
+    "Shoes": "Royal Family Boots",
+    "Off-hand": "Neon Slayer's Blood Shield",
+    "Weapon": "Stealthy Soul Hunter",
+    "Handguard": "Neon Slayer's Blood Gloves"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Demon Guard Mask"
+    ],
+    "Emblem": [
+     "Emblem of the Hunt"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "界卫魔面": "gear-1849",
+    "辉耀之链": "gear-134",
+    "辉耀之环": "gear-138",
+    "聚能铠甲": null,
+    "霆霓猩红血戒": "gear-188",
+    "感电者": "gear-1690",
+    "霆霓猩红血玺": "gear-176",
+    "奏雷鸣裤": "gear-1860",
+    "霆霓猩红血印": "gear-145",
+    "狩猎徽章": "gear-1184",
+    "宗室礼靴": "gear-1282",
+    "霆霓猩红血盾": "gear-164",
+    "隐猎魂息": "gear-1579",
+    "霆霓猩红血手": "gear-1659"
+   },
+   "unlinked": {
+    "聚能铠甲": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "聚魔铠甲",
+      "id": "gear-1284",
+      "source": "similar name in gear.json",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "夜行暹罗"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Degenerate",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Thunder Veins",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Songbird",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Kunai Flurry count +2"
+   },
+   {
+    "rank": 2,
+    "text": "When casting Kunai Flurry, gain 1 additional Lightning Knife for every 25 Soul."
+   },
+   {
+    "rank": 3,
+    "text": "Reactive Skill trigger chance +10%"
+   },
+   {
+    "rank": 4,
+    "text": "When Lightning Knife hits, it has a 1% chance to apply Judgment to the target for 5 seconds.\r\nIf the caster's Perception exceeds the target's, the greater the difference, the higher the trigger chance.(Judgment: Reduces the target’s Valor, Perception, and Tenacity by 3. Stacks up to 10 times.)"
+   },
+   {
+    "rank": 5,
+    "text": "When Nyanko is taking DMG, she become invincible for 0.5 sec and move to a random location nearby. (Trigger interval is 8 sec)"
+   },
+   {
+    "rank": 6,
+    "text": "Increases Nyanko's DMG Dealt by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Death emblem",
+   "id": "relic-1940"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "立绘2",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%9C%E8%A1%8C%E6%9A%B9%E7%BD%97",
+ "revid": 8701,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8701",
+ "rev_timestamp": "2026-03-12T12:34:36Z",
+ "i18n": {
+  "name_zh": "夜行暹罗",
+  "sources": {
+   "derived": 5,
+   "game_db": 18,
+   "glossary": 93,
+   "lore": 1,
+   "names": 77,
+   "translated": 16
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 84198,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 84199,
+    "match": "loose"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 84201,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 71762,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 84202,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 84203,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 84204,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 84205,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 72547,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 71748,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "科伦达尔",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "builds[2].slots.衣服",
+    "zh": "聚能铠甲",
+    "reason": "names.json/gear: probably a typo on the wiki; not corrected"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

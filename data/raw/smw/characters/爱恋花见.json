@@ -1,0 +1,911 @@
+{
+  "subject": "爱恋花见",
+  "group": "characters",
+  "page_revid": 9125,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%88%B1%E6%81%8B%E8%8A%B1%E8%A7%81",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%88%B1%E6%81%8B%E8%8A%B1%E8%A7%81&format=json",
+  "fetched_at": "2026-11-20T16:12:45+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "爱恋花见#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度答案"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "爱恋花见#0##_QUERY813ee3098f5d3f90a178b6eeb9c2f1e1"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/11/2/8/55/54/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            },
+            {
+              "type": 9,
+              "item": "在模板调用中使用重复参数的页面#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/8/11/3/11/53/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "爱恋花见"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2025年10月30日"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "游侠、智慧、坚韧、妖精、盾御、力场、风涌、灭法"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "166cm/52kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "艾伦庄园"
+            }
+          ]
+        },
+        {
+          "property": "合计",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×18000</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×410</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "爱恋花见"
+            }
+          ]
+        },
+        {
+          "property": "名称1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "初芒"
+            }
+          ]
+        },
+        {
+          "property": "名称10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神耀"
+            }
+          ]
+        },
+        {
+          "property": "名称2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "启明"
+            }
+          ]
+        },
+        {
+          "property": "名称3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凝辉"
+            }
+          ]
+        },
+        {
+          "property": "名称4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "炽华"
+            }
+          ]
+        },
+        {
+          "property": "名称5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逐光"
+            }
+          ]
+        },
+        {
+          "property": "名称6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "明辰"
+            }
+          ]
+        },
+        {
+          "property": "名称7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月白"
+            }
+          ]
+        },
+        {
+          "property": "名称8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "晴晖"
+            }
+          ]
+        },
+        {
+          "property": "名称9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "灼日"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "荡秋千、玩具、植物、<span style=\"color:red\">游戏骰子（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "辅助"
+            }
+          ]
+        },
+        {
+          "property": "备注",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "回怒、增伤、开大救人"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "芙蕾雅"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "光明"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "暂停场上的时间，暂停结束时，使绑定队友的生命值、护盾值、怒气值、技能冷却等属性回溯到战斗开始时(绑定队友死亡时也可进行回湖，战斗开始时，队伍中只有爱恋花见一名黑卫，则该技能不会释放)同时对所有场上的敌人造成10000%物理强度的神圣伤害。爱恋花见无法通过任何其他手段恢复怒气，也不会受怒气削减效果影响，仅能通过自身的技能来恢复怒气值。"
+            }
+          ]
+        },
+        {
+          "property": "怒兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "恐熊",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "使绑定的队友恢复250点怒气值，每次释放时，使自身恢复30点怒气值。"
+            }
+          ]
+        },
+        {
+          "property": "效果1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv1-Lv2</span>技能冷却+10.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv30</span>爱恋花见受到伤害时，有30%几率抹消掉当前受到伤害的事实，完全规避该次伤害，并移除自身受到的昏迷、冰冻、魅惑、混乱、沉默状态。"
+            }
+          ]
+        },
+        {
+          "property": "效果2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv3-Lv4</span>攻击速度+50.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv5-Lv6</span>以任何形式释放时光炸弹时，都有10%几率额外释放一次。"
+            }
+          ]
+        },
+        {
+          "property": "效果4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv7-Lv9</span>怒气回复+15"
+            }
+          ]
+        },
+        {
+          "property": "效果5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv10-Lv12</span>【万物复苏】会额外选择一名队伍中当前怒气值最低的黑卫释放，效果为原技能效果的100%。"
+            }
+          ]
+        },
+        {
+          "property": "效果6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv13-Lv17</span>复活+15.00 %"
+            }
+          ]
+        },
+        {
+          "property": "效果7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv18-Lv19</span>【爱语心愿】的增幅效果增加10%。"
+            }
+          ]
+        },
+        {
+          "property": "效果8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv20-Lv24</span>普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv25-Lv29</span>物理伤害减免+5.00%；法术伤害减免+5.00%"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对最近的1名敌人造成1000%物理强度的神圣伤害每次释放时，使自身恢复6点怒气值。(本技能的释放速度会受攻速影响，造成的伤害视为技能伤害。)"
+            }
+          ]
+        },
+        {
+          "property": "消耗1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×640</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1850</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×860</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×2160</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×960</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1290</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×50</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3240</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1800</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2月28日"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神使"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "爱恋花见"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到【光阴回还】影响的目标，在30秒内造成的伤害提升30%，如果目标是光明属性黑卫，该效果翻倍。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【时光协奏】触发时释放的时光炸弹会额外选择1名目标进行释放(不会选择同一名敌人连续释放2次)。"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "爱恋花见每有1点怒气恢复，都会使【万物复苏】提供的队友的怒气恢复值增加2点。"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "时光炸弹爆炸后，对目标及其附近的敌人时间迟缓，持续4秒。迟缓：迟缓状态下的角色，攻击速度减半。"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "场上每有一个处于迟缓状态的敌人，都会使爱恋花见每秒恢复1%最大生命值。(计数的敌人数量最多不会超过10)"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "爱恋花见造成的所有伤害+10%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶推荐及理由",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "3血12神格PVE充能<br>3血19神格PVE增伤<br>6血30神格PVP"
+            }
+          ]
+        },
+        {
+          "property": "裤子萃取",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "元素大师之裤"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "枯萎、暴力、死气沉沉"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【圣洁裁决】每攻击10次，会给当前目标添加一枚时光炸弹，时光炸弹延迟5秒后爆炸，造成7500%物理强度的神圣伤害。每次触发时，恢复自身20怒气值。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "爱恋花见在场时，所有己方黑卫造成的必杀技伤害提升15%，光明属性的黑卫受到的加成翻倍。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受【时停回响】被添加时光炸弹的目标被重复添加时光炸弹或时光炸弹被驱散时，原先的时光炸弹会立刻爆炸，并且使这次爆炸的伤害提升100%。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "绑定的黑卫释放必杀技时，也使爱恋花见对附近的1名敌人释放时光炸弹，炸弹造成伤害为原先的100%每次触发时，恢复自身20怒气值。"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "振奋鼓舞战友，所有友方单位初始怒气增加25点"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "能够轻松快速的释放法术，主动技能冷却时间降低10%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "法术强度提升6%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全抗性提升8点，伤害减免8%"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、CD减少、怒气恢复、怒气"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "体质、最大生命值、物理抗性、暴击伤害减免、受到法术伤害降低、受到物理伤害降低"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "爱恋花见"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "爱恋花见#0##_QUERY813ee3098f5d3f90a178b6eeb9c2f1e1",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::爱恋花见]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "爱恋花见# QUERY813ee3098f5d3f90a178b6eeb9c2f1e1"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

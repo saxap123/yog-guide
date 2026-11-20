@@ -1,0 +1,661 @@
+{
+ "id": "char-1484",
+ "name": "Flabellum Seraph",
+ "page_title": "圣翼降临",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Seraphia",
+  "gender": "Female",
+  "race": "Seraphim",
+  "birthday": "--10-16",
+  "birthplace": null,
+  "height_weight": "167cm/65kg",
+  "specialties": [
+   "stargazing",
+   "Combat",
+   "weaving"
+  ],
+  "likes": [
+   "courage",
+   "vitality",
+   "Sages",
+   "an ornate pendant (bond gift)"
+  ],
+  "dislikes": [
+   "restraint",
+   "weakness"
+  ],
+  "release_date": "2024-08-29"
+ },
+ "element": "Lightning",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Thunderstorm Front",
+    "id": "faction-2218"
+   },
+   {
+    "name": "Resonance Front",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction",
+   "Spell Power %",
+   "Skill Crit",
+   "Lightning Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Lightning Damage Boost",
+   "Spell Mastery",
+   "Rage"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "Pure PVP character",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Insight of Blade and Heart",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attacks the nearest 1 enemy, dealing 600% Lightning DMG. Rage no longer regenerates naturally; each time [Insight of Blade and Heart] is used, restores own Rage based on the Rage Restore value. (Every 2% Attack Speed increases this skill's cast speed; this skill counts as Skill DMG)",
+   "scaling": [],
+   "name_zh": "剑心通明"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Dawnbreaker's Courage",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Locks onto the nearest 1 enemy and unleashes 5 powerful slashes on it, each dealing Lightning DMG equal to 3000% of Spell Power. During the cast, self is Invincible.",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 3000% of Spell Power"
+    }
+   ],
+   "name_zh": "拂晓绝息"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Fateweaver's Fortitude",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking Ultimate damage, there is a 25% chance to release a Sword Array on the attacker. The Sword Array lasts for 2 seconds, dealing Lightning damage equal to 2000% Ability Power to enemies within the area every 0.5 seconds, applying Weaken and reducing their total damage reduction by 10% for 5 seconds. Weaken: Reduces all damage dealt by the target by 15%.",
+   "scaling": [
+    {
+     "percent": "2000%",
+     "values": [
+      2000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 2000% of Spell Power"
+    }
+   ],
+   "name_zh": "命运编结"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Radiance of Celestial Soul",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "After 10 Basic Attacks, there is a chance to enter Divine Descent for 5 seconds. While in this state, before using a skill or a basic attack, the character instantly blinks near an enemy and binds the target for 0.5 seconds; additionally, all skills deal 20% increased damage. This effect prioritizes the enemy unit with the highest Ability Power. Bind: The target is unable to act, and this status cannot be dispelled.",
+   "scaling": [],
+   "name_zh": "星魂相耀"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Blades of Starshatter",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When an ally casts a Combat Skill, there is a 15% chance to gain 1 Charge, up to a maximum of 3.\r\nWhile Charges are available, 1 Charge is consumed every 2 seconds to release 2 divine swords at the target hit by Insight of Blade and Heart, dealing Lightning damage equal to 450% Spell Power.",
+   "scaling": [
+    {
+     "percent": "450%",
+     "values": [
+      450.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 450% of Spell Power"
+    }
+   ],
+   "name_zh": "断星飞刃"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Ritual of Requiem",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seraphia: Skill Critical Chance +20.",
+   "scaling": [],
+   "name_zh": "引灵魂息"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Herald of Triumph",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Seraphia enters the [Divine Ascent] state, when she releases [Dawnbreaker's Courage], she will additionally release a Divine Blade by 5 times. And when Seraphia has Lightning Orb, consumes all to release additional Divine Blade, every 2 Lightning Orb consumed will release a Divine Blade by 1 time. (This effect is equal to [Blades of Starshatter])",
+   "scaling": [],
+   "name_zh": "胜利宣告"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Head of Asasin",
+    "Necklace": "Meteorite Necklace",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Rage of Sprites",
+    "Belt": "Honor of House Rudolph",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Nox Emblem",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Holy Winged Feathers",
+    "Handguard": "Spark Catcher"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Moonlight · Regal Amethyst"
+    ],
+    "Ring": [
+     "Crimson Band"
+    ],
+    "Belt": [
+     "Warmonger's Warbelt"
+    ],
+    "Relic": [
+     "Moonlight · Fire Opal"
+    ],
+    "Emblem": [
+     "Emblem of Cruelty"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "阿萨辛之首": "gear-1683",
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "火妖怒焰": "gear-game-2017",
+    "猩红秘戒": "gear-1171",
+    "王室荣尊": "gear-1172",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "月辉·白羽橙晶": "gear-game-13034",
+    "戏谑者裤腿": "gear-1182",
+    "秘影徽识": "gear-1188",
+    "残虐之徽": "gear-1189",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "圣翼光羽": "gear-1639",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": {
+    "火妖怒焰": {
+     "reason": "game_only",
+     "game_id": "2017",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2017",
+        "field": "name",
+        "text_id": 4051,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       4051
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "圣翼降临"
+      ]
+     }
+    },
+    "月辉·白羽橙晶": {
+     "reason": "game_only",
+     "game_id": "13034",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13034",
+        "field": "name",
+        "text_id": 3958,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3958
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "圣翼降临",
+       "冷却装备"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Nightfall Helmet",
+    "Necklace": "Chain of Radiance",
+    "Card": "Soul Abyss Curse Card",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Shadowthorn Lock Armor",
+    "Ring": "Neon Slayer's Blood Ring",
+    "Belt": "Lightning Entwinement",
+    "Relic": "Neon Slayer's Blood Seal",
+    "Trousers": "Thunder-Summoning Trousers",
+    "Emblem": "Neon Slayer's Blood Mark",
+    "Shoes": "Soul-Chase Boots",
+    "Off-hand": "Neon Slayer's Blood Shield",
+    "Weapon": "Brilliant Stars",
+    "Handguard": "Neon Slayer's Blood Gloves"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "夜幕暗盔": "gear-1272",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "魂渊咒牌": "gear-1505",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "刺影锁甲": "gear-1507",
+    "霆霓猩红血戒": "gear-188",
+    "电光缠绕": "gear-1515",
+    "霆霓猩红血玺": "gear-176",
+    "奏雷鸣裤": "gear-1860",
+    "霆霓猩红血印": "gear-145",
+    "影步追魂靴": "gear-1512",
+    "霆霓猩红血盾": "gear-164",
+    "光耀星华": "gear-game-90360",
+    "霆霓猩红血手": "gear-1659"
+   },
+   "unlinked": {
+    "光耀星华": {
+     "reason": "game_only",
+     "game_id": "90360",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90360",
+        "field": "name",
+        "text_id": 78078,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       78078
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "圣翼降临"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": "Thunder Veins",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Songbird",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Increase DMG Dealt of [Blades of Starshatter] by 100%."
+   },
+   {
+    "rank": 2,
+    "text": "When cast, if Perception exceeds 100, every 20 extra Perception adds 1 to the number of divine swords released. Also gains 350 Rage immediately upon entering battle."
+   },
+   {
+    "rank": 3,
+    "text": "When [Dawnbreaker's Courage] deals DMG, each 1 stack of Electrocution on the target increases the DMG dealt by [Dawnbreaker's Courage] by 5%. Also, upon entering battle, immediately gain the maximum number of Lightning Orbs."
+   },
+   {
+    "rank": 4,
+    "text": "When dealing lethal DMG, there is a 15% chance to prevent the enemy's undying and revival effects from triggering. When own Perception exceeds the target's, the greater the Perception difference, the higher this effect's trigger chance."
+   },
+   {
+    "rank": 5,
+    "text": "Each time Divine Descent is triggered, Perception increases by 10, stacking up to 12 times."
+   },
+   {
+    "rank": 6,
+    "text": "All DMG dealt by Flabellum Seraph is increased by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Victory Proclamation",
+   "id": "relic-1944"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E7%BF%BC%E9%99%8D%E4%B8%B4",
+ "revid": 8619,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8619",
+ "rev_timestamp": "2026-02-08T04:14:00Z",
+ "i18n": {
+  "name_zh": "圣翼降临",
+  "sources": {
+   "derived": 5,
+   "game_db": 15,
+   "glossary": 84,
+   "lore": 1,
+   "names": 60,
+   "translated": 14
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 84184,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 84185,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 84187,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 84188,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 75543,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 75528,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 84192,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "浮云屿",
+    "reason": "not translatable (see translate/manual/texts)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

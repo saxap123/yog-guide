@@ -1,0 +1,774 @@
+{
+ "id": "char-308",
+ "name": "Bright Seraphim",
+ "page_title": "纯白之羽",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Endelyon",
+  "gender": "Female",
+  "race": null,
+  "birthday": "--12-25",
+  "birthplace": null,
+  "height_weight": "167cm/65kg (including wings)",
+  "specialties": [
+   "performing rituals",
+   "singing",
+   "taking care of people"
+  ],
+  "likes": [
+   "A little animal?",
+   "nature",
+   "fresh flowers",
+   "herbal tea (bond gift)"
+  ],
+  "dislikes": [
+   "bleeding and getting hurt",
+   "sharp weapons"
+  ],
+  "release_date": "2022-08-15"
+ },
+ "element": "Fire",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Fire DMG equal to 73% Attack Power to 1 enemy within 10 meters.",
+   "scaling": [
+    {
+     "percent": "73%",
+     "values": [
+      73.0
+     ],
+     "stat": "Attack Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 73% of Attack Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Divine Radiance",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Passive effect: Endelyon releases Divine Castigation when performing a normal attack, dealing fire damage equal to 80% of her spell power to up to 4 enemies Active effect: Immediately restores the HP of the teammate with the lowest HP by 120% spell power, and receives a Surge of Light, all damage received during the Surge of Light's duration is converted into a healing effect, lasting 1.5 seconds (can be cleansed)",
+   "scaling": [
+    {
+     "percent": "80%",
+     "values": [
+      80.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 80% of Spell Power"
+    },
+    {
+     "percent": "120%",
+     "values": [
+      120.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 120% of Spell Power"
+    }
+   ],
+   "name_zh": "纯净祝福"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Rapture",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "After a normal attack hits an enemy, Endelyon's attack speed is increased by 5%, up to 16 stacks",
+   "scaling": [],
+   "name_zh": "圣洁狂热"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Heraldric Gospel",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "10% of Endelyon's damage dealt is converted into healing to all allies",
+   "scaling": [],
+   "name_zh": "纯白福音"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Shining Ripple",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Endelyon attacks, 10% of the damage dealt will be used to heal all friendly units within 5 meters of the target",
+   "scaling": [],
+   "name_zh": "圣徒洗礼"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Celestial Preservation",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking fatal DMG, immediately casts once on self. [Divine Radiance triggers once every 25 seconds]",
+   "scaling": [],
+   "name_zh": "神圣庇护"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Heaven's Solace",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Divine Radiance] is cast on all party members instead, and the duration is increased by 1.5 seconds.",
+   "scaling": [],
+   "name_zh": "圣光激涌"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Ultimate Invincible build",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "playstyle: ultimate + invincibility",
+   "slots": {
+    "Helmet": "Celestial Preservation",
+    "Necklace": "Pure White Crystal",
+    "Card": "Card of Total Attacker",
+    "Earrings": "Earring of Magic String",
+    "Armor": "Raging Armor",
+    "Ring": "Solar Commandment",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Valiant of Support",
+    "Trousers": "Legguard of Magic String",
+    "Emblem": "Soul Stealer's Emblem",
+    "Shoes": "Boots of Mercy",
+    "Off-hand": "Soul Stealer's Shield",
+    "Weapon": "Moonlight · Astor's Song",
+    "Handguard": "Grips of Nobility"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Calming Refined Helmet"
+    ],
+    "Necklace": [
+     "Scars of the Stars"
+    ],
+    "Armor": [
+     "Abyssal Bastion"
+    ],
+    "Ring": [
+     "Obsidian Ring"
+    ],
+    "Belt": [
+     "Girdle of Light"
+    ],
+    "Relic": [
+     "Nox Cross"
+    ],
+    "Emblem": [
+     "Runes of the Surge"
+    ],
+    "Shoes": [
+     "Moonlight · Highland Stompers"
+    ],
+    "Off-hand": [
+     "Higan's Last Stand"
+    ],
+    "Weapon": [
+     "Soul Purifier"
+    ],
+    "Handguard": [
+     "Soul Stealer's Gloves"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "神圣守护": "gear-game-11020",
+    "定心精盔": "gear-1688",
+    "纯白澄晶": "gear-game-90005",
+    "星痕项链": "gear-game-4003",
+    "总攻卡牌": "gear-1692",
+    "魔弦耳环": "gear-game-90306",
+    "聚能之铠": "gear-1170",
+    "深渊壁垒": "gear-1082",
+    "阳炎之指": "gear-1083",
+    "曜晶之戒": "gear-game-2034",
+    "嗜战者束腰": "gear-1210",
+    "沐光环绕": "gear-1199",
+    "辅助之勇气": "gear-game-13051",
+    "漆黑十字": "gear-1187",
+    "魔弦护腿": "gear-game-90309",
+    "穿魂夺魄秘徽": "gear-1598",
+    "魔涌之徽": "gear-1176",
+    "怜悯圣靴": "gear-2024",
+    "月辉·高岭军靴": "gear-1201",
+    "穿魂夺魄秘盾": "gear-1597",
+    "浴火之盾": "gear-1205",
+    "月辉·疾雷之书": "gear-game-10087",
+    "纯净涤魂": "gear-game-90272",
+    "贵族手套": "gear-game-3011",
+    "穿魂夺魄秘手": "gear-1658"
+   },
+   "unlinked": {
+    "神圣守护": {
+     "reason": "game_only",
+     "game_id": "11020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "11020",
+        "field": "name",
+        "text_id": 3830,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       3830
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽"
+      ]
+     }
+    },
+    "纯白澄晶": {
+     "reason": "game_only",
+     "game_id": "90005",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90005",
+        "field": "name",
+        "text_id": 55872,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       55872
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽"
+      ]
+     }
+    },
+    "星痕项链": {
+     "reason": "game_only",
+     "game_id": "4003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4003",
+        "field": "name",
+        "text_id": 4068,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       4068
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "幸运装备",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "魔弦耳环": {
+     "reason": "game_only",
+     "game_id": "90306",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90306",
+        "field": "name",
+        "text_id": 63588,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       63588
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "千宵月守"
+      ]
+     }
+    },
+    "曜晶之戒": {
+     "reason": "game_only",
+     "game_id": "2034",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2034",
+        "field": "name",
+        "text_id": 56720,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       56720
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "分解装备",
+       "回怒装备"
+      ]
+     }
+    },
+    "辅助之勇气": {
+     "reason": "game_only",
+     "game_id": "13051",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13051",
+        "field": "name",
+        "text_id": 55666,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       55666
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "幸运装备"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "月辉·疾雷之书": {
+     "reason": "game_only",
+     "game_id": "10087",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10087",
+        "field": "name",
+        "text_id": 3795,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3795
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "纯白之羽",
+       "冷却装备",
+       "回怒装备",
+       "怒气装备"
+      ]
+     }
+    },
+    "纯净涤魂": {
+     "reason": "game_only",
+     "game_id": "90272",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90272",
+        "field": "name",
+        "text_id": 63102,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       63102
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽"
+      ]
+     }
+    },
+    "贵族手套": {
+     "reason": "game_only",
+     "game_id": "3011",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3011",
+        "field": "name",
+        "text_id": 8325,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       8325
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Ursus",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Heavenly Damnation",
+   "id": "relic-2157"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《安黛莉的食物》",
+   "answers": [
+    "×重油重盐的肉，补充营养",
+    "√采来的果子"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《医者天职》",
+   "answers": [
+    "×把他狂揍一顿，替安黛莉出气",
+    "√坐下来促膝长谈，跟他讲道理"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《我们的约定》",
+   "answers": [
+    "获得专属项链：纯白澄晶"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BA%AF%E7%99%BD%E4%B9%8B%E7%BE%BD",
+ "revid": 9127,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9127",
+ "rev_timestamp": "2026-08-11T03:15:16Z",
+ "i18n": {
+  "name_zh": "纯白之羽",
+  "sources": {
+   "derived": 5,
+   "game_db": 9,
+   "glossary": 56,
+   "lore": 2,
+   "names": 48,
+   "translated": 13
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 53899,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 53898,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 53900,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 53901,
+    "match": "loose"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 53903,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "蒙特沃德森林",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ]
+ }
+}

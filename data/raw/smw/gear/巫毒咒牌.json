@@ -1,0 +1,153 @@
+{
+  "subject": "巫毒咒牌",
+  "group": "gear",
+  "page_revid": 6080,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%B7%AB%E6%AF%92%E5%92%92%E7%89%8C",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%B7%AB%E6%AF%92%E5%92%92%E7%89%8C&format=json",
+  "fetched_at": "2026-11-20T16:16:00+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "巫毒咒牌#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/2/26/12/33/8/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/2/26/12/33/8/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "巫毒咒牌"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、2%全伤害类型增幅、2%全伤害类型减免、5精神精通、5法术精通、5物理精通、50幸运、3%基础复活率、5法术豁免、5精神豁免、5物理豁免"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "7物理豁免、7法术豁免、7精神豁免、17532魔力、17532魔力、17532力量、17532力量、60幸运、60幸运、43%暴击伤害减免、43%暴击伤害减免、7物理精通、7法术精通"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532魔力、17532魔力、1753力量、1753力量、60幸运、60幸运、43%暴击伤害减免、43%暴击伤害减免、0.25吸血抗性"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可嵌入"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "追忆之帆-黑渊"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "巫毒咒牌"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "反击击中时，有(10.00%-20.00%)几率对敌方添加沉默、致盲、虚弱其中一项负面状态，持续4秒(触发几率额外受精通影响：(自身所有精通的总和-敌方所有豁免总和)x0.5%)"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "卡牌"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

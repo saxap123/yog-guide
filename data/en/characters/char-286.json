@@ -1,0 +1,703 @@
+{
+ "id": "char-286",
+ "name": "Foxy Archduchess",
+ "page_title": "玉面九尾",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Komori",
+  "gender": "Female",
+  "race": "Beast Blood",
+  "birthday": "--03-07",
+  "birthplace": "Senblen, the imperial capital",
+  "height_weight": "168cm/69kg",
+  "specialties": [
+   "Charmed",
+   "lying"
+  ],
+  "likes": [
+   "thunder",
+   "interesting people",
+   "sincerity",
+   "Bergogne wine (bond gift)"
+  ],
+  "dislikes": [
+   "boring people",
+   "candy",
+   "Lie...?"
+  ],
+  "release_date": "2023-08-31"
+ },
+ "element": "Lightning",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Thunderstorm Front",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Max HP",
+   "Constitution",
+   "CD Reduction",
+   "Rage",
+   "Rage Restore"
+  ],
+  "secondary": [
+   "Intelligence",
+   "Spell Power %",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "Below Sanguine 2, needs a CD build",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Flash of the Fox",
+   "cooldown_s": 2,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Calls down a lightning strike ahead, dealing 900% Spell Power as Lightning DMG to enemies within the strike area",
+   "scaling": [
+    {
+     "percent": "900%",
+     "values": [
+      900.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 900% of Spell Power"
+    }
+   ],
+   "name_zh": "电光狐影"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Enchanting Silhouette",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Unleashes a spell on up to 2 enemies, dealing 20000% Lightning damage based on Spell Power and inflicting Numb for 4 seconds. Numb: Force recovery rate −50%.",
+   "scaling": [
+    {
+     "percent": "20000%",
+     "values": [
+      20000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 20000% of Spell Power"
+    }
+   ],
+   "name_zh": "魅惑之影"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Embrace of Thunderbolt",
+   "cooldown_s": 30,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Komori rushes to an allied Blackguard with the highest Spell Power, increases all Lightning DMG Dealt of the target by 15% for next 6 sec. If the target is a Lightning-type Blackguard, the damage bonus becomes 40%.",
+   "scaling": [],
+   "name_zh": "雷鸣抚慰"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Forbidden Witchcraft",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When another Blackguard in the team casts an Ultimate Skill, Foxy Archduchess has a chance to gain 1 charge, storing up to 3 charges. Trigger chance: 30%. While holding charges, consumes 1 charge every 2 sec to strike 1 random enemy with lightning, dealing 10000% Spell Power as Lightning DMG",
+   "scaling": [
+    {
+     "percent": "10000%",
+     "values": [
+      10000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 10000% of Spell Power"
+    }
+   ],
+   "name_zh": "禁咒封魔"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Aspect of the Spiritfox",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Embrace of Thunderbolt] Force cost is reduced by 20%",
+   "scaling": [],
+   "name_zh": "灵狐守护"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Scarlet Foxy Dance",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Embrace of Thunderbolt] applies a continuous Shield-restoring effect to the target, restoring 10% of Shield value per second",
+   "scaling": [],
+   "name_zh": "狐妖绯舞"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Meditation of the Fox",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases Duration of [Embrace of Thunderbolt] by 2 seconds.",
+   "scaling": [],
+   "name_zh": "狐幻心魄"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Lv 450 CD build",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": "CD build",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Bullseye",
+    "Necklace": "Spiral Guide",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Abyssal Bastion",
+    "Ring": "Instructors' Testament",
+    "Belt": "Girdle of Light",
+    "Relic": "Nox Cross",
+    "Trousers": "Iron Greaves",
+    "Emblem": "Disc of Revival",
+    "Shoes": "Sandals of the Sages",
+    "Off-hand": "Ancient Arcanist's Barrier",
+    "Weapon": "Moonlight · Soluna",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Belt": [
+     "Draconic Might"
+    ],
+    "Handguard": [
+     "Imperial Gauntlets"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·精英射手": "gear-1080",
+    "指路吊坠": "gear-1081",
+    "深渊壁垒": "gear-1082",
+    "导师之守护": "gear-1197",
+    "沐光环绕": "gear-1199",
+    "龙吟裹腰": "gear-1200",
+    "漆黑十字": "gear-1187",
+    "铁铠胫甲": "gear-1203",
+    "复苏徽识": "gear-game-7007",
+    "智者足具": "gear-game-15016",
+    "古老魔盾": "gear-game-5020",
+    "月辉·凝辉": "gear-game-10092",
+    "妖精秘手": "gear-1179",
+    "帝胄守护": "gear-1206"
+   },
+   "unlinked": {
+    "复苏徽识": {
+     "reason": "game_only",
+     "game_id": "7007",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "7007",
+        "field": "name",
+        "text_id": 54995,
+        "type": "12"
+       }
+      ],
+      "text_ids": [
+       54995
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "古老魔盾": {
+     "reason": "game_only",
+     "game_id": "5020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5020",
+        "field": "name",
+        "text_id": 53826,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53826
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "忘却迷境攻略",
+       "冷却装备"
+      ]
+     }
+    },
+    "月辉·凝辉": {
+     "reason": "game_only",
+     "game_id": "10092",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10092",
+        "field": "name",
+        "text_id": 3800,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3800
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "玉面九尾",
+       "爱恋花见",
+       "冷却装备",
+       "迷迭妖精"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Strong Rock",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "[Enbrace of Thuderbolt] now targets all ally blackguards."
+   },
+   {
+    "rank": 2,
+    "text": "Increase the target of [Enchanting Silhouette] by 2."
+   },
+   {
+    "rank": 3,
+    "text": "Perception >100: every +15 Perception adds +1 lightning strike to Forbidden Witchcraft."
+   },
+   {
+    "rank": 4,
+    "text": "Lightning hits from Forbidden Witchcraft have a 5% base chance to inflict Charm (2s).\r\nCharm chance increases based on Perception advantage over the target."
+   },
+   {
+    "rank": 5,
+    "text": "Charm duration +1s for Forbidden Witchcraft."
+   },
+   {
+    "rank": 6,
+    "text": "All DMG Dealt by Komori increased by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Grip of Paradise",
+   "id": "relic-1953"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%8E%89%E9%9D%A2%E4%B9%9D%E5%B0%BE",
+ "revid": 8609,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8609",
+ "rev_timestamp": "2026-02-08T04:05:27Z",
+ "i18n": {
+  "name_zh": "玉面九尾",
+  "sources": {
+   "derived": 5,
+   "game_db": 14,
+   "glossary": 60,
+   "lore": 1,
+   "names": 47,
+   "translated": 18
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 83868,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 62572,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 62577,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 62271,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 62273,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 83907,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 83908,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 83909,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 62274,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.birthplace",
+    "zh": "森布伦",
+    "en": "Senblen"
+   },
+   {
+    "path": "profile.likes[3]",
+    "zh": "伯戈涅",
+    "en": "Bergogne"
+   },
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

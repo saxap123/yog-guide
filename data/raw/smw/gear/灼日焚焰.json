@@ -1,0 +1,180 @@
+{
+  "subject": "灼日焚焰",
+  "group": "gear",
+  "page_revid": 7734,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%BC%E6%97%A5%E7%84%9A%E7%84%B0",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%BC%E6%97%A5%E7%84%9A%E7%84%B0&format=json",
+  "fetched_at": "2026-11-20T16:18:32+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "灼日焚焰#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/20/6/50/42/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/11/27/12/42/57/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "灼日焚焰"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、5%全伤害类型增幅、5%技能暴击、20%暴击倍率、60怒气"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "以燎原焰影铸魂所造，充满凌空灼日的不歌焚焰。"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258力量、9258力量、9258力量、9258力量、9258魔力、9258魔力、9258魔力、9258魔力、5物理精通、5法术精通、2299物理强度、2299法术强度"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "11.5%全伤害类型增幅、11.5%全伤害类型增幅、11.5%全伤害类型增幅、36%暴击倍率、15命中、43火焰穿透、43闪电穿透、43冰霜穿透"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "屠灭：每次普通攻击，降低目标的攻击速度5%，提升自身攻击速度5%，可叠加5层当前敌人生命低于50%时，对其造成的伤害提高(10.00%-20.00%)；狂热征伐：每主动驱散一个负面状态，回复自身(5.00%-10.00%)生命上限，精神专精提升1点，混沌伤害提升5%，持续20秒，可叠加20层"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "铸魂"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "灼日焚焰"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "炽焰降生造成的所有伤害+10%，且炽焰降生处于龙形态时【红龙狂舞】每命中一名敌人，会减少【红龙狂舞】当前冷却时间0.5秒，如果敌人是精英或者BOSS，冷却时间减少效果变为2秒。(减少效果不会将冷却时间缩减至小于1秒)；每次释放【红龙狂舞】时，获得一个狂怒球"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "武器"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

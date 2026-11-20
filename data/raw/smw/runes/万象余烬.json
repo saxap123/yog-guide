@@ -1,0 +1,144 @@
+{
+  "subject": "万象余烬",
+  "group": "runes",
+  "page_revid": 8785,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%87%E8%B1%A1%E4%BD%99%E7%83%AC",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B8%87%E8%B1%A1%E4%BD%99%E7%83%AC&format=json",
+  "fetched_at": "2026-11-20T16:25:04+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "万象余烬#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/3/26/10/59/38/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "符文#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/3/26/11/27/47/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "万象余烬"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1763力量、1763力量、1763魔力、1763魔力、1763体质、1763体质、1763意志、1763意志、1939物理强度、1939物理强度、1939法术强度、1939法术强度、35260生命、35260护盾"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1763力量、1763力量、1763魔力、1763魔力、1763体质、1763体质、1763意志、1763意志、10闪电穿透、10冰霜穿透、10火焰穿透、5%金币获取提升"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1892全属性"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "符文名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "万象余烬"
+            }
+          ]
+        },
+        {
+          "property": "符文技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全元素抗性+(1-10)；源力初始值+(5-15)；全属性+(2-5)；随机技能强度等级+(1-3)；勇猛、感知、强韧随机一条属性+(5)；勇猛、感知和强韧+(1-8)"
+            }
+          ]
+        },
+        {
+          "property": "类型",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "主符文"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "异界"
+            }
+          ]
+        },
+        {
+          "property": "边",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span style=\"color:#09eb84\">//////</span>"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "yog-guide-web",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Static English build reference for Book of Yog Idle RPG (data from ../data/en, embedded at build time)",
+  "scripts": {
+    "data": "node scripts/prepare-data.ts",
+    "images": "node scripts/prepare-images.ts",
+    "dev": "node scripts/prepare-data.ts && node scripts/prepare-images.ts && vite",
+    "build": "node scripts/build.ts",
+    "build:icons": "node scripts/build.ts --images=icons",
+    "build:full": "node scripts/build.ts --images=full",
+    "build:none": "node scripts/build.ts --images=none",
+    "preview": "vite preview --port 4173 --strictPort",
+    "deploy": "node scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "sharp": "^0.35.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  }
+}

@@ -1,0 +1,603 @@
+{
+ "id": "char-1648",
+ "name": "拂光破雪",
+ "page_title": "拂光破雪",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "花信风",
+  "gender": "女",
+  "race": "野兽血裔",
+  "birthday": "3月3日",
+  "birthplace": "遥远东方",
+  "height_weight": "160cm/48kg",
+  "specialties": [
+   "快速奔跑",
+   "听觉敏锐"
+  ],
+  "likes": [
+   "指挥官",
+   "姐姐",
+   "家",
+   "王权棋子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "胡萝卜",
+   "噪音",
+   "训练"
+  ],
+  "release_date": "2024年12月26日"
+ },
+ "element": "冰霜",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "刺杀",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "诡影",
+    "id": "faction-2198"
+   },
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   },
+   {
+    "name": "共鸣",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "攻击速度",
+   "%法术强度",
+   "技能暴击",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "冰霜伤害增幅",
+   "冰霜穿透"
+  ],
+  "secondary": [
+   "物理抗性",
+   "怒气",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "最大生命值",
+   "体质",
+   "怒气恢复",
+   "暴击伤害减免"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "疾风连斩",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对前方敌人进行快速的斩击，造成800%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "800%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "雪舞纷扬",
+   "cooldown_s": 1,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "在刀身中凝聚能量，【疾风连斩】将被替换为居合斩每次攻击都会释放大范围的2道斩击，对前方敌人造成1100%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "1100%",
+     "values": [
+      1100.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "1100%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "动若脱兔",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "当攻击范围内没有敌人时，会快速的朝最近的敌人冲刺，最大冲刺距离为10米。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "剑势蓄发",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "释放6次居合斩后，会额外释放一次更强力的斩击新击数量为6道，斩击造成1100%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "1100%",
+     "values": [
+      1100.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "1100%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "拂晓微光",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【雪舞纷扬】和【剑势蓄发】释放的新击伤害提升100%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "无念一心",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "拂光破雪的技能暴击几率+30%",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "唯我在此",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【雪舞纷扬】持续期问，敌人对自己造成的伤害有35%几率产生偏移，伯移时受到的伤害为原先的25%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "恃强凌弱",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对法术强度或物理强度低于自身的敌人造成伤害提高12%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "致命伏击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对生命值为满的敌人造成伤害提高15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "暗影斗篷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到减益效果的持续时间减少30%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "影遁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "阿萨辛之首",
+    "项链": "咒石项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "夺魂之戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "冰猎",
+    "裤子": "寒霜行者",
+    "徽章": "残虐之徽",
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "飞鸿",
+    "护手": "深渊之握"
+   },
+   "alternatives": {
+    "戒指": [
+     "猩红秘戒"
+    ],
+    "裤子": [
+     "戏谑者裤腿"
+    ],
+    "护手": [
+     "雷云捕手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "阿萨辛之首": "gear-1683",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "夺魂之戒": "gear-1571",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "冰猎": "gear-1682",
+    "寒霜行者": "gear-1684",
+    "戏谑者裤腿": "gear-1182",
+    "残虐之徽": "gear-1189",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "飞鸿": "gear-1685",
+    "深渊之握": "gear-1192",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "夜幕暗盔",
+    "项链": "黑色汪洋",
+    "卡牌": "魂渊咒牌",
+    "耳坠": "辉耀之环",
+    "衣服": "刺影锁甲",
+    "戒指": "雪影冰戒",
+    "腰带": "感电者",
+    "圣物": "雪影之遗",
+    "裤子": "霜凝咒裤",
+    "徽章": "雪影白徽",
+    "鞋子": "影步追魂靴",
+    "副手": "雪影守护",
+    "武器": "淬羽霜刃",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "项链": [
+     "辉耀之链"
+    ],
+    "卡牌": [
+     "精魄魔牌"
+    ],
+    "鞋子": [
+     "宗室礼靴"
+    ],
+    "护手": [
+     "深渊之握"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "夜幕暗盔": "gear-1272",
+    "黑色汪洋": null,
+    "辉耀之链": "gear-134",
+    "魂渊咒牌": "gear-1505",
+    "精魄魔牌": "gear-1291",
+    "辉耀之环": "gear-138",
+    "刺影锁甲": "gear-1507",
+    "雪影冰戒": "gear-185",
+    "感电者": "gear-1690",
+    "雪影之遗": "gear-179",
+    "霜凝咒裤": "gear-1859",
+    "雪影白徽": "gear-158",
+    "影步追魂靴": "gear-1512",
+    "宗室礼靴": "gear-1282",
+    "雪影守护": "gear-166",
+    "淬羽霜刃": null,
+    "幽冥初水": null,
+    "深渊之握": "gear-1192"
+   },
+   "unlinked": {
+    "黑色汪洋": {
+     "reason": "game_only",
+     "game_id": "90324",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90324",
+        "field": "name",
+        "text_id": 69057,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       69057
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪",
+       "不熄曜日",
+       "绞刃流火",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "淬羽霜刃": {
+     "reason": "game_only",
+     "game_id": "90370",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90370",
+        "field": "name",
+        "text_id": 80639,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       80639
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "寒月",
+    "id": "rune-1412",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "霜咬",
+    "id": "rune-1423",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "霜雪",
+    "id": "rune-1421",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "在此感谢 观海大佬（水金861）提供符文图"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "霜蹄",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": "道中8诡眼，直接boss战就2诡眼"
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【剑势蓄发】触发时要求的次数-2。"
+   },
+   {
+    "rank": 2,
+    "text": "居合状态下释放的斩击数量+1(【剑势蓄发】不受此效果影响)"
+   },
+   {
+    "rank": 3,
+    "text": "自身攻速大于100%时，每拥有10%额外攻速可提升【雪舞纷扬】状态下【疾风连斩】的释放速度1%(最多提升25%)。"
+   },
+   {
+    "rank": 4,
+    "text": "【雪舞纷扬】持续期间，不会被冰冻。"
+   },
+   {
+    "rank": 5,
+    "text": "受到来自火焰属性或闪电属性黑卫的攻击时，产生偏移的几率提升35%。"
+   },
+   {
+    "rank": 6,
+    "text": "拂光破雪造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "渐见新绿",
+   "id": "relic-1965"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%8B%82%E5%85%89%E7%A0%B4%E9%9B%AA",
+ "revid": 8618,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8618",
+ "rev_timestamp": "2026-02-08T04:13:30Z"
+}

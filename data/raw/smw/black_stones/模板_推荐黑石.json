@@ -1,0 +1,17 @@
+{
+  "subject": "模板:推荐黑石",
+  "group": "black_stones",
+  "page_revid": 8770,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%A8%A1%E6%9D%BF%3A%E6%8E%A8%E8%8D%90%E9%BB%91%E7%9F%B3&format=json",
+  "fetched_at": "2026-11-20T16:27:36+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "推荐黑石#10##",
+      "data": [],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

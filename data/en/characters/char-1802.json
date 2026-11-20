@@ -1,0 +1,293 @@
+{
+ "id": "char-1802",
+ "name": "Unseen Shadow",
+ "page_title": "长夜之影",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Hedalet",
+  "gender": "Unknown",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": null,
+  "dislikes": null,
+  "release_date": "2021-06-27"
+ },
+ "element": "Frost",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Dance of the Eternal Night",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Hedalet releases 12 flying daggers around him; 2 seconds after fully spreading out, all daggers fly back to Unseen Shadow's position, and each time they pass through an enemy they deal Frost DMG equal to 62.5% of Spell Power to it.",
+   "scaling": [
+    {
+     "percent": "62.5%",
+     "values": [
+      62.5
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 62.5% of Spell Power"
+    }
+   ],
+   "name_zh": "永夜之舞"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Shadowstep",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Hedalet teleports behind the enemy with the least HP, dealing Frost damage of 120% (affected by spell power) to the current target, and stealing 10% of the target's current rage if it critically hits.",
+   "scaling": [
+    {
+     "percent": "120%",
+     "values": [
+      120.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 120% of Spell Power"
+    }
+   ],
+   "name_zh": "暗夜奇袭"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Anger Management",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack Speed increased by 25%; each of Hedalet's attacks destroys 10 (additionally affected by Spell Mastery) Rage of the target.",
+   "scaling": [],
+   "name_zh": "能量损毁"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Deathly Hallows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The spell cloak created by Hedalet makes him take Spell DMG only once per 1 second, and reduces that DMG by 6% (additionally affected by Spell Mastery).",
+   "scaling": [],
+   "name_zh": "破魔斗篷"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Folded Steel",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Hedalet's loyal service to the Goddess of Night is rewarded, increasing Hedalet's Skill Crit% by 15%. Dance of the Eternal Night has a 10% + 2% * Spell Mastery chance on hit to apply the Chill effect.",
+   "scaling": [],
+   "name_zh": "冷酷刀锋"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Bloodlust",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each time a teammate casts an ultimate, Hedalet gains [Energy Transfer]: Attack Speed increased by 6%, DMG increased by 6% (stack limit: 25). In addition, when Hedalet dies, he shares 100% of his current Rage evenly among all surviving allied units.",
+   "scaling": [],
+   "name_zh": "献祭"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%95%BF%E5%A4%9C%E4%B9%8B%E5%BD%B1",
+ "revid": 8627,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8627",
+ "rev_timestamp": "2026-02-08T04:17:26Z",
+ "i18n": {
+  "name_zh": "长夜之影",
+  "sources": {
+   "derived": 3,
+   "game_db": 5,
+   "glossary": 29,
+   "lore": 1,
+   "names": 16,
+   "translated": 5
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 3073,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[6].description",
+    "zh": "能量转移",
+    "en": "Energy Transfer"
+   }
+  ]
+ }
+}

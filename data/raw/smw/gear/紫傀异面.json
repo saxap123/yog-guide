@@ -1,0 +1,153 @@
+{
+  "subject": "紫傀异面",
+  "group": "gear",
+  "page_revid": 6291,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E7%B4%AB%E5%82%80%E5%BC%82%E9%9D%A2",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%B4%AB%E5%82%80%E5%BC%82%E9%9D%A2&format=json",
+  "fetched_at": "2026-11-20T16:20:17+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "紫傀异面#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/5/7/45/29/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/3/28/4/40/57/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "紫傀异面"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、2%全伤害类型增幅、2%全伤害类型减免、5精神精通、5法术精通、5物理精通、50幸运、10%暴击倍率、5法术豁免、5精神豁免、5物理豁免"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532体质、17532体质、17532体质、17532体质、10%全伤害类型减免、10%受到法术伤害降低、120%暴击伤害减免、5%最大生命值、7物理豁免、7法术豁免、7精神豁免"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532力量、17532力量、17532力量、17532力量、17532魔力、17532魔力、17532魔力、17532魔力、17532体质、17532体质、7%受到法术伤害降低、7%受到法术伤害降低、7%受到物理伤害降低、7%受到物理伤害降低"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "极限法帽：怒气自然回复速度下降25%，全伤害增幅提升52.25%；蛮族面具：若本方阵营场上只剩自己一人，濒死时获得无敌效果，持续4秒，生命上限增加103%+1632"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "追忆之帆-黑渊"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "紫傀异面"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "秘术黑卫佩戴时，每次消耗1个球获得1点充能。充能达到上限(20+佩戴者所有球上限总值)时，消耗所有充能对1名随机敌人释放充能打击，拥有的每点充能将造成(400.00%6-566.00%)法术强度的伤害，该效果拥有最少8秒的触发间隔。(伤害类型取决于佩戴者，该伤害视为技能伤害)"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "头盔"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

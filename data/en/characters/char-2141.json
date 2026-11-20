@@ -1,0 +1,487 @@
+{
+ "id": "char-2141",
+ "name": "Golden Hatch",
+ "page_title": "金蜂破茧",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Brittany",
+  "gender": "Female",
+  "race": "Beast Blood",
+  "birthday": "--02-18",
+  "birthplace": null,
+  "height_weight": "158cm/49kg",
+  "specialties": [
+   "brewing Huaman",
+   "making tea"
+  ],
+  "likes": [
+   "fresh flowers",
+   "spring",
+   "nectar",
+   "rose bouquet (bond gift)"
+  ],
+  "dislikes": [
+   "winter",
+   "Cold",
+   "flower thieves"
+  ],
+  "release_date": "2025-08-28"
+ },
+ "element": "Lightning",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   },
+   {
+    "name": "Thunderstorm Front",
+    "id": "faction-2218"
+   },
+   {
+    "name": "Resonance Front",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Constitution",
+   "Max HP",
+   "Rage",
+   "Rage Restore"
+  ],
+  "secondary": [
+   "Intelligence",
+   "Spell Power %",
+   "Physical Resistance",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Shock Sense",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Swing your weapon to deal 1000% Spell Power as Lightning DMG to enemies in front and apply 1 stack of Shock. (This skill is unaffected by Attack Speed, and its DMG counts as Skill Damage.)",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 1000% of Spell Power"
+    }
+   ],
+   "name_zh": "电击感应"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Umbrella Reverie",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "With full Concentration, continuously maintains an offensive field that fires a light bullet at surrounding enemies every 0.3 seconds, dealing Lightning DMG equal to 1000% of Spell Power and a 0.1 second Stun; the continuous cast is not interrupted by Taunt or Silence effects. This skill is cast when Rage reaches the maximum; after casting, Rage decreases by 300 per second until Rage reaches 0, ending the skill.",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 1000% of Spell Power"
+    }
+   ],
+   "name_zh": "游伞醉梦"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Secret Zone",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Create a field at your location that lasts for 8 seconds, restoring 400% Spell Power as HP per second to allies within the area.",
+   "scaling": [
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 400% of Spell Power"
+    }
+   ],
+   "name_zh": "秘密特区"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Golden Bee's Blessing",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Allied units within [Secret Zone] gain 20% Deflection Chance. This effect does not stack with the Deflection granted by [Pyrotechnic Trick]. (When Deflection occurs, DMG taken is reduced to 25% of its original value.)",
+   "scaling": [],
+   "name_zh": "金蜂祝运"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Exclusive Broadcast",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Umbrella Reverie] deals 30% increased damage, and when firing projectiles, there is a 25% chance to target an additional nearby enemy.",
+   "scaling": [],
+   "name_zh": "独家放送"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Silent Venom",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Secret Zone] exerts a powerful effect on enemies within its area: for every 1% HP lost, Lightning Damage taken is increased by 0.5%, up to a maximum of 40%.",
+   "scaling": [],
+   "name_zh": "无声毒浸"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Sweetheart Stinger",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Enemies within [Secret Zone] take an additional 3500% Spell Power as Lightning DMG every 2 seconds.",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 3500% of Spell Power"
+    }
+   ],
+   "name_zh": "甜心尾刺"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Waiting for a Lv 450 build — suggestions welcome in the comments below",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder: editors ask for a 450 build in the comments",
+   "slots": {
+    "Helmet": null,
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": null,
+    "Ring": null,
+    "Belt": null,
+    "Relic": null,
+    "Trousers": null,
+    "Emblem": null,
+    "Shoes": null,
+    "Off-hand": null,
+    "Weapon": "Parasol Dance",
+    "Handguard": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "春序伞舞": "gear-2298"
+   },
+   "unlinked": null,
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "The light projectiles fired by [Umbrella Reverie] can bounce 1 time, with DMG reduced by 50% per bounce."
+   },
+   {
+    "rank": 2,
+    "text": "Enhances [Silent Venom]: For every 1% HP lost by the enemy, DMG taken increases by an additional 0.25%, up to an extra 20%."
+   },
+   {
+    "rank": 3,
+    "text": "[Golden Bee's Blessing] increases the chance of Deflection by 15%."
+   },
+   {
+    "rank": 4,
+    "text": "[Umbrella Reverie] cannot be interrupted while casting."
+   },
+   {
+    "rank": 5,
+    "text": "[Silent Venom] additionally reduces the target's final healing received by 0.75% for every 1% HP lost, up to a maximum of 60%."
+   },
+   {
+    "rank": 6,
+    "text": "All DMG dealt by Brittany is increased by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Honey Weave",
+   "id": "relic-2160"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%87%91%E8%9C%82%E7%A0%B4%E8%8C%A7",
+ "revid": 8604,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8604",
+ "rev_timestamp": "2026-02-08T03:57:01Z",
+ "i18n": {
+  "name_zh": "金蜂破茧",
+  "sources": {
+   "derived": 6,
+   "game_db": 15,
+   "glossary": 59,
+   "lore": 1,
+   "names": 25,
+   "translated": 13
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 81887,
+    "match": "loose"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 81888,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 81890,
+    "match": "loose"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 81891,
+    "match": "loose"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 81892,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 81893,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 81875,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 81876,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 81877,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 81878,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 81879,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "弗兰卡特小镇",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.specialties[0]",
+    "zh": "花蛮",
+    "en": "Huaman"
+   }
+  ]
+ }
+}

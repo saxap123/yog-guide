@@ -1,0 +1,5462 @@
+{
+ "kind": "relic",
+ "license": "CC BY-NC-SA 4.0",
+ "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
+ "count": 60,
+ "language": "en",
+ "translation": "see data/names.json, data/glossary.json, translate/README.md",
+ "items": [
+  {
+   "id": "relic-1946",
+   "name": "All things come together",
+   "page_title": "万象归一",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Blooming Ink Deer",
+    "id": "char-295"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Max HP"
+   ],
+   "skills": [
+    "When wearing by Weimo, all damage caused increases by 5%+25%",
+    "When Weimo's Ult Skill [Swipe Brush like Wind] is taking effect, grants Frozen and Charmed Immune to all allies."
+   ],
+   "advanced_fixed_skill": "When a teammate triggers [Immortal Birds Sing], Weimo will immediately recover 30 points of Rage.",
+   "advanced_random_skills": [
+    "The physical damage boost provided by [Flowing Ink Swell] is increased by (1.00%-3.00%).",
+    "The damage caused by [Immortal Birds Sing] increases by (10.00%-15.00%).",
+    "The healing effect caused by [Brush Spring Breeze] is increased by (12.00%-20.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "落于画妖画卷上的第一滴墨珠。经历万千，终于给成她们此生最爱。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%87%E8%B1%A1%E5%BD%92%E4%B8%80",
+   "revid": 7624,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7624",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B8%87%E8%B1%A1%E5%BD%92%E4%B8%80&format=json",
+   "i18n": {
+    "name_zh": "万象归一",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 73593,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 73574,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 76782,
+      "match": "exact"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 76778,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 76779,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 76780,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1970",
+   "name": "Eternal Soul",
+   "page_title": "不灭之魂",
+   "type": "Universal",
+   "quality": "Epic",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "skills": [
+    "Regenerate 10000+50000 HP per second.",
+    "When you take no damage for the past 4 seconds, you gain a damage absorbing shield that absorbs 200% of your health regeneration per second."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": [
+    "Black Market - Misty Shop"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%8D%E7%81%AD%E4%B9%8B%E9%AD%82",
+   "revid": 6391,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6391",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B8%8D%E7%81%AD%E4%B9%8B%E9%AD%82&format=json",
+   "i18n": {
+    "name_zh": "不灭之魂",
+    "sources": {
+     "game_db": 2,
+     "glossary": 4,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 54998,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 55000,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1953",
+   "name": "Grip of Paradise",
+   "page_title": "乐园之握",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Foxy Archduchess",
+    "id": "char-286"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When Komori equips, All DMG Dealt increased by 5%+25%.",
+    "【Forbidden Witchcraft】activation chance +10%"
+   ],
+   "advanced_fixed_skill": "When Foxy Archduchess inflicts Charmed, 45% chance to reduce the enemy's healing received by 35%. (Each point of Mental Mastery of Foxy Archduchess increases this chance by 1%, each point of Mental Negation of the enemy target reduces it by 1%.)",
+   "advanced_random_skills": [
+    "Increases the DMG Dealt of [Enchanting Silhouette] by (6.00%-10.00%).",
+    "Increases the Charmed duration of [Enchanting Silhouette] by (0.5-1).",
+    "Increases the Spell Power Boost granted by [Forbidden Witchcraft] by (0.50%-1.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "狐妖一族遗传的秘密，便是那人间至乐的乐园。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E4%B9%90%E5%9B%AD%E4%B9%8B%E6%8F%A1",
+   "revid": 7726,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7726",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%B9%90%E5%9B%AD%E4%B9%8B%E6%8F%A1&format=json",
+   "i18n": {
+    "name_zh": "乐园之握",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 62267,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 83943,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 73604,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 73605,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 73606,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2080",
+   "name": "Covenant of Light",
+   "page_title": "光明缔约",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Radiant Vigil",
+    "id": "char-2069"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "All DMG dealt increased by 5% + 25% while wearing Theiana.",
+    "When [Shorebound Refraction] is triggered, instantly restores 60 Rage."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%85%89%E6%98%8E%E7%BC%94%E7%BA%A6",
+   "revid": 7614,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7614",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%85%89%E6%98%8E%E7%BC%94%E7%BA%A6&format=json",
+   "i18n": {
+    "name_zh": "光明缔约",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 81624,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 81616,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1967",
+   "name": "Blooming Alone in Spring",
+   "page_title": "凌春独绽",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Everlasting Sol",
+    "id": "char-1631"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Juliet, all damage caused increases by 5%+25%",
+    "When releasing [Global Detonation], immediately gain the upper limit number of Energy Orbs."
+   ],
+   "advanced_fixed_skill": "[Global Detonation] Grants Juliet immunity to Freeze, Stun, and Charm effects for 6 seconds after activation.",
+   "advanced_random_skills": [
+    "[Lancefire Funeral] Increases damage dealt by (5.00%-10.00%).",
+    "[Global Detonation] Increases damage dealt by (5.00%-10.00%).",
+    "[Synergized Strategy] Increases damage dealt by missiles launched from drones by (5.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "这是她的阵煌，也是她的荣耀。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%87%8C%E6%98%A5%E7%8B%AC%E7%BB%BD",
+   "revid": 7623,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7623",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%87%8C%E6%98%A5%E7%8B%AC%E7%BB%BD&format=json",
+   "i18n": {
+    "name_zh": "凌春独绽",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 77038,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 77039,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 80134,
+      "match": "exact"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 80131,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 80132,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 80133,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1960",
+   "name": "Signet of Blade",
+   "page_title": "利刃徽印",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Netherblade Maiden",
+    "id": "char-306"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "When Alice equips, Physical DMG increased by 50%+50%",
+    "When equipped by Netherblade Maiden, size of released sword qi +20%; when Alice deals Physical DMG in battle, the effects of All DMG Boost and Physical Damage Boost are doubled, but Attack Speed increases gained are halved."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "一名武器大师所留下的遗物，死前不断挥剑，死后亦庇护挥剑之人。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%88%A9%E5%88%83%E5%BE%BD%E5%8D%B0",
+   "revid": 7619,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7619",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%88%A9%E5%88%83%E5%BE%BD%E5%8D%B0&format=json",
+   "i18n": {
+    "name_zh": "利刃徽印",
+    "sources": {
+     "game_db": 1,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 58499,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1966",
+   "name": "Leaning Cloud Bay",
+   "page_title": "半倚云湾",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Jadeform Immortal",
+    "id": "char-1702"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Ruo, all damage caused increases by 5%+25",
+    "When [Divine Eye] is released, all Divine Power will be immediately restored."
+   ],
+   "advanced_fixed_skill": "When [Divine Eye] deals DMG, if the caster has Fury Orbs, consumes all Fury Orbs; every 1 Fury Orb consumed reduces the enemy's healing received by 10% for 5 seconds.",
+   "advanced_random_skills": [
+    "[Divine Eye]: Increases damage dealt by (2.00%-5.00%).",
+    "[Infinite Tao]: Increases damage dealt by (2.00%-5.00%).",
+    "[Divine Proof]: Increases damage dealt by (5.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "归魂，倚岸，春色融融，一如当年。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8D%8A%E5%80%9A%E4%BA%91%E6%B9%BE",
+   "revid": 7639,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7639",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%8D%8A%E5%80%9A%E4%BA%91%E6%B9%BE&format=json",
+   "i18n": {
+    "name_zh": "半倚云湾",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 78168,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 78174,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 81543,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 81544,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 81545,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1954",
+   "name": "The Wrath of Dragon",
+   "page_title": "古龙之怒",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Legendary Dragon",
+    "id": "char-288"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When Vina equips, All DMG Dealt increased by 5%+25%.",
+    "Increase the duration of control dealt by Vina's Charge by 50%."
+   ],
+   "advanced_fixed_skill": "Increases the releasing speed of [Glacial Advance], and immune to knocked back during the releasing.",
+   "advanced_random_skills": [
+    "Increases the DMG Dealt of [Frosty Dash] by (6.00%-10.00%).",
+    "Increases the DMG Dealt of [Slash Vacuum] by (6.00%-10.00%).",
+    "Increases the DMG Dealt of [Glacial Advance] by (6.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "传说中不朽古龙之骨，流淌着最为至上的龙血力量，无时不刻散发着来自远古的狂怒。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%A4%E9%BE%99%E4%B9%8B%E6%80%92",
+   "revid": 7632,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7632",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%8F%A4%E9%BE%99%E4%B9%8B%E6%80%92&format=json",
+   "i18n": {
+    "name_zh": "古龙之怒",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 61212,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 61211,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 73661,
+      "match": "exact"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 73601,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 73602,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 73603,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1940",
+   "name": "Death emblem",
+   "page_title": "告死之徽",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Shamneko in Night",
+    "id": "char-296"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When Nyanko wears, all Damage Dealt increases by 5%+25%",
+    "Shamneko in Night's Ultimate Skill: DMG interval of [Secret Art: Thunder Cage] reduced by 0.3 seconds."
+   ],
+   "advanced_fixed_skill": "When [Kunai Flurry] causes damage, there is a 4% chance (for every 1 point of Spell Mastery, the triggering chance increases by 0.1%) to extend the duration of the next [Secret Art: Thunder Cage] by 0.1 seconds.",
+   "advanced_random_skills": [
+    "The damage caused by [Lightning Knife] increases by (6.00%-10.00%).",
+    "The damage caused by [Kunai Flurry] increases by (6.00%-10.00%).",
+    "The damage caused by [Secret Art: Thunder Cage] increases by (6.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "象征死亡的微章，带着夜行之猫的蛛道。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%91%8A%E6%AD%BB%E4%B9%8B%E5%BE%BD",
+   "revid": 7621,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7621",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%91%8A%E6%AD%BB%E4%B9%8B%E5%BE%BD&format=json",
+   "i18n": {
+    "name_zh": "告死之徽",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 72328,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 76781,
+      "match": "exact"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 76775,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 76776,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 76777,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1939",
+   "name": "Disobedience of Fate",
+   "page_title": "命运忤逆",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Coltish Artillerist",
+    "id": "char-278"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When Meine equips, All DMG Dealt increased by 5%+25%.",
+    "Force consumed by [Lightning Harmony] reduced by 50%"
+   ],
+   "advanced_fixed_skill": "When casting [Falling Thunder], 55% chance to reduce the Damage Reduction of the enemy Blackguard with the highest HP by 15%, lasting 10 seconds, cannot be dispelled. (Each point of Spell Mastery of Coltish Artillerist increases this chance by 1%, each point of Spell Negation of the enemy target reduces it by 1%.)",
+   "advanced_random_skills": [
+    "Increases the DMG Dealt of [Dizzying Thunderthorns] by (6.00%-10.00%).",
+    "Increases the DMG Dealt of [Falling Thunder] by (6.00%-10.00%).",
+    "Increases the DMG Boost granted by [Focusing] by (1.50%-2.50%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "纵使生来命运注定，叛逆之人亦不会听天由命，终其一生都在为自由而战。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%91%BD%E8%BF%90%E5%BF%A4%E9%80%86",
+   "revid": 7724,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7724",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%91%BD%E8%BF%90%E5%BF%A4%E9%80%86&format=json",
+   "i18n": {
+    "name_zh": "命运忤逆",
+    "sources": {
+     "game_db": 4,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 60812,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 73595,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 73596,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 73597,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2171",
+   "name": "Warmth with Light",
+   "page_title": "和光同暖",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Blossom Amour",
+    "id": "char-2166"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Freyja, all damage dealt increases by 5% + 25%",
+    "After 【Time Return】 is cast, Freyja restores 30% of its lost HP."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%92%8C%E5%85%89%E5%90%8C%E6%9A%96",
+   "revid": 7714,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7714",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%92%8C%E5%85%89%E5%90%8C%E6%9A%96&format=json",
+   "i18n": {
+    "name_zh": "和光同暖",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 83496,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 83497,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1968",
+   "name": "Soul-Eater Seal",
+   "page_title": "噬魂毒印",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Double Shot Pursuit",
+    "id": "char-1885"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Frost Damage Boost"
+   ],
+   "skills": [
+    "When Darlita equips, All DMG Dealt increased by 5%+25%",
+    "When Double Shot Pursuit deals Normal Attack DMG, 25% chance to restore 65 Rage"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "是希望，也是绝望。是生命，也是死亡。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%99%AC%E9%AD%82%E6%AF%92%E5%8D%B0",
+   "revid": 7613,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7613",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%99%AC%E9%AD%82%E6%AF%92%E5%8D%B0&format=json",
+   "i18n": {
+    "name_zh": "噬魂毒印",
+    "sources": {
+     "game_db": 1,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 79483,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1976",
+   "name": "Holy Sword Conviction",
+   "page_title": "圣剑裁决",
+   "type": "Universal",
+   "quality": "Epic",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "skills": [
+    "Every time you deal damage to an enemy, increase the amount of damage the enemy takes from the wearer by 0.8% + 1%. The trigger interval is 0.5 sec.",
+    "Deal 25% more damage to bosses"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": null,
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E5%89%91%E8%A3%81%E5%86%B3",
+   "revid": 6398,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6398",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%9C%A3%E5%89%91%E8%A3%81%E5%86%B3&format=json",
+   "i18n": {
+    "name_zh": "圣剑裁决",
+    "sources": {
+     "game_db": 2,
+     "glossary": 3,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 54135,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 54139,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1950",
+   "name": "Holy Hoof Totem",
+   "page_title": "圣蹄图腾",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Centaur Minerva",
+    "id": "char-291"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "When Kimberlee wears, increases Kimberlee's All DMG Dealt by 5%+25%",
+    "Arrows fired by [Trio of Arrows] will track nearby enemies randomly."
+   ],
+   "advanced_fixed_skill": "After [Trio of Arrows] hits an enemy, if there are other enemies near that enemy, the arrow additionally splits into up to two arrows, dealing DMG to additional enemies equal to 35% of [Trio of Arrows] DMG (split arrows are also affected by Hereby, Storm Rising])",
+   "advanced_random_skills": [
+    "Increase DMG Dealt of [Trio of Arrows] by (10.00%-15.00%).",
+    "Hit Rate Reduction and Movement Speed Reduced effect inflicted by [Where, Wind Tangling] are increased by (6.00%-10.00%).",
+    "Increase DMG Dealt of [Hereby, Storm Rising] by (10.00%-15.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "崇拜圣兽的部族所留下的图题，象征着对纯洁与善良的崇拜。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E8%B9%84%E5%9B%BE%E8%85%BE",
+   "revid": 7638,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7638",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%9C%A3%E8%B9%84%E5%9B%BE%E8%85%BE&format=json",
+   "i18n": {
+    "name_zh": "圣蹄图腾",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 64083,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 64082,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 75600,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 75601,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 75602,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1948",
+   "name": "Seal of Revenge",
+   "page_title": "复仇徽印",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Judgement Hammer",
+    "id": "char-294"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Frost Damage Boost"
+   ],
+   "skills": [
+    "When Chloe equips, All DMG Dealt increased by 5%+25%",
+    "When the battle begins, releases [Ice Forged Armor] to all allies once immediately, last for 8 sec."
+   ],
+   "advanced_fixed_skill": "When taking a non-crit DMG, then releasing [Cold Steel Blast] for once. (The trigger interval is 3 sec)",
+   "advanced_random_skills": [
+    "Increase DMG Dealt of [Hammer Strike] by (10.00%-15.00%).",
+    "Increase DMG Dealt of [Cold Steel Blast] by (10.00%-15.00%).",
+    "Increase Skill Critical Resistance granted by [Ice Forged Armor] by (2.00%-5.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "复仇之心，炽盛如火。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%8D%E4%BB%87%E5%BE%BD%E5%8D%B0",
+   "revid": 7629,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7629",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A4%8D%E4%BB%87%E5%BE%BD%E5%8D%B0&format=json",
+   "i18n": {
+    "name_zh": "复仇徽印",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 69084,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 69085,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 76497,
+      "match": "exact"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 76491,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 76492,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 76493,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1943",
+   "name": "Nightmare Whispers",
+   "page_title": "夜魅呓语",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Falling Samele",
+    "id": "char-1569"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When Chesia equips, All DMG Dealt increased by 5%+25%",
+    "When a unit is Charmed or dead on the field, the DMG Dealt for [Mortal Waltz] is increased by 8%, up to a max of 40%. (Additional DMG Boost lasts until battle ends)"
+   ],
+   "advanced_fixed_skill": "Enemies within range of [Flame Bat Curse] have a 35% chance (plus an additional (own Spell Mastery - opponent's Spell Negation)0.5% chance) to be unable to trigger dispel effects.",
+   "advanced_random_skills": [
+    "The damage caused by [Soul Burning Scythe] is increased by (10.00%-15.00%.",
+    "Increases the DMG Dealt for [Mortal Waltz] by (2.50%6-5.00%)",
+    "The damage caused by [Flame Bat Curse] is increased by (10.00%-15.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "给予她猩红的美梦。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%9C%E9%AD%85%E5%91%93%E8%AF%AD",
+   "revid": 7630,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7630",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A4%9C%E9%AD%85%E5%91%93%E8%AF%AD&format=json",
+   "i18n": {
+    "name_zh": "夜魅呓语",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 76404,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 76403,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 77450,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 76459,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 77452,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2457",
+   "name": null,
+   "page_title": "天律奥典",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": null,
+    "id": "char-2450"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "When equipped by [Celestial Magistrate], all DMG dealt increased by 5%+25%",
+    "Duration of [Bright as Sun and Moon] +1 second."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%A9%E5%BE%8B%E5%A5%A5%E5%85%B8",
+   "revid": 9257,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9257",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A4%A9%E5%BE%8B%E5%A5%A5%E5%85%B8&format=json",
+   "i18n": {
+    "name_zh": "天律奥典",
+    "sources": {
+     "glossary": 33,
+     "translated": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "translated"
+     },
+     "skills[1]": {
+      "source": "translated"
+     }
+    },
+    "missing": [
+     {
+      "path": "name",
+      "zh": "天律奥典",
+      "reason": "names.json/relics: not in tpl_sc_heirloom"
+     },
+     {
+      "path": "character",
+      "zh": "司正天座",
+      "reason": "names.json/characters: not in tpl_sc_hero (game files dated 2026-09-22; wiki release 2026年11月2日)"
+     }
+    ],
+    "untranslated_lore": null,
+    "unofficial_names": [
+     {
+      "path": "skills[0]",
+      "zh": "司正天座",
+      "en": "Celestial Magistrate"
+     },
+     {
+      "path": "skills[1]",
+      "zh": "昭如日月",
+      "en": "Bright as Sun and Moon"
+     }
+    ]
+   }
+  },
+  {
+   "id": "relic-2157",
+   "name": "Heavenly Damnation",
+   "page_title": "天谴印记",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Bright Seraphim",
+    "id": "char-308"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "35% Crit Damage Reduction"
+   ],
+   "skills": [
+    "When Endelyon equips, Fire Damage Boost increased by 50%+50%",
+    "All enemy targets within 12 meters of Endelyon have a 20% attack speed reduction(40% if targets are ignited). Attack speed reduction is doubled in Arena."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%A9%E8%B0%B4%E5%8D%B0%E8%AE%B0",
+   "revid": 7641,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7641",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A4%A9%E8%B0%B4%E5%8D%B0%E8%AE%B0&format=json",
+   "i18n": {
+    "name_zh": "天谴印记",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 57930,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 57931,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-2057",
+   "name": "First Light of Rebirth",
+   "page_title": "始见新生",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Twinkle Palette",
+    "id": "char-2050"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When wearing the Miluie, all damage dealt is increased by 5% + 25%.",
+    "When Pyro Trickery is triggered, immediately restore 120 Rage."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "交换生命的天秤，曾经的伙伴是否一如始终?",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F",
+   "revid": 7610,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7610",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F&format=json",
+   "i18n": {
+    "name_zh": "始见新生",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 80285,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 80332,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1956",
+   "name": "Draconic Breath",
+   "page_title": "巨龙之息",
+   "type": "Universal",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": null,
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "Fire damage boost increased by 25%+50%",
+    "When eliminate target with fire damage, release a Flame Impact, causing damage equal to 300% of Physical Power+Spell Power to all targets within 5 meters nearby. The Flame Impact has a 1 sec of trigger interval, and the damage causes won't trigger crit and other effects."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "强大龙裔所留下的遗物，龙之血脉在他们体内流淌，带来比拟巨龙的力量。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%B7%A8%E9%BE%99%E4%B9%8B%E6%81%AF",
+   "revid": 6376,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6376",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%B7%A8%E9%BE%99%E4%B9%8B%E6%81%AF&format=json",
+   "i18n": {
+    "name_zh": "巨龙之息",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "lore": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 57106,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 57104,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2019",
+   "name": "Phantom Hover",
+   "page_title": "幽冥悬停",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Wightbone Dragon",
+    "id": "char-2016"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "When Wightbone Dragon is equipped, all DMG is increased by 5% + 25%.",
+    "When Dark Pull deals DMG, there is a 20% chance to apply one random debuff (Blind, Silence, or Weakness) to the enemy, each lasting for 4 seconds."
+   ],
+   "advanced_fixed_skill": "Increases the maximum Fury Orbs of  Isabena by +2",
+   "advanced_random_skills": [
+    "[Soul Devour] damage increased by (5.00%-10.00%).",
+    "[Dark Pull] damage increased by (2.00%-5.00%)",
+    "[Starfall] damage increased by (2.00%-5.00%)"
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%B9%BD%E5%86%A5%E6%82%AC%E5%81%9C",
+   "revid": 7653,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7653",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%B9%BD%E5%86%A5%E6%82%AC%E5%81%9C&format=json",
+   "i18n": {
+    "name_zh": "幽冥悬停",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 79816,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 80005,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 82034,
+      "match": "exact"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 82031,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 82032,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 82033,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1908",
+   "name": "Phantom Dragon's Roar",
+   "page_title": "幽焰龙吟",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Nirvana Ignis",
+    "id": "char-284"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When Irida equips, All DMG Dealt increased by 5%+25%.",
+    "Perception +15"
+   ],
+   "advanced_fixed_skill": "When [A Dance with Queen] deals DMG, 12% chance (plus an additional (own Spell Mastery - opponent's Spell Negation)*0.25% chance to reduce the damaged target's healing received by 65% for 4 seconds.",
+   "advanced_random_skills": [
+    "The damage dealt by A Breath of Fire increases by (5.00%-10.00%).",
+    "The damage dealt by A Dance with Queen increases by (5.00%-10.00%).",
+    "The damage dealt by To Melt the Earth increases by (5.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "古龙的鳞片，铭刻着血与火的狂歌，记录着往昔的辉煌。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%B9%BD%E7%84%B0%E9%BE%99%E5%90%9F",
+   "revid": 7730,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7730",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%B9%BD%E7%84%B0%E9%BE%99%E5%90%9F&format=json",
+   "i18n": {
+    "name_zh": "幽焰龙吟",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 68908,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 85702,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 78585,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 78586,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 78587,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2350",
+   "name": "Suncrest Plume",
+   "page_title": "悬日金翎",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Crimson Warshadow",
+    "id": "char-2339"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "While Grinfina is equipped, all damage dealt increases by 5% + 25%.",
+    "When [Rage Armor Guard] triggers, gains a Magic Shield equal to 20000% of Physical Power for 3 seconds. (This effect does not coexist with other Magic Shield effects)"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%82%AC%E6%97%A5%E9%87%91%E7%BF%8E",
+   "revid": 8783,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8783",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%82%AC%E6%97%A5%E9%87%91%E7%BF%8E&format=json",
+   "i18n": {
+    "name_zh": "悬日金翎",
+    "sources": {
+     "game_db": 1,
+     "glossary": 33,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 86253,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1947",
+   "name": "Fleeting Figure",
+   "page_title": "惊鸿翩影",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Lady Swan Lake",
+    "id": "char-297"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "When Ojeda equips, All DMG Dealt increased by 5%+25%.",
+    "When taking Fatal DMG, dispels all Debuffs from Ojeda, and refresh Cooldown of [Swing Nutcracker] immediately. (The trigger interval is 300 sec)"
+   ],
+   "advanced_fixed_skill": "When Ojeda deals DMG to a target, if the target that has Poisoned, Electrocuted, Ignited and Chilled, each of these status increases Ojeda's DMG Dealt to the target by 5%.",
+   "advanced_random_skills": [
+    "Increase DMG Dealt of [Fleeting Glimmers] by (10.00%-15.00%).",
+    "Increase DMG Dealt of [Brisk Galop] by (10.00%-15.00%).",
+    "Increase DMG Dealt of [Grand Jete] by (10.00%-15.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "记藏着轮回美梦的徽印。现在她已翩翩来到人间。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%83%8A%E9%B8%BF%E7%BF%A9%E5%BD%B1",
+   "revid": 7626,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7626",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%83%8A%E9%B8%BF%E7%BF%A9%E5%BD%B1&format=json",
+   "i18n": {
+    "name_zh": "惊鸿翩影",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 71491,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 71492,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 76498,
+      "match": "exact"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 76494,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 76495,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 76496,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1945",
+   "name": "Rising waves",
+   "page_title": "扬波清浪",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Marine Rime",
+    "id": "char-1232"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Frost Damage Boost"
+   ],
+   "skills": [
+    "When Stephine equips, all DMG Dealt increases by 5%+25%",
+    "After creleases Ult skill: [Glacial Quietus], gain 5 of Energy Orbs and Frost Orbs immediately."
+   ],
+   "advanced_fixed_skill": "Each time [Incantation of Love] triggers, it selects the enemy Blackguard with the highest Spell Power and has a 25% chance (plus an additional (own Spell Mastery - opponent's Spell Negation)0.5% chance) to reduce its Rage Restore speed by 50% for 10 seconds. (This effect cannot be dispelled)",
+   "advanced_random_skills": [
+    "The damage caused by [Gelid Flurry] is increased by (10.00%-15.00%).",
+    "The damage caused by [Frigid Winds] is increased by (5.00%-10.00%).",
+    "The damage caused by [Glacial Quietus] is increased by (10.00%-15.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "扬起清波，向前，向着美丽新世界。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%89%AC%E6%B3%A2%E6%B8%85%E6%B5%AA",
+   "revid": 7640,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7640",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%89%AC%E6%B3%A2%E6%B8%85%E6%B5%AA&format=json",
+   "i18n": {
+    "name_zh": "扬波清浪",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 74016,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 74009,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 77150,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 77151,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 77152,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2361",
+   "name": "Shadow Silhouette",
+   "page_title": "暗之侧影",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Ethereal Raiment",
+    "id": "char-2354"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% All-DMG Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Ethereal Raiment, all damage dealt is increased by 5% + 25%.",
+    "Immediately gain 30 points of [Lamplight] upon entering battle."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%9A%97%E4%B9%8B%E4%BE%A7%E5%BD%B1",
+   "revid": 8828,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8828",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%9A%97%E4%B9%8B%E4%BE%A7%E5%BD%B1&format=json",
+   "i18n": {
+    "name_zh": "暗之侧影",
+    "sources": {
+     "game_db": 2,
+     "glossary": 32,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 87713,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 87132,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1961",
+   "name": "Eternal Frozen Mask",
+   "page_title": "永冻容颜",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Frozen Heart",
+    "id": "char-309"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Frost Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Frozen Heart, all DMG dealt increased by 5%+15%",
+    "When Frozen Heart is on the field, reduces Attack Speed by 25% and Skill Crit Chance by 5% of all enemies within 16 meters of Frozen Heart."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "在冰封试练塔中失败的法师黯然故去，只留下永远充满霜冻气息的面甲。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B0%B8%E5%86%BB%E5%AE%B9%E9%A2%9C",
+   "revid": 7609,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7609",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%B0%B8%E5%86%BB%E5%AE%B9%E9%A2%9C&format=json",
+   "i18n": {
+    "name_zh": "永冻容颜",
+    "sources": {
+     "game_db": 1,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "translated"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 58600,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2385",
+   "name": "Flame of Rebirth",
+   "page_title": "涅槃之火",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Sinister Shade",
+    "id": "char-2381"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Sinister Shade, all damage dealt +5%+25%",
+    "[Shadow Unleashed]: Ghastly Mask's fireballs can target +1 maximum target(s)."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B6%85%E6%A7%83%E4%B9%8B%E7%81%AB",
+   "revid": 9008,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9008",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%B6%85%E6%A7%83%E4%B9%8B%E7%81%AB&format=json",
+   "i18n": {
+    "name_zh": "涅槃之火",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 88886,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 88885,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-2379",
+   "name": "Bone-Quenched Rebirth",
+   "page_title": "淬骨化生",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Radiant Dragon",
+    "id": "char-2373"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Frost Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Radiant Dragon, all DMG dealt increased by 5%+25%",
+    "When [Silent Kill] deals damage, 25% chance to steal 8% of the target's Attack Speed for 4 sec, stacking up to 5 times."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B7%AC%E9%AA%A8%E5%8C%96%E7%94%9F",
+   "revid": 8988,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8988",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%B7%AC%E9%AA%A8%E5%8C%96%E7%94%9F&format=json",
+   "i18n": {
+    "name_zh": "淬骨化生",
+    "sources": {
+     "game_db": 1,
+     "glossary": 33,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "translated"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 88287,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1965",
+   "name": "Blooming Green",
+   "page_title": "渐见新绿",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Flicker Pierce",
+    "id": "char-1648"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Frost Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Kashinfuu, all damage caused increases by 5%+25%",
+    "1 Frost Orb will be automatically obtained each 2 seconds"
+   ],
+   "advanced_fixed_skill": "When dealing DMG, every 1 Frost Orb currently held increases own Damage Reduction Penetration by 2.5%: up to 15% Damage Reduction Penetration.",
+   "advanced_random_skills": [
+    "[Snow Dance] DMG dealt +(2.00%-5.00%).",
+    "[Sword Charging] DMG dealt +(2.00%-5.00%).",
+    "Deflect chance provided by [Purity Mindfulness] increased by (2.00%-5.00%)"
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "惊觉人间春色已盎然。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B8%90%E8%A7%81%E6%96%B0%E7%BB%BF",
+   "revid": 7634,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7634",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%B8%90%E8%A7%81%E6%96%B0%E7%BB%BF&format=json",
+   "i18n": {
+    "name_zh": "渐见新绿",
+    "sources": {
+     "game_db": 4,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 77427,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 77428,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 80800,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 80801,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1963",
+   "name": "Execution Stake",
+   "page_title": "火刑审判",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Apostle of Judgment",
+    "id": "char-303"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When Justitia equips, All DMG Dealt increased by 5%+15%.",
+    "When equipped by Apostle of Judgment, when dealing DMG to an Ignition-affected unit, additionally deals Fire DMG equal to 35% of Spell Power once, minimum trigger interval 2 seconds. (Clones also trigger this effect)"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "【异端战争】中死于火刑架之人的遗物，熊熊烈焰肆虐席卷，那是属于审判庭不可撼动的威严。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%AB%E5%88%91%E5%AE%A1%E5%88%A4",
+   "revid": 7615,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7615",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%AB%E5%88%91%E5%AE%A1%E5%88%A4&format=json",
+   "i18n": {
+    "name_zh": "火刑审判",
+    "sources": {
+     "game_db": 1,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 58876,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1941",
+   "name": "Divine-pearly teeth",
+   "page_title": "灵咒珠牙",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Phantasmal Dream",
+    "id": "char-1843"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Sasha Luo, all damage dealt is increased by 5% + 25%.",
+    "Bloodmoon Whispers will take effect on an additional nearby enemy target."
+   ],
+   "advanced_fixed_skill": "Enemies affected by [Bloodmoon Whispers] have, per stack of [Bloodmoon Whispers], a 10% (plus an additional (own Mental Mastery - opponent's Mental Negation)*0.15%) chance to have their DMG dealt to Phantasmal Dream reduced by 75%.",
+   "advanced_random_skills": [
+    "The fire DMG boost provided by \"Brand Bond\" rises by (10.00%-20.00%).",
+    "The DMG dealt by \"Wolf Blood Boiling\" is increased by (5.00%-10.00%.",
+    "The DMG dealt by \"Soul Snatch\" is increased by (5.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    null
+   ],
+   "description": "被狼血浸红的乳牙。长大，总是悄然而至。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E5%92%92%E7%8F%A0%E7%89%99",
+   "revid": 7570,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7570",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%B5%E5%92%92%E7%8F%A0%E7%89%99&format=json",
+   "i18n": {
+    "name_zh": "灵咒珠牙",
+    "sources": {
+     "game_db": 5,
+     "glossary": 32,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 78511,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 78512,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 79551,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 79552,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 79553,
+      "match": "exact"
+     }
+    },
+    "missing": [
+     {
+      "path": "obtain[0]",
+      "zh": "黑市-长城被狼血提红的乳牙。长大，总是悄然而至圣殿",
+      "reason": "glossary: garbled wiki value (an unrelated sentence inside 黑市-长城圣殿); not translated"
+     }
+    ],
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2159",
+   "name": "Heart of Resonance",
+   "page_title": "灵窍之心",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Skyborne Machina",
+    "id": "char-2059"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "While equipped with Genlia, all DMG dealt is increased by 5% + 25%.",
+    "[Silverwing Bond] +2 Feather Blades released in sync when summoning."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E7%AA%8D%E4%B9%8B%E5%BF%83",
+   "revid": 7646,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7646",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%B5%E7%AA%8D%E4%B9%8B%E5%BF%83&format=json",
+   "i18n": {
+    "name_zh": "灵窍之心",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 80829,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 80806,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1962",
+   "name": "Relics of Stag Spirit",
+   "page_title": "灵鹿遗骨",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Traveler of Flowers",
+    "id": "char-304"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Frost Damage Boost"
+   ],
+   "skills": [
+    "When Ling equips, All DMG Dealt increased by 5%+15%.",
+    "When equipped by Traveler of Flowers, Normal Attacks additionally attack one more target, but Attack Speed increases gained are halved."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "曾经跃动于广袤森林的灵鹿，死后亦充满着春之生机。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E9%B9%BF%E9%81%97%E9%AA%A8",
+   "revid": 7611,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7611",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%B5%E9%B9%BF%E9%81%97%E9%AA%A8&format=json",
+   "i18n": {
+    "name_zh": "灵鹿遗骨",
+    "sources": {
+     "game_db": 1,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 58603,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2430",
+   "name": null,
+   "page_title": "灼华轻羽",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Flamebell Dance",
+    "id": "char-2425"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Flamebell Dance, all damage dealt increases by 5% + 25%.",
+    "While the Blackguard bound by [Twin Flame Spirits] is alive, self is considered that Blackguard's summon."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%BC%E5%8D%8E%E8%BD%BB%E7%BE%BD",
+   "revid": 9184,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9184",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%81%BC%E5%8D%8E%E8%BD%BB%E7%BE%BD&format=json",
+   "i18n": {
+    "name_zh": "灼华轻羽",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 92028,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 91682,
+      "match": "exact"
+     }
+    },
+    "missing": [
+     {
+      "path": "name",
+      "zh": "灼华轻羽",
+      "reason": "names.json/relics: in the game table but the dictionary has no English text"
+     }
+    ],
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1955",
+   "name": "Wings of Passion",
+   "page_title": "热情之翼",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Salvia Fairy",
+    "id": "char-289"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When Cacau equips, All DMG Dealt increased by 5%+25%.",
+    "While the wearer has a Shield, the transformation duration of Shooting Star is increased by 25%."
+   ],
+   "advanced_fixed_skill": "While Hex inflicted by Salvia Fairy lasts, 25% chance that enemy Blackguards cannot trigger \"Undying\" effects. (Each point of Mental Mastery of Salvia Fairy increases this chance by 1%, each point of Mental Negation of the enemy target reduces it by 1%.)",
+   "advanced_random_skills": [
+    "Increases the DMG Dealt of [Spunky Star] by (10.00%-15.00%).",
+    "Increases the Polymorph duration of [Shooting Star] by (0.5-1) sec.",
+    "Increases the DMG Dealt of [Shooting Star] by (6.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "正义之人挥动着双翼，一生都在奉献着火一般的热情。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%83%AD%E6%83%85%E4%B9%8B%E7%BF%BC",
+   "revid": 7637,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7637",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%83%AD%E6%83%85%E4%B9%8B%E7%BF%BC&format=json",
+   "i18n": {
+    "name_zh": "热情之翼",
+    "sources": {
+     "game_db": 4,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 60117,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 73598,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 73599,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 73600,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1972",
+   "name": "Berserker Spirit",
+   "page_title": "狂战意志",
+   "type": "Universal",
+   "quality": "Epic",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "skills": [
+    "Each basic attack increase the healing received by 1.00% + 2% for 5 sec, stacking up to 10 times.",
+    "Immune to Freeze, Stun and Chill"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": [
+    "Black Market - Misty Shop"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%8B%82%E6%88%98%E6%84%8F%E5%BF%97",
+   "revid": 6393,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6393",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%8B%82%E6%88%98%E6%84%8F%E5%BF%97&format=json",
+   "i18n": {
+    "name_zh": "狂战意志",
+    "sources": {
+     "game_db": 2,
+     "glossary": 4,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 54361,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 54363,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1975",
+   "name": "Lion's Wrath",
+   "page_title": "狮首之怒",
+   "type": "Universal",
+   "quality": "Epic",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "skills": [
+    "Get Agility effect for each auto attack, which increase attack speed by 1%, increase Evasion chance by 0.5% + 1%, last for 4 sec. Caps at 15 stacks.",
+    "Each stack of Agility reduce skill cooldown by 1%"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": null,
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%8B%AE%E9%A6%96%E4%B9%8B%E6%80%92",
+   "revid": 6397,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6397",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%8B%AE%E9%A6%96%E4%B9%8B%E6%80%92&format=json",
+   "i18n": {
+    "name_zh": "狮首之怒",
+    "sources": {
+     "game_db": 2,
+     "glossary": 3,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 54136,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 54140,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1949",
+   "name": "Royal Sword Emblem",
+   "page_title": "王室剑徽",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Schneemond Princess",
+    "id": "char-292"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Frost Damage Boost"
+   ],
+   "skills": [
+    "When Heliina wears, all damage caused increases by 5%+25%",
+    "When an ally gains a Frost Orb, Heliina gains a Frost Orb too. (Frost Orb gained from this effect can't trigger effects of other skill or gear, which has Ball Gained related effect. Such like: Orb Master etc.)"
+   ],
+   "advanced_fixed_skill": "While [Lucent Snowy Mond Wax] lasts, all enemy units have a 40% Basic chance to be unable to gain extra Rage Restore (all Rage Restore other than natural Rage regeneration counts as extra Rage Restore). (Each point of Mental Mastery of Schneemond Princess increases this chance by 1%, each point of Mental Negation of the enemy target reduces it by 1%.)",
+   "advanced_random_skills": [
+    "Magic Shield granted by [Tender Foggy Schnee Wane] is increased by (10.00%-15.00%).",
+    "Increase DMG Dealt of [Lucent Snowy Mond Wax] by (10.00%-15.00%).",
+    "Base value of DMG Boost effect granted by [Eternal Erosion of Glacier] is increased by (1.50%-2.50%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "隶属乌露席恩王室的微章，故国湮灭于历史，血裔却依旧尚存。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%8E%8B%E5%AE%A4%E5%89%91%E5%BE%BD",
+   "revid": 7633,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7633",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%8E%8B%E5%AE%A4%E5%89%91%E5%BE%BD&format=json",
+   "i18n": {
+    "name_zh": "王室剑徽",
+    "sources": {
+     "game_db": 5,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 64431,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 64459,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 75603,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 75604,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 75605,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2395",
+   "name": "Song of the Divine Dragon",
+   "page_title": "神龙之吟",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Moondepth Dragonmaiden",
+    "id": "char-2394"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Moondepth Dragonmaiden, all damage dealt increases by 5% + 25%.",
+    "Immediately gains the maximum amount of Sword Essence upon entering battle."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%A5%9E%E9%BE%99%E4%B9%8B%E5%90%9F",
+   "revid": 9056,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9056",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%A5%9E%E9%BE%99%E4%B9%8B%E5%90%9F&format=json",
+   "i18n": {
+    "name_zh": "神龙之吟",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 90225,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 89443,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-2419",
+   "name": "Violet Lightning Echo",
+   "page_title": "紫电残响",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Banquet Thunderlight",
+    "id": "char-2414"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "While equipped by Banquet Thunderlight, all damage dealt is increased by 5%+25%.",
+    "While [Nightglow Variation] is active, the damage dealt by [Aurora Blitz] is additionally increased by 30%."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%B4%AB%E7%94%B5%E6%AE%8B%E5%93%8D",
+   "revid": 9158,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9158",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%B4%AB%E7%94%B5%E6%AE%8B%E5%93%8D&format=json",
+   "i18n": {
+    "name_zh": "紫电残响",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 91140,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 91075,
+      "match": "loose"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-2160",
+   "name": "Honey Weave",
+   "page_title": "织香结蜜",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Golden Hatch",
+    "id": "char-2141"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "While equipped with Brittany, all DMG dealt is increased by 5% + 25%.",
+    "For every 1 point of Spell Mastery, the chance for [Exclusive Broadcast] to fire an additional projectile increases by 0.5%."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%87%E9%A6%99%E7%BB%93%E8%9C%9C",
+   "revid": 7647,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7647",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BB%87%E9%A6%99%E7%BB%93%E8%9C%9C&format=json",
+   "i18n": {
+    "name_zh": "织香结蜜",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 81896,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 81897,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-2158",
+   "name": "Badge of Law Maintainer",
+   "page_title": "维宪徽章",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Vanguard of Valkyrie",
+    "id": "char-302"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Frost Damage Boost"
+   ],
+   "skills": [
+    "When Edelle equips, All DMG Dealt increased by 5%+5%.",
+    "When an Shield is present, target hit by [Lead the Charge] will be frozen for 1 second."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%B4%E5%AE%AA%E5%BE%BD%E7%AB%A0",
+   "revid": 7642,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7642",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BB%B4%E5%AE%AA%E5%BE%BD%E7%AB%A0&format=json",
+   "i18n": {
+    "name_zh": "维宪徽章",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 59489,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 59490,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1951",
+   "name": "Shedding of the Feathered Dragon",
+   "page_title": "羽龙之蜕",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Thorny Bramble",
+    "id": "char-290"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Fire Damage Boost"
+   ],
+   "skills": [
+    "When Elizabeth equips, All DMG Dealt increased by 5%+25%.",
+    "【Fiery Brambles】has a chance to trigger Super Armor upon release, lasting 5 seconds."
+   ],
+   "advanced_fixed_skill": "When releasing [Fiery Brambles], Elizabeth captures the small enemies within a 6-meter range to herself. (Each point of Elizabeth's Spell Mastery increases the capturing range by 0.1 meter, up to 15 meters)",
+   "advanced_random_skills": [
+    "Increases DMG Dealt of [Fiery Brambles] by (10.00%-15.00%).",
+    "Increases DMG Dealt of [Flamboyant Chase] by (0.1-0.15).",
+    "Increases DMG Dealt of [Unleashed Inferno] by (6.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "羽龙飞升后留下的龙蜕，仍残留着这种传说生物的法力。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BE%BD%E9%BE%99%E4%B9%8B%E8%9C%95",
+   "revid": 7728,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7728",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BE%BD%E9%BE%99%E4%B9%8B%E8%9C%95&format=json",
+   "i18n": {
+    "name_zh": "羽龙之蜕",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 63420,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 83944,
+      "match": "loose"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 75204,
+      "match": "loose"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 75200,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 75201,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 75202,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1944",
+   "name": "Victory Proclamation",
+   "page_title": "胜利昭告",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Flabellum Seraph",
+    "id": "char-1484"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When Flabellum Seraphia equips, All DMG Dealt increases by 5%+25%.",
+    "During the releasing process of Seraphia's Ult:[Dawnbreaker's Courage], the target hit will be Bind.\nBind: The unit is unable to move, and this state can't be dispelled."
+   ],
+   "advanced_fixed_skill": "When using your Ultimate, if your Spell Mastery exceeds the enemy's Spell Negation, for every 10-point difference, an additional 1% penetration effect is applied to the enemy's All DMG reduction. The maximum increase is 5%.",
+   "advanced_random_skills": [
+    "The damage dealt by [Fateweaver's Fortitude] is increased by (5.00%-10.00%).",
+    "The damage dealt by [Dawnbreaker's Courage] is increased by (5.00%-10.00%).",
+    "The damage dealt by the flying swords released by [Blades of Starshatter] and [Herald of Triumph] is increased by (5.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "以雷鸣和鲜血昭告胜利降临",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%83%9C%E5%88%A9%E6%98%AD%E5%91%8A",
+   "revid": 7635,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7635",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%83%9C%E5%88%A9%E6%98%AD%E5%91%8A&format=json",
+   "i18n": {
+    "name_zh": "胜利昭告",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 75506,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 75563,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 78144,
+      "match": "exact"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 78147,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 78146,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 78145,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-2326",
+   "name": "Shadow Moon",
+   "page_title": "胧月之影",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Nightmoon Warden",
+    "id": "char-2308"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% All-DMG Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Nightmoon Warden, all DMG dealt increased by 5%+25%",
+    "Abyssal Curse generates +4 Shadow Spears on cast."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "皎皎光照水，非我朦胧月。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%83%A7%E6%9C%88%E4%B9%8B%E5%BD%B1",
+   "revid": 8556,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8556",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%83%A7%E6%9C%88%E4%B9%8B%E5%BD%B1&format=json",
+   "i18n": {
+    "name_zh": "胧月之影",
+    "sources": {
+     "game_db": 1,
+     "glossary": 32,
+     "lore": 1,
+     "names": 2,
+     "translated": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "translated"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 85719,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1959",
+   "name": "Dancer Masque",
+   "page_title": "舞者假面",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Dance of Searing Blaze",
+    "id": "char-305"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "3000 Constitution"
+   ],
+   "skills": [
+    "When Rincho equips, All DMG Dealt increased by 5%+15%.",
+    "When Rincho equips, the cooldown of the [Beguiling Flame Dance] reduced by 20%, and the pull range is increased by 2 meters after the [Beguiling Flame Dance] released. For every 10 points of Spell Mastery, increases an additional 1 meter of range to pull the enemies. (Cannot exceed 10 meters.)"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "舞者在自己脸上佩戴面具，希望人们只看见她的舞姿，无需关注她的容颜。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%88%9E%E8%80%85%E5%81%87%E9%9D%A2",
+   "revid": 7618,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7618",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%88%9E%E8%80%85%E5%81%87%E9%9D%A2&format=json",
+   "i18n": {
+    "name_zh": "舞者假面",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 57928,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 57929,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1957",
+   "name": "Cursed Runeblade",
+   "page_title": "诅咒符剑",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Asura's Katana",
+    "id": "char-307"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "8 Physical Mastery"
+   ],
+   "skills": [
+    "When Sakura wears this, Physical Damage Boost increased by 50%+50%",
+    "When Sakura wears this, she can release an additional slash when physical damage done, causing physical damage equal to 300% of Physical Power to the target and up to 2 surrounding enemies. The Slash has a 1 sec of trigger interval, and the damage causes won't trigger crit and other effects."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "遥远东方某位著名武士的遗物，强大的剑圣死于邪崇诅咒，上面至今缠绕着无法散去的怨意。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%AF%85%E5%92%92%E7%AC%A6%E5%89%91",
+   "revid": 7612,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7612",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%AF%85%E5%92%92%E7%AC%A6%E5%89%91&format=json",
+   "i18n": {
+    "name_zh": "诅咒符剑",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 57107,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 57105,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1969",
+   "name": "Mysterious Spell",
+   "page_title": "诡秘咒法",
+   "type": "Universal",
+   "quality": "Epic",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "skills": [
+    "Reduce all damage taken except physical damage by 10% + 50%",
+    "While HP is below 50%, increase Fire, Frost and Lightning Resistance by 75%"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": null,
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%AF%A1%E7%A7%98%E5%92%92%E6%B3%95",
+   "revid": 6390,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6390",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%AF%A1%E7%A7%98%E5%92%92%E6%B3%95&format=json",
+   "i18n": {
+    "name_zh": "诡秘咒法",
+    "sources": {
+     "game_db": 2,
+     "glossary": 3,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 54134,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 54138,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1942",
+   "name": "Eye of foresight",
+   "page_title": "远见之眼",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Tundra Thunder",
+    "id": "char-1615"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When Epona equips, All DMG Dealt increased by 5%+25%",
+    "Casting [Sole Heart] also removes Confusion (as written on the wiki), Freeze and Hex states from self and all allies."
+   ],
+   "advanced_fixed_skill": "Casting [Sole Heart] has a 50% chance (plus an additional own Mental Mastery*1% chance) to summon a Holy Beast behind one additional enemy (when the chance exceeds 100%, the excess chance is used to cast on one more enemy target)",
+   "advanced_random_skills": [
+    "The damage reduction effect of Lightning's Soulcall increases by (1.00%-3.00%).",
+    "The damage dealt by Lightning's Soulcall increases by (5.00%-10.00%).",
+    "The damage dealt by Sole Heart increases by (5.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "立于风雪，破开混沌。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%BF%9C%E8%A7%81%E4%B9%8B%E7%9C%BC",
+   "revid": 7627,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7627",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%BF%9C%E8%A7%81%E4%B9%8B%E7%9C%BC&format=json",
+   "i18n": {
+    "name_zh": "远见之眼",
+    "sources": {
+     "game_db": 4,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2,
+     "translated": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 76715,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "translated"
+     },
+     "advanced_fixed_skill": {
+      "source": "translated"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 78507,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 78508,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 78509,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ],
+    "unofficial_names": [
+     {
+      "path": "skills[1]",
+      "zh": "迷",
+      "en": "Confusion"
+     }
+    ]
+   }
+  },
+  {
+   "id": "relic-1974",
+   "name": "Cultist Badge",
+   "page_title": "邪徒徽印",
+   "type": "Universal",
+   "quality": "Epic",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "skills": [
+    "Increase auto attack damage by 25% + 50%",
+    "Regenerate 4% of max HP for each auto attack"
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": null,
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%82%AA%E5%BE%92%E5%BE%BD%E5%8D%B0",
+   "revid": 6395,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6395",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%82%AA%E5%BE%92%E5%BE%BD%E5%8D%B0&format=json",
+   "i18n": {
+    "name_zh": "邪徒徽印",
+    "sources": {
+     "game_db": 2,
+     "glossary": 3,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 54137,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 54141,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-2234",
+   "name": "Heartbound Oath",
+   "page_title": "铭心一诺",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Silverblade Oath",
+    "id": "char-2224"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "While equipped with Delyanne, all damage dealt increased by 5% + 25%.",
+    "[Silent Featherfall] Max uses +1."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%AD%E5%BF%83%E4%B8%80%E8%AF%BA",
+   "revid": 8383,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8383",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%93%AD%E5%BF%83%E4%B8%80%E8%AF%BA&format=json",
+   "i18n": {
+    "name_zh": "铭心一诺",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 84851,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 84852,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-2161",
+   "name": "Bodyforge Heartforge",
+   "page_title": "锻体铸心",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Blazing Shear",
+    "id": "char-2149"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Morante, all damage dealt +5% + 25%.",
+    "When Morante kills an enemy, immediately reset the cooldown of Tempered Body."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%94%BB%E4%BD%93%E9%93%B8%E5%BF%83",
+   "revid": 7648,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7648",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%94%BB%E4%BD%93%E9%93%B8%E5%BF%83&format=json",
+   "i18n": {
+    "name_zh": "锻体铸心",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 82329,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 82328,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-2338",
+   "name": "Rain-Kissed Bud",
+   "page_title": "雨润花蕾",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Green Whisper",
+    "id": "char-2330"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When equipped by Green Whisper, all damage dealt +5% + 25%.",
+    "When casting Star Barrage, Green Whisper has a chance to become immune to Freeze and Stun (the higher her Fortitude, the higher the trigger chance)."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%A8%E6%B6%A6%E8%8A%B1%E8%95%BE",
+   "revid": 8692,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8692",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%A8%E6%B6%A6%E8%8A%B1%E8%95%BE&format=json",
+   "i18n": {
+    "name_zh": "雨润花蕾",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 86098,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 86097,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1958",
+   "name": "Thunder Python's Crystal Remains",
+   "page_title": "雷蟒晶骸",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Soul of Divinity",
+    "id": "char-298"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When Florentia wears, Lightning Damage Boost increased by 50%+50%",
+    "When Florentia wears, The upper limit of Jormungand to be summoned +2, the damage dealt by Jormungand becomes 60% of the original damage."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "庞大巨蟒死后所留下的晶体，电光交织，充盈着雷霆的力量。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E8%9F%92%E6%99%B6%E9%AA%B8",
+   "revid": 7616,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7616",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E8%9F%92%E6%99%B6%E9%AA%B8&format=json",
+   "i18n": {
+    "name_zh": "雷蟒晶骸",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 57336,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 57337,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1971",
+   "name": "Thunder Guantlet",
+   "page_title": "雷霆铁腕",
+   "type": "Universal",
+   "quality": "Epic",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "skills": [
+    "Each normal attack have 15% chance to deals a heavy attack to a nearby enemy, causes chaos damage equal to 1000%+1000% of basic damage, and causes a healing by 3% of Max HP.",
+    "Bash a nearby enemy every 3 seconds."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": [
+    "Black Market - Misty Shop"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E9%9C%86%E9%93%81%E8%85%95",
+   "revid": 6392,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6392",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9B%B7%E9%9C%86%E9%93%81%E8%85%95&format=json",
+   "i18n": {
+    "name_zh": "雷霆铁腕",
+    "sources": {
+     "game_db": 2,
+     "glossary": 4,
+     "names": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 54999,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 55001,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1973",
+   "name": "Frost Disaster",
+   "page_title": "霜冻之灾",
+   "type": "Universal",
+   "quality": "Epic",
+   "max_level": null,
+   "character": null,
+   "exclusive": [
+    "1500 All Attrs"
+   ],
+   "skills": [
+    "DMG dealt to enemies affected by control-type restriction effects increased by 15%+30%",
+    "Gain an Aura that reduces the movement speed of enemies within 15 yards by 30%."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": null,
+   "suffixes": null,
+   "obtain": [
+    "Black Market - Misty Shop"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%9C%E5%86%BB%E4%B9%8B%E7%81%BE",
+   "revid": 6394,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=6394",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9C%9C%E5%86%BB%E4%B9%8B%E7%81%BE&format=json",
+   "i18n": {
+    "name_zh": "霜冻之灾",
+    "sources": {
+     "game_db": 1,
+     "glossary": 4,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "translated"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 54362,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-2181",
+   "name": "Bluefire Rift",
+   "page_title": "青焰破空",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Celestial Luan",
+    "id": "char-2172"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "While equipped, Yan Dingling gains +5% + 25% All Damage.",
+    "Yan Dingling's Bravery +15."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": null,
+   "description_source": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9D%92%E7%84%B0%E7%A0%B4%E7%A9%BA",
+   "revid": 7752,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7752",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9D%92%E7%84%B0%E7%A0%B4%E7%A9%BA&format=json",
+   "i18n": {
+    "name_zh": "青焰破空",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 83786,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 83787,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "relic-1964",
+   "name": "Qingfeng kills demons",
+   "page_title": "青锋斩妖",
+   "type": "Exclusive",
+   "quality": "Mythic",
+   "max_level": 700,
+   "character": {
+    "name": "Shadowy Mirage",
+    "id": "char-293"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Lightning Damage Boost"
+   ],
+   "skills": [
+    "When Ying equips, All DMG Dealt increased by 5%+25%",
+    "When the battle begins, [Blade Will] is restored to Max points."
+   ],
+   "advanced_fixed_skill": null,
+   "advanced_random_skills": null,
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "流传于九域国斩妖司之物，执三尺青锋，斩妖除魔。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9D%92%E9%94%8B%E6%96%A9%E5%A6%96",
+   "revid": 7617,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7617",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9D%92%E9%94%8B%E6%96%A9%E5%A6%96&format=json",
+   "i18n": {
+    "name_zh": "青锋斩妖",
+    "sources": {
+     "game_db": 2,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 67838,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 67839,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  },
+  {
+   "id": "relic-1952",
+   "name": "Grip of Soul",
+   "page_title": "魂狩之握",
+   "type": "Exclusive",
+   "quality": "Eternal",
+   "max_level": 700,
+   "character": {
+    "name": "Coffin Morrigan",
+    "id": "char-287"
+   },
+   "exclusive": [
+    "1500 All Attrs",
+    "15% Physical Damage Boost"
+   ],
+   "skills": [
+    "When Morana equips, All DMG Dealt increased by 5%+25%.",
+    "Increase Resistance Reduction Effect from [Obituary of Lifetime] by 50%."
+   ],
+   "advanced_fixed_skill": "The allies linked by [Chain of Asclepius] will gain 1 Fury Orb every 5 sec. (Each point of Morana's Physical Mastery reduces the gaining interval by 0.04 sec, the interval won't be less than 1 sec.)",
+   "advanced_random_skills": [
+    "Increases DMG Dealt of [Nightmare of Limbo] by (6.00%-10.00%).",
+    "Increases DMG Reduction granted by [Grace of Heaven] by (2.50%-5.00%).",
+    "Increases DMG Dealt of [Dust of Coffin] by (6.00%-10.00%)."
+   ],
+   "prefixes": [
+    "8.5% All Damage Reduction",
+    "8.5% All Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "suffixes": [
+    "8.5% Spell Damage Reduction",
+    "8.5% Spell Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "8.5% Physical Damage Reduction",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Constitution",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Intelligence",
+    "10494 Strength",
+    "10494 Strength",
+    "10494 Strength",
+    "70 Luck",
+    "70 Luck"
+   ],
+   "obtain": [
+    "Black Market - Great Temple"
+   ],
+   "description": "唯有经历过死亡的人，才能找到灵魂的真谛。",
+   "description_source": "wikitext",
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%AD%82%E7%8B%A9%E4%B9%8B%E6%8F%A1",
+   "revid": 7625,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7625",
+   "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%AD%82%E7%8B%A9%E4%B9%8B%E6%8F%A1&format=json",
+   "i18n": {
+    "name_zh": "魂狩之握",
+    "sources": {
+     "game_db": 6,
+     "glossary": 33,
+     "lore": 1,
+     "names": 2
+    },
+    "text_sources": {
+     "skills[0]": {
+      "source": "game_db",
+      "text_id": 63212,
+      "match": "exact"
+     },
+     "skills[1]": {
+      "source": "game_db",
+      "text_id": 63213,
+      "match": "exact"
+     },
+     "advanced_fixed_skill": {
+      "source": "game_db",
+      "text_id": 75203,
+      "match": "exact"
+     },
+     "advanced_random_skills[0]": {
+      "source": "game_db",
+      "text_id": 75197,
+      "match": "exact"
+     },
+     "advanced_random_skills[1]": {
+      "source": "game_db",
+      "text_id": 75198,
+      "match": "exact"
+     },
+     "advanced_random_skills[2]": {
+      "source": "game_db",
+      "text_id": 75199,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": [
+     "description"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+  "subject": "影步追魂靴",
+  "group": "gear",
+  "page_revid": 5110,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%BD%B1%E6%AD%A5%E8%BF%BD%E9%AD%82%E9%9D%B4",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%BD%B1%E6%AD%A5%E8%BF%BD%E9%AD%82%E9%9D%B4&format=json",
+  "fetched_at": "2026-11-20T16:16:27+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "影步追魂靴#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/1/9/25/29/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/11/2/11/40/51/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "影步追魂靴"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、2%全伤害类型增幅、2%全伤害类型减免、5精神精通、5法术精通、5物理精通、50幸运、20元素穿透、5法术豁免、5精神豁免、5物理豁免"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532体质、17532体质、17532魔力、17532魔力、17532力量、17532力量、17532意志、17532意志、5%最大生命值、5%最大生命值"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532体质、17532体质、17532魔力、17532魔力、17532力量、17532力量、17532意志、17532意志、120怒气、120怒气、120怒气、120怒气、7物理豁免、7法术豁免、7精神豁免"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可嵌入"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "追忆之帆-黑渊"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "影步追魂靴"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "刺杀黑卫佩戴时，自身所处队伍中，每有1/2/3/4名非前锋和非守护黑卫时(自身也参与计算，转换后的阵线不进行计数)，造成的必杀技伤害提升10%/25%/50%/100%。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "鞋子"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

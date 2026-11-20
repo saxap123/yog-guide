@@ -1,0 +1,515 @@
+{
+ "id": "char-2381",
+ "name": "天邪魅影",
+ "page_title": "天邪魅影",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "上官影",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "6月1日",
+  "birthplace": "九域国",
+  "height_weight": "173cm/57kg",
+  "specialties": [
+   "饮酒",
+   "吟诗",
+   "刀技"
+  ],
+  "likes": [
+   "好喝的酒",
+   "睡午觉",
+   "山水画",
+   "可口小蛋糕（羁绊礼物）"
+  ],
+  "dislikes": [
+   "豆腐",
+   "红茶",
+   "小人"
+  ],
+  "release_date": "2026年06月26日"
+ },
+ "element": "火焰",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "狩魔",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "通灵",
+    "id": "faction-2206"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "暴击概率",
+   "攻击速度",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "火焰伤害增幅"
+  ],
+  "secondary": [
+   "火焰穿透",
+   "怒气",
+   "怒气回复",
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到物理伤害降低",
+   "受到法术伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "破风",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "释放剑气对剑气路径上的敌人造成1500%法术强度的火焰伤害。(本技能会受攻速影响，造成的伤害视为普攻伤害。)",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "1500%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "烽火燎原",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "在最近的敌方脚下招出鬼影，对其造成6000%法术强度的火焰伤害。",
+   "scaling": [
+    {
+     "percent": "6000%",
+     "values": [
+      6000.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "6000%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "炽符叠印",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "5源力",
+   "description": "【破风】造成伤害时，有10%几率对目标添加一层【炽焰咒】(最多叠加3层)，【炽焰咒】会在6秒后或叠加至上限后被覆盖时爆炸，对目标造成3500%法术强度的火焰伤害，并使其昏迷1.5秒。",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "3500%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "咒焰焚鸣",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【烽火燎原】命中敌方时，会立刻引爆敌方单位身上的，且引爆时，【炽焰咒】的伤害提升50%.",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "炎纹缚身",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对目标施加【炽焰咒】时，有几率削减其50点怒气值，天邪魅影的勇猛值越高，触发的几率越高。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "纵影",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "召唤一个会朝鬼面跟随自身，鬼面每隔1秒朝随机敌方单位释放火焰弹，造成1500%法术强度的火焰伤害且火焰弹造成伤害可以触发【炽符叠印】。(该伤害视为普攻伤害，自身的攻速也会提升火焰弹的释放频率)",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "1500%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "不摧",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "天邪魅影的勇猛+10。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "致命瞄准",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "抓住敌人的虚弱时刻，对生命值低于35%的目标造成的伤害提升10%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "急速",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "攻击速度提升25%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "强击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "物理强度提升7%，法术强度提升7%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "时间守护者",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "月辉·轻盈软甲",
+    "戒指": null,
+    "腰带": "嗜战者束腰",
+    "圣物": "精灵飞羽",
+    "裤子": "戏谑者裤腿",
+    "徽章": "狩猎徽章",
+    "鞋子": "雷霆之怒",
+    "副手": null,
+    "武器": "焰刃焚心",
+    "护手": "深渊之握"
+   },
+   "alternatives": {
+    "腰带": [
+     "王室荣尊"
+    ],
+    "圣物": [
+     "始祖之血"
+    ],
+    "武器": [
+     "狂猎"
+    ],
+    "护手": [
+     "妖精秘手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "时间守护者": "gear-1715",
+    "月辉·轻盈软甲": "gear-1180",
+    "嗜战者束腰": "gear-1210",
+    "王室荣尊": "gear-1172",
+    "精灵飞羽": null,
+    "始祖之血": "gear-1604",
+    "戏谑者裤腿": "gear-1182",
+    "狩猎徽章": "gear-1184",
+    "雷霆之怒": "gear-1183",
+    "焰刃焚心": null,
+    "狂猎": "gear-128",
+    "深渊之握": "gear-1192",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "精灵飞羽": {
+     "reason": "game_only",
+     "game_id": "13003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13003",
+        "field": "name",
+        "text_id": 3927,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3927
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "百花旅者",
+       "分解装备",
+       "夜行暹罗",
+       "黑话解读"
+      ]
+     }
+    },
+    "焰刃焚心": {
+     "reason": "game_only",
+     "game_id": "90386",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90386",
+        "field": "name",
+        "text_id": 88592,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       88592
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "天邪魅影"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "万象余烬",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "戏火者",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "火咒",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "闪击",
+    "id": "rune-1418",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "炎龙",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【纵影】召唤的鬼面数量+1，且发射的火焰弹可以弹射。"
+   },
+   {
+    "rank": 2,
+    "text": "【烽火燎原】释放前有50%几率给最近的目标添加一层【炽焰咒】，天邪魅影的勇猛值越高，触发的几率越高。"
+   },
+   {
+    "rank": 3,
+    "text": "【炽焰咒】可以叠加的上限层数+2，当引爆时，【炽焰咒】的层数大于3层，每多1层会增加昏迷时间0.5秒。"
+   },
+   {
+    "rank": 4,
+    "text": "【炎纹缚身】削减的怒气值增加50点。"
+   },
+   {
+    "rank": 5,
+    "text": "【炽焰咒】引爆时触发的昏迷效果有10%几率变更为神圣裁定，天邪魅影的勇猛值超出目标越多，触发的几率越大。神圣裁定：角色无法行动，且该效果无法被驱散。"
+   },
+   {
+    "rank": 6,
+    "text": "天邪魅影造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "涅槃之火",
+   "id": "relic-2385"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%A9%E9%82%AA%E9%AD%85%E5%BD%B1",
+ "revid": 9031,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9031",
+ "rev_timestamp": "2026-06-27T21:34:43Z"
+}

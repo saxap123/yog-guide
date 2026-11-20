@@ -1,0 +1,1065 @@
+{
+ "id": "char-2308",
+ "name": "千宵月守",
+ "page_title": "千宵月守",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "纱夜",
+  "gender": "女",
+  "race": "神使",
+  "birthday": "10月23日",
+  "birthplace": "东方原津国",
+  "height_weight": "167cm/53kg",
+  "specialties": [
+   "舞蹈",
+   "栽花"
+  ],
+  "likes": [
+   "黑夜",
+   "独处",
+   "暗中观察",
+   "伯戈涅葡萄酒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "吵闹",
+   "暴晒的日光",
+   "炎热"
+  ],
+  "release_date": "2026年01月29日"
+ },
+ "element": "黑暗",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "秘术",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   },
+   {
+    "name": "雷暴",
+    "id": "faction-2218"
+   },
+   {
+    "name": "共鸣",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "技能暴击",
+   "%法术强度",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "冰霜/火焰/闪电伤害增幅（取最高值）",
+   "冰霜/火焰/闪电穿透（取最高值）"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "怒气回复",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "怒气"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "黑焰冲袭",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对最近的一名敌人发射法球造成2500%法术强度的黑暗伤害。(本技能不会受攻速影响，造成的伤害视为技能伤害。)",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "法术强度",
+     "effect": "黑暗伤害",
+     "text": "2500%法术强度的黑暗伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "暗渊咒杀",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "在上空凝聚10枚暗影长矛，朝随机敌方单位发射，并对其造成5000%法术强度的黑暗伤害。",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "法术强度",
+     "effect": "黑暗伤害",
+     "text": "5000%法术强度的黑暗伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "邪影追猎",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "15源力",
+   "description": "每当场上有敌方单位被施加异常状态时，都有几率对场上最多6名敌方单位释放暗影飞刃，造成3500%法术强度的黑暗伤害。发动几率：20%。(该技能的最小触发间隔为1秒)",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "法术强度",
+     "effect": "黑暗伤害",
+     "text": "3500%法术强度的黑暗伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "今宵月圆",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "指定一个友方黑卫，使其在释放必杀技之后，有一定几率再次释放(千霄月守的感知属性越高，触发几率越高，且再次释放的必杀技不消耗怒气值)，该效果有6秒的触发间隔。(部位黑卫如花信风、布兰妮等长时间持续释放效果的必杀技无法受该技能影响。)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "月祝之舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "敌方被【暗渊咒杀】击中时，有几率恢复千霄月守2点源力值。且【暗渊咒杀】造成的伤害提升100%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "叹月无瑕",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【邪影追猎】造成的伤害提升100%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "洞悉",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "千霄月守的感知+10。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "玻璃大炮",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "放弃防护，专心攻击，造成的伤害提高15%，但是自身受到的伤害也提高10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "元素充能",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "造成非物理伤害时，恢复造成伤害10%的生命值",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450/700级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450,
+    700
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "魔眼吊坠",
+    "卡牌": "龙力魔牌",
+    "耳坠": "魔弦耳环",
+    "衣服": "聚能之铠",
+    "戒指": "猩红秘戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "戏谑者裤腿",
+    "徽章": "魔涌之徽",
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "宵暗刃舞",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "项链": [
+     "海晶项链"
+    ],
+    "卡牌": [
+     "魔球卡牌"
+    ],
+    "腰带": [
+     "感电者"
+    ],
+    "徽章": [
+     "咒法徽印"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "魔眼吊坠": null,
+    "海晶项链": null,
+    "龙力魔牌": "gear-1691",
+    "魔球卡牌": null,
+    "魔弦耳环": null,
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "感电者": "gear-1690",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "魔涌之徽": "gear-1176",
+    "咒法徽印": "gear-1175",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "宵暗刃舞": "gear-2315",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "魔眼吊坠": {
+     "reason": "game_only",
+     "game_id": "4006",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4006",
+        "field": "name",
+        "text_id": 4071,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       4071
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "千宵月守"
+      ]
+     }
+    },
+    "海晶项链": {
+     "reason": "game_only",
+     "game_id": "4011",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4011",
+        "field": "name",
+        "text_id": 8333,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       8333
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "分解装备",
+       "炽焰降生",
+       "幸运装备",
+       "千宵月守"
+      ]
+     }
+    },
+    "魔球卡牌": {
+     "reason": "game_only",
+     "game_id": "90212",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90212",
+        "field": "name",
+        "text_id": 62169,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62169
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "战争之蹄",
+       "不熄曜日",
+       "夜行暹罗",
+       "千宵月守"
+      ]
+     }
+    },
+    "魔弦耳环": {
+     "reason": "game_only",
+     "game_id": "90306",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90306",
+        "field": "name",
+        "text_id": 63588,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       63588
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "千宵月守"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "1000级",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "噬魂血盔",
+    "项链": "黑色汪洋",
+    "卡牌": "任意太古装备",
+    "耳坠": "魔弦耳环",
+    "衣服": "黑金护甲",
+    "戒指": "冥蚀渊薮咒戒",
+    "腰带": "感电者",
+    "圣物": "冥蚀渊薮咒符",
+    "裤子": "炎铸胫甲",
+    "徽章": "冥蚀渊薮咒徽",
+    "鞋子": "宗室礼靴",
+    "副手": "冥蚀渊薮咒盾",
+    "武器": "血隐长刃",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "项链": [
+     "辉耀之链"
+    ],
+    "衣服": [
+     "绝对冰霜"
+    ],
+    "腰带": [
+     "舍身狂袭"
+    ],
+    "武器": [
+     "混沌利刃"
+    ],
+    "护手": [
+     "冥蚀渊薮咒手"
+    ]
+   },
+   "extracts": {
+    "裤子": "元素大师之裤"
+   },
+   "signature_weapon": "宵暗刃舞",
+   "item_ids": {
+    "噬魂血盔": null,
+    "黑色汪洋": null,
+    "辉耀之链": "gear-134",
+    "任意太古装备": null,
+    "魔弦耳环": null,
+    "黑金护甲": null,
+    "绝对冰霜": null,
+    "冥蚀渊薮咒戒": "gear-2323",
+    "感电者": "gear-1690",
+    "舍身狂袭": null,
+    "冥蚀渊薮咒符": "gear-2320",
+    "炎铸胫甲": "gear-1861",
+    "冥蚀渊薮咒徽": "gear-2321",
+    "宗室礼靴": "gear-1282",
+    "冥蚀渊薮咒盾": "gear-2322",
+    "血隐长刃": "gear-2291",
+    "混沌利刃": "gear-2435",
+    "幽冥初水": null,
+    "冥蚀渊薮咒手": "gear-2325",
+    "元素大师之裤": "gear-1174",
+    "宵暗刃舞": "gear-2315"
+   },
+   "unlinked": {
+    "噬魂血盔": {
+     "reason": "game_only",
+     "game_id": "95021",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95021",
+        "field": "name",
+        "text_id": 82516,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       82516
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "长辉照夜",
+       "千宵月守"
+      ]
+     }
+    },
+    "黑色汪洋": {
+     "reason": "game_only",
+     "game_id": "90324",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90324",
+        "field": "name",
+        "text_id": 69057,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       69057
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪",
+       "不熄曜日",
+       "绞刃流火",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "任意太古装备": {
+     "reason": "not_an_item",
+     "game_id": null,
+     "possible_match": null,
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "霓裳若仙",
+       "爱恋花见",
+       "千宵月守"
+      ]
+     }
+    },
+    "魔弦耳环": {
+     "reason": "game_only",
+     "game_id": "90306",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90306",
+        "field": "name",
+        "text_id": 63588,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       63588
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "千宵月守"
+      ]
+     }
+    },
+    "黑金护甲": {
+     "reason": "game_only",
+     "game_id": "95012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95012",
+        "field": "name",
+        "text_id": 82498,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       82498
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "青鸾巽羽",
+       "千宵月守",
+       "月渊龙女"
+      ]
+     }
+    },
+    "绝对冰霜": {
+     "reason": "game_only",
+     "game_id": "95010",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95010",
+        "field": "name",
+        "text_id": 82494,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       82494
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "千宵月守",
+       "月渊龙女"
+      ]
+     }
+    },
+    "舍身狂袭": {
+     "reason": "game_only",
+     "game_id": "90087",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90087",
+        "field": "name",
+        "text_id": 60196,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       60196
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "绯红荆棘",
+       "北境公主",
+       "千宵月守"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "戏火者",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "万象余烬",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "火咒",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "异界后万象换怒法"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "雪甲虫",
+    "id": "black_stone-10",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【暗渊咒杀】可以额外穿透3个目标。"
+   },
+   {
+    "rank": 2,
+    "text": "【暗渊咒杀】有几率使目标致盲，持续5秒，千霄月守的感知越高，触发的几率越大。"
+   },
+   {
+    "rank": 3,
+    "text": "【黑焰冲袭】会优先攻击最大生命值最低的敌方目标，且自身受到致命伤害时，会触发不死，持续5秒；且自身强韧值超过50时，每额外拥有10点，将延长不死的持续时间1秒。最多延长5秒。（该效果有120秒触发间隔。）"
+   },
+   {
+    "rank": 4,
+    "text": "光环：全体友方黑卫追击技能发动率+12%。"
+   },
+   {
+    "rank": 5,
+    "text": "千霄月守的感知超过120时，每多拥有60点感知，都会使【邪影追猎】的发射数量+1。"
+   },
+   {
+    "rank": 6,
+    "text": "千宵月守造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "伏夜",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "感知+15"
+   },
+   {
+    "index": 2,
+    "name": "暗潮",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "强韧+15"
+   },
+   {
+    "index": 3,
+    "name": "囚光",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【今宵月圆】的基础发动几率+15%，且进入战斗时，队伍中所有黑卫的源力每秒恢复+2。"
+   },
+   {
+    "index": 4,
+    "name": "晦影",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "感知+30"
+   },
+   {
+    "index": 5,
+    "name": "蚀暗",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "源力初始值+50"
+   },
+   {
+    "index": 6,
+    "name": "通幽",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "源力上限+100"
+   },
+   {
+    "index": 7,
+    "name": "永暝",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【邪影追猎】的发动几率+25%，且【邪影追猎】发动时无需动画，直接进行释放。"
+   },
+   {
+    "index": 8,
+    "name": "宵烬",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+   },
+   {
+    "index": 9,
+    "name": "黯域",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "物理伤害减免+5.00%；法术伤害减免+5.00%"
+   },
+   {
+    "index": 10,
+    "name": "冥神",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "千霄月守处于不死状态时，【今宵月圆】的冷却时间变为1秒，消耗的源力降低至10，且会对队伍中的所有黑卫起效"
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "圣血晶石",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "黑潮勋章",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": "胧月之影",
+   "id": "relic-2326"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%8D%83%E5%AE%B5%E6%9C%88%E5%AE%88",
+ "revid": 9138,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9138",
+ "rev_timestamp": "2026-08-11T03:35:58Z"
+}

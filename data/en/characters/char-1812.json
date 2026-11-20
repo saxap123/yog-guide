@@ -1,0 +1,342 @@
+{
+ "id": "char-1812",
+ "name": "Chief Raven",
+ "page_title": "渡鸦魁首",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Ophelia",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--01-03",
+  "birthplace": "Arklance",
+  "height_weight": "170cm/54kg",
+  "specialties": [
+   "concealment",
+   "breath tracking",
+   "silent steps"
+  ],
+  "likes": [
+   "quiet places",
+   "Book",
+   "cats"
+  ],
+  "dislikes": [
+   "chili peppers",
+   "dogs",
+   "traitors"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Physical",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Striker Front",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Skybreaker",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "In 1 second, deliver 5 consecutive stabs within 5 meters in front, each dealing lightning damage of 45% physical power, releases a final deliverance after 0.5 seconds of delay, causing damage of 45% physical power. Knocks away the target and electrocuting them.",
+   "scaling": [
+    {
+     "percent": "45%",
+     "values": [
+      45.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 45% of Physical Power"
+    },
+    {
+     "percent": "45%",
+     "values": [
+      45.0
+     ],
+     "stat": "Physical Power",
+     "effect": "DMG",
+     "text": "DMG equal to 45% of Physical Power"
+    }
+   ],
+   "name_zh": "破空之剑"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Flash Step",
+   "cooldown_s": 10,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Dashes 6 m toward the target, dealing 160% Physical Power as Lightning DMG to enemies in the path; when hitting an enemy with Electrocution, inflicts Stun for 1 sec. The final strike of Skybreaker resets the cooldown of Flash Step and increases the Crit Chance of the next Flash Step cast by 1.",
+   "scaling": [
+    {
+     "percent": "160%",
+     "values": [
+      160.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 160% of Physical Power"
+    }
+   ],
+   "name_zh": "闪光"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Thunderous Rampage",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The final blow of Skybreaker resets the cooldown of Flash Step and increases the crit chance of the next Flash Step by 1",
+   "scaling": [],
+   "name_zh": "雷霆制裁"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Thunderous Aegis",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each time Flash Step hits an electrocuted enemy, Ophelia receives a shield of 25.8% physical power (The shield value is affected by Physical Damage Boost and her Crit Damage Rate), maximum of 25.8% physical power. Lasts 20 seconds.",
+   "scaling": [
+    {
+     "percent": "25.8%",
+     "values": [
+      25.8
+     ],
+     "stat": "Physical Power",
+     "effect": "Shield",
+     "text": "Shield equal to 25.8% of Physical Power"
+    },
+    {
+     "percent": "25.8%",
+     "values": [
+      25.8
+     ],
+     "stat": "Physical Power",
+     "effect": null,
+     "text": "25.8% of Physical Power"
+    }
+   ],
+   "name_zh": "强袭"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Lightning Coverage",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Flash Step crits, immediately reduces its cooldown by 2 seconds, damage dealt to electrocuted targets is also increased by 50%.",
+   "scaling": [],
+   "name_zh": "速攻"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Peerless Blademaster",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Triggering Thunderous Aegis grants 1 stack of Blademaster; each stack grants 0.05 Skill Crit Chance and Crit Dmg. And every 7 Physical Mastery increases the Skill Crit Chance and Crit Dmg gained per stack by 0.5%. Stacks up to 5 times, lasts 20 seconds.",
+   "scaling": [],
+   "name_zh": "无双剑意"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "One Man Army",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "More targets means its harder to miss, each enemy within a range of 5 meters will increase damage caused by 3%",
+   "scaling": [],
+   "name_zh": "孤军深入"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Mercilessly executes wounded enemies: DMG dealt to targets with HP below 15% is increased by 20%",
+   "scaling": [],
+   "name_zh": "刽子手"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Berserker's Wrath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The sight of your own blood enrages you, the lower your health, the higher your damage Increases damage by 1% for every 5% HP lost",
+   "scaling": [],
+   "name_zh": "狂战士之怒"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "奥菲莉亚给大多数学生的印象是一位温柔美丽、平易近人的老师，教导他人时孜孜不倦，哪怕是面对调皮的孩子，她也总是非常耐心，从来没有生气的时候。\n但在学生们难以接触到的阴影世界里,奥菲莉亚有着另一个身份――亚克兰斯情报部门「渡鸦」的魁首。\n渡鸦组织成员都是从学院中筛选出的精锐黑卫,他们独立于常规指挥体系之外,直接受院长管辖，手中掌控着地下世界情报网络，专门执行针对各国的特殊任务，被帝国的蜘蛛密卫们称为“告死鸟”。\n作为渡鸦魁首,奥菲莉亚是一台绝对精密的机器,冷酷，高效，但凡任务需要，哪怕目标是自己亲手带出来的学生，她也会毫无滞纳将其除掉。但当摘下渡鸦面具、回到学院之后，她又会恢复那副和蔼可亲的模样。\n对于这位“温柔”的老师,学生们永远不会知道真相，因为当他们知道真相的一刻，也就意味着―—告死鸟要来了。",
+  "deeds": [
+   "亚克兰斯是通往神弃之地的唯一入口，黑卫们在壁外探索过程中也会不断觅回旧帝国失落已久的秘藏,这一切自然而然引起了周边各国的贪婪。\n明枪暗箭之下,渡鸦组织由此建立，魁首奥菲莉亚直接对院长克雷蒂安娜负责，骑士团与审判庭皆无权调动她以及她背后的告死鸟们。",
+   "奥菲莉亚的身世一直是个谜,没有任何书面记录,所有与之相关的档案都是一片空白，除了院长克雷蒂安娜本人,没有人知道她的过往。\n唯一可以寻觅的是,奥菲莉亚非常珍重自己的两把佩剑，而那些对亚克兰斯历史稍加了解的人都可以辨认出来,这两把剑曾属于已故的前任院长,「白骑士」亚诺什。",
+   "在历年暗选期间,曾有人把斯卡莉特列入了渡鸦的举荐名单，但却被奥菲莉亚划掉了，在她的意见中，斯卡莉特的能力绝对足以胜任渡鸦的工作，然而这个半精灵少女在性格上有着某种隐匿的缺陷，不足以成为一名合格的告死鸟。",
+   "菲奇无论战斗技艺、还是隐匿身份的手段都极其精湛,毫无疑问――但在渡鸦魁首面前,这种伪装就像阳光下的泡泡。\n奥菲莉亚看到菲奇的第一眼，就从她身上发现了蜘蛛密卫的训练痕迹。虽然她的名字还没有被列上渡鸦的“告死名单”，但被奥菲莉亚加以过多的关注，绝对不是什么幸运的事。",
+   "奥菲莉亚是一个好老师,毫无疑问。\n曾有一支学院探索队在壁外调查时遭到魔物冲击，溃散逃回亚克兰斯,其中一名学生失散――在神弃之地失散，基本上等同于回归死神怀抱。\n就在所有人为这名学生默哀时，奥菲莉亚不顾劝阻，一个人，两把剑，孤身进入神弃之地，在漫长的七天后，成功将奄奄一息的失散学生带了回来,拯救了他的性命。",
+   "成为黑卫并不代表与世无争，常人会面对的诱惑,于他们而言一样也不会少。那些因此堕落者，无一例外都会进入渡鸦的“告死名单”。\n在财富与美人的诱惑下，黑卫学院的一名学生没能恪守誓言，试图将内部情报出卖给别国密探。仅八分钟之后，这名学生在亚克兰斯人间蒸发，没有尸体，没有痕迹，什么都没有，宛若一场镜花水月的艺术，只有教室里的空座位预示着他曾经存在——值得一提的是，他正是当年奥菲莉亚亲手从神弃之地救回来的那名失散学生。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%B8%A1%E9%B8%A6%E9%AD%81%E9%A6%96",
+ "revid": 8656,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8656",
+ "rev_timestamp": "2026-02-08T04:41:46Z",
+ "i18n": {
+  "name_zh": "渡鸦魁首",
+  "sources": {
+   "derived": 7,
+   "game_db": 9,
+   "glossary": 35,
+   "lore": 1,
+   "names": 15,
+   "translated": 11
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 55129,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 55130,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 55131,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 55132,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4292,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4293,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[8].name",
+    "zh": "刽子手",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

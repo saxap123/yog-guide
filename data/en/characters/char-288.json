@@ -1,0 +1,889 @@
+{
+ "id": "char-288",
+ "name": "Legendary Dragon",
+ "page_title": "传承之龙",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Vina",
+  "gender": "Female",
+  "race": "Dragonborn",
+  "birthday": "--12-24",
+  "birthplace": "unknown ancient mountains",
+  "height_weight": "171cm/52kg",
+  "specialties": [
+   "flying",
+   "heavy labor",
+   "combat skills"
+  ],
+  "likes": [
+   "meat cooked any way",
+   "kitties",
+   "kind people",
+   "gold-and-jade teapot (bond gift)"
+  ],
+  "dislikes": [
+   "vegetables cooked any way",
+   "Rainy Days",
+   "tongue twisters"
+  ],
+  "release_date": "2023-07-28"
+ },
+ "element": "Frost",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Striker Front",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "Frost Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Frost Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Rage Recovery",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Frosty Dash",
+   "cooldown_s": 2,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Vina deals triple auto attack, releases a double impaling to the nearest enemy, the impaling respectively causes Frost Damage equal to 100% and 200% of Spell Power, the third attack will dash forward, and causes Frost Damage equal to 400% of Spell Power to all enemies in the path.",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 200% of Spell Power"
+    },
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 400% of Spell Power"
+    }
+   ],
+   "name_zh": "冰驰冲击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Glacial Advance",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Vina releases Charge 4 times continuously, each Charge deals Frost DMG equal to 1500% of Spell Power to the enemies in the path, and applies Frozen to them for 2 sec.",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 1500% of Spell Power"
+    }
+   ],
+   "name_zh": "冰结之破"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Slash Vacuum",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "After releases Charge 6 times, Vina unleashes a Vacuum Blade to an enemy position immediately, dealing Frost DMG equal to 800% of Spell Power every 0.2 sec, last for 0.8 sec.",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 800% of Spell Power"
+    }
+   ],
+   "name_zh": "真空切割"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Relentless Pursuit",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When the final dash segment ends, there is a 50% chance to immediately cast Charge, dealing 1000% Spell Power as Frost DMG to enemies in the path and inflicting Stun on them for 1 sec.",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 1000% of Spell Power"
+    }
+   ],
+   "name_zh": "振翼追击"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Draconic Glare",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Every 5 sec, Vina will choose an enemy, and releases Draconic Glare to the target, during the skill duration, the Damage Dealt causes by Vina to the target will increase gradually by 10% per sec, up to 250%. The Draconic Glare can only take effect to an enemy at the same time.",
+   "scaling": [],
+   "name_zh": "龙瞳凝视"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Dragonblood Boiling",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Legendary Dragon's Skill Crit Chance +30",
+   "scaling": [],
+   "name_zh": "炙血龙力"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Bitter Chill Kiss",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Vina's DMG Dealt is increased by 3% with each Ball she has, and doubled the effect of the Frost Orb, the DMG Boost effect is up to 25%.",
+   "scaling": [],
+   "name_zh": "霜龙之吻"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "One Man Army",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "More targets means its harder to miss, each enemy within a range of 5 meters will increase damage caused by 3%",
+   "scaling": [],
+   "name_zh": "孤军深入"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Mercilessly executes wounded enemies: DMG dealt to targets with HP below 15% is increased by 20%",
+   "scaling": [],
+   "name_zh": "刽子手"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Berserker's Wrath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The sight of your own blood enrages you, the lower your health, the higher your damage Increases damage by 1% for every 5% HP lost",
+   "scaling": [],
+   "name_zh": "狂战士之怒"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Meteorite Necklace",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Ring of Nimravides",
+    "Belt": "Honor of House Rudolph",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Sigil of Mystic",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Violet Rage",
+    "Weapon": "Lance of Immortal Shroud",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Ring": [
+     "Souleater's Ring"
+    ],
+    "Belt": [
+     "Warmonger's Warbelt"
+    ],
+    "Trousers": [
+     "Elementalist's Britches"
+    ],
+    "Emblem": [
+     "Runes of the Surge"
+    ],
+    "Off-hand": [
+     "Necromancer's Deliverance"
+    ],
+    "Handguard": [
+     "Spark Catcher"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猎猫之戒": "gear-game-90177",
+    "夺魂之戒": "gear-1571",
+    "王室荣尊": "gear-1172",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "咒法徽印": "gear-1175",
+    "魔涌之徽": "gear-1176",
+    "月辉·王室金靴": "gear-1177",
+    "紫怒之盾": "gear-game-90263",
+    "死灵法盾": "gear-1178",
+    "不朽骸枪": "gear-1211",
+    "妖精秘手": "gear-1179",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": {
+    "猎猫之戒": {
+     "reason": "game_only",
+     "game_id": "90177",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90177",
+        "field": "name",
+        "text_id": 61835,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       61835
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙"
+      ]
+     }
+    },
+    "紫怒之盾": {
+     "reason": "game_only",
+     "game_id": "90263",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90263",
+        "field": "name",
+        "text_id": 63093,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       63093
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞",
+       "传承之龙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Empyrean Cry",
+    "Necklace": "Chain of Radiance",
+    "Card": "Spirit Magic Card",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Empyrean Whisper",
+    "Ring": "Ring of Snow Shadow",
+    "Belt": "Empyrean Roar",
+    "Relic": "Legacy of Snow Shadow",
+    "Trousers": "Frost-Condensed Trousers",
+    "Emblem": "Emblem of Snow Shadow",
+    "Shoes": "Empyrean Scream",
+    "Off-hand": "Guard of Snow Shadow",
+    "Weapon": "Dragon's Wrath",
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Sparkling Jade Helmet"
+    ],
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ],
+    "Belt": [
+     "Belt of Electrify"
+    ],
+    "Shoes": [
+     "Royal Family Boots"
+    ],
+    "Handguard": [
+     "Sprite's Spite"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "魔弹鹰鸣": "gear-game-90221",
+    "烁玉金盔": "gear-1275",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "精魄魔牌": "gear-1291",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "魔弹亡语": "gear-game-90222",
+    "雪影冰戒": "gear-185",
+    "魔弹咆哮": "gear-game-90223",
+    "感电者": "gear-1690",
+    "雪影之遗": "gear-179",
+    "霜凝咒裤": "gear-1859",
+    "雪影白徽": "gear-158",
+    "魔弹尖啸": "gear-game-90225",
+    "宗室礼靴": "gear-1282",
+    "雪影守护": "gear-166",
+    "古龙威怒": "gear-1565",
+    "幽冥初水": "gear-game-90323",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "魔弹鹰鸣": {
+     "reason": "game_only",
+     "game_id": "90221",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90221",
+        "field": "name",
+        "text_id": 62178,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       62178
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙"
+      ]
+     }
+    },
+    "魔弹亡语": {
+     "reason": "game_only",
+     "game_id": "90222",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90222",
+        "field": "name",
+        "text_id": 62179,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       62179
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙"
+      ]
+     }
+    },
+    "魔弹咆哮": {
+     "reason": "game_only",
+     "game_id": "90223",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90223",
+        "field": "name",
+        "text_id": 62180,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       62180
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙",
+       "冷却装备"
+      ]
+     }
+    },
+    "魔弹尖啸": {
+     "reason": "game_only",
+     "game_id": "90225",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90225",
+        "field": "name",
+        "text_id": 62182,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       62182
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Cold Moon",
+    "id": "rune-1412",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Frostbite",
+    "id": "rune-1423",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Frost Snow",
+    "id": "rune-1421",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Hoarfrost Hoof",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Rime Phoenix",
+    "id": "black_stone-13",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": "8 Evil Eye for the stages along the way; 2 Evil Eye if going straight to the boss fight"
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Increase duration of [Slash Vacuum] by 0.4 sec."
+   },
+   {
+    "rank": 2,
+    "text": "+1 [Glacial Advance] Dash"
+   },
+   {
+    "rank": 3,
+    "text": "When there is at least one other Striker in the Team, all DMG dealt by Vina increased by 15%."
+   },
+   {
+    "rank": 4,
+    "text": "Relentless Pursuit has 100% chance to trigger"
+   },
+   {
+    "rank": 5,
+    "text": "[Stun] and [Freeze] duration reduced by 35%"
+   },
+   {
+    "rank": 6,
+    "text": "All DMG Dealt by Vina increased by 10%."
+   }
+  ],
+  "recommendation": "Usable from rank 1; DMG maxed at rank 3; rank 5 for PVP; needs the Rage regen utility picks Salvia Fairy and Schneemond Princess"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "The Wrath of Dragon",
+   "id": "relic-1954"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Striker battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E4%BC%A0%E6%89%BF%E4%B9%8B%E9%BE%99",
+ "revid": 9190,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9190",
+ "rev_timestamp": "2026-09-21T07:19:47Z",
+ "i18n": {
+  "name_zh": "传承之龙",
+  "sources": {
+   "derived": 7,
+   "game_db": 17,
+   "glossary": 93,
+   "lore": 1,
+   "names": 72,
+   "translated": 17
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 61770,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 61772,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 61771,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 61774,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 61776,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4292,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4293,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "black_stones.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 60953,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 60954,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 60955,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 60956,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 60957,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 60958,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[8].name",
+    "zh": "刽子手",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

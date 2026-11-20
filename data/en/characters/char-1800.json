@@ -1,0 +1,328 @@
+{
+ "id": "char-1800",
+ "name": "Pleasure Succubus",
+ "page_title": "欢愉魔女",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Reveille",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "Day 5 of Deep Winter",
+  "birthplace": "Unknown",
+  "height_weight": "169cm/52kg",
+  "specialties": [
+   "cooking",
+   "drawing",
+   "flying"
+  ],
+  "likes": [
+   "a warm hearth fire",
+   "desserts",
+   "cherries"
+  ],
+  "dislikes": [
+   "prisons",
+   "being restrained",
+   "torture instruments"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Fire",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Hellfire Eruption",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Reveille summons Hellfire beneath the target. After a short delay a pillar of Hellfire rises, dealing Fire DMG equal to 384.6% of Spell Power to the target, and Fire DMG equal to 10% of Spell Power to enemies within 2.5 meters around.",
+   "scaling": [
+    {
+     "percent": "384.6%",
+     "values": [
+      384.6
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 384.6% of Spell Power"
+    },
+    {
+     "percent": "10%",
+     "values": [
+      10.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 10% of Spell Power"
+    }
+   ],
+   "name_zh": "狱火升腾"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Pyroblast",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Reveille launches a Fireball condensed from Hellfire at the target with the lowest HP, dealing Fire DMG equal to 240% of Spell Power to the target, and Fire DMG equal to 10% of Spell Power to enemies within 2.5 meters around the target.",
+   "scaling": [
+    {
+     "percent": "240%",
+     "values": [
+      240.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 240% of Spell Power"
+    },
+    {
+     "percent": "10%",
+     "values": [
+      10.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 10% of Spell Power"
+    }
+   ],
+   "name_zh": "爆裂火球"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Multicast",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Gives Reveille a chance to cast the same skill 5 times in a single cast.",
+   "scaling": [],
+   "name_zh": "多重施法"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Breaching Flames",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "A fervent pursuit of pain and torment gives Reveille +10% Fire Damage Boost",
+   "scaling": [],
+   "name_zh": "暴虐之火"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Pyromania",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "To better enjoy the pleasure brought by torment, Reveille restores 50 Rage when casting Hellfire Eruption",
+   "scaling": [],
+   "name_zh": "肆虐快感"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Hellfire Mastery",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Reveille's most violent torment: when casting Hellfire Eruption, there is a 50% chance to also cast Pyroblast",
+   "scaling": [],
+   "name_zh": "狱焰掌握"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "瑞芙荔清晰的记忆起始于「巴别塔」暗无天日的试验品监狱。起初，那间巨大的牢房里有不下30个与她年纪相仿的女孩，她们曾经的记忆被尽数抹去，犹如一张白纸。女孩们在这里同吃同住，接受着严酷的训练，还会遭到狱卒各种各样非人的折磨。那些训练成果优异的女孩，被狱卒带出监牢后就再也没有回来过。而那些训练成果不佳的女孩，不是在残酷的竞技厮杀中被其他女孩杀死，就是在被救治之后再度遭到狱卒的虐待。\n瑞芙荔在这种地狱里暗无天日地活着，直到有一天，当这间监牢只剩下六个人时，她终于与另一名女孩力挫其余四人，得到了离开监牢的机会。两人本以为可以获得自由，却未曾想到，她们被带去了比监牢更加幽深黑暗的地下，并在这里被强行灌下了一种灰呈现诡邃灰色的药剂。这是瑞芙荔此生最不幸却又最幸运的一天，与她同行的女孩在饮下药剂后当场身死，她的体内却觉醒了某种强大的力量。很难说觉醒后的瑞芙荔还是不是人类，她的头发变得霜白，双瞳赤红，甚至长出了凶兽般的利爪，心中燃烧着复仇之火的她杀死了所有狱卒，将这处监牢焚为废墟，并发誓要将所有效忠巴别塔的人斩尽杀绝。\n几个月后，不断追猎巴别塔的瑞芙荔遇到了一支黑卫队伍，黑卫们惊异于这个女孩觉醒的力量，瑞芙荔也从交流中得知黑卫与自己有共同的敌人。黑卫队伍将瑞芙荔带回亚克兰斯，在封闭了一天一夜的密室中，她与黑卫总指挥克雷蒂安娜进行了一场无人知晓的秘密交谈。\n交谈结束的第二天，众人兀然发现，“瑞芙荔”这个名字被克雷蒂安娜亲笔写在了黑卫名册之上……",
+  "deeds": [
+   "无人知晓瑞芙荔的家乡在何方,连她自己都不知道,只有那些时常在脑海中回荡着的、关于炉火温暖跳动的影像,以及似乎还充盈在鼻尖的南瓜派的香甜味道,提醒着此刻的她，或许很久之前，她也曾有过一个平凡而幸福的家庭，和无忧无虑的童年岁月。\n虽然瑞芙荔时常会抱有疑惑,质疑这些记忆残片的真实性，但外在显露出的表情总是会出卖她――每每想起往事，笑意总会不由自主在她脸上绽放，连掌中跳动的火焰都变得无比柔和。",
+   "瑞芙荔爱吃甜品,而且很擅长制作甜品,每一个知道这件事的人都是会格外惊讶，因为真的很难将瑞芙荔的外在形象和一个擅长做甜品的厨师联系起来。\n有一次，学院餐厅因为岗位调动，原来的甜品师离职了，新来的甜品师连续两个月做了同样口味的苹果派,连贪吃的咚咚都哭诉说实在吃腻了，能不能换换。\n第二天,忍无可忍的瑞芙荔阴沉着脸冲进后厨，拍飞门上“闲人勿进”的木牌,将趴在烤箱边打瞌睡的甜品师拽起来扔了出去，然后自己动手做甜品分给大家。\n瑞芙荔的秘制南瓜派在此后一战成名，许多黑卫都怀念那鲜美的味道,还有人看见那名被扔出去的甜品师偷偷去找瑞芙荔，向她求教秘制南瓜派的配方。",
+   "在樱桃成熟的季节，黑卫学院曾组织过一次前往樱桃园自由采摘的活动，由于大家是各自组队，而且庄园很大，到了晚上还有不少人零零散散没回来,其中就包括瑞芙荔。\n大家一起去找人的时候,在一棵樱桃树下找到了倚靠树干甜甜酣眠的瑞芙荔,在夜色中，星星点点的萤火虫围绕着她的身躯静谧起舞，一两颗樱桃从小筐中滚落出来，有人记住了这个美丽瞬间，还以此画了一幅画送给她。\n瑞芙荔对这幅画的评价是“糟糕的构图，画面也很无聊，只有新手才会画这么没有内涵的东西”，不过有些出入过瑞芙荔宿舍的女生却发现，她将这幅画装进了精美的画框,挂在自己经常能看见的位置。",
+   "游荡在黑卫学院多年的一只野猫,曾找到通晓动物语言的麦恩老师告状，据说在一个寒冷的冬夜里，它本来在壁炉旁睡得好好的，瑞芙荔突然出现惊扰了它的美梦，只是这样也就罢了，她还把它的猫窝挤开，自己霸占了壁炉。\n它当时在瑞芙荔身边疯狂叫喊，她却不无所动，它亮出爪子正要伸向她的胳膊,却被一巴掌打飞出去，狼狈地逃到门外，被迫在漫天大雪里待了一夜。\n麦恩为此事叫来瑞芙荔约谈,瑞芙荔也爽快承认了这一切:“我喜欢听柴火啡啪灼烧的声音，我的房间里没有壁炉，就只能去抢这只胖猫的壁炉。\n瑞芙荔没有说根本原因是这只野猫睡得离壁炉太近,胡须都被烧卷了，但这件事的真相后来得到了野猫的澄清,瑞芙荔的房间也由此加装了壁炉。",
+   "瑞芙荔刚来黑卫学院的时候,恰逢秋收庆典,晚餐过后大家都在观景露台看烟花。\n漫天花火绽放之际，掌控火焰的瑞芙荔一眼就看出了哪些是寻常烟花,哪些是妖精肆意撒欢的把戏。\n可以看得出来,伪装成烟火在夜空中起舞,让那只纵火妖精玩得格外开心。\n夜空中的拉拉克很快也察觉到露台上有人注意到了自己，就在她走神时,不慎被一簇烟花冲到，从空中坠落下来。\n千钧一发之际,一团火焰从露台冲天而起,托举住拉拉克,将她轻轻放在了地上。\n这一幕没有惊扰到任何人,甚至还引起了不小的欢呼，大家都以为这是学院安排的特殊烟花表演。",
+   "烟火典礼结束后,瑞芙荔没有随众人散去，而是一个人留在露台上享受难得的独处时间，回首之际，她看到一个身穿礼服、气质黑暗高贵的红发女子从暗淡灯火中走出,托举着装满猩红液体的酒杯微笑看着她。\n这或许是瑞芙荔第一次遭到压制,那股来自远古的威压极尽蚕食着她的神志,让她无法动弹,无法言语。\n当那股威压悄然消失时,红发女子已经遁入黑暗,只有回荡在露台上诡笑声传来:“悲惨却又足够幸运，冷漠却还偏偏保有善良……有趣。”"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%AC%A2%E6%84%89%E9%AD%94%E5%A5%B3",
+ "revid": 8643,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8643",
+ "rev_timestamp": "2026-02-08T04:30:58Z",
+ "i18n": {
+  "name_zh": "欢愉魔女",
+  "sources": {
+   "derived": 5,
+   "game_db": 6,
+   "glossary": 34,
+   "lore": 1,
+   "names": 16,
+   "translated": 15
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.birthday",
+    "zh": "凛冬",
+    "en": "Deep Winter"
+   }
+  ]
+ }
+}

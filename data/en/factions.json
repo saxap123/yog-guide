@@ -1,0 +1,1864 @@
+{
+ "kind": "faction",
+ "license": "CC BY-NC-SA 4.0",
+ "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
+ "count": 45,
+ "language": "en",
+ "translation": "see data/names.json, data/glossary.json, translate/README.md",
+ "items": [
+  {
+   "id": "faction-2217",
+   "name": "Resonance Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3
+     ],
+     "label": "(2/3)",
+     "text": "When the Resonance Front reaches level 2/3, increases the cap of all ball of this Front's Blackguard by 1/2."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%85%B1%E9%B8%A3",
+   "revid": 7906,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7906",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "共鸣",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 75465,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2194",
+   "name": "Assassin Front",
+   "type": "Basic",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Assassins' Frontline reaches 2/3/4, Increases Dodge by 25%/35%/50% for all Assassins"
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "When the Assassins' Frontline reaches 5/6/7, Increases Skill Dodge by 15%/30%/50% for all Assassins"
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "When Assassin Front strength reaches 8/9, Skill Crit rate of all Blackguards increases by 4%/8%. Rage gained by Assassin Blackguards from finishing off normal units increases by 25%/50%; finishing off a Hero unit grants 50%/75% of its Rage."
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "When the Assassins' Frontline reaches 10/11, increase all Blackguards' Health by 5%/10% After Assassins deal normal damage, reduces target's healing received by 35%/70% for 3 seconds."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%88%BA%E6%9D%80",
+   "revid": 7883,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7883",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "刺杀",
+    "sources": {
+     "game_db": 3,
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 4424,
+      "match": "exact"
+     },
+     "thresholds[1]": {
+      "source": "game_db",
+      "text_id": 55305,
+      "match": "exact"
+     },
+     "thresholds[2]": {
+      "source": "translated"
+     },
+     "thresholds[3]": {
+      "source": "game_db",
+      "text_id": 55313,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2193",
+   "name": "Striker Front",
+   "type": "Basic",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Strikers' Frontline reaches 2/3/4, Strikers have a 5%/8%//12% chance of completing negating an attack."
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "When the Strikers' Frontline reaches 5/6/7, Strikers will trigger [Unyielding] and be completely immune to damage for 3/4/5 seconds after receiving a fatal blow."
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "When the Strikers' Frontline reaches 8/9, increase all Blackguards' Life Steal by 8%/15%"
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "When the Strikers' Frontline reaches 10/11, increase all Blackguards' Health by 5%/10% With each active frontline effect (except self and combined fronts), Strikers receives additional 1%/3% damage boost."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%89%8D%E9%94%8B",
+   "revid": 7882,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7882",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "前锋",
+    "sources": {
+     "game_db": 4,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 4423,
+      "match": "exact"
+     },
+     "thresholds[1]": {
+      "source": "game_db",
+      "text_id": 4430,
+      "match": "exact"
+     },
+     "thresholds[2]": {
+      "source": "game_db",
+      "text_id": 4443,
+      "match": "exact"
+     },
+     "thresholds[3]": {
+      "source": "game_db",
+      "text_id": 55312,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2212",
+   "name": "Field Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Field Frontline reaches 2/3/4, Field Front Blackguards release a ballistic shield that blocks missile and projectile at self position every 20 seconds, the shield lasts for 3/4/5 seconds."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8A%9B%E5%9C%BA",
+   "revid": 7901,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7901",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "力场",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 62837,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2204",
+   "name": "Healers Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "When Healers Front strength reaches 2/3/4/5/6, healing applied by deployed Blackguards increases by 15%/25%/35%/50%/50%. Healer Heroes can revive 0/0/0/0/1 times upon death, recovering 45% HP."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8C%BB%E8%80%85",
+   "revid": 7893,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7893",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "医者",
+    "sources": {
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2205",
+   "name": "Summoners Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "When Summoners Front strength reaches 2/3/4/5/6, summon normal attacks carry additional Chaos DMG equal to 0.1%6/0.2%/0.3%6/0.5%/1% of Physical and Spell Power."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%AC%E5%94%A4",
+   "revid": 7894,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7894",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "召唤",
+    "sources": {
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2445",
+   "name": "Sigil Echo",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%92%92%E5%8D%B0%E5%9B%9E%E5%93%8D",
+   "revid": 9237,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9237",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "咒印回响",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2219",
+   "name": "Cursed Erosion Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When Cursed Erosion Front reaches 2/3/4, whenever a character in the team inflicts Chill, Electrocution, Poisoning or Ignition on an enemy, Cursed Erosion Front Blackguards gain 1 random orb. Trigger interval: 3/1.5/0.5 sec."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%92%92%E8%9A%80",
+   "revid": 7908,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7908",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "咒蚀",
+    "sources": {
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2203",
+   "name": "Souleaters Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Souleaters' Frontline reaches 2/3/4, all Souleaters have a 15%/35%/75% chance of stealing 25 rage from their targets. Maximum once every 0.5 second."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%99%AC%E9%AD%82",
+   "revid": 7892,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7892",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "噬魂",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55297,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2215",
+   "name": "Resilience Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When Resilience Front reaches 2/3/4, when the Magic Shield disappears, restores 50/75/100 own Rage. The effect can trigger 1 time every 5 sec."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9B%9E%E8%83%BD",
+   "revid": 7904,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7904",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "回能",
+    "sources": {
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2196",
+   "name": "Return Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(3/4/5/6)",
+     "text": "When Return Front reaches 3/4/5/6, when one's own summon dies, the summoner gains a Magic Shield of 25%/50%/75%/100% Power; this effect triggers 1 time per 5 sec. When a summon dies, the summoner also restores 0/0/0/250 Rage; this effect triggers once per 10 sec."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9B%9E%E9%A6%88",
+   "revid": 7885,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7885",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "回馈",
+    "sources": {
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2444",
+   "name": "Sacred Shield",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E7%9B%BE",
+   "revid": 9236,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9236",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "圣盾",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2207",
+   "name": "Vanguards Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "label": "(2/3/4/5)",
+     "text": "When the Vanguards' Frontline reaches 2/3/4/5, increases HP for all Blackguards by 8%/12%/20%/20%, reduce damage taken by 0%/0%/0%/20%."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9D%9A%E9%9F%A7",
+   "revid": 7896,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7896",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "坚韧",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55301,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2443",
+   "name": "Transcendence",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%A9%E4%BA%BA",
+   "revid": 9235,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9235",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "天人",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2208",
+   "name": "Fairies Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Fairies' Frontline reaches 2/3/4, increases all healing effect by 10%/20%/40%. Fairies Blackguards will restore all teammates' Rage by 0/0/300 when Fairies Blackguards \"die\"."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A6%96%E7%B2%BE",
+   "revid": 7897,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7897",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "妖精",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55302,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-1618",
+   "name": "Guardian Front",
+   "type": "Basic",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Guardian Frontline reaches 2/3/4, Increases Health and Shields by 3%/6%/10% for all Blackguards"
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "When the Guardian Frontline reaches 5/6/7, Increases Constitution by 6%/12%/18% for all Blackguards"
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "When the Guardian Frontline reaches 8/9, every time when the other Blackguard in the team receive a single DMG exceed 30% of the unit's Max HP, the Guardian Black with the highest HP in the team grants a Shield equal to 10%/20% of this Guardian's Max HP, last for 6 sec. This effect has a trigger interval of 10 sec."
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "When the Guardian Frontline reaches 10/11, the Guardian Blackguard in the team summons 1 Intermediate/Advanced Random Blackguard (Masked Assassin, Serene Huntress) to assist in the battle for 30 seconds. The Summoned Blackguard has 25%/40% of the Summoner's HP, and 60% of attack and power."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%AE%88%E6%8A%A4",
+   "revid": 7879,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7879",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "守护",
+    "sources": {
+     "game_db": 4,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 4419,
+      "match": "exact"
+     },
+     "thresholds[1]": {
+      "source": "game_db",
+      "text_id": 55304,
+      "match": "exact"
+     },
+     "thresholds[2]": {
+      "source": "game_db",
+      "text_id": 55306,
+      "match": "exact"
+     },
+     "thresholds[3]": {
+      "source": "game_db",
+      "text_id": 55308,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2199",
+   "name": "Avengers Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "When the Avengers' Frontline reaches 2/3/4/5/6, all Blackguards gain 4%/6%/8%/10%/10% armor penetration. Avengers will be invulnerable for 0/0/0/0/2 more seconds after receiving fatal blows."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%BC%BA%E8%A2%AD",
+   "revid": 7888,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7888",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "强袭",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55293,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2448",
+   "name": "Shadow Familiar",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E5%BD%B1%E4%B9%8B%E4%BD%BF%E9%AD%94",
+   "revid": 9240,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9240",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "影之使魔",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2201",
+   "name": "Nullifiers Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Nullifiers' Frontline reaches 2/3/4, Reduces Skill Crit Damage taken by 4%/8%/15% for all Blackguards. Nullifiers can restore 0/0/50 Rage when takes Critical Hits with a 1-sec cooldown."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%95%8C%E6%B3%95",
+   "revid": 7890,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7890",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "敌法",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55295,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2200",
+   "name": "Sages Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Sages' Frontline reaches 2/3/4, increases all Blackguards' Maximum Rage by 50/80/200. Each Sage in the team increase teammates' damage by 0%/0%/3%."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%99%BA%E6%85%A7",
+   "revid": 7889,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7889",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "智慧",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55294,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2190",
+   "name": "Rage Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "When Rage Front reaches 2/3/4/5/6, each time Rage Front Blackguards take DMG, all DMG they deal increases by 1%/1.5%/2%/3%/3%, stacking up to 5 times, lasting 30 sec. When another Blackguard in the team dies, Rage Front Blackguards have a 0%/0%/0%/0%/100% chance to immediately restore HP and enter a Fury state, increasing the DMG boost effect by 100%. Lasts 30 sec."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%9A%B4%E6%80%92",
+   "revid": 7873,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7873",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "暴怒",
+    "sources": {
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2437",
+   "name": "Last Stand",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%AD%BB%E6%88%98",
+   "revid": 9229,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9229",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "死战",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2438",
+   "name": "Piercing",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B4%9E%E7%A9%BF",
+   "revid": 9230,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9230",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "洞穿",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2213",
+   "name": "Meteor Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When Meteor Front reaches 2/3/4, 1 time every 10 sec, summons a meteor that deals Fire DMG equal to 1000%/1500%/2000% Power to all enemies on the field. (Cast by the character with the highest Spell Power in the team)"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B5%81%E6%98%9F",
+   "revid": 7902,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7902",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "流星",
+    "sources": {
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2197",
+   "name": "Rangers Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Rangers' Frontline reaches 2/3/4, Increases Attack Speed by 10%/15%/30% for all Rangers, and 5%/10%/20% for all Blackguards."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E6%B8%B8%E4%BE%A0",
+   "revid": 7886,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7886",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "游侠",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55291,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2220",
+   "name": "Spell Breaker front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Spell Breaker front reaches the 2/3/4 level, when the Spell Breaker front Blackguard in the team dies, all enemy Blackguards will be silenced for 3/4/5 seconds."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%AD%E6%B3%95",
+   "revid": 7909,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7909",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "灭法",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 64124,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2446",
+   "name": "Spirit Resonance",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E6%9C%AF%E5%8F%A0%E5%92%8F",
+   "revid": 9238,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9238",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "灵术叠咏",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-1629",
+   "name": "Hunter Front",
+   "type": "Basic",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Hunters' Frontline reaches 2/3/4, Increases Crit Rate by 5%/7%/10% for all Hunters."
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "When the Hunters' Frontline reaches 5/6/7, Increases Crit Damage by 50%/75%/100% for all Blackguards."
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "When the Hunters' Frontline reaches 8/9, Increases Attack Speed by 15%/40% for all Blackguards."
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "When the Hunters' Frontline reaches 10/11, Increases Health by 5%/10%, Dodge by 10%/30% for all Blackguards. After dodging, Increases Damage by 10%/25% for 5 seconds"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%8B%A9%E9%AD%94",
+   "revid": 7881,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7881",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "狩魔",
+    "sources": {
+     "game_db": 4,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 4421,
+      "match": "exact"
+     },
+     "thresholds[1]": {
+      "source": "game_db",
+      "text_id": 4428,
+      "match": "exact"
+     },
+     "thresholds[2]": {
+      "source": "game_db",
+      "text_id": 4441,
+      "match": "exact"
+     },
+     "thresholds[3]": {
+      "source": "game_db",
+      "text_id": 55310,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2210",
+   "name": "Defenders Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "When the Defenders' Frontline reaches 2/3/4/5/6, increase all Blackguards' Damage by 6%/8%/10%/12%/15% when Shield Value is above 0. Defenders have 0/0/0/0/35% chance to ignore Freeze/Daze effects."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%9B%BE%E5%BE%A1",
+   "revid": 7899,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7899",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "盾御",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 59167,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2440",
+   "name": "Bedrock",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%A3%90%E7%9F%B3",
+   "revid": 9232,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9232",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "磐石",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2195",
+   "name": "Mystic Front",
+   "type": "Basic",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Mystics' Frontline reaches 2/3/4, Mystics will immediately recover 100/125/150 rage after casting their Ult."
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "When the Mystics' Frontline reaches 5/6/7, Mystics will gain 8%/10%/15% Spell Power."
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "When the Mystics' Frontline reaches 8/9, all Blackguards will gain 50/200 Rage."
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "When the Mystics' Frontline reaches 10/11, all Blackguards will gain 100/200 Maximum Rage."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%A7%98%E6%9C%AF",
+   "revid": 7884,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7884",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "秘术",
+    "sources": {
+     "game_db": 4,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 4422,
+      "match": "exact"
+     },
+     "thresholds[1]": {
+      "source": "game_db",
+      "text_id": 4429,
+      "match": "exact"
+     },
+     "thresholds[2]": {
+      "source": "game_db",
+      "text_id": 4442,
+      "match": "exact"
+     },
+     "thresholds[3]": {
+      "source": "game_db",
+      "text_id": 55311,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2191",
+   "name": "Combined Front",
+   "type": "Basic",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2
+     ],
+     "label": "(2)",
+     "text": "When the number of Blackguards of different classes reaches 2, health and shield points are increased by 5%, and damage is increased by 5%"
+    },
+    {
+     "levels": [
+      3
+     ],
+     "label": "(3)",
+     "text": "When the number of Blackguards of different classes reaches 3, health and shield points are increased by 10%, and damage is increased by 10%"
+    },
+    {
+     "levels": [
+      4
+     ],
+     "label": "(4)",
+     "text": "When the number of Blackguards of different classes reaches 4, health and shield points are increased by 20%, and damage is increased by 20%"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%84%E5%90%88",
+   "revid": 7878,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7878",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "组合",
+    "sources": {
+     "game_db": 3,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 4425,
+      "match": "exact"
+     },
+     "thresholds[1]": {
+      "source": "game_db",
+      "text_id": 4432,
+      "match": "exact"
+     },
+     "thresholds[2]": {
+      "source": "game_db",
+      "text_id": 4445,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2209",
+   "name": "Leaders Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      1,
+      2
+     ],
+     "label": "(1/2)",
+     "text": "When the Leaders' Frontline reaches 1/2, each active frontline effect (except self and combined fronts), make all Leaders' Health is increased by 5%/8%, and Damage is increase by 3%/5%."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9F%E5%B8%85",
+   "revid": 7898,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7898",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "统帅",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55303,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2216",
+   "name": "Fusion Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "When the Fusion Frontline reaches 2/3/4/5/6, base effect of all Balls for Fusion Front Blackguards increased by 20%/30%/40%/50%/50%. When Fusion Front Blackguards in the team gets a ball, accumulate 0/0/0/0/1 stack of recharge. Once number of stacks reaches 20, summon an ion storm at location of a random enemy. The storm strike enemies within the range every second, causing lightning damage equal to 800% Spell Power for 5 seconds. (Cooldown: 10 seconds)"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%81%9A%E5%8F%98",
+   "revid": 7905,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7905",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "聚变",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 62842,
+      "match": "loose"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2447",
+   "name": "Blood Bond Restriction",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%A1%80%E5%A5%91%E5%88%B6%E7%BA%A6",
+   "revid": 9239,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9239",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "血契制约",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2198",
+   "name": "Umbra Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Umbra Frontline reaches 2/3/4, Increases dodge of all Blackguards by 10%/20%/30%, also increases attack by 0%/0%/30% after a successful dodge, lasts 6 seconds."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%AF%A1%E5%BD%B1",
+   "revid": 7887,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7887",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "诡影",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55292,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2211",
+   "name": "Occultists Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5
+     ],
+     "label": "(2/3/4/5)",
+     "text": "When Occultists Front reaches 2/3/4/5, the whole team's Energy Recovery speed increases by 3%/6%/10%/10%, and every 5 sec Occultists Front Blackguards release 0/0/0/1 lightning chain at a random enemy; the lightning chain bounces 4 times, losing 30% DMG with each bounce. Lightning chain DMG = extra Rage gained within 5 sec/140*(Spell+Physical) Power. (Extra energy gained: effects such as stealing Rage, skills directly restoring Rage, etc.)"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%B6%85%E5%AF%BC",
+   "revid": 7900,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7900",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "超导",
+    "sources": {
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2192",
+   "name": "Support Front",
+   "type": "Basic",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Support Frontline reaches 2/3/4, 50%/75%/100% of overheals is converted to a shield."
+    },
+    {
+     "levels": [
+      5,
+      6,
+      7
+     ],
+     "label": "(5/6/7)",
+     "text": "When the Support Frontline reaches 5/6/7, recovers 3%/4%/5% health every 5 seconds for all Blackguards"
+    },
+    {
+     "levels": [
+      8,
+      9
+     ],
+     "label": "(8/9)",
+     "text": "When the Support Frontline reaches 8/9, Blackguards have a 30%/65% chance to Revive after a fatal blow, recovering 30% health"
+    },
+    {
+     "levels": [
+      10,
+      11
+     ],
+     "label": "(10/11)",
+     "text": "When the Support Frontline reaches 10/11, increase all Blackguards health by 5%/10% and their Critical Hit Resistance by 5%/15%"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E8%BE%85%E5%8A%A9",
+   "revid": 7880,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7880",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "辅助",
+    "sources": {
+     "game_db": 4,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 4420,
+      "match": "exact"
+     },
+     "thresholds[1]": {
+      "source": "game_db",
+      "text_id": 4427,
+      "match": "exact"
+     },
+     "thresholds[2]": {
+      "source": "game_db",
+      "text_id": 4440,
+      "match": "exact"
+     },
+     "thresholds[3]": {
+      "source": "game_db",
+      "text_id": 55309,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2206",
+   "name": "Spiritmasters Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4/",
+     "text": "When the Spiritmasters' Frontline reaches 2/3/4/5, summons deal 10%/15%/20%/20% more damage，and summons 0/0/0/1 extra Wolf with average Attributes of all team members, 50% Damage Reduction, and taunt nearest enemy for 5 seconds every 10 seconds."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%80%9A%E7%81%B5",
+   "revid": 7895,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7895",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "通灵",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 55300,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2439",
+   "name": "Ironblood",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%81%E8%A1%80",
+   "revid": 9231,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9231",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "铁血",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2441",
+   "name": "Iron Will",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%93%81%E9%AA%A8",
+   "revid": 9233,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9233",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "铁骨",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2442",
+   "name": "Determination",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": null,
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%94%90%E6%84%8F",
+   "revid": 9234,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9234",
+   "effects_source_url": null,
+   "effects_revid": null,
+   "i18n": {
+    "name_zh": "锐意",
+    "sources": {
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2218",
+   "name": "Thunderstorm Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Thunderstorm front reaches the 2/3/4 level, the Blackguards of this front in the team will release 2/4/8 bolts of lightning towards random enemies at the same time as they release their Ult Skill, causing Lightning Damage equal to 800% of Spell Power to enemies near the impact point of the lightning. (This damage is considered skill damage and will only be affected by the All DMG Boost and Lightning DMG Boost effect)"
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%B7%E6%9A%B4",
+   "revid": 7907,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7907",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "雷暴",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 66808,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2214",
+   "name": "Stormrise Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4
+     ],
+     "label": "(2/3/4)",
+     "text": "When the Stormrise Frontline reaches 2/3/4, every 20 seconds, summon a tornado lasting 2.5/3.5/4.5 seconds to blow up an enemy unit, during which the enemy cannot move and will not take damage."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%A3%8E%E6%B6%8C",
+   "revid": 7903,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7903",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "风涌",
+    "sources": {
+     "game_db": 1,
+     "glossary": 1,
+     "names": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "game_db",
+      "text_id": 62840,
+      "match": "exact"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "id": "faction-2202",
+   "name": "Invokers Front",
+   "type": "Others",
+   "count": null,
+   "effect_on_page": null,
+   "thresholds": [
+    {
+     "levels": [
+      2,
+      3,
+      4,
+      5,
+      6
+     ],
+     "label": "(2/3/4/5/6)",
+     "text": "When Invokers Front strength reaches 2/3/4/5/6, when an Invokers Front Blackguard in the team drops below 50% HP, casts a hex on 1 random target, turning it into a sheep for 1.5/2/3/4/4 sec. Cooldown: 14/14/14/14/8 sec."
+    }
+   ],
+   "source_url": "https://wiki.biligame.com/bookofyog/%E9%AD%94%E5%AF%BC",
+   "revid": 7891,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7891",
+   "effects_source_url": "https://wiki.biligame.com/bookofyog/%E9%98%B5%E7%BA%BF",
+   "effects_revid": 8977,
+   "i18n": {
+    "name_zh": "魔导",
+    "sources": {
+     "glossary": 1,
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "thresholds[0]": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  }
+ ]
+}

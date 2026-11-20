@@ -1,0 +1,153 @@
+{
+  "subject": "飓风凛甲",
+  "group": "gear",
+  "page_revid": 4454,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%A3%93%E9%A3%8E%E5%87%9B%E7%94%B2",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%A3%93%E9%A3%8E%E5%87%9B%E7%94%B2&format=json",
+  "fetched_at": "2026-11-20T16:22:29+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "飓风凛甲#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/6/7/37/46/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/8/24/12/9/13/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "飓风凛甲"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、2%全伤害类型增幅、2%全伤害类型减免、5精神精通、5法术精通、5物理精通、50幸运、10%暴击倍率、5法术豁免、5精神豁免、5物理豁免"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532力量、17532力量、17532魔力、17532魔力、17532体质、17532体质、5%最大生命值、10%全伤害类型减免、35火焰抗性、35冰霜抗性、35闪电抗性、7物理豁免、7法术豁免、7精神豁免"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "17532力量、17532力量、17532力量、17532力量、17532魔力、17532魔力、17532魔力、17532魔力、17532体质、17532体质、20%暴击抗性、86闪电穿透、86冰霜穿透、86火焰穿透"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "聚能之铠：造成伤害有15%概率回复(30-50)点怒气，每8秒最多触发4次；雷霆号令：使佩戴者造成的感电伤害增幅效果提升(20.00%-30.00%)，感电:每层感电都会增加感电目标受到的闪电伤害1%，最多可叠加30层，持续5秒，闪电抗性+25"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "追忆之帆-黑渊"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "飓风凛甲"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "所有球的基础持续时间增加1秒，且当队伍的风涌阵线达到3/4级时，且【[[紫傀异面]]】佩戴时，每消耗1个球可增加的充能数提升50%/100%。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "衣服"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

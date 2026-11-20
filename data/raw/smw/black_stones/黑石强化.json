@@ -1,0 +1,99 @@
+{
+  "subject": "黑石强化",
+  "group": "black_stones",
+  "page_revid": 5857,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E7%9F%B3%E5%BC%BA%E5%8C%96",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%BB%91%E7%9F%B3%E5%BC%BA%E5%8C%96&format=json",
+  "fetched_at": "2026-11-20T16:27:40+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "黑石强化#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/7/25/1/15/42/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "文章#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2025/2/14/6/12/51/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑石强化"
+            }
+          ]
+        },
+        {
+          "property": "作者",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月夜"
+            }
+          ]
+        },
+        {
+          "property": "日期时间",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2024年7月25日 16:00:22"
+            }
+          ]
+        },
+        {
+          "property": "是否原创",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "是"
+            }
+          ]
+        },
+        {
+          "property": "标题",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "黑石强化"
+            }
+          ]
+        },
+        {
+          "property": "类别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "进阶"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yog-guide.local/schema/tiers.schema.json",
+  "title": "Tier list entry, Chinese",
+  "description": "One element of tiers.json → items: one character in one mode (PVE节奏榜 / PVP节奏榜). Characters absent from a list get tier \"not_ranked\".",
+  "type": "object",
+  "allOf": [{"$ref": "common.schema.json#/$defs/provenance"}],
+  "required": ["character", "character_id", "mode", "tier", "note", "as_of"],
+  "unevaluatedProperties": false,
+  "properties": {
+    "character": {"type": "string", "minLength": 1},
+    "character_id": {"type": "string", "pattern": "^char-[0-9]+$"},
+    "mode": {"enum": ["PVE", "PVP"]},
+    "tier": {"type": "string", "pattern": "^(T[0-9]+|not_ranked)$"},
+    "note": {"$ref": "common.schema.json#/$defs/str"},
+    "as_of": {"type": ["string", "null"], "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$", "description": "date of the tier page revision"}
+  }
+}

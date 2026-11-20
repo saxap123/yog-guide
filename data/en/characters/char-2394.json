@@ -1,0 +1,1250 @@
+{
+ "id": "char-2394",
+ "name": "Moondepth Dragonmaiden",
+ "page_title": "月渊龙女",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Snowweave",
+  "gender": "Female",
+  "race": "Dragonborn",
+  "birthday": "--10-11",
+  "birthplace": null,
+  "height_weight": "168cm/46kg",
+  "specialties": [
+   "flying",
+   "swimming"
+  ],
+  "likes": [
+   "dreaming",
+   "hide-and-seek",
+   "toy balls",
+   "game dice (bond gift)"
+  ],
+  "dislikes": [
+   "leaving without saying goodbye",
+   "being deceived"
+  ],
+  "release_date": "2026-07-28"
+ },
+ "element": "Light",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Physical Power %",
+   "Crit Damage Boost",
+   "Strength",
+   "All Damage Boost",
+   "Physical Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Rage Recovery",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Rage"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Skyblade Purge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Conjures flying swords to attack enemies in a small area ahead, dealing 600% Holy DMG based on Physical Power and having a 20% chance to inflict Stun for 1 second. (This skill is unaffected by Attack Speed, and the damage dealt is considered Skill DMG.)",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 600% of Physical Power"
+    }
+   ],
+   "name_zh": "天剑破邪"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Heavenfall Blades",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Conjures a giant flying sword in the air, dealing Holy DMG equal to 18000% Physical Power to the target and nearby enemy units.",
+   "scaling": [
+    {
+     "percent": "18000%",
+     "values": [
+      18000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 18000% of Physical Power"
+    }
+   ],
+   "name_zh": "剑落九霄"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Flying Stars Startle Dreams",
+   "cooldown_s": 0.5,
+   "cooldown_raw": null,
+   "cost": "5 Force",
+   "description": "Whenever a team member inflicts Stun on an enemy, launches 5 flying swords at the target, each dealing 3000% Physical Power as Holy DMG. (This effect has a 0.5 sec trigger interval)",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 3000% of Physical Power"
+    }
+   ],
+   "name_zh": "飞星惊梦"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Focused Sword Intent",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each trigger of [Flying Stars Startle Dreams] accumulates 10 Sword Essence; every 20 Sword Essence lets [Heavenfall Blades] spawn one additional auxiliary sword, which deals Holy DMG equal to 3500% of Physical Power. Sword Essence is capped at 100.",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 3500% of Physical Power"
+    }
+   ],
+   "name_zh": "剑意凝元"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Dawnlight Armor",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Whenever a Blackguard dies on the battlefield, Physical Power increases by 10%, stacking up to 3 times.",
+   "scaling": [],
+   "name_zh": "曙光归甲"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "No Self",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Gain Invincibility for 15 seconds upon entering battle.",
+   "scaling": [],
+   "name_zh": "无我"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Clarity of Mind",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Moondepth Dragonmaiden's Perception +10.",
+   "scaling": [],
+   "name_zh": "明心"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Crimson Hook",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Thrill of the Hunt",
+    "Belt": "Primal Iron Girdle",
+    "Relic": "Eternal Flame",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": null,
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Higan's Last Stand",
+    "Weapon": "Azurewave Heavenly Sword",
+    "Handguard": "Abyssal Grasps"
+   },
+   "alternatives": {
+    "Belt": [
+     "Waistband of the Wild Hunt"
+    ],
+    "Trousers": [
+     "Elementalist's Britches"
+    ],
+    "Handguard": [
+     "Cowhide Handguards"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "血钩吊坠": "gear-game-4004",
+    "聚能之铠": "gear-1170",
+    "猎杀时刻": "gear-game-2031",
+    "铁铸束腰": "gear-game-1014",
+    "狂猎之腰": "gear-game-1023",
+    "活体火焰": "gear-1198",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "月辉·王室金靴": "gear-1177",
+    "浴火之盾": "gear-1205",
+    "沧澜天剑": "gear-game-90387",
+    "深渊之握": "gear-1192",
+    "牛皮护手": "gear-game-3006"
+   },
+   "unlinked": {
+    "血钩吊坠": {
+     "reason": "game_only",
+     "game_id": "4004",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4004",
+        "field": "name",
+        "text_id": 4069,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       4069
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "辉耀之链",
+       "幽影绝链",
+       "蚀骨魂龙",
+       "幸运装备",
+       "月渊龙女"
+      ]
+     }
+    },
+    "猎杀时刻": {
+     "reason": "game_only",
+     "game_id": "2031",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2031",
+        "field": "name",
+        "text_id": 54368,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       54368
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉",
+       "迷雾山脉-迷雾幻境",
+       "魂棺语者",
+       "蚀骨魂龙",
+       "绯晶战影"
+      ]
+     }
+    },
+    "铁铸束腰": {
+     "reason": "game_only",
+     "game_id": "1014",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1014",
+        "field": "name",
+        "text_id": 4030,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       4030
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "青鸾巽羽",
+       "月渊龙女",
+       "王国猎手"
+      ]
+     }
+    },
+    "狂猎之腰": {
+     "reason": "game_only",
+     "game_id": "1023",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1023",
+        "field": "name",
+        "text_id": 54203,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       54203
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽",
+       "月渊龙女"
+      ]
+     }
+    },
+    "沧澜天剑": {
+     "reason": "game_only",
+     "game_id": "90387",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90387",
+        "field": "name",
+        "text_id": 89458,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       89458
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    },
+    "牛皮护手": {
+     "reason": "game_only",
+     "game_id": "3006",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3006",
+        "field": "name",
+        "text_id": 4061,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       4061
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "分解装备",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Level 1000",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Thunderlight Aegis",
+    "Necklace": "Black Ocean",
+    "Card": "Spirit Dragon Pact",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Blackgold Armor",
+    "Ring": "Soul Stealer's Ring",
+    "Belt": "Spirit-Gathering Belt",
+    "Relic": "Soul Stealer's Chalice",
+    "Trousers": "Materialized Weave Trousers",
+    "Emblem": "Soul Stealer's Emblem",
+    "Shoes": "Royal Family Boots",
+    "Off-hand": "Soul Stealer's Shield",
+    "Weapon": "Bloodveil Longblade",
+    "Handguard": "Radiant Star Glove"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Chain of Radiance"
+    ],
+    "Armor": [
+     "Absolute Frost"
+    ],
+    "Ring": [
+     "Stellar Benediction Ring"
+    ],
+    "Relic": [
+     "Stellar Benediction Key"
+    ],
+    "Emblem": [
+     "Stellar Benediction Badge"
+    ],
+    "Off-hand": [
+     "Stellar Benediction Shield"
+    ],
+    "Weapon": [
+     "Chaos Blade"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": "Azurewave Heavenly Sword",
+   "item_ids": {
+    "雷光庇护": "gear-game-95053",
+    "黑色汪洋": "gear-game-90324",
+    "辉耀之链": "gear-134",
+    "灵龙契约": "gear-game-95050",
+    "辉耀之环": "gear-138",
+    "黑金护甲": "gear-game-95012",
+    "绝对冰霜": "gear-game-95010",
+    "穿魂夺魄秘戒": "gear-1600",
+    "瑶星神佑圣戒": "gear-2083",
+    "聚灵腰带": "gear-game-95028",
+    "穿魂夺魄秘杯": "gear-1599",
+    "瑶星神佑圣钥": "gear-2084",
+    "质化织裤": "gear-1858",
+    "穿魂夺魄秘徽": "gear-1598",
+    "瑶星神佑圣徽": "gear-2085",
+    "宗室礼靴": "gear-1282",
+    "穿魂夺魄秘盾": "gear-1597",
+    "瑶星神佑圣盾": "gear-2086",
+    "血隐长刃": "gear-2291",
+    "混沌利刃": "gear-2435",
+    "辉耀炙芒星手": "gear-1665",
+    "沧澜天剑": "gear-game-90387"
+   },
+   "unlinked": {
+    "雷光庇护": {
+     "reason": "game_only",
+     "game_id": "95053",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95053",
+        "field": "name",
+        "text_id": 85345,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       85345
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    },
+    "黑色汪洋": {
+     "reason": "game_only",
+     "game_id": "90324",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90324",
+        "field": "name",
+        "text_id": 69057,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       69057
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪",
+       "不熄曜日",
+       "绞刃流火",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "灵龙契约": {
+     "reason": "game_only",
+     "game_id": "95050",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95050",
+        "field": "name",
+        "text_id": 85342,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       85342
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    },
+    "黑金护甲": {
+     "reason": "game_only",
+     "game_id": "95012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95012",
+        "field": "name",
+        "text_id": 82498,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       82498
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "青鸾巽羽",
+       "千宵月守",
+       "月渊龙女"
+      ]
+     }
+    },
+    "绝对冰霜": {
+     "reason": "game_only",
+     "game_id": "95010",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95010",
+        "field": "name",
+        "text_id": 82494,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       82494
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "千宵月守",
+       "月渊龙女"
+      ]
+     }
+    },
+    "聚灵腰带": {
+     "reason": "game_only",
+     "game_id": "95028",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95028",
+        "field": "name",
+        "text_id": 82530,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       82530
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    },
+    "沧澜天剑": {
+     "reason": "game_only",
+     "game_id": "90387",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90387",
+        "field": "name",
+        "text_id": 89458,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       89458
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "月渊龙女"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Blade of Thunder",
+    "id": "rune-1425",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Exuberant",
+    "id": "rune-1422",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Degenerate",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Magic Wrath",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Omni Embers",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fracture",
+    "id": "rune-1997",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Iron Thorn",
+    "id": "rune-1420",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Raging Beast",
+    "id": "black_stone-03",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Cursed Soul",
+    "id": "black_stone-14",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Sword Essence storage cap +200, and Moondepth Dragonmaiden deals 35% increased DMG to boss monsters."
+   },
+   {
+    "rank": 2,
+    "text": "Sword Essence gained when casting [Flying Stars Startle Dreams] +4."
+   },
+   {
+    "rank": 3,
+    "text": "Maximum stacks of [Dawnlight Armor] +2."
+   },
+   {
+    "rank": 4,
+    "text": "Damage dealt by [Heavenfall Blades] penetrates 10% of the target's Damage Reduction. When your Perception exceeds the target's, every 10 points of excess Perception grants an additional 1% Damage Reduction penetration."
+   },
+   {
+    "rank": 5,
+    "text": "When Moondepth Dragonmaiden's HP is at 100%, all DMG dealt is guaranteed to crit."
+   },
+   {
+    "rank": 6,
+    "text": "All DMG dealt by Moondepth Dragonmaiden +10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "Firstlight",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Critical DMG Multiplier +20.00%"
+   },
+   {
+    "index": 2,
+    "name": "Lightward Guide",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Initial Rage + 300"
+   },
+   {
+    "index": 3,
+    "name": "Soluna",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "When [Heavenfall Blades] is cast, if Sword Essence is at least 100, each 1 point of Sword Essence consumed increases DMG dealt by the main sword and off-hand sword by 1%."
+   },
+   {
+    "index": 4,
+    "name": "Blazeglow",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "Perception +30"
+   },
+   {
+    "index": 5,
+    "name": "Lightchaser",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "Rage Recovery +30"
+   },
+   {
+    "index": 6,
+    "name": "Brightstar",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "Force recovery per second +5"
+   },
+   {
+    "index": 7,
+    "name": "Moonwhite",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "[Flying Stars Startle Dreams] is automatically cast once every 1 sec; when own Perception exceeds 180, every additional 40 Perception adds one extra target to [Flying Stars Startle Dreams]."
+   },
+   {
+    "index": 8,
+    "name": "Sun Halo",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "Crit Resistance (Attack) +10.00%; Crit Resistance (Skill) +10.00%"
+   },
+   {
+    "index": 9,
+    "name": "Scorching Sun",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "Physical Damage Reduction +5.00%; Spell Damage Reduction +5.00%"
+   },
+   {
+    "index": 10,
+    "name": "Divine Radiance",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "While another Blackguard on the current team remains alive besides this unit (and is not Invincible), this unit remains Invincible."
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "Sanguine Stone",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "Blacktide Medal",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": "Song of the Divine Dragon",
+   "id": "relic-2395"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%9C%88%E6%B8%8A%E9%BE%99%E5%A5%B3",
+ "revid": 9143,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9143",
+ "rev_timestamp": "2026-08-13T09:00:43Z",
+ "i18n": {
+  "name_zh": "月渊龙女",
+  "sources": {
+   "derived": 6,
+   "game_db": 27,
+   "glossary": 109,
+   "lore": 1,
+   "names": 71,
+   "translated": 21
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 89424,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 89428,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 89429,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 89430,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 89434,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 89435,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 89436,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 89438,
+    "match": "exact"
+   },
+   "divinity.levels[0].effect": {
+    "source": "game_db",
+    "text_id": 81596,
+    "match": "exact"
+   },
+   "divinity.levels[1].effect": {
+    "source": "game_db",
+    "text_id": 55860,
+    "match": "exact"
+   },
+   "divinity.levels[2].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[3].effect": {
+    "source": "game_db",
+    "text_id": 85702,
+    "match": "exact"
+   },
+   "divinity.levels[4].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[5].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[6].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[7].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[8].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[9].effect": {
+    "source": "game_db",
+    "text_id": 89441,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "九域国",
+    "reason": "not translatable (see translate/manual/texts)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

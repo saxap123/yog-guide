@@ -1,0 +1,558 @@
+{
+ "id": "char-292",
+ "name": "Schneemond Princess",
+ "page_title": "雪月公主",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Heliina",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--12-25",
+  "birthplace": null,
+  "height_weight": "167cm/52kg",
+  "specialties": [
+   "chess",
+   "chanting poetry",
+   "trimming flowers"
+  ],
+  "likes": [
+   "wine",
+   "winter snow",
+   "forget-me-nots",
+   "Bergogne wine (bond gift)"
+  ],
+  "dislikes": [
+   "summer",
+   "hot food",
+   "people of crude words and deeds"
+  ],
+  "release_date": "2023-12-27"
+ },
+ "element": "Frost",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "CD Reduction",
+   "Rage",
+   "Rage Restore",
+   "Intelligence",
+   "Attack Speed",
+   "Constitution",
+   "Max HP",
+   "Spell Power %"
+  ],
+  "secondary": [
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "For the Lv 450 build, Immortal gear is enough; Mythic is not needed",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Frost DMG equal to 250% Spell Power to 1 enemy within 12 meters.",
+   "scaling": [
+    {
+     "percent": "250%",
+     "values": [
+      250.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 250% of Spell Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Lucent Snowy Mond Wax",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Heliina summons a blizzard, deals Frost DMG equal to 300% of Spell Power to enemies in a large range around her per sec, lasts for 8 sec.",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 300% of Spell Power"
+    }
+   ],
+   "name_zh": "雪月绽放"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Tender Foggy Schnee Wane",
+   "cooldown_s": 10,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Heliina releases an aegis to all allies, it absorbs DMG equal to 1000% of Spell Power, lasts for 10 sec. (This effect is regarded as Magic Shield)",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "DMG",
+     "text": "DMG equal to 1000% of Spell Power"
+    }
+   ],
+   "name_zh": "雾雪庇护"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Hundred Years of Solitude",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Every 2 seconds, restores 30 Rage to all teammates except self. When holding a Frost Orb, consumes 1 Frost Orb to double the Rage restored.",
+   "scaling": [],
+   "name_zh": "百年饮冰"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Eternal Erosion of Glacier",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Heliina is on field, increases all allies' DMG Dealt to enemies on [Frozen] state by 12.5%, allies with Frost type gain double DMG Boost effect.",
+   "scaling": [],
+   "name_zh": "霜寒冰蚀"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Solemn Dignity of Royalty",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases skill duration of [Lucent Snowy Mond Wax] by 100%.",
+   "scaling": [],
+   "name_zh": "王室威仪"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Transcendent Body of Mercury",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases DMG Absorb effect of [Tender Foggy Schnee Wane] by 100%.",
+   "scaling": [],
+   "name_zh": "冰盏之体"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Waiting for a Lv 450 build — suggestions welcome in the comments below",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder: editors ask for a 450 build in the comments",
+   "slots": {
+    "Helmet": null,
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": null,
+    "Ring": null,
+    "Belt": null,
+    "Relic": null,
+    "Trousers": null,
+    "Emblem": null,
+    "Shoes": null,
+    "Off-hand": null,
+    "Weapon": "Praying for snow in winter",
+    "Handguard": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "凛冬祈雪": "gear-2303"
+   },
+   "unlinked": null,
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Frostbite",
+    "id": "rune-1423",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Cold Moon",
+    "id": "rune-1412",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Lightning Strike",
+    "id": "rune-1418",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Ursus",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Enemies affected by [Lucent Snowy Mond Wax] will be regarded as on the [Frozen] state."
+   },
+   {
+    "rank": 2,
+    "text": "Increases DMG Boost Effect of [Eternal Erosion of Glacier] by 40%."
+   },
+   {
+    "rank": 3,
+    "text": "Increases Rage Regenerated of [Hundred Years of Solitude] by 50%."
+   },
+   {
+    "rank": 4,
+    "text": "When Heliina is on the field, the duration of Freeze inflicted on all allies is reduced by 75%."
+   },
+   {
+    "rank": 5,
+    "text": "When allies affected by [Tender Foggy Schnee Wane] are taking DMG, inflicts [Frozen] state on the attacker for 2 sec. (This effect has a trigger interval of 20 sec)"
+   },
+   {
+    "rank": 6,
+    "text": "Increases All DMG Dealt of Heliina by 10%."
+   }
+  ],
+  "recommendation": "Usable from rank 1: with teammates wearing 4 Hoarfrost Hoof, boosts DMG for the whole fight; rank 2 further boosts teammates' DMG; rank 3 restores more Rage to teammates; ranks 45 for PVP"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Royal Sword Emblem",
+   "id": "relic-1949"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%9B%AA%E6%9C%88%E5%85%AC%E4%B8%BB",
+ "revid": 8608,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8608",
+ "rev_timestamp": "2026-02-08T04:04:45Z",
+ "i18n": {
+  "name_zh": "雪月公主",
+  "sources": {
+   "derived": 5,
+   "game_db": 14,
+   "glossary": 59,
+   "lore": 1,
+   "names": 32,
+   "translated": 18
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 64442,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 64441,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 64444,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 64445,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 64446,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 64453,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 64454,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 64455,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 64456,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 64457,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 64458,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "乌露席恩",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.likes[3]",
+    "zh": "伯戈涅",
+    "en": "Bergogne"
+   },
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

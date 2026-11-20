@@ -1,0 +1,341 @@
+{
+ "id": "char-1801",
+ "name": "Grey Archmage",
+ "page_title": "灰袍法师",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Brahindor",
+  "gender": "Male",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": null,
+  "dislikes": null,
+  "release_date": "2021-06-27"
+ },
+ "element": "Lightning",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Physical DMG equal to 60% Attack Power to 1 enemy within 10 meters",
+   "scaling": [
+    {
+     "percent": "60%",
+     "values": [
+      60.0
+     ],
+     "stat": "Attack Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 60% of Attack Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Force Barrier",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Brahindor channels a protection spell to protect his teammates, all allies receive a shield that lasts for 10 seconds. The shield can absorb 150% damage of (affected by spell power), and restore 9% health (affected by spell power) every second during the entire duration",
+   "scaling": [
+    {
+     "percent": "150%",
+     "values": [
+      150.0
+     ],
+     "stat": "Spell Power",
+     "effect": "DMG",
+     "text": "DMG equal to 150% of Spell Power"
+    },
+    {
+     "percent": "9%",
+     "values": [
+      9.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 9% of Spell Power"
+    }
+   ],
+   "name_zh": "斥力屏障"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Arcane Infusion",
+   "cooldown_s": 15,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Grants the Weakest (lowest HP) teammate 50% Attack Speed for 5 seconds, and instantly restores HP equal to 600% of Spell Power",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 600% of Spell Power"
+    }
+   ],
+   "name_zh": "奥术灌注"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Blink",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Brahindor takes a single instance of DMG exceeding 10% of his Max HP, there is a 70% chance to trigger Blink, reducing that DMG to 10% of Max HP; on trigger, restores HP equal to 37.5% Spell Power to all allies (the amount is additionally affected by Mental Mastery).",
+   "scaling": [
+    {
+     "percent": "37.5%",
+     "values": [
+      37.5
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 37.5% of Spell Power"
+    }
+   ],
+   "name_zh": "相位转移"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Gondolin's Blade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Delivers one sword strike at enemies approaching him, dealing 160% Spell Power as Absolute DMG to enemies within 4 m around himself, knocking them back and inflicting Stun for 3 sec",
+   "scaling": [
+    {
+     "percent": "160%",
+     "values": [
+      160.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Absolute DMG",
+     "text": "Absolute DMG equal to 160% of Spell Power"
+    }
+   ],
+   "name_zh": "剑术"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Arcane Focus",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Brahindor's study of arcane magic extends the duration of Arcane Infusion by 5 sec, restores 100 Rage, and adds one extra target",
+   "scaling": [],
+   "name_zh": "奥术专注"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Plunging Pulse",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When casting the ultimate, deals DMG equal to 150% of Spell Power to all enemies and applies [Weak] (reduces the DMG dealt by the enemy target by 25%, lasting 6 seconds)",
+   "scaling": [
+    {
+     "percent": "150%",
+     "values": [
+      150.0
+     ],
+     "stat": "Spell Power",
+     "effect": "DMG",
+     "text": "DMG equal to 150% of Spell Power"
+    }
+   ],
+   "name_zh": "虚弱脉冲"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B0%E8%A2%8D%E6%B3%95%E5%B8%88",
+ "revid": 8613,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8613",
+ "rev_timestamp": "2026-02-08T04:08:10Z",
+ "i18n": {
+  "name_zh": "灰袍法师",
+  "sources": {
+   "derived": 8,
+   "game_db": 4,
+   "glossary": 39,
+   "lore": 1,
+   "names": 15,
+   "translated": 7
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 3068,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

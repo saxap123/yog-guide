@@ -1,0 +1,962 @@
+{
+ "id": "char-2016",
+ "name": "Wightbone Dragon",
+ "page_title": "蚀骨魂龙",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Isabena",
+  "gender": "Female",
+  "race": "Dragonborn",
+  "birthday": "--10-31",
+  "birthplace": null,
+  "height_weight": "156cm/50kg",
+  "specialties": [
+   "tenacious vitality",
+   "a rich inner life"
+  ],
+  "likes": [
+   "shiny things",
+   "safe corners",
+   "music",
+   "an ornate pendant (bond gift)"
+  ],
+  "dislikes": [
+   "anything to do with going out"
+  ],
+  "release_date": "2025-04-24"
+ },
+ "element": "Physical",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Resonance Front",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Attack Speed",
+   "Physical Power %",
+   "Crit Damage Boost",
+   "Strength",
+   "All Damage Boost",
+   "Physical Damage Boost",
+   "Physical Penetration"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Rage Recovery",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Rage"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Soul Devour",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Release a magic ball at a single enemy, dealing 800% points of physical DMG. (This skill is affected by attack speed, with every 2% attack speed increasing skill cast speed by 1%. The DMG dealt is regarded as skill DMG.)",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 800% of Physical Power"
+    }
+   ],
+   "name_zh": "魂噬"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Starfall",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Draw the power of the stars from the galaxy to attack enemies, dealing 6000% physical strength in physical DMG twice to enemies within the area.",
+   "scaling": [
+    {
+     "percent": "6000%",
+     "values": [
+      6000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 6000% of Physical Power"
+    }
+   ],
+   "name_zh": "碎星倾泻"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Dark Pull",
+   "cooldown_s": 16,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Summon a black hole at the enemy's location for 6 seconds. The black hole deals 2500% physical strength in physical DMG to nearby enemies every 0.6 seconds, applying a pulling effect to all enemies except Blackguards and Bosses, while reducing the movement speed of Blackguards and Bosses by 90%. (This skill is unaffected by cooldown reduction effects.)",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 2500% of Physical Power"
+    }
+   ],
+   "name_zh": "暗息牵引"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Energy Surge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each cast of [Soul Devour] grants 1 Umbral Gravity, up to 10. When casting [Dark Star Pull], consumes all Umbral Gravity; each 1 point consumed reduces the cooldown of [Dark Star Pull] by 1 second. Immediately gains 10 Umbral Gravity when entering battle.",
+   "scaling": [],
+   "name_zh": "积能涌现"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Annihilation Strike",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Enemies affected by Dark Pull take 50% additional DMG from Starfall, lasting for 5 seconds.",
+   "scaling": [],
+   "name_zh": "湮灭影袭"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Dual Star",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Starfall is cast, there is a 25% chance to release an additional Starfall (the extra Starfall will not trigger this effect).",
+   "scaling": [],
+   "name_zh": "双星奇迹"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Energy Saver",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All skills of Isabena deal critical DMG, but the critical damage is changed to 75% of its original value.",
+   "scaling": [],
+   "name_zh": "节能模式"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Maddeningspell",
+    "Necklace": "Crimson Hook",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Thrill of the Hunt",
+    "Belt": "Waistband of the Wild Hunt",
+    "Relic": "Eternal Flame",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Runes of the Surge",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Higan's Last Stand",
+    "Weapon": "Ghostly Chest",
+    "Handguard": "Cowhide Handguards"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Moonlight · Regal Amethyst"
+    ],
+    "Ring": [
+     "Heart of Safari"
+    ],
+    "Emblem": [
+     "Emblem of the Hunt"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "狂法者": "gear-game-90012",
+    "月辉·烁金荧紫": "gear-1168",
+    "血钩吊坠": "gear-game-4004",
+    "聚能之铠": "gear-1170",
+    "猎杀时刻": "gear-game-2031",
+    "游猎之心": "gear-game-2037",
+    "狂猎之腰": "gear-game-1023",
+    "活体火焰": "gear-1198",
+    "戏谑者裤腿": "gear-1182",
+    "魔涌之徽": "gear-1176",
+    "狩猎徽章": "gear-1184",
+    "月辉·王室金靴": "gear-1177",
+    "浴火之盾": "gear-1205",
+    "漂浮灵匣": "gear-2021",
+    "牛皮护手": "gear-game-3006"
+   },
+   "unlinked": {
+    "狂法者": {
+     "reason": "game_only",
+     "game_id": "90012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90012",
+        "field": "name",
+        "text_id": 55963,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       55963
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "蚀骨魂龙",
+       "北境公主",
+       "凌空械羽"
+      ]
+     }
+    },
+    "血钩吊坠": {
+     "reason": "game_only",
+     "game_id": "4004",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4004",
+        "field": "name",
+        "text_id": 4069,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       4069
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "辉耀之链",
+       "幽影绝链",
+       "蚀骨魂龙",
+       "幸运装备",
+       "月渊龙女"
+      ]
+     }
+    },
+    "猎杀时刻": {
+     "reason": "game_only",
+     "game_id": "2031",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2031",
+        "field": "name",
+        "text_id": 54368,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       54368
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉",
+       "迷雾山脉-迷雾幻境",
+       "魂棺语者",
+       "蚀骨魂龙",
+       "绯晶战影"
+      ]
+     }
+    },
+    "游猎之心": {
+     "reason": "game_only",
+     "game_id": "2037",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2037",
+        "field": "name",
+        "text_id": 55096,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       55096
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "蚀骨魂龙"
+      ]
+     }
+    },
+    "狂猎之腰": {
+     "reason": "game_only",
+     "game_id": "1023",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1023",
+        "field": "name",
+        "text_id": 54203,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       54203
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽",
+       "月渊龙女"
+      ]
+     }
+    },
+    "牛皮护手": {
+     "reason": "game_only",
+     "game_id": "3006",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3006",
+        "field": "name",
+        "text_id": 4061,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       4061
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "分解装备",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Level 1000",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Thor's Gaze",
+    "Necklace": "Black Ocean",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Thor's Heart",
+    "Ring": "Gold Ring of Bluestone",
+    "Belt": "Ethereal Girdle",
+    "Relic": "Gold Chalice of Bluestone",
+    "Trousers": "Materialized Weave Trousers",
+    "Emblem": "Gold Emblem of Bluestone",
+    "Shoes": "Royal Family Boots",
+    "Off-hand": "Gold Shield of Bluestone",
+    "Weapon": "Bloodthirsty Adamant",
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Maddeningspell"
+    ],
+    "Belt": [
+     "Thor's Meditation"
+    ],
+    "Handguard": [
+     "Gold Gauntlet of Bluestone"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": "Ghostly Chest",
+   "item_ids": {
+    "托尔之凝视": "gear-1710",
+    "狂法者": "gear-game-90012",
+    "黑色汪洋": "gear-game-90324",
+    "托尔之神心": "gear-1711",
+    "青琅玲珑金戒": "gear-183",
+    "虚灵腰环": "gear-1293",
+    "托尔之冥思": "gear-1712",
+    "青琅玲珑金杯": "gear-178",
+    "质化织裤": "gear-1858",
+    "青琅玲珑金辉": "gear-156",
+    "宗室礼靴": "gear-1282",
+    "青琅玲珑金盾": "gear-163",
+    "嗜血金钢": "gear-2434",
+    "幽冥初水": "gear-game-90323",
+    "青琅玲珑金手": "gear-1662",
+    "漂浮灵匣": "gear-2021"
+   },
+   "unlinked": {
+    "狂法者": {
+     "reason": "game_only",
+     "game_id": "90012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90012",
+        "field": "name",
+        "text_id": 55963,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       55963
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "蚀骨魂龙",
+       "北境公主",
+       "凌空械羽"
+      ]
+     }
+    },
+    "黑色汪洋": {
+     "reason": "game_only",
+     "game_id": "90324",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90324",
+        "field": "name",
+        "text_id": 69057,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       69057
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪",
+       "不熄曜日",
+       "绞刃流火",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Blade of Thunder",
+    "id": "rune-1425",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Exuberant",
+    "id": "rune-1422",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Degenerate",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Magic Wrath",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "[Forged Steel]/Absolute Blade",
+    "id": null,
+    "options": [
+     {
+      "name": null,
+      "id": null,
+      "unlinked": {
+       "reason": "typo_candidate",
+       "game_id": null,
+       "possible_match": {
+        "name": "断钢",
+        "id": "rune-1997",
+        "source": "similar name in runes.json",
+        "status": "unverified"
+       },
+       "game": null,
+       "wiki_lookup": {
+        "title_found": false,
+        "page": null,
+        "search_hits": [
+         "长辉照夜",
+         "玉尘灵仙",
+         "蚀骨魂龙"
+        ]
+       }
+      }
+     },
+     {
+      "name": "Absolute Blade",
+      "id": "rune-1406",
+      "unlinked": null
+     }
+    ],
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Iron Thorn",
+    "id": "rune-1420",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Ursus",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Raging Beast",
+    "id": "black_stone-03",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Cursed Soul",
+    "id": "black_stone-14",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Critical DMG in Energy Saver +15% (up to a maximum of 90% of the original value)."
+   },
+   {
+    "rank": 2,
+    "text": "The DMG frequency of Dark Pull is affected by attack speed. For every 2% attack speed, the DMG frequency increases by 1%, up to a maximum of 100%."
+   },
+   {
+    "rank": 3,
+    "text": "For each status effect (Blind, Silence, Weakness) on an enemy, the Isabena's DMG to that enemy is increased by 25%."
+   },
+   {
+    "rank": 4,
+    "text": "Every 1% Skill Crit Chance owned is converted into 4% Crit Damage Boost; at most 50% Skill Crit Chance is converted into Crit Damage Boost."
+   },
+   {
+    "rank": 5,
+    "text": "The trigger chance of Dual Star is increased by 25%."
+   },
+   {
+    "rank": 6,
+    "text": "All DMG dealt by Isabena +10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Phantom Hover",
+   "id": "relic-2019"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Mystic battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E8%9A%80%E9%AA%A8%E9%AD%82%E9%BE%99",
+ "revid": 9016,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9016",
+ "rev_timestamp": "2026-06-26T21:02:35Z",
+ "i18n": {
+  "name_zh": "蚀骨魂龙",
+  "sources": {
+   "derived": 5,
+   "game_db": 16,
+   "glossary": 83,
+   "lore": 1,
+   "names": 66,
+   "translated": 13
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 80006,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 80008,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 80007,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 80010,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 80011,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 80012,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 80023,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 80024,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 80025,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 80027,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 80028,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "龙息岛",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "runes.main[6].options[0]",
+    "zh": "锻钢",
+    "reason": "names.json/runes: probably a typo on the wiki; not corrected"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[3].description",
+    "zh": "暗星牵引",
+    "en": "Dark Star Pull"
+   },
+   {
+    "path": "skills[3].description",
+    "zh": "暗星牵引",
+    "en": "Dark Star Pull"
+   },
+   {
+    "path": "runes.main[6].name",
+    "zh": "锻钢",
+    "en": "Forged Steel"
+   },
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

@@ -1,0 +1,365 @@
+{
+ "id": "char-1724",
+ "name": "Verdant Ranger",
+ "page_title": "巡林游侠",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Kiyana",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--09-14",
+  "birthplace": null,
+  "height_weight": "166cm/45kg",
+  "specialties": [
+   "archery",
+   "wilderness survival",
+   "languages of many races"
+  ],
+  "likes": [
+   "fruit",
+   "nature",
+   "the sound of wind in the woods"
+  ],
+  "dislikes": [
+   "Galahad",
+   "Celia",
+   "Flo"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Lightning",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Summoners Front",
+    "id": "faction-2205"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Shooting Stars",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Kiyana shoots arrows carrying Elvenor's Blessing into the air. After a short delay the arrows split and rain down on the destination like a storm; each wave of arrows deals Lightning DMG equal to 27.6% of Physical Power to all enemy targets. The arrow rain lasts 6 waves",
+   "scaling": [
+    {
+     "percent": "27.6%",
+     "values": [
+      27.6
+     ],
+     "stat": "Physical Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 27.6% of Physical Power"
+    }
+   ],
+   "name_zh": "矢如星雨"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Tracer Arrows",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Kiyana shoots three arrows at the three targets nearest to her, dealing 60% Physical Power as Lightning DMG to each target",
+   "scaling": [
+    {
+     "percent": "60%",
+     "values": [
+      60.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 60% of Physical Power"
+    }
+   ],
+   "name_zh": "追踪箭"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Ranger Training",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each time Kiyana's Normal Attack hits, there is a 100% chance to grant herself one stack of [Vigilance Mark]\n[Vigilance Mark]: When dealing Physical DMG, grants herself a mark stack; at 10 stacks, deals Physical DMG equal to 60% of Physical Power once to all enemies and clears the marks.",
+   "scaling": [
+    {
+     "percent": "60%",
+     "values": [
+      60.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 60% of Physical Power"
+    }
+   ],
+   "name_zh": "巡林者"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Concentration",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Tracer Arrows fires, there is a 50% + Physical Power * 2.5% chance to fire an extra wave of arrows; 25% of the DMG dealt restores own HP",
+   "scaling": [],
+   "name_zh": "集中"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Striker's Bow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Kiyana's ever-improving skill increases Kiyana's Crit Chance by 15% and Crit Dmg by 50%.",
+   "scaling": [],
+   "name_zh": "强弓"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Stargazer",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When casting the ultimate, triggers a lasting arrow rain, dealing Lightning DMG equal to 5% of Physical Power per second to all enemy targets, and strikes all targets with a wave of arrow rain every 0.3 seconds, in 24 waves; 50% of the DMG dealt by the ultimate is converted into own HP.",
+   "scaling": [
+    {
+     "percent": "5%",
+     "values": [
+      5.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 5% of Physical Power"
+    }
+   ],
+   "name_zh": "猎手本能"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "这个女孩最早的记忆，是那繁星照亮的静谧夜空，她不知道自己的父母是谁，或许也不重要，她在万木峥嵘的蒙特沃德森林里自食其力长大，每天自由地穿梭在荫翳林间，与猎豹赛跑，与蝴蝶鱼游泳，和正在宴集的野兽人们欢唱，还在精灵聚落学会了精灵语，从来没有过孤单的感觉。\n然而在女孩12岁那年，厄运悄然降临，一名帝国贵族领主为了扩张领地，率领军队来到蒙特沃德森林，他们将曾经的苍翠林海夷为平地，肆意狩杀动物，并驱赶了所有在此生活的原住民。年幼的女孩没有了家，曾经森林里的伙伴也失散四方，她度过了一段漫长的流浪生活，最终辗转来到亚克兰斯，并回想起了在精灵长老那里听说过的、关于黑潮的故事。女孩最初并没有成为黑卫的想法，只是漫无目的地徘徊...直到有一天，她在城中看见了从神弃之地归来的探索队，受伤的黑卫们彼此搀扶、互相鼓励的模样，让她回想起曾经森林里的伙伴，内心也再度燃起对家的渴望。\n最终，女孩以令人惊叹的箭术通过选拔，饮下圣血觉醒为一名黑卫。在黑卫名册上，女孩把自己的名字写作“柯扬娜”，这是一句精灵语，它代表的含义是——走出过去，重新开始。",
+  "deeds": [
+   "成为黑卫以后,虽然柯扬娜试图开始新的生活,但从森林走出的女孩难免与城市格格不入。\n在初来乍到那段最孤独的时光,是乌西洛蒂主动与她接触，陪她熟悉学院,带她认识了许许多多的伙伴,并最终融入了这里。\n乌西洛蒂是柯扬娜的第一个朋友，柯扬娜也无比珍惜这一段珍贵的友情。",
+   "在森林里长大的柯扬娜亲近自然,行为习惯上也带着森林之子特有的……自然。\n柯扬娜初步熟悉亚克兰斯后,专门去猎场猎了一头狼,把狼头做成标本摆在乌西洛蒂的卧室里。\n猎狼赠首,这是森林之子对友人表达感谢的方式,但对于城市长大的女孩来说，这份礼物显然太过“惊喜”。\n那天晚上，乌西洛蒂回屋点燃蜡烛的时候,尖叫声响彻了整个女生宿舍。",
+   "某个风和日丽的下午，拉鲁格把吊床绑在两颗树的树干上，躺在上面午睡。\n路过的柯扬娜看到这一幕,慢慢解开吊床,将拉鲁格放到了地上。\n睡得正懵的拉鲁格还没反应过来发生了什么，柯杨娜已经悄然离去,只听见她隐隐说道：“以后别睡这里了，那两棵小树还很年轻，可经不起你这体重。”",
+   "出身森林的柯扬娜虽然是人类,却懂得精灵的语言，尤其是圣血觉醒后,她更是能从那些古老文字中发掘自然的力量。\n在去年一场艰险的任务中，柯扬娜的队伍遭到大量魔物围困，她让受伤的队友先行撤离，自己孤身一人执行断后任务。\n撤离途中，受伤的黑卫们回望柯扬娜所守的高地，只看见漫天炙芒闪耀,那是折射着太阳光辉的箭矢，陨如星雨。",
+   "爱屋及乌、恨屋及乌……贵族里也有善良之人,并不是所有贵族都很可憎,但柯扬娜的故乡「蒙特沃德森林」正是毁于高贵的帝国领主之手,这让她对贵族充满偏见与敌视。\n或许,这也是她从不理会加拉哈德、茜利娅、芙萝的原因。",
+   "柯扬娜的内心朴实而纯净,但却隐藏着挥之不去的悲伤，大家经常看到她一个人坐在高处,独自眺望着曾经故乡的方向。\n虽然每次有人搭话，柯扬娜都会露出笑脸相迎,但了解她的人都知道，在内心最深处，她终究不属于城市,她最渴望的还是那片森林,还是那个能真正被称之为“家”的地方。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%B7%A1%E6%9E%97%E6%B8%B8%E4%BE%A0",
+ "revid": 8645,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8645",
+ "rev_timestamp": "2026-02-08T04:32:00Z",
+ "i18n": {
+  "name_zh": "巡林游侠",
+  "sources": {
+   "derived": 6,
+   "game_db": 7,
+   "glossary": 34,
+   "lore": 1,
+   "names": 16,
+   "translated": 12
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "蒙特沃德森林",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[1].description",
+    "zh": "柯杨娜",
+    "en": "Kiyana"
+   },
+   {
+    "path": "skills[2].description",
+    "zh": "柯杨娜",
+    "en": "Kiyana"
+   },
+   {
+    "path": "skills[3].description",
+    "zh": "柯杨娜",
+    "en": "Kiyana"
+   },
+   {
+    "path": "skills[3].description",
+    "zh": "警戒印记",
+    "en": "Vigilance Mark"
+   },
+   {
+    "path": "skills[3].description",
+    "zh": "警戒印记",
+    "en": "Vigilance Mark"
+   },
+   {
+    "path": "skills[5].description",
+    "zh": "柯杨娜",
+    "en": "Kiyana"
+   },
+   {
+    "path": "skills[5].description",
+    "zh": "柯杨娜",
+    "en": "Kiyana"
+   }
+  ]
+ }
+}

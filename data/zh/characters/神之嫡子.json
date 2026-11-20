@@ -1,0 +1,297 @@
+{
+ "id": "char-298",
+ "name": "神之嫡子",
+ "page_title": "神之嫡子",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "芙兰幽儿",
+  "gender": "女",
+  "race": null,
+  "birthday": "？？？",
+  "birthplace": "？？？",
+  "height_weight": "169cm/??kg",
+  "specialties": [
+   "变形咒术",
+   "蛇语",
+   "捉弄人"
+  ],
+  "likes": [
+   "苹果",
+   "热闹的地方",
+   "观察人类",
+   "王权棋子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "魔物",
+   "被人指手画脚",
+   "睡觉被吵醒"
+  ],
+  "release_date": "2022年12月01日"
+ },
+ "element": "闪电",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "狩魔",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "召唤",
+    "id": "faction-2205"
+   },
+   {
+    "name": "聚变",
+    "id": "faction-2216"
+   },
+   {
+    "name": "回馈",
+    "id": "faction-2196"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免",
+   "%法术强度",
+   "暴击概率",
+   "闪电穿透",
+   "暴击倍率",
+   "魔力",
+   "攻击速度",
+   "物理精通",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "闪电伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 2,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对直线范围内的敌人造成两次75%攻击力的闪电伤害。",
+   "scaling": [
+    {
+     "percent": "75%",
+     "values": [
+      75.0
+     ],
+     "stat": "攻击力",
+     "effect": "闪电伤害",
+     "text": "75%攻击力的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "死光",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "朝前方发射强力光束炮，光束炮持续2.1秒，光束炮范围内的敌人每0.3秒受到一次500%法术强度的闪电伤害。",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "500%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "蛇灵召唤",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "在自身周围召唤1个蛇灵(蛇灵不视作场上单位)蛇灵每隔3秒对10米范围内的敌人造成芙兰幽儿36.8%法术强度的闪电伤害。(蛇灵的伤害视为普攻伤害且攻击频率受攻速影响)",
+   "scaling": [
+    {
+     "percent": "36.8%",
+     "values": [
+      36.8
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "36.8%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "蛇蟒横行",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "蛇灵召唤上限+1，蛇灵造成的伤害增加50%",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "神子英姿",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "芙兰幽儿每有1点物理精通，都将增加自身与蛇灵的5%暴击倍率。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "驭灵之力",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全队增加10点物理精通。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "噬灵",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "芙兰幽儿每点魔力转化为0.1攻击力。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "致命瞄准",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "抓住敌人的虚弱时刻，对生命值低于35%的目标造成的伤害提升10%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "急速",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "攻击速度提升25%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "强击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "物理强度提升7%，法术强度提升7%",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "雷蟒晶骸",
+   "id": "relic-1958"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《去哪里玩》",
+   "answers": [
+    "去安静的咖啡厅看书吃蛋糕",
+    "去逛逛热闹的集市"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《苹果》",
+   "answers": [
+    "你不是吗",
+    "没错，芙兰幽儿最温柔了"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《神子之吻》",
+   "answers": [
+    "获得专属武器：神子之书"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%A5%9E%E4%B9%8B%E5%AB%A1%E5%AD%90",
+ "revid": 8642,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8642",
+ "rev_timestamp": "2026-02-08T04:30:31Z"
+}

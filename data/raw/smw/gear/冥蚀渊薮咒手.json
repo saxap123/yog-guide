@@ -1,0 +1,189 @@
+{
+  "subject": "冥蚀渊薮咒手",
+  "group": "gear",
+  "page_revid": 8554,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%86%A5%E8%9A%80%E6%B8%8A%E8%96%AE%E5%92%92%E6%89%8B",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%86%A5%E8%9A%80%E6%B8%8A%E8%96%AE%E5%92%92%E6%89%8B&format=json",
+  "fetched_at": "2026-11-20T16:14:40+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "冥蚀渊薮咒手#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/1/29/14/19/8/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/1/29/14/19/8/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "冥蚀渊薮咒手"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "主属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "%最大生命值、物理豁免、法术豁免、精神豁免、3.6%物理强度、3.6%法术强度"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258魔力、9258魔力、9258力量、9258力量、9258体质、9258体质、%造成冰冻时间增加、%造成昏迷时间提升、%最大生命值、%暴击伤害减免、%暴击伤害减免、12%受到法术伤害降低、12%受到物理伤害降低"
+            }
+          ]
+        },
+        {
+          "property": "副属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "物理精通、法术精通、精神精通、物理豁免、法术豁免、精神豁免、%全伤害类型增幅、%攻击速度、怒气恢复"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258魔力、9258魔力、9258力量、9258力量、9258体质、9258体质、%暴击伤害减免、%暴击伤害减免、4物理精通、4法术精通、4精神精通、12%物理伤害增幅、12%火焰伤害增幅、12%冰霜伤害增幅、12%闪电伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "冥蚀渊薮"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "冥蚀渊薮(2)：勇猛和感知+10；冥蚀渊薮(4)：黑暗属性黑卫造成的最终伤害提升20%"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "暂无"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "旅途故事"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "冥蚀渊薮咒手"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "护手"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

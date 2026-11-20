@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yog-guide.local/schema/faction.schema.json",
+  "title": "Faction (阵线), Chinese",
+  "description": "One element of factions.json → items. Name/type from the Category:阵线 page (SMW); thresholds from the tabs of page 阵线.",
+  "type": "object",
+  "allOf": [{"$ref": "common.schema.json#/$defs/provenance"}],
+  "required": ["id", "name", "type", "count", "effect_on_page", "thresholds", "effects_source_url", "effects_revid"],
+  "unevaluatedProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^faction-[0-9]+$"},
+    "name": {"type": "string", "minLength": 1},
+    "type": {"type": ["string", "null"], "enum": ["基础", "其他", null]},
+    "count": {"$ref": "common.schema.json#/$defs/str", "description": "模板:阵线 数量 (empty on every page so far)"},
+    "effect_on_page": {"$ref": "common.schema.json#/$defs/str", "description": "模板:阵线 效果 (empty on every page so far)"},
+    "thresholds": {
+      "type": ["array", "null"],
+      "items": {
+        "type": "object", "additionalProperties": false, "required": ["levels", "label", "text"],
+        "properties": {
+          "levels": {"type": "array", "items": {"type": "integer", "minimum": 1}, "minItems": 1},
+          "label": {"type": "string"},
+          "text": {"$ref": "common.schema.json#/$defs/str"}
+        }
+      }
+    },
+    "effects_source_url": {"type": ["string", "null"], "pattern": "^https://wiki\\.biligame\\.com/bookofyog/"},
+    "effects_revid": {"type": ["integer", "null"], "minimum": 1}
+  }
+}

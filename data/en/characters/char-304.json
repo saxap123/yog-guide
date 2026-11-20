@@ -1,0 +1,803 @@
+{
+ "id": "char-304",
+ "name": "Traveler of Flowers",
+ "page_title": "百花旅者",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Ling",
+  "gender": "Female",
+  "race": null,
+  "birthday": "--01-21",
+  "birthplace": "Misty Mountains",
+  "height_weight": "171cm/54kg",
+  "specialties": [
+   "music, chess, calligraphy, painting, poetry, wine, flowers and tea"
+  ],
+  "likes": [
+   "Ornate Music Box",
+   "tea snacks",
+   "pretty fabrics",
+   "music box (bond gift)"
+  ],
+  "dislikes": [
+   "rude people",
+   "dirty things",
+   "noise"
+  ],
+  "release_date": "2023-03-30"
+ },
+ "element": "Frost",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction",
+   "Spell Power %",
+   "Frost Penetration",
+   "Intelligence",
+   "Crit Damage Boost",
+   "Critical Chance (Attack)",
+   "Attack Speed",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Frost Damage Boost"
+  ],
+  "secondary": [
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "Don't stack Constitution or HP",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Frost DMG equal to 400% Spell Power to 1 enemy within 8 meters.",
+   "scaling": [
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 400% of Spell Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Linger with Ling",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Traveler of Flowers attaches to the teammate with the highest Physical Power or Spell Power. Once attached, grants the attached character a magic Shield that can absorb 500% of Traveler of Flowers' Constitution (the Shield is refreshed on recast). And when the attached character is affected by [Scent of Falling Flowers], the Attack Speed bonus gained is increased by 100%.",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "Constitution",
+     "effect": null,
+     "text": "500% of Constitution"
+    }
+   ],
+   "name_zh": "百花栖身"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Scent of Falling Flowers",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Ling is on the field, all teammates gain effect of [Scent of Falling Flowers], increases Attack Speed by 25%, and Movement Speed by 10%.",
+   "scaling": [],
+   "name_zh": "落花狂舞"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Symphony of Flowers",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Ling's attached target causes normal attack, deals additional Frost DMG equal to 300%/150% (Melee/Ranged attached Blackguard) of Ling's Spell Power. The DMG is considered as normal attack, also affected by the target's Damage Boost, Normal Attack Crit Chance, Crit Damage and so on; the DMG won't trigger any other effects; the DMG dealt will also be reduced when the target trigger Bounce.",
+   "scaling": [],
+   "name_zh": "花之和弦"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Dance of Twirling Wind",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Ling attached to a Melee Blackguard, summons a Whirlwind surrounds the target, causes Frost DMG equal to 500% of Ling's Spell Power to all enemies surrounds the target every sec.",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 500% of Spell Power"
+    }
+   ],
+   "name_zh": "回旋伞舞"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Dance of Stray Snow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Ling attached to a Ranged Blackguard, Ling will release a flower umbrella to front when her ultimate skill released. It moves slowly forward and releases Frost Whirlwind to the surroundings, causes Frost damage equal to 1000% of Ling's Spell Power, and briefly freeze all enemies hit for 2.5 sec.",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 1000% of Spell Power"
+    }
+   ],
+   "name_zh": "花伞映雪"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Starry Spark of Traveler",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Ling is on the field, all teammates gain effect of [Starry Spark of Traveler], increases Physical and Elemental Penetration by 30, and every point of Ling's Spell Mastery convert into 0.5 point of Penetration. (Penetration Points converted from Spell Mastery are up to 50 points)",
+   "scaling": [],
+   "name_zh": "旅者慧智"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "HP pack (healer)",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "'blood pack' build (healing / HP support role)",
+   "slots": {
+    "Helmet": "Duelist's Casque",
+    "Necklace": "Spiral Guide",
+    "Card": "Card of Total Attacker",
+    "Earrings": "Earring of Magic String",
+    "Armor": "Moonlight · Light Chainmail",
+    "Ring": "Majin's Finger",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Luminous Feather",
+    "Trousers": "Legguard of Magic String",
+    "Emblem": "Disc of Revival",
+    "Shoes": "Boots of Mercy",
+    "Off-hand": "Ancient Arcanist's Barrier",
+    "Weapon": "Lazaraia",
+    "Handguard": null
+   },
+   "alternatives": {
+    "Necklace": [
+     "Glistening Nova"
+    ],
+    "Card": [
+     "Card of Haste"
+    ],
+    "Armor": [
+     "Moonlight · Dartmoor Chieftain"
+    ],
+    "Ring": [
+     "Sacred Ring of Flowers"
+    ],
+    "Belt": [
+     "Girdle of Light"
+    ],
+    "Relic": [
+     "Moonlight · Shadow's Batwings"
+    ],
+    "Trousers": [
+     "Joker's Pantaloons"
+    ],
+    "Shoes": [
+     "Moonlight · Highland Stompers"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "决斗大师的帽子": "gear-game-11022",
+    "指路吊坠": "gear-1081",
+    "碎星项链": "gear-game-4013",
+    "总攻卡牌": "gear-1692",
+    "急速之牌": "gear-game-90210",
+    "魔弦耳环": "gear-game-90306",
+    "月辉·轻盈软甲": "gear-1180",
+    "月辉·达特穆尔酋长披风": "gear-game-12078",
+    "魔人之指": "gear-game-2012",
+    "花间圣戒": "gear-game-90053",
+    "嗜战者束腰": "gear-1210",
+    "沐光环绕": "gear-1199",
+    "精灵飞羽": "gear-game-13003",
+    "月辉·夜影蝠翼": "gear-1181",
+    "魔弦护腿": "gear-game-90309",
+    "戏谑者裤腿": "gear-1182",
+    "复苏徽识": "gear-game-7007",
+    "怜悯圣靴": "gear-2024",
+    "月辉·高岭军靴": "gear-1201",
+    "古老魔盾": "gear-game-5020",
+    "渴血": "gear-1190"
+   },
+   "unlinked": {
+    "决斗大师的帽子": {
+     "reason": "game_only",
+     "game_id": "11022",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "11022",
+        "field": "name",
+        "text_id": 3832,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       3832
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者",
+       "璨然银龙",
+       "分解装备",
+       "回怒装备",
+       "怒气装备"
+      ]
+     }
+    },
+    "碎星项链": {
+     "reason": "game_only",
+     "game_id": "4013",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4013",
+        "field": "name",
+        "text_id": 8335,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       8335
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者",
+       "怒气装备"
+      ]
+     }
+    },
+    "急速之牌": {
+     "reason": "game_only",
+     "game_id": "90210",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90210",
+        "field": "name",
+        "text_id": 62167,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62167
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "北境公主",
+       "百花旅者",
+       "忘却迷境-至冬宫殿"
+      ]
+     }
+    },
+    "魔弦耳环": {
+     "reason": "game_only",
+     "game_id": "90306",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90306",
+        "field": "name",
+        "text_id": 63588,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       63588
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "千宵月守"
+      ]
+     }
+    },
+    "月辉·达特穆尔酋长披风": {
+     "reason": "game_only",
+     "game_id": "12078",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "12078",
+        "field": "name",
+        "text_id": 3914,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       3914
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "百花旅者",
+       "璨然银龙"
+      ]
+     }
+    },
+    "魔人之指": {
+     "reason": "game_only",
+     "game_id": "2012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2012",
+        "field": "name",
+        "text_id": 4046,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       4046
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者",
+       "怒气装备"
+      ]
+     }
+    },
+    "花间圣戒": {
+     "reason": "game_only",
+     "game_id": "90053",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90053",
+        "field": "name",
+        "text_id": 59200,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       59200
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "百花旅者"
+      ]
+     }
+    },
+    "精灵飞羽": {
+     "reason": "game_only",
+     "game_id": "13003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13003",
+        "field": "name",
+        "text_id": 3927,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3927
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "百花旅者",
+       "分解装备",
+       "夜行暹罗",
+       "黑话解读"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "复苏徽识": {
+     "reason": "game_only",
+     "game_id": "7007",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "7007",
+        "field": "name",
+        "text_id": 54995,
+        "type": "12"
+       }
+      ],
+      "text_ids": [
+       54995
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "古老魔盾": {
+     "reason": "game_only",
+     "game_id": "5020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5020",
+        "field": "name",
+        "text_id": 53826,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53826
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "忘却迷境攻略",
+       "冷却装备"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Ursus",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Relics of Stag Spirit",
+   "id": "relic-1962"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%99%BE%E8%8A%B1%E6%97%85%E8%80%85",
+ "revid": 9137,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9137",
+ "rev_timestamp": "2026-08-11T03:27:34Z",
+ "i18n": {
+  "name_zh": "百花旅者",
+  "sources": {
+   "derived": 6,
+   "game_db": 10,
+   "glossary": 67,
+   "lore": 1,
+   "names": 44,
+   "translated": 12
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 58304,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 58306,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 58307,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 58308,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 58309,
+    "match": "loose"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

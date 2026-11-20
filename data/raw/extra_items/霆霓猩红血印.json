@@ -1,0 +1,19 @@
+{
+  "title": "霆霓猩红血印",
+  "pageid": 145,
+  "ns": 0,
+  "revid": 605,
+  "rev_timestamp": "2024-07-09T12:10:46Z",
+  "wikitext": "{{装备图鉴\n|装备名称=霆霓猩红血印\n|部位=徽章\n|品质=永恒\n|最大等级=800\n|主属性=30%暴击倍率\n|副属性=%全伤害类型增幅、%最大生命值、%命中、%闪避、%提高施加的治疗效果、%暴击伤害减免、%暴击概率、%技能暴击、%攻击速度\n|前缀=9258体质、9258体质、9258体质、9258体质、4%物理强度、4%法术强度、43物理抗性、43冰霜抗性、43闪电抗性、43火焰抗性、43混沌抗性\n|后缀=9258魔力、9258魔力、9258魔力、9258魔力、9258力量、9258力量、9258力量、9258力量、43%暴击倍率、5%最大生命值\n|专属=无\n|装备技能=无\n|套装=霆霓猩红者的热渴\n|套装技能=霆霓猩红者的热渴(2)：释放战技后，法术强度提高5%，持续5秒；霆霓猩红者的热渴(4)：闪电属性黑卫造成的最终伤害提升20%。\n|萃取技能=不可萃取\n|嵌入技能推荐=暂无\n|获取途径=旅途故事\n|介绍=闪耀着诡异的光芒，仿佛鲜血浸透其中。\n}}",
+  "redirected_from": null,
+  "group": "extra_items",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%86%E9%9C%93%E7%8C%A9%E7%BA%A2%E8%A1%80%E5%8D%B0",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=605",
+  "fetched_at": "2026-11-20T17:04:57+00:00",
+  "templates": [
+    "模板:装备图鉴"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "in_category_装备": null,
+  "found_via": "resolve_missing.py title/redirect lookup"
+}

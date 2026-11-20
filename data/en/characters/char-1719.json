@@ -1,0 +1,360 @@
+{
+ "id": "char-1719",
+ "name": "Twin Bulwark",
+ "page_title": "双子之盾",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Dongdong",
+  "gender": "Female",
+  "race": "Beast Blood",
+  "birthday": "--04-29",
+  "birthplace": "Arklance",
+  "height_weight": "151cm/47kg",
+  "specialties": [
+   "chowing down",
+   "fishing",
+   "arm wrestling"
+  ],
+  "likes": [
+   "buffets",
+   "all kinds of alcohol",
+   "head pats (bond gift: tasty little cakes)"
+  ],
+  "dislikes": [
+   "wasting food",
+   "hunger",
+   "the canteen closing"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Physical",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Striker Front",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 200% Physical Power as Physical DMG to 1 enemy within melee range.",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 200% of Physical Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Matyr \"dom\"",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Dongdong launches a foolhardy attack on the current target, causing physical damage of 600% (affected by Physical Power), and additional physical damage equal to 25% of the target's missing HP (This damage won't exceed to 8000% of her Physical Power). And she Loses 30% of her current HP (does not apply on boss targets)",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 600% of Physical Power"
+    },
+    {
+     "percent": "8000%",
+     "values": [
+      8000.0
+     ],
+     "stat": "Physical Power",
+     "effect": null,
+     "text": "8000% of Physical Power"
+    }
+   ],
+   "name_zh": "超载盾击"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Into the Fray",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Dongdong leaps to the farthest enemy unit, hits all enemy units within 4 meters of the target area after landing, and causes physical damage of 252% (affected by physical strength)",
+   "scaling": [
+    {
+     "percent": "252%",
+     "values": [
+      252.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 252% of Physical Power"
+    }
+   ],
+   "name_zh": "陷阵"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Valor",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Dongdong gains a stack of [Exhilaration] when she crits, and each stack of [Exhilaration] increases Physical Power and Attack Speed by 3%, and Movement Speed by 1% for 10 sec, up to 3 stacks.",
+   "scaling": [
+    {
+     "percent": "3%",
+     "values": [
+      3.0
+     ],
+     "stat": "Physical Power",
+     "effect": null,
+     "text": "3% of Physical Power"
+    }
+   ],
+   "name_zh": "光荣意志"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Endless War",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Dongdong's normal attack hits, restore HP equal to 30% of her Constitution.",
+   "scaling": [
+    {
+     "percent": "30%",
+     "values": [
+      30.0
+     ],
+     "stat": "Constitution",
+     "effect": "HP",
+     "text": "HP equal to 30% of Constitution"
+    }
+   ],
+   "name_zh": "战无止境"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Hellscream",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Dongdong's normal attack crit chance is increased by 6%, and skill crit chance is increased by 10.2%",
+   "scaling": [],
+   "name_zh": "地狱咆哮"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Honorable Bloodline",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The maximum stacks of [Exhilaration] will be increased by 1.",
+   "scaling": [],
+   "name_zh": "荣誉血脉"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "One Man Army",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "More targets means its harder to miss, each enemy within a range of 5 meters will increase damage caused by 3%",
+   "scaling": [],
+   "name_zh": "孤军深入"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Mercilessly executes wounded enemies: DMG dealt to targets with HP below 15% is increased by 20%",
+   "scaling": [],
+   "name_zh": "刽子手"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Berserker's Wrath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The sight of your own blood enrages you, the lower your health, the higher your damage Increases damage by 1% for every 5% HP lost",
+   "scaling": [],
+   "name_zh": "狂战士之怒"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "咚咚出生在亚克兰斯的一个黑卫家庭，爸爸是人类，妈妈是野兽血裔，他们在因伤退役前都是学院中的最优秀黑卫之一。咚咚听着父母的英雄往事长大，对他们非常崇拜，从小就立志要和爸爸妈妈一样，成为一名光荣的黑卫。现实没有辜负有心人，咚咚在圣血仪式上成功觉醒，拿起父母的两面盾牌，预示着自己将双倍继承他们的职责。\n学院中稍微年长一些的人都记得咚咚的父母，那是一对积极乐观的夫妻，咚咚也继承了他们阳光开朗的性格，相处时平易近人，是学院中不折不扣的开心果。虽然咚咚体型娇小，看上去一推就倒，但千万不要小看那身体中蕴含的力量，作为继承了一半野兽血脉的孩子，她的力气大到无与伦比——就跟她的食量一样大！\n其实，咚咚之所以成为黑卫，除了家庭传承，还有一个很大的原因，那就是……\n咚咚：“妈妈说学院食堂的伙食特别好！管饱！饭菜随便加！",
+  "deeds": [
+   "“咚咚”其实只是咚咚的小名，至于她的大名……\n咚咚三岁那年,惊人的食量初次展露，一顿饭吃了八碗，父母见此欣慰地表示——\n咚妈:“咚咚胃口这么好，以后一定是个健康的好孩子!”咚爸:“一顿饭能吃八碗，真是太厉害了，我们把女儿改名叫‘咚八碗’吧!”",
+   "咚咚刚到黑卫学院的时候，因为个子太矮，看着弱不禁风的样子，并没有得到大家的重视，阿尔甚至觉得这个小矮子是托关系进来的。\n正巧,黑卫学院的联谊会上有掰手腕的传统，阿尔趁着新生联谊,想考验考验咚咚,就提出要和她掰手腕,并命令她用出全力。\n咚咚是个老实孩子，阿尔让她用全力，她就真的用出了全力，然后“咔”一声……把阿尔的手腕掰骨折了。\n从那以后，再也没人敢小瞧咚咚,每年联谊会的掰手腕环节，阿尔也都会躲着她。",
+   "咚咚对鱼类有着独特的喜好,在闲暇时非常喜欢去海边钓鱼，她在这方面的天赋可谓无与伦比，不仅会自己调配鱼饵,技术也非常卓越，一天钓几百斤鱼都是常态。\n据咚咚说,她最大的梦想就是有一天坐船去远洋,跟鲸鱼比比力气,钓一头鲸鱼上来!\"",
+   "和讨厌被摸耳朵的米奥妮不同,咚咚并不抗拒别人摸她耳朵，甚至可以说很喜欢。\n也许是野兽血脉带来的特有习性,如果有人把手放到咚咚的头上，她的尾巴会不由自主翘起来，下意识用脑袋蹭蹭对方的手",
+   "某个夜晚，饥饿难耐的咚咚偷偷溜进食堂后厨，撞到同样来偷吃的芭芭拉和诺莉，三人不吃不相识，一起大吃大喝，还撬开酒窖门锁拼起了酒量。\n诺莉自不量力，跟咚咚对灌五杯，率先倒下。\n芭芭拉见势不妙，暗中耍诈，用巫术将自己杯子里的酒变成水，就这么跟咚咚喝到后半夜,硬是喝到水中毒也没喝赢她。\n最后，咚咚一边唱着干饭歌，一边把不省人事的诺莉和芭芭拉送到医护室……第二天，三人一起被关了禁闭。",
+   "“偷偷吃饭没人争，咚咚拿碗吃到撑~”\n“土豆泥，南瓜藤，牛肉放进锅里焖~”\n“先来吃个十人份！排骨汤，牛肉羹，”\n“吨吨两口半个盆~—根骨头都不剩！”\n全体黑卫，如果谁在食堂听见以上歌声，请立刻通知后勤部和保卫处,不然明天谁都吃不上饭。\n——《学院全体通知》"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%8C%E5%AD%90%E4%B9%8B%E7%9B%BE",
+ "revid": 8657,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8657",
+ "rev_timestamp": "2026-02-08T04:42:06Z",
+ "i18n": {
+  "name_zh": "双子之盾",
+  "sources": {
+   "derived": 8,
+   "game_db": 11,
+   "glossary": 36,
+   "lore": 1,
+   "names": 15,
+   "translated": 10
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 3048,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 4339,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 4336,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 4338,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 2990,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 4337,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4292,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4293,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[8].name",
+    "zh": "刽子手",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

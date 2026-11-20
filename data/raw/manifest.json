@@ -1,0 +1,5256 @@
+{
+  "source": "https://wiki.biligame.com/bookofyog/",
+  "license": "CC BY-NC-SA 4.0",
+  "pages": {
+    "characters/爱恋花见": {
+      "title": "爱恋花见",
+      "revid": 9125,
+      "file": "characters/爱恋花见.json",
+      "fetched_at": "2026-11-20T15:51:56+00:00"
+    },
+    "characters/百花旅者": {
+      "title": "百花旅者",
+      "revid": 9137,
+      "file": "characters/百花旅者.json",
+      "fetched_at": "2026-11-20T15:51:58+00:00"
+    },
+    "characters/白龙": {
+      "title": "白龙",
+      "revid": 8654,
+      "file": "characters/白龙.json",
+      "fetched_at": "2026-11-20T15:52:01+00:00"
+    },
+    "characters/北境公主": {
+      "title": "北境公主",
+      "revid": 8636,
+      "file": "characters/北境公主.json",
+      "fetched_at": "2026-11-20T15:52:03+00:00"
+    },
+    "characters/冰封之心": {
+      "title": "冰封之心",
+      "revid": 8635,
+      "file": "characters/冰封之心.json",
+      "fetched_at": "2026-11-20T15:52:06+00:00"
+    },
+    "characters/不熄曜日": {
+      "title": "不熄曜日",
+      "revid": 8639,
+      "file": "characters/不熄曜日.json",
+      "fetched_at": "2026-11-20T15:52:08+00:00"
+    },
+    "characters/不祥怨灵": {
+      "title": "不祥怨灵",
+      "revid": 8666,
+      "file": "characters/不祥怨灵.json",
+      "fetched_at": "2026-11-20T15:52:11+00:00"
+    },
+    "characters/裁决圣锤": {
+      "title": "裁决圣锤",
+      "revid": 9067,
+      "file": "characters/裁决圣锤.json",
+      "fetched_at": "2026-11-20T15:52:16+00:00"
+    },
+    "characters/璨然银龙": {
+      "title": "璨然银龙",
+      "revid": 9028,
+      "file": "characters/璨然银龙.json",
+      "fetched_at": "2026-11-20T15:52:18+00:00"
+    },
+    "characters/炽焰降生": {
+      "title": "炽焰降生",
+      "revid": 8928,
+      "file": "characters/炽焰降生.json",
+      "fetched_at": "2026-11-20T15:52:20+00:00"
+    },
+    "characters/传承之龙": {
+      "title": "传承之龙",
+      "revid": 9190,
+      "file": "characters/传承之龙.json",
+      "fetched_at": "2026-11-20T15:52:22+00:00"
+    },
+    "characters/纯白之羽": {
+      "title": "纯白之羽",
+      "revid": 9127,
+      "file": "characters/纯白之羽.json",
+      "fetched_at": "2026-11-20T15:52:24+00:00"
+    },
+    "characters/纯净史莱姆": {
+      "title": "纯净史莱姆",
+      "revid": 8663,
+      "file": "characters/纯净史莱姆.json",
+      "fetched_at": "2026-11-20T15:52:26+00:00"
+    },
+    "characters/地精妖术师": {
+      "title": "地精妖术师",
+      "revid": 6482,
+      "file": "characters/地精妖术师.json",
+      "fetched_at": "2026-11-20T15:52:28+00:00"
+    },
+    "characters/帝国之剑": {
+      "title": "帝国之剑",
+      "revid": 8655,
+      "file": "characters/帝国之剑.json",
+      "fetched_at": "2026-11-20T15:52:30+00:00"
+    },
+    "characters/渡鸦魁首": {
+      "title": "渡鸦魁首",
+      "revid": 8656,
+      "file": "characters/渡鸦魁首.json",
+      "fetched_at": "2026-11-20T15:52:32+00:00"
+    },
+    "characters/夺魂之镰": {
+      "title": "夺魂之镰",
+      "revid": 8700,
+      "file": "characters/夺魂之镰.json",
+      "fetched_at": "2026-11-20T15:52:34+00:00"
+    },
+    "characters/绯红荆棘": {
+      "title": "绯红荆棘",
+      "revid": 8836,
+      "file": "characters/绯红荆棘.json",
+      "fetched_at": "2026-11-20T15:52:37+00:00"
+    },
+    "characters/绯晶战影": {
+      "title": "绯晶战影",
+      "revid": 9064,
+      "file": "characters/绯晶战影.json",
+      "fetched_at": "2026-11-20T15:52:39+00:00"
+    },
+    "characters/飞焰铃舞": {
+      "title": "飞焰铃舞",
+      "revid": 9205,
+      "file": "characters/飞焰铃舞.json",
+      "fetched_at": "2026-11-20T15:52:41+00:00"
+    },
+    "characters/封魔利爪": {
+      "title": "封魔利爪",
+      "revid": 8626,
+      "file": "characters/封魔利爪.json",
+      "fetched_at": "2026-11-20T15:52:43+00:00"
+    },
+    "characters/拂光破雪": {
+      "title": "拂光破雪",
+      "revid": 8618,
+      "file": "characters/拂光破雪.json",
+      "fetched_at": "2026-11-20T15:52:45+00:00"
+    },
+    "characters/构装守卫": {
+      "title": "构装守卫",
+      "revid": 8664,
+      "file": "characters/构装守卫.json",
+      "fetched_at": "2026-11-20T15:52:47+00:00"
+    },
+    "characters/黑衫刃影": {
+      "title": "黑衫刃影",
+      "revid": 9189,
+      "file": "characters/黑衫刃影.json",
+      "fetched_at": "2026-11-20T15:52:49+00:00"
+    },
+    "characters/唤霜海灵": {
+      "title": "唤霜海灵",
+      "revid": 9062,
+      "file": "characters/唤霜海灵.json",
+      "fetched_at": "2026-11-20T15:52:51+00:00"
+    },
+    "characters/欢愉魔女": {
+      "title": "欢愉魔女",
+      "revid": 8643,
+      "file": "characters/欢愉魔女.json",
+      "fetched_at": "2026-11-20T15:52:53+00:00"
+    },
+    "characters/灰袍法师": {
+      "title": "灰袍法师",
+      "revid": 8613,
+      "file": "characters/灰袍法师.json",
+      "fetched_at": "2026-11-20T15:52:56+00:00"
+    },
+    "characters/秽翼魔女": {
+      "title": "秽翼魔女",
+      "revid": 9188,
+      "file": "characters/秽翼魔女.json",
+      "fetched_at": "2026-11-20T15:52:58+00:00"
+    },
+    "characters/魂棺语者": {
+      "title": "魂棺语者",
+      "revid": 9068,
+      "file": "characters/魂棺语者.json",
+      "fetched_at": "2026-11-20T15:53:00+00:00"
+    },
+    "characters/绞刃流火": {
+      "title": "绞刃流火",
+      "revid": 8951,
+      "file": "characters/绞刃流火.json",
+      "fetched_at": "2026-11-20T15:53:03+00:00"
+    },
+    "characters/金蜂破茧": {
+      "title": "金蜂破茧",
+      "revid": 8604,
+      "file": "characters/金蜂破茧.json",
+      "fetched_at": "2026-11-20T15:53:05+00:00"
+    },
+    "characters/雷鸣掠空": {
+      "title": "雷鸣掠空",
+      "revid": 9066,
+      "file": "characters/雷鸣掠空.json",
+      "fetched_at": "2026-11-20T15:53:07+00:00"
+    },
+    "characters/烈阳将军": {
+      "title": "烈阳将军",
+      "revid": 8665,
+      "file": "characters/烈阳将军.json",
+      "fetched_at": "2026-11-20T15:53:09+00:00"
+    },
+    "characters/凛冬魔女": {
+      "title": "凛冬魔女",
+      "revid": 6483,
+      "file": "characters/凛冬魔女.json",
+      "fetched_at": "2026-11-20T15:58:08+00:00"
+    },
+    "characters/凌空械羽": {
+      "title": "凌空械羽",
+      "revid": 8926,
+      "file": "characters/凌空械羽.json",
+      "fetched_at": "2026-11-20T15:53:14+00:00"
+    },
+    "characters/灵刃之主": {
+      "title": "灵刃之主",
+      "revid": 8653,
+      "file": "characters/灵刃之主.json",
+      "fetched_at": "2026-11-20T15:53:16+00:00"
+    },
+    "characters/绿森山灵": {
+      "title": "绿森山灵",
+      "revid": 8797,
+      "file": "characters/绿森山灵.json",
+      "fetched_at": "2026-11-20T15:53:19+00:00"
+    },
+    "characters/迷迭妖精": {
+      "title": "迷迭妖精",
+      "revid": 8610,
+      "file": "characters/迷迭妖精.json",
+      "fetched_at": "2026-11-20T15:53:22+00:00"
+    },
+    "characters/秘境仙灵": {
+      "title": "秘境仙灵",
+      "revid": 8616,
+      "file": "characters/秘境仙灵.json",
+      "fetched_at": "2026-11-20T15:53:25+00:00"
+    },
+    "characters/密林之眼": {
+      "title": "密林之眼",
+      "revid": 8646,
+      "file": "characters/密林之眼.json",
+      "fetched_at": "2026-11-20T15:53:27+00:00"
+    },
+    "characters/秘术导师": {
+      "title": "秘术导师",
+      "revid": 8637,
+      "file": "characters/秘术导师.json",
+      "fetched_at": "2026-11-20T15:53:29+00:00"
+    },
+    "characters/墨凝清影": {
+      "title": "墨凝清影",
+      "revid": 8607,
+      "file": "characters/墨凝清影.json",
+      "fetched_at": "2026-11-20T15:53:33+00:00"
+    },
+    "characters/霓裳若仙": {
+      "title": "霓裳若仙",
+      "revid": 9124,
+      "file": "characters/霓裳若仙.json",
+      "fetched_at": "2026-11-20T15:53:35+00:00"
+    },
+    "characters/婆娑轮舞": {
+      "title": "婆娑轮舞",
+      "revid": 8620,
+      "file": "characters/婆娑轮舞.json",
+      "fetched_at": "2026-11-20T15:53:38+00:00"
+    },
+    "characters/绮夜梦影": {
+      "title": "绮夜梦影",
+      "revid": 9065,
+      "file": "characters/绮夜梦影.json",
+      "fetched_at": "2026-11-20T15:53:40+00:00"
+    },
+    "characters/千宵月守": {
+      "title": "千宵月守",
+      "revid": 9138,
+      "file": "characters/千宵月守.json",
+      "fetched_at": "2026-11-20T15:53:42+00:00"
+    },
+    "characters/青鸾巽羽": {
+      "title": "青鸾巽羽",
+      "revid": 9213,
+      "file": "characters/青鸾巽羽.json",
+      "fetched_at": "2026-11-20T15:53:44+00:00"
+    },
+    "characters/审判使者": {
+      "title": "审判使者",
+      "revid": 8622,
+      "file": "characters/审判使者.json",
+      "fetched_at": "2026-11-20T15:53:46+00:00"
+    },
+    "characters/深庭玫瑰": {
+      "title": "深庭玫瑰",
+      "revid": 8615,
+      "file": "characters/深庭玫瑰.json",
+      "fetched_at": "2026-11-20T15:53:48+00:00"
+    },
+    "characters/神之嫡子": {
+      "title": "神之嫡子",
+      "revid": 8642,
+      "file": "characters/神之嫡子.json",
+      "fetched_at": "2026-11-20T15:53:51+00:00"
+    },
+    "characters/圣翼降临": {
+      "title": "圣翼降临",
+      "revid": 8619,
+      "file": "characters/圣翼降临.json",
+      "fetched_at": "2026-11-20T15:53:52+00:00"
+    },
+    "characters/蚀骨魂龙": {
+      "title": "蚀骨魂龙",
+      "revid": 9016,
+      "file": "characters/蚀骨魂龙.json",
+      "fetched_at": "2026-11-20T15:53:55+00:00"
+    },
+    "characters/双鸣追猎": {
+      "title": "双鸣追猎",
+      "revid": 8638,
+      "file": "characters/双鸣追猎.json",
+      "fetched_at": "2026-11-20T15:53:58+00:00"
+    },
+    "characters/双子之盾": {
+      "title": "双子之盾",
+      "revid": 8657,
+      "file": "characters/双子之盾.json",
+      "fetched_at": "2026-11-20T15:54:00+00:00"
+    },
+    "characters/司正天座": {
+      "title": "司正天座",
+      "revid": 9259,
+      "file": "characters/司正天座.json",
+      "fetched_at": "2026-11-20T15:54:02+00:00"
+    },
+    "characters/天邪魅影": {
+      "title": "天邪魅影",
+      "revid": 9031,
+      "file": "characters/天邪魅影.json",
+      "fetched_at": "2026-11-20T15:54:04+00:00"
+    },
+    "characters/王国猎手": {
+      "title": "王国猎手",
+      "revid": 8644,
+      "file": "characters/王国猎手.json",
+      "fetched_at": "2026-11-20T15:54:07+00:00"
+    },
+    "characters/绚彩星绘": {
+      "title": "绚彩星绘",
+      "revid": 8606,
+      "file": "characters/绚彩星绘.json",
+      "fetched_at": "2026-11-20T15:54:09+00:00"
+    },
+    "characters/雪月公主": {
+      "title": "雪月公主",
+      "revid": 8608,
+      "file": "characters/雪月公主.json",
+      "fetched_at": "2026-11-20T15:54:11+00:00"
+    },
+    "characters/巡林游侠": {
+      "title": "巡林游侠",
+      "revid": 8645,
+      "file": "characters/巡林游侠.json",
+      "fetched_at": "2026-11-20T15:54:13+00:00"
+    },
+    "characters/妖刀": {
+      "title": "妖刀",
+      "revid": 8624,
+      "file": "characters/妖刀.json",
+      "fetched_at": "2026-11-20T15:54:15+00:00"
+    },
+    "characters/夜行暹罗": {
+      "title": "夜行暹罗",
+      "revid": 8701,
+      "file": "characters/夜行暹罗.json",
+      "fetched_at": "2026-11-20T15:54:17+00:00"
+    },
+    "characters/夜宴霆光": {
+      "title": "夜宴霆光",
+      "revid": 9185,
+      "file": "characters/夜宴霆光.json",
+      "fetched_at": "2026-11-20T15:54:22+00:00"
+    },
+    "characters/异国商人": {
+      "title": "异国商人",
+      "revid": 8614,
+      "file": "characters/异国商人.json",
+      "fetched_at": "2026-11-20T15:54:25+00:00"
+    },
+    "characters/银刃之誓": {
+      "title": "银刃之誓",
+      "revid": 9186,
+      "file": "characters/银刃之誓.json",
+      "fetched_at": "2026-11-20T15:54:27+00:00"
+    },
+    "characters/玉尘灵仙": {
+      "title": "玉尘灵仙",
+      "revid": 9187,
+      "file": "characters/玉尘灵仙.json",
+      "fetched_at": "2026-11-20T15:54:30+00:00"
+    },
+    "characters/玉面九尾": {
+      "title": "玉面九尾",
+      "revid": 8609,
+      "file": "characters/玉面九尾.json",
+      "fetched_at": "2026-11-20T15:54:32+00:00"
+    },
+    "characters/御刃神锋": {
+      "title": "御刃神锋",
+      "revid": 8652,
+      "file": "characters/御刃神锋.json",
+      "fetched_at": "2026-11-20T15:54:36+00:00"
+    },
+    "characters/月渊龙女": {
+      "title": "月渊龙女",
+      "revid": 9143,
+      "file": "characters/月渊龙女.json",
+      "fetched_at": "2026-11-20T15:54:38+00:00"
+    },
+    "characters/战争之蹄": {
+      "title": "战争之蹄",
+      "revid": 8641,
+      "file": "characters/战争之蹄.json",
+      "fetched_at": "2026-11-20T15:54:40+00:00"
+    },
+    "characters/长辉照夜": {
+      "title": "长辉照夜",
+      "revid": 8854,
+      "file": "characters/长辉照夜.json",
+      "fetched_at": "2026-11-20T15:54:42+00:00"
+    },
+    "characters/长夜之影": {
+      "title": "长夜之影",
+      "revid": 8627,
+      "file": "characters/长夜之影.json",
+      "fetched_at": "2026-11-20T15:54:47+00:00"
+    },
+    "characters/炙光之舞": {
+      "title": "炙光之舞",
+      "revid": 9132,
+      "file": "characters/炙光之舞.json",
+      "fetched_at": "2026-11-20T15:54:49+00:00"
+    },
+    "characters/自由炮手": {
+      "title": "自由炮手",
+      "revid": 8929,
+      "file": "characters/自由炮手.json",
+      "fetched_at": "2026-11-20T15:54:51+00:00"
+    },
+    "characters/纵火妖精": {
+      "title": "纵火妖精",
+      "revid": 8634,
+      "file": "characters/纵火妖精.json",
+      "fetched_at": "2026-11-20T15:54:53+00:00"
+    },
+    "characters/诅咒之王": {
+      "title": "诅咒之王",
+      "revid": 8667,
+      "file": "characters/诅咒之王.json",
+      "fetched_at": "2026-11-20T15:54:55+00:00"
+    },
+    "pages/PVE节奏榜": {
+      "title": "PVE节奏榜",
+      "revid": 9034,
+      "file": "pages/PVE节奏榜.json",
+      "fetched_at": "2026-11-20T15:54:59+00:00"
+    },
+    "pages/PVP节奏榜": {
+      "title": "PVP节奏榜",
+      "revid": 9140,
+      "file": "pages/PVP节奏榜.json",
+      "fetched_at": "2026-11-20T15:55:02+00:00"
+    },
+    "pages/装备": {
+      "title": "装备",
+      "revid": 8457,
+      "file": "pages/装备.json",
+      "fetched_at": "2026-11-20T15:55:04+00:00"
+    },
+    "pages/黑石": {
+      "title": "黑石",
+      "revid": 7194,
+      "file": "pages/黑石.json",
+      "fetched_at": "2026-11-20T15:55:06+00:00"
+    },
+    "pages/符文": {
+      "title": "符文",
+      "revid": 5555,
+      "file": "pages/符文.json",
+      "fetched_at": "2026-11-20T15:55:08+00:00"
+    },
+    "pages/遗物": {
+      "title": "遗物",
+      "revid": 6407,
+      "file": "pages/遗物.json",
+      "fetched_at": "2026-11-20T15:55:10+00:00"
+    },
+    "pages/阵线": {
+      "title": "阵线",
+      "revid": 8977,
+      "file": "pages/阵线.json",
+      "fetched_at": "2026-11-20T15:55:12+00:00"
+    },
+    "pages/天赋推荐": {
+      "title": "天赋推荐",
+      "revid": 5551,
+      "file": "pages/天赋推荐.json",
+      "fetched_at": "2026-11-20T15:55:14+00:00"
+    },
+    "pages/黑话解读": {
+      "title": "黑话解读",
+      "revid": 8201,
+      "file": "pages/黑话解读.json",
+      "fetched_at": "2026-11-20T15:55:19+00:00"
+    },
+    "templates/模板:JS": {
+      "title": "模板:JS",
+      "revid": 5519,
+      "file": "templates/模板_JS.json",
+      "fetched_at": "2026-11-20T15:55:23+00:00"
+    },
+    "templates/模板:ResourceLoader": {
+      "title": "模板:ResourceLoader",
+      "revid": 5515,
+      "file": "templates/模板_ResourceLoader.json",
+      "fetched_at": "2026-11-20T15:55:25+00:00"
+    },
+    "templates/模板:前锋战格": {
+      "title": "模板:前锋战格",
+      "revid": 9197,
+      "file": "templates/模板_前锋战格.json",
+      "fetched_at": "2026-11-20T15:55:29+00:00"
+    },
+    "templates/模板:守护战格": {
+      "title": "模板:守护战格",
+      "revid": 9199,
+      "file": "templates/模板_守护战格.json",
+      "fetched_at": "2026-11-20T15:55:31+00:00"
+    },
+    "templates/模板:推荐符文": {
+      "title": "模板:推荐符文",
+      "revid": 9026,
+      "file": "templates/模板_推荐符文.json",
+      "fetched_at": "2026-11-20T15:55:32+00:00"
+    },
+    "templates/模板:推荐黑石": {
+      "title": "模板:推荐黑石",
+      "revid": 8770,
+      "file": "templates/模板_推荐黑石.json",
+      "fetched_at": "2026-11-20T15:55:34+00:00"
+    },
+    "templates/模板:消耗品icon": {
+      "title": "模板:消耗品icon",
+      "revid": 7401,
+      "file": "templates/模板_消耗品icon.json",
+      "fetched_at": "2026-11-20T15:55:36+00:00"
+    },
+    "templates/模板:秘术战格": {
+      "title": "模板:秘术战格",
+      "revid": 9200,
+      "file": "templates/模板_秘术战格.json",
+      "fetched_at": "2026-11-20T15:55:38+00:00"
+    },
+    "templates/模板:空白占位符": {
+      "title": "模板:空白占位符",
+      "revid": 7183,
+      "file": "templates/模板_空白占位符.json",
+      "fetched_at": "2026-11-20T15:55:41+00:00"
+    },
+    "templates/模板:符文图标": {
+      "title": "模板:符文图标",
+      "revid": 8762,
+      "file": "templates/模板_符文图标.json",
+      "fetched_at": "2026-11-20T15:55:43+00:00"
+    },
+    "templates/模板:等级Tab": {
+      "title": "模板:等级Tab",
+      "revid": 7355,
+      "file": "templates/模板_等级Tab.json",
+      "fetched_at": "2026-11-20T15:55:46+00:00"
+    },
+    "templates/模板:遗物筛选/黑卫": {
+      "title": "模板:遗物筛选/黑卫",
+      "revid": 7651,
+      "file": "templates/模板_遗物筛选_黑卫.json",
+      "fetched_at": "2026-11-20T15:55:49+00:00"
+    },
+    "templates/模板:阵线图标": {
+      "title": "模板:阵线图标",
+      "revid": 7190,
+      "file": "templates/模板_阵线图标.json",
+      "fetched_at": "2026-11-20T15:55:50+00:00"
+    },
+    "templates/模板:颜色": {
+      "title": "模板:颜色",
+      "revid": 5522,
+      "file": "templates/模板_颜色.json",
+      "fetched_at": "2026-11-20T15:55:53+00:00"
+    },
+    "templates/模板:黑卫": {
+      "title": "模板:黑卫",
+      "revid": 8523,
+      "file": "templates/模板_黑卫.json",
+      "fetched_at": "2026-11-20T15:55:56+00:00"
+    },
+    "templates/模板:黑卫技能": {
+      "title": "模板:黑卫技能",
+      "revid": 8669,
+      "file": "templates/模板_黑卫技能.json",
+      "fetched_at": "2026-11-20T15:55:58+00:00"
+    },
+    "templates/模板:黑卫神格": {
+      "title": "模板:黑卫神格",
+      "revid": 7404,
+      "file": "templates/模板_黑卫神格.json",
+      "fetched_at": "2026-11-20T15:56:00+00:00"
+    },
+    "templates/模板:黑卫立绘": {
+      "title": "模板:黑卫立绘",
+      "revid": 5525,
+      "file": "templates/模板_黑卫立绘.json",
+      "fetched_at": "2026-11-20T15:56:02+00:00"
+    },
+    "templates/模板:黑卫羁绊好感度": {
+      "title": "模板:黑卫羁绊好感度",
+      "revid": 5526,
+      "file": "templates/模板_黑卫羁绊好感度.json",
+      "fetched_at": "2026-11-20T15:56:05+00:00"
+    },
+    "templates/模板:黑卫背景故事": {
+      "title": "模板:黑卫背景故事",
+      "revid": 5527,
+      "file": "templates/模板_黑卫背景故事.json",
+      "fetched_at": "2026-11-20T15:56:07+00:00"
+    },
+    "templates/模板:黑卫血阶": {
+      "title": "模板:黑卫血阶",
+      "revid": 7538,
+      "file": "templates/模板_黑卫血阶.json",
+      "fetched_at": "2026-11-20T15:56:09+00:00"
+    },
+    "templates/模板:黑卫遗物": {
+      "title": "模板:黑卫遗物",
+      "revid": 7569,
+      "file": "templates/模板_黑卫遗物.json",
+      "fetched_at": "2026-11-20T15:56:11+00:00"
+    },
+    "templates/模板:黑卫配装": {
+      "title": "模板:黑卫配装",
+      "revid": 9122,
+      "file": "templates/模板_黑卫配装.json",
+      "fetched_at": "2026-11-20T15:56:13+00:00"
+    },
+    "templates/模板:黑石图标": {
+      "title": "模板:黑石图标",
+      "revid": 8761,
+      "file": "templates/模板_黑石图标.json",
+      "fetched_at": "2026-11-20T15:56:15+00:00"
+    },
+    "gear/阿萨辛之首": {
+      "title": "阿萨辛之首",
+      "revid": 5460,
+      "file": "gear/阿萨辛之首.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/暗夜刺足": {
+      "title": "暗夜刺足",
+      "revid": 3151,
+      "file": "gear/暗夜刺足.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/暗咒蚀冠": {
+      "title": "暗咒蚀冠",
+      "revid": 6293,
+      "file": "gear/暗咒蚀冠.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/白羽声生": {
+      "title": "白羽声生",
+      "revid": 8486,
+      "file": "gear/白羽声生.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/爆冰杖": {
+      "title": "爆冰杖",
+      "revid": 629,
+      "file": "gear/爆冰杖.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/薄暮幽寂影手": {
+      "title": "薄暮幽寂影手",
+      "revid": 5440,
+      "file": "gear/薄暮幽寂影手.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/碧落丹心净盾": {
+      "title": "碧落丹心净盾",
+      "revid": 4817,
+      "file": "gear/碧落丹心净盾.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/碧落丹心净徽": {
+      "title": "碧落丹心净徽",
+      "revid": 4816,
+      "file": "gear/碧落丹心净徽.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/碧落丹心净戒": {
+      "title": "碧落丹心净戒",
+      "revid": 4814,
+      "file": "gear/碧落丹心净戒.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/碧落丹心净空": {
+      "title": "碧落丹心净空",
+      "revid": 4815,
+      "file": "gear/碧落丹心净空.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/碧落丹心净手": {
+      "title": "碧落丹心净手",
+      "revid": 5445,
+      "file": "gear/碧落丹心净手.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/碧影扶风": {
+      "title": "碧影扶风",
+      "revid": 5033,
+      "file": "gear/碧影扶风.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/冰猎": {
+      "title": "冰猎",
+      "revid": 5467,
+      "file": "gear/冰猎.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/不死鸟面": {
+      "title": "不死鸟面",
+      "revid": 6294,
+      "file": "gear/不死鸟面.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/不朽骸枪": {
+      "title": "不朽骸枪",
+      "revid": 8490,
+      "file": "gear/不朽骸枪.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/残虐之徽": {
+      "title": "残虐之徽",
+      "revid": 8464,
+      "file": "gear/残虐之徽.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/苍劲风轨": {
+      "title": "苍劲风轨",
+      "revid": 8471,
+      "file": "gear/苍劲风轨.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/苍珀玄帽": {
+      "title": "苍珀玄帽",
+      "revid": 4434,
+      "file": "gear/苍珀玄帽.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/苍珀玄牌": {
+      "title": "苍珀玄牌",
+      "revid": 4416,
+      "file": "gear/苍珀玄牌.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/藏蕴破冠": {
+      "title": "藏蕴破冠",
+      "revid": 6292,
+      "file": "gear/藏蕴破冠.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/穿魂夺魄秘杯": {
+      "title": "穿魂夺魄秘杯",
+      "revid": 4820,
+      "file": "gear/穿魂夺魄秘杯.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/穿魂夺魄秘盾": {
+      "title": "穿魂夺魄秘盾",
+      "revid": 4818,
+      "file": "gear/穿魂夺魄秘盾.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/穿魂夺魄秘徽": {
+      "title": "穿魂夺魄秘徽",
+      "revid": 4819,
+      "file": "gear/穿魂夺魄秘徽.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/穿魂夺魄秘戒": {
+      "title": "穿魂夺魄秘戒",
+      "revid": 4821,
+      "file": "gear/穿魂夺魄秘戒.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/穿魂夺魄秘手": {
+      "title": "穿魂夺魄秘手",
+      "revid": 5447,
+      "file": "gear/穿魂夺魄秘手.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/春序伞舞": {
+      "title": "春序伞舞",
+      "revid": 8476,
+      "file": "gear/春序伞舞.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/刺影锁甲": {
+      "title": "刺影锁甲",
+      "revid": 4532,
+      "file": "gear/刺影锁甲.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/导师之守护": {
+      "title": "导师之守护",
+      "revid": 2887,
+      "file": "gear/导师之守护.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/抵抗勋章": {
+      "title": "抵抗勋章",
+      "revid": 8469,
+      "file": "gear/抵抗勋章.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/帝胄守护": {
+      "title": "帝胄守护",
+      "revid": 2897,
+      "file": "gear/帝胄守护.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/电磁光羽": {
+      "title": "电磁光羽",
+      "revid": 8474,
+      "file": "gear/电磁光羽.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/电光缠绕": {
+      "title": "电光缠绕",
+      "revid": 4543,
+      "file": "gear/电光缠绕.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/电闪魂面": {
+      "title": "电闪魂面",
+      "revid": 4444,
+      "file": "gear/电闪魂面.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/电闪魂牌": {
+      "title": "电闪魂牌",
+      "revid": 4422,
+      "file": "gear/电闪魂牌.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/电涌蚀心裤": {
+      "title": "电涌蚀心裤",
+      "revid": 4535,
+      "file": "gear/电涌蚀心裤.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/喋血金带": {
+      "title": "喋血金带",
+      "revid": 4474,
+      "file": "gear/喋血金带.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/叠影金冠": {
+      "title": "叠影金冠",
+      "revid": 6284,
+      "file": "gear/叠影金冠.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/定心精盔": {
+      "title": "定心精盔",
+      "revid": 7407,
+      "file": "gear/定心精盔.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/盾护之牌": {
+      "title": "盾护之牌",
+      "revid": 5487,
+      "file": "gear/盾护之牌.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/夺魂之戒": {
+      "title": "夺魂之戒",
+      "revid": 5477,
+      "file": "gear/夺魂之戒.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/法球咒铠": {
+      "title": "法球咒铠",
+      "revid": 7408,
+      "file": "gear/法球咒铠.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/飞鸿": {
+      "title": "飞鸿",
+      "revid": 8478,
+      "file": "gear/飞鸿.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/封魂巨棺": {
+      "title": "封魂巨棺",
+      "revid": 8493,
+      "file": "gear/封魂巨棺.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/感电者": {
+      "title": "感电者",
+      "revid": 7409,
+      "file": "gear/感电者.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/古龙威怒": {
+      "title": "古龙威怒",
+      "revid": 4766,
+      "file": "gear/古龙威怒.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/寒刃霜天": {
+      "title": "寒刃霜天",
+      "revid": 8472,
+      "file": "gear/寒刃霜天.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/寒霜行者": {
+      "title": "寒霜行者",
+      "revid": 5461,
+      "file": "gear/寒霜行者.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/黑暗刺杀者": {
+      "title": "黑暗刺杀者",
+      "revid": 2898,
+      "file": "gear/黑暗刺杀者.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/护法铁壁": {
+      "title": "护法铁壁",
+      "revid": 4456,
+      "file": "gear/护法铁壁.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/辉耀之环": {
+      "title": "辉耀之环",
+      "revid": 1778,
+      "file": "gear/辉耀之环.json",
+      "fetched_at": "2026-11-20T16:10:09+00:00"
+    },
+    "gear/辉耀之链": {
+      "title": "辉耀之链",
+      "revid": 4438,
+      "file": "gear/辉耀之链.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/辉耀炙芒星手": {
+      "title": "辉耀炙芒星手",
+      "revid": 5443,
+      "file": "gear/辉耀炙芒星手.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/回涌短裤": {
+      "title": "回涌短裤",
+      "revid": 6074,
+      "file": "gear/回涌短裤.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/混沌利刃": {
+      "title": "混沌利刃",
+      "revid": 9212,
+      "file": "gear/混沌利刃.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/魂渊咒牌": {
+      "title": "魂渊咒牌",
+      "revid": 4528,
+      "file": "gear/魂渊咒牌.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/活体火焰": {
+      "title": "活体火焰",
+      "revid": 2888,
+      "file": "gear/活体火焰.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/疾风劲射": {
+      "title": "疾风劲射",
+      "revid": 8481,
+      "file": "gear/疾风劲射.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/极黑龙炮": {
+      "title": "极黑龙炮",
+      "revid": 8494,
+      "file": "gear/极黑龙炮.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/祭礼手套": {
+      "title": "祭礼手套",
+      "revid": 5051,
+      "file": "gear/祭礼手套.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/祭仪羽冠": {
+      "title": "祭仪羽冠",
+      "revid": 4447,
+      "file": "gear/祭仪羽冠.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/界卫魔面": {
+      "title": "界卫魔面",
+      "revid": 6290,
+      "file": "gear/界卫魔面.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/精魄魔牌": {
+      "title": "精魄魔牌",
+      "revid": 3156,
+      "file": "gear/精魄魔牌.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/飓风凛甲": {
+      "title": "飓风凛甲",
+      "revid": 4454,
+      "file": "gear/飓风凛甲.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/聚魔铠甲": {
+      "title": "聚魔铠甲",
+      "revid": 4457,
+      "file": "gear/聚魔铠甲.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/聚能之铠": {
+      "title": "聚能之铠",
+      "revid": 4960,
+      "file": "gear/聚能之铠.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/绝境增益翠羽": {
+      "title": "绝境增益翠羽",
+      "revid": 603,
+      "file": "gear/绝境增益翠羽.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/绝境増益翡手": {
+      "title": "绝境増益翡手",
+      "revid": 5449,
+      "file": "gear/绝境増益翡手.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/绝境増益翡影": {
+      "title": "绝境増益翡影",
+      "revid": 4459,
+      "file": "gear/绝境増益翡影.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/绝境增益绿玉": {
+      "title": "绝境增益绿玉",
+      "revid": 4472,
+      "file": "gear/绝境增益绿玉.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/绝境増益青盾": {
+      "title": "绝境増益青盾",
+      "revid": 610,
+      "file": "gear/绝境増益青盾.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/渴血": {
+      "title": "渴血",
+      "revid": 2879,
+      "file": "gear/渴血.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/狂悖": {
+      "title": "狂悖",
+      "revid": 8487,
+      "file": "gear/狂悖.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/狂猎": {
+      "title": "狂猎",
+      "revid": 2288,
+      "file": "gear/狂猎.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/狂热征伐": {
+      "title": "狂热征伐",
+      "revid": 594,
+      "file": "gear/狂热征伐.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/雷狩裂空": {
+      "title": "雷狩裂空",
+      "revid": 8688,
+      "file": "gear/雷狩裂空.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/雷霆之怒": {
+      "title": "雷霆之怒",
+      "revid": 2870,
+      "file": "gear/雷霆之怒.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/雷云捕手": {
+      "title": "雷云捕手",
+      "revid": 5646,
+      "file": "gear/雷云捕手.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/雷咒长袍": {
+      "title": "雷咒长袍",
+      "revid": 7410,
+      "file": "gear/雷咒长袍.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/黎明行者": {
+      "title": "黎明行者",
+      "revid": 3152,
+      "file": "gear/黎明行者.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/怜悯圣靴": {
+      "title": "怜悯圣靴",
+      "revid": 6586,
+      "file": "gear/怜悯圣靴.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/燎原焰影": {
+      "title": "燎原焰影",
+      "revid": 8488,
+      "file": "gear/燎原焰影.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/烈刃炎上": {
+      "title": "烈刃炎上",
+      "revid": 8475,
+      "file": "gear/烈刃炎上.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/凛冬祈雪": {
+      "title": "凛冬祈雪",
+      "revid": 8491,
+      "file": "gear/凛冬祈雪.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/灵魔织带": {
+      "title": "灵魔织带",
+      "revid": 6288,
+      "file": "gear/灵魔织带.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/灵愈生轮": {
+      "title": "灵愈生轮",
+      "revid": 4544,
+      "file": "gear/灵愈生轮.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/灵跃生靴": {
+      "title": "灵跃生靴",
+      "revid": 5111,
+      "file": "gear/灵跃生靴.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/龙脊刺尾": {
+      "title": "龙脊刺尾",
+      "revid": 8492,
+      "file": "gear/龙脊刺尾.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/龙力魔牌": {
+      "title": "龙力魔牌",
+      "revid": 7405,
+      "file": "gear/龙力魔牌.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/龙吟裹腰": {
+      "title": "龙吟裹腰",
+      "revid": 2890,
+      "file": "gear/龙吟裹腰.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/绿野隐牌": {
+      "title": "绿野隐牌",
+      "revid": 4526,
+      "file": "gear/绿野隐牌.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/秘影徽识": {
+      "title": "秘影徽识",
+      "revid": 8468,
+      "file": "gear/秘影徽识.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/冥蚀渊薮咒盾": {
+      "title": "冥蚀渊薮咒盾",
+      "revid": 8551,
+      "file": "gear/冥蚀渊薮咒盾.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/冥蚀渊薮咒符": {
+      "title": "冥蚀渊薮咒符",
+      "revid": 8549,
+      "file": "gear/冥蚀渊薮咒符.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/冥蚀渊薮咒徽": {
+      "title": "冥蚀渊薮咒徽",
+      "revid": 8550,
+      "file": "gear/冥蚀渊薮咒徽.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/冥蚀渊薮咒戒": {
+      "title": "冥蚀渊薮咒戒",
+      "revid": 8552,
+      "file": "gear/冥蚀渊薮咒戒.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/冥蚀渊薮咒手": {
+      "title": "冥蚀渊薮咒手",
+      "revid": 8554,
+      "file": "gear/冥蚀渊薮咒手.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/魔使翼靴": {
+      "title": "魔使翼靴",
+      "revid": 6286,
+      "file": "gear/魔使翼靴.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/魔涌之徽": {
+      "title": "魔涌之徽",
+      "revid": 8466,
+      "file": "gear/魔涌之徽.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/魔御灵牌": {
+      "title": "魔御灵牌",
+      "revid": 6081,
+      "file": "gear/魔御灵牌.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/魔源裤腿": {
+      "title": "魔源裤腿",
+      "revid": 3148,
+      "file": "gear/魔源裤腿.json",
+      "fetched_at": "2026-11-20T16:10:11+00:00"
+    },
+    "gear/魔宗法靴": {
+      "title": "魔宗法靴",
+      "revid": 5108,
+      "file": "gear/魔宗法靴.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/沐光环绕": {
+      "title": "沐光环绕",
+      "revid": 4743,
+      "file": "gear/沐光环绕.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/逆厄辉环": {
+      "title": "逆厄辉环",
+      "revid": 4801,
+      "file": "gear/逆厄辉环.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/逆厄辉焕光手": {
+      "title": "逆厄辉焕光手",
+      "revid": 5450,
+      "file": "gear/逆厄辉焕光手.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/逆厄辉链": {
+      "title": "逆厄辉链",
+      "revid": 4804,
+      "file": "gear/逆厄辉链.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/念力魂索": {
+      "title": "念力魂索",
+      "revid": 6073,
+      "file": "gear/念力魂索.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/漂浮灵匣": {
+      "title": "漂浮灵匣",
+      "revid": 8470,
+      "file": "gear/漂浮灵匣.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/破晓步枪": {
+      "title": "破晓步枪",
+      "revid": 8479,
+      "file": "gear/破晓步枪.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/漆黑十字": {
+      "title": "漆黑十字",
+      "revid": 4822,
+      "file": "gear/漆黑十字.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/祈火灵盔": {
+      "title": "祈火灵盔",
+      "revid": 4445,
+      "file": "gear/祈火灵盔.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/祈火灵牌": {
+      "title": "祈火灵牌",
+      "revid": 4421,
+      "file": "gear/祈火灵牌.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/七杀分牌": {
+      "title": "七杀分牌",
+      "revid": 6079,
+      "file": "gear/七杀分牌.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/七杀令牌": {
+      "title": "七杀令牌",
+      "revid": 6287,
+      "file": "gear/七杀令牌.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/气韵回生裤": {
+      "title": "气韵回生裤",
+      "revid": 4536,
+      "file": "gear/气韵回生裤.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/清光昭雪": {
+      "title": "清光昭雪",
+      "revid": 9269,
+      "file": "gear/清光昭雪.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/青琅玲珑金杯": {
+      "title": "青琅玲珑金杯",
+      "revid": 4469,
+      "file": "gear/青琅玲珑金杯.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/青琅玲珑金盾": {
+      "title": "青琅玲珑金盾",
+      "revid": 5384,
+      "file": "gear/青琅玲珑金盾.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/青琅玲珑金辉": {
+      "title": "青琅玲珑金辉",
+      "revid": 600,
+      "file": "gear/青琅玲珑金辉.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/青琅玲珑金戒": {
+      "title": "青琅玲珑金戒",
+      "revid": 4461,
+      "file": "gear/青琅玲珑金戒.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/青琅玲珑金手": {
+      "title": "青琅玲珑金手",
+      "revid": 5446,
+      "file": "gear/青琅玲珑金手.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/染血狼牙": {
+      "title": "染血狼牙",
+      "revid": 8482,
+      "file": "gear/染血狼牙.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/深渊壁垒": {
+      "title": "深渊壁垒",
+      "revid": 2293,
+      "file": "gear/深渊壁垒.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/深渊之握": {
+      "title": "深渊之握",
+      "revid": 2882,
+      "file": "gear/深渊之握.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/圣临庇护": {
+      "title": "圣临庇护",
+      "revid": 615,
+      "file": "gear/圣临庇护.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/圣临光徽": {
+      "title": "圣临光徽",
+      "revid": 607,
+      "file": "gear/圣临光徽.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/圣临光戒": {
+      "title": "圣临光戒",
+      "revid": 4464,
+      "file": "gear/圣临光戒.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/圣临光手": {
+      "title": "圣临光手",
+      "revid": 5442,
+      "file": "gear/圣临光手.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/圣临奇迹": {
+      "title": "圣临奇迹",
+      "revid": 4466,
+      "file": "gear/圣临奇迹.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/圣守耀盔": {
+      "title": "圣守耀盔",
+      "revid": 4450,
+      "file": "gear/圣守耀盔.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/盛宴之结": {
+      "title": "盛宴之结",
+      "revid": 4473,
+      "file": "gear/盛宴之结.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/圣翼光羽": {
+      "title": "圣翼光羽",
+      "revid": 8480,
+      "file": "gear/圣翼光羽.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/生盈护甲": {
+      "title": "生盈护甲",
+      "revid": 4531,
+      "file": "gear/生盈护甲.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/圣战辉牌": {
+      "title": "圣战辉牌",
+      "revid": 4527,
+      "file": "gear/圣战辉牌.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/圣职驱魔": {
+      "title": "圣职驱魔",
+      "revid": 7406,
+      "file": "gear/圣职驱魔.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/时间守护者": {
+      "title": "时间守护者",
+      "revid": 5647,
+      "file": "gear/时间守护者.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/嗜血金钢": {
+      "title": "嗜血金钢",
+      "revid": 9211,
+      "file": "gear/嗜血金钢.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/嗜战者束腰": {
+      "title": "嗜战者束腰",
+      "revid": 2901,
+      "file": "gear/嗜战者束腰.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/始祖之血": {
+      "title": "始祖之血",
+      "revid": 4827,
+      "file": "gear/始祖之血.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/狩猎徽章": {
+      "title": "狩猎徽章",
+      "revid": 8465,
+      "file": "gear/狩猎徽章.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/霜凝咒裤": {
+      "title": "霜凝咒裤",
+      "revid": 6076,
+      "file": "gear/霜凝咒裤.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/瞬杀步履": {
+      "title": "瞬杀步履",
+      "revid": 6285,
+      "file": "gear/瞬杀步履.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/烁玉金盔": {
+      "title": "烁玉金盔",
+      "revid": 4451,
+      "file": "gear/烁玉金盔.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/死灵法盾": {
+      "title": "死灵法盾",
+      "revid": 2858,
+      "file": "gear/死灵法盾.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/碎日断岳": {
+      "title": "碎日断岳",
+      "revid": 4800,
+      "file": "gear/碎日断岳.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/随云雁去": {
+      "title": "随云雁去",
+      "revid": 8483,
+      "file": "gear/随云雁去.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/锁魂战靴": {
+      "title": "锁魂战靴",
+      "revid": 5109,
+      "file": "gear/锁魂战靴.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/铁骨护环": {
+      "title": "铁骨护环",
+      "revid": 6072,
+      "file": "gear/铁骨护环.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/铁铠胫甲": {
+      "title": "铁铠胫甲",
+      "revid": 2894,
+      "file": "gear/铁铠胫甲.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/霆霓猩红血盾": {
+      "title": "霆霓猩红血盾",
+      "revid": 614,
+      "file": "gear/霆霓猩红血盾.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/霆霓猩红血戒": {
+      "title": "霆霓猩红血戒",
+      "revid": 4460,
+      "file": "gear/霆霓猩红血戒.json",
+      "fetched_at": "2026-11-20T16:10:14+00:00"
+    },
+    "gear/霆霓猩红血手": {
+      "title": "霆霓猩红血手",
+      "revid": 5448,
+      "file": "gear/霆霓猩红血手.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/霆霓猩红血玺": {
+      "title": "霆霓猩红血玺",
+      "revid": 4467,
+      "file": "gear/霆霓猩红血玺.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/霆霓猩红血印": {
+      "title": "霆霓猩红血印",
+      "revid": 605,
+      "file": "gear/霆霓猩红血印.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/托尔腕轮": {
+      "title": "托尔腕轮",
+      "revid": 6190,
+      "file": "gear/托尔腕轮.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/托尔之呼啸": {
+      "title": "托尔之呼啸",
+      "revid": 5645,
+      "file": "gear/托尔之呼啸.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/托尔之冥思": {
+      "title": "托尔之冥思",
+      "revid": 5644,
+      "file": "gear/托尔之冥思.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/托尔之凝视": {
+      "title": "托尔之凝视",
+      "revid": 5642,
+      "file": "gear/托尔之凝视.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/托尔之神心": {
+      "title": "托尔之神心",
+      "revid": 5643,
+      "file": "gear/托尔之神心.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/王室荣尊": {
+      "title": "王室荣尊",
+      "revid": 5471,
+      "file": "gear/王室荣尊.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/蔚蓝魅影": {
+      "title": "蔚蓝魅影",
+      "revid": 2885,
+      "file": "gear/蔚蓝魅影.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/巫毒咒牌": {
+      "title": "巫毒咒牌",
+      "revid": 6080,
+      "file": "gear/巫毒咒牌.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/戏谑者裤腿": {
+      "title": "戏谑者裤腿",
+      "revid": 2872,
+      "file": "gear/戏谑者裤腿.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/袭月冥冠": {
+      "title": "袭月冥冠",
+      "revid": 6289,
+      "file": "gear/袭月冥冠.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/侠影剑心": {
+      "title": "侠影剑心",
+      "revid": 4927,
+      "file": "gear/侠影剑心.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/陷阵徽章": {
+      "title": "陷阵徽章",
+      "revid": 8463,
+      "file": "gear/陷阵徽章.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/镶魔秘裤": {
+      "title": "镶魔秘裤",
+      "revid": 4534,
+      "file": "gear/镶魔秘裤.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/宵暗刃舞": {
+      "title": "宵暗刃舞",
+      "revid": 8533,
+      "file": "gear/宵暗刃舞.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/星辰战盔": {
+      "title": "星辰战盔",
+      "revid": 4446,
+      "file": "gear/星辰战盔.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/猩红秘戒": {
+      "title": "猩红秘戒",
+      "revid": 2850,
+      "file": "gear/猩红秘戒.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/星命辉甲": {
+      "title": "星命辉甲",
+      "revid": 6069,
+      "file": "gear/星命辉甲.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/虚灵腰环": {
+      "title": "虚灵腰环",
+      "revid": 4475,
+      "file": "gear/虚灵腰环.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/血火荣耀": {
+      "title": "血火荣耀",
+      "revid": 2886,
+      "file": "gear/血火荣耀.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/血隐长刃": {
+      "title": "血隐长刃",
+      "revid": 8459,
+      "file": "gear/血隐长刃.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/雪影白徽": {
+      "title": "雪影白徽",
+      "revid": 604,
+      "file": "gear/雪影白徽.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/雪影冰戒": {
+      "title": "雪影冰戒",
+      "revid": 4463,
+      "file": "gear/雪影冰戒.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/雪影守护": {
+      "title": "雪影守护",
+      "revid": 609,
+      "file": "gear/雪影守护.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/雪影霜冻冰手": {
+      "title": "雪影霜冻冰手",
+      "revid": 5444,
+      "file": "gear/雪影霜冻冰手.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/雪影之遗": {
+      "title": "雪影之遗",
+      "revid": 4470,
+      "file": "gear/雪影之遗.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/血月影甲": {
+      "title": "血月影甲",
+      "revid": 6070,
+      "file": "gear/血月影甲.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/巡游护甲": {
+      "title": "巡游护甲",
+      "revid": 4458,
+      "file": "gear/巡游护甲.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/湮灭混沌环戒": {
+      "title": "湮灭混沌环戒",
+      "revid": 4462,
+      "file": "gear/湮灭混沌环戒.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/湮灭混沌逆杯": {
+      "title": "湮灭混沌逆杯",
+      "revid": 4468,
+      "file": "gear/湮灭混沌逆杯.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/湮灭混沌邪手": {
+      "title": "湮灭混沌邪手",
+      "revid": 5441,
+      "file": "gear/湮灭混沌邪手.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/湮灭混沌邪印": {
+      "title": "湮灭混沌邪印",
+      "revid": 601,
+      "file": "gear/湮灭混沌邪印.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/湮灭混沌星盾": {
+      "title": "湮灭混沌星盾",
+      "revid": 611,
+      "file": "gear/湮灭混沌星盾.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/炎铸胫甲": {
+      "title": "炎铸胫甲",
+      "revid": 6078,
+      "file": "gear/炎铸胫甲.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/阳炎之指": {
+      "title": "阳炎之指",
+      "revid": 2297,
+      "file": "gear/阳炎之指.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/妖精秘手": {
+      "title": "妖精秘手",
+      "revid": 2859,
+      "file": "gear/妖精秘手.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/瑶星神佑圣盾": {
+      "title": "瑶星神佑圣盾",
+      "revid": 7088,
+      "file": "gear/瑶星神佑圣盾.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/瑶星神佑圣徽": {
+      "title": "瑶星神佑圣徽",
+      "revid": 7087,
+      "file": "gear/瑶星神佑圣徽.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/瑶星神佑圣戒": {
+      "title": "瑶星神佑圣戒",
+      "revid": 7085,
+      "file": "gear/瑶星神佑圣戒.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/瑶星神佑圣手": {
+      "title": "瑶星神佑圣手",
+      "revid": 7089,
+      "file": "gear/瑶星神佑圣手.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/瑶星神佑圣钥": {
+      "title": "瑶星神佑圣钥",
+      "revid": 7086,
+      "file": "gear/瑶星神佑圣钥.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/夜幕暗盔": {
+      "title": "夜幕暗盔",
+      "revid": 4448,
+      "file": "gear/夜幕暗盔.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/夜狩风镰": {
+      "title": "夜狩风镰",
+      "revid": 8561,
+      "file": "gear/夜狩风镰.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/银槲之护": {
+      "title": "银槲之护",
+      "revid": 4449,
+      "file": "gear/银槲之护.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/引火巨镰": {
+      "title": "引火巨镰",
+      "revid": 5136,
+      "file": "gear/引火巨镰.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/隐猎魂息": {
+      "title": "隐猎魂息",
+      "revid": 8562,
+      "file": "gear/隐猎魂息.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/饮雪骨冠": {
+      "title": "饮雪骨冠",
+      "revid": 4428,
+      "file": "gear/饮雪骨冠.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/饮雪骨牌": {
+      "title": "饮雪骨牌",
+      "revid": 4423,
+      "file": "gear/饮雪骨牌.json",
+      "fetched_at": "2026-11-20T16:10:17+00:00"
+    },
+    "gear/影步追魂靴": {
+      "title": "影步追魂靴",
+      "revid": 5110,
+      "file": "gear/影步追魂靴.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/幽魂护甲": {
+      "title": "幽魂护甲",
+      "revid": 4453,
+      "file": "gear/幽魂护甲.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/佑世之锋": {
+      "title": "佑世之锋",
+      "revid": 8477,
+      "file": "gear/佑世之锋.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/幽焰剑士碧手": {
+      "title": "幽焰剑士碧手",
+      "revid": 5451,
+      "file": "gear/幽焰剑士碧手.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/幽焰剑士裁决": {
+      "title": "幽焰剑士裁决",
+      "revid": 606,
+      "file": "gear/幽焰剑士裁决.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/幽焰剑士极致": {
+      "title": "幽焰剑士极致",
+      "revid": 612,
+      "file": "gear/幽焰剑士极致.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/幽焰剑士截断": {
+      "title": "幽焰剑士截断",
+      "revid": 4471,
+      "file": "gear/幽焰剑士截断.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/幽焰剑士荣耀": {
+      "title": "幽焰剑士荣耀",
+      "revid": 4465,
+      "file": "gear/幽焰剑士荣耀.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/幽影绝链": {
+      "title": "幽影绝链",
+      "revid": 4476,
+      "file": "gear/幽影绝链.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/幽影暮冥寂手": {
+      "title": "幽影暮冥寂手",
+      "revid": 6258,
+      "file": "gear/幽影暮冥寂手.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/幽影之环": {
+      "title": "幽影之环",
+      "revid": 678,
+      "file": "gear/幽影之环.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/浴火之盾": {
+      "title": "浴火之盾",
+      "revid": 2896,
+      "file": "gear/浴火之盾.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/愈疗圣契": {
+      "title": "愈疗圣契",
+      "revid": 4529,
+      "file": "gear/愈疗圣契.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/源辉石盾": {
+      "title": "源辉石盾",
+      "revid": 8805,
+      "file": "gear/源辉石盾.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/元素大师之裤": {
+      "title": "元素大师之裤",
+      "revid": 2853,
+      "file": "gear/元素大师之裤.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/元素圣灵裤": {
+      "title": "元素圣灵裤",
+      "revid": 3163,
+      "file": "gear/元素圣灵裤.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/月辉·高岭军靴": {
+      "title": "月辉·高岭军靴",
+      "revid": 2891,
+      "file": "gear/月辉·高岭军靴.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/月辉·精英射手": {
+      "title": "月辉·精英射手",
+      "revid": 2290,
+      "file": "gear/月辉·精英射手.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/月辉·芒星守护": {
+      "title": "月辉·芒星守护",
+      "revid": 2884,
+      "file": "gear/月辉·芒星守护.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/月辉·轻盈软甲": {
+      "title": "月辉·轻盈软甲",
+      "revid": 2868,
+      "file": "gear/月辉·轻盈软甲.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/月辉·烁金荧紫": {
+      "title": "月辉·烁金荧紫",
+      "revid": 2847,
+      "file": "gear/月辉·烁金荧紫.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/月辉·王室金靴": {
+      "title": "月辉·王室金靴",
+      "revid": 8795,
+      "file": "gear/月辉·王室金靴.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/月辉·雪上蓝晶": {
+      "title": "月辉·雪上蓝晶",
+      "revid": 2893,
+      "file": "gear/月辉·雪上蓝晶.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/月辉·夜影蝠翼": {
+      "title": "月辉·夜影蝠翼",
+      "revid": 2867,
+      "file": "gear/月辉·夜影蝠翼.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/月辉·紫晶鸦首": {
+      "title": "月辉·紫晶鸦首",
+      "revid": 2852,
+      "file": "gear/月辉·紫晶鸦首.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/云梦纤笔": {
+      "title": "云梦纤笔",
+      "revid": 8484,
+      "file": "gear/云梦纤笔.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/云图点睛": {
+      "title": "云图点睛",
+      "revid": 8473,
+      "file": "gear/云图点睛.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/征战重铠": {
+      "title": "征战重铠",
+      "revid": 4455,
+      "file": "gear/征战重铠.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/质化织裤": {
+      "title": "质化织裤",
+      "revid": 6075,
+      "file": "gear/质化织裤.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/指路吊坠": {
+      "title": "指路吊坠",
+      "revid": 2289,
+      "file": "gear/指路吊坠.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/重岩战铠": {
+      "title": "重岩战铠",
+      "revid": 6068,
+      "file": "gear/重岩战铠.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/咒法徽印": {
+      "title": "咒法徽印",
+      "revid": 2854,
+      "file": "gear/咒法徽印.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/咒光逆带": {
+      "title": "咒光逆带",
+      "revid": 6071,
+      "file": "gear/咒光逆带.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/咒石项链": {
+      "title": "咒石项链",
+      "revid": 2846,
+      "file": "gear/咒石项链.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/诛恶斩邪": {
+      "title": "诛恶斩邪",
+      "revid": 8489,
+      "file": "gear/诛恶斩邪.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/追雷星锤": {
+      "title": "追雷星锤",
+      "revid": 5044,
+      "file": "gear/追雷星锤.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/灼日焚焰": {
+      "title": "灼日焚焰",
+      "revid": 7734,
+      "file": "gear/灼日焚焰.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/紫傀异面": {
+      "title": "紫傀异面",
+      "revid": 6291,
+      "file": "gear/紫傀异面.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/总攻卡牌": {
+      "title": "总攻卡牌",
+      "revid": 5486,
+      "file": "gear/总攻卡牌.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/宗室礼靴": {
+      "title": "宗室礼靴",
+      "revid": 3150,
+      "file": "gear/宗室礼靴.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "gear/奏雷鸣裤": {
+      "title": "奏雷鸣裤",
+      "revid": 6077,
+      "file": "gear/奏雷鸣裤.json",
+      "fetched_at": "2026-11-20T16:10:18+00:00"
+    },
+    "relics/暗之侧影": {
+      "title": "暗之侧影",
+      "revid": 8828,
+      "file": "relics/暗之侧影.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/半倚云湾": {
+      "title": "半倚云湾",
+      "revid": 7639,
+      "file": "relics/半倚云湾.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/不灭之魂": {
+      "title": "不灭之魂",
+      "revid": 6391,
+      "file": "relics/不灭之魂.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/淬骨化生": {
+      "title": "淬骨化生",
+      "revid": 8988,
+      "file": "relics/淬骨化生.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/锻体铸心": {
+      "title": "锻体铸心",
+      "revid": 7648,
+      "file": "relics/锻体铸心.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/复仇徽印": {
+      "title": "复仇徽印",
+      "revid": 7629,
+      "file": "relics/复仇徽印.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/告死之徽": {
+      "title": "告死之徽",
+      "revid": 7621,
+      "file": "relics/告死之徽.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/古龙之怒": {
+      "title": "古龙之怒",
+      "revid": 7632,
+      "file": "relics/古龙之怒.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/光明缔约": {
+      "title": "光明缔约",
+      "revid": 7614,
+      "file": "relics/光明缔约.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/诡秘咒法": {
+      "title": "诡秘咒法",
+      "revid": 6390,
+      "file": "relics/诡秘咒法.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/和光同暖": {
+      "title": "和光同暖",
+      "revid": 7714,
+      "file": "relics/和光同暖.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/魂狩之握": {
+      "title": "魂狩之握",
+      "revid": 7625,
+      "file": "relics/魂狩之握.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/火刑审判": {
+      "title": "火刑审判",
+      "revid": 7615,
+      "file": "relics/火刑审判.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/渐见新绿": {
+      "title": "渐见新绿",
+      "revid": 7634,
+      "file": "relics/渐见新绿.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/惊鸿翩影": {
+      "title": "惊鸿翩影",
+      "revid": 7626,
+      "file": "relics/惊鸿翩影.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/巨龙之息": {
+      "title": "巨龙之息",
+      "revid": 6376,
+      "file": "relics/巨龙之息.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/狂战意志": {
+      "title": "狂战意志",
+      "revid": 6393,
+      "file": "relics/狂战意志.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/乐园之握": {
+      "title": "乐园之握",
+      "revid": 7726,
+      "file": "relics/乐园之握.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/雷蟒晶骸": {
+      "title": "雷蟒晶骸",
+      "revid": 7616,
+      "file": "relics/雷蟒晶骸.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/雷霆铁腕": {
+      "title": "雷霆铁腕",
+      "revid": 6392,
+      "file": "relics/雷霆铁腕.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/利刃徽印": {
+      "title": "利刃徽印",
+      "revid": 7619,
+      "file": "relics/利刃徽印.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/凌春独绽": {
+      "title": "凌春独绽",
+      "revid": 7623,
+      "file": "relics/凌春独绽.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/灵鹿遗骨": {
+      "title": "灵鹿遗骨",
+      "revid": 7611,
+      "file": "relics/灵鹿遗骨.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/灵窍之心": {
+      "title": "灵窍之心",
+      "revid": 7646,
+      "file": "relics/灵窍之心.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/灵咒珠牙": {
+      "title": "灵咒珠牙",
+      "revid": 7570,
+      "file": "relics/灵咒珠牙.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/胧月之影": {
+      "title": "胧月之影",
+      "revid": 8556,
+      "file": "relics/胧月之影.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/铭心一诺": {
+      "title": "铭心一诺",
+      "revid": 8383,
+      "file": "relics/铭心一诺.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/命运忤逆": {
+      "title": "命运忤逆",
+      "revid": 7724,
+      "file": "relics/命运忤逆.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/涅槃之火": {
+      "title": "涅槃之火",
+      "revid": 9008,
+      "file": "relics/涅槃之火.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/青锋斩妖": {
+      "title": "青锋斩妖",
+      "revid": 7617,
+      "file": "relics/青锋斩妖.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/青焰破空": {
+      "title": "青焰破空",
+      "revid": 7752,
+      "file": "relics/青焰破空.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/热情之翼": {
+      "title": "热情之翼",
+      "revid": 7637,
+      "file": "relics/热情之翼.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/神龙之吟": {
+      "title": "神龙之吟",
+      "revid": 9056,
+      "file": "relics/神龙之吟.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/圣剑裁决": {
+      "title": "圣剑裁决",
+      "revid": 6398,
+      "file": "relics/圣剑裁决.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/胜利昭告": {
+      "title": "胜利昭告",
+      "revid": 7635,
+      "file": "relics/胜利昭告.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/圣蹄图腾": {
+      "title": "圣蹄图腾",
+      "revid": 7638,
+      "file": "relics/圣蹄图腾.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/噬魂毒印": {
+      "title": "噬魂毒印",
+      "revid": 7613,
+      "file": "relics/噬魂毒印.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/始见新生": {
+      "title": "始见新生",
+      "revid": 7610,
+      "file": "relics/始见新生.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/狮首之怒": {
+      "title": "狮首之怒",
+      "revid": 6397,
+      "file": "relics/狮首之怒.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/霜冻之灾": {
+      "title": "霜冻之灾",
+      "revid": 6394,
+      "file": "relics/霜冻之灾.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/天律奥典": {
+      "title": "天律奥典",
+      "revid": 9257,
+      "file": "relics/天律奥典.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/天谴印记": {
+      "title": "天谴印记",
+      "revid": 7641,
+      "file": "relics/天谴印记.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/万象归一": {
+      "title": "万象归一",
+      "revid": 7624,
+      "file": "relics/万象归一.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/王室剑徽": {
+      "title": "王室剑徽",
+      "revid": 7633,
+      "file": "relics/王室剑徽.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/维宪徽章": {
+      "title": "维宪徽章",
+      "revid": 7642,
+      "file": "relics/维宪徽章.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/舞者假面": {
+      "title": "舞者假面",
+      "revid": 7618,
+      "file": "relics/舞者假面.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/邪徒徽印": {
+      "title": "邪徒徽印",
+      "revid": 6395,
+      "file": "relics/邪徒徽印.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/悬日金翎": {
+      "title": "悬日金翎",
+      "revid": 8783,
+      "file": "relics/悬日金翎.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/扬波清浪": {
+      "title": "扬波清浪",
+      "revid": 7640,
+      "file": "relics/扬波清浪.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/夜魅呓语": {
+      "title": "夜魅呓语",
+      "revid": 7630,
+      "file": "relics/夜魅呓语.json",
+      "fetched_at": "2026-11-20T16:10:28+00:00"
+    },
+    "relics/永冻容颜": {
+      "title": "永冻容颜",
+      "revid": 7609,
+      "file": "relics/永冻容颜.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "relics/幽冥悬停": {
+      "title": "幽冥悬停",
+      "revid": 7653,
+      "file": "relics/幽冥悬停.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "relics/幽焰龙吟": {
+      "title": "幽焰龙吟",
+      "revid": 7730,
+      "file": "relics/幽焰龙吟.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "relics/羽龙之蜕": {
+      "title": "羽龙之蜕",
+      "revid": 7728,
+      "file": "relics/羽龙之蜕.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "relics/雨润花蕾": {
+      "title": "雨润花蕾",
+      "revid": 8692,
+      "file": "relics/雨润花蕾.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "relics/远见之眼": {
+      "title": "远见之眼",
+      "revid": 7627,
+      "file": "relics/远见之眼.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "relics/织香结蜜": {
+      "title": "织香结蜜",
+      "revid": 7647,
+      "file": "relics/织香结蜜.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "relics/灼华轻羽": {
+      "title": "灼华轻羽",
+      "revid": 9184,
+      "file": "relics/灼华轻羽.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "relics/紫电残响": {
+      "title": "紫电残响",
+      "revid": 9158,
+      "file": "relics/紫电残响.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "relics/诅咒符剑": {
+      "title": "诅咒符剑",
+      "revid": 7612,
+      "file": "relics/诅咒符剑.json",
+      "fetched_at": "2026-11-20T16:10:31+00:00"
+    },
+    "runes/盎然": {
+      "title": "盎然",
+      "revid": 4111,
+      "file": "runes/盎然.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/不灭": {
+      "title": "不灭",
+      "revid": 4114,
+      "file": "runes/不灭.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/残月": {
+      "title": "残月",
+      "revid": 4109,
+      "file": "runes/残月.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/毒牙": {
+      "title": "毒牙",
+      "revid": 4120,
+      "file": "runes/毒牙.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/断钢": {
+      "title": "断钢",
+      "revid": 6459,
+      "file": "runes/断钢.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/腐朽者": {
+      "title": "腐朽者",
+      "revid": 4115,
+      "file": "runes/腐朽者.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/寒月": {
+      "title": "寒月",
+      "revid": 4116,
+      "file": "runes/寒月.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/火咒": {
+      "title": "火咒",
+      "revid": 4137,
+      "file": "runes/火咒.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/绝刃": {
+      "title": "绝刃",
+      "revid": 4118,
+      "file": "runes/绝刃.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/雷灭之刃": {
+      "title": "雷灭之刃",
+      "revid": 4107,
+      "file": "runes/雷灭之刃.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/雷霆咆哮": {
+      "title": "雷霆咆哮",
+      "revid": 4121,
+      "file": "runes/雷霆咆哮.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/雷纹": {
+      "title": "雷纹",
+      "revid": 4142,
+      "file": "runes/雷纹.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/命轮": {
+      "title": "命轮",
+      "revid": 6460,
+      "file": "runes/命轮.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/魔哮": {
+      "title": "魔哮",
+      "revid": 4110,
+      "file": "runes/魔哮.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/凝冰": {
+      "title": "凝冰",
+      "revid": 6458,
+      "file": "runes/凝冰.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/怒法": {
+      "title": "怒法",
+      "revid": 4117,
+      "file": "runes/怒法.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/强健": {
+      "title": "强健",
+      "revid": 4143,
+      "file": "runes/强健.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/闪击": {
+      "title": "闪击",
+      "revid": 4138,
+      "file": "runes/闪击.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/神风": {
+      "title": "神风",
+      "revid": 4139,
+      "file": "runes/神风.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/圣光守护": {
+      "title": "圣光守护",
+      "revid": 4112,
+      "file": "runes/圣光守护.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/生息": {
+      "title": "生息",
+      "revid": 6457,
+      "file": "runes/生息.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/霜雪": {
+      "title": "霜雪",
+      "revid": 4141,
+      "file": "runes/霜雪.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/霜咬": {
+      "title": "霜咬",
+      "revid": 4113,
+      "file": "runes/霜咬.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/铁棘": {
+      "title": "铁棘",
+      "revid": 4140,
+      "file": "runes/铁棘.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/万象余烬": {
+      "title": "万象余烬",
+      "revid": 8785,
+      "file": "runes/万象余烬.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/戏火者": {
+      "title": "戏火者",
+      "revid": 4108,
+      "file": "runes/戏火者.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "runes/逐日者": {
+      "title": "逐日者",
+      "revid": 4119,
+      "file": "runes/逐日者.json",
+      "fetched_at": "2026-11-20T16:10:38+00:00"
+    },
+    "factions/暴怒": {
+      "title": "暴怒",
+      "revid": 7873,
+      "file": "factions/暴怒.json",
+      "fetched_at": "2026-11-20T16:10:45+00:00"
+    },
+    "factions/超导": {
+      "title": "超导",
+      "revid": 7900,
+      "file": "factions/超导.json",
+      "fetched_at": "2026-11-20T16:10:45+00:00"
+    },
+    "factions/刺杀": {
+      "title": "刺杀",
+      "revid": 7883,
+      "file": "factions/刺杀.json",
+      "fetched_at": "2026-11-20T16:10:45+00:00"
+    },
+    "factions/敌法": {
+      "title": "敌法",
+      "revid": 7890,
+      "file": "factions/敌法.json",
+      "fetched_at": "2026-11-20T16:10:45+00:00"
+    },
+    "factions/洞穿": {
+      "title": "洞穿",
+      "revid": 9230,
+      "file": "factions/洞穿.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/盾御": {
+      "title": "盾御",
+      "revid": 7899,
+      "file": "factions/盾御.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/风涌": {
+      "title": "风涌",
+      "revid": 7903,
+      "file": "factions/风涌.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/辅助": {
+      "title": "辅助",
+      "revid": 7880,
+      "file": "factions/辅助.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/共鸣": {
+      "title": "共鸣",
+      "revid": 7906,
+      "file": "factions/共鸣.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/诡影": {
+      "title": "诡影",
+      "revid": 7887,
+      "file": "factions/诡影.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/回馈": {
+      "title": "回馈",
+      "revid": 7885,
+      "file": "factions/回馈.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/回能": {
+      "title": "回能",
+      "revid": 7904,
+      "file": "factions/回能.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/坚韧": {
+      "title": "坚韧",
+      "revid": 7896,
+      "file": "factions/坚韧.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/聚变": {
+      "title": "聚变",
+      "revid": 7905,
+      "file": "factions/聚变.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/雷暴": {
+      "title": "雷暴",
+      "revid": 7907,
+      "file": "factions/雷暴.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/力场": {
+      "title": "力场",
+      "revid": 7901,
+      "file": "factions/力场.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/灵术叠咏": {
+      "title": "灵术叠咏",
+      "revid": 9238,
+      "file": "factions/灵术叠咏.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/流星": {
+      "title": "流星",
+      "revid": 7902,
+      "file": "factions/流星.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/秘术": {
+      "title": "秘术",
+      "revid": 7884,
+      "file": "factions/秘术.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/灭法": {
+      "title": "灭法",
+      "revid": 7909,
+      "file": "factions/灭法.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/魔导": {
+      "title": "魔导",
+      "revid": 7891,
+      "file": "factions/魔导.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/磐石": {
+      "title": "磐石",
+      "revid": 9232,
+      "file": "factions/磐石.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/前锋": {
+      "title": "前锋",
+      "revid": 7882,
+      "file": "factions/前锋.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/强袭": {
+      "title": "强袭",
+      "revid": 7888,
+      "file": "factions/强袭.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/锐意": {
+      "title": "锐意",
+      "revid": 9234,
+      "file": "factions/锐意.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/圣盾": {
+      "title": "圣盾",
+      "revid": 9236,
+      "file": "factions/圣盾.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/噬魂": {
+      "title": "噬魂",
+      "revid": 7892,
+      "file": "factions/噬魂.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/守护": {
+      "title": "守护",
+      "revid": 7879,
+      "file": "factions/守护.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/狩魔": {
+      "title": "狩魔",
+      "revid": 7881,
+      "file": "factions/狩魔.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/死战": {
+      "title": "死战",
+      "revid": 9229,
+      "file": "factions/死战.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/天人": {
+      "title": "天人",
+      "revid": 9235,
+      "file": "factions/天人.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/铁骨": {
+      "title": "铁骨",
+      "revid": 9233,
+      "file": "factions/铁骨.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/铁血": {
+      "title": "铁血",
+      "revid": 9231,
+      "file": "factions/铁血.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/通灵": {
+      "title": "通灵",
+      "revid": 7895,
+      "file": "factions/通灵.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/统帅": {
+      "title": "统帅",
+      "revid": 7898,
+      "file": "factions/统帅.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/血契制约": {
+      "title": "血契制约",
+      "revid": 9239,
+      "file": "factions/血契制约.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/妖精": {
+      "title": "妖精",
+      "revid": 7897,
+      "file": "factions/妖精.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/医者": {
+      "title": "医者",
+      "revid": 7893,
+      "file": "factions/医者.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/影之使魔": {
+      "title": "影之使魔",
+      "revid": 9240,
+      "file": "factions/影之使魔.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/游侠": {
+      "title": "游侠",
+      "revid": 7886,
+      "file": "factions/游侠.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/召唤": {
+      "title": "召唤",
+      "revid": 7894,
+      "file": "factions/召唤.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/智慧": {
+      "title": "智慧",
+      "revid": 7889,
+      "file": "factions/智慧.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/咒蚀": {
+      "title": "咒蚀",
+      "revid": 7908,
+      "file": "factions/咒蚀.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/咒印回响": {
+      "title": "咒印回响",
+      "revid": 9237,
+      "file": "factions/咒印回响.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "factions/组合": {
+      "title": "组合",
+      "revid": 7878,
+      "file": "factions/组合.json",
+      "fetched_at": "2026-11-20T16:10:46+00:00"
+    },
+    "pages/首页": {
+      "title": "首页",
+      "revid": 9243,
+      "file": "pages/首页.json",
+      "fetched_at": "2026-11-20T16:10:50+00:00"
+    },
+    "black_stones/黑石": {
+      "title": "黑石",
+      "revid": 7194,
+      "file": "black_stones/黑石.json",
+      "fetched_at": "2026-11-20T16:10:55+00:00"
+    },
+    "black_stones/黑石强化": {
+      "title": "黑石强化",
+      "revid": 5857,
+      "file": "black_stones/黑石强化.json",
+      "fetched_at": "2026-11-20T16:10:55+00:00"
+    },
+    "black_stones/模板:推荐黑石": {
+      "title": "模板:推荐黑石",
+      "revid": 8770,
+      "file": "black_stones/模板_推荐黑石.json",
+      "fetched_at": "2026-11-20T16:10:55+00:00"
+    },
+    "rendered/首页": {
+      "title": "首页",
+      "revid": 9243,
+      "file": "rendered/首页.json",
+      "fetched_at": "2026-11-20T16:29:19+00:00"
+    },
+    "extra_items/扩散魔链": {
+      "title": "扩散魔链",
+      "revid": 9040,
+      "file": "extra_items/扩散魔链.json",
+      "fetched_at": "2026-11-20T17:04:57+00:00"
+    },
+    "extra_items/狩猎徽章": {
+      "title": "狩猎徽章",
+      "revid": 8465,
+      "file": "extra_items/狩猎徽章.json",
+      "fetched_at": "2026-11-20T17:04:57+00:00"
+    },
+    "extra_items/界卫魔面": {
+      "title": "界卫魔面",
+      "revid": 6290,
+      "file": "extra_items/界卫魔面.json",
+      "fetched_at": "2026-11-20T17:04:57+00:00"
+    },
+    "extra_items/祭仪羽冠": {
+      "title": "祭仪羽冠",
+      "revid": 4447,
+      "file": "extra_items/祭仪羽冠.json",
+      "fetched_at": "2026-11-20T17:04:57+00:00"
+    },
+    "extra_items/霆霓猩红血印": {
+      "title": "霆霓猩红血印",
+      "revid": 605,
+      "file": "extra_items/霆霓猩红血印.json",
+      "fetched_at": "2026-11-20T17:04:57+00:00"
+    }
+  },
+  "failed": {},
+  "run_started": "2026-11-20T16:28:30+00:00",
+  "category_non_articles": {
+    "Category:黑卫": [],
+    "Category:装备": [],
+    "Category:遗物": [],
+    "Category:符文": [],
+    "Category:阵线": []
+  },
+  "run_finished": "2026-11-20T16:29:19+00:00",
+  "api_requests_last_run": 21,
+  "smw": {
+    "smw/characters/不熄曜日": {
+      "page_revid": 8639,
+      "file": "smw/characters/不熄曜日.json",
+      "fetched_at": "2026-11-20T16:10:59+00:00"
+    },
+    "smw/characters/不祥怨灵": {
+      "page_revid": 8666,
+      "file": "smw/characters/不祥怨灵.json",
+      "fetched_at": "2026-11-20T16:11:02+00:00"
+    },
+    "smw/characters/传承之龙": {
+      "page_revid": 9190,
+      "file": "smw/characters/传承之龙.json",
+      "fetched_at": "2026-11-20T16:11:05+00:00"
+    },
+    "smw/characters/冰封之心": {
+      "page_revid": 8635,
+      "file": "smw/characters/冰封之心.json",
+      "fetched_at": "2026-11-20T16:11:08+00:00"
+    },
+    "smw/characters/凌空械羽": {
+      "page_revid": 8926,
+      "file": "smw/characters/凌空械羽.json",
+      "fetched_at": "2026-11-20T16:11:10+00:00"
+    },
+    "smw/characters/凛冬魔女": {
+      "page_revid": 6483,
+      "file": "smw/characters/凛冬魔女.json",
+      "fetched_at": "2026-11-20T16:11:13+00:00"
+    },
+    "smw/characters/北境公主": {
+      "page_revid": 8636,
+      "file": "smw/characters/北境公主.json",
+      "fetched_at": "2026-11-20T16:11:15+00:00"
+    },
+    "smw/characters/千宵月守": {
+      "page_revid": 9138,
+      "file": "smw/characters/千宵月守.json",
+      "fetched_at": "2026-11-20T16:11:17+00:00"
+    },
+    "smw/characters/双子之盾": {
+      "page_revid": 8657,
+      "file": "smw/characters/双子之盾.json",
+      "fetched_at": "2026-11-20T16:11:19+00:00"
+    },
+    "smw/characters/双鸣追猎": {
+      "page_revid": 8638,
+      "file": "smw/characters/双鸣追猎.json",
+      "fetched_at": "2026-11-20T16:11:22+00:00"
+    },
+    "smw/characters/司正天座": {
+      "page_revid": 9259,
+      "file": "smw/characters/司正天座.json",
+      "fetched_at": "2026-11-20T16:11:25+00:00"
+    },
+    "smw/characters/唤霜海灵": {
+      "page_revid": 9062,
+      "file": "smw/characters/唤霜海灵.json",
+      "fetched_at": "2026-11-20T16:11:27+00:00"
+    },
+    "smw/characters/圣翼降临": {
+      "page_revid": 8619,
+      "file": "smw/characters/圣翼降临.json",
+      "fetched_at": "2026-11-20T16:11:30+00:00"
+    },
+    "smw/characters/地精妖术师": {
+      "page_revid": 6482,
+      "file": "smw/characters/地精妖术师.json",
+      "fetched_at": "2026-11-20T16:11:33+00:00"
+    },
+    "smw/characters/墨凝清影": {
+      "page_revid": 8607,
+      "file": "smw/characters/墨凝清影.json",
+      "fetched_at": "2026-11-20T16:11:36+00:00"
+    },
+    "smw/characters/夜宴霆光": {
+      "page_revid": 9185,
+      "file": "smw/characters/夜宴霆光.json",
+      "fetched_at": "2026-11-20T16:11:38+00:00"
+    },
+    "smw/characters/夜行暹罗": {
+      "page_revid": 8701,
+      "file": "smw/characters/夜行暹罗.json",
+      "fetched_at": "2026-11-20T16:11:40+00:00"
+    },
+    "smw/characters/天邪魅影": {
+      "page_revid": 9031,
+      "file": "smw/characters/天邪魅影.json",
+      "fetched_at": "2026-11-20T16:11:42+00:00"
+    },
+    "smw/characters/夺魂之镰": {
+      "page_revid": 8700,
+      "file": "smw/characters/夺魂之镰.json",
+      "fetched_at": "2026-11-20T16:11:45+00:00"
+    },
+    "smw/characters/妖刀": {
+      "page_revid": 8624,
+      "file": "smw/characters/妖刀.json",
+      "fetched_at": "2026-11-20T16:11:47+00:00"
+    },
+    "smw/characters/婆娑轮舞": {
+      "page_revid": 8620,
+      "file": "smw/characters/婆娑轮舞.json",
+      "fetched_at": "2026-11-20T16:11:49+00:00"
+    },
+    "smw/characters/审判使者": {
+      "page_revid": 8622,
+      "file": "smw/characters/审判使者.json",
+      "fetched_at": "2026-11-20T16:11:53+00:00"
+    },
+    "smw/characters/密林之眼": {
+      "page_revid": 8646,
+      "file": "smw/characters/密林之眼.json",
+      "fetched_at": "2026-11-20T16:11:55+00:00"
+    },
+    "smw/characters/封魔利爪": {
+      "page_revid": 8626,
+      "file": "smw/characters/封魔利爪.json",
+      "fetched_at": "2026-11-20T16:11:57+00:00"
+    },
+    "smw/characters/巡林游侠": {
+      "page_revid": 8645,
+      "file": "smw/characters/巡林游侠.json",
+      "fetched_at": "2026-11-20T16:12:04+00:00"
+    },
+    "smw/characters/帝国之剑": {
+      "page_revid": 8655,
+      "file": "smw/characters/帝国之剑.json",
+      "fetched_at": "2026-11-20T16:12:06+00:00"
+    },
+    "smw/characters/异国商人": {
+      "page_revid": 8614,
+      "file": "smw/characters/异国商人.json",
+      "fetched_at": "2026-11-20T16:12:09+00:00"
+    },
+    "smw/characters/御刃神锋": {
+      "page_revid": 8652,
+      "file": "smw/characters/御刃神锋.json",
+      "fetched_at": "2026-11-20T16:12:11+00:00"
+    },
+    "smw/characters/战争之蹄": {
+      "page_revid": 8641,
+      "file": "smw/characters/战争之蹄.json",
+      "fetched_at": "2026-11-20T16:12:13+00:00"
+    },
+    "smw/characters/拂光破雪": {
+      "page_revid": 8618,
+      "file": "smw/characters/拂光破雪.json",
+      "fetched_at": "2026-11-20T16:12:16+00:00"
+    },
+    "smw/characters/月渊龙女": {
+      "page_revid": 9143,
+      "file": "smw/characters/月渊龙女.json",
+      "fetched_at": "2026-11-20T16:12:18+00:00"
+    },
+    "smw/characters/构装守卫": {
+      "page_revid": 8664,
+      "file": "smw/characters/构装守卫.json",
+      "fetched_at": "2026-11-20T16:12:20+00:00"
+    },
+    "smw/characters/欢愉魔女": {
+      "page_revid": 8643,
+      "file": "smw/characters/欢愉魔女.json",
+      "fetched_at": "2026-11-20T16:12:23+00:00"
+    },
+    "smw/characters/深庭玫瑰": {
+      "page_revid": 8615,
+      "file": "smw/characters/深庭玫瑰.json",
+      "fetched_at": "2026-11-20T16:12:25+00:00"
+    },
+    "smw/characters/渡鸦魁首": {
+      "page_revid": 8656,
+      "file": "smw/characters/渡鸦魁首.json",
+      "fetched_at": "2026-11-20T16:12:28+00:00"
+    },
+    "smw/characters/灰袍法师": {
+      "page_revid": 8613,
+      "file": "smw/characters/灰袍法师.json",
+      "fetched_at": "2026-11-20T16:12:31+00:00"
+    },
+    "smw/characters/灵刃之主": {
+      "page_revid": 8653,
+      "file": "smw/characters/灵刃之主.json",
+      "fetched_at": "2026-11-20T16:12:33+00:00"
+    },
+    "smw/characters/炙光之舞": {
+      "page_revid": 9132,
+      "file": "smw/characters/炙光之舞.json",
+      "fetched_at": "2026-11-20T16:12:37+00:00"
+    },
+    "smw/characters/炽焰降生": {
+      "page_revid": 8928,
+      "file": "smw/characters/炽焰降生.json",
+      "fetched_at": "2026-11-20T16:12:40+00:00"
+    },
+    "smw/characters/烈阳将军": {
+      "page_revid": 8665,
+      "file": "smw/characters/烈阳将军.json",
+      "fetched_at": "2026-11-20T16:12:42+00:00"
+    },
+    "smw/characters/爱恋花见": {
+      "page_revid": 9125,
+      "file": "smw/characters/爱恋花见.json",
+      "fetched_at": "2026-11-20T16:12:45+00:00"
+    },
+    "smw/characters/玉尘灵仙": {
+      "page_revid": 9187,
+      "file": "smw/characters/玉尘灵仙.json",
+      "fetched_at": "2026-11-20T16:12:48+00:00"
+    },
+    "smw/characters/玉面九尾": {
+      "page_revid": 8609,
+      "file": "smw/characters/玉面九尾.json",
+      "fetched_at": "2026-11-20T16:12:51+00:00"
+    },
+    "smw/characters/王国猎手": {
+      "page_revid": 8644,
+      "file": "smw/characters/王国猎手.json",
+      "fetched_at": "2026-11-20T16:12:53+00:00"
+    },
+    "smw/characters/璨然银龙": {
+      "page_revid": 9028,
+      "file": "smw/characters/璨然银龙.json",
+      "fetched_at": "2026-11-20T16:12:56+00:00"
+    },
+    "smw/characters/白龙": {
+      "page_revid": 8654,
+      "file": "smw/characters/白龙.json",
+      "fetched_at": "2026-11-20T16:12:58+00:00"
+    },
+    "smw/characters/百花旅者": {
+      "page_revid": 9137,
+      "file": "smw/characters/百花旅者.json",
+      "fetched_at": "2026-11-20T16:13:01+00:00"
+    },
+    "smw/characters/神之嫡子": {
+      "page_revid": 8642,
+      "file": "smw/characters/神之嫡子.json",
+      "fetched_at": "2026-11-20T16:13:03+00:00"
+    },
+    "smw/characters/秘境仙灵": {
+      "page_revid": 8616,
+      "file": "smw/characters/秘境仙灵.json",
+      "fetched_at": "2026-11-20T16:13:06+00:00"
+    },
+    "smw/characters/秘术导师": {
+      "page_revid": 8637,
+      "file": "smw/characters/秘术导师.json",
+      "fetched_at": "2026-11-20T16:13:08+00:00"
+    },
+    "smw/characters/秽翼魔女": {
+      "page_revid": 9188,
+      "file": "smw/characters/秽翼魔女.json",
+      "fetched_at": "2026-11-20T16:13:11+00:00"
+    },
+    "smw/characters/纯净史莱姆": {
+      "page_revid": 8663,
+      "file": "smw/characters/纯净史莱姆.json",
+      "fetched_at": "2026-11-20T16:13:13+00:00"
+    },
+    "smw/characters/纯白之羽": {
+      "page_revid": 9127,
+      "file": "smw/characters/纯白之羽.json",
+      "fetched_at": "2026-11-20T16:13:16+00:00"
+    },
+    "smw/characters/纵火妖精": {
+      "page_revid": 8634,
+      "file": "smw/characters/纵火妖精.json",
+      "fetched_at": "2026-11-20T16:13:19+00:00"
+    },
+    "smw/characters/绚彩星绘": {
+      "page_revid": 8606,
+      "file": "smw/characters/绚彩星绘.json",
+      "fetched_at": "2026-11-20T16:13:21+00:00"
+    },
+    "smw/characters/绞刃流火": {
+      "page_revid": 8951,
+      "file": "smw/characters/绞刃流火.json",
+      "fetched_at": "2026-11-20T16:13:23+00:00"
+    },
+    "smw/characters/绮夜梦影": {
+      "page_revid": 9065,
+      "file": "smw/characters/绮夜梦影.json",
+      "fetched_at": "2026-11-20T16:13:26+00:00"
+    },
+    "smw/characters/绯晶战影": {
+      "page_revid": 9064,
+      "file": "smw/characters/绯晶战影.json",
+      "fetched_at": "2026-11-20T16:13:28+00:00"
+    },
+    "smw/characters/绯红荆棘": {
+      "page_revid": 8836,
+      "file": "smw/characters/绯红荆棘.json",
+      "fetched_at": "2026-11-20T16:13:31+00:00"
+    },
+    "smw/characters/绿森山灵": {
+      "page_revid": 8797,
+      "file": "smw/characters/绿森山灵.json",
+      "fetched_at": "2026-11-20T16:13:33+00:00"
+    },
+    "smw/characters/自由炮手": {
+      "page_revid": 8929,
+      "file": "smw/characters/自由炮手.json",
+      "fetched_at": "2026-11-20T16:13:36+00:00"
+    },
+    "smw/characters/蚀骨魂龙": {
+      "page_revid": 9016,
+      "file": "smw/characters/蚀骨魂龙.json",
+      "fetched_at": "2026-11-20T16:13:39+00:00"
+    },
+    "smw/characters/裁决圣锤": {
+      "page_revid": 9067,
+      "file": "smw/characters/裁决圣锤.json",
+      "fetched_at": "2026-11-20T16:13:41+00:00"
+    },
+    "smw/characters/诅咒之王": {
+      "page_revid": 8667,
+      "file": "smw/characters/诅咒之王.json",
+      "fetched_at": "2026-11-20T16:13:43+00:00"
+    },
+    "smw/characters/迷迭妖精": {
+      "page_revid": 8610,
+      "file": "smw/characters/迷迭妖精.json",
+      "fetched_at": "2026-11-20T16:13:46+00:00"
+    },
+    "smw/characters/金蜂破茧": {
+      "page_revid": 8604,
+      "file": "smw/characters/金蜂破茧.json",
+      "fetched_at": "2026-11-20T16:13:48+00:00"
+    },
+    "smw/characters/银刃之誓": {
+      "page_revid": 9186,
+      "file": "smw/characters/银刃之誓.json",
+      "fetched_at": "2026-11-20T16:13:50+00:00"
+    },
+    "smw/characters/长夜之影": {
+      "page_revid": 8627,
+      "file": "smw/characters/长夜之影.json",
+      "fetched_at": "2026-11-20T16:13:52+00:00"
+    },
+    "smw/characters/长辉照夜": {
+      "page_revid": 8854,
+      "file": "smw/characters/长辉照夜.json",
+      "fetched_at": "2026-11-20T16:13:55+00:00"
+    },
+    "smw/characters/雪月公主": {
+      "page_revid": 8608,
+      "file": "smw/characters/雪月公主.json",
+      "fetched_at": "2026-11-20T16:13:58+00:00"
+    },
+    "smw/characters/雷鸣掠空": {
+      "page_revid": 9066,
+      "file": "smw/characters/雷鸣掠空.json",
+      "fetched_at": "2026-11-20T16:14:00+00:00"
+    },
+    "smw/characters/霓裳若仙": {
+      "page_revid": 9124,
+      "file": "smw/characters/霓裳若仙.json",
+      "fetched_at": "2026-11-20T16:14:03+00:00"
+    },
+    "smw/characters/青鸾巽羽": {
+      "page_revid": 9213,
+      "file": "smw/characters/青鸾巽羽.json",
+      "fetched_at": "2026-11-20T16:14:05+00:00"
+    },
+    "smw/characters/飞焰铃舞": {
+      "page_revid": 9205,
+      "file": "smw/characters/飞焰铃舞.json",
+      "fetched_at": "2026-11-20T16:14:07+00:00"
+    },
+    "smw/characters/魂棺语者": {
+      "page_revid": 9068,
+      "file": "smw/characters/魂棺语者.json",
+      "fetched_at": "2026-11-20T16:14:10+00:00"
+    },
+    "smw/characters/黑衫刃影": {
+      "page_revid": 9189,
+      "file": "smw/characters/黑衫刃影.json",
+      "fetched_at": "2026-11-20T16:14:12+00:00"
+    },
+    "smw/gear/七杀令牌": {
+      "page_revid": 6287,
+      "file": "smw/gear/七杀令牌.json",
+      "fetched_at": "2026-11-20T16:14:14+00:00"
+    },
+    "smw/gear/七杀分牌": {
+      "page_revid": 6079,
+      "file": "smw/gear/七杀分牌.json",
+      "fetched_at": "2026-11-20T16:14:17+00:00"
+    },
+    "smw/gear/不朽骸枪": {
+      "page_revid": 8490,
+      "file": "smw/gear/不朽骸枪.json",
+      "fetched_at": "2026-11-20T16:14:19+00:00"
+    },
+    "smw/gear/不死鸟面": {
+      "page_revid": 6294,
+      "file": "smw/gear/不死鸟面.json",
+      "fetched_at": "2026-11-20T16:14:21+00:00"
+    },
+    "smw/gear/云图点睛": {
+      "page_revid": 8473,
+      "file": "smw/gear/云图点睛.json",
+      "fetched_at": "2026-11-20T16:14:23+00:00"
+    },
+    "smw/gear/云梦纤笔": {
+      "page_revid": 8484,
+      "file": "smw/gear/云梦纤笔.json",
+      "fetched_at": "2026-11-20T16:14:25+00:00"
+    },
+    "smw/gear/佑世之锋": {
+      "page_revid": 8477,
+      "file": "smw/gear/佑世之锋.json",
+      "fetched_at": "2026-11-20T16:14:26+00:00"
+    },
+    "smw/gear/侠影剑心": {
+      "page_revid": 4927,
+      "file": "smw/gear/侠影剑心.json",
+      "fetched_at": "2026-11-20T16:14:28+00:00"
+    },
+    "smw/gear/元素圣灵裤": {
+      "page_revid": 3163,
+      "file": "smw/gear/元素圣灵裤.json",
+      "fetched_at": "2026-11-20T16:14:31+00:00"
+    },
+    "smw/gear/元素大师之裤": {
+      "page_revid": 2853,
+      "file": "smw/gear/元素大师之裤.json",
+      "fetched_at": "2026-11-20T16:14:32+00:00"
+    },
+    "smw/gear/冥蚀渊薮咒徽": {
+      "page_revid": 8550,
+      "file": "smw/gear/冥蚀渊薮咒徽.json",
+      "fetched_at": "2026-11-20T16:14:35+00:00"
+    },
+    "smw/gear/冥蚀渊薮咒戒": {
+      "page_revid": 8552,
+      "file": "smw/gear/冥蚀渊薮咒戒.json",
+      "fetched_at": "2026-11-20T16:14:37+00:00"
+    },
+    "smw/gear/冥蚀渊薮咒手": {
+      "page_revid": 8554,
+      "file": "smw/gear/冥蚀渊薮咒手.json",
+      "fetched_at": "2026-11-20T16:14:40+00:00"
+    },
+    "smw/gear/冥蚀渊薮咒盾": {
+      "page_revid": 8551,
+      "file": "smw/gear/冥蚀渊薮咒盾.json",
+      "fetched_at": "2026-11-20T16:14:42+00:00"
+    },
+    "smw/gear/冥蚀渊薮咒符": {
+      "page_revid": 8549,
+      "file": "smw/gear/冥蚀渊薮咒符.json",
+      "fetched_at": "2026-11-20T16:14:44+00:00"
+    },
+    "smw/gear/冰猎": {
+      "page_revid": 5467,
+      "file": "smw/gear/冰猎.json",
+      "fetched_at": "2026-11-20T16:14:46+00:00"
+    },
+    "smw/gear/凛冬祈雪": {
+      "page_revid": 8491,
+      "file": "smw/gear/凛冬祈雪.json",
+      "fetched_at": "2026-11-20T16:14:48+00:00"
+    },
+    "smw/gear/刺影锁甲": {
+      "page_revid": 4532,
+      "file": "smw/gear/刺影锁甲.json",
+      "fetched_at": "2026-11-20T16:14:50+00:00"
+    },
+    "smw/gear/叠影金冠": {
+      "page_revid": 6284,
+      "file": "smw/gear/叠影金冠.json",
+      "fetched_at": "2026-11-20T16:14:52+00:00"
+    },
+    "smw/gear/古龙威怒": {
+      "page_revid": 4766,
+      "file": "smw/gear/古龙威怒.json",
+      "fetched_at": "2026-11-20T16:14:55+00:00"
+    },
+    "smw/gear/咒光逆带": {
+      "page_revid": 6071,
+      "file": "smw/gear/咒光逆带.json",
+      "fetched_at": "2026-11-20T16:14:57+00:00"
+    },
+    "smw/gear/咒法徽印": {
+      "page_revid": 2854,
+      "file": "smw/gear/咒法徽印.json",
+      "fetched_at": "2026-11-20T16:15:00+00:00"
+    },
+    "smw/gear/咒石项链": {
+      "page_revid": 2846,
+      "file": "smw/gear/咒石项链.json",
+      "fetched_at": "2026-11-20T16:15:02+00:00"
+    },
+    "smw/gear/喋血金带": {
+      "page_revid": 4474,
+      "file": "smw/gear/喋血金带.json",
+      "fetched_at": "2026-11-20T16:15:04+00:00"
+    },
+    "smw/gear/嗜战者束腰": {
+      "page_revid": 2901,
+      "file": "smw/gear/嗜战者束腰.json",
+      "fetched_at": "2026-11-20T16:15:06+00:00"
+    },
+    "smw/gear/嗜血金钢": {
+      "page_revid": 9211,
+      "file": "smw/gear/嗜血金钢.json",
+      "fetched_at": "2026-11-20T16:15:08+00:00"
+    },
+    "smw/gear/回涌短裤": {
+      "page_revid": 6074,
+      "file": "smw/gear/回涌短裤.json",
+      "fetched_at": "2026-11-20T16:15:09+00:00"
+    },
+    "smw/gear/圣临光徽": {
+      "page_revid": 607,
+      "file": "smw/gear/圣临光徽.json",
+      "fetched_at": "2026-11-20T16:15:11+00:00"
+    },
+    "smw/gear/圣临光戒": {
+      "page_revid": 4464,
+      "file": "smw/gear/圣临光戒.json",
+      "fetched_at": "2026-11-20T16:15:15+00:00"
+    },
+    "smw/gear/圣临光手": {
+      "page_revid": 5442,
+      "file": "smw/gear/圣临光手.json",
+      "fetched_at": "2026-11-20T16:15:18+00:00"
+    },
+    "smw/gear/圣临奇迹": {
+      "page_revid": 4466,
+      "file": "smw/gear/圣临奇迹.json",
+      "fetched_at": "2026-11-20T16:15:20+00:00"
+    },
+    "smw/gear/圣临庇护": {
+      "page_revid": 615,
+      "file": "smw/gear/圣临庇护.json",
+      "fetched_at": "2026-11-20T16:15:22+00:00"
+    },
+    "smw/gear/圣守耀盔": {
+      "page_revid": 4450,
+      "file": "smw/gear/圣守耀盔.json",
+      "fetched_at": "2026-11-20T16:15:23+00:00"
+    },
+    "smw/gear/圣战辉牌": {
+      "page_revid": 4527,
+      "file": "smw/gear/圣战辉牌.json",
+      "fetched_at": "2026-11-20T16:15:26+00:00"
+    },
+    "smw/gear/圣翼光羽": {
+      "page_revid": 8480,
+      "file": "smw/gear/圣翼光羽.json",
+      "fetched_at": "2026-11-20T16:15:28+00:00"
+    },
+    "smw/gear/圣职驱魔": {
+      "page_revid": 7406,
+      "file": "smw/gear/圣职驱魔.json",
+      "fetched_at": "2026-11-20T16:15:30+00:00"
+    },
+    "smw/gear/夜幕暗盔": {
+      "page_revid": 4448,
+      "file": "smw/gear/夜幕暗盔.json",
+      "fetched_at": "2026-11-20T16:15:32+00:00"
+    },
+    "smw/gear/夜狩风镰": {
+      "page_revid": 8561,
+      "file": "smw/gear/夜狩风镰.json",
+      "fetched_at": "2026-11-20T16:15:35+00:00"
+    },
+    "smw/gear/夺魂之戒": {
+      "page_revid": 5477,
+      "file": "smw/gear/夺魂之戒.json",
+      "fetched_at": "2026-11-20T16:15:37+00:00"
+    },
+    "smw/gear/奏雷鸣裤": {
+      "page_revid": 6077,
+      "file": "smw/gear/奏雷鸣裤.json",
+      "fetched_at": "2026-11-20T16:15:38+00:00"
+    },
+    "smw/gear/妖精秘手": {
+      "page_revid": 2859,
+      "file": "smw/gear/妖精秘手.json",
+      "fetched_at": "2026-11-20T16:15:40+00:00"
+    },
+    "smw/gear/始祖之血": {
+      "page_revid": 4827,
+      "file": "smw/gear/始祖之血.json",
+      "fetched_at": "2026-11-20T16:15:42+00:00"
+    },
+    "smw/gear/宗室礼靴": {
+      "page_revid": 3150,
+      "file": "smw/gear/宗室礼靴.json",
+      "fetched_at": "2026-11-20T16:15:44+00:00"
+    },
+    "smw/gear/定心精盔": {
+      "page_revid": 7407,
+      "file": "smw/gear/定心精盔.json",
+      "fetched_at": "2026-11-20T16:15:47+00:00"
+    },
+    "smw/gear/宵暗刃舞": {
+      "page_revid": 8533,
+      "file": "smw/gear/宵暗刃舞.json",
+      "fetched_at": "2026-11-20T16:15:48+00:00"
+    },
+    "smw/gear/寒刃霜天": {
+      "page_revid": 8472,
+      "file": "smw/gear/寒刃霜天.json",
+      "fetched_at": "2026-11-20T16:15:50+00:00"
+    },
+    "smw/gear/寒霜行者": {
+      "page_revid": 5461,
+      "file": "smw/gear/寒霜行者.json",
+      "fetched_at": "2026-11-20T16:15:52+00:00"
+    },
+    "smw/gear/导师之守护": {
+      "page_revid": 2887,
+      "file": "smw/gear/导师之守护.json",
+      "fetched_at": "2026-11-20T16:15:54+00:00"
+    },
+    "smw/gear/封魂巨棺": {
+      "page_revid": 8493,
+      "file": "smw/gear/封魂巨棺.json",
+      "fetched_at": "2026-11-20T16:15:56+00:00"
+    },
+    "smw/gear/巡游护甲": {
+      "page_revid": 4458,
+      "file": "smw/gear/巡游护甲.json",
+      "fetched_at": "2026-11-20T16:15:58+00:00"
+    },
+    "smw/gear/巫毒咒牌": {
+      "page_revid": 6080,
+      "file": "smw/gear/巫毒咒牌.json",
+      "fetched_at": "2026-11-20T16:16:00+00:00"
+    },
+    "smw/gear/帝胄守护": {
+      "page_revid": 2897,
+      "file": "smw/gear/帝胄守护.json",
+      "fetched_at": "2026-11-20T16:16:03+00:00"
+    },
+    "smw/gear/幽影之环": {
+      "page_revid": 678,
+      "file": "smw/gear/幽影之环.json",
+      "fetched_at": "2026-11-20T16:16:06+00:00"
+    },
+    "smw/gear/幽影暮冥寂手": {
+      "page_revid": 6258,
+      "file": "smw/gear/幽影暮冥寂手.json",
+      "fetched_at": "2026-11-20T16:16:08+00:00"
+    },
+    "smw/gear/幽影绝链": {
+      "page_revid": 4476,
+      "file": "smw/gear/幽影绝链.json",
+      "fetched_at": "2026-11-20T16:16:10+00:00"
+    },
+    "smw/gear/幽焰剑士截断": {
+      "page_revid": 4471,
+      "file": "smw/gear/幽焰剑士截断.json",
+      "fetched_at": "2026-11-20T16:16:12+00:00"
+    },
+    "smw/gear/幽焰剑士极致": {
+      "page_revid": 612,
+      "file": "smw/gear/幽焰剑士极致.json",
+      "fetched_at": "2026-11-20T16:16:14+00:00"
+    },
+    "smw/gear/幽焰剑士碧手": {
+      "page_revid": 5451,
+      "file": "smw/gear/幽焰剑士碧手.json",
+      "fetched_at": "2026-11-20T16:16:16+00:00"
+    },
+    "smw/gear/幽焰剑士荣耀": {
+      "page_revid": 4465,
+      "file": "smw/gear/幽焰剑士荣耀.json",
+      "fetched_at": "2026-11-20T16:16:18+00:00"
+    },
+    "smw/gear/幽焰剑士裁决": {
+      "page_revid": 606,
+      "file": "smw/gear/幽焰剑士裁决.json",
+      "fetched_at": "2026-11-20T16:16:21+00:00"
+    },
+    "smw/gear/幽魂护甲": {
+      "page_revid": 4453,
+      "file": "smw/gear/幽魂护甲.json",
+      "fetched_at": "2026-11-20T16:16:24+00:00"
+    },
+    "smw/gear/引火巨镰": {
+      "page_revid": 5136,
+      "file": "smw/gear/引火巨镰.json",
+      "fetched_at": "2026-11-20T16:16:25+00:00"
+    },
+    "smw/gear/影步追魂靴": {
+      "page_revid": 5110,
+      "file": "smw/gear/影步追魂靴.json",
+      "fetched_at": "2026-11-20T16:16:27+00:00"
+    },
+    "smw/gear/征战重铠": {
+      "page_revid": 4455,
+      "file": "smw/gear/征战重铠.json",
+      "fetched_at": "2026-11-20T16:16:29+00:00"
+    },
+    "smw/gear/念力魂索": {
+      "page_revid": 6073,
+      "file": "smw/gear/念力魂索.json",
+      "fetched_at": "2026-11-20T16:16:31+00:00"
+    },
+    "smw/gear/怜悯圣靴": {
+      "page_revid": 6586,
+      "file": "smw/gear/怜悯圣靴.json",
+      "fetched_at": "2026-11-20T16:16:33+00:00"
+    },
+    "smw/gear/总攻卡牌": {
+      "page_revid": 5486,
+      "file": "smw/gear/总攻卡牌.json",
+      "fetched_at": "2026-11-20T16:16:35+00:00"
+    },
+    "smw/gear/愈疗圣契": {
+      "page_revid": 4529,
+      "file": "smw/gear/愈疗圣契.json",
+      "fetched_at": "2026-11-20T16:16:38+00:00"
+    },
+    "smw/gear/感电者": {
+      "page_revid": 7409,
+      "file": "smw/gear/感电者.json",
+      "fetched_at": "2026-11-20T16:16:40+00:00"
+    },
+    "smw/gear/戏谑者裤腿": {
+      "page_revid": 2872,
+      "file": "smw/gear/戏谑者裤腿.json",
+      "fetched_at": "2026-11-20T16:16:43+00:00"
+    },
+    "smw/gear/托尔之冥思": {
+      "page_revid": 5644,
+      "file": "smw/gear/托尔之冥思.json",
+      "fetched_at": "2026-11-20T16:16:45+00:00"
+    },
+    "smw/gear/托尔之凝视": {
+      "page_revid": 5642,
+      "file": "smw/gear/托尔之凝视.json",
+      "fetched_at": "2026-11-20T16:16:47+00:00"
+    },
+    "smw/gear/托尔之呼啸": {
+      "page_revid": 5645,
+      "file": "smw/gear/托尔之呼啸.json",
+      "fetched_at": "2026-11-20T16:16:49+00:00"
+    },
+    "smw/gear/托尔之神心": {
+      "page_revid": 5643,
+      "file": "smw/gear/托尔之神心.json",
+      "fetched_at": "2026-11-20T16:16:51+00:00"
+    },
+    "smw/gear/托尔腕轮": {
+      "page_revid": 6190,
+      "file": "smw/gear/托尔腕轮.json",
+      "fetched_at": "2026-11-20T16:16:53+00:00"
+    },
+    "smw/gear/护法铁壁": {
+      "page_revid": 4456,
+      "file": "smw/gear/护法铁壁.json",
+      "fetched_at": "2026-11-20T16:16:54+00:00"
+    },
+    "smw/gear/抵抗勋章": {
+      "page_revid": 8469,
+      "file": "smw/gear/抵抗勋章.json",
+      "fetched_at": "2026-11-20T16:16:56+00:00"
+    },
+    "smw/gear/指路吊坠": {
+      "page_revid": 2289,
+      "file": "smw/gear/指路吊坠.json",
+      "fetched_at": "2026-11-20T16:16:59+00:00"
+    },
+    "smw/gear/时间守护者": {
+      "page_revid": 5647,
+      "file": "smw/gear/时间守护者.json",
+      "fetched_at": "2026-11-20T16:17:01+00:00"
+    },
+    "smw/gear/星命辉甲": {
+      "page_revid": 6069,
+      "file": "smw/gear/星命辉甲.json",
+      "fetched_at": "2026-11-20T16:17:03+00:00"
+    },
+    "smw/gear/星辰战盔": {
+      "page_revid": 4446,
+      "file": "smw/gear/星辰战盔.json",
+      "fetched_at": "2026-11-20T16:17:06+00:00"
+    },
+    "smw/gear/春序伞舞": {
+      "page_revid": 8476,
+      "file": "smw/gear/春序伞舞.json",
+      "fetched_at": "2026-11-20T16:17:08+00:00"
+    },
+    "smw/gear/暗咒蚀冠": {
+      "page_revid": 6293,
+      "file": "smw/gear/暗咒蚀冠.json",
+      "fetched_at": "2026-11-20T16:17:10+00:00"
+    },
+    "smw/gear/暗夜刺足": {
+      "page_revid": 3151,
+      "file": "smw/gear/暗夜刺足.json",
+      "fetched_at": "2026-11-20T16:17:13+00:00"
+    },
+    "smw/gear/月辉·夜影蝠翼": {
+      "page_revid": 2867,
+      "file": "smw/gear/月辉·夜影蝠翼.json",
+      "fetched_at": "2026-11-20T16:17:15+00:00"
+    },
+    "smw/gear/月辉·烁金荧紫": {
+      "page_revid": 2847,
+      "file": "smw/gear/月辉·烁金荧紫.json",
+      "fetched_at": "2026-11-20T16:17:18+00:00"
+    },
+    "smw/gear/月辉·王室金靴": {
+      "page_revid": 8795,
+      "file": "smw/gear/月辉·王室金靴.json",
+      "fetched_at": "2026-11-20T16:17:20+00:00"
+    },
+    "smw/gear/月辉·精英射手": {
+      "page_revid": 2290,
+      "file": "smw/gear/月辉·精英射手.json",
+      "fetched_at": "2026-11-20T16:17:22+00:00"
+    },
+    "smw/gear/月辉·紫晶鸦首": {
+      "page_revid": 2852,
+      "file": "smw/gear/月辉·紫晶鸦首.json",
+      "fetched_at": "2026-11-20T16:17:25+00:00"
+    },
+    "smw/gear/月辉·芒星守护": {
+      "page_revid": 2884,
+      "file": "smw/gear/月辉·芒星守护.json",
+      "fetched_at": "2026-11-20T16:17:27+00:00"
+    },
+    "smw/gear/月辉·轻盈软甲": {
+      "page_revid": 2868,
+      "file": "smw/gear/月辉·轻盈软甲.json",
+      "fetched_at": "2026-11-20T16:17:29+00:00"
+    },
+    "smw/gear/月辉·雪上蓝晶": {
+      "page_revid": 2893,
+      "file": "smw/gear/月辉·雪上蓝晶.json",
+      "fetched_at": "2026-11-20T16:17:30+00:00"
+    },
+    "smw/gear/月辉·高岭军靴": {
+      "page_revid": 2891,
+      "file": "smw/gear/月辉·高岭军靴.json",
+      "fetched_at": "2026-11-20T16:17:33+00:00"
+    },
+    "smw/gear/极黑龙炮": {
+      "page_revid": 8494,
+      "file": "smw/gear/极黑龙炮.json",
+      "fetched_at": "2026-11-20T16:17:36+00:00"
+    },
+    "smw/gear/染血狼牙": {
+      "page_revid": 8482,
+      "file": "smw/gear/染血狼牙.json",
+      "fetched_at": "2026-11-20T16:17:39+00:00"
+    },
+    "smw/gear/死灵法盾": {
+      "page_revid": 2858,
+      "file": "smw/gear/死灵法盾.json",
+      "fetched_at": "2026-11-20T16:17:40+00:00"
+    },
+    "smw/gear/残虐之徽": {
+      "page_revid": 8464,
+      "file": "smw/gear/残虐之徽.json",
+      "fetched_at": "2026-11-20T16:17:45+00:00"
+    },
+    "smw/gear/气韵回生裤": {
+      "page_revid": 4536,
+      "file": "smw/gear/气韵回生裤.json",
+      "fetched_at": "2026-11-20T16:17:48+00:00"
+    },
+    "smw/gear/沐光环绕": {
+      "page_revid": 4743,
+      "file": "smw/gear/沐光环绕.json",
+      "fetched_at": "2026-11-20T16:17:50+00:00"
+    },
+    "smw/gear/法球咒铠": {
+      "page_revid": 7408,
+      "file": "smw/gear/法球咒铠.json",
+      "fetched_at": "2026-11-20T16:17:52+00:00"
+    },
+    "smw/gear/活体火焰": {
+      "page_revid": 2888,
+      "file": "smw/gear/活体火焰.json",
+      "fetched_at": "2026-11-20T16:17:54+00:00"
+    },
+    "smw/gear/浴火之盾": {
+      "page_revid": 2896,
+      "file": "smw/gear/浴火之盾.json",
+      "fetched_at": "2026-11-20T16:17:57+00:00"
+    },
+    "smw/gear/深渊之握": {
+      "page_revid": 2882,
+      "file": "smw/gear/深渊之握.json",
+      "fetched_at": "2026-11-20T16:17:58+00:00"
+    },
+    "smw/gear/深渊壁垒": {
+      "page_revid": 2293,
+      "file": "smw/gear/深渊壁垒.json",
+      "fetched_at": "2026-11-20T16:18:01+00:00"
+    },
+    "smw/gear/混沌利刃": {
+      "page_revid": 9212,
+      "file": "smw/gear/混沌利刃.json",
+      "fetched_at": "2026-11-20T16:18:03+00:00"
+    },
+    "smw/gear/清光昭雪": {
+      "page_revid": 9269,
+      "file": "smw/gear/清光昭雪.json",
+      "fetched_at": "2026-11-20T16:18:04+00:00"
+    },
+    "smw/gear/渴血": {
+      "page_revid": 2879,
+      "file": "smw/gear/渴血.json",
+      "fetched_at": "2026-11-20T16:18:06+00:00"
+    },
+    "smw/gear/湮灭混沌星盾": {
+      "page_revid": 611,
+      "file": "smw/gear/湮灭混沌星盾.json",
+      "fetched_at": "2026-11-20T16:18:09+00:00"
+    },
+    "smw/gear/湮灭混沌环戒": {
+      "page_revid": 4462,
+      "file": "smw/gear/湮灭混沌环戒.json",
+      "fetched_at": "2026-11-20T16:18:11+00:00"
+    },
+    "smw/gear/湮灭混沌逆杯": {
+      "page_revid": 4468,
+      "file": "smw/gear/湮灭混沌逆杯.json",
+      "fetched_at": "2026-11-20T16:18:13+00:00"
+    },
+    "smw/gear/湮灭混沌邪印": {
+      "page_revid": 601,
+      "file": "smw/gear/湮灭混沌邪印.json",
+      "fetched_at": "2026-11-20T16:18:15+00:00"
+    },
+    "smw/gear/湮灭混沌邪手": {
+      "page_revid": 5441,
+      "file": "smw/gear/湮灭混沌邪手.json",
+      "fetched_at": "2026-11-20T16:18:17+00:00"
+    },
+    "smw/gear/源辉石盾": {
+      "page_revid": 8805,
+      "file": "smw/gear/源辉石盾.json",
+      "fetched_at": "2026-11-20T16:18:19+00:00"
+    },
+    "smw/gear/漂浮灵匣": {
+      "page_revid": 8470,
+      "file": "smw/gear/漂浮灵匣.json",
+      "fetched_at": "2026-11-20T16:18:21+00:00"
+    },
+    "smw/gear/漆黑十字": {
+      "page_revid": 4822,
+      "file": "smw/gear/漆黑十字.json",
+      "fetched_at": "2026-11-20T16:18:23+00:00"
+    },
+    "smw/gear/灵愈生轮": {
+      "page_revid": 4544,
+      "file": "smw/gear/灵愈生轮.json",
+      "fetched_at": "2026-11-20T16:18:25+00:00"
+    },
+    "smw/gear/灵跃生靴": {
+      "page_revid": 5111,
+      "file": "smw/gear/灵跃生靴.json",
+      "fetched_at": "2026-11-20T16:18:27+00:00"
+    },
+    "smw/gear/灵魔织带": {
+      "page_revid": 6288,
+      "file": "smw/gear/灵魔织带.json",
+      "fetched_at": "2026-11-20T16:18:29+00:00"
+    },
+    "smw/gear/灼日焚焰": {
+      "page_revid": 7734,
+      "file": "smw/gear/灼日焚焰.json",
+      "fetched_at": "2026-11-20T16:18:32+00:00"
+    },
+    "smw/gear/炎铸胫甲": {
+      "page_revid": 6078,
+      "file": "smw/gear/炎铸胫甲.json",
+      "fetched_at": "2026-11-20T16:18:34+00:00"
+    },
+    "smw/gear/烁玉金盔": {
+      "page_revid": 4451,
+      "file": "smw/gear/烁玉金盔.json",
+      "fetched_at": "2026-11-20T16:18:35+00:00"
+    },
+    "smw/gear/烈刃炎上": {
+      "page_revid": 8475,
+      "file": "smw/gear/烈刃炎上.json",
+      "fetched_at": "2026-11-20T16:18:37+00:00"
+    },
+    "smw/gear/燎原焰影": {
+      "page_revid": 8488,
+      "file": "smw/gear/燎原焰影.json",
+      "fetched_at": "2026-11-20T16:18:40+00:00"
+    },
+    "smw/gear/爆冰杖": {
+      "page_revid": 629,
+      "file": "smw/gear/爆冰杖.json",
+      "fetched_at": "2026-11-20T16:18:43+00:00"
+    },
+    "smw/gear/狂悖": {
+      "page_revid": 8487,
+      "file": "smw/gear/狂悖.json",
+      "fetched_at": "2026-11-20T16:18:45+00:00"
+    },
+    "smw/gear/狂热征伐": {
+      "page_revid": 594,
+      "file": "smw/gear/狂热征伐.json",
+      "fetched_at": "2026-11-20T16:18:47+00:00"
+    },
+    "smw/gear/狂猎": {
+      "page_revid": 2288,
+      "file": "smw/gear/狂猎.json",
+      "fetched_at": "2026-11-20T16:18:49+00:00"
+    },
+    "smw/gear/狩猎徽章": {
+      "page_revid": 8465,
+      "file": "smw/gear/狩猎徽章.json",
+      "fetched_at": "2026-11-20T16:18:53+00:00"
+    },
+    "smw/gear/猩红秘戒": {
+      "page_revid": 2850,
+      "file": "smw/gear/猩红秘戒.json",
+      "fetched_at": "2026-11-20T16:18:55+00:00"
+    },
+    "smw/gear/王室荣尊": {
+      "page_revid": 5471,
+      "file": "smw/gear/王室荣尊.json",
+      "fetched_at": "2026-11-20T16:18:58+00:00"
+    },
+    "smw/gear/瑶星神佑圣徽": {
+      "page_revid": 7087,
+      "file": "smw/gear/瑶星神佑圣徽.json",
+      "fetched_at": "2026-11-20T16:19:00+00:00"
+    },
+    "smw/gear/瑶星神佑圣戒": {
+      "page_revid": 7085,
+      "file": "smw/gear/瑶星神佑圣戒.json",
+      "fetched_at": "2026-11-20T16:19:02+00:00"
+    },
+    "smw/gear/瑶星神佑圣手": {
+      "page_revid": 7089,
+      "file": "smw/gear/瑶星神佑圣手.json",
+      "fetched_at": "2026-11-20T16:19:03+00:00"
+    },
+    "smw/gear/瑶星神佑圣盾": {
+      "page_revid": 7088,
+      "file": "smw/gear/瑶星神佑圣盾.json",
+      "fetched_at": "2026-11-20T16:19:05+00:00"
+    },
+    "smw/gear/瑶星神佑圣钥": {
+      "page_revid": 7086,
+      "file": "smw/gear/瑶星神佑圣钥.json",
+      "fetched_at": "2026-11-20T16:19:07+00:00"
+    },
+    "smw/gear/生盈护甲": {
+      "page_revid": 4531,
+      "file": "smw/gear/生盈护甲.json",
+      "fetched_at": "2026-11-20T16:19:10+00:00"
+    },
+    "smw/gear/电光缠绕": {
+      "page_revid": 4543,
+      "file": "smw/gear/电光缠绕.json",
+      "fetched_at": "2026-11-20T16:19:11+00:00"
+    },
+    "smw/gear/电涌蚀心裤": {
+      "page_revid": 4535,
+      "file": "smw/gear/电涌蚀心裤.json",
+      "fetched_at": "2026-11-20T16:19:13+00:00"
+    },
+    "smw/gear/电磁光羽": {
+      "page_revid": 8474,
+      "file": "smw/gear/电磁光羽.json",
+      "fetched_at": "2026-11-20T16:19:15+00:00"
+    },
+    "smw/gear/电闪魂牌": {
+      "page_revid": 4422,
+      "file": "smw/gear/电闪魂牌.json",
+      "fetched_at": "2026-11-20T16:19:17+00:00"
+    },
+    "smw/gear/电闪魂面": {
+      "page_revid": 4444,
+      "file": "smw/gear/电闪魂面.json",
+      "fetched_at": "2026-11-20T16:19:19+00:00"
+    },
+    "smw/gear/界卫魔面": {
+      "page_revid": 6290,
+      "file": "smw/gear/界卫魔面.json",
+      "fetched_at": "2026-11-20T16:19:22+00:00"
+    },
+    "smw/gear/疾风劲射": {
+      "page_revid": 8481,
+      "file": "smw/gear/疾风劲射.json",
+      "fetched_at": "2026-11-20T16:19:23+00:00"
+    },
+    "smw/gear/白羽声生": {
+      "page_revid": 8486,
+      "file": "smw/gear/白羽声生.json",
+      "fetched_at": "2026-11-20T16:19:25+00:00"
+    },
+    "smw/gear/盛宴之结": {
+      "page_revid": 4473,
+      "file": "smw/gear/盛宴之结.json",
+      "fetched_at": "2026-11-20T16:19:27+00:00"
+    },
+    "smw/gear/盾护之牌": {
+      "page_revid": 5487,
+      "file": "smw/gear/盾护之牌.json",
+      "fetched_at": "2026-11-20T16:19:29+00:00"
+    },
+    "smw/gear/瞬杀步履": {
+      "page_revid": 6285,
+      "file": "smw/gear/瞬杀步履.json",
+      "fetched_at": "2026-11-20T16:19:31+00:00"
+    },
+    "smw/gear/破晓步枪": {
+      "page_revid": 8479,
+      "file": "smw/gear/破晓步枪.json",
+      "fetched_at": "2026-11-20T16:19:34+00:00"
+    },
+    "smw/gear/碎日断岳": {
+      "page_revid": 4800,
+      "file": "smw/gear/碎日断岳.json",
+      "fetched_at": "2026-11-20T16:19:36+00:00"
+    },
+    "smw/gear/碧影扶风": {
+      "page_revid": 5033,
+      "file": "smw/gear/碧影扶风.json",
+      "fetched_at": "2026-11-20T16:19:39+00:00"
+    },
+    "smw/gear/碧落丹心净徽": {
+      "page_revid": 4816,
+      "file": "smw/gear/碧落丹心净徽.json",
+      "fetched_at": "2026-11-20T16:19:41+00:00"
+    },
+    "smw/gear/碧落丹心净戒": {
+      "page_revid": 4814,
+      "file": "smw/gear/碧落丹心净戒.json",
+      "fetched_at": "2026-11-20T16:19:43+00:00"
+    },
+    "smw/gear/碧落丹心净手": {
+      "page_revid": 5445,
+      "file": "smw/gear/碧落丹心净手.json",
+      "fetched_at": "2026-11-20T16:19:45+00:00"
+    },
+    "smw/gear/碧落丹心净盾": {
+      "page_revid": 4817,
+      "file": "smw/gear/碧落丹心净盾.json",
+      "fetched_at": "2026-11-20T16:19:47+00:00"
+    },
+    "smw/gear/碧落丹心净空": {
+      "page_revid": 4815,
+      "file": "smw/gear/碧落丹心净空.json",
+      "fetched_at": "2026-11-20T16:19:49+00:00"
+    },
+    "smw/gear/祈火灵牌": {
+      "page_revid": 4421,
+      "file": "smw/gear/祈火灵牌.json",
+      "fetched_at": "2026-11-20T16:19:52+00:00"
+    },
+    "smw/gear/祈火灵盔": {
+      "page_revid": 4445,
+      "file": "smw/gear/祈火灵盔.json",
+      "fetched_at": "2026-11-20T16:19:54+00:00"
+    },
+    "smw/gear/祭仪羽冠": {
+      "page_revid": 4447,
+      "file": "smw/gear/祭仪羽冠.json",
+      "fetched_at": "2026-11-20T16:19:56+00:00"
+    },
+    "smw/gear/祭礼手套": {
+      "page_revid": 5051,
+      "file": "smw/gear/祭礼手套.json",
+      "fetched_at": "2026-11-20T16:19:58+00:00"
+    },
+    "smw/gear/秘影徽识": {
+      "page_revid": 8468,
+      "file": "smw/gear/秘影徽识.json",
+      "fetched_at": "2026-11-20T16:20:01+00:00"
+    },
+    "smw/gear/穿魂夺魄秘徽": {
+      "page_revid": 4819,
+      "file": "smw/gear/穿魂夺魄秘徽.json",
+      "fetched_at": "2026-11-20T16:20:03+00:00"
+    },
+    "smw/gear/穿魂夺魄秘戒": {
+      "page_revid": 4821,
+      "file": "smw/gear/穿魂夺魄秘戒.json",
+      "fetched_at": "2026-11-20T16:20:05+00:00"
+    },
+    "smw/gear/穿魂夺魄秘手": {
+      "page_revid": 5447,
+      "file": "smw/gear/穿魂夺魄秘手.json",
+      "fetched_at": "2026-11-20T16:20:08+00:00"
+    },
+    "smw/gear/穿魂夺魄秘杯": {
+      "page_revid": 4820,
+      "file": "smw/gear/穿魂夺魄秘杯.json",
+      "fetched_at": "2026-11-20T16:20:10+00:00"
+    },
+    "smw/gear/穿魂夺魄秘盾": {
+      "page_revid": 4818,
+      "file": "smw/gear/穿魂夺魄秘盾.json",
+      "fetched_at": "2026-11-20T16:20:12+00:00"
+    },
+    "smw/gear/精魄魔牌": {
+      "page_revid": 3156,
+      "file": "smw/gear/精魄魔牌.json",
+      "fetched_at": "2026-11-20T16:20:15+00:00"
+    },
+    "smw/gear/紫傀异面": {
+      "page_revid": 6291,
+      "file": "smw/gear/紫傀异面.json",
+      "fetched_at": "2026-11-20T16:20:17+00:00"
+    },
+    "smw/gear/绝境増益翡影": {
+      "page_revid": 4459,
+      "file": "smw/gear/绝境増益翡影.json",
+      "fetched_at": "2026-11-20T16:20:19+00:00"
+    },
+    "smw/gear/绝境増益翡手": {
+      "page_revid": 5449,
+      "file": "smw/gear/绝境増益翡手.json",
+      "fetched_at": "2026-11-20T16:20:21+00:00"
+    },
+    "smw/gear/绝境増益青盾": {
+      "page_revid": 610,
+      "file": "smw/gear/绝境増益青盾.json",
+      "fetched_at": "2026-11-20T16:20:23+00:00"
+    },
+    "smw/gear/绝境增益绿玉": {
+      "page_revid": 4472,
+      "file": "smw/gear/绝境增益绿玉.json",
+      "fetched_at": "2026-11-20T16:20:25+00:00"
+    },
+    "smw/gear/绝境增益翠羽": {
+      "page_revid": 603,
+      "file": "smw/gear/绝境增益翠羽.json",
+      "fetched_at": "2026-11-20T16:20:28+00:00"
+    },
+    "smw/gear/绿野隐牌": {
+      "page_revid": 4526,
+      "file": "smw/gear/绿野隐牌.json",
+      "fetched_at": "2026-11-20T16:20:29+00:00"
+    },
+    "smw/gear/聚能之铠": {
+      "page_revid": 4960,
+      "file": "smw/gear/聚能之铠.json",
+      "fetched_at": "2026-11-20T16:20:32+00:00"
+    },
+    "smw/gear/聚魔铠甲": {
+      "page_revid": 4457,
+      "file": "smw/gear/聚魔铠甲.json",
+      "fetched_at": "2026-11-20T16:20:34+00:00"
+    },
+    "smw/gear/苍劲风轨": {
+      "page_revid": 8471,
+      "file": "smw/gear/苍劲风轨.json",
+      "fetched_at": "2026-11-20T16:20:36+00:00"
+    },
+    "smw/gear/苍珀玄帽": {
+      "page_revid": 4434,
+      "file": "smw/gear/苍珀玄帽.json",
+      "fetched_at": "2026-11-20T16:20:39+00:00"
+    },
+    "smw/gear/苍珀玄牌": {
+      "page_revid": 4416,
+      "file": "smw/gear/苍珀玄牌.json",
+      "fetched_at": "2026-11-20T16:20:41+00:00"
+    },
+    "smw/gear/蔚蓝魅影": {
+      "page_revid": 2885,
+      "file": "smw/gear/蔚蓝魅影.json",
+      "fetched_at": "2026-11-20T16:20:43+00:00"
+    },
+    "smw/gear/薄暮幽寂影手": {
+      "page_revid": 5440,
+      "file": "smw/gear/薄暮幽寂影手.json",
+      "fetched_at": "2026-11-20T16:20:45+00:00"
+    },
+    "smw/gear/藏蕴破冠": {
+      "page_revid": 6292,
+      "file": "smw/gear/藏蕴破冠.json",
+      "fetched_at": "2026-11-20T16:20:47+00:00"
+    },
+    "smw/gear/虚灵腰环": {
+      "page_revid": 4475,
+      "file": "smw/gear/虚灵腰环.json",
+      "fetched_at": "2026-11-20T16:20:49+00:00"
+    },
+    "smw/gear/血月影甲": {
+      "page_revid": 6070,
+      "file": "smw/gear/血月影甲.json",
+      "fetched_at": "2026-11-20T16:20:52+00:00"
+    },
+    "smw/gear/血火荣耀": {
+      "page_revid": 2886,
+      "file": "smw/gear/血火荣耀.json",
+      "fetched_at": "2026-11-20T16:20:55+00:00"
+    },
+    "smw/gear/血隐长刃": {
+      "page_revid": 8459,
+      "file": "smw/gear/血隐长刃.json",
+      "fetched_at": "2026-11-20T16:20:57+00:00"
+    },
+    "smw/gear/袭月冥冠": {
+      "page_revid": 6289,
+      "file": "smw/gear/袭月冥冠.json",
+      "fetched_at": "2026-11-20T16:20:59+00:00"
+    },
+    "smw/gear/诛恶斩邪": {
+      "page_revid": 8489,
+      "file": "smw/gear/诛恶斩邪.json",
+      "fetched_at": "2026-11-20T16:21:01+00:00"
+    },
+    "smw/gear/质化织裤": {
+      "page_revid": 6075,
+      "file": "smw/gear/质化织裤.json",
+      "fetched_at": "2026-11-20T16:21:04+00:00"
+    },
+    "smw/gear/辉耀之环": {
+      "page_revid": 1778,
+      "file": "smw/gear/辉耀之环.json",
+      "fetched_at": "2026-11-20T16:21:06+00:00"
+    },
+    "smw/gear/辉耀之链": {
+      "page_revid": 4438,
+      "file": "smw/gear/辉耀之链.json",
+      "fetched_at": "2026-11-20T16:21:08+00:00"
+    },
+    "smw/gear/辉耀炙芒星手": {
+      "page_revid": 5443,
+      "file": "smw/gear/辉耀炙芒星手.json",
+      "fetched_at": "2026-11-20T16:21:10+00:00"
+    },
+    "smw/gear/追雷星锤": {
+      "page_revid": 5044,
+      "file": "smw/gear/追雷星锤.json",
+      "fetched_at": "2026-11-20T16:21:12+00:00"
+    },
+    "smw/gear/逆厄辉焕光手": {
+      "page_revid": 5450,
+      "file": "smw/gear/逆厄辉焕光手.json",
+      "fetched_at": "2026-11-20T16:21:14+00:00"
+    },
+    "smw/gear/逆厄辉环": {
+      "page_revid": 4801,
+      "file": "smw/gear/逆厄辉环.json",
+      "fetched_at": "2026-11-20T16:21:16+00:00"
+    },
+    "smw/gear/逆厄辉链": {
+      "page_revid": 4804,
+      "file": "smw/gear/逆厄辉链.json",
+      "fetched_at": "2026-11-20T16:21:18+00:00"
+    },
+    "smw/gear/重岩战铠": {
+      "page_revid": 6068,
+      "file": "smw/gear/重岩战铠.json",
+      "fetched_at": "2026-11-20T16:21:21+00:00"
+    },
+    "smw/gear/铁铠胫甲": {
+      "page_revid": 2894,
+      "file": "smw/gear/铁铠胫甲.json",
+      "fetched_at": "2026-11-20T16:21:23+00:00"
+    },
+    "smw/gear/铁骨护环": {
+      "page_revid": 6072,
+      "file": "smw/gear/铁骨护环.json",
+      "fetched_at": "2026-11-20T16:21:25+00:00"
+    },
+    "smw/gear/银槲之护": {
+      "page_revid": 4449,
+      "file": "smw/gear/银槲之护.json",
+      "fetched_at": "2026-11-20T16:21:27+00:00"
+    },
+    "smw/gear/锁魂战靴": {
+      "page_revid": 5109,
+      "file": "smw/gear/锁魂战靴.json",
+      "fetched_at": "2026-11-20T16:21:30+00:00"
+    },
+    "smw/gear/镶魔秘裤": {
+      "page_revid": 4534,
+      "file": "smw/gear/镶魔秘裤.json",
+      "fetched_at": "2026-11-20T16:21:31+00:00"
+    },
+    "smw/gear/阳炎之指": {
+      "page_revid": 2297,
+      "file": "smw/gear/阳炎之指.json",
+      "fetched_at": "2026-11-20T16:21:34+00:00"
+    },
+    "smw/gear/阿萨辛之首": {
+      "page_revid": 5460,
+      "file": "smw/gear/阿萨辛之首.json",
+      "fetched_at": "2026-11-20T16:21:36+00:00"
+    },
+    "smw/gear/陷阵徽章": {
+      "page_revid": 8463,
+      "file": "smw/gear/陷阵徽章.json",
+      "fetched_at": "2026-11-20T16:21:37+00:00"
+    },
+    "smw/gear/随云雁去": {
+      "page_revid": 8483,
+      "file": "smw/gear/随云雁去.json",
+      "fetched_at": "2026-11-20T16:21:40+00:00"
+    },
+    "smw/gear/隐猎魂息": {
+      "page_revid": 8562,
+      "file": "smw/gear/隐猎魂息.json",
+      "fetched_at": "2026-11-20T16:21:42+00:00"
+    },
+    "smw/gear/雪影之遗": {
+      "page_revid": 4470,
+      "file": "smw/gear/雪影之遗.json",
+      "fetched_at": "2026-11-20T16:21:44+00:00"
+    },
+    "smw/gear/雪影冰戒": {
+      "page_revid": 4463,
+      "file": "smw/gear/雪影冰戒.json",
+      "fetched_at": "2026-11-20T16:21:47+00:00"
+    },
+    "smw/gear/雪影守护": {
+      "page_revid": 609,
+      "file": "smw/gear/雪影守护.json",
+      "fetched_at": "2026-11-20T16:21:49+00:00"
+    },
+    "smw/gear/雪影白徽": {
+      "page_revid": 604,
+      "file": "smw/gear/雪影白徽.json",
+      "fetched_at": "2026-11-20T16:21:50+00:00"
+    },
+    "smw/gear/雪影霜冻冰手": {
+      "page_revid": 5444,
+      "file": "smw/gear/雪影霜冻冰手.json",
+      "fetched_at": "2026-11-20T16:21:52+00:00"
+    },
+    "smw/gear/雷云捕手": {
+      "page_revid": 5646,
+      "file": "smw/gear/雷云捕手.json",
+      "fetched_at": "2026-11-20T16:21:54+00:00"
+    },
+    "smw/gear/雷咒长袍": {
+      "page_revid": 7410,
+      "file": "smw/gear/雷咒长袍.json",
+      "fetched_at": "2026-11-20T16:21:56+00:00"
+    },
+    "smw/gear/雷狩裂空": {
+      "page_revid": 8688,
+      "file": "smw/gear/雷狩裂空.json",
+      "fetched_at": "2026-11-20T16:21:59+00:00"
+    },
+    "smw/gear/雷霆之怒": {
+      "page_revid": 2870,
+      "file": "smw/gear/雷霆之怒.json",
+      "fetched_at": "2026-11-20T16:22:01+00:00"
+    },
+    "smw/gear/霆霓猩红血印": {
+      "page_revid": 605,
+      "file": "smw/gear/霆霓猩红血印.json",
+      "fetched_at": "2026-11-20T16:22:04+00:00"
+    },
+    "smw/gear/霆霓猩红血戒": {
+      "page_revid": 4460,
+      "file": "smw/gear/霆霓猩红血戒.json",
+      "fetched_at": "2026-11-20T16:22:06+00:00"
+    },
+    "smw/gear/霆霓猩红血手": {
+      "page_revid": 5448,
+      "file": "smw/gear/霆霓猩红血手.json",
+      "fetched_at": "2026-11-20T16:22:09+00:00"
+    },
+    "smw/gear/霆霓猩红血玺": {
+      "page_revid": 4467,
+      "file": "smw/gear/霆霓猩红血玺.json",
+      "fetched_at": "2026-11-20T16:22:11+00:00"
+    },
+    "smw/gear/霆霓猩红血盾": {
+      "page_revid": 614,
+      "file": "smw/gear/霆霓猩红血盾.json",
+      "fetched_at": "2026-11-20T16:22:15+00:00"
+    },
+    "smw/gear/霜凝咒裤": {
+      "page_revid": 6076,
+      "file": "smw/gear/霜凝咒裤.json",
+      "fetched_at": "2026-11-20T16:22:17+00:00"
+    },
+    "smw/gear/青琅玲珑金戒": {
+      "page_revid": 4461,
+      "file": "smw/gear/青琅玲珑金戒.json",
+      "fetched_at": "2026-11-20T16:22:19+00:00"
+    },
+    "smw/gear/青琅玲珑金手": {
+      "page_revid": 5446,
+      "file": "smw/gear/青琅玲珑金手.json",
+      "fetched_at": "2026-11-20T16:22:21+00:00"
+    },
+    "smw/gear/青琅玲珑金杯": {
+      "page_revid": 4469,
+      "file": "smw/gear/青琅玲珑金杯.json",
+      "fetched_at": "2026-11-20T16:22:23+00:00"
+    },
+    "smw/gear/青琅玲珑金盾": {
+      "page_revid": 5384,
+      "file": "smw/gear/青琅玲珑金盾.json",
+      "fetched_at": "2026-11-20T16:22:25+00:00"
+    },
+    "smw/gear/青琅玲珑金辉": {
+      "page_revid": 600,
+      "file": "smw/gear/青琅玲珑金辉.json",
+      "fetched_at": "2026-11-20T16:22:27+00:00"
+    },
+    "smw/gear/飓风凛甲": {
+      "page_revid": 4454,
+      "file": "smw/gear/飓风凛甲.json",
+      "fetched_at": "2026-11-20T16:22:29+00:00"
+    },
+    "smw/gear/飞鸿": {
+      "page_revid": 8478,
+      "file": "smw/gear/飞鸿.json",
+      "fetched_at": "2026-11-20T16:22:31+00:00"
+    },
+    "smw/gear/饮雪骨冠": {
+      "page_revid": 4428,
+      "file": "smw/gear/饮雪骨冠.json",
+      "fetched_at": "2026-11-20T16:22:33+00:00"
+    },
+    "smw/gear/饮雪骨牌": {
+      "page_revid": 4423,
+      "file": "smw/gear/饮雪骨牌.json",
+      "fetched_at": "2026-11-20T16:22:35+00:00"
+    },
+    "smw/gear/魂渊咒牌": {
+      "page_revid": 4528,
+      "file": "smw/gear/魂渊咒牌.json",
+      "fetched_at": "2026-11-20T16:22:36+00:00"
+    },
+    "smw/gear/魔使翼靴": {
+      "page_revid": 6286,
+      "file": "smw/gear/魔使翼靴.json",
+      "fetched_at": "2026-11-20T16:22:39+00:00"
+    },
+    "smw/gear/魔宗法靴": {
+      "page_revid": 5108,
+      "file": "smw/gear/魔宗法靴.json",
+      "fetched_at": "2026-11-20T16:22:40+00:00"
+    },
+    "smw/gear/魔御灵牌": {
+      "page_revid": 6081,
+      "file": "smw/gear/魔御灵牌.json",
+      "fetched_at": "2026-11-20T16:22:42+00:00"
+    },
+    "smw/gear/魔涌之徽": {
+      "page_revid": 8466,
+      "file": "smw/gear/魔涌之徽.json",
+      "fetched_at": "2026-11-20T16:22:45+00:00"
+    },
+    "smw/gear/魔源裤腿": {
+      "page_revid": 3148,
+      "file": "smw/gear/魔源裤腿.json",
+      "fetched_at": "2026-11-20T16:22:47+00:00"
+    },
+    "smw/gear/黎明行者": {
+      "page_revid": 3152,
+      "file": "smw/gear/黎明行者.json",
+      "fetched_at": "2026-11-20T16:22:49+00:00"
+    },
+    "smw/gear/黑暗刺杀者": {
+      "page_revid": 2898,
+      "file": "smw/gear/黑暗刺杀者.json",
+      "fetched_at": "2026-11-20T16:22:51+00:00"
+    },
+    "smw/gear/龙力魔牌": {
+      "page_revid": 7405,
+      "file": "smw/gear/龙力魔牌.json",
+      "fetched_at": "2026-11-20T16:22:53+00:00"
+    },
+    "smw/gear/龙吟裹腰": {
+      "page_revid": 2890,
+      "file": "smw/gear/龙吟裹腰.json",
+      "fetched_at": "2026-11-20T16:22:55+00:00"
+    },
+    "smw/gear/龙脊刺尾": {
+      "page_revid": 8492,
+      "file": "smw/gear/龙脊刺尾.json",
+      "fetched_at": "2026-11-20T16:22:56+00:00"
+    },
+    "smw/relics/万象归一": {
+      "page_revid": 7624,
+      "file": "smw/relics/万象归一.json",
+      "fetched_at": "2026-11-20T16:22:58+00:00"
+    },
+    "smw/relics/不灭之魂": {
+      "page_revid": 6391,
+      "file": "smw/relics/不灭之魂.json",
+      "fetched_at": "2026-11-20T16:23:01+00:00"
+    },
+    "smw/relics/乐园之握": {
+      "page_revid": 7726,
+      "file": "smw/relics/乐园之握.json",
+      "fetched_at": "2026-11-20T16:23:03+00:00"
+    },
+    "smw/relics/光明缔约": {
+      "page_revid": 7614,
+      "file": "smw/relics/光明缔约.json",
+      "fetched_at": "2026-11-20T16:23:05+00:00"
+    },
+    "smw/relics/凌春独绽": {
+      "page_revid": 7623,
+      "file": "smw/relics/凌春独绽.json",
+      "fetched_at": "2026-11-20T16:23:07+00:00"
+    },
+    "smw/relics/利刃徽印": {
+      "page_revid": 7619,
+      "file": "smw/relics/利刃徽印.json",
+      "fetched_at": "2026-11-20T16:23:10+00:00"
+    },
+    "smw/relics/半倚云湾": {
+      "page_revid": 7639,
+      "file": "smw/relics/半倚云湾.json",
+      "fetched_at": "2026-11-20T16:23:13+00:00"
+    },
+    "smw/relics/古龙之怒": {
+      "page_revid": 7632,
+      "file": "smw/relics/古龙之怒.json",
+      "fetched_at": "2026-11-20T16:23:15+00:00"
+    },
+    "smw/relics/告死之徽": {
+      "page_revid": 7621,
+      "file": "smw/relics/告死之徽.json",
+      "fetched_at": "2026-11-20T16:23:17+00:00"
+    },
+    "smw/relics/命运忤逆": {
+      "page_revid": 7724,
+      "file": "smw/relics/命运忤逆.json",
+      "fetched_at": "2026-11-20T16:23:20+00:00"
+    },
+    "smw/relics/和光同暖": {
+      "page_revid": 7714,
+      "file": "smw/relics/和光同暖.json",
+      "fetched_at": "2026-11-20T16:23:21+00:00"
+    },
+    "smw/relics/噬魂毒印": {
+      "page_revid": 7613,
+      "file": "smw/relics/噬魂毒印.json",
+      "fetched_at": "2026-11-20T16:23:24+00:00"
+    },
+    "smw/relics/圣剑裁决": {
+      "page_revid": 6398,
+      "file": "smw/relics/圣剑裁决.json",
+      "fetched_at": "2026-11-20T16:23:26+00:00"
+    },
+    "smw/relics/圣蹄图腾": {
+      "page_revid": 7638,
+      "file": "smw/relics/圣蹄图腾.json",
+      "fetched_at": "2026-11-20T16:23:28+00:00"
+    },
+    "smw/relics/复仇徽印": {
+      "page_revid": 7629,
+      "file": "smw/relics/复仇徽印.json",
+      "fetched_at": "2026-11-20T16:23:30+00:00"
+    },
+    "smw/relics/夜魅呓语": {
+      "page_revid": 7630,
+      "file": "smw/relics/夜魅呓语.json",
+      "fetched_at": "2026-11-20T16:23:33+00:00"
+    },
+    "smw/relics/天律奥典": {
+      "page_revid": 9257,
+      "file": "smw/relics/天律奥典.json",
+      "fetched_at": "2026-11-20T16:23:36+00:00"
+    },
+    "smw/relics/天谴印记": {
+      "page_revid": 7641,
+      "file": "smw/relics/天谴印记.json",
+      "fetched_at": "2026-11-20T16:23:37+00:00"
+    },
+    "smw/relics/始见新生": {
+      "page_revid": 7610,
+      "file": "smw/relics/始见新生.json",
+      "fetched_at": "2026-11-20T16:23:40+00:00"
+    },
+    "smw/relics/巨龙之息": {
+      "page_revid": 6376,
+      "file": "smw/relics/巨龙之息.json",
+      "fetched_at": "2026-11-20T16:23:41+00:00"
+    },
+    "smw/relics/幽冥悬停": {
+      "page_revid": 7653,
+      "file": "smw/relics/幽冥悬停.json",
+      "fetched_at": "2026-11-20T16:23:44+00:00"
+    },
+    "smw/relics/幽焰龙吟": {
+      "page_revid": 7730,
+      "file": "smw/relics/幽焰龙吟.json",
+      "fetched_at": "2026-11-20T16:23:46+00:00"
+    },
+    "smw/relics/悬日金翎": {
+      "page_revid": 8783,
+      "file": "smw/relics/悬日金翎.json",
+      "fetched_at": "2026-11-20T16:23:48+00:00"
+    },
+    "smw/relics/惊鸿翩影": {
+      "page_revid": 7626,
+      "file": "smw/relics/惊鸿翩影.json",
+      "fetched_at": "2026-11-20T16:23:50+00:00"
+    },
+    "smw/relics/扬波清浪": {
+      "page_revid": 7640,
+      "file": "smw/relics/扬波清浪.json",
+      "fetched_at": "2026-11-20T16:23:52+00:00"
+    },
+    "smw/relics/暗之侧影": {
+      "page_revid": 8828,
+      "file": "smw/relics/暗之侧影.json",
+      "fetched_at": "2026-11-20T16:23:53+00:00"
+    },
+    "smw/relics/永冻容颜": {
+      "page_revid": 7609,
+      "file": "smw/relics/永冻容颜.json",
+      "fetched_at": "2026-11-20T16:23:55+00:00"
+    },
+    "smw/relics/涅槃之火": {
+      "page_revid": 9008,
+      "file": "smw/relics/涅槃之火.json",
+      "fetched_at": "2026-11-20T16:23:57+00:00"
+    },
+    "smw/relics/淬骨化生": {
+      "page_revid": 8988,
+      "file": "smw/relics/淬骨化生.json",
+      "fetched_at": "2026-11-20T16:24:00+00:00"
+    },
+    "smw/relics/渐见新绿": {
+      "page_revid": 7634,
+      "file": "smw/relics/渐见新绿.json",
+      "fetched_at": "2026-11-20T16:24:03+00:00"
+    },
+    "smw/relics/火刑审判": {
+      "page_revid": 7615,
+      "file": "smw/relics/火刑审判.json",
+      "fetched_at": "2026-11-20T16:24:05+00:00"
+    },
+    "smw/relics/灵咒珠牙": {
+      "page_revid": 7570,
+      "file": "smw/relics/灵咒珠牙.json",
+      "fetched_at": "2026-11-20T16:24:07+00:00"
+    },
+    "smw/relics/灵窍之心": {
+      "page_revid": 7646,
+      "file": "smw/relics/灵窍之心.json",
+      "fetched_at": "2026-11-20T16:24:09+00:00"
+    },
+    "smw/relics/灵鹿遗骨": {
+      "page_revid": 7611,
+      "file": "smw/relics/灵鹿遗骨.json",
+      "fetched_at": "2026-11-20T16:24:11+00:00"
+    },
+    "smw/relics/灼华轻羽": {
+      "page_revid": 9184,
+      "file": "smw/relics/灼华轻羽.json",
+      "fetched_at": "2026-11-20T16:24:13+00:00"
+    },
+    "smw/relics/热情之翼": {
+      "page_revid": 7637,
+      "file": "smw/relics/热情之翼.json",
+      "fetched_at": "2026-11-20T16:24:15+00:00"
+    },
+    "smw/relics/狂战意志": {
+      "page_revid": 6393,
+      "file": "smw/relics/狂战意志.json",
+      "fetched_at": "2026-11-20T16:24:17+00:00"
+    },
+    "smw/relics/狮首之怒": {
+      "page_revid": 6397,
+      "file": "smw/relics/狮首之怒.json",
+      "fetched_at": "2026-11-20T16:24:18+00:00"
+    },
+    "smw/relics/王室剑徽": {
+      "page_revid": 7633,
+      "file": "smw/relics/王室剑徽.json",
+      "fetched_at": "2026-11-20T16:24:20+00:00"
+    },
+    "smw/relics/神龙之吟": {
+      "page_revid": 9056,
+      "file": "smw/relics/神龙之吟.json",
+      "fetched_at": "2026-11-20T16:24:22+00:00"
+    },
+    "smw/relics/紫电残响": {
+      "page_revid": 9158,
+      "file": "smw/relics/紫电残响.json",
+      "fetched_at": "2026-11-20T16:24:24+00:00"
+    },
+    "smw/relics/织香结蜜": {
+      "page_revid": 7647,
+      "file": "smw/relics/织香结蜜.json",
+      "fetched_at": "2026-11-20T16:24:26+00:00"
+    },
+    "smw/relics/维宪徽章": {
+      "page_revid": 7642,
+      "file": "smw/relics/维宪徽章.json",
+      "fetched_at": "2026-11-20T16:24:28+00:00"
+    },
+    "smw/relics/羽龙之蜕": {
+      "page_revid": 7728,
+      "file": "smw/relics/羽龙之蜕.json",
+      "fetched_at": "2026-11-20T16:24:30+00:00"
+    },
+    "smw/relics/胜利昭告": {
+      "page_revid": 7635,
+      "file": "smw/relics/胜利昭告.json",
+      "fetched_at": "2026-11-20T16:24:33+00:00"
+    },
+    "smw/relics/胧月之影": {
+      "page_revid": 8556,
+      "file": "smw/relics/胧月之影.json",
+      "fetched_at": "2026-11-20T16:24:35+00:00"
+    },
+    "smw/relics/舞者假面": {
+      "page_revid": 7618,
+      "file": "smw/relics/舞者假面.json",
+      "fetched_at": "2026-11-20T16:24:36+00:00"
+    },
+    "smw/relics/诅咒符剑": {
+      "page_revid": 7612,
+      "file": "smw/relics/诅咒符剑.json",
+      "fetched_at": "2026-11-20T16:24:39+00:00"
+    },
+    "smw/relics/诡秘咒法": {
+      "page_revid": 6390,
+      "file": "smw/relics/诡秘咒法.json",
+      "fetched_at": "2026-11-20T16:24:40+00:00"
+    },
+    "smw/relics/远见之眼": {
+      "page_revid": 7627,
+      "file": "smw/relics/远见之眼.json",
+      "fetched_at": "2026-11-20T16:24:42+00:00"
+    },
+    "smw/relics/邪徒徽印": {
+      "page_revid": 6395,
+      "file": "smw/relics/邪徒徽印.json",
+      "fetched_at": "2026-11-20T16:24:44+00:00"
+    },
+    "smw/relics/铭心一诺": {
+      "page_revid": 8383,
+      "file": "smw/relics/铭心一诺.json",
+      "fetched_at": "2026-11-20T16:24:46+00:00"
+    },
+    "smw/relics/锻体铸心": {
+      "page_revid": 7648,
+      "file": "smw/relics/锻体铸心.json",
+      "fetched_at": "2026-11-20T16:24:48+00:00"
+    },
+    "smw/relics/雨润花蕾": {
+      "page_revid": 8692,
+      "file": "smw/relics/雨润花蕾.json",
+      "fetched_at": "2026-11-20T16:24:50+00:00"
+    },
+    "smw/relics/雷蟒晶骸": {
+      "page_revid": 7616,
+      "file": "smw/relics/雷蟒晶骸.json",
+      "fetched_at": "2026-11-20T16:24:53+00:00"
+    },
+    "smw/relics/雷霆铁腕": {
+      "page_revid": 6392,
+      "file": "smw/relics/雷霆铁腕.json",
+      "fetched_at": "2026-11-20T16:24:54+00:00"
+    },
+    "smw/relics/霜冻之灾": {
+      "page_revid": 6394,
+      "file": "smw/relics/霜冻之灾.json",
+      "fetched_at": "2026-11-20T16:24:57+00:00"
+    },
+    "smw/relics/青焰破空": {
+      "page_revid": 7752,
+      "file": "smw/relics/青焰破空.json",
+      "fetched_at": "2026-11-20T16:24:59+00:00"
+    },
+    "smw/relics/青锋斩妖": {
+      "page_revid": 7617,
+      "file": "smw/relics/青锋斩妖.json",
+      "fetched_at": "2026-11-20T16:25:01+00:00"
+    },
+    "smw/relics/魂狩之握": {
+      "page_revid": 7625,
+      "file": "smw/relics/魂狩之握.json",
+      "fetched_at": "2026-11-20T16:25:03+00:00"
+    },
+    "smw/runes/万象余烬": {
+      "page_revid": 8785,
+      "file": "smw/runes/万象余烬.json",
+      "fetched_at": "2026-11-20T16:25:04+00:00"
+    },
+    "smw/runes/不灭": {
+      "page_revid": 4114,
+      "file": "smw/runes/不灭.json",
+      "fetched_at": "2026-11-20T16:25:07+00:00"
+    },
+    "smw/runes/凝冰": {
+      "page_revid": 6458,
+      "file": "smw/runes/凝冰.json",
+      "fetched_at": "2026-11-20T16:25:09+00:00"
+    },
+    "smw/runes/命轮": {
+      "page_revid": 6460,
+      "file": "smw/runes/命轮.json",
+      "fetched_at": "2026-11-20T16:25:11+00:00"
+    },
+    "smw/runes/圣光守护": {
+      "page_revid": 4112,
+      "file": "smw/runes/圣光守护.json",
+      "fetched_at": "2026-11-20T16:25:13+00:00"
+    },
+    "smw/runes/寒月": {
+      "page_revid": 4116,
+      "file": "smw/runes/寒月.json",
+      "fetched_at": "2026-11-20T16:25:15+00:00"
+    },
+    "smw/runes/强健": {
+      "page_revid": 4143,
+      "file": "smw/runes/强健.json",
+      "fetched_at": "2026-11-20T16:25:17+00:00"
+    },
+    "smw/runes/怒法": {
+      "page_revid": 4117,
+      "file": "smw/runes/怒法.json",
+      "fetched_at": "2026-11-20T16:25:19+00:00"
+    },
+    "smw/runes/戏火者": {
+      "page_revid": 4108,
+      "file": "smw/runes/戏火者.json",
+      "fetched_at": "2026-11-20T16:25:21+00:00"
+    },
+    "smw/runes/断钢": {
+      "page_revid": 6459,
+      "file": "smw/runes/断钢.json",
+      "fetched_at": "2026-11-20T16:25:23+00:00"
+    },
+    "smw/runes/残月": {
+      "page_revid": 4109,
+      "file": "smw/runes/残月.json",
+      "fetched_at": "2026-11-20T16:25:25+00:00"
+    },
+    "smw/runes/毒牙": {
+      "page_revid": 4120,
+      "file": "smw/runes/毒牙.json",
+      "fetched_at": "2026-11-20T16:25:27+00:00"
+    },
+    "smw/runes/火咒": {
+      "page_revid": 4137,
+      "file": "smw/runes/火咒.json",
+      "fetched_at": "2026-11-20T16:25:29+00:00"
+    },
+    "smw/runes/生息": {
+      "page_revid": 6457,
+      "file": "smw/runes/生息.json",
+      "fetched_at": "2026-11-20T16:25:32+00:00"
+    },
+    "smw/runes/盎然": {
+      "page_revid": 4111,
+      "file": "smw/runes/盎然.json",
+      "fetched_at": "2026-11-20T16:25:34+00:00"
+    },
+    "smw/runes/神风": {
+      "page_revid": 4139,
+      "file": "smw/runes/神风.json",
+      "fetched_at": "2026-11-20T16:25:36+00:00"
+    },
+    "smw/runes/绝刃": {
+      "page_revid": 4118,
+      "file": "smw/runes/绝刃.json",
+      "fetched_at": "2026-11-20T16:25:38+00:00"
+    },
+    "smw/runes/腐朽者": {
+      "page_revid": 4115,
+      "file": "smw/runes/腐朽者.json",
+      "fetched_at": "2026-11-20T16:25:40+00:00"
+    },
+    "smw/runes/逐日者": {
+      "page_revid": 4119,
+      "file": "smw/runes/逐日者.json",
+      "fetched_at": "2026-11-20T16:25:42+00:00"
+    },
+    "smw/runes/铁棘": {
+      "page_revid": 4140,
+      "file": "smw/runes/铁棘.json",
+      "fetched_at": "2026-11-20T16:25:44+00:00"
+    },
+    "smw/runes/闪击": {
+      "page_revid": 4138,
+      "file": "smw/runes/闪击.json",
+      "fetched_at": "2026-11-20T16:25:46+00:00"
+    },
+    "smw/runes/雷灭之刃": {
+      "page_revid": 4107,
+      "file": "smw/runes/雷灭之刃.json",
+      "fetched_at": "2026-11-20T16:25:49+00:00"
+    },
+    "smw/runes/雷纹": {
+      "page_revid": 4142,
+      "file": "smw/runes/雷纹.json",
+      "fetched_at": "2026-11-20T16:25:50+00:00"
+    },
+    "smw/runes/雷霆咆哮": {
+      "page_revid": 4121,
+      "file": "smw/runes/雷霆咆哮.json",
+      "fetched_at": "2026-11-20T16:25:52+00:00"
+    },
+    "smw/runes/霜咬": {
+      "page_revid": 4113,
+      "file": "smw/runes/霜咬.json",
+      "fetched_at": "2026-11-20T16:25:54+00:00"
+    },
+    "smw/runes/霜雪": {
+      "page_revid": 4141,
+      "file": "smw/runes/霜雪.json",
+      "fetched_at": "2026-11-20T16:25:57+00:00"
+    },
+    "smw/runes/魔哮": {
+      "page_revid": 4110,
+      "file": "smw/runes/魔哮.json",
+      "fetched_at": "2026-11-20T16:26:00+00:00"
+    },
+    "smw/factions/共鸣": {
+      "page_revid": 7906,
+      "file": "smw/factions/共鸣.json",
+      "fetched_at": "2026-11-20T16:26:03+00:00"
+    },
+    "smw/factions/刺杀": {
+      "page_revid": 7883,
+      "file": "smw/factions/刺杀.json",
+      "fetched_at": "2026-11-20T16:26:04+00:00"
+    },
+    "smw/factions/前锋": {
+      "page_revid": 7882,
+      "file": "smw/factions/前锋.json",
+      "fetched_at": "2026-11-20T16:26:06+00:00"
+    },
+    "smw/factions/力场": {
+      "page_revid": 7901,
+      "file": "smw/factions/力场.json",
+      "fetched_at": "2026-11-20T16:26:08+00:00"
+    },
+    "smw/factions/医者": {
+      "page_revid": 7893,
+      "file": "smw/factions/医者.json",
+      "fetched_at": "2026-11-20T16:26:11+00:00"
+    },
+    "smw/factions/召唤": {
+      "page_revid": 7894,
+      "file": "smw/factions/召唤.json",
+      "fetched_at": "2026-11-20T16:26:13+00:00"
+    },
+    "smw/factions/咒印回响": {
+      "page_revid": 9237,
+      "file": "smw/factions/咒印回响.json",
+      "fetched_at": "2026-11-20T16:26:15+00:00"
+    },
+    "smw/factions/咒蚀": {
+      "page_revid": 7908,
+      "file": "smw/factions/咒蚀.json",
+      "fetched_at": "2026-11-20T16:26:17+00:00"
+    },
+    "smw/factions/噬魂": {
+      "page_revid": 7892,
+      "file": "smw/factions/噬魂.json",
+      "fetched_at": "2026-11-20T16:26:20+00:00"
+    },
+    "smw/factions/回能": {
+      "page_revid": 7904,
+      "file": "smw/factions/回能.json",
+      "fetched_at": "2026-11-20T16:26:22+00:00"
+    },
+    "smw/factions/回馈": {
+      "page_revid": 7885,
+      "file": "smw/factions/回馈.json",
+      "fetched_at": "2026-11-20T16:26:24+00:00"
+    },
+    "smw/factions/圣盾": {
+      "page_revid": 9236,
+      "file": "smw/factions/圣盾.json",
+      "fetched_at": "2026-11-20T16:26:26+00:00"
+    },
+    "smw/factions/坚韧": {
+      "page_revid": 7896,
+      "file": "smw/factions/坚韧.json",
+      "fetched_at": "2026-11-20T16:26:28+00:00"
+    },
+    "smw/factions/天人": {
+      "page_revid": 9235,
+      "file": "smw/factions/天人.json",
+      "fetched_at": "2026-11-20T16:26:29+00:00"
+    },
+    "smw/factions/妖精": {
+      "page_revid": 7897,
+      "file": "smw/factions/妖精.json",
+      "fetched_at": "2026-11-20T16:26:31+00:00"
+    },
+    "smw/factions/守护": {
+      "page_revid": 7879,
+      "file": "smw/factions/守护.json",
+      "fetched_at": "2026-11-20T16:26:33+00:00"
+    },
+    "smw/factions/强袭": {
+      "page_revid": 7888,
+      "file": "smw/factions/强袭.json",
+      "fetched_at": "2026-11-20T16:26:35+00:00"
+    },
+    "smw/factions/影之使魔": {
+      "page_revid": 9240,
+      "file": "smw/factions/影之使魔.json",
+      "fetched_at": "2026-11-20T16:26:36+00:00"
+    },
+    "smw/factions/敌法": {
+      "page_revid": 7890,
+      "file": "smw/factions/敌法.json",
+      "fetched_at": "2026-11-20T16:26:39+00:00"
+    },
+    "smw/factions/智慧": {
+      "page_revid": 7889,
+      "file": "smw/factions/智慧.json",
+      "fetched_at": "2026-11-20T16:26:40+00:00"
+    },
+    "smw/factions/暴怒": {
+      "page_revid": 7873,
+      "file": "smw/factions/暴怒.json",
+      "fetched_at": "2026-11-20T16:26:43+00:00"
+    },
+    "smw/factions/死战": {
+      "page_revid": 9229,
+      "file": "smw/factions/死战.json",
+      "fetched_at": "2026-11-20T16:26:44+00:00"
+    },
+    "smw/factions/洞穿": {
+      "page_revid": 9230,
+      "file": "smw/factions/洞穿.json",
+      "fetched_at": "2026-11-20T16:26:48+00:00"
+    },
+    "smw/factions/流星": {
+      "page_revid": 7902,
+      "file": "smw/factions/流星.json",
+      "fetched_at": "2026-11-20T16:26:50+00:00"
+    },
+    "smw/factions/游侠": {
+      "page_revid": 7886,
+      "file": "smw/factions/游侠.json",
+      "fetched_at": "2026-11-20T16:26:51+00:00"
+    },
+    "smw/factions/灭法": {
+      "page_revid": 7909,
+      "file": "smw/factions/灭法.json",
+      "fetched_at": "2026-11-20T16:26:54+00:00"
+    },
+    "smw/factions/灵术叠咏": {
+      "page_revid": 9238,
+      "file": "smw/factions/灵术叠咏.json",
+      "fetched_at": "2026-11-20T16:26:56+00:00"
+    },
+    "smw/factions/狩魔": {
+      "page_revid": 7881,
+      "file": "smw/factions/狩魔.json",
+      "fetched_at": "2026-11-20T16:26:58+00:00"
+    },
+    "smw/factions/盾御": {
+      "page_revid": 7899,
+      "file": "smw/factions/盾御.json",
+      "fetched_at": "2026-11-20T16:27:00+00:00"
+    },
+    "smw/factions/磐石": {
+      "page_revid": 9232,
+      "file": "smw/factions/磐石.json",
+      "fetched_at": "2026-11-20T16:27:02+00:00"
+    },
+    "smw/factions/秘术": {
+      "page_revid": 7884,
+      "file": "smw/factions/秘术.json",
+      "fetched_at": "2026-11-20T16:27:04+00:00"
+    },
+    "smw/factions/组合": {
+      "page_revid": 7878,
+      "file": "smw/factions/组合.json",
+      "fetched_at": "2026-11-20T16:27:06+00:00"
+    },
+    "smw/factions/统帅": {
+      "page_revid": 7898,
+      "file": "smw/factions/统帅.json",
+      "fetched_at": "2026-11-20T16:27:09+00:00"
+    },
+    "smw/factions/聚变": {
+      "page_revid": 7905,
+      "file": "smw/factions/聚变.json",
+      "fetched_at": "2026-11-20T16:27:11+00:00"
+    },
+    "smw/factions/血契制约": {
+      "page_revid": 9239,
+      "file": "smw/factions/血契制约.json",
+      "fetched_at": "2026-11-20T16:27:13+00:00"
+    },
+    "smw/factions/诡影": {
+      "page_revid": 7887,
+      "file": "smw/factions/诡影.json",
+      "fetched_at": "2026-11-20T16:27:15+00:00"
+    },
+    "smw/factions/超导": {
+      "page_revid": 7900,
+      "file": "smw/factions/超导.json",
+      "fetched_at": "2026-11-20T16:27:17+00:00"
+    },
+    "smw/factions/辅助": {
+      "page_revid": 7880,
+      "file": "smw/factions/辅助.json",
+      "fetched_at": "2026-11-20T16:27:19+00:00"
+    },
+    "smw/factions/通灵": {
+      "page_revid": 7895,
+      "file": "smw/factions/通灵.json",
+      "fetched_at": "2026-11-20T16:27:21+00:00"
+    },
+    "smw/factions/铁血": {
+      "page_revid": 9231,
+      "file": "smw/factions/铁血.json",
+      "fetched_at": "2026-11-20T16:27:23+00:00"
+    },
+    "smw/factions/铁骨": {
+      "page_revid": 9233,
+      "file": "smw/factions/铁骨.json",
+      "fetched_at": "2026-11-20T16:27:26+00:00"
+    },
+    "smw/factions/锐意": {
+      "page_revid": 9234,
+      "file": "smw/factions/锐意.json",
+      "fetched_at": "2026-11-20T16:27:28+00:00"
+    },
+    "smw/factions/雷暴": {
+      "page_revid": 7907,
+      "file": "smw/factions/雷暴.json",
+      "fetched_at": "2026-11-20T16:27:30+00:00"
+    },
+    "smw/factions/风涌": {
+      "page_revid": 7903,
+      "file": "smw/factions/风涌.json",
+      "fetched_at": "2026-11-20T16:27:32+00:00"
+    },
+    "smw/factions/魔导": {
+      "page_revid": 7891,
+      "file": "smw/factions/魔导.json",
+      "fetched_at": "2026-11-20T16:27:34+00:00"
+    },
+    "smw/black_stones/模板:推荐黑石": {
+      "page_revid": 8770,
+      "file": "smw/black_stones/模板_推荐黑石.json",
+      "fetched_at": "2026-11-20T16:27:36+00:00"
+    },
+    "smw/black_stones/黑石": {
+      "page_revid": 7194,
+      "file": "smw/black_stones/黑石.json",
+      "fetched_at": "2026-11-20T16:27:38+00:00"
+    },
+    "smw/black_stones/黑石强化": {
+      "page_revid": 5857,
+      "file": "smw/black_stones/黑石强化.json",
+      "fetched_at": "2026-11-20T16:27:40+00:00"
+    },
+    "smw/extra_items/扩散魔链": {
+      "page_revid": 9040,
+      "file": "smw/extra_items/扩散魔链.json",
+      "fetched_at": "2026-11-20T17:05:00+00:00"
+    },
+    "smw/extra_items/狩猎徽章": {
+      "page_revid": 8465,
+      "file": "smw/extra_items/狩猎徽章.json",
+      "fetched_at": "2026-11-20T17:05:02+00:00"
+    },
+    "smw/extra_items/界卫魔面": {
+      "page_revid": 6290,
+      "file": "smw/extra_items/界卫魔面.json",
+      "fetched_at": "2026-11-20T17:05:04+00:00"
+    },
+    "smw/extra_items/祭仪羽冠": {
+      "page_revid": 4447,
+      "file": "smw/extra_items/祭仪羽冠.json",
+      "fetched_at": "2026-11-20T17:05:06+00:00"
+    },
+    "smw/extra_items/霆霓猩红血印": {
+      "page_revid": 605,
+      "file": "smw/extra_items/霆霓猩红血印.json",
+      "fetched_at": "2026-11-20T17:05:07+00:00"
+    }
+  }
+}

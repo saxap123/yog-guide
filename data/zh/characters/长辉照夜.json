@@ -1,0 +1,941 @@
+{
+ "id": "char-2069",
+ "name": "长辉照夜",
+ "page_title": "长辉照夜",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "希亚娜",
+  "gender": "女",
+  "race": "神使",
+  "birthday": "7月13日",
+  "birthplace": "古战场遗址",
+  "height_weight": "162cm/47kg",
+  "specialties": [
+   "吟唱",
+   "聆听",
+   "教导"
+  ],
+  "likes": [
+   "阳光",
+   "和平",
+   "正直善良的品质",
+   "音乐盒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "死亡",
+   "遗忘",
+   "混沌"
+  ],
+  "release_date": "2025年07月30日"
+ },
+ "element": "光明",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "前锋",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "回馈",
+    "id": "faction-2196"
+   },
+   {
+    "name": "共鸣",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%物理强度",
+   "暴击倍率",
+   "力量",
+   "全伤害类型增幅",
+   "物理伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "怒气回复",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "怒气"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "金晖满路",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "挥动武器对附近大范围敌人造成1000%物理强度的神圣伤害。(本技能不会受攻速影响，且造成的伤害视为技能伤害。)",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "1000%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "神召一剑",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "凝聚神圣之剑，锤击前方地面，对范围内所有敌人造成7000%物理强度的神圣伤害。",
+   "scaling": [
+    {
+     "percent": "7000%",
+     "values": [
+      7000.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "7000%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "照影生辉",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "释放【神召一剑】后将获得3层充能(充能在每次释放必杀技时重置，不可叠加)，每层充能都会使自己在释放【金辉满路】同时，在前方大范围生成光矛，对命中的敌人造成3000%物理强度的神圣伤害。",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "3000%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "圣华追袭",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【神召一剑】造成的伤害提升75%；且长辉照夜对首领怪物造成的伤害提升25%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "星流撞日",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自身每拥有一个狂怒球，都会提升【照影生辉】造成的伤害10%，起效上限不会超过10个狂怒球。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "回岸折光",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到伤害时，有10%几率对攻击者使用光矛进行反击，造成3000%物理强度的神圣伤害，该伤害会受到【星流撞日】效果的加成。",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "物理强度",
+     "effect": "神圣伤害",
+     "text": "3000%物理强度的神圣伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "赤芒绝响",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "长辉照夜的技能暴击几率+30%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "孤军深入",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "刽子手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对受伤的敌人进行毫不留情的处决，对生命值低于15 %的目标造成伤害提高20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "狂战士之怒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": null,
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猩红秘戒",
+    "腰带": "铁铸束腰",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "戏谑者裤腿",
+    "徽章": null,
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "佑世之锋",
+    "护手": "深渊之握"
+   },
+   "alternatives": {
+    "腰带": [
+     "狂猎之腰"
+    ],
+    "裤子": [
+     "元素大师之裤"
+    ],
+    "护手": [
+     "牛皮护手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "铁铸束腰": null,
+    "狂猎之腰": null,
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "佑世之锋": "gear-2299",
+    "深渊之握": "gear-1192",
+    "牛皮护手": null
+   },
+   "unlinked": {
+    "铁铸束腰": {
+     "reason": "game_only",
+     "game_id": "1014",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1014",
+        "field": "name",
+        "text_id": 4030,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       4030
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "青鸾巽羽",
+       "月渊龙女",
+       "王国猎手"
+      ]
+     }
+    },
+    "狂猎之腰": {
+     "reason": "game_only",
+     "game_id": "1023",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1023",
+        "field": "name",
+        "text_id": 54203,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       54203
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽",
+       "月渊龙女"
+      ]
+     }
+    },
+    "牛皮护手": {
+     "reason": "game_only",
+     "game_id": "3006",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3006",
+        "field": "name",
+        "text_id": 4061,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       4061
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "分解装备",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "1000级",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "噬魂血盔",
+    "项链": "辉耀之链",
+    "卡牌": "千印结牌",
+    "耳坠": "辉耀之环",
+    "衣服": "法球咒铠",
+    "戒指": "瑶星神佑圣戒",
+    "腰带": "圣职驱魔",
+    "圣物": "瑶星神佑圣钥",
+    "裤子": "质化织裤",
+    "徽章": "瑶星神佑圣徽",
+    "鞋子": "宗室礼靴",
+    "副手": "瑶星神佑圣盾",
+    "武器": "血隐长刃",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "项链": [
+     "逆厄辉链"
+    ],
+    "耳坠": [
+     "逆厄辉环"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": "佑世之锋",
+   "item_ids": {
+    "噬魂血盔": null,
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "千印结牌": null,
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "法球咒铠": "gear-1686",
+    "瑶星神佑圣戒": "gear-2083",
+    "圣职驱魔": "gear-1689",
+    "瑶星神佑圣钥": "gear-2084",
+    "质化织裤": "gear-1858",
+    "瑶星神佑圣徽": "gear-2085",
+    "宗室礼靴": "gear-1282",
+    "瑶星神佑圣盾": "gear-2086",
+    "血隐长刃": "gear-2291",
+    "幽冥初水": null,
+    "佑世之锋": "gear-2299"
+   },
+   "unlinked": {
+    "噬魂血盔": {
+     "reason": "game_only",
+     "game_id": "95021",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95021",
+        "field": "name",
+        "text_id": 82516,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       82516
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "长辉照夜",
+       "千宵月守"
+      ]
+     }
+    },
+    "千印结牌": {
+     "reason": "game_only",
+     "game_id": "95019",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95019",
+        "field": "name",
+        "text_id": 82512,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       82512
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "长辉照夜",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "雷灭之刃",
+    "id": "rune-1425",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "盎然",
+    "id": "rune-1422",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "腐朽者",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "怒法",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "不灭",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "锻钢/绝刃",
+    "id": null,
+    "options": [
+     {
+      "name": "锻钢",
+      "id": null,
+      "unlinked": {
+       "reason": "typo_candidate",
+       "game_id": null,
+       "possible_match": {
+        "name": "断钢",
+        "id": "rune-1997",
+        "source": "similar name in runes.json",
+        "status": "unverified"
+       },
+       "game": null,
+       "wiki_lookup": {
+        "title_found": false,
+        "page": null,
+        "search_hits": [
+         "长辉照夜",
+         "玉尘灵仙",
+         "蚀骨魂龙"
+        ]
+       }
+      }
+     },
+     {
+      "name": "绝刃",
+      "id": "rune-1406",
+      "unlinked": null
+     }
+    ],
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "铁荆",
+    "id": null,
+    "options": null,
+    "unlinked": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "铁棘",
+      "id": "rune-1420",
+      "source": "similar name in runes.json",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "战争之蹄",
+       "长辉照夜",
+       "玉尘灵仙"
+      ]
+     }
+    }
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "怒兽",
+    "id": "black_stone-03",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "诅咒灵",
+    "id": "black_stone-14",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【金晖满路】和【神召一剑】的释放速度+20%。"
+   },
+   {
+    "rank": 2,
+    "text": "【神召一剑】释放时，自身拥有的每个狂怒球会使【神召一剑】的伤害提升20%(需要习得【星流撞日】，效果上限也等同于该技能)，且【神召一剑】释放过程中免疫控制效果和击飞。"
+   },
+   {
+    "rank": 3,
+    "text": "【照影生辉】释放的光矛将额外穿刺一次敌方目标"
+   },
+   {
+    "rank": 4,
+    "text": "触发【回岸折光】时，会免疫当次伤害，并击晕敌人1秒，同时对敌方施加物理破甲，持续4秒。物理破甲:物理护甲-10%，最多叠加3层。(破甲效果不会使物理护甲小于0)"
+   },
+   {
+    "rank": 5,
+    "text": "长辉照夜的所有技能可以对无敌状态的敌人造成伤害。"
+   },
+   {
+    "rank": 6,
+    "text": "长辉照夜造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "初芒",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "怒气回复+20"
+   },
+   {
+    "index": 2,
+    "name": "启明",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "狂怒球数量上限+2"
+   },
+   {
+    "index": 3,
+    "name": "凝辉",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【照影生辉】造成的伤害提升60%，但是释放【神召一剑】后获得的【照影生辉】的充能层数-1"
+   },
+   {
+    "index": 4,
+    "name": "炽华",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "技能暴击概率+10.00%；暴击倍率+30.00%"
+   },
+   {
+    "index": 5,
+    "name": "逐光",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "长辉照夜造成的所有伤害都有45%几率不会产生偏移，自身每有1点物理精通都会增加0.5%的几率"
+   },
+   {
+    "index": 6,
+    "name": "明辰",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "【金晖满路】和【神召一剑】的释放速度+15%"
+   },
+   {
+    "index": 7,
+    "name": "月白",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【神召一剑】释放后，立刻恢复自身400怒气值"
+   },
+   {
+    "index": 8,
+    "name": "晴晖",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+   },
+   {
+    "index": 9,
+    "name": "灼日",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "物理伤害减免+5.00%；法术伤害减免+5.00%"
+   },
+   {
+    "index": 10,
+    "name": "神耀",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "被施加混乱或嘲讽效果时，有100%几率免疫该效果"
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "圣血晶石",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "黑潮勋章",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": "光明缔约",
+   "id": "relic-2080"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%95%BF%E8%BE%89%E7%85%A7%E5%A4%9C",
+ "revid": 8854,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8854",
+ "rev_timestamp": "2026-05-03T15:43:26Z"
+}

@@ -1,0 +1,915 @@
+{
+ "id": "char-1696",
+ "name": "Northland Princess",
+ "page_title": "北境公主",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Flo",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--12-20",
+  "birthplace": "Senblen, the royal capital",
+  "height_weight": "163cm/47kg",
+  "specialties": [
+   "interpreting ancient texts and history",
+   "memory",
+   "building snowmen"
+  ],
+  "likes": [
+   "afternoon tea",
+   "winter",
+   "Spider",
+   "royal chess pieces (bond gift)"
+  ],
+  "dislikes": [
+   "strenuous exercise such as horse riding, vulgar and boring knight stories, fighting and killing"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Frost",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction",
+   "Spell Power %",
+   "Frost Penetration",
+   "Intelligence",
+   "Crit Damage Boost",
+   "Critical Chance (Attack)",
+   "Attack Speed",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Frost Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "Best utility pick for shield breaking and applying Chill; low cost, high return",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Frost DMG equal to 50% Spell Power to 3 enemies within 10 meters.",
+   "scaling": [
+    {
+     "percent": "50%",
+     "values": [
+      50.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 50% of Spell Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Ice Age",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Flo creates an area of Eternal Winter, dealing 340% (affected by spell power) Frost damage to all enemy units caught in its effect, and freezing all for 2s",
+   "scaling": [
+    {
+     "percent": "340%",
+     "values": [
+      340.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 340% of Spell Power"
+    }
+   ],
+   "name_zh": "冰雪暴"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Tundra Currents",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Flo unleashes 3 waves of icy missiles in a cone-shaped area ahead, piercing through all enemy units, each wave dealing Frost damage of 230% spell power",
+   "scaling": [
+    {
+     "percent": "230%",
+     "values": [
+      230.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 230% of Spell Power"
+    }
+   ],
+   "name_zh": "北地寒流"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Flo Zone",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Flo deals DMG, there is a 10% chance to apply the Chill effect to the target. [Chill]: Reduces Attack Speed by 20% and Rage Restore speed by 12% for 5 seconds.",
+   "scaling": [],
+   "name_zh": "绝对领域"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Shivering Cold",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Targets affected by [Chill] have their accuracy reduced by 25%, and their cooldown increased by 25%",
+   "scaling": [],
+   "name_zh": "寒霜侵袭"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Deep Freeze",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Flo's critical strikes to Chilled targets freezes them for 2.5 seconds",
+   "scaling": [],
+   "name_zh": "深度冻结"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Frosty Reprisal",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "If the enemy Blackguard's basic attack crits, Flo launches an Ice Bolt up to 4 enemies, dealing 50% of spell power damage and applies Chill on all affected targets. The trigger interval is 5 sec, every point of Spell Mastery additionally reduces trigger interval by 0.05 sec (Won't less than 0.5 sec).",
+   "scaling": [
+    {
+     "percent": "50%",
+     "values": [
+      50.0
+     ],
+     "stat": "Spell Power",
+     "effect": "DMG",
+     "text": "DMG equal to 50% of Spell Power"
+    }
+   ],
+   "name_zh": "雪之威严"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Lv 450 bounce build",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": "Bounce build",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Maddeningspell",
+    "Necklace": "Time Keeper",
+    "Card": "Card of Haste",
+    "Earrings": null,
+    "Armor": "Moonlight · Light Chainmail",
+    "Ring": "Snowdrift",
+    "Belt": "Honor of House Rudolph",
+    "Relic": "Luminous Feather",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Runes of the Surge",
+    "Shoes": "Thunderous Rage",
+    "Off-hand": "Ultramarine Shield",
+    "Weapon": "Wild Hunt",
+    "Handguard": "Cold Forged Grips"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Moonlight · Regal Amethyst"
+    ],
+    "Belt": [
+     "Warmonger's Warbelt"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "狂法者": "gear-game-90012",
+    "月辉·烁金荧紫": "gear-1168",
+    "时间守护者": "gear-1715",
+    "急速之牌": "gear-game-90210",
+    "月辉·轻盈软甲": "gear-1180",
+    "雪月": "gear-game-2033",
+    "王室荣尊": "gear-1172",
+    "嗜战者束腰": "gear-1210",
+    "精灵飞羽": "gear-game-13003",
+    "戏谑者裤腿": "gear-1182",
+    "魔涌之徽": "gear-1176",
+    "雷霆之怒": "gear-1183",
+    "湛蓝护盾": "gear-game-5022",
+    "狂猎": "gear-128",
+    "极寒御手": "gear-game-90020"
+   },
+   "unlinked": {
+    "狂法者": {
+     "reason": "game_only",
+     "game_id": "90012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90012",
+        "field": "name",
+        "text_id": 55963,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       55963
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "蚀骨魂龙",
+       "北境公主",
+       "凌空械羽"
+      ]
+     }
+    },
+    "急速之牌": {
+     "reason": "game_only",
+     "game_id": "90210",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90210",
+        "field": "name",
+        "text_id": 62167,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62167
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "北境公主",
+       "百花旅者",
+       "忘却迷境-至冬宫殿"
+      ]
+     }
+    },
+    "雪月": {
+     "reason": "game_only",
+     "game_id": "2033",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2033",
+        "field": "name",
+        "text_id": 54705,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       54705
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "雪月公主",
+       "传承之龙",
+       "旅途故事-吾心如火攻略",
+       "阵线模拟器",
+       "黑话解读"
+      ]
+     }
+    },
+    "精灵飞羽": {
+     "reason": "game_only",
+     "game_id": "13003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13003",
+        "field": "name",
+        "text_id": 3927,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3927
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "百花旅者",
+       "分解装备",
+       "夜行暹罗",
+       "黑话解读"
+      ]
+     }
+    },
+    "湛蓝护盾": {
+     "reason": "game_only",
+     "game_id": "5022",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5022",
+        "field": "name",
+        "text_id": 53828,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53828
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "怒气装备"
+      ]
+     }
+    },
+    "极寒御手": {
+     "reason": "game_only",
+     "game_id": "90020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90020",
+        "field": "name",
+        "text_id": 56456,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       56456
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Lv 450 utility pick",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": "Utility pick",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Maddeningspell",
+    "Necklace": "Time Keeper",
+    "Card": "Card of Haste",
+    "Earrings": null,
+    "Armor": "Moonlight · Light Chainmail",
+    "Ring": "Secret Ring of Frost",
+    "Belt": "Belt of Electrify",
+    "Relic": "Luminous Feather",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Emblem of Frost",
+    "Shoes": "Thunderous Rage",
+    "Off-hand": "Ultramarine Shield",
+    "Weapon": "Wild Hunt",
+    "Handguard": "Devil's Conjuration"
+   },
+   "alternatives": {
+    "Belt": [
+     "Wild Sacrificer"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "狂法者": "gear-game-90012",
+    "时间守护者": "gear-1715",
+    "急速之牌": "gear-game-90210",
+    "月辉·轻盈软甲": "gear-1180",
+    "霜之秘戒": "gear-game-90291",
+    "感电者": "gear-1690",
+    "舍身狂袭": "gear-game-90087",
+    "精灵飞羽": "gear-game-13003",
+    "戏谑者裤腿": "gear-1182",
+    "霜之徽印": "gear-game-90301",
+    "雷霆之怒": "gear-1183",
+    "湛蓝护盾": "gear-game-5022",
+    "狂猎": "gear-128",
+    "咒法魔手": "gear-game-90298"
+   },
+   "unlinked": {
+    "狂法者": {
+     "reason": "game_only",
+     "game_id": "90012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90012",
+        "field": "name",
+        "text_id": 55963,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       55963
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "蚀骨魂龙",
+       "北境公主",
+       "凌空械羽"
+      ]
+     }
+    },
+    "急速之牌": {
+     "reason": "game_only",
+     "game_id": "90210",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90210",
+        "field": "name",
+        "text_id": 62167,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62167
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "北境公主",
+       "百花旅者",
+       "忘却迷境-至冬宫殿"
+      ]
+     }
+    },
+    "霜之秘戒": {
+     "reason": "game_only",
+     "game_id": "90291",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90291",
+        "field": "name",
+        "text_id": 63573,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       63573
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "北境公主"
+      ]
+     }
+    },
+    "舍身狂袭": {
+     "reason": "game_only",
+     "game_id": "90087",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90087",
+        "field": "name",
+        "text_id": 60196,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       60196
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "绯红荆棘",
+       "北境公主",
+       "千宵月守"
+      ]
+     }
+    },
+    "精灵飞羽": {
+     "reason": "game_only",
+     "game_id": "13003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13003",
+        "field": "name",
+        "text_id": 3927,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3927
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "百花旅者",
+       "分解装备",
+       "夜行暹罗",
+       "黑话解读"
+      ]
+     }
+    },
+    "霜之徽印": {
+     "reason": "game_only",
+     "game_id": "90301",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90301",
+        "field": "name",
+        "text_id": 63583,
+        "type": "12"
+       }
+      ],
+      "text_ids": [
+       63583
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "北境公主"
+      ]
+     }
+    },
+    "湛蓝护盾": {
+     "reason": "game_only",
+     "game_id": "5022",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5022",
+        "field": "name",
+        "text_id": 53828,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53828
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "怒气装备"
+      ]
+     }
+    },
+    "咒法魔手": {
+     "reason": "game_only",
+     "game_id": "90298",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90298",
+        "field": "name",
+        "text_id": 63580,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       63580
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "北境公主"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Ursus",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Hoarfrost Hoof",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Rime Phoenix",
+    "id": "black_stone-13",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": [
+  "Northland Princess"
+ ],
+ "lore": {
+  "story": "芙萝·鲁道夫，神圣王国公主，一直含着金钥匙长大的她，却从小就展露出了对底层贫民的同情，一直致力于为他们争取更好的生活，在王国内——尤其是王国的底层人民中享有盛名，年纪轻轻就有了不少支持者。但正如诗歌传唱的那样：“在王都，勾心斗角早已成为的孩童的游戏”，芙萝也不例外，甚至还是其中的佼佼者，她在深受王国人民信赖和喜爱的同时，展露出了令人不安的政治影响力，王宫内早已没人敢轻视这个外表天真可爱小女孩。\n在神圣王国签订《亚克兰斯和约》后，国王霍夫曼三世本打算派遣波伊大主教作为王国代表来到亚克兰斯，但芙萝却主动接下了这项任务，选择饮下金色圣血成为黑卫的一员。至于缘由，是像她所述的那样，为了给流离失所的人们一个归家的希望，还是有别的原因……这个谁也不知晓……",
+  "deeds": [
+   "芙萝成为黑卫以后，没多久就融入了亚克兰斯，和大家打成一片。\n之所以能这么快,除了可爱的外表，和她总是喊别人“哥哥”分不开干系。\n有哪位男性能拒绝一位喊他“哥哥”的小公主呢?\"",
+   "芙萝非常清楚自己一直被阿尔跟踪,但她并不在意这种行为，真理骑士团团长愿意给她免费当保镖,还有比这更好的事吗?\n而且某种程度上,芙萝是故意当着阿尔的面到处喊哥哥的，只是为了看看阿尔那妒忌又郁闷的小表情。",
+   "不知为何，芙萝总能在加拉哈德身上找到一种莫名的亲切感，她喊别人“哥哥”可能是为了更快拉近关系、想要拜托对方帮忙、或者让阿尔小小郁闷一下...但她每次喊加拉哈德“哥哥”，都是发自内心的亲昵。",
+   "在普遍观念中，小女孩应该都害怕昆虫,但芙萝不一样，她对昆虫并不害怕,甚至很喜欢蜘蛛，她的宿舍里就养了好多蜘蛛，经常抓出来放在手上和它们玩。\n这也导致芙萝的宿舍很少有访客――男生不能进，女生不敢进。",
+   "芙萝经常梦见自己在变形的王宫漫无目的行走着，扭曲的虚影层层叠叠，当她路过一个个陌生的房间，会窥见宫殿里的人们正在用古代语言交谈着什么。\n这些梦成为了芙萝学习古代语言和历史的原因。",
+   "“在王都，以礼相迎是为了更好地背后一击;在王都，虚伪待人才是最隆重的礼节;在王都，勾心斗角早已成为孩童的游戏。\n——《诸侯的舞台:王都森布仑》"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%8C%97%E5%A2%83%E5%85%AC%E4%B8%BB",
+ "revid": 8636,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8636",
+ "rev_timestamp": "2026-02-08T04:24:31Z",
+ "i18n": {
+  "name_zh": "北境公主",
+  "sources": {
+   "derived": 6,
+   "game_db": 9,
+   "glossary": 80,
+   "lore": 1,
+   "names": 50,
+   "translated": 16
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 3078,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 3077,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 4341,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 4275,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 4276,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.birthplace",
+    "zh": "森布仑",
+    "en": "Senblen"
+   },
+   {
+    "path": "portraits[0]",
+    "zh": "北境公主",
+    "en": "Northland Princess"
+   }
+  ]
+ }
+}

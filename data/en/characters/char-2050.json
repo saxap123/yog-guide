@@ -1,0 +1,832 @@
+{
+ "id": "char-2050",
+ "name": "Twinkle Palette",
+ "page_title": "绚彩星绘",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": null,
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "6-21\nEmont Town",
+  "birthplace": null,
+  "height_weight": "158cm/46kg",
+  "specialties": [
+   "magic tricks",
+   "drawing pet Chuchu",
+   "making explosives"
+  ],
+  "likes": [
+   "pet Chuchu",
+   "pranks",
+   "teasing others",
+   "game dice (bond gift)"
+  ],
+  "dislikes": [
+   "cats",
+   "people smarter than her",
+   "bold people"
+  ],
+  "release_date": "2025-05-28"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Support Front",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Constitution",
+   "Intelligence",
+   "Rage",
+   "Rage Restore"
+  ],
+  "secondary": [
+   "Physical Resistance",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Crit Damage Reduction",
+   "CD Reduction",
+   "Max HP"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Spark Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Throws a surprise item at a single enemy, dealing Fire damage equal to 1500% Spell Power. On hit, there is a 30% chance to inflict Ignition for 6 seconds. (This skill is unaffected by attack speed and its damage is considered skill damage.)",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 1500% of Spell Power"
+    }
+   ],
+   "name_zh": "火花奇袭"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Sceneries Unfold",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Instantly paints a vibrant scroll that lasts for 15 seconds. While active, all allies regenerate HP equal to 800% Spell Power per second.",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "HP",
+     "text": "HP equal to 800% of Spell Power"
+    }
+   ],
+   "name_zh": "百景愈卷"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Sweet Dash",
+   "cooldown_s": 16,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Draws a Candy Bomb above the nearest enemy. When it lands, it deals up to 4 hits of Fire damage equal to 3000% Spell Power to the target and nearby enemies.",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 3000% of Spell Power"
+    }
+   ],
+   "name_zh": "甜蜜冲击"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Special Surprise",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Sweet Dash hits a Burning enemy, Miluie immediately restores 150 Rage. (This effect has a 6-second cooldown.)",
+   "scaling": [],
+   "name_zh": "特别惊喜"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Resonant Bloom",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Sceneries Unfold can stack up to 3 times. Each stack increases the healing effect of Sceneries Unfold by 30%. (Each stack has an independent duration.)",
+   "scaling": [],
+   "name_zh": "叠韵愈生"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Pyro Trickery",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Miluie is immune to Stun. When any allied unit is affected by Stun, Freeze, Polymorph, or Charm, she immediately sets off fireworks to dispel these effects from all allies. For the next 4 seconds, all allies have a 25% chance to deflect incoming damage, taking only 25% of the original damage. (This effect has a 10-second cooldown.)",
+   "scaling": [],
+   "name_zh": "焰火戏法"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Golden Weaves",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Sceneries Unfold is active, each stack increases all allies' critical damage multiplier by 15%. This effect is doubled for Fire-type Blackguards.",
+   "scaling": [],
+   "name_zh": "锦绘流金"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Motivating Aura",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Uplifts and encourages comrades, all friendly units have their initial rage values increasd by 25 points",
+   "scaling": [],
+   "name_zh": "振奋光环"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Flow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ability to release spells easier and quicker, reduces cooldown of active skills by 10%",
+   "scaling": [],
+   "name_zh": "气定神闲"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Spell Power increased by 6%",
+   "scaling": [],
+   "name_zh": "法术延迟"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Bullseye",
+    "Necklace": "Scars of the Stars",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Abyssal Bastion",
+    "Ring": "Solar Commandment",
+    "Belt": "Girdle of Light",
+    "Relic": "Nox Cross",
+    "Trousers": "Elementalist's Britches",
+    "Emblem": "Disc of Revival",
+    "Shoes": "Sandals of the Sages",
+    "Off-hand": "Onyx Guard",
+    "Weapon": "Soulstroke Insight",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Moonlight · Supernova"
+    ],
+    "Necklace": [
+     "Spiral Guide"
+    ],
+    "Armor": [
+     "Raging Armor"
+    ],
+    "Emblem": [
+     "Runes of the Surge"
+    ],
+    "Handguard": [
+     "Grips of Nobility"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·精英射手": "gear-1080",
+    "月辉·芒星守护": "gear-1194",
+    "星痕项链": "gear-game-4003",
+    "指路吊坠": "gear-1081",
+    "深渊壁垒": "gear-1082",
+    "聚能之铠": "gear-1170",
+    "阳炎之指": "gear-1083",
+    "沐光环绕": "gear-1199",
+    "漆黑十字": "gear-1187",
+    "元素大师之裤": "gear-1174",
+    "复苏徽识": "gear-game-7007",
+    "魔涌之徽": "gear-1176",
+    "智者足具": "gear-game-15016",
+    "源辉石盾": "gear-2353",
+    "云图点睛": "gear-2295",
+    "妖精秘手": "gear-1179",
+    "贵族手套": "gear-game-3011"
+   },
+   "unlinked": {
+    "星痕项链": {
+     "reason": "game_only",
+     "game_id": "4003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4003",
+        "field": "name",
+        "text_id": 4068,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       4068
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "幸运装备",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "复苏徽识": {
+     "reason": "game_only",
+     "game_id": "7007",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "7007",
+        "field": "name",
+        "text_id": 54995,
+        "type": "12"
+       }
+      ],
+      "text_ids": [
+       54995
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "贵族手套": {
+     "reason": "game_only",
+     "game_id": "3011",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3011",
+        "field": "name",
+        "text_id": 8325,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       8325
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Ritual Feather Crown",
+    "Necklace": "Chain of Radiance",
+    "Card": null,
+    "Earrings": "Ring of Radiance",
+    "Armor": "Raging Armor",
+    "Ring": "Ring of Fervor Heart",
+    "Belt": "Spiritual Healing Wheel",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Revitalizing Trousers",
+    "Emblem": "Emblem of Fervor Heart",
+    "Shoes": "Boots of Mercy",
+    "Off-hand": "Shield of Fervor Heart",
+    "Weapon": "Soulstroke Insight",
+    "Handguard": "Azure Stone Gloves"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ],
+    "Relic": [
+     "Wish of Support"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "聚能之铠": "gear-1170",
+    "碧落丹心净戒": "gear-1593",
+    "灵愈生轮": "gear-1516",
+    "月辉·紫晶鸦首": "gear-1173",
+    "辅助之愿": "gear-game-90286",
+    "气韵回生裤": "gear-1509",
+    "碧落丹心净徽": "gear-1595",
+    "怜悯圣靴": "gear-2024",
+    "碧落丹心净盾": "gear-1596",
+    "云图点睛": "gear-2295",
+    "碧落丹心净手": "gear-1657"
+   },
+   "unlinked": {
+    "辅助之愿": {
+     "reason": "game_only",
+     "game_id": "90286",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90286",
+        "field": "name",
+        "text_id": 63325,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       63325
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Strong Rock",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Sceneries Unfold duration +10 seconds."
+   },
+   {
+    "rank": 2,
+    "text": "Each stack of Golden Weaves increases critical damage multiplier by 10%, effect doubled for Fire-type Blackguards."
+   },
+   {
+    "rank": 3,
+    "text": "Sceneries Unfold max stack count +2."
+   },
+   {
+    "rank": 4,
+    "text": "When [Pyro Trickery] triggers, there is a 20% + (own Mental Mastery - enemy Mental Negation) * 1% chance to make the enemy lose 150 Rage"
+   },
+   {
+    "rank": 5,
+    "text": "While [Sceneries Unfold] is active, all allies are immune to knock-up effects, and the DMG Deflect chance provided by [Pyro Trickery] is +15%."
+   },
+   {
+    "rank": 6,
+    "text": "Miluie damage dealt +10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "First Light of Rebirth",
+   "id": "relic-2057"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "？？？",
+   "answers": [
+    "？？？",
+    "？？？"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "？？？",
+   "answers": [
+    "？？？",
+    "？？？"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "？？？",
+   "answers": [
+    "获得专属武器："
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9A%E5%BD%A9%E6%98%9F%E7%BB%98",
+ "revid": 8606,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8606",
+ "rev_timestamp": "2026-02-08T04:03:30Z",
+ "i18n": {
+  "name_zh": "绚彩星绘",
+  "sources": {
+   "derived": 4,
+   "game_db": 16,
+   "glossary": 79,
+   "lore": 2,
+   "names": 64,
+   "translated": 16
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 80311,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 80313,
+    "match": "loose"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 80312,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 80314,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 80315,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 80316,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 80317,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4302,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4303,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 80325,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 80326,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 80327,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 80330,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.real_name",
+    "zh": "蜜露儿",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "profile.birthplace",
+    "zh": "埃蒙特小镇",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[9].name",
+    "zh": "法术延迟",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.birthday",
+    "zh": "埃蒙特小镇",
+    "en": "Emont Town"
+   },
+   {
+    "path": "profile.specialties[1]",
+    "zh": "啾啾",
+    "en": "Chuchu"
+   },
+   {
+    "path": "profile.likes[0]",
+    "zh": "啾啾",
+    "en": "Chuchu"
+   },
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

@@ -1,0 +1,702 @@
+{
+ "id": "char-291",
+ "name": "Centaur Minerva",
+ "page_title": "战争之蹄",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Kimberlee",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--03-31",
+  "birthplace": null,
+  "height_weight": "171cm/57kg&179cm/81kg",
+  "specialties": [
+   "astrology",
+   "prophecy",
+   "Animal Communication",
+   "rose bouquet (bond gift)"
+  ],
+  "likes": [
+   "human food",
+   "forest bathing",
+   "Normal"
+  ],
+  "dislikes": [
+   "carrots",
+   "hay",
+   "war"
+  ],
+  "release_date": "2023-11-29"
+ },
+ "element": "Physical",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Physical Power %",
+   "Skill Crit",
+   "Crit Damage Boost",
+   "Strength",
+   "All Damage Boost",
+   "Physical Damage Boost",
+   "Physical Penetration"
+  ],
+  "secondary": [
+   "Physical Resistance",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Max HP",
+   "Constitution",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Trio of Arrows",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Shoots three arrows forward, dealing 400% Physical Power as Physical DMG to enemies hit. (Counts as Skill DMG, and this skill is not affected by cooldown reduction effects)",
+   "scaling": [
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 400% of Physical Power"
+    }
+   ],
+   "name_zh": "三祈矢破"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Hereby, Storm Rising",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Kimberlee enters the Tranquilizing state, in next 10 sec, the arrow she fires will creates a storm when hits a target, dealing Physical DMG equal to 600% of Physical Power to all enemies in 2 meters.",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 600% of Physical Power"
+    }
+   ],
+   "name_zh": "屏息风涌"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Where, Wind Tangling",
+   "cooldown_s": 15,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Throws a smoke bomb at the nearest 1 enemy, lasting 6 sec; enemies within the area are affected by Blind and have Movement Speed reduced by 50%. Blind: units under Blind have Normal Attack Accuracy reduced by 50% and all DMG dealt reduced by 15%.",
+   "scaling": [],
+   "name_zh": "烟聚风缠"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Wrath of Mercy",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Kimberlee gains 1 Fury Orb every 0.7 sec.",
+   "scaling": [],
+   "name_zh": "慈悯怒火"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Purity of Dionysus",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each Fury Orb increases DMG Dealt of [Trio of Arrows] by 10%, the DMG Boost is capped at 50%.",
+   "scaling": [],
+   "name_zh": "无垢毒息"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Howling of Gale",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When casting [Trio of Arrows], fires one extra arrow for each Fury Orb held and clears all Fury Orbs, firing at most 7 extra arrows.",
+   "scaling": [],
+   "name_zh": "砂虐风号"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Blessing of Unicorn",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Centaur Minerva's Skill Crit Chance +30",
+   "scaling": [],
+   "name_zh": "圣兽恩泽"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Thor's Gaze",
+    "Necklace": "Chain of Radiance",
+    "Card": "Spirit Magic Card",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Thor's Heart",
+    "Ring": "Gold Ring of Bluestone",
+    "Belt": "Thor's Meditation",
+    "Relic": "Gold Chalice of Bluestone",
+    "Trousers": "Materialized Weave Trousers",
+    "Emblem": "Gold Emblem of Bluestone",
+    "Shoes": "Thor's Howl",
+    "Off-hand": "Gold Shield of Bluestone",
+    "Weapon": "Artemis Judgment",
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Card": [
+     "Card of Magic Orb"
+    ],
+    "Emblem": [
+     "Emblem of the Hunt"
+    ],
+    "Handguard": [
+     "Gold Gauntlet of Bluestone"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "托尔之凝视": "gear-1710",
+    "辉耀之链": "gear-134",
+    "精魄魔牌": "gear-1291",
+    "魔球卡牌": "gear-game-90212",
+    "辉耀之环": "gear-138",
+    "托尔之神心": "gear-1711",
+    "青琅玲珑金戒": "gear-183",
+    "托尔之冥思": "gear-1712",
+    "青琅玲珑金杯": "gear-178",
+    "质化织裤": "gear-1858",
+    "青琅玲珑金辉": "gear-156",
+    "狩猎徽章": "gear-1184",
+    "托尔之呼啸": "gear-1713",
+    "青琅玲珑金盾": "gear-163",
+    "穿杨圣裁": "gear-game-90318",
+    "幽冥初水": "gear-game-90323",
+    "青琅玲珑金手": "gear-1662"
+   },
+   "unlinked": {
+    "魔球卡牌": {
+     "reason": "game_only",
+     "game_id": "90212",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90212",
+        "field": "name",
+        "text_id": 62169,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62169
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "战争之蹄",
+       "不熄曜日",
+       "夜行暹罗",
+       "千宵月守"
+      ]
+     }
+    },
+    "穿杨圣裁": {
+     "reason": "game_only",
+     "game_id": "90318",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90318",
+        "field": "name",
+        "text_id": 64403,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       64403
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "战争之蹄"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Degenerate",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Absolute Blade",
+    "id": "rune-1406",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Blade of Thunder",
+    "id": "rune-1425",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Exuberant",
+    "id": "rune-1422",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Magic Wrath",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fracture/[Sun Chasing]",
+    "id": null,
+    "options": [
+     {
+      "name": "Fracture",
+      "id": "rune-1997",
+      "unlinked": null
+     },
+     {
+      "name": null,
+      "id": null,
+      "unlinked": {
+       "reason": "typo_candidate",
+       "game_id": null,
+       "possible_match": {
+        "name": "逐日者",
+        "id": "rune-1409",
+        "source": "similar name in runes.json",
+        "status": "unverified"
+       },
+       "game": null,
+       "wiki_lookup": {
+        "title_found": false,
+        "page": null,
+        "search_hits": [
+         "逐日者",
+         "异常状态",
+         "战争之蹄",
+         "裁决圣锤",
+         "玉面九尾"
+        ]
+       }
+      }
+     }
+    ],
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": null,
+    "id": null,
+    "options": null,
+    "unlinked": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "铁棘",
+      "id": "rune-1420",
+      "source": "similar name in runes.json",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "战争之蹄",
+       "长辉照夜",
+       "玉尘灵仙"
+      ]
+     }
+    }
+   }
+  ],
+  "note": "Without Fracture, use [Sun Chasing]; scales with Crit Damage Boost"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Raging Beast",
+    "id": "black_stone-03",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Cursed Soul",
+    "id": "black_stone-14",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Each 1 Fury Orb gained increases the duration of [Hereby, Storm Rising] by 0.5 seconds, extending it by up to 15 seconds, and the Storm DMG of [Trio of Arrows] is increased by 35%."
+   },
+   {
+    "rank": 2,
+    "text": "Any type of Ball gained will be converted into a Fury Orb"
+   },
+   {
+    "rank": 3,
+    "text": "The Storm DMG produced by [Trio of Arrows] is increased by 50%, and its range +50%"
+   },
+   {
+    "rank": 4,
+    "text": "Enemies within the range of [Where, Wind Tangling] will be silenced. And the Movement Speed Reduced effect is increased to 90%"
+   },
+   {
+    "rank": 5,
+    "text": "When casting [Hereby, Storm Rising], also casts [Where, Wind Tangling] once on the nearest enemy"
+   },
+   {
+    "rank": 6,
+    "text": "Increases All DMG Dealt by Kimberlee by 10%"
+   }
+  ],
+  "recommendation": "Usable from rank 2; not very cost-effective"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Holy Hoof Totem",
+   "id": "relic-1950"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%88%98%E4%BA%89%E4%B9%8B%E8%B9%84",
+ "revid": 8641,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8641",
+ "rev_timestamp": "2026-02-08T04:30:09Z",
+ "i18n": {
+  "name_zh": "战争之蹄",
+  "sources": {
+   "derived": 4,
+   "game_db": 13,
+   "glossary": 61,
+   "lore": 1,
+   "names": 49,
+   "translated": 19
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 64151,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 64152,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 64153,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 64087,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 64089,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 64091,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "布列塔尼",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "runes.main[6].options[1]",
+    "zh": "逐日",
+    "reason": "names.json/runes: probably a typo on the wiki; not corrected"
+   },
+   {
+    "path": "runes.support[0]",
+    "zh": "铁荆",
+    "reason": "names.json/runes: probably a typo on the wiki; not corrected"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.main[6].name",
+    "zh": "逐日",
+    "en": "Sun Chasing"
+   },
+   {
+    "path": "runes.note",
+    "zh": "逐日",
+    "en": "Sun Chasing"
+   }
+  ]
+ }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "模板:黑卫背景故事",
+  "pageid": 1114,
+  "ns": 10,
+  "revid": 5527,
+  "rev_timestamp": "2025-01-16T03:51:56Z",
+  "wikitext": "{{#set:\n|角色故事={{{角色故事|}}}\n|事迹一={{{事迹一|}}}\n|事迹二={{{事迹二|}}}\n|事迹三={{{事迹三|}}}\n|事迹四={{{事迹四|}}}\n|事迹五={{{事迹五|}}}\n|事迹六={{{事迹六|}}}\n}}\n<div class=\"sy-box-1\" style=\"margin-top: 20px\">\n\n<div class=\"sy-box-1-n\"> \n<div class=\"sy-title-1\">角色故事</div> \n<div class=\"sy-divider\"></div> \n<div class=\"sy-content\">\n<div class=\"gushi-info\">{{{角色故事|}}}</div>\n<div class=\"main-line-wrap\" style=\"width:100%;\"> \n<div class=\"resp-tabs\" style=\"border-spacing: 0px; border-color: #D0CCC8\"> \n<ul class=\"resp-tabs-list clearfix\" style=\"margin-left:0;margin-top:-5px;background: #ECE5D8;\"> \n<li class=\"active bili-list-style\"><span class=\"tab-panel\">事迹一</span></li>\n<li class=\"bili-list-style\"><span class=\"tab-panel\">事迹二</span></li>\n<li class=\"bili-list-style\"><span class=\"tab-panel\">事迹三</span></li>\n<li class=\"bili-list-style\"><span class=\"tab-panel\">事迹四</span></li>\n<li class=\"bili-list-style\"><span class=\"tab-panel\">事迹五</span></li>\n<li class=\"bili-list-style\"><span class=\"tab-panel\">事迹六</span></li>\n</ul> \n<div class=\"resp-tabs-container\"> \n<div class=\"resp-tab-content\" style=\"display:block;\">\n<div class=\"box-bg img-bg shiji-info\">{{{事迹一|}}}</div> \n</div>\n<div class=\"resp-tab-content\">\n<div class=\"box-bg img-bg shiji-info\">{{{事迹二|}}}</div> \n</div>\n<div class=\"resp-tab-content\">\n<div class=\"box-bg img-bg shiji-info\">{{{事迹三|}}}</div> \n</div>\n<div class=\"resp-tab-content\">\n<div class=\"box-bg img-bg shiji-info\">{{{事迹四|}}}</div> \n</div>\n<div class=\"resp-tab-content\">\n<div class=\"box-bg img-bg shiji-info\">{{{事迹五|}}}</div> \n</div>\n<div class=\"resp-tab-content\">\n<div class=\"box-bg img-bg shiji-info\">{{{事迹六|}}}</div> \n</div>\n</div> \n</div> \n</div>\n</div>\n</div>\n</div>\n{{#css:\n.sy-content > .gushi-info {\nmargin-bottom: 12px; line-height: 24px;\n}\n.sy-content .shiji-info > p,\n.sy-content > .gushi-info > p {\n    text-indent:2em;\n    margin-bottom: 0;\n}\n.sy-content > .gushi-info > p:last-child {\n    margin-bottom: 16px;\n}\n.sy-content .shiji-info {\n    height: auto !important;\n    border: none; padding: 6px 0; height: auto;\n}\n}}",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E9%BB%91%E5%8D%AB%E8%83%8C%E6%99%AF%E6%95%85%E4%BA%8B",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=5527",
+  "fetched_at": "2026-11-20T15:56:07+00:00",
+  "templates": [],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

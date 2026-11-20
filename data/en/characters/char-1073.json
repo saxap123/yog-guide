@@ -1,0 +1,327 @@
+{
+ "id": "char-1073",
+ "name": "Construct Guard",
+ "page_title": "构装守卫",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Buzz",
+  "gender": "Female",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": [
+   "wine"
+  ],
+  "dislikes": null,
+  "release_date": "2021-06-27"
+ },
+ "element": "Lightning",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Guardian Front",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 74% Attack Power as Lightning DMG to 3 enemies within melee range.",
+   "scaling": [
+    {
+     "percent": "74%",
+     "values": [
+      74.0
+     ],
+     "stat": "Attack Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 74% of Attack Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "EMP",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Buzz releases the electromagnetic energy stored within him and cleanses the Frozen and Stunned states of all allies, granting them [Electromagnetic Shield], reducing the skill damage received by 50%, the Electromagnetic Shield lasts for 5 seconds. During which allies are immune to Freeze or Stun effects",
+   "scaling": [],
+   "name_zh": "电磁风暴"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Magnetic Force Field",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Every 6 sec, Buzz applies a Shield to the ally with the lowest current HP; Shield value = 5% of Buzz's current HP + 540.0% Spell Power. Also, every 5 sec, inflicts Taunt on enemy Mystic Front or Mage Sniper heroes on the field, making their Normal Attacks target himself.",
+   "scaling": [
+    {
+     "percent": "540.0%",
+     "values": [
+      540.0
+     ],
+     "stat": "Spell Power",
+     "effect": null,
+     "text": "540.0% of Spell Power"
+    }
+   ],
+   "name_zh": "能流屏障"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Emergency Assist",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "As a guardian robot, when an ally takes fatal DMG, Buzz takes that DMG in their place. Cooldown: 15 sec",
+   "scaling": [],
+   "name_zh": "援护"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Emergency Repair",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Buzz's Emergency Repair module restores his HP to 100% when he takes fatal DMG; triggers only once per battle.",
+   "scaling": [],
+   "name_zh": "紧急维修"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Charge Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Buzz is equipped with the most advanced protective device: when triggering Emergency Assist, there is a 50% chance (additionally affected by Spell Mastery) to trigger the Barricade state, lasting 3 sec",
+   "scaling": [],
+   "name_zh": "电荷护体"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "I am Ironman",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Buzz triggers Emergency Assist, he inflicts Stun on targets collided with during the assist for 2 sec, grants [Energy Shield] to the assisted target, and restores 60 Rage to himself. Cooldown: 15 sec",
+   "scaling": [],
+   "name_zh": "钢铁身躯"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Vitality",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 6%, Max shield increased by 6%",
+   "scaling": [],
+   "name_zh": "活力"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Evasion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Normal attack evasion chance increased by 15%",
+   "scaling": [],
+   "name_zh": "躲闪"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Intensive Care",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Healing effect received increased by 10%",
+   "scaling": [],
+   "name_zh": "加护"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%9E%84%E8%A3%85%E5%AE%88%E5%8D%AB",
+ "revid": 8664,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8664",
+ "rev_timestamp": "2026-02-08T04:49:58Z",
+ "i18n": {
+  "name_zh": "构装守卫",
+  "sources": {
+   "derived": 3,
+   "game_db": 5,
+   "glossary": 28,
+   "lore": 1,
+   "names": 19,
+   "translated": 7
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 3072,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2961,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2970,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2992,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "skills[2].description",
+    "zh": "狙魔",
+    "en": "Mage Sniper"
+   }
+  ]
+ }
+}

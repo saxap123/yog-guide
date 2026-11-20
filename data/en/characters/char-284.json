@@ -1,0 +1,758 @@
+{
+ "id": "char-284",
+ "name": "Nirvana Ignis",
+ "page_title": "炽焰降生",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Irida",
+  "gender": "Female",
+  "race": "Elf",
+  "birthday": "--07-25",
+  "birthplace": null,
+  "height_weight": "167cm/49kg",
+  "specialties": [
+   "living alone",
+   "imitation"
+  ],
+  "likes": [
+   "playing with fire",
+   "Cacau",
+   "Apple",
+   "rose bouquet (bond gift)"
+  ],
+  "dislikes": [
+   "loneliness",
+   "boredom",
+   "timidity"
+  ],
+  "release_date": "2024-02-28"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "CD Reduction",
+   "Fire Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Fire Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "A Breath of Fire",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Before transformation: launches a Fireball at the enemy, dealing Fire DMG equal to 2500% Spell Power. After transformation: unleashes a breath forward, dealing Fire DMG equal to 5000% Spell Power to all enemies in range.",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 2500% of Spell Power"
+    },
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 5000% of Spell Power"
+    }
+   ],
+   "name_zh": "赤焰龙息"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "True Form of Blood and Fire",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Irida awakened the true dragon power hidden in her blood, turns the form into a great dragon in 12 sec. During the Dragon Form, increases her Max HP by 50%, and immune to Freeze, Polymorph, knock back, knock away, and Tornado effect of Stormrise Frontline. (During the Dragon Form, unable to restore Rage naturally)",
+   "scaling": [
+    {
+     "percent": "50%",
+     "values": [
+      50.0
+     ],
+     "stat": "Max HP",
+     "effect": null,
+     "text": "50% of Max HP"
+    }
+   ],
+   "name_zh": "血火真龙"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "A Dance with Queen",
+   "cooldown_s": 6,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Before transformation: creates a pillar of flame beneath the enemies, dealing Fire DMG equal to 7500% Spell Power to all enemies hit. After transformation: summons a meteor at the enemy's position; on landing, the meteor deals Fire DMG equal to 12000% Spell Power 2 times to all enemies in a small area",
+   "scaling": [
+    {
+     "percent": "7500%",
+     "values": [
+      7500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 7500% of Spell Power"
+    },
+    {
+     "percent": "12000%",
+     "values": [
+      12000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 12000% of Spell Power"
+    }
+   ],
+   "name_zh": "红龙狂舞"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "To Break the Sun",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When casting True Form of Blood and Fire, Irida increases by 15, stacking up to 3 times.",
+   "scaling": [],
+   "name_zh": "阳炎"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "To Burn the Sky",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases Irida's all damage dealt by 100%.",
+   "scaling": [],
+   "name_zh": "焚天"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "To Melt the Earth",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Whenever an enemy unit on the field becomes Stunned, drops a meteor on it, dealing Fire DMG equal to 4000% of Spell Power. Trigger chance: 25% (minimum cast interval of 1 second)",
+   "scaling": [
+    {
+     "percent": "4000%",
+     "values": [
+      4000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 4000% of Spell Power"
+    }
+   ],
+   "name_zh": "烈焰流光"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "To Set the Sea on Fire",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases Irida's Skill Crit Chance by 20%",
+   "scaling": [],
+   "name_zh": "业火之势"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Wrath of Jormungand",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Honor of House Rudolph",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Runes of the Surge",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "A prairie fire shadow",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Seastone's Gift"
+    ],
+    "Armor": [
+     "Abyssal Bastion"
+    ],
+    "Belt": [
+     "Warmonger's Warbelt"
+    ],
+    "Handguard": [
+     "Embroidered Sacrificial Gloves"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "蛇灵之怒": "gear-game-90022",
+    "海晶项链": "gear-game-4011",
+    "聚能之铠": "gear-1170",
+    "深渊壁垒": "gear-1082",
+    "猩红秘戒": "gear-1171",
+    "王室荣尊": "gear-1172",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "魔涌之徽": "gear-1176",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "燎原焰影": "gear-1209",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627"
+   },
+   "unlinked": {
+    "蛇灵之怒": {
+     "reason": "game_only",
+     "game_id": "90022",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90022",
+        "field": "name",
+        "text_id": 56452,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       56452
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炽焰降生"
+      ]
+     }
+    },
+    "海晶项链": {
+     "reason": "game_only",
+     "game_id": "4011",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4011",
+        "field": "name",
+        "text_id": 8333,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       8333
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "分解装备",
+       "炽焰降生",
+       "幸运装备",
+       "千宵月守"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Journey Lv 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "Journey",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Fire Prayer Helm",
+    "Necklace": "Chain of Radiance",
+    "Card": "Devil Card of Impasse",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Armor of Cursed Orbs",
+    "Ring": "Netherflame's Glory",
+    "Belt": "Belt of Exocist",
+    "Relic": "Netherflame's Justice",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Netherflame's Verdict",
+    "Shoes": null,
+    "Off-hand": "Netherflame's Supremacy",
+    "Weapon": "Scorching Sun, Blazing Flame",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Helmet of Silence"
+    ],
+    "Belt": [
+     "Belt of Electrify"
+    ],
+    "Handguard": [
+     "Embroidered Sacrificial Gloves"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祈火灵盔": "gear-1478",
+    "静默之盔": "gear-game-90102",
+    "辉耀之链": "gear-134",
+    "龙力魔牌": "gear-1691",
+    "辉耀之环": "gear-138",
+    "法球咒铠": "gear-1686",
+    "幽焰剑士荣耀": "gear-187",
+    "圣职驱魔": "gear-1689",
+    "感电者": "gear-1690",
+    "幽焰剑士截断": "gear-180",
+    "戏谑者裤腿": "gear-1182",
+    "幽焰剑士裁决": "gear-147",
+    "幽焰剑士极致": "gear-162",
+    "灼日焚焰": "gear-1566",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627"
+   },
+   "unlinked": {
+    "静默之盔": {
+     "reason": "game_only",
+     "game_id": "90102",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90102",
+        "field": "name",
+        "text_id": 60210,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       60210
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炽焰降生",
+       "忘却迷境-凛风雪原"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Sailing Lv 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "Sailing",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Ritual Feather Crown",
+    "Necklace": "Chain of Radiance",
+    "Card": "Spirit Magic Card",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Armor of Cursed Orbs",
+    "Ring": "Netherflame's Glory",
+    "Belt": "Belt of Exocist",
+    "Relic": "Netherflame's Justice",
+    "Trousers": "Magic Source Legs",
+    "Emblem": "Netherflame's Verdict",
+    "Shoes": "Royal Family Boots",
+    "Off-hand": "Netherflame's Supremacy",
+    "Weapon": "Scorching Sun, Blazing Flame",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Sparkling Jade Helmet"
+    ],
+    "Belt": [
+     "Belt of Electrify"
+    ],
+    "Trousers": [
+     "Elemental Holy Spirit Pants"
+    ],
+    "Handguard": [
+     "Embroidered Sacrificial Gloves"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "烁玉金盔": "gear-1275",
+    "辉耀之链": "gear-134",
+    "精魄魔牌": "gear-1291",
+    "辉耀之环": "gear-138",
+    "法球咒铠": "gear-1686",
+    "幽焰剑士荣耀": "gear-187",
+    "圣职驱魔": "gear-1689",
+    "感电者": "gear-1690",
+    "幽焰剑士截断": "gear-180",
+    "魔源裤腿": "gear-1286",
+    "元素圣灵裤": "gear-1285",
+    "幽焰剑士裁决": "gear-147",
+    "宗室礼靴": "gear-1282",
+    "幽焰剑士极致": "gear-162",
+    "灼日焚焰": "gear-1566",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627"
+   },
+   "unlinked": null,
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": "Fire Spell",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Flame Dragon",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Empowered effect of [A Breath of Fire]:\nHuman Form: Fireball fired is increased by 2, and Fireball can penetrate 3 additional targets.\nDragon Form: DMG Dealt is increased by 50%."
+   },
+   {
+    "rank": 2,
+    "text": "Increases duration of Dragon Form of [True Form of Blood and Fire] by 100%."
+   },
+   {
+    "rank": 3,
+    "text": "When taking fatal damage, Irida becomes immortal for 3 sec and regains all Rage. This effect has a 300-sec trigger interval."
+   },
+   {
+    "rank": 4,
+    "text": "When in Dragon form, Irida becomes immortal when taking fatal damage, she ends the Dragon Form and restores at least 20% of Max HP. This effect has a 150-sec trigger interval."
+   },
+   {
+    "rank": 5,
+    "text": "For every 10 meteors accumulated from [A Dance with Queen] and [To Melt the Earth], there is a chance to Stun all enemies on the field (when Nirvana Ignis's Perception is higher than the enemy's, the greater the Perception difference, the higher the Stun chance)"
+   },
+   {
+    "rank": 6,
+    "text": "Irida's All DMG Dealt is increased by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Phantom Dragon's Roar",
+   "id": "relic-1908"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Mystic battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%82%BD%E7%84%B0%E9%99%8D%E7%94%9F",
+ "revid": 8928,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8928",
+ "rev_timestamp": "2026-05-27T07:04:38Z",
+ "i18n": {
+  "name_zh": "炽焰降生",
+  "sources": {
+   "derived": 8,
+   "game_db": 15,
+   "glossary": 107,
+   "lore": 1,
+   "names": 77,
+   "translated": 17
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 68934,
+    "match": "loose"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 83726,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 68936,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 68537,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 68944,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 68945,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 68948,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 68947,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 68949,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "马克公园",
+    "reason": "not translatable (see translate/manual/texts)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

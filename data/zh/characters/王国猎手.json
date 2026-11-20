@@ -1,0 +1,398 @@
+{
+ "id": "char-1811",
+ "name": "王国猎手",
+ "page_title": "王国猎手",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "尼娅",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "8月22日",
+  "birthplace": "北境王国",
+  "height_weight": "167cm/48kg",
+  "specialties": [
+   "做饭",
+   "茶艺",
+   "狩猎"
+  ],
+  "likes": [
+   "犬科动物",
+   "铁链",
+   "皮鞭",
+   "游戏骰子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "仰头看别人",
+   "被命令",
+   "脏东西"
+  ],
+  "release_date": "2021年06月27日"
+ },
+ "element": "物理",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "狩魔",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": []
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "淬毒箭雨",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "朝前方敌人发射大量带有毒药的弩箭,对每个触碰到的敌人造成31.3%物理强度的物理伤害，且每支箭矢命中时都会对目标施加【中毒】效果,持续10秒。【中毒】︰每秒造成2.5%物理强度的物理伤害，可叠加100层,每层增加中毒伤害1%。",
+   "scaling": [
+    {
+     "percent": "31.3%",
+     "values": [
+      31.3
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "31.3%物理强度的物理伤害"
+    },
+    {
+     "percent": "2.5%",
+     "values": [
+      2.5
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "2.5%物理强度的物理伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "爆破重弩",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "朝前方发射大型箭矢,到达位置或触碰到目标后产生爆炸,对周围半径3米的敌人造成0.45物理强度的物理伤害,并使其进入毁伤状态，受到的所有伤害增加20%，持续6秒。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "蛇蝎猎手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普攻命中时，有50%%几率对目标施加【中毒】效果，持续10秒。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "视觉剥夺",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【爆破重弩】命中的目标如果带有【中毒】效果，有100%几率会该目标【致盲】，持续6秒\n【致盲】∶降低75%普攻命中几率。 [致盲]：降低75%普攻命中几率。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "毒性深化",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【淬毒箭雨】命中目标时，使其受到普通攻击和技能的暴击几率提升10%，持续10秒。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "多重弩箭",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普通攻击的目标数量+3，造成【中毒】的几率增加50%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "致命瞄准",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "抓住敌人的虚弱时刻，对生命值低于35%的目标造成的伤害提升10%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "急速",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "攻击速度提升25%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "强击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "物理强度提升7%，法术强度提升7%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "帆船辅助",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "support build for 帆船 (sailing mode)",
+   "slots": {
+    "头盔": "月辉·芒星守护",
+    "项链": "恋血钩坠",
+    "卡牌": "总攻卡牌",
+    "耳坠": null,
+    "衣服": "深渊壁垒",
+    "戒指": "圣临光戒",
+    "腰带": "铁铸束腰",
+    "圣物": "漆黑十字",
+    "裤子": "元素大师之裤",
+    "徽章": "圣临光徽",
+    "鞋子": "月辉·王室金靴",
+    "副手": "圣临庇护",
+    "武器": "霜雨",
+    "护手": "圣临光手"
+   },
+   "alternatives": {
+    "腰带": [
+     "狂猎之腰"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·芒星守护": "gear-1194",
+    "恋血钩坠": null,
+    "总攻卡牌": "gear-1692",
+    "深渊壁垒": "gear-1082",
+    "圣临光戒": "gear-186",
+    "铁铸束腰": null,
+    "狂猎之腰": null,
+    "漆黑十字": "gear-1187",
+    "元素大师之裤": "gear-1174",
+    "圣临光徽": "gear-155",
+    "月辉·王室金靴": "gear-1177",
+    "圣临庇护": "gear-165",
+    "霜雨": null,
+    "圣临光手": "gear-1655"
+   },
+   "unlinked": {
+    "恋血钩坠": {
+     "reason": "game_only",
+     "game_id": "90046",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90046",
+        "field": "name",
+        "text_id": 58796,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       58796
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "王国猎手"
+      ]
+     }
+    },
+    "铁铸束腰": {
+     "reason": "game_only",
+     "game_id": "1014",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1014",
+        "field": "name",
+        "text_id": 4030,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       4030
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "青鸾巽羽",
+       "月渊龙女",
+       "王国猎手"
+      ]
+     }
+    },
+    "狂猎之腰": {
+     "reason": "game_only",
+     "game_id": "1023",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1023",
+        "field": "name",
+        "text_id": 54203,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       54203
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽",
+       "月渊龙女"
+      ]
+     }
+    },
+    "霜雨": {
+     "reason": "game_only",
+     "game_id": "10037",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10037",
+        "field": "name",
+        "text_id": 3754,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3754
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境攻略",
+       "王国猎手"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "尼娅并非通过正常流程进入黑卫学院，她的档案上写的是:北境王国男爵府女仆，外出执行任务的黑卫约翰在一场变故中发现了她身上的潜力，引荐她参与圣血仪式,最终成功觉醒,成为了黑卫的一员。”\n只有尼娅自己知道，这个“偶然”花了她多少功夫―—用猎兽陷阱让约翰的马匹“不慎”受伤，让他入住“恰好”临近废弃男爵府的酒馆，喝酒时“无意”听说前些日子魔物入侵内陆,男爵一家死于魔物爪下，“据悉”府上的一位女仆以自己的勇敢和智慧对抗魔物，帮助其它仆人幸存了下来。\n约翰在这位机敏勇敢的女仆身上看到了黑卫必须具备的品质，他以自己为举荐人，向院长克雷蒂安娜写下了举荐信……\n现在，北境王国秘密培养的顶级猎手带着无比干净的档案，成功进入亚克兰斯黑卫学院，并接近了她的目标--芙萝公主。而其中的目的，恐怕只有国王霍夫曼三世和尼娅自己知道了。\n至于约翰，则在后来的一场任务中意外坠崖，不过尼娅当时不在场嘛，怎么都和她没关系……吧？",
+  "deeds": [
+   "作为曾经的“男爵府女仆”，尼娅的“本职工作”熟练度无可挑剔，她非常注重整洁与卫生,打扫过的地方一尘不染,还能在一分钟内洗上五十个盘子，干净得跟新的一样。\n这也是为什么，尼娅后来成为了学院里的内务长。",
+   "尼娅的茶艺非常具有观赏性，甚至会让人忘记喝茶本身。不过，凌对它的评价是:“她很重视形式，但本身似乎并没有喝过多少茶，分辨不出茶叶的细微差别。恐怕她重视的不是品茶本身，而是喝茶这个时机。”",
+   "作为王室培养的顶级猎手，尼娅有着堪比野兽的直觉，能够轻松分辨谁是同类,谁是异类。她刚进学院没多久就注意到了菲奇，以及其背后所代表的身份，只是一直没有点穿。\n不过,相关情报已经通过秘密飞书送往森布伦，在指令正式到来之前，两人可以暂时相安无事。",
+   "尼娅在毒药上有着惊人的造诣，她可以凭借肉眼与嗅觉识别上千种草药，并熟识它们之间糅杂后的产物,甚至能够在几分钟内调制出可以放倒一头巨象的猛毒。\n不过颇具反差的是,这位善于用毒的猎手做饭非常好吃，哪怕不小心采到有毒的蘑菇给她，她也能用不同食材调和毒性，最后炖出一锅鲜美可口的浓汤。",
+   "尼娅喜欢听话的孩子，而乖巧的安黛莉正是她最宠护的人。尼娅经常抱着安黛莉,温柔地给她梳头发，摸摸头,挠挠下巴，再往天上扔个飞盘,让她飞过去捡回来。安黛莉乐此不疲，任何事上都听尼娅的话，还总是黏着她撒娇。\n尼娅从不在意别人异样的目光，毕竟这么可爱又听话的宠物，难道不应该好好疼爱吗?",
+   "温柔或冷酷,住往取决于面对的是谁。\n有些人面对敌人时的残虐是天生的,无可救药。\n尼娅在战场上从不留情,甚至有着极其恶劣的爱好，她曾将一支支弩箭射进巴别塔教众的身体，却又处处避开要害，只为让对方继续逃亡，最后在一步之遥的逃生曙光中，一箭钉穿他的喉咙，静静欣赏着“猎物”窒息死去的模样。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%8E%8B%E5%9B%BD%E7%8C%8E%E6%89%8B",
+ "revid": 8644,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8644",
+ "rev_timestamp": "2026-02-08T04:31:25Z"
+}

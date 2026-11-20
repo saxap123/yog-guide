@@ -1,0 +1,29 @@
+{
+  "title": "冰封之心",
+  "pageid": 309,
+  "ns": 0,
+  "revid": 8635,
+  "rev_timestamp": "2026-02-08T04:23:59Z",
+  "wikitext": "<div class=\"row\">\n<div class=\"col-xs-12 col-sm-8 col-md-8 col-lg-8\">\n{{黑卫\n|称号=冰封之心\n|姓名=乌西洛蒂\n|性别=女\n|种族=\n|生日=3月4日\n|出生地=圣父教廷\n|具体身高/体重=165cm/54kg\n|特长=烘焙、打雪仗、照顾别人\n|喜爱的东西=甜点、朋友、闲暇时光、{{颜色|红|游戏骰子（羁绊礼物）}}\n|讨厌的东西=火刑架、巴别塔、欺凌弱小\n|属性=冰霜\n|稀有度=SS\n|基础阵线=秘术\n|其他阵线=智慧、敌法、魔导、盾御、回能、聚变、灭法\n|上线日期=2022年04月01日\n|配装-词条推荐1=\n|配装-词条推荐2=\n|备注=\n}}<div class=\"main-line-wrap\" style=\"width:100%; float: left;\"> \n<div class=\"sy-box-1\" style=\"margin-top: 20px\"> \n<div class=\"sy-box-1-n\"> \n<div class=\"sy-title-1\" style=\"margin-bottom: 0;\">暂不推荐配装、符文</div> \n</div>\n</div>\n{{黑卫技能\n|技能名称={{#arraydefine:技能名称|普通攻击,霜冻之雨,御法觉醒,冻伤,永续寒冬,寒冰萃能,寒冰之盾,玻璃大炮,体质增强,元素充能,星辰之躯}}\n|技能冷却时间={{#arraydefine:技能冷却时间|0,0,0,0,0,0,0,0,0,0,0}}\n|技能消耗={{#arraydefine:技能消耗|0,1000怒气,0,0,0,0,0,0,0,0,0}}\n|普攻=对10米范围内的1名敌人造成70%法术强度的冰霜伤害。\n|必杀技=乌西洛蒂召唤三阵暴风雪打击她的敌人，每阵暴风雪对范围内的所有敌人造成82.9%法术强度的冰霜伤害(竞技场伤害降低50%)，并使敌人冻结2(额外受到法术精通影响)秒。\n|战斗技=乌西洛蒂进入御法者状态，自动向攻击范围内的敌方目标发射5枚飞弹，每枚飞弹造成30%法术强度的冰霜伤害(竞技场伤害降低50%)，发射间隔为0.7秒。\n|辅助技1=受到来自冰封之心伤害的目标，攻击速度下降6%+0.1%*法术精通，(竞技场中攻速下降效果加倍)普攻暴击几率下降15%+0.2%*法术精通，持续3秒。\n|辅助技2=乌西洛蒂的普通攻击命中时有25%%几率偷取目标的法术与物理强度，偷取的数值为自身法术强度的0.1%偷取上限为自身法术强度的5%，被偷取的目标的强度最低为0。\n|辅助技3=乌西洛蒂从寒冰中汲取力量，提高自身3.4%(额外受到法术精通影响)技能暴击几率。\n|辅助技4=每隔6秒，冰封之心就会冻结自身6米范围内的一个随机目标，持续3秒。且冰封之心的护盾值不为0时，造成的所有伤害提升6%。\n|通用辅助技1=放弃防护，专心攻击，造成的伤害提高15%，但是自身受到的伤害也提高10%\n|通用辅助技2=最大生命值提升2300点\n|通用辅助技3=造成非物理伤害时，恢复造成伤害10%的生命值\n|通用辅助技4=全抗性提升8点，伤害减免8%\n}}\n</div>{{黑卫遗物|黑卫名称=冰封之心}}{{黑卫背景故事\n|角色故事=角色故事\n|事迹一=\n|事迹二=\n|事迹三=\n|事迹四=\n|事迹五=\n|事迹六=\n}}\n</div>\n<div class=\"col-xs-12 col-sm-4 col-md-4 col-lg-4\">\n<p id=\"DownloadHtmlImg\" data-param=\"冰封之心\" class=\"visible-md visible-sm visible-lg\" style=\"margin-bottom: 20px;\">将本页保存为图片</p>\n{{黑卫立绘|名称=冰封之心|立绘1=立绘1|立绘2=|立绘3=|立绘4=}}<!--{{推荐符文|名称=冰封之心}}-->\n{{推荐黑石\n|恐熊=\n|巫妖=4\n|怒兽=\n|猎蛛=\n|蝮蛇=\n|诡眼=2\n|幽鬼=\n|雷影狼=\n|石像鬼=\n|雪甲虫=\n|感电狐=\n|霜蹄=4\n|冰凤=\n|诅咒灵=\n|闪鸣鸟=\n|金乌=\n|迅角兽=4\n|炎龙=\n|备注=\n}}<!--{{黑卫羁绊好感度\n|2Q=\n|2A1=\n|2A2=\n|5Q=\n|5A1=\n|5A2=\n|10Q=\n|10A=\n}}-->\n</div>\n</div>\n{{#css:\n#DownloadHtmlImg{\n    display: inline-block;\n    line-height: 1;\n    white-space: nowrap;\n    cursor: pointer;\n    background: #fff;\n    border: 1px solid #dcdfe6;\n    color: #606266;\n    -webkit-appearance: none;\n    text-align: center;\n    box-sizing: border-box;\n    outline: none;\n    margin: 0;\n    transition: .1s;\n    font-weight: 500;\n    -moz-user-select: none;\n    -webkit-user-select: none;\n    -ms-user-select: none;\n    padding: 8px 14px;\n    width: 100%;\n    font-size: 14px;\n    border-radius: 4px;\n    margin-bottom: 14px;\n    animation: throttle 1s step-end forwards;\n}\n#DownloadHtmlImg:hover {\n    background: #fff;\n    border-color: #409eff;\n    color: #409eff;\n}\n\n#DownloadHtmlImg:active {\n    animation: none;\n}\n\n@keyframes throttle {\n    from {\n        pointer-events: none;\n    }\n    to {\n        pointer-events: all;\n    }\n}\n.sy-title-1 {\n    line-height: 24px;\n    margin-bottom: 6px;\n}\n.BOX-title-2 {\n    padding-top: 2px;\n}\n\n.main-line-wrap + p {\ndisplay: none;\n}\n\n}}\n{{JS|Html2canvas.min.js}}\n{{JS|Html2img.js}}",
+  "redirected_from": null,
+  "group": "characters",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E5%86%B0%E5%B0%81%E4%B9%8B%E5%BF%83",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8635",
+  "fetched_at": "2026-11-20T15:52:06+00:00",
+  "templates": [
+    "模板:JS",
+    "模板:ResourceLoader",
+    "模板:推荐黑石",
+    "模板:空白占位符",
+    "模板:遗物筛选/黑卫",
+    "模板:阵线图标",
+    "模板:颜色",
+    "模板:黑卫",
+    "模板:黑卫技能",
+    "模板:黑卫立绘",
+    "模板:黑卫背景故事",
+    "模板:黑卫遗物",
+    "模板:黑石图标"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

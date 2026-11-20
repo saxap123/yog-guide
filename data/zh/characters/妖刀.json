@@ -1,0 +1,274 @@
+{
+ "id": "char-307",
+ "name": "妖刀",
+ "page_title": "妖刀",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "狩樱",
+  "gender": "女",
+  "race": null,
+  "birthday": "10月19日",
+  "birthplace": "遥远东方",
+  "height_weight": "169cm/54kg",
+  "specialties": [
+   "剑舞",
+   "作画",
+   "独特的异国咒术"
+  ],
+  "likes": [
+   "毛茸茸的玩偶",
+   "烟草",
+   "樱花",
+   "伯戈涅葡萄酒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "枷锁",
+   "奴隶",
+   "火焰"
+  ],
+  "release_date": "2022年09月27日"
+ },
+ "element": "物理",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "刺杀",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "诡影",
+    "id": "faction-2198"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "召唤",
+    "id": "faction-2205"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "聚变",
+    "id": "faction-2216"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "CD减少",
+   "全伤害类型减免",
+   "最大生命值",
+   "体质",
+   "力量",
+   "暴击概率",
+   "暴击倍率",
+   "怒气恢复",
+   "怒气"
+  ],
+  "secondary": [
+   "全伤害类型增幅",
+   "物理伤害增幅",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": "没氪金副手【落花庇护】玩不了，低等级妖刀自行替换配装",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对近战范围内的1名敌人造成100%物理强度的物理伤害。",
+   "scaling": [
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "100%物理强度的物理伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "袭首缭杀斩",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "释放后在一定范围内随机选择目标执行斩击，每次斩击都会造成物理强度107.3%的物理伤害，总共斩击7次。斩击过程中角色处于无敌状态。(斩击视为普攻）",
+   "scaling": []
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "旋刃舞",
+   "cooldown_s": 20,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "旋转剑刃，每秒对周围3米范围内的所有敌人造成145%物理伤害，持续5秒。持续期间免疫冰冻、昏迷和冰缓效果，且不会受到火焰、冰霜、闪电伤害。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "戮心",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "暴击几率提升30%,暴击伤害提升75%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "落樱华服",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "当自身6米范围内没有敌方单位时，会闪现到距离最近的敌方身后。影遁的触发几率增加10%，且触发的持续时间增加100%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "鬼刃剑气",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【旋刃舞】持续期间，周期性对附近的随机敌人造成普攻伤害的60%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "缭杀奥义",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【袭首缭杀斩】斩击次数增加7次，物理精通每增加5点，额外增加一次斩击次数。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "恃强凌弱",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对法术强度或物理强度低于自身的敌人造成伤害提高12%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "致命伏击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对生命值为满的敌人造成伤害提高15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "暗影斗篷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到减益效果的持续时间减少30%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "影遁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "诅咒符剑",
+   "id": "relic-1957"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《聊些什么》",
+   "answers": [
+    "×聊聊过往的经历",
+    "√聊聊平时的爱好"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《去留大危机》",
+   "answers": [
+    "√确实舍不得你走，我很在意你",
+    "×毕竟我们是好同事啊"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《樱花》",
+   "answers": [
+    "获得专属武器：不祥之刃"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A6%96%E5%88%80",
+ "revid": 8624,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8624",
+ "rev_timestamp": "2026-02-08T04:16:21Z"
+}

@@ -1,0 +1,189 @@
+{
+  "subject": "血隐长刃",
+  "group": "gear",
+  "page_revid": 8459,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E8%A1%80%E9%9A%90%E9%95%BF%E5%88%83",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%A1%80%E9%9A%90%E9%95%BF%E5%88%83&format=json",
+  "fetched_at": "2026-11-20T16:20:57+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "血隐长刃#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/1/5/17/13/2/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/1/6/2/24/24/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "血隐长刃"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "+(4%-10%)物理能力提升、+(5%-15%)攻击速度、+(3000-5000)忽视物理护甲、+(3000-5000)忽视法术护甲、+(30-50)源力初始值、+(60000-144000)力量、+(60000-144000)魔力、+(5-10)元素穿透"
+            }
+          ]
+        },
+        {
+          "property": "主属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "暗红刃锋,血光隐隐，极为可怖。"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "体质、体质、力量、力量、魔力、魔力、全属性、全属性"
+            }
+          ]
+        },
+        {
+          "property": "副属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2.5%物理伤害增幅、2.5%火焰伤害增幅、2.5%闪电伤害增幅、2.5%冰霜伤害增幅、2.5%混沌伤害增幅、2.5%神圣伤害增幅、2.5%全伤害类型增幅、25%施加治疗效果、10%攻击速度、25%暴击倍率、50幸运、最大生命值、0.14%命中、全属性、"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "太古"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "屠灭：每次普通攻击，降低目标的攻击速度5%，提升自身攻击速度5%，可叠加5层当前敌人生命低于50%时，对其造成的伤害提高(10.00%-20.00%)；狂热征伐：每主动驱散一个负面状态，回复自身(5.00%-10.00%)生命上限，精神专精提升1点，混沌伤害提升5%，持续20秒，可叠加20层"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1000"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【异界迷踪-鹰之国度】获得"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "血隐长刃"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "普攻击中敌人时，有(1.00%-5.00%)几率偷取1点源力。(该效果有1秒触发间隔)"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "武器"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

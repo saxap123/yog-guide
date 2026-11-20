@@ -1,0 +1,755 @@
+{
+ "id": "char-288",
+ "name": "传承之龙",
+ "page_title": "传承之龙",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "维娜",
+  "gender": "女",
+  "race": "龙裔",
+  "birthday": "12月24日",
+  "birthplace": "未知的古老山脉",
+  "height_weight": "171cm/52kg",
+  "specialties": [
+   "飞行",
+   "干重活",
+   "战斗技艺"
+  ],
+  "likes": [
+   "各种做法的肉",
+   "猫咪",
+   "亲切的人",
+   "金翠茶壶（羁绊礼物）"
+  ],
+  "dislikes": [
+   "各种做法的蔬菜",
+   "下雨天",
+   "绕口令"
+  ],
+  "release_date": "2023年07月28日"
+ },
+ "element": "冰霜",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "前锋",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "技能暴击",
+   "冰霜穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "冰霜伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "怒气回复",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "冰驰冲击",
+   "cooldown_s": 2,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "传承之龙会朝最近敌人进行两段刺击，分别造成100%，200%法术强度的冰霜伤害，第三段攻击会朝前突进，对路径上的敌人造成400%法术强度的冰霜伤害。",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "200%法术强度的冰霜伤害"
+    },
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "400%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "冰结之破",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "连续释放4次冲锋，对路径上的敌方单位造成1500%法术强度的冰霜伤害，并对其施加持续2秒的冰冻。",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "1500%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "真空切割",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "传承之龙每释放6次冲锋后，会立刻朝一名敌方位置释放一个真空刃，每0.2秒造成一次800%法术强度的冰霜伤害，共0.8秒。",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "800%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "振翼追击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最后一段突进结束时，有50%几率立刻释放冲锋，对路径上的敌方造成1000%法术强度的冰霜伤害，并对其施加1秒的昏迷。",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "法术强度",
+     "effect": "冰霜伤害",
+     "text": "1000%法术强度的冰霜伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "龙瞳凝视",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每5秒随机选择一个敌方单位，对其释放龙瞳凝视，凝视持续期间，每秒会使其受到来传承之龙的伤害提高10%，最多不会超过250%。同一时期，只会有一名敌方单位受到凝视。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "炙血龙力",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "传承之龙的技能暴击几率+30",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "霜龙之吻",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "传承之龙自身每存在一个球，就会增加造成的伤害3%，冰霜球提供的效果加倍，增加的总伤害最多不会超过25%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "孤军深入",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "刽子手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对受伤的敌人进行毫不留情的处决，对生命值低于15%的目标造成伤害提高20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "狂战士之怒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "咒石项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猎猫之戒",
+    "腰带": "王室荣尊",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "戏谑者裤腿",
+    "徽章": "咒法徽印",
+    "鞋子": "月辉·王室金靴",
+    "副手": "紫怒之盾",
+    "武器": "不朽骸枪",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "戒指": [
+     "夺魂之戒"
+    ],
+    "腰带": [
+     "嗜战者束腰"
+    ],
+    "裤子": [
+     "元素大师之裤"
+    ],
+    "徽章": [
+     "魔涌之徽"
+    ],
+    "副手": [
+     "死灵法盾"
+    ],
+    "护手": [
+     "雷云捕手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猎猫之戒": null,
+    "夺魂之戒": "gear-1571",
+    "王室荣尊": "gear-1172",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "咒法徽印": "gear-1175",
+    "魔涌之徽": "gear-1176",
+    "月辉·王室金靴": "gear-1177",
+    "紫怒之盾": null,
+    "死灵法盾": "gear-1178",
+    "不朽骸枪": "gear-1211",
+    "妖精秘手": "gear-1179",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": {
+    "猎猫之戒": {
+     "reason": "game_only",
+     "game_id": "90177",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90177",
+        "field": "name",
+        "text_id": 61835,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       61835
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙"
+      ]
+     }
+    },
+    "紫怒之盾": {
+     "reason": "game_only",
+     "game_id": "90263",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90263",
+        "field": "name",
+        "text_id": 63093,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       63093
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞",
+       "传承之龙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "魔弹鹰鸣",
+    "项链": "辉耀之链",
+    "卡牌": "精魄魔牌",
+    "耳坠": "辉耀之环",
+    "衣服": "魔弹亡语",
+    "戒指": "雪影冰戒",
+    "腰带": "魔弹咆哮",
+    "圣物": "雪影之遗",
+    "裤子": "霜凝咒裤",
+    "徽章": "雪影白徽",
+    "鞋子": "魔弹尖啸",
+    "副手": "雪影守护",
+    "武器": "古龙威怒",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "头盔": [
+     "烁玉金盔"
+    ],
+    "项链": [
+     "逆厄辉链"
+    ],
+    "耳坠": [
+     "逆厄辉环"
+    ],
+    "腰带": [
+     "感电者"
+    ],
+    "鞋子": [
+     "宗室礼靴"
+    ],
+    "护手": [
+     "妖精秘手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "魔弹鹰鸣": null,
+    "烁玉金盔": "gear-1275",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "精魄魔牌": "gear-1291",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "魔弹亡语": null,
+    "雪影冰戒": "gear-185",
+    "魔弹咆哮": null,
+    "感电者": "gear-1690",
+    "雪影之遗": "gear-179",
+    "霜凝咒裤": "gear-1859",
+    "雪影白徽": "gear-158",
+    "魔弹尖啸": null,
+    "宗室礼靴": "gear-1282",
+    "雪影守护": "gear-166",
+    "古龙威怒": "gear-1565",
+    "幽冥初水": null,
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "魔弹鹰鸣": {
+     "reason": "game_only",
+     "game_id": "90221",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90221",
+        "field": "name",
+        "text_id": 62178,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       62178
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙"
+      ]
+     }
+    },
+    "魔弹亡语": {
+     "reason": "game_only",
+     "game_id": "90222",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90222",
+        "field": "name",
+        "text_id": 62179,
+        "type": "3"
+       }
+      ],
+      "text_ids": [
+       62179
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙"
+      ]
+     }
+    },
+    "魔弹咆哮": {
+     "reason": "game_only",
+     "game_id": "90223",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90223",
+        "field": "name",
+        "text_id": 62180,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       62180
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙",
+       "冷却装备"
+      ]
+     }
+    },
+    "魔弹尖啸": {
+     "reason": "game_only",
+     "game_id": "90225",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90225",
+        "field": "name",
+        "text_id": 62182,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       62182
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "传承之龙"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "寒月",
+    "id": "rune-1412",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "霜咬",
+    "id": "rune-1423",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "霜雪",
+    "id": "rune-1421",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "在此感谢 观海大佬（水金861）提供符文图"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "霜蹄",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "冰凤",
+    "id": "black_stone-13",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": "道中8诡眼，直接boss战就2诡眼"
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "真空切割的持续时间增加0.4秒"
+   },
+   {
+    "rank": 2,
+    "text": "冰结之破的冲锋次数+1"
+   },
+   {
+    "rank": 3,
+    "text": "当上场的队伍中存在其他前锋黑卫时，传承之龙造成的所有伤害增加15%。"
+   },
+   {
+    "rank": 4,
+    "text": "振翼追击的触发几率变为100%"
+   },
+   {
+    "rank": 5,
+    "text": "受到昏迷与冰冻时间减少35%"
+   },
+   {
+    "rank": 6,
+    "text": "传承之龙造成的所有伤害增加10%。"
+   }
+  ],
+  "recommendation": "1阶可用，3阶伤害拉满，5阶pvp，需配合回怒工具人迷迭妖精、雪月公主"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "古龙之怒",
+   "id": "relic-1954"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "前锋战格",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E4%BC%A0%E6%89%BF%E4%B9%8B%E9%BE%99",
+ "revid": 9190,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9190",
+ "rev_timestamp": "2026-09-21T07:19:47Z"
+}

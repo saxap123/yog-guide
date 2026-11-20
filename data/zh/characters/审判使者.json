@@ -1,0 +1,272 @@
+{
+ "id": "char-303",
+ "name": "审判使者",
+ "page_title": "审判使者",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "幻刃",
+  "gender": "女",
+  "race": null,
+  "birthday": "9月19日",
+  "birthplace": "塔拉歌",
+  "height_weight": "176cm/68kg",
+  "specialties": [
+   "咏唱",
+   "手工绳艺",
+   "拷问"
+  ],
+  "likes": [
+   "教堂弥撒",
+   "陵墓",
+   "白色的花",
+   "王权棋子（羁绊礼物）"
+  ],
+  "dislikes": [
+   "软弱无能的人",
+   "昆虫",
+   "吸铁石"
+  ],
+  "release_date": "2023年04月26日"
+ },
+ "element": "火焰",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "刺杀",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "召唤",
+    "id": "faction-2205"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "回能",
+    "id": "faction-2215"
+   },
+   {
+    "name": "回馈",
+    "id": "faction-2196"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对近战范围内的1名敌人造成100%法术强度的火焰伤害。",
+   "scaling": [
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "100%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "幻影之舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "审判使者对10米范围内最多2个目标释放影袭，造成800%法术强度的火焰伤害，并在目标处召唤一个幻象攻击该单位。幻象持续50秒，同时存在最多4个。幻象拥有本体100%生命值和100%的法术强度，并继承其他所有面板属性。幻象视为召唤物。幻象可以继承本体部分触发效果。(继承效果：闪电长弓、黑石8件套:【雷影狼】，【霜蹄】、噬魂阵线窃取怒气效果、逐日者6阶)",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "800%法术强度的火焰伤害"
+    },
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "法术强度",
+     "effect": null,
+     "text": "100%的法术强度"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "断钢踏",
+   "cooldown_s": 4,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "当有敌人出现在审判使者8米范围内时，审判使者会快速向敌人冲去。靠近目标后，审判使者获得普攻重击效果(普通攻击伤害增加300%)，以及攻击速度提升30%+每点法术精通*0.5%(最多不会超过60%)的效果，以上效果持续2秒。如果存在幻象，则幻象也会使用【断钢踏】技能。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "战术规避",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "审判使者拥有敏锐的危机感知能力，在即将受到致命伤害时，会短暂从战场上消失。经过1秒后，审判使者会出现在消失地点附近的随机位置，并有100%几率产生2个新的幻象。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "审判特权",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "审判使者和她的分身都会拥有25%的闪避几率，且造成的所有伤害增加15%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "最后通牒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "审判使者每经过3次普通攻击后，就会运用具有破坏力的体术攻击敌方单位，造成300%法术强度的火焰伤害。",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "300%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "狂潮战术",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "审判使者和自己的幻象们拥有精密的协同作战能力当场上存在多个召唤物时，每存在一个，审判使者和她的幻象们造成的伤害提升5%，最多提升30%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "恃强凌弱",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对法术强度或物理强度低于自身的敌人造成伤害提高12%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "致命伏击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对生命值为满的敌人造成伤害提高15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "暗影斗篷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到减益效果的持续时间减少30%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "影遁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "火刑审判",
+   "id": "relic-1963"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%AE%A1%E5%88%A4%E4%BD%BF%E8%80%85",
+ "revid": 8622,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8622",
+ "rev_timestamp": "2026-02-08T04:15:29Z"
+}

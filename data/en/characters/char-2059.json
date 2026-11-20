@@ -1,0 +1,707 @@
+{
+ "id": "char-2059",
+ "name": "Skyborne Machina",
+ "page_title": "凌空械羽",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Genlia",
+  "gender": "Female",
+  "race": "Artificial Being",
+  "birthday": "--12-23",
+  "birthplace": null,
+  "height_weight": "163cm/68kg",
+  "specialties": [
+   "knitting",
+   "handicrafts",
+   "making mechanical toys"
+  ],
+  "likes": [
+   "Rainy Days",
+   "plants",
+   "being alone",
+   "music box (bond gift)"
+  ],
+  "dislikes": [
+   "the powerful elite",
+   "liquor?",
+   "fresh blood",
+   "corpses"
+  ],
+  "release_date": "2025-06-26"
+ },
+ "element": "Lightning",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Thunderstorm Front",
+    "id": "faction-2218"
+   },
+   {
+    "name": "Resonance Front",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Attack Speed",
+   "Skill Crit",
+   "CD Reduction",
+   "Lightning Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "Spell Power %",
+   "Constitution"
+  ],
+  "secondary": [
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Lightning Damage Boost",
+   "Max HP",
+   "Physical Resistance",
+   "Rage Recovery",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Rage"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Sky Thunder",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Shoots at enemies in front using a beam rifle, dealing lightning damage equal to 600% spell power. (This skill scales with attack speed: every 2% increase in attack speed increases casting speed by 1%. Damage is considered skill-based damage.)",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 600% of Spell Power"
+    }
+   ],
+   "name_zh": "雷霆耀空"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Aurora Storm",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Fires a beam cannon that strikes enemies in a straight line ahead, dealing lightning damage equal to 1500% spell power every 0.3 seconds for 1.2 seconds.",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 1500% of Spell Power"
+    }
+   ],
+   "name_zh": "极光电暴"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Feather Strike",
+   "cooldown_s": 20,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Summons 3 featherblades to assist in battle. Each featherblade attacks once per second, dealing lightning damage equal to 800% spell power to its target. Each featherblade can attack up to 15 times. A maximum of 6 featherblades can exist on the field at once. (Featherblade damage is enhanced by the Spiritmasters Front.)",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 800% of Spell Power"
+    }
+   ],
+   "name_zh": "羽刃雷杀"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Silver Bond",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When [Aurora Storm] is cast, additionally summons two featherblades that fire beams together with her; featherblade DMG is 60% of the main body's. (Featherblade DMG can benefit from the Spiritmasters Front bonus)",
+   "scaling": [],
+   "name_zh": "银羽之绊"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Shadow Echo",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Sky Thunder] Grants 1 Energy on cast. At 20 Energy, instantly fires 6 missiles at random enemies, each dealing 750% Spell Power as Lightning DMG.",
+   "scaling": [
+    {
+     "percent": "750%",
+     "values": [
+      750.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 750% of Spell Power"
+    }
+   ],
+   "name_zh": "落影回声"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Endless Light",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Feather Strike] deals 40% more damage. When releasing featherblades, all Lightning Orbs are consumed to summon additional blades — for every 2 Lightning Orbs consumed, 1 extra featherblade is summoned.",
+   "scaling": [],
+   "name_zh": "无穷光境"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Spirit Whisper",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases Genlia's Skill Crit Chance by 30%",
+   "scaling": [],
+   "name_zh": "灵窍密语"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Maddeningspell",
+    "Necklace": "Spiral Guide",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Elementalist's Britches",
+    "Emblem": "Runes of the Surge",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Electroplume",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Helmet": [
+     "Moonlight · Regal Amethyst"
+    ],
+    "Trousers": [
+     "Joker's Pantaloons"
+    ],
+    "Emblem": [
+     "Sigil of Mystic"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "狂法者": "gear-game-90012",
+    "月辉·烁金荧紫": "gear-1168",
+    "指路吊坠": "gear-1081",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "元素大师之裤": "gear-1174",
+    "戏谑者裤腿": "gear-1182",
+    "魔涌之徽": "gear-1176",
+    "咒法徽印": "gear-1175",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "电磁光羽": "gear-2296",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "狂法者": {
+     "reason": "game_only",
+     "game_id": "90012",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90012",
+        "field": "name",
+        "text_id": 55963,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       55963
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "蚀骨魂龙",
+       "北境公主",
+       "凌空械羽"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Ritual Feather Crown",
+    "Necklace": "Chain of Radiance",
+    "Card": "Spirit Magic Card",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Armor of Cursed Orbs",
+    "Ring": "Neon Slayer's Blood Ring",
+    "Belt": "Belt of Electrify",
+    "Relic": "Neon Slayer's Blood Seal",
+    "Trousers": "Thunder-Summoning Trousers",
+    "Emblem": "Neon Slayer's Blood Mark",
+    "Shoes": "Royal Family Boots",
+    "Off-hand": "Neon Slayer's Blood Shield",
+    "Weapon": "Electroplume",
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Card": [
+     "Devil Card of Impasse"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ],
+    "Armor": [
+     "Robe of Cursed Thunder"
+    ],
+    "Handguard": [
+     "Sprite's Spite"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "精魄魔牌": "gear-1291",
+    "龙力魔牌": "gear-1691",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "法球咒铠": "gear-1686",
+    "雷咒长袍": "gear-1687",
+    "霆霓猩红血戒": "gear-188",
+    "感电者": "gear-1690",
+    "霆霓猩红血玺": "gear-176",
+    "奏雷鸣裤": "gear-1860",
+    "霆霓猩红血印": "gear-145",
+    "宗室礼靴": "gear-1282",
+    "霆霓猩红血盾": "gear-164",
+    "电磁光羽": "gear-2296",
+    "幽冥初水": "gear-game-90323",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Degenerate",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Thunder Veins",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Songbird",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "When the Ultimate is activated, gain the maximum number of Lightning Orbs."
+   },
+   {
+    "rank": 2,
+    "text": "For every 50% Attack Speed, the attack interval of featherblades summoned by [Feather Strike] is reduced by 0.1 seconds, down to a minimum of 0.4 seconds."
+   },
+   {
+    "rank": 3,
+    "text": "The number of attacks per featherblade from [Feather Strike] is increased by 10, and the maximum number of featherblades on the field is increased by 2."
+   },
+   {
+    "rank": 4,
+    "text": "Each Charge gained by [Thunderlit Sky] +1, and when [Shadow Echo] triggers, a dodge action is performed at the same time and you become Invincible for 0.5 seconds."
+   },
+   {
+    "rank": 5,
+    "text": "When [Shadow Echo] is triggered, restores 20% of max shield and grants immunity to Freeze, Stun, and Charm for the next 3 seconds."
+   },
+   {
+    "rank": 6,
+    "text": "Genlia damage dealt +10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Heart of Resonance",
+   "id": "relic-2159"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Mystic battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%87%8C%E7%A9%BA%E6%A2%B0%E7%BE%BD",
+ "revid": 8926,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8926",
+ "rev_timestamp": "2026-05-27T07:04:18Z",
+ "i18n": {
+  "name_zh": "凌空械羽",
+  "sources": {
+   "derived": 6,
+   "game_db": 18,
+   "glossary": 90,
+   "lore": 1,
+   "names": 67,
+   "translated": 13
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 80814,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 80816,
+    "match": "loose"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 80815,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 80818,
+    "match": "loose"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 80819,
+    "match": "loose"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 80820,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 80821,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 80822,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 80823,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 80825,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 80826,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "阿格纳城",
+    "reason": "not translatable (see translate/manual/texts)"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "blood_ranks.ranks[3].text",
+    "zh": "雷密耀空",
+    "en": "Thunderlit Sky"
+   }
+  ]
+ }
+}

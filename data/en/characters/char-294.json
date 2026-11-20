@@ -1,0 +1,540 @@
+{
+ "id": "char-294",
+ "name": "Judgement Hammer",
+ "page_title": "裁决圣锤",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Chloe",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--01-13",
+  "birthplace": "the Northern Kingdom",
+  "height_weight": "169cm/57kg",
+  "specialties": [
+   "alchemy",
+   "craftsmanship",
+   "forging"
+  ],
+  "likes": [
+   "roses",
+   "fine metals",
+   "fireplaces",
+   "rose bouquet (bond gift)"
+  ],
+  "dislikes": [
+   "winter",
+   "almonds",
+   "rain"
+  ],
+  "release_date": "2024-03-27"
+ },
+ "element": "Frost",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Guardian Front",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Healers Front",
+    "id": "faction-2204"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ],
+  "secondary": [
+   "Crit Damage Reduction",
+   "Rage",
+   "Rage Restore",
+   "Extend Freeze Inflicted"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Hammer Strike",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Chloe continuously unleashes hammer strike at the enemies in front, deals Frost DMG equal to 650% of Spell Power to enemies in front. (Strike is considered as Skill DMG, and Skill CD Reduced and Attack Speed Boost won't take effect on it)",
+   "scaling": [
+    {
+     "percent": "650%",
+     "values": [
+      650.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 650% of Spell Power"
+    }
+   ],
+   "name_zh": "重锤猛击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Blizzard Onslaught",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Chloe leaps up and unleashes a powerful hammer strike to the target's position, pulls a large area of surrounding enemies to the position she landed, and dealing Frost DMG equal to 2500% of Spell Power by 2 times.",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 2500% of Spell Power"
+    }
+   ],
+   "name_zh": "暴雪狂袭"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Cold Steel Blast",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Every time when Chloe unleashes hammer strikes by 6 times, she releases a powerful Frost Blast to the strike location, causing Frost DAMAGE equal to 1500% of Spell Power to enemies in a great range.",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 1500% of Spell Power"
+    }
+   ],
+   "name_zh": "寒冷钢铁"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Guardian's Judgment",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Enemies damaged by [Cold Steel Blast] are inflicted with Freeze for 1.5 seconds, and all elemental resistances are reduced by 5%, Frost Resistance by an additional 5%, lasting 5 seconds. ((This effect can make enemy resistance negative; each 1% of negative resistance increases DMG taken of the corresponding type by 1%)",
+   "scaling": [],
+   "name_zh": "护卫裁决"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Ice Forged Armor",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "After releases [Blizzard Onslaught], Chloe grants a shield to all allies that last for 5 sec, during the duration it reduces a 30% of chance of being Crit Hit.",
+   "scaling": [],
+   "name_zh": "铸冰为铠"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Fortitude Sanctuary",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "While on the field, shares 20% of damage taken among all allied Blackguards.",
+   "scaling": [],
+   "name_zh": "坚韧庇护"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Unwavering Consecration",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases DMG Dealt of [Cold Steel Blast] by 100%, and triggering requirements is reduced by 2 times.",
+   "scaling": [],
+   "name_zh": "圣毅奉献"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Vitality",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 6%, Max shield increased by 6%",
+   "scaling": [],
+   "name_zh": "活力"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Evasion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Normal attack evasion chance increased by 15%",
+   "scaling": [],
+   "name_zh": "躲闪"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Intensive Care",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Healing effect received increased by 10%",
+   "scaling": [],
+   "name_zh": "加护"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Waiting for a Lv 450 build — suggestions welcome in the comments below",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder: editors ask for a 450 build in the comments",
+   "slots": {
+    "Helmet": null,
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": null,
+    "Ring": null,
+    "Belt": null,
+    "Relic": null,
+    "Trousers": null,
+    "Emblem": null,
+    "Shoes": null,
+    "Off-hand": null,
+    "Weapon": "Crazy Paradox",
+    "Handguard": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "狂悖": "gear-1208"
+   },
+   "unlinked": null,
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Strong Rock",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Chloe won't be affected by Freeze effect, and immune to knocked back."
+   },
+   {
+    "rank": 2,
+    "text": "Fire and Lightning Resist reduced by [Guardian's Judgment] is increased by 5%, Frost Resist reduced is increased by 10%, and duration is increased by 5 sec."
+   },
+   {
+    "rank": 3,
+    "text": "When Chloe is taking an attack, if the attack is not a Crit Hit, Chloe restores 5% of her Max HP. This effect has 2 sec of triggering interval."
+   },
+   {
+    "rank": 4,
+    "text": "Crit Resist effect granted by [Ice Forged Armor] is increased additionally by 15%."
+   },
+   {
+    "rank": 5,
+    "text": "When the effect of [Ice Forged Armor] is active, grants Immune to Frozen effect to all affected allies."
+   },
+   {
+    "rank": 6,
+    "text": "Chloe's All DMG Dealt is increased by 10%."
+   }
+  ],
+  "recommendation": "Usable from rank 1; rank 2 boosts DMG"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Seal of Revenge",
+   "id": "relic-1948"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Guard battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E8%A3%81%E5%86%B3%E5%9C%A3%E9%94%A4",
+ "revid": 9067,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9067",
+ "rev_timestamp": "2026-07-28T10:15:06Z",
+ "i18n": {
+  "name_zh": "裁决圣锤",
+  "sources": {
+   "derived": 5,
+   "game_db": 18,
+   "glossary": 57,
+   "lore": 1,
+   "names": 34,
+   "translated": 14
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 69115,
+    "match": "loose"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 69117,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 69116,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 69119,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 69120,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 69352,
+    "match": "loose"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2961,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2970,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2992,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 69123,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 69124,
+    "match": "loose"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 69125,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 69126,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 69127,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 69128,
+    "match": "loose"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": null,
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

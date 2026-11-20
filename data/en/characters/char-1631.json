@@ -1,0 +1,838 @@
+{
+ "id": "char-1631",
+ "name": "Everlasting Sol",
+ "page_title": "不熄曜日",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Juliet",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--12-10",
+  "birthplace": "the Valoa Empire",
+  "height_weight": "163cm/45kg",
+  "specialties": [
+   "shooting",
+   "tracking",
+   "deduction"
+  ],
+  "likes": [
+   "perfume",
+   "trust",
+   "steadfast love",
+   "pocket watch (bond gift)"
+  ],
+  "dislikes": [
+   "falsehood",
+   "Lie...?",
+   "Control"
+  ],
+  "release_date": "2024-11-29"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Resonance Front",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "Fire Penetration",
+   "Crit Damage Boost",
+   "Attack Speed",
+   "Accuracy",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Fire Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": "For the Lv 450 build, Immortal gear is enough; Mythic is not needed",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Lancefire Funeral",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Shoot a single enemy, dealing 1400% spell power as fire damage. (This effect is considered normal attack)",
+   "scaling": [
+    {
+     "percent": "1400%",
+     "values": [
+      1400.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 1400% of Spell Power"
+    }
+   ],
+   "name_zh": "落葬枪焰"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Global Detonation",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Command bombers to drop explosive bombs ahead, dealing 8500% spell power as fire damage to enemies within a large area, the casting will not be interrupted by effects like knock back or knock away.",
+   "scaling": [
+    {
+     "percent": "8500%",
+     "values": [
+      8500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 8500% of Spell Power"
+    }
+   ],
+   "name_zh": "全域爆轰"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Solar Piercer",
+   "cooldown_s": 8,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Fires a bullet forward that pierces all enemies, dealing 1500% spell power as fire damage and applying Ignition for 12 seconds.",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 1500% of Spell Power"
+    }
+   ],
+   "name_zh": "贯日破军"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Synergized Strategy",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The drone will focus on the target of [Lancefire Funeral], dealing 1800% spell power as fire damage. (Considered as normal attack damage) When Command Point are 55 or higher, consume 55 Command Points to deploy drones to fire 3 missiles at enemies, each dealing 3000% spell power as fire damage. This effect has a 6-second trigger interval. (After learning this skill, Everlasting Sol's normal attacks, combat skills, and ultimate skills grant 2, 18, and 20 Command Points respectively upon release.)",
+   "scaling": [
+    {
+     "percent": "1800%",
+     "values": [
+      1800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 1800% of Spell Power"
+    },
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 3000% of Spell Power"
+    }
+   ],
+   "name_zh": "协同策略"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Unified Focus",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The damage caused by [Global Detonation] is increased by 100%, and an additional 20 Command Points is gained after casting [Global Detonation].",
+   "scaling": [],
+   "name_zh": "凝神聚力"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When entering battle, immediately gains 100 Command Point. And when the effect of [Synergized Strategy] triggers, it consumes all of own orbs. Energy Orb: every 2 Energy Orbs consumed, missile waves +1. Fury Orb: when any Fury Orb is consumed, missiles deal DMG in a 3 meter range, and each additional 1 Fury Orb consumed gives +10% explosion range. Frost Orb: each 1 Frost Orb consumed changes the trigger interval of [Synergized Strategy] by -1 second, down to a minimum of 2 seconds. Lightning Orb: each 1 Lightning Orb consumed, missile DMG +12%.",
+   "scaling": [],
+   "name_zh": "灿若自日"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Aspiration",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The critical hit rate for skills and normal attacks of Everlasting Sol is increased by 30%",
+   "scaling": [],
+   "name_zh": "心向往之"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Time Keeper",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Moonlight · Light Chainmail",
+    "Ring": "Souleater's Ring",
+    "Belt": "Honor of House Rudolph",
+    "Relic": "Primordial Blood",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Emblem of the Hunt",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Wild Hunt",
+    "Handguard": "Abyssal Grasps"
+   },
+   "alternatives": {
+    "Ring": [
+     "Blizzard's Downfall"
+    ],
+    "Belt": [
+     "Warmonger's Warbelt"
+    ],
+    "Relic": [
+     "Moonlight · Shadow's Batwings"
+    ],
+    "Shoes": [
+     "Thunderous Rage"
+    ],
+    "Weapon": [
+     "Dawnbreaker Rifle"
+    ],
+    "Handguard": [
+     "Spark Catcher"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "时间守护者": "gear-1715",
+    "月辉·轻盈软甲": "gear-1180",
+    "夺魂之戒": "gear-1571",
+    "极寒飞雪": "gear-game-2016",
+    "王室荣尊": "gear-1172",
+    "嗜战者束腰": "gear-1210",
+    "始祖之血": "gear-1604",
+    "月辉·夜影蝠翼": "gear-1181",
+    "戏谑者裤腿": "gear-1182",
+    "狩猎徽章": "gear-1184",
+    "月辉·王室金靴": "gear-1177",
+    "雷霆之怒": "gear-1183",
+    "死灵法盾": "gear-1178",
+    "狂猎": "gear-128",
+    "破晓步枪": "gear-1637",
+    "深渊之握": "gear-1192",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": {
+    "极寒飞雪": {
+     "reason": "game_only",
+     "game_id": "2016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2016",
+        "field": "name",
+        "text_id": 4050,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       4050
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Demon Guard Mask",
+    "Necklace": "Black Ocean",
+    "Card": "Card of Magic Orb",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Armor of Cursed Orbs",
+    "Ring": "Netherflame's Glory",
+    "Belt": "Lightning Entwinement",
+    "Relic": "Netherflame's Justice",
+    "Trousers": "Flame-Forged Greaves",
+    "Emblem": "Netherflame's Verdict",
+    "Shoes": "Orb Master",
+    "Off-hand": "Netherflame's Supremacy",
+    "Weapon": "Scarlet Grace",
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Emblem": [
+     "Emblem of the Hunt"
+    ],
+    "Shoes": [
+     "Royal Family Boots"
+    ],
+    "Handguard": [
+     "Netherflame's Gloves"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "界卫魔面": "gear-1849",
+    "黑色汪洋": "gear-game-90324",
+    "魔球卡牌": "gear-game-90212",
+    "辉耀之环": "gear-138",
+    "法球咒铠": "gear-1686",
+    "幽焰剑士荣耀": "gear-187",
+    "电光缠绕": "gear-1515",
+    "幽焰剑士截断": "gear-180",
+    "炎铸胫甲": "gear-1861",
+    "幽焰剑士裁决": "gear-147",
+    "狩猎徽章": "gear-1184",
+    "法球大师": "gear-game-90097",
+    "宗室礼靴": "gear-1282",
+    "幽焰剑士极致": "gear-162",
+    "绯炎绮瑰": "gear-game-90368",
+    "幽冥初水": "gear-game-90323",
+    "幽焰剑士碧手": "gear-1661"
+   },
+   "unlinked": {
+    "黑色汪洋": {
+     "reason": "game_only",
+     "game_id": "90324",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90324",
+        "field": "name",
+        "text_id": 69057,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       69057
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "拂光破雪",
+       "不熄曜日",
+       "绞刃流火",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "魔球卡牌": {
+     "reason": "game_only",
+     "game_id": "90212",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90212",
+        "field": "name",
+        "text_id": 62169,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62169
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "战争之蹄",
+       "不熄曜日",
+       "夜行暹罗",
+       "千宵月守"
+      ]
+     }
+    },
+    "法球大师": {
+     "reason": "game_only",
+     "game_id": "90097",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90097",
+        "field": "name",
+        "text_id": 60205,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       60205
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "雪月公主",
+       "不熄曜日",
+       "王室剑徽",
+       "忘却迷境-凛风雪原",
+       "遗物"
+      ]
+     }
+    },
+    "绯炎绮瑰": {
+     "reason": "game_only",
+     "game_id": "90368",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90368",
+        "field": "name",
+        "text_id": 79408,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       79408
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "不熄曜日"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Magic Wrath",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Absolute Blade",
+    "id": "rune-1406",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Fire Spell",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Ursus",
+    "id": "black_stone-01",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Flame Dragon",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": "Because of [Gold Coin Leap], 4 Occultist has lower priority"
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "The drones of [Synergized Strategy] deal 100% increased DMG to targets with Ignition."
+   },
+   {
+    "rank": 2,
+    "text": "Command Point gain efficiency increased by 30%; and gains 2 Command Points every 1 second. 1"
+   },
+   {
+    "rank": 3,
+    "text": "Within 8 seconds after casting [Solar Piercer], Normal Attack hits have a 15% chance to grant 1 Energy Orb, Frost Orb, Fury Orb, and Lightning Orb. The chance for each type of orb is rolled independently."
+   },
+   {
+    "rank": 4,
+    "text": "Within 6 seconds after casting [Global Detonation], each time an enemy gains an orb, there is a 25% + (own Spell Mastery - enemy Spell Negation) * 0.5% chance for it to be forcibly converted into an orb gained by Everlasting Sol."
+   },
+   {
+    "rank": 5,
+    "text": "Each time the drone of [Synergized Strategy] launch a missile, Everlasting Sol will gain a magic shield equal to 9000% of spell power for 3 seconds. This magic shield is affected by her Damage Boost and Crit Damage."
+   },
+   {
+    "rank": 6,
+    "text": "All damage dealt by Everlasting Sol is increased by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Blooming Alone in Spring",
+   "id": "relic-1967"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E4%B8%8D%E7%86%84%E6%9B%9C%E6%97%A5",
+ "revid": 8639,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8639",
+ "rev_timestamp": "2026-02-08T04:28:50Z",
+ "i18n": {
+  "name_zh": "不熄曜日",
+  "sources": {
+   "derived": 7,
+   "game_db": 17,
+   "glossary": 90,
+   "lore": 1,
+   "names": 68,
+   "translated": 16
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 77009,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 77011,
+    "match": "loose"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 77010,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 77012,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 77013,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 77002,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   },
+   "black_stones.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 77077,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 77078,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[5].name",
+    "zh": "灿若自日",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "black_stones.note",
+    "zh": "金币跃迁",
+    "en": "Gold Coin Leap"
+   }
+  ]
+ }
+}

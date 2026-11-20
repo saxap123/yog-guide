@@ -1,0 +1,366 @@
+{
+ "id": "char-309",
+ "name": "Frozen Heart",
+ "page_title": "冰封之心",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Usilotti",
+  "gender": "Female",
+  "race": null,
+  "birthday": "--03-04",
+  "birthplace": null,
+  "height_weight": "165cm/54kg",
+  "specialties": [
+   "baking",
+   "snowball fights",
+   "taking care of others"
+  ],
+  "likes": [
+   "sweet treats",
+   "friends",
+   "leisure time",
+   "game dice (bond gift)"
+  ],
+  "dislikes": [
+   "the stake",
+   "The Tower of Babel",
+   "bullying the weak"
+  ],
+  "release_date": "2022-04-01"
+ },
+ "element": "Frost",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "Mystic Front",
+   "id": "faction-2195"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Frost DMG equal to 70% Spell Power to 1 enemy within 10 meters.",
+   "scaling": [
+    {
+     "percent": "70%",
+     "values": [
+      70.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 70% of Spell Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Blizzard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Usilotti summons three blizzards to strike at her enemies, each blizzard inflicts 82.9% (affected by Spell Power) Frost damage to all enemies in the area (DMG dealt reduced by 50% in Arena), and freezes them for 2 (additionally affected by Spell Mastery) seconds.",
+   "scaling": [
+    {
+     "percent": "82.9%",
+     "values": [
+      82.9
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 82.9% of Spell Power"
+    }
+   ],
+   "name_zh": "霜冻之雨"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Archon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Usilotti enters the Archon state, automatically launching 5 frost bolts at enemy targets within her range, each bolt deals 30% spell power as Frost damage (DMG dealt reduced by 50% in Arena), launching interval is 0.7 sec.",
+   "scaling": [
+    {
+     "percent": "30%",
+     "values": [
+      30.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 30% of Spell Power"
+    }
+   ],
+   "name_zh": "御法觉醒"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Frostbite",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Targets taking DMG from Frozen Heart have Attack Speed reduced by 6%+0.1%*Spell Mastery, (Attack Speed reduction is doubled in the Arena) Normal Attack Crit Chance reduced by 15%+0.2%*Spell Mastery, for 3 seconds.",
+   "scaling": [],
+   "name_zh": "冻伤"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Usilotti's normal attack hits, 25%% chance to steal the target's Spell and Physical Power; the amount stolen is 0.1% of own Spell Power, the steal cap is 5% of own Spell Power, and the stolen target's Power cannot go below 0.",
+   "scaling": [],
+   "name_zh": "永续寒冬"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Glacial Distillation",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Usilotti draws power from the ice, increasing her own 3.4% (additionally affected by Spell Mastery) skill critical strike chance",
+   "scaling": [],
+   "name_zh": "寒冰萃能"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Boreas's Breath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Every 6 sec, Usilotti will freeze a random target within 6 meters of her range, last for 3 sec. And when her Shield Value is not 0, increases her all damage dealt by 6%.",
+   "scaling": [],
+   "name_zh": "寒冰之盾"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Glass Cannon",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The best defense is to kill every enemy, increases damage caused by 15%, but also increase the damage received by 10%",
+   "scaling": [],
+   "name_zh": "玻璃大炮"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Spirit Charge",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When dealing non-Physical DMG, restores HP equal to 10% of the DMG dealt",
+   "scaling": [],
+   "name_zh": "元素充能"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Astral Form",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "All resistance increased by 8 points, damage reduction by 8%",
+   "scaling": [],
+   "name_zh": "星辰之躯"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Hoarfrost Hoof",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Eternal Frozen Mask",
+   "id": "relic-1961"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%86%B0%E5%B0%81%E4%B9%8B%E5%BF%83",
+ "revid": 8635,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8635",
+ "rev_timestamp": "2026-02-08T04:23:59Z",
+ "i18n": {
+  "name_zh": "冰封之心",
+  "sources": {
+   "derived": 5,
+   "game_db": 8,
+   "glossary": 31,
+   "lore": 1,
+   "names": 24,
+   "translated": 13
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 3044,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 4350,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 4353,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 4354,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4295,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "translated"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2994,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "圣父教廷",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[4].name",
+    "zh": "永续寒冬",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

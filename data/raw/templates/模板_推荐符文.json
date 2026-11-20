@@ -1,0 +1,17 @@
+{
+  "title": "模板:推荐符文",
+  "pageid": 1055,
+  "ns": 10,
+  "revid": 9026,
+  "rev_timestamp": "2026-06-27T07:00:07Z",
+  "wikitext": "{{#set:\n|名称={{{名称|}}}\n|主符文={{{主符文|}}}\n|辅助符文={{{辅助符文|}}}\n|备注={{{备注|}}}\n}}{{#arraydefine:主符文图标|{{#arraymap:{{{主符文|}}}|、|@|@|,}}}}{{#arraydefine:辅助符文图标|{{#arraymap:{{{辅助符文|}}}|、|@|@|,}}}}\n\n<div class=\"sy-box-1\"> \n<div class=\"sy-box-1-n\"> \n<div class=\"sy-title-1\">符文推荐</div> \n<div class=\"sy-divider\"></div> \n<div class=\"sy-content\">\n{{#if: {{{主符文}}}|\n[[file: {{{名称|}}}符文.png]]<div class=\"BOX-title-2 border-color-ccc\" style=\"margin-top: 10px\">主符文</div>\n<div class=\"BOX-N py-1\">\n<div style=\"width:100%;overflow:hidden\">\n{{#if: {{#arrayindex:主符文图标 |0 }} |{{符文图标|{{#arrayindex:主符文图标 |0 }}|38px|{{#arrayindex:主符文图标 |0 }}}}|}}{{空白占位符|4}}\n{{#if: {{#arrayindex:主符文图标 |1 }} |{{符文图标|{{#arrayindex:主符文图标 |1 }}|38px|{{#arrayindex:主符文图标 |1 }}}}|}}{{空白占位符|4}}\n{{#if: {{#arrayindex:主符文图标 |2 }} |{{符文图标|{{#arrayindex:主符文图标 |2 }}|38px|{{#arrayindex:主符文图标 |2 }}}}|}}{{空白占位符|4}}\n{{#if: {{#arrayindex:主符文图标 |3 }} |{{符文图标|{{#arrayindex:主符文图标 |3 }}|38px|{{#arrayindex:主符文图标 |3 }}}}|}}{{空白占位符|4}}\n{{#if: {{#arrayindex:主符文图标 |4 }} |{{符文图标|{{#arrayindex:主符文图标 |4 }}|38px|{{#arrayindex:主符文图标 |4 }}}}|}}{{空白占位符|4}}\n{{#if: {{#arrayindex:主符文图标 |5 }} |{{符文图标|{{#arrayindex:主符文图标 |5 }}|38px|{{#arrayindex:主符文图标 |5 }}}}|}}{{空白占位符|4}}\n{{#if: {{#arrayindex:主符文图标 |6 }} |{{符文图标|{{#arrayindex:主符文图标 |6 }}|38px|{{#arrayindex:主符文图标 |6 }}}}|}}{{空白占位符|4}}</div>\n</div>\n<div class=\"BOX-title-2 border-color-ccc\">辅助符文</div>\n<div class=\"BOX-N py-1\">\n<div style=\"width:100%;\">\n{{#if: {{#arrayindex:辅助符文图标 |0 }} |{{符文图标|{{#arrayindex:辅助符文图标 |0 }}|38px|{{#arrayindex:辅助符文图标 |0 }}}}|}}{{空白占位符|4}}\n{{#if: {{#arrayindex:辅助符文图标 |1 }} |{{符文图标|{{#arrayindex:辅助符文图标 |1 }}|38px|{{#arrayindex:辅助符文图标 |1 }}}}|}}{{空白占位符|4}}\n</div>\n</div>\n</div>\n<div class=\"BOX-title-2 border-color-ccc\">备注</div>\n<div class=\"BOX-N py-1\">\n<!--<div style=\"width:100%;overflow:hidden\">当前为PVE符文图<br>{{{备注}}}</div>-->\n<div style=\"width:100%;overflow:hidden\">{{{备注}}}</div>\n|暂无}}\n</div>\n</div>\n</div>",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E6%8E%A8%E8%8D%90%E7%AC%A6%E6%96%87",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9026",
+  "fetched_at": "2026-11-20T15:55:32+00:00",
+  "templates": [
+    "模板:空白占位符"
+  ],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

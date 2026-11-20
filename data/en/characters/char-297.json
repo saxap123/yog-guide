@@ -1,0 +1,588 @@
+{
+ "id": "char-297",
+ "name": "Lady Swan Lake",
+ "page_title": "婆娑轮舞",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Ojeda&Odila",
+  "gender": "Female",
+  "race": "Artificial Being",
+  "birthday": "--09-25",
+  "birthplace": null,
+  "height_weight": "167cm/49kg",
+  "specialties": [
+   "role-playing",
+   "narrative ballet"
+  ],
+  "likes": [
+   "feathers",
+   "love",
+   "beauty",
+   "fluffy plush toy (bond gift)"
+  ],
+  "dislikes": [
+   "monster",
+   "weakness",
+   "Lie...?"
+  ],
+  "release_date": "2024-04-25"
+ },
+ "element": "Physical",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Sages Front",
+    "id": "faction-2200"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Spiritmasters Front",
+    "id": "faction-2206"
+   },
+   {
+    "name": "Fairies Front",
+    "id": "faction-2208"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Stormrise Front",
+    "id": "faction-2214"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "CD Reduction",
+   "Physical Power %",
+   "Skill Crit",
+   "Crit Damage Boost",
+   "Strength",
+   "All Damage Boost",
+   "Physical Damage Boost",
+   "Physical Penetration"
+  ],
+  "secondary": [
+   "Physical Resistance",
+   "Rage",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Max HP",
+   "Constitution",
+   "Rage Restore",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Fleeting Glimmers",
+   "cooldown_s": 3,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ojeda wields chakram, causes 5 attacks to the enemies in front of her, each attack deals Physical DMG equal to 200% of Physical Power. (Consider as Skill DMG, and Attack Speed Boost won't take effect on it)",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 200% of Physical Power"
+    }
+   ],
+   "name_zh": "浮光掠影"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Black Swan",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Within 10 secs after releasing [Black Swan], when Ojeda causes attack, summoning a Phantom to attack together. The DMG Dealt by the Phantom is equal to 75% of Ojeda.",
+   "scaling": [],
+   "name_zh": "白羽黑翼"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Brisk Galop",
+   "cooldown_s": 18,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ojeda causes attacks up to 5 times to enemies in a large range around her, deals of Physical DMG equal to 300% of Physical Power. Ojeda's Skill Dodge is increased by 100% during the release, and not affected by [Polymorph], [Taunt], Dodge Rate decay effect, and won't be knockback and knock away.",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 300% of Physical Power"
+    }
+   ],
+   "name_zh": "舞步轻俏"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Swing Nutcracker",
+   "cooldown_s": 15,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking DMG, immediately teleports to the enemy with the lowest HP and casts [Brisk Galop] once, with DMG equal to 100% of [Brisk Galop]; this effect has a 15-second trigger interval. (Not affected by cooldown effects)",
+   "scaling": [],
+   "name_zh": "挥鞭断骨"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Grand Jete",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The first 4 attacks released of [Fleeting Glimmers] has a 50% of chance to release a Chakram forward, deals Physical DMG equal to 400% of Physical Power to all enemies on the path.",
+   "scaling": [
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 400% of Physical Power"
+    }
+   ],
+   "name_zh": "纵身一跃"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Waltz of Dreams",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases DMG Dealt of [Fleeting Glimmers] and [Grand Jete] by 100%.",
+   "scaling": [],
+   "name_zh": "梦之圆舞"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Dance of Flowers",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Lady Swan Lake's Skill Crit Chance +30",
+   "scaling": [],
+   "name_zh": "冶艳怒放"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Meteorite Necklace",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Honor of House Rudolph",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Nox Emblem",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "White Feather's Ring",
+    "Handguard": "Abyssal Grasps"
+   },
+   "alternatives": {
+    "Relic": [
+     "Nox Cross"
+    ],
+    "Trousers": [
+     "Elementalist's Britches"
+    ],
+    "Emblem": [
+     "Emblem of Cruelty"
+    ],
+    "Weapon": [
+     "Lazaraia"
+    ],
+    "Handguard": [
+     "Manic Iron Grips"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "王室荣尊": "gear-1172",
+    "月辉·紫晶鸦首": "gear-1173",
+    "漆黑十字": "gear-1187",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "秘影徽识": "gear-1188",
+    "残虐之徽": "gear-1189",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "白羽声生": "gear-1191",
+    "渴血": "gear-1190",
+    "深渊之握": "gear-1192",
+    "狂铁驭手": "gear-game-3033"
+   },
+   "unlinked": {
+    "狂铁驭手": {
+     "reason": "game_only",
+     "game_id": "3033",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3033",
+        "field": "name",
+        "text_id": 55196,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       55196
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "婆娑轮舞"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": null,
+    "id": null,
+    "options": null,
+    "unlinked": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "铁棘",
+      "id": "rune-1420",
+      "source": "similar name in runes.json",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "战争之蹄",
+       "长辉照夜",
+       "玉尘灵仙"
+      ]
+     }
+    }
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Raging Beast",
+    "id": "black_stone-03",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Cursed Soul",
+    "id": "black_stone-14",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "The Phantom summoned by [Black Swan] is increased by 1, and during the duration of [Black Swan], Ojeda won't be inflicted with [Stun] state."
+   },
+   {
+    "rank": 2,
+    "text": "The duration of [Black Swan] is increased by 100%, and the percentage of Phantom's DMG Dealt is increased by 25%."
+   },
+   {
+    "rank": 3,
+    "text": "The trigger chance of [Grand Jete] is increased by 50%."
+   },
+   {
+    "rank": 4,
+    "text": "Increases DMG Dealt of [Brisk Galop] by 100%. And now it can deal DMG to enemy in [Invincible] state."
+   },
+   {
+    "rank": 5,
+    "text": "Inflicts [Mind Break] state to enemy hit by [Brisk Galop], last for 3 sec.\nMind Break: When in Mind Break, the [Invincible] effect does not work."
+   },
+   {
+    "rank": 6,
+    "text": "Ojeda's All DMG Dealt is increased by 10%."
+   }
+  ],
+  "recommendation": "Usable from rank 1; DMG maxed at rank 2; rank 4: PVP Asura's Katana that breaks the CD cap"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Fleeting Figure",
+   "id": "relic-1947"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A9%86%E5%A8%91%E8%BD%AE%E8%88%9E",
+ "revid": 8620,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8620",
+ "rev_timestamp": "2026-02-08T04:14:33Z",
+ "i18n": {
+  "name_zh": "婆娑轮舞",
+  "sources": {
+   "derived": 5,
+   "game_db": 18,
+   "glossary": 68,
+   "lore": 1,
+   "names": 42,
+   "translated": 12
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 71472,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 71474,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 71473,
+    "match": "loose"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 71476,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 71477,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 71518,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 71519,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 71520,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 71521,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 71522,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 71523,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "布瑞德",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "runes.support[0]",
+    "zh": "铁荆",
+    "reason": "names.json/runes: probably a typo on the wiki; not corrected"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.real_name",
+    "zh": "奥吉莉雅",
+    "en": "Odila"
+   }
+  ]
+ }
+}

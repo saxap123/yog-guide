@@ -1,0 +1,566 @@
+{
+ "id": "char-286",
+ "name": "玉面九尾",
+ "page_title": "玉面九尾",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "望月隐",
+  "gender": "女",
+  "race": "野兽血裔",
+  "birthday": "3月7日",
+  "birthplace": "帝都森布伦",
+  "height_weight": "168cm/69kg",
+  "specialties": [
+   "魅惑",
+   "撒谎"
+  ],
+  "likes": [
+   "雷鸣",
+   "有趣的人",
+   "真心",
+   "伯戈涅葡萄酒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "无趣的人",
+   "糖果",
+   "谎言"
+  ],
+  "release_date": "2023年08月31日"
+ },
+ "element": "闪电",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "辅助",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   },
+   {
+    "name": "回能",
+    "id": "faction-2215"
+   },
+   {
+    "name": "雷暴",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "最大生命值",
+   "体质",
+   "CD减少",
+   "怒气",
+   "怒气恢复"
+  ],
+  "secondary": [
+   "魔力",
+   "%法术强度",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": "小于2血阶需配CD装",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "电光狐影",
+   "cooldown_s": 2,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "朝前方释放落雷，对落雷范围内的敌人造成900%法术强度的闪电伤害",
+   "scaling": [
+    {
+     "percent": "900%",
+     "values": [
+      900.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "900%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "魅惑之影",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "释放法术攻击最多2名敌人，造成20000%法术强度的闪电伤害，并对其施加【麻木】效果，持续4秒。麻木：目标的源力恢复速度下降50%",
+   "scaling": [
+    {
+     "percent": "20000%",
+     "values": [
+      20000.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "20000%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "雷鸣抚慰",
+   "cooldown_s": 30,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "玉面九尾冲向法术强度最高的友方黑卫，使其在接下来6秒内造成的伤害提升15%，如果目标是闪电属性黑卫，则造成的伤害提升40%",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "禁咒封魔",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "当队伍中有其他黑卫释放必杀技时，玉面九尾有概率获得1点充能，充能最多存储3个。发动概率：30%。当拥有充能时，每2秒都会消耗1点充能，对1名随机敌人释放雷击，造成10000%法术强度的闪电伤害",
+   "scaling": [
+    {
+     "percent": "10000%",
+     "values": [
+      10000.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "10000%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "灵狐守护",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【雷鸣抚慰】消耗的源力值下降20%",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "狐妖绯舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【雷鸣抚慰】会对目标施加持续恢复护盾的效果，每秒恢复10%护盾值",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "狐幻心魄",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【雷鸣抚慰】的持续时间增加2秒",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "振奋鼓舞战友，所有友方单位初始怒气增加25点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "能够轻松快速的释放法术，主动技能冷却时间降低10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延迟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "法术强度提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级CD装",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": "CD装",
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·精英射手",
+    "项链": "指路吊坠",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "深渊壁垒",
+    "戒指": "导师之守护",
+    "腰带": "沐光环绕",
+    "圣物": "漆黑十字",
+    "裤子": "铁铠胫甲",
+    "徽章": "复苏徽识",
+    "鞋子": "智者足具",
+    "副手": "古老魔盾",
+    "武器": "月辉·凝辉",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "腰带": [
+     "龙吟裹腰"
+    ],
+    "护手": [
+     "帝胄守护"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·精英射手": "gear-1080",
+    "指路吊坠": "gear-1081",
+    "深渊壁垒": "gear-1082",
+    "导师之守护": "gear-1197",
+    "沐光环绕": "gear-1199",
+    "龙吟裹腰": "gear-1200",
+    "漆黑十字": "gear-1187",
+    "铁铠胫甲": "gear-1203",
+    "复苏徽识": null,
+    "智者足具": null,
+    "古老魔盾": null,
+    "月辉·凝辉": null,
+    "妖精秘手": "gear-1179",
+    "帝胄守护": "gear-1206"
+   },
+   "unlinked": {
+    "复苏徽识": {
+     "reason": "game_only",
+     "game_id": "7007",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "7007",
+        "field": "name",
+        "text_id": 54995,
+        "type": "12"
+       }
+      ],
+      "text_ids": [
+       54995
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "古老魔盾": {
+     "reason": "game_only",
+     "game_id": "5020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "5020",
+        "field": "name",
+        "text_id": 53826,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       53826
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "忘却迷境攻略",
+       "冷却装备"
+      ]
+     }
+    },
+    "月辉·凝辉": {
+     "reason": "game_only",
+     "game_id": "10092",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "10092",
+        "field": "name",
+        "text_id": 3800,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       3800
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "锻造",
+       "玉面九尾",
+       "爱恋花见",
+       "冷却装备",
+       "迷迭妖精"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "圣光守护",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "不灭",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "戏火者",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "强健",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "在此感谢 观海大佬（水金861）提供符文图"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "金乌",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【雷鸣抚慰】的释放对象变为全体友方黑卫"
+   },
+   {
+    "rank": 2,
+    "text": "【魅惑之影】的目标数量+2"
+   },
+   {
+    "rank": 3,
+    "text": "自身的感知超过100时，每额外拥有15点感知，都会使【禁咒封魔】释放的雷击次数+1"
+   },
+   {
+    "rank": 4,
+    "text": "【禁咒封魔】释放的雷击命中目标时，有5%的基础几率对目标施加魅惑效果，持续2秒；此外，当自身的感知属性超过目标时，感知的差值越大，施加魅惑的几率也越高"
+   },
+   {
+    "rank": 5,
+    "text": "【禁咒封魔】施加的魅惑持续时间+1秒"
+   },
+   {
+    "rank": 6,
+    "text": "玉面九尾造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "乐园之握",
+   "id": "relic-1953"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%8E%89%E9%9D%A2%E4%B9%9D%E5%B0%BE",
+ "revid": 8609,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8609",
+ "rev_timestamp": "2026-02-08T04:05:27Z"
+}

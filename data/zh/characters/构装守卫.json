@@ -1,0 +1,243 @@
+{
+ "id": "char-1073",
+ "name": "构装守卫",
+ "page_title": "构装守卫",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "布兹",
+  "gender": "女",
+  "race": null,
+  "birthday": null,
+  "birthplace": null,
+  "height_weight": null,
+  "specialties": null,
+  "likes": [
+   "葡萄酒"
+  ],
+  "dislikes": null,
+  "release_date": "2021年06月27日"
+ },
+ "element": "闪电",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "守护",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对近战范围内的3名敌人造成74%攻击力的闪电伤害。",
+   "scaling": [
+    {
+     "percent": "74%",
+     "values": [
+      74.0
+     ],
+     "stat": "攻击力",
+     "effect": "闪电伤害",
+     "text": "74%攻击力的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "电磁风暴",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "布兹释放储存在体内的电磁能量，解除全体队友的冰冻以及昏迷状态，并使全体队友获得【电磁护盾】，降低50%受到的技能伤害，电磁护盾持续5秒，且持续期间免疫冰冻和昏迷。",
+   "scaling": []
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "能流屏障",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "布兹每隔6秒给当前生命值最低的队友施加护盾，护盾值为布兹5%当前生命值+540.0%法术强度，同时每隔5秒，对场上敌方的秘术或狙魔英雄进行嘲讽，使其普攻目标变为自己。",
+   "scaling": [
+    {
+     "percent": "540.0%",
+     "values": [
+      540.0
+     ],
+     "stat": "法术强度",
+     "effect": null,
+     "text": "540.0%法术强度"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "援护",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "布兹作为守护机器人，当队友受到致命伤害时，布兹代替其承受本次伤害，冷却时间15秒",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "紧急维修",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "布兹搭载的紧急维修模块会在布兹受到致命伤害时，将生命值回复至100%,一场战斗仅触发一次。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "电荷护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "布兹体内搭载了最先进的防护装置，触发援护时有50%的几率(额外受到法术精通影响)触发护体状态，持续3秒",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "钢铁身躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "布兹在触发援护时，对援护过程中的碰撞的目标造成昏迷效果，持续2秒，并对援护目标添加【电磁护盾】，同时自身回复60点怒气，冷却时间15秒",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "活力",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升6%，最大护盾值提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "躲闪",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普通攻击闪避几率提升15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "加护",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到的治疗效果提升10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "金乌",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%9E%84%E8%A3%85%E5%AE%88%E5%8D%AB",
+ "revid": 8664,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8664",
+ "rev_timestamp": "2026-02-08T04:49:58Z"
+}

@@ -1,0 +1,458 @@
+{
+ "id": "char-2414",
+ "name": "夜宴霆光",
+ "page_title": "夜宴霆光",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "冥音",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "7月27日",
+  "birthplace": "瓦洛亚帝国",
+  "height_weight": "163cm/45kg",
+  "specialties": [
+   "炼金术",
+   "音乐",
+   "插花"
+  ],
+  "likes": [
+   "红茶",
+   "龙",
+   "小众乐曲",
+   "（羁绊礼物：金翠茶壶）"
+  ],
+  "dislikes": [
+   "繁琐的礼仪",
+   "贵族裙装",
+   "被束缚"
+  ],
+  "release_date": "2026年08月28日"
+ },
+ "element": "闪电",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "前锋",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "回能",
+    "id": "faction-2215"
+   },
+   {
+    "name": "雷暴",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "闪电穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "闪电伤害增幅"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "怒气回复",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "雷殛",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对前方小范围敌人造成500%法术强度的闪电伤害。(本技能不会受攻速影响，造成的伤害视为技能伤害）",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "500%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "夜辉变奏",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "满怒",
+   "description": "进入超频状态，【极光电掣】改为跳跃攻击，击飞目标所在区域5米内的所有单位.并使造成的伤害提升100%，且不再有冷却时间，但是会额外消耗250怒气值，当剩余怒气值为0时，退出超频状态。本技能在怒气值达到上限时释放。",
+   "scaling": []
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "极光电掣",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "朝距离最远的敌人发起冲锋，对路径上所有敌人造成20000%法术强度的闪电伤害。",
+   "scaling": [
+    {
+     "percent": "20000%",
+     "values": [
+      20000.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "20000%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "电暴狂澜",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "40源力",
+   "description": "【极光电掣】释放时，获得一层雷痕，雷痕叠加到3层，下次释放【极光电掣】时，会在落点处生成雷电风暴，持续1.5秒，每0.5秒对周围敌人造成16000%法术强度的闪电伤害。",
+   "scaling": [
+    {
+     "percent": "16000%",
+     "values": [
+      16000.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "16000%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "雷霆裂空",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【电暴狂澜】会使目标的法术护甲减少10000，持续5秒",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "无我",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "夜宴霆光怒气值和最大怒气值+250。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "明心",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "夜宴霆光的感知+10。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "孤军深入",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "以一敌众的技巧，自身5米范围内每有一个敌人，都会使自身造成的伤害提高3%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "刽子手",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对受伤的敌人进行毫不留情的处决，对生命值低于15 %的目标造成伤害提高20%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "狂战士之怒",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "自己的鲜血带来狂暴，自身生命值越低，造成的伤害越高。每损失5%生命值提升1%伤害值。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "咒石项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "猩红秘戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "元素大师之裤",
+    "徽章": "咒法徽印",
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "天殛绝刃",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "腰带": [
+     "王室荣尊"
+    ],
+    "徽章": [
+     "魔涌之徽"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "王室荣尊": "gear-1172",
+    "月辉·紫晶鸦首": "gear-1173",
+    "元素大师之裤": "gear-1174",
+    "咒法徽印": "gear-1175",
+    "魔涌之徽": "gear-1176",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "天殛绝刃": null,
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "天殛绝刃": {
+     "reason": "game_only",
+     "game_id": "90388",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90388",
+        "field": "name",
+        "text_id": 90567,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       90567
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "夜宴霆光"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "万象余烬",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "雷纹",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "闪鸣鸟",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【夜辉变奏】状态下，【极光电掣】消耗的怒气值减少50点。"
+   },
+   {
+    "rank": 2,
+    "text": "【电暴狂澜】的范围提升25%，且持续过程中会将周围的敌人向风暴中心牵引。"
+   },
+   {
+    "rank": 3,
+    "text": "【电暴狂澜】会使目标的闪电抗性额外削减15%。"
+   },
+   {
+    "rank": 4,
+    "text": "【雷霆裂空】削减的法术护甲值额外增加5000。"
+   },
+   {
+    "rank": 5,
+    "text": "【夜辉变奏】状态下，同时获得【清醒】和【霸体】状态。"
+   },
+   {
+    "rank": 6,
+    "text": "夜宴霆光造成的所有伤害增加10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "紫电残响",
+   "id": "relic-2419"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "前锋战格",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%9C%E5%AE%B4%E9%9C%86%E5%85%89",
+ "revid": 9185,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9185",
+ "rev_timestamp": "2026-09-21T07:19:38Z"
+}

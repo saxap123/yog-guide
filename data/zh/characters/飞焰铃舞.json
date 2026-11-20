@@ -1,0 +1,373 @@
+{
+ "id": "char-2425",
+ "name": "飞焰铃舞",
+ "page_title": "飞焰铃舞",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "呜喵",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "4月8日",
+  "birthplace": "科伦达尔",
+  "height_weight": "165cm/51kg",
+  "specialties": [
+   "钓鱼",
+   "爬树",
+   "学猫叫"
+  ],
+  "likes": [
+   "玩偶",
+   "各种做法的鱼",
+   "小狐狸",
+   "（羁绊礼物）"
+  ],
+  "dislikes": [
+   "橘子",
+   "香水",
+   "欺负小动物的人"
+  ],
+  "release_date": "2026年09月21日"
+ },
+ "element": "火焰",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "辅助",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "召唤",
+    "id": "faction-2205"
+   },
+   {
+    "name": "通灵",
+    "id": "faction-2206"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "妖精",
+    "id": "faction-2208"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "回馈",
+    "id": "faction-2196"
+   },
+   {
+    "name": "灭法",
+    "id": "faction-2220"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "体质",
+   "最大生命值",
+   "怒气",
+   "怒气恢复"
+  ],
+  "secondary": [
+   "魔力",
+   "%法术强度",
+   "物理抗性",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "暴击伤害减免"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "飞焰流矢",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "发射箭矢对单个敌人造成500%法术强度的火焰伤害(本技能不会受攻速影响，造成的伤害视为技能伤害。)",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "500%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "八方火舞",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "释放结界，结界内敌方每秒受到10000%法术强度的火焰伤害，且结界内所有友方单位全伤害减免+20%，结界持续8秒。",
+   "scaling": [
+    {
+     "percent": "10000%",
+     "values": [
+      10000.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "10000%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "流火天羽",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "40源力",
+   "description": "朝最近的敌人发射箭雨，每波箭雨对范围内的敌人造成5000%法术强度的火焰伤害，共5波。",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "5000%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "火灵双生",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "绑定一个友方黑卫，当自己释放结界时，召唤一个该单位的傀儡，傀儡拥有本体25%的伤害和50%生命值如果是火属性黑卫，则效果翻倍，傀儡持续8秒。(所有傀儡的存在上限最多为4个)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "散为云烟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每波箭雨都有15%削弱目标当前50怒气值，自身感知高于目标时，每高出5点感知，增加1%触发几率。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "赤瞳",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【八方火舞】持续期间，友方单位的普攻暴击和技能暴击几率增加20%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "灵犀",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "飞焰铃舞的感知+10。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "振奋鼓舞战友，所有友方单位初始怒气增加25点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "能够轻松快速的释放法术，主动技能冷却时间降低10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延迟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "法术强度提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "蹲",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder ('waiting'): build not filled in yet",
+   "slots": {
+    "头盔": null,
+    "项链": null,
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": null,
+    "戒指": null,
+    "腰带": null,
+    "圣物": null,
+    "裤子": null,
+    "徽章": null,
+    "鞋子": null,
+    "副手": null,
+    "武器": "飞星如焰",
+    "护手": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "飞星如焰": null
+   },
+   "unlinked": {
+    "飞星如焰": {
+     "reason": "game_only",
+     "game_id": "90389",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90389",
+        "field": "name",
+        "text_id": 91620,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       91620
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "飞焰铃舞"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【赤瞳】提供的暴击几率+10%。"
+   },
+   {
+    "rank": 2,
+    "text": "【八方火舞】持续期间，场上所有己方召唤物受到\n的伤害减少20%。"
+   },
+   {
+    "rank": 3,
+    "text": "【八方火舞】提供的全伤害减免额外+10%。"
+   },
+   {
+    "rank": 4,
+    "text": "释放【八方火舞】时，如果自身怒气大于1000，每超出100，都会清除掉场上所有敌方单位20%的护盾值。"
+   },
+   {
+    "rank": 5,
+    "text": "【八方火舞】持续期间，场上敌方角色有15%几率无法触发复活效果，自身感知高于目标时，每高出5点，增加1%触发几率。"
+   },
+   {
+    "rank": 6,
+    "text": "飞焰铃舞造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "灼华轻羽",
+   "id": "relic-2430"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%A3%9E%E7%84%B0%E9%93%83%E8%88%9E",
+ "revid": 9205,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9205",
+ "rev_timestamp": "2026-09-22T20:54:13Z"
+}

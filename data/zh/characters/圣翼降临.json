@@ -1,0 +1,551 @@
+{
+ "id": "char-1484",
+ "name": "圣翼降临",
+ "page_title": "圣翼降临",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "塞尔希娅",
+  "gender": "女",
+  "race": "翼人族",
+  "birthday": "10月16日",
+  "birthplace": "浮云屿",
+  "height_weight": "167cm/65kg",
+  "specialties": [
+   "观星",
+   "战斗",
+   "纺织"
+  ],
+  "likes": [
+   "勇气",
+   "生命力",
+   "智慧",
+   "华丽的挂坠（羁绊礼物）"
+  ],
+  "dislikes": [
+   "束缚",
+   "软弱"
+  ],
+  "release_date": "2024年08月29日"
+ },
+ "element": "闪电",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "刺杀",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "游侠",
+    "id": "faction-2197"
+   },
+   {
+    "name": "诡影",
+    "id": "faction-2198"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "噬魂",
+    "id": "faction-2203"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "雷暴",
+    "id": "faction-2218"
+   },
+   {
+    "name": "共鸣",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免",
+   "%法术强度",
+   "技能暴击",
+   "闪电穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "闪电伤害增幅",
+   "法术精通",
+   "怒气"
+  ],
+  "secondary": [
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": "纯pvp角色",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "剑心通明",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对最近的1名敌人进行攻击，造成600%闪电伤害。不再自然恢复怒气，每次使用【剑心通明】时，根据怒气恢复值恢复自身怒气。(每有2%攻速都会增加该技能释放速度，该技能视为技能伤害)",
+   "scaling": []
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "拂晓绝息",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "锁定距离最近的1名敌人，对其发动5次强大的斩击，每次斩击造成3000%法术强度的闪电伤害。释放过程中，自身处于无敌状态。",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "3000%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "命运编结",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到必杀技伤害时，有几率对攻击者释放剑阵，剑阵持续2秒，每0.5秒会对范围内敌人造成2000%法术强度的闪电伤害，并对其施加【衰退】效果，同时削弱其10%的全伤害减免，持续5秒。发动率:25%(衰退:目标造成的所有伤害降低15%)",
+   "scaling": [
+    {
+     "percent": "2000%",
+     "values": [
+      2000.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "2000%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "星魂相耀",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普通攻击10次后，有几率进入神临状态，持续5秒。该状态下，释放技能和普攻前会立刻瞬移到敌方附近并束缚该敌方0.5秒；且自身所有技能造成的伤害提升20%。(优先选择敌方队伍中法术强度最高的单位)束缚：角色无法行动，且该状态无法被驱散",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "断星飞刃",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "当队友释放战技时，有几率获得1点充能，最多储存3个。发动率：15%。当拥有充能时，每2秒都会消耗1点充能，对【剑心通明】攻击的目标释放2次神剑造成450%法术强度的闪电伤害。",
+   "scaling": [
+    {
+     "percent": "450%",
+     "values": [
+      450.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "450%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "引灵魂息",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "圣翼降临的技能暴击几率+20，",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "胜利宣告",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "圣临状态下，释放【拂晓绝息】的同时将对目标释放5次圣剑。且当自身拥有闪电球时，消耗所有闪电球释放额外的圣剑，每消耗2个闪电球，额外释放1次圣剑。(效果与【断星飞刃】一致)",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "恃强凌弱",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对法术强度或物理强度低于自身的敌人造成伤害提高12%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "致命伏击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对生命值为满的敌人造成伤害提高15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "暗影斗篷",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到减益效果的持续时间减少30%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "影遁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "阿萨辛之首",
+    "项链": "咒石项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "聚能之铠",
+    "戒指": "火妖怒焰",
+    "腰带": "王室荣尊",
+    "圣物": "月辉·紫晶鸦首",
+    "裤子": "戏谑者裤腿",
+    "徽章": "秘影徽识",
+    "鞋子": "月辉·王室金靴",
+    "副手": "死灵法盾",
+    "武器": "圣翼光羽",
+    "护手": "雷云捕手"
+   },
+   "alternatives": {
+    "头盔": [
+     "月辉·烁金荧紫"
+    ],
+    "戒指": [
+     "猩红秘戒"
+    ],
+    "腰带": [
+     "嗜战者束腰"
+    ],
+    "圣物": [
+     "月辉·白羽橙晶"
+    ],
+    "徽章": [
+     "残虐之徽"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "阿萨辛之首": "gear-1683",
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "火妖怒焰": null,
+    "猩红秘戒": "gear-1171",
+    "王室荣尊": "gear-1172",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "月辉·白羽橙晶": null,
+    "戏谑者裤腿": "gear-1182",
+    "秘影徽识": "gear-1188",
+    "残虐之徽": "gear-1189",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "圣翼光羽": "gear-1639",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": {
+    "火妖怒焰": {
+     "reason": "game_only",
+     "game_id": "2017",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "2017",
+        "field": "name",
+        "text_id": 4051,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       4051
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "圣翼降临"
+      ]
+     }
+    },
+    "月辉·白羽橙晶": {
+     "reason": "game_only",
+     "game_id": "13034",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13034",
+        "field": "name",
+        "text_id": 3958,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3958
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "圣翼降临",
+       "冷却装备"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "夜幕暗盔",
+    "项链": "辉耀之链",
+    "卡牌": "魂渊咒牌",
+    "耳坠": "辉耀之环",
+    "衣服": "刺影锁甲",
+    "戒指": "霆霓猩红血戒",
+    "腰带": "电光缠绕",
+    "圣物": "霆霓猩红血玺",
+    "裤子": "奏雷鸣裤",
+    "徽章": "霆霓猩红血印",
+    "鞋子": "影步追魂靴",
+    "副手": "霆霓猩红血盾",
+    "武器": "光耀星华",
+    "护手": "霆霓猩红血手"
+   },
+   "alternatives": {
+    "项链": [
+     "逆厄辉链"
+    ],
+    "耳坠": [
+     "逆厄辉环"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "夜幕暗盔": "gear-1272",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "魂渊咒牌": "gear-1505",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "刺影锁甲": "gear-1507",
+    "霆霓猩红血戒": "gear-188",
+    "电光缠绕": "gear-1515",
+    "霆霓猩红血玺": "gear-176",
+    "奏雷鸣裤": "gear-1860",
+    "霆霓猩红血印": "gear-145",
+    "影步追魂靴": "gear-1512",
+    "霆霓猩红血盾": "gear-164",
+    "光耀星华": null,
+    "霆霓猩红血手": "gear-1659"
+   },
+   "unlinked": {
+    "光耀星华": {
+     "reason": "game_only",
+     "game_id": "90360",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90360",
+        "field": "name",
+        "text_id": 78078,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       78078
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "圣翼降临"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": "雷纹",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "闪鸣鸟",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【断星飞刃】造成的伤害提升100%。"
+   },
+   {
+    "rank": 2,
+    "text": "释放时，感知超过100点，每额外拥有20点感知，都会增加1次释放的神剑数量。且进入战斗时立刻获得350怒气值。"
+   },
+   {
+    "rank": 3,
+    "text": "【拂晓绝息】造成伤害时，目标每有1层感电，都将会使[拂晓绝息]造成的伤害提升5%。且进入战斗时，立刻获得最大数量的闪电球。"
+   },
+   {
+    "rank": 4,
+    "text": "造成致命伤害时，有15%几率使敌方的不死、复活效果无法触发。当自身的感知属性超过目标时，感知的差值越大，该效果的触发几率就越大。"
+   },
+   {
+    "rank": 5,
+    "text": "每触发一次神临状态，感知+10，最多叠加12次。"
+   },
+   {
+    "rank": 6,
+    "text": "圣翼降临造成的所有伤害增加10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "胜利昭告",
+   "id": "relic-1944"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E7%BF%BC%E9%99%8D%E4%B8%B4",
+ "revid": 8619,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8619",
+ "rev_timestamp": "2026-02-08T04:14:00Z"
+}

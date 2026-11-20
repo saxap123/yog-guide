@@ -1,0 +1,1002 @@
+{
+ "id": "char-2354",
+ "name": "霓裳若仙",
+ "page_title": "霓裳若仙",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "玲珑",
+  "gender": "女",
+  "race": "神使",
+  "birthday": "7月31日",
+  "birthplace": "永寂深渊",
+  "height_weight": "158cm/44kg",
+  "specialties": [
+   "制作花灯",
+   "疾跑",
+   "纸灯作画"
+  ],
+  "likes": [
+   "花灯",
+   "猜灯谜",
+   "莲花",
+   "玫瑰花束（羁绊礼物）"
+  ],
+  "dislikes": [
+   "烈火",
+   "深水"
+  ],
+  "release_date": "2026年04月27日"
+ },
+ "element": "黑暗",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "辅助",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "魔导",
+    "id": "faction-2202"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "统帅",
+    "id": "faction-2209"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   },
+   {
+    "name": "回能",
+    "id": "faction-2215"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "技能暴击",
+   "%法术强度",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "冰霜/火焰/闪电伤害增幅（取最高值）",
+   "冰霜/火焰/闪电穿透（取最高值）"
+  ],
+  "secondary": [
+   "怒气恢复",
+   "怒气",
+   "CD减少",
+   "体质",
+   "最大生命值",
+   "物理抗性",
+   "暴击伤害减免",
+   "受到法术伤害降低",
+   "受到物理伤害降低"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "一念荡魂",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对前方小范围敌人造成5000%法术强度的黑暗伤害。(本技能不会受攻速影响，造成的伤害视为技能伤害）",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "法术强度",
+     "effect": "黑暗伤害",
+     "text": "5000%法术强度的黑暗伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "冥火灼魂",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "对1名敌方单位释放魂灯，持续5秒，持续期间，每0.5秒对该敌人及其附近5米范围内所有敌方单位造成9000%法术强度的黑暗伤害，同时会对队伍中血量最低的黑卫释放不死效果，持续3秒。",
+   "scaling": [
+    {
+     "percent": "9000%",
+     "values": [
+      9000.0
+     ],
+     "stat": "法术强度",
+     "effect": "黑暗伤害",
+     "text": "9000%法术强度的黑暗伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "烛影破梦",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "120",
+   "description": "使所有队友造成的伤害提升15%，物理属性的黑卫受到的增幅效果仅有一半，该效果持续8秒。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "不入轮回",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "场上有友方单位受到致命伤害时，使其获得5秒不死效果，该效果有30秒触发间隔。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "永寂界域",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【冥火灼魂】造成伤害提升50%，且【冥火灼魂】造成伤害时，有75%的几率获得2点灯影。最多存储30点。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "不灭",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【烛影破梦】释放同时，给目标施加可吸收6000%法术强度伤害的魔法盾，持续8秒，如果当前拥有【灯影】，则会消耗所有【灯影】，每1点被消耗的【灯影】都会使魔法盾效果提升10%。",
+   "scaling": [
+    {
+     "percent": "6000%",
+     "values": [
+      6000.0
+     ],
+     "stat": "法术强度",
+     "effect": "伤害",
+     "text": "6000%法术强度伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "慧心",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【冥火灼魂】释放的不死效果会对所有队友起效，且持续时间+2秒。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "振奋鼓舞战友，所有友方单位初始怒气增加25点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "能够轻松快速的释放法术，主动技能冷却时间降低10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延迟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "法术强度提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·精英射手",
+    "项链": "星痕项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "深渊壁垒",
+    "戒指": "阳炎之指",
+    "腰带": "沐光环绕",
+    "圣物": "漆黑十字",
+    "裤子": "元素大师之裤",
+    "徽章": "复苏徽识",
+    "鞋子": "智者足具",
+    "副手": "源辉石盾",
+    "武器": "结灯焕彩",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "项链": [
+     "指路吊坠"
+    ],
+    "衣服": [
+     "聚能之铠"
+    ],
+    "徽章": [
+     "魔涌之徽"
+    ],
+    "护手": [
+     "贵族手套"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·精英射手": "gear-1080",
+    "星痕项链": null,
+    "指路吊坠": "gear-1081",
+    "深渊壁垒": "gear-1082",
+    "聚能之铠": "gear-1170",
+    "阳炎之指": "gear-1083",
+    "沐光环绕": "gear-1199",
+    "漆黑十字": "gear-1187",
+    "元素大师之裤": "gear-1174",
+    "复苏徽识": null,
+    "魔涌之徽": "gear-1176",
+    "智者足具": null,
+    "源辉石盾": "gear-2353",
+    "结灯焕彩": null,
+    "妖精秘手": "gear-1179",
+    "贵族手套": null
+   },
+   "unlinked": {
+    "星痕项链": {
+     "reason": "game_only",
+     "game_id": "4003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "4003",
+        "field": "name",
+        "text_id": 4068,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       4068
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "幸运装备",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "复苏徽识": {
+     "reason": "game_only",
+     "game_id": "7007",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "7007",
+        "field": "name",
+        "text_id": 54995,
+        "type": "12"
+       }
+      ],
+      "text_ids": [
+       54995
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "百花旅者",
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "智者足具": {
+     "reason": "game_only",
+     "game_id": "15016",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15016",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15032",
+        "field": "name",
+        "text_id": 3983,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3983
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉面九尾",
+       "新手起号",
+       "墨凝清影",
+       "爱恋花见",
+       "绚彩星绘"
+      ]
+     }
+    },
+    "结灯焕彩": {
+     "reason": "game_only",
+     "game_id": "90384",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90384",
+        "field": "name",
+        "text_id": 86470,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       86470
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "霓裳若仙"
+      ]
+     }
+    },
+    "贵族手套": {
+     "reason": "game_only",
+     "game_id": "3011",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3011",
+        "field": "name",
+        "text_id": 8325,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       8325
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "纯白之羽",
+       "绚彩星绘",
+       "回怒装备",
+       "霓裳若仙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "700/1000级",
+   "tier_kind": "level",
+   "level": 700,
+   "levels": [
+    700,
+    1000
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "任意太古装备",
+    "项链": "辉耀之链",
+    "卡牌": "任意太古装备",
+    "耳坠": "辉耀之环",
+    "衣服": "任意太古装备",
+    "戒指": "冥蚀渊薮咒戒",
+    "腰带": "任意太古装备",
+    "圣物": "冥蚀渊薮咒符",
+    "裤子": "炎铸胫甲",
+    "徽章": "冥蚀渊薮咒徽",
+    "鞋子": "宗室礼靴",
+    "副手": "冥蚀渊薮咒盾",
+    "武器": "混沌利刃",
+    "护手": "任意太古装备"
+   },
+   "alternatives": {
+    "耳坠": [
+     "魔弦耳环"
+    ],
+    "衣服": [
+     "法球咒铠"
+    ],
+    "腰带": [
+     "圣职驱魔"
+    ],
+    "裤子": [
+     "魔弦护腿"
+    ],
+    "徽章": [
+     "辅助之愿"
+    ],
+    "护手": [
+     "冥蚀渊薮咒手"
+    ]
+   },
+   "extracts": {
+    "裤子": "元素大师之裤"
+   },
+   "signature_weapon": "结灯焕彩",
+   "item_ids": {
+    "任意太古装备": null,
+    "辉耀之链": "gear-134",
+    "辉耀之环": "gear-138",
+    "魔弦耳环": null,
+    "法球咒铠": "gear-1686",
+    "冥蚀渊薮咒戒": "gear-2323",
+    "圣职驱魔": "gear-1689",
+    "冥蚀渊薮咒符": "gear-2320",
+    "炎铸胫甲": "gear-1861",
+    "魔弦护腿": null,
+    "冥蚀渊薮咒徽": "gear-2321",
+    "辅助之愿": null,
+    "宗室礼靴": "gear-1282",
+    "冥蚀渊薮咒盾": "gear-2322",
+    "混沌利刃": "gear-2435",
+    "冥蚀渊薮咒手": "gear-2325",
+    "元素大师之裤": "gear-1174",
+    "结灯焕彩": null
+   },
+   "unlinked": {
+    "任意太古装备": {
+     "reason": "not_an_item",
+     "game_id": null,
+     "possible_match": null,
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "霓裳若仙",
+       "爱恋花见",
+       "千宵月守"
+      ]
+     }
+    },
+    "魔弦耳环": {
+     "reason": "game_only",
+     "game_id": "90306",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90306",
+        "field": "name",
+        "text_id": 63588,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       63588
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "千宵月守"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "辅助之愿": {
+     "reason": "game_only",
+     "game_id": "90286",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90286",
+        "field": "name",
+        "text_id": 63325,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       63325
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "墨凝清影",
+       "绚彩星绘",
+       "霓裳若仙"
+      ]
+     }
+    },
+    "结灯焕彩": {
+     "reason": "game_only",
+     "game_id": "90384",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90384",
+        "field": "name",
+        "text_id": 86470,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       86470
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "霓裳若仙"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "戏火者",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "万象余烬",
+    "id": "rune-2351",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "火咒",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "异界后万象换怒法"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【灯影】的存储上限+20，【烛影破梦】的伤害增幅效果+20%。"
+   },
+   {
+    "rank": 2,
+    "text": "霓裳若仙在场时，敌方黑卫有25%的基础几率无法触发复活效果，霓裳若仙的感知越高，触发的几率越高。"
+   },
+   {
+    "rank": 3,
+    "text": "【不入轮回】触发时的不死效果将对全体队友起效"
+   },
+   {
+    "rank": 4,
+    "text": "霓裳若仙施加不死效果同时，也会给目标添加清醒状态。清醒：不会受到昏迷、冰冻、魅惑、妖术、混乱等效果的影响。"
+   },
+   {
+    "rank": 5,
+    "text": "【不入轮回】触发时，将同时获得相同持续时间的【圣恩】状态，该状态下，自身的所有增益效果都不会被驱散。"
+   },
+   {
+    "rank": 6,
+    "text": "霓裳若仙造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "伏夜",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "技能冷却+15.00%"
+   },
+   {
+    "index": 2,
+    "name": "暗潮",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "怒气回复+10"
+   },
+   {
+    "index": 3,
+    "name": "囚光",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【冥火灼魂】有10%的几率会对额外1名敌人释放，且霓裳若仙的感知越高，触发的几率越高；同时【冥火灼魂】造成伤害时获得【灯影】的几率+15%。【烛影破梦】的增伤效果+10%。"
+   },
+   {
+    "index": 4,
+    "name": "晦影",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "感知+30"
+   },
+   {
+    "index": 5,
+    "name": "蚀暗",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "源力初始值+50"
+   },
+   {
+    "index": 6,
+    "name": "通幽",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "源力每秒恢复+5"
+   },
+   {
+    "index": 7,
+    "name": "永暝",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "【冥火灼魂】释放的不死效果持续时间提升100%，且同时获得相同持续时间的【圣恩】状态，该状态下，自身的所有增益效果都不会被驱散。"
+   },
+   {
+    "index": 8,
+    "name": "宵烬",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+   },
+   {
+    "index": 9,
+    "name": "黯域",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "物理伤害减免+5.00%；法术伤害减免+5.00%"
+   },
+   {
+    "index": 10,
+    "name": "冥神",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "圣血晶石",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "黑潮勋章",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "霓裳若仙不会受到沉默和怒气削减效果的影响，且霓裳若仙受到致命伤害时，获得不死状态，持续4秒，并恢复全部【灯影】。(该效果有50秒触发间隔)"
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "圣血晶石",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "黑潮勋章",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": "暗之侧影",
+   "id": "relic-2361"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%9C%93%E8%A3%B3%E8%8B%A5%E4%BB%99",
+ "revid": 9124,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9124",
+ "rev_timestamp": "2026-08-11T03:04:06Z"
+}

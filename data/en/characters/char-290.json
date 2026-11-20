@@ -1,0 +1,907 @@
+{
+ "id": "char-290",
+ "name": "Thorny Bramble",
+ "page_title": "绯红荆棘",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Elizabeth",
+  "gender": "Female",
+  "race": "Dragonborn",
+  "birthday": "--08-04",
+  "birthplace": "unknown ancient mountains",
+  "height_weight": "171cm/52kg",
+  "specialties": [
+   "combat skills",
+   "photographic memory"
+  ],
+  "likes": [
+   "birds",
+   "sweets",
+   "Elizabeth",
+   "tasty little cakes (bond gift)"
+  ],
+  "dislikes": [
+   "glory and duty",
+   "Elizabeth",
+   "vegetables cooked any way"
+  ],
+  "release_date": "2023-10-25"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Umbra Front",
+    "id": "faction-2198"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Fusion Front",
+    "id": "faction-2216"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "Fire Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Fire Damage Boost",
+   "Spell Mastery"
+  ],
+  "secondary": [
+   "Maximum Shield",
+   "Willpower",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 600% Spell Power as Fire DMG to 1 enemy within melee range",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 600% of Spell Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Fiery Brambles",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Releases a powerful strike at the position of the nearest enemy, dealing Fire DMG equal to 5000% of Spell Power to the target and all enemies within 5 meters. In Arena, one additional enemy within the range is also selected.",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 5000% of Spell Power"
+    }
+   ],
+   "name_zh": "炽焰狂蔓"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Flamboyant Chase",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Rushes towards the enemy with the lowest HP, and causes Fire DMG equal to 5000% of Spell Power to all enemies in the path.",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 5000% of Spell Power"
+    }
+   ],
+   "name_zh": "烈焰追逐"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Flame Streak",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Every 8 casts of [Fiery Brambles] by Elizabeth grants a 20% chance to deal Fire DMG equal to 40000% of Spell Power to the target and a wide area of nearby enemies. (This effect has a minimum trigger interval of 8 seconds and is treated as Normal Attack DMG.)",
+   "scaling": [
+    {
+     "percent": "40000%",
+     "values": [
+      40000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 40000% of Spell Power"
+    }
+   ],
+   "name_zh": "焰影灼痕"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Unleashed Inferno",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Fiery Brambles] deals an additional 6000% Spell Power as Fire DMG, treated as Ultimate Skill DMG. If the target’s HP falls below 15% (halved in Arena), it is instantly slain.",
+   "scaling": [
+    {
+     "percent": "6000%",
+     "values": [
+      6000.0
+     ],
+     "stat": "Spell Power",
+     "effect": null,
+     "text": "6000% of Spell Power"
+    }
+   ],
+   "name_zh": "狱火囹圄"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Posthaste Shadow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Elizabeth is taking DMG, immediately dodge the attack backwards, after 0.5 sec of the dodge, Elizabeth won't take any DMG. The dodge's minimum trigger interval is 3 sec.",
+   "scaling": [],
+   "name_zh": "瞬息遁影"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Thorny Embrace",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases Elizabeth's Skill CRIT Rate by 20%",
+   "scaling": [],
+   "name_zh": "荆藤庇荫"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Head of Asasin",
+    "Necklace": "Meteorite Necklace",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Elementalist's Britches",
+    "Emblem": "Nox Emblem",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Thorny Tail",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Ring": [
+     "Solar Commandment"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "阿萨辛之首": "gear-1683",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "阳炎之指": "gear-1083",
+    "嗜战者束腰": "gear-1210",
+    "月辉·紫晶鸦首": "gear-1173",
+    "元素大师之裤": "gear-1174",
+    "秘影徽识": "gear-1188",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "龙脊刺尾": "gear-2304",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "Journey Lv 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "Journey",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Head of Asasin",
+    "Necklace": "Chain of Radiance",
+    "Card": "Devil Card of Impasse",
+    "Earrings": "Earrings of Phoenix",
+    "Armor": "Poly Mana Armor",
+    "Ring": "Netherflame's Glory",
+    "Belt": "Belt of Electrify",
+    "Relic": "Netherflame's Justice",
+    "Trousers": "Elementalist's Britches",
+    "Emblem": "Netherflame's Verdict",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Netherflame's Supremacy",
+    "Weapon": "Skeletal Rose",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Armor": [
+     "Armor of Cursed Orbs"
+    ],
+    "Belt": [
+     "Wild Sacrificer"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "阿萨辛之首": "gear-1683",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "龙力魔牌": "gear-1691",
+    "不死鸟耳坠": "gear-game-90083",
+    "聚魔铠甲": "gear-1284",
+    "法球咒铠": "gear-1686",
+    "幽焰剑士荣耀": "gear-187",
+    "感电者": "gear-1690",
+    "舍身狂袭": "gear-game-90087",
+    "幽焰剑士截断": "gear-180",
+    "元素大师之裤": "gear-1174",
+    "幽焰剑士裁决": "gear-147",
+    "月辉·王室金靴": "gear-1177",
+    "幽焰剑士极致": "gear-162",
+    "骸装蔷薇": "gear-game-90316",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "不死鸟耳坠": {
+     "reason": "game_only",
+     "game_id": "90083",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90083",
+        "field": "name",
+        "text_id": 60195,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       60195
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "绯红荆棘",
+       "忘却迷境-凛风雪原"
+      ]
+     }
+    },
+    "舍身狂袭": {
+     "reason": "game_only",
+     "game_id": "90087",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90087",
+        "field": "name",
+        "text_id": 60196,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       60196
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "绯红荆棘",
+       "北境公主",
+       "千宵月守"
+      ]
+     }
+    },
+    "骸装蔷薇": {
+     "reason": "game_only",
+     "game_id": "90316",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90316",
+        "field": "name",
+        "text_id": 64399,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       64399
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "绯红荆棘"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Sailing Lv 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "Sailing",
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Nightfall Helmet",
+    "Necklace": "Chain of Radiance",
+    "Card": "Spirit Magic Card",
+    "Earrings": "Earrings of Phoenix",
+    "Armor": "Poly Mana Armor",
+    "Ring": "Netherflame's Glory",
+    "Belt": "Belt of Electrify",
+    "Relic": "Netherflame's Justice",
+    "Trousers": "Elemental Holy Spirit Pants",
+    "Emblem": "Netherflame's Verdict",
+    "Shoes": "Soul-Chase Boots",
+    "Off-hand": "Netherflame's Supremacy",
+    "Weapon": "Skeletal Rose",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Belt": [
+     "Wild Sacrificer"
+    ],
+    "Shoes": [
+     null
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "夜幕暗盔": "gear-1272",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "精魄魔牌": "gear-1291",
+    "不死鸟耳坠": "gear-game-90083",
+    "聚魔铠甲": "gear-1284",
+    "幽焰剑士荣耀": "gear-187",
+    "感电者": "gear-1690",
+    "舍身狂袭": "gear-game-90087",
+    "幽焰剑士截断": "gear-180",
+    "元素圣灵裤": "gear-1285",
+    "幽焰剑士裁决": "gear-147",
+    "影步追魂靴": "gear-1512",
+    "宗室礼鞋": null,
+    "幽焰剑士极致": "gear-162",
+    "骸装蔷薇": "gear-game-90316",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "不死鸟耳坠": {
+     "reason": "game_only",
+     "game_id": "90083",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90083",
+        "field": "name",
+        "text_id": 60195,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       60195
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "绯红荆棘",
+       "忘却迷境-凛风雪原"
+      ]
+     }
+    },
+    "舍身狂袭": {
+     "reason": "game_only",
+     "game_id": "90087",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90087",
+        "field": "name",
+        "text_id": 60196,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       60196
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "绯红荆棘",
+       "北境公主",
+       "千宵月守"
+      ]
+     }
+    },
+    "宗室礼鞋": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "宗室礼靴",
+      "id": "gear-1282",
+      "source": "similar name in gear.json",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "绯红荆棘"
+      ]
+     }
+    },
+    "骸装蔷薇": {
+     "reason": "game_only",
+     "game_id": "90316",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90316",
+        "field": "name",
+        "text_id": 64399,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       64399
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "绯红荆棘"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Magic Wrath",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Fire Spell",
+    "id": "rune-1413",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Flame Dragon",
+    "id": "black_stone-18",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "When [Fiery Brambles] hits an enemy, the caster gains Hunt State. In Arena, there is instead a chance to gain Hunt State, and the chance increases with the Perception difference between the caster and the target. Hunt State lasts for 7.5 seconds. While in Hunt State, the caster can freely consume all remaining Energy to unleash Fiery Brambles again."
+   },
+   {
+    "rank": 2,
+    "text": "Flame Streak trigger chance +10%."
+   },
+   {
+    "rank": 3,
+    "text": "Flame Streak has a chance to steal up to 20 Force from targets hit by normal attacks. (Higher Perception increases chance.)"
+   },
+   {
+    "rank": 4,
+    "text": "Force stolen by [Flame Streak] is used to restore the Force of all Blackguards in the team. When Elizabeth kills an enemy, the duration of Hunt State is extended by 1.5 seconds; hitting a Boss or an enemy Blackguard extends it by 1 second and 0.5 seconds respectively. Through these effects, Hunt State can be extended up to a maximum of 15 seconds."
+   },
+   {
+    "rank": 5,
+    "text": "At battle start, all Black Guards in the team gain +10% Counter Skill trigger rate for 30s."
+   },
+   {
+    "rank": 6,
+    "text": "+10% All DMG Dealt by Elizabeth."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Shedding of the Feathered Dragon",
+   "id": "relic-1951"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": null,
+   "answers": [
+    "你是你自己",
+    "伊丽莎白"
+   ]
+  },
+  {
+   "level": 5,
+   "question": null,
+   "answers": [
+    "理解",
+    "不理解"
+   ]
+  },
+  {
+   "level": 10,
+   "question": null,
+   "answers": [
+    "相似而又不同"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "5Q",
+  "10Q"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%AF%E7%BA%A2%E8%8D%86%E6%A3%98",
+ "revid": 8836,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8836",
+ "rev_timestamp": "2026-05-01T06:30:05Z",
+ "i18n": {
+  "name_zh": "绯红荆棘",
+  "sources": {
+   "derived": 7,
+   "game_db": 19,
+   "glossary": 100,
+   "lore": 2,
+   "names": 79,
+   "translated": 14
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 63434,
+    "match": "loose"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 63433,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 83814,
+    "match": "loose"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 83949,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 63437,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 63438,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 83815,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 83816,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 83817,
+    "match": "loose"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 83818,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 83819,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 63561,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "builds[2].alternatives.鞋子[0]",
+    "zh": "宗室礼鞋",
+    "reason": "names.json/gear: probably a typo on the wiki; not corrected"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ]
+ }
+}

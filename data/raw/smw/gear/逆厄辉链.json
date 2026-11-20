@@ -1,0 +1,198 @@
+{
+  "subject": "逆厄辉链",
+  "group": "gear",
+  "page_revid": 4804,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%80%86%E5%8E%84%E8%BE%89%E9%93%BE",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%80%86%E5%8E%84%E8%BE%89%E9%93%BE&format=json",
+  "fetched_at": "2026-11-20T16:21:18+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "逆厄辉链#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/26/0/47/35/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/26/0/47/35/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逆厄辉链"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "主属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9%全伤害类型减免、15%最大生命值、%命中、%闪避、%提高施加的治疗效果、%暴击伤害减免"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "古老的项链，为逆转命运而制。"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258体质、9258体质、9258体质、9258体质、43%暴击伤害减免、5%最大生命值、5%最大生命值"
+            }
+          ]
+        },
+        {
+          "property": "副属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "%全伤害类型减免、%最大生命值、%命中、%闪避、%提高施加的治疗效果、%暴击伤害减免、怒气、%暴击倍率"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258魔力、9258魔力、9258魔力、9258魔力、9258力量、9258力量、9258力量、9258力量、4物理精通、4法术精通、4精神精通"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "永恒"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逆厄辉光"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逆厄辉光(2)：所有豁免+15"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "咒石项链：带有【玻璃大炮】技能。【玻璃大炮】：造成的伤害提高15%，但是自身受到的伤害也提高10%(与角色同名技能无法同时生效)；血钩吊坠：带有【恃强凌弱】技能。【恃强凌弱】：对法术强度或物理强度低于自身的单位造成伤害提高15%(与角色同名技能无法同时生效)；蔚蓝吊坠：带有【护体】技能。【护体】：生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒(与角色同名技能无法同时生效)；赌徒吊坠：带有【重整旗鼓】技能，【重整旗鼓】：被暴击时恢复自身5%生命值，冷却3秒。(与角色同名技能无法同时生效。)"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "800"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "旅途故事"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逆厄辉链"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "项链"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

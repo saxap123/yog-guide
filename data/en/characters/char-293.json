@@ -1,0 +1,708 @@
+{
+ "id": "char-293",
+ "name": "Shadowy Mirage",
+ "page_title": "黑衫刃影",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Ying",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--06-01",
+  "birthplace": null,
+  "height_weight": "173cm/57kg",
+  "specialties": [
+   "drinking",
+   "reciting poetry",
+   "blade techniques"
+  ],
+  "likes": [
+   "good drinks",
+   "napping",
+   "landscape paintings",
+   "Bergogne wine (bond gift)"
+  ],
+  "dislikes": [
+   "tofu",
+   "black tea",
+   "petty people"
+  ],
+  "release_date": "2024-01-31"
+ },
+ "element": "Lightning",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Striker Front",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   },
+   {
+    "name": "Thunderstorm Front",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Spell Power %",
+   "Skill Crit",
+   "CD Reduction",
+   "Lightning Penetration",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Lightning Damage Boost"
+  ],
+  "secondary": [
+   "Rage Recovery",
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Thunder · Flash Slash",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Quickly unleashes 3 consecutive slashes, each dealing 250% Spell Power as Lightning DMG to enemies in a small area in front (counts as Skill DMG and is not affected by Attack Speed or Skill Cooldown); if [Blade · Deadly Will] is learned, the slashes grant 1/2/3 points of Blade Will respectively.",
+   "scaling": [
+    {
+     "percent": "250%",
+     "values": [
+      250.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 250% of Spell Power"
+    }
+   ],
+   "name_zh": "雷闪"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Thunder · Lotus Blossom",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Ying releases a slash that condenses intense thunder and lightning power towards the target, deals 2 times of Lightning DMG equal to 1000% of Spell Power to the target and enemies within 6 meters around it. (Immune to Stun and Frozen during the skill releasing)",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 1000% of Spell Power"
+    }
+   ],
+   "name_zh": "雷龙莲华"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Thunder · Shadow Strike",
+   "cooldown_s": 4.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Ying rushes forward quickly, deals 2 times of Lightning DMG equal to 800% of Spell Power to enemies on the path, and applies 3 stacks of [Electrocuted] effect to the target hit at the same time. (Immune to Stun and Frozen during the skill releasing)\nIf skill [Blade · Deadly Will] is activated, Ying gained 30 points of [Blade Will] when skill released.",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Lightning DMG",
+     "text": "Lightning DMG equal to 800% of Spell Power"
+    }
+   ],
+   "name_zh": "惊雷影袭"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Blade · Deadly Will",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Ying release [Thunder · Flash Slash] and [Thunder · Shadow Strike], she can gain [Blade Will], the max of [Blade Will] is 100 points. When Ying releases [Thunder · Lotus Blossom], every 1 point of [Blade Will] she gained can increase DMG Dealt of [Thunder · Lotus Blossom] by 7.5%, then clear all [Blade Will].",
+   "scaling": [],
+   "name_zh": "刀意"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "After casting [Thunder · Shadow Strike], gains 1 stack of Determination; Determination stacks up to 3 times. When casting [Thunder · Lotus Blossom], each stack of Determination increases the DMG of [Thunder · Lotus Blossom] by 50%, and all Determination stacks are cleared.",
+   "scaling": [],
+   "name_zh": "龙刃纳销"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Blade · Lightning Strike",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "If the target is on [Electrocuted] state and hit by [Thunder · Shadow Strike], additionally increases its DMG Taken by 150%.",
+   "scaling": [],
+   "name_zh": "雷霆万钧"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Blade · Swift Move",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Shadowy Mirage's Skill Crit Chance +30",
+   "scaling": [],
+   "name_zh": "大巧不工"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "One Man Army",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "More targets means its harder to miss, each enemy within a range of 5 meters will increase damage caused by 3%",
+   "scaling": [],
+   "name_zh": "孤军深入"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Mercilessly executes wounded enemies: DMG dealt to targets with HP below 15% is increased by 20%",
+   "scaling": [],
+   "name_zh": "刽子手"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Berserker's Wrath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The sight of your own blood enrages you, the lower your health, the higher your damage Increases damage by 1% for every 5% HP lost",
+   "scaling": [],
+   "name_zh": "狂战士之怒"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Meteorite Necklace",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Elementalist's Britches",
+    "Emblem": "Sigil of Mystic",
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Kill Evil",
+    "Handguard": "Abyssal Grasps"
+   },
+   "alternatives": {
+    "Belt": [
+     "Honor of House Rudolph"
+    ],
+    "Emblem": [
+     "Runes of the Surge"
+    ],
+    "Handguard": [
+     "Sprite's Spite"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "王室荣尊": "gear-1172",
+    "月辉·紫晶鸦首": "gear-1173",
+    "元素大师之裤": "gear-1174",
+    "咒法徽印": "gear-1175",
+    "魔涌之徽": "gear-1176",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "诛恶斩邪": "gear-1609",
+    "深渊之握": "gear-1192",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Ritual Feather Crown",
+    "Necklace": "Chain of Radiance",
+    "Card": "Spirit Magic Card",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Armor of Cursed Orbs",
+    "Ring": "Neon Slayer's Blood Ring",
+    "Belt": "Belt of Electrify",
+    "Relic": "Neon Slayer's Blood Seal",
+    "Trousers": "Thunder-Summoning Trousers",
+    "Emblem": "Neon Slayer's Blood Mark",
+    "Shoes": "Royal Family Boots",
+    "Off-hand": "Neon Slayer's Blood Shield",
+    "Weapon": "Heroic Shadow, Sword Heart",
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Card": [
+     "Devil Card of Impasse"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ],
+    "Armor": [
+     "Robe of Cursed Thunder"
+    ],
+    "Handguard": [
+     "Sprite's Spite"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "精魄魔牌": "gear-1291",
+    "龙力魔牌": "gear-1691",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "法球咒铠": "gear-1686",
+    "雷咒长袍": "gear-1687",
+    "霆霓猩红血戒": "gear-188",
+    "感电者": "gear-1690",
+    "霆霓猩红血玺": "gear-176",
+    "奏雷鸣裤": "gear-1860",
+    "霆霓猩红血印": "gear-145",
+    "宗室礼靴": "gear-1282",
+    "霆霓猩红血盾": "gear-164",
+    "侠影剑心": "gear-1567",
+    "幽冥初水": "gear-game-90323",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Waning Moon",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Degenerate",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Thunder Veins",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Songbird",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Gain 6 points of Blade Will per second."
+   },
+   {
+    "rank": 2,
+    "text": "Increases obtain efficiency of [Blade Will] by 50%. Max points of [Blade Will] +50."
+   },
+   {
+    "rank": 3,
+    "text": "DMG dealt by [Thunder · Shadow Strike] is increased by 100%; the DMG bonus per point of Blade Will is increased from 7.5% to 10%."
+   },
+   {
+    "rank": 4,
+    "text": "When Ying deals Fatal DMG to the target, silences its [Revival] effect."
+   },
+   {
+    "rank": 5,
+    "text": "When [Thunder · Shadow Strike] hits an enemy, it has a 100% chance to cast dispel on the enemy unit hit (this effect does not trigger the enemy unit's buff effects, e.g. Armor of Cursed Orbs), and applies Paralysis to it for 1 second."
+   },
+   {
+    "rank": 6,
+    "text": "Ying's All DMG Dealt is increased by 10%."
+   }
+  ],
+  "recommendation": "Usable from rank 1; DMG maxed at rank 3; ranks 45 for PVP"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Qingfeng kills demons",
+   "id": "relic-1964"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Striker battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": null,
+   "answers": [
+    "×我不太信这个……",
+    "✓给我多画几张。"
+   ]
+  },
+  {
+   "level": 5,
+   "question": null,
+   "answers": [
+    "✓做个酒酿圆子。",
+    "×做个麻婆豆腐。"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "立绘2",
+  "立绘3",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "5Q",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%BB%91%E8%A1%AB%E5%88%83%E5%BD%B1",
+ "revid": 9189,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9189",
+ "rev_timestamp": "2026-09-21T07:19:45Z",
+ "i18n": {
+  "name_zh": "黑衫刃影",
+  "sources": {
+   "derived": 5,
+   "game_db": 12,
+   "glossary": 86,
+   "lore": 2,
+   "names": 67,
+   "translated": 20
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 67947,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 67946,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 67948,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 67950,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4292,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4293,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "game_db",
+    "text_id": 67955,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 67957,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 67959,
+    "match": "exact"
+   },
+   "blood_ranks.recommendation": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "九域国",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[4].name",
+    "zh": "龙刃纳销",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[8].name",
+    "zh": "刽子手",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.likes[3]",
+    "zh": "伯戈涅",
+    "en": "Bergogne"
+   },
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   }
+  ]
+ }
+}

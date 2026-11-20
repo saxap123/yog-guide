@@ -1,0 +1,916 @@
+{
+  "subject": "月渊龙女",
+  "group": "characters",
+  "page_revid": 9143,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%9C%88%E6%B8%8A%E9%BE%99%E5%A5%B3",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%9C%88%E6%B8%8A%E9%BE%99%E5%A5%B3&format=json",
+  "fetched_at": "2026-11-20T16:12:18+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "月渊龙女#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度答案"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "月渊龙女#0##_QUERY21f71071b13c80eab558060bf6416b88"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/7/27/4/26/11/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/8/13/9/0/43/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月渊龙女"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2026年07月28日"
+            }
+          ]
+        },
+        {
+          "property": "专武",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "沧澜天剑"
+            }
+          ]
+        },
+        {
+          "property": "主符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "雷灭之刃、盎然、腐朽者、怒法、万象余烬、断钢、毒牙"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "智慧、坚韧、统帅、力场、流星、暴怒、风涌、咒蚀"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "168cm/46kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "九域国"
+            }
+          ]
+        },
+        {
+          "property": "合计",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×18000</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×410</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月渊龙女"
+            }
+          ]
+        },
+        {
+          "property": "名称1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "初芒"
+            }
+          ]
+        },
+        {
+          "property": "名称10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神耀"
+            }
+          ]
+        },
+        {
+          "property": "名称2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "启明"
+            }
+          ]
+        },
+        {
+          "property": "名称3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凝辉"
+            }
+          ]
+        },
+        {
+          "property": "名称4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "炽华"
+            }
+          ]
+        },
+        {
+          "property": "名称5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "逐光"
+            }
+          ]
+        },
+        {
+          "property": "名称6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "明辰"
+            }
+          ]
+        },
+        {
+          "property": "名称7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月白"
+            }
+          ]
+        },
+        {
+          "property": "名称8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "晴晖"
+            }
+          ]
+        },
+        {
+          "property": "名称9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "灼日"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "做梦、捉迷藏、玩具球、<span style=\"color:red\">游戏骰子（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "秘术"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "织雪衣"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "光明"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "在空中凝聚巨型飞剑，对目标及其附近的敌方单位造成18000%物理强度的神圣伤害。"
+            }
+          ]
+        },
+        {
+          "property": "怒兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "当队伍中有人对敌方施加昏迷效果时，朝目标释放5枚飞剑，每一枚飞剑都会造成3000%物理强度的神圣伤害。(该效果有0.5秒触发间隔)"
+            }
+          ]
+        },
+        {
+          "property": "效果1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv1-Lv2</span>暴击倍率+20.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv30</span>当前队伍除了自身外还有其他存活黑卫(且其不处于无敌状态)时，自己将持续保持无敌状态。"
+            }
+          ]
+        },
+        {
+          "property": "效果2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv3-Lv4</span>初始怒气+300"
+            }
+          ]
+        },
+        {
+          "property": "效果3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv5-Lv6</span>【剑落九霄】释放时，如果剑元数量大于等于100，消耗掉的每1点剑元都会增加1%主剑和辅剑造成的伤害。"
+            }
+          ]
+        },
+        {
+          "property": "效果4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv7-Lv9</span>感知+30"
+            }
+          ]
+        },
+        {
+          "property": "效果5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv10-Lv12</span>怒气回复+30"
+            }
+          ]
+        },
+        {
+          "property": "效果6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv13-Lv17</span>源力每秒恢复+5"
+            }
+          ]
+        },
+        {
+          "property": "效果7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv18-Lv19</span>【飞星惊梦】每隔1秒自动释放一次，且当自身感知超过180时，每额外拥有40点感知，都将为【飞星惊梦】额外增加一名攻击目标。"
+            }
+          ]
+        },
+        {
+          "property": "效果8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv20-Lv24</span>普攻暴击抗性+10.00%；技能暴击抗性+10.00%"
+            }
+          ]
+        },
+        {
+          "property": "效果9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"lv-tab\" style=\"width: px; background: #\">Lv25-Lv29</span>物理伤害减免+5.00%；法术伤害减免+5.00%"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "凝聚飞剑攻击前方小范围敌人，造成600%物理强度的神圣伤害，并有20%几率对其施加昏迷效果，持续1秒。(本技能不会受攻速影响，造成的伤害视为技能伤害。)"
+            }
+          ]
+        },
+        {
+          "property": "消耗1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×640</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗10",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1850</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×860</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×2160</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×960</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1290</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×30</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×50</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗7",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3240</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×20</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗8",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×1800</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "消耗9",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "<span class=\"xhp-icon\" style=\"height:22px;\">[[file:圣血晶石.png|22px]]<span>×3600</span></span><span class=\"xhp-icon\" style=\"height:22px;\">[[file:黑潮勋章.png|22px]]<span>×100</span></span>"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10月11日"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "龙裔"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月渊龙女"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "剑元的存储上限+200，且月渊龙女对首领怪物造成的伤害提升35%。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "释放【飞星惊梦】时获得的剑元+4。"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【曦光归甲】可以叠加的层数+2。"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【剑落九霄】造成的伤害将穿透目标10%的全伤害减免，当自身感知高于目标时，每超出10点，将增加1%的减免穿透。"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "当月渊龙女生命值为100%使，造成的所有伤害必定暴击。"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月渊龙女造成的所有伤害+10%。"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不辞而别、被蒙骗"
+            }
+          ]
+        },
+        {
+          "property": "诅咒灵",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "诡眼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "每一次触发【飞星惊梦】，可积攒10点剑元；每20点剑元能让【剑落九霄】多生出一柄辅剑，辅剑造成3500%物理强度的神圣伤害。剑元存储上限为100点。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "场上有黑卫死亡时，自身的物理强度提升10%，最多叠加3层。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "进入战斗时，会获得15秒的无敌。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月渊龙女的感知+10。"
+            }
+          ]
+        },
+        {
+          "property": "辅助符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "铁棘"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "放弃防护，专心攻击，造成的伤害提高15%，但是自身受到的伤害也提高10%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "最大生命值提升2300点"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "造成非物理伤害时，恢复造成伤害10%的生命值"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全抗性提升8点，伤害减免8%"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、%物理强度、暴击倍率、力量、全伤害类型增幅、物理伤害增幅"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "最大生命值、体质、物理抗性、怒气回复、暴击伤害减免、受到法术伤害降低、受到物理伤害降低、怒气"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "月渊龙女"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "月渊龙女#0##_QUERY21f71071b13c80eab558060bf6416b88",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::月渊龙女]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "月渊龙女# QUERY21f71071b13c80eab558060bf6416b88"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

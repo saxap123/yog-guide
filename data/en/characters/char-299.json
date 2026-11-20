@@ -1,0 +1,329 @@
+{
+ "id": "char-299",
+ "name": "White Dragon",
+ "page_title": "白龙",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Vina",
+  "gender": "Female",
+  "race": "Dragonborn",
+  "birthday": "--12-24",
+  "birthplace": "unknown ancient mountains",
+  "height_weight": "171cm/52kg",
+  "specialties": [
+   "flying",
+   "heavy labor",
+   "combat skills"
+  ],
+  "likes": [
+   "meat cooked any way",
+   "kitties",
+   "kind people"
+  ],
+  "dislikes": [
+   "vegetables cooked any way",
+   "Rainy Days",
+   "tongue twisters"
+  ],
+  "release_date": "2021-06-27"
+ },
+ "element": "Physical",
+ "rarity": "S",
+ "factions": {
+  "base": {
+   "name": "Striker Front",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": null,
+   "scaling": [],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Triple Threat",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Vina charges the farthest target three times with unstoppable force, each dealing Physical DMG equal to 133.3% of Physical Power, knocking the target airborne and Stunning it for 2 seconds.",
+   "scaling": [
+    {
+     "percent": "133.3%",
+     "values": [
+      133.3
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 133.3% of Physical Power"
+    }
+   ],
+   "name_zh": "横扫千军"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Charge",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Vina launches a fierce Charge at the farthest enemy target, knocking back all enemy units along the way, dealing Physical DMG equal to 300% of Physical Power, and Stunning the enemy units hit for 2 seconds.",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 300% of Physical Power"
+    }
+   ],
+   "name_zh": "冲锋"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Interception",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When an ally takes fatal damage, Vina will cast Charge, cooldown of 2 seconds",
+   "scaling": [],
+   "name_zh": "与子同袍"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Take Flight",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Charge damage increased by 40% (additionally affected by Physical Mastery).",
+   "scaling": [],
+   "name_zh": "振翼"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Draconic Blade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Charge gains 10% (additionally affected by Physical Mastery) Skill Crit Chance.",
+   "scaling": [],
+   "name_zh": "龙刃"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Dragonfury",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Vina turns every bit of trauma and pain she endures into her own Strength and recovery. For every 5% HP lost, she gains 4% Physical Power and Health Regeneration equal to 30% of Attack Power.",
+   "scaling": [
+    {
+     "percent": "4%",
+     "values": [
+      4.0
+     ],
+     "stat": "Physical Power",
+     "effect": null,
+     "text": "4% of Physical Power"
+    },
+    {
+     "percent": "30%",
+     "values": [
+      30.0
+     ],
+     "stat": "Attack Power",
+     "effect": "HP",
+     "text": "HP equal to 30% of Attack Power"
+    }
+   ],
+   "name_zh": "炙热龙血"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "One Man Army",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "More targets means its harder to miss, each enemy within a range of 5 meters will increase damage caused by 3%",
+   "scaling": [],
+   "name_zh": "孤军深入"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Mercilessly executes wounded enemies: DMG dealt to targets with HP below 15% is increased by 20%",
+   "scaling": [],
+   "name_zh": "刽子手"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Berserker's Wrath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The sight of your own blood enrages you, the lower your health, the higher your damage Increases damage by 1% for every 5% HP lost",
+   "scaling": [],
+   "name_zh": "狂战士之怒"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": null,
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": "这些体内拥有龙血的人，被认为是「不朽古龙」的后裔，他们隐居于群山之中，拥有属于自己的龙语，很少和人类社会发生交集。\n直到黑潮来临,生灵涂炭,龙裔们为了那些素不相识、却血缘相依的物种，毅然走出群山，在战场挥洒自己的炙热龙血，与大陆联军一起将魔物挡在了长城之外。\n百年时光流转,春去秋来,潮起汐落。\n当魔物再次出现在内陆，黑潮阴影涌动之际,一名手持巨大兵器的龙裔少女突然拜访亚克兰斯，因其发如冬雪,人们称她为“白龙”。\n经过交涉,白龙自愿以人类之名“维娜”加入黑卫学院，并告诉学院的黑卫们,族人让她带来一句龙语——Tar dov claan。\n其意为“与子同袍”。",
+  "deeds": [
+   "炙热龙血对于任何入侵体内的异物都有着强大的杀灭作用，所以身为龙裔的维娜并不畏惧魔物感染,也不需要参加圣血仪式,仅凭自愿就能成为一名黑卫。\n对于黑卫学院来说，百年前曾和大陆联军并肩作战的龙裔们是值得信赖的战友,所以谁都没有对维娜的加入表示反对。",
+   "龙裔们的力量远超常人,同时习惯使用人类无法理解的巨大兵器。\n据说，维娜使用的赤色巨枪重量要用“吨”来计算,学院里没几个人举得动,只有咚咚可以把它当成大型杠铃来玩。",
+   "维娜来到黑卫学院以后,很少和战友交流,总是孤身一人,让人感觉非常冷漠,难以相处。\n事实上，维娜的性格并不冷，只是因为龙语和人类语言并不共通,她不知道怎么用大陆语和人交流，所以显得很孤僻。\n但也许是沉默之人彼此间的默契,维娜经常会和斯卡莉特、菲奇一起出入于餐厅，她们大多时候都不会交流，然而沉默本身也是一种相处的方式。",
+   "龙裔体内的龙血源自于不朽古龙，自带浑然天成的龙威,导致动物会对维娜感到害怕。\n然而,维娜似乎又很喜欢猫咪.....\n据芙萝说，她有一次在图书馆抱着猫看书，突然发现维娜远远趴在窗户边，偷看她怀里的猫，那只猫被吓得当场逃走,维娜也因此失落了一整天。",
+   "每名龙裔头上都有龙角,维娜也不是例外。\n曾经有人想摸摸维娜的龙角,但被长辈严厉制止了。\n据说在龙裔的习俗里,龙角是圣洁之物,只有父母或彼此的歃血之人才可以触碰。",
+   "对于绝大多数龙裔来说,他们都很爱护象征圣洁的龙角，但也有些龙裔会用刀在自己的龙角上刻下刀痕。\n这是龙裔中的一种习俗—―如果有龙裔亲手杀死了自己的族人，则必须在自己的龙角上刻痕,以示自己曾经做过同族相残之事。\n而维娜的龙角上……就有着一道刻痕。"
+  ]
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 黑卫血阶 template on the page",
+  "no 黑卫遗物 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%99%BD%E9%BE%99",
+ "revid": 8654,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8654",
+ "rev_timestamp": "2026-02-08T04:40:27Z",
+ "i18n": {
+  "name_zh": "白龙",
+  "sources": {
+   "derived": 6,
+   "game_db": 6,
+   "glossary": 33,
+   "lore": 1,
+   "names": 15,
+   "translated": 14
+  },
+  "text_sources": {
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 4343,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 4344,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4292,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4293,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[8].name",
+    "zh": "刽子手",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

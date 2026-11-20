@@ -1,0 +1,362 @@
+{
+ "id": "char-2141",
+ "name": "金蜂破茧",
+ "page_title": "金蜂破茧",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "布兰妮",
+  "gender": "女",
+  "race": "野兽血裔",
+  "birthday": "2月18日",
+  "birthplace": "弗兰卡特小镇",
+  "height_weight": "158cm/49kg",
+  "specialties": [
+   "酿制花蛮",
+   "制作茶饮"
+  ],
+  "likes": [
+   "鲜花",
+   "春天",
+   "花蜜",
+   "玫瑰花束（羁绊礼物）"
+  ],
+  "dislikes": [
+   "冬天",
+   "寒冷",
+   "偷花的人"
+  ],
+  "release_date": "2025年08月28日"
+ },
+ "element": "闪电",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "辅助",
+   "id": "faction-2192"
+  },
+  "others": [
+   {
+    "name": "医者",
+    "id": "faction-2204"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "聚变",
+    "id": "faction-2216"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   },
+   {
+    "name": "雷暴",
+    "id": "faction-2218"
+   },
+   {
+    "name": "共鸣",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "体质",
+   "最大生命值",
+   "怒气",
+   "怒气恢复"
+  ],
+  "secondary": [
+   "魔力",
+   "%法术强度",
+   "物理抗性",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "暴击伤害减免"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "电击感应",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "挥动武器对前方敌人造成1000%法术强度的闪电伤害并对其添加1层感电。(本技能不会受攻速影响，且造成的伤害视为技能伤害。)",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "1000%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "游伞醉梦",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "集中精力持续维持一个攻击型场域，场域每0.3秒朝周围敌人发射一枚光弹，造成1000%法术强度的闪电伤害和0.1秒的昏迷，且持续释放的过程中不会被嘲讽和沉默效果中断。本技能在怒气值达到上限时释放释放后每秒减少300怒气值，直到怒气为0，结束技能释放。",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "1000%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "秘密特区",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "在自身位置释放一个持续8秒的领域，领域范围内的友方单位每秒恢复400%法术强度的生命值。",
+   "scaling": [
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "法术强度",
+     "effect": "生命值",
+     "text": "400%法术强度的生命值"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "金蜂祝运",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【秘密特区】范围内的友方单位还将获得20%的伤害偏移几率，该效果不与【焰火戏法】提高的偏移共存(伤害产生偏移时受到的伤害为原先的25%。)",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "独家放送",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【游伞醉梦】造成的伤害提升30%，且发射光弹时有25%几率额外选中一名附近的敌方目标。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "无声毒浸",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【秘密特区】可以对范围内的敌方单位施加强大的影响，使范围内的敌人生命值每减少1%，受到的闪电伤害提升0.5%，最多提升40%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "甜心尾刺",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【秘密特区】的敌人每2秒还会受到一次3500%法术强度的闪电伤害。",
+   "scaling": [
+    {
+     "percent": "3500%",
+     "values": [
+      3500.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "3500%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "振奋光环",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "振奋鼓舞战友，所有友方单位初始怒气增加25点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "气定神闲",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "能够轻松快速的释放法术，主动技能冷却时间降低10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "法术延迟",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "法术强度提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "星辰之躯",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "全抗性提升8点，伤害减免8%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "蹲一个450配装，欢迎下方评论区留言",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder: editors ask for a 450 build in the comments",
+   "slots": {
+    "头盔": null,
+    "项链": null,
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": null,
+    "戒指": null,
+    "腰带": null,
+    "圣物": null,
+    "裤子": null,
+    "徽章": null,
+    "鞋子": null,
+    "副手": null,
+    "武器": "春序伞舞",
+    "护手": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "春序伞舞": "gear-2298"
+   },
+   "unlinked": null,
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "金乌",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【游伞醉梦】发射的光弹可以弹射1次，每次弹射伤害衰减50%。"
+   },
+   {
+    "rank": 2,
+    "text": "强化【无声毒浸】的效果，敌方生命值每下降1%，受到的伤害在原基础上+0.25%，最大值在原基础上+20%。"
+   },
+   {
+    "rank": 3,
+    "text": "【金蜂祝运】产生偏移的几率增加15%。"
+   },
+   {
+    "rank": 4,
+    "text": "【游伞醉梦】释放过程中不会被打断。"
+   },
+   {
+    "rank": 5,
+    "text": "【无声毒浸】还会使受影响的敌人生命值每下降1%，受到的最终治疗效果下降0.75%，最多下降60%。"
+   },
+   {
+    "rank": 6,
+    "text": "金蜂破茧造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "织香结蜜",
+   "id": "relic-2160"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%87%91%E8%9C%82%E7%A0%B4%E8%8C%A7",
+ "revid": 8604,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8604",
+ "rev_timestamp": "2026-02-08T03:57:01Z"
+}

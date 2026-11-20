@@ -1,0 +1,630 @@
+{
+ "id": "char-1885",
+ "name": "Double Shot Pursuit",
+ "page_title": "双鸣追猎",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Darlita",
+  "gender": "Female",
+  "race": "Human",
+  "birthday": "--02-22",
+  "birthplace": "The Far North",
+  "height_weight": "167cm/45kg",
+  "specialties": [
+   "adventure",
+   "keen intuition",
+   "losing every bet"
+  ],
+  "likes": [
+   "Unknown",
+   "grass",
+   "novels",
+   "game dice (bond gift)"
+  ],
+  "dislikes": [
+   "managing finances",
+   "chatterboxes",
+   "monster"
+  ],
+  "release_date": "2025-03-26"
+ },
+ "element": "Frost",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Hunter Front",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Spell Breaker front",
+    "id": "faction-2220"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Skill Crit",
+   "Attack Speed",
+   "Frost Penetration",
+   "Rage Recovery",
+   "Critical Chance (Attack)",
+   "CD Reduction",
+   "Crit Damage Boost",
+   "Intelligence",
+   "All Damage Boost",
+   "Spell Damage Boost",
+   "Frost Damage Boost"
+  ],
+  "secondary": [
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Spell Power %",
+   "Max HP"
+  ]
+ },
+ "note": "PVP character; ultimate + Attack Speed bounce build",
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Flexible Strategy",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Shoot a single enemy, dealing 800% spell power Frost damage. When enemies are within melee range, wield a blade to deal 800% spell power Frost damage. Both ranged/melee attacks have a 50%/100% chance to apply 1 stack of Frost Erosion per hit (bouncing effect triggered by normal attacks cannot apply Frost Erosion), reducing target's rage regeneration by 5 per second for 4 seconds (max 5 stacks). Damage counts as basic attacks but is unaffected by attack speed.",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 800% of Spell Power"
+    },
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 800% of Spell Power"
+    }
+   ],
+   "name_zh": "灵活战术"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Shadow Prowess",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Unleashes a Gun Dance, dealing 12(% Spell Power as Frost DMG to up to 2 random nearby enemies every 0.2 seconds, lasting 2 seconds. During the cast, Double Shot Pursuit is immune to Spell DMG and cannot be knocked airborne.",
+   "scaling": [],
+   "name_zh": "猎影风华"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Frosty Twang",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Fires a bullet with a freezing effect at distant enemies / when there is an enemy within melee range, instead swings a blade at the melee enemy, dealing 2500% Spell Power as Frost DMG and inflicting Freeze for 3 sec.",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 2500% of Spell Power"
+    }
+   ],
+   "name_zh": "寒泣双鸣"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Polar Ecurse",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The damage of \"Frosty Twang\" is increased by 100%. When hitting an enemy, if the enemy is in a Frost Erosion state, the freezing effect applied to it will be changed to a 3 - second Absolute Zero effect. This effect can only be applied to each target once every 15 seconds. Absolute Zero: The target is unable to move during the duration, and this effect cannot be immunized or dispelled.",
+   "scaling": [],
+   "name_zh": "极夜蚀咒"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Frosty Breath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When [Shadow Prowess] hits an enemy in Frost Erosion, there is a 20% + Frost Erosion stacks*10% chance to deal Frost DMG equal to 3% of the target's Max HP; this DMG cannot exceed 1000% of own Spell Power.",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Spell Power",
+     "effect": null,
+     "text": "1000% of Spell Power"
+    }
+   ],
+   "name_zh": "寒息蚀心"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Soul Devour",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When applying Frost Erosion, 10% chance to trigger Pursuit: Dash to enemy, deal 2500% Spell Power Frost damage and immune to Spell damage. (Not during \"Shadow Prowess\". 5-second cooldown.)",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Frost DMG",
+     "text": "Frost DMG equal to 2500% of Spell Power"
+    }
+   ],
+   "name_zh": "蚀魂危袭"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Northstride",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases Darlita's Attack Crit Chance and Skill Crit Chance by 30%",
+   "scaling": [],
+   "name_zh": "自北而来"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Deadly Aim",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Seize the moment of weakness of the enemy, increasing the damage dealt to targets with health below 35% by 10%.",
+   "scaling": [],
+   "name_zh": "致命瞄准"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Constitution enhancement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 2300 points",
+   "scaling": [],
+   "name_zh": "体质增强"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "rapidly",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Attack speed increased by 25%",
+   "scaling": [],
+   "name_zh": "急速"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "hit hard",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Physical power increased by 7%, spell power increased by 7%",
+   "scaling": [],
+   "name_zh": "强击"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": "Meteorite Necklace",
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Moonlight · Light Chainmail",
+    "Ring": "Crimson Band",
+    "Belt": "Warmonger's Warbelt",
+    "Relic": "Moonlight · Shadow's Batwings",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": "Emblem of the Hunt",
+    "Shoes": "Thunderous Rage",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Tempest Shot",
+    "Handguard": "Sprite's Spite"
+   },
+   "alternatives": {
+    "Armor": [
+     "Raging Armor"
+    ],
+    "Belt": [
+     "Honor of House Rudolph"
+    ],
+    "Shoes": [
+     "Moonlight · Royal Walkers"
+    ],
+    "Handguard": [
+     "Spark Catcher"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "月辉·轻盈软甲": "gear-1180",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "王室荣尊": "gear-1172",
+    "月辉·夜影蝠翼": "gear-1181",
+    "戏谑者裤腿": "gear-1182",
+    "狩猎徽章": "gear-1184",
+    "雷霆之怒": "gear-1183",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "疾风劲射": "gear-2300",
+    "妖精秘手": "gear-1179",
+    "雷云捕手": "gear-1714"
+   },
+   "unlinked": null,
+   "empty": false
+  },
+  {
+   "level_tier": "Level 800",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Sparkling Jade Helmet",
+    "Necklace": "Chain of Radiance",
+    "Card": "Spirit Magic Card",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Armor of Cursed Orbs",
+    "Ring": "Ring of Snow Shadow",
+    "Belt": "Belt of Exocist",
+    "Relic": "Legacy of Snow Shadow",
+    "Trousers": "Magic Source Legs",
+    "Emblem": "Emblem of Snow Shadow",
+    "Shoes": "Dark Night Thorns",
+    "Off-hand": "Guard of Snow Shadow",
+    "Weapon": "Tempest Shot",
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Relic": [
+     "Moonlight · Shadow's Batwings"
+    ],
+    "Emblem": [
+     "Emblem of the Hunt"
+    ],
+    "Shoes": [
+     "Royal Family Boots"
+    ],
+    "Handguard": [
+     "Gloves of Snow Shadow"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "烁玉金盔": "gear-1275",
+    "辉耀之链": "gear-134",
+    "精魄魔牌": "gear-1291",
+    "辉耀之环": "gear-138",
+    "法球咒铠": "gear-1686",
+    "雪影冰戒": "gear-185",
+    "圣职驱魔": "gear-1689",
+    "雪影之遗": "gear-179",
+    "月辉·夜影蝠翼": "gear-1181",
+    "魔源裤腿": "gear-1286",
+    "雪影白徽": "gear-158",
+    "狩猎徽章": "gear-1184",
+    "暗夜刺足": "gear-1283",
+    "宗室礼靴": "gear-1282",
+    "雪影守护": "gear-166",
+    "疾风劲射": "gear-2300",
+    "幽冥初水": "gear-game-90323",
+    "雪影霜冻冰手": "gear-1656"
+   },
+   "unlinked": {
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": "Frost Snow",
+    "id": "rune-1421",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Occultist",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Hoarfrost Hoof",
+    "id": "black_stone-12",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": "PVP black stones"
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "[Shadow Prowess] deals 1 extra instance of DMG to enemies within melee range."
+   },
+   {
+    "rank": 2,
+    "text": "Max stacks of [Frost Erosion] +3; when applying [Frost Erosion], if you have a Frost Orb, consume 1 Frost Orb to add 1 extra stack."
+   },
+   {
+    "rank": 3,
+    "text": "While [Shadow Prowess] is being cast, also becomes Charmed Immune, and immune to Freeze and Hex"
+   },
+   {
+    "rank": 4,
+    "text": "While [Shadow Prowess] is being cast, also fires one bullet per second at 1 random nearby enemy (firing speed is affected by Attack Speed, up to 1 shot per 0.2 seconds), dealing Frost DMG equal to 400% Spell Power; the bullet counts as a Normal Attack."
+   },
+   {
+    "rank": 5,
+    "text": "Each stack of the \"Frost Erosion\" effect also reduces the healing effect received by the enemy by 8%."
+   },
+   {
+    "rank": 6,
+    "text": "All damage dealt by \"Darlita\" is increased by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Soul-Eater Seal",
+   "id": "relic-1968"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%8C%E9%B8%A3%E8%BF%BD%E7%8C%8E",
+ "revid": 8638,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8638",
+ "rev_timestamp": "2026-02-08T04:28:23Z",
+ "i18n": {
+  "name_zh": "双鸣追猎",
+  "sources": {
+   "derived": 7,
+   "game_db": 15,
+   "glossary": 90,
+   "lore": 1,
+   "names": 61,
+   "translated": 18
+  },
+  "text_sources": {
+   "note": {
+    "source": "translated"
+   },
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 79526,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 79529,
+    "match": "loose"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 79531,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 79532,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2440,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2993,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2964,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 2995,
+    "match": "exact"
+   },
+   "black_stones.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 79544,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 79545,
+    "match": "exact"
+   }
+  },
+  "missing": null,
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

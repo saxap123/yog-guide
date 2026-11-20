@@ -1,0 +1,360 @@
+{
+ "id": "char-303",
+ "name": "Apostle of Judgment",
+ "page_title": "审判使者",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Justitia",
+  "gender": "Female",
+  "race": null,
+  "birthday": "--09-19",
+  "birthplace": null,
+  "height_weight": "176cm/68kg",
+  "specialties": [
+   "incantation",
+   "handmade ropework",
+   "interrogation"
+  ],
+  "likes": [
+   "church mass",
+   "tombs",
+   "white flowers",
+   "royal chess pieces (bond gift)"
+  ],
+  "dislikes": [
+   "weak, incompetent people",
+   "insects",
+   "magnets"
+  ],
+  "release_date": "2023-04-26"
+ },
+ "element": "Fire",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Summoners Front",
+    "id": "faction-2205"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Resilience Front",
+    "id": "faction-2215"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": null,
+  "secondary": null
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 100% Spell Power as Fire DMG to 1 enemy within melee range.",
+   "scaling": [
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 100% of Spell Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Mirage Dance",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Justitia releases shadow strike up to 2 targets within 10 meters, causes Fire DMG equal to 800% of Spell Power, and summons a Mirage in the target's position to attack it. The mirage exists for 50 sec, up to 4 Mirages at the same time. The Mirage inherits Justitia's attributes by 100% of HP and 100% of Spell Power, and all of other attributes. The mirage count as summons, and can inherit parts of trigger effect. (Inherited effect: Thunderstrike, 8 Set of Gem (Wolverine, Hoarfrost Hoof), Rage Steal of Souleaters Front, Rank 6 of Sunstrider)",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 800% of Spell Power"
+    },
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "Spell Power",
+     "effect": null,
+     "text": "100% of Spell Power"
+    }
+   ],
+   "name_zh": "幻影之舞"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Steel Breaker",
+   "cooldown_s": 4,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When an enemy appears within 8 m of Apostle of Judgment, Apostle of Judgment quickly rushes toward it. After reaching the target, Apostle of Judgment gains a heavy-strike Normal Attack effect (Normal Attack DMG increased by 300%) and Attack Speed increased by 30%+per point of Spell Mastery*0.5% (never exceeding 60%); these effects last 2 sec. If Mirages exist, the Mirages also use the [Steel Breaker] skill.",
+   "scaling": [],
+   "name_zh": "断钢踏"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Tactical Evasion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Justitia has a keen ability to sense danger, and will disappear from the battlefield for a short time when she is about to take fatal damage. After 1 sec, Justitia appears in a random position near the place where she disappeared, and has 100% of chance to summon 2 new Mirages.",
+   "scaling": [],
+   "name_zh": "战术规避"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Prerogative of Judgement",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Justitia and her Mirages have a 25% of dodge chance, and All Damage Dealt increased by 15%.",
+   "scaling": [],
+   "name_zh": "审判特权"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Lethal Ultimatum",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "After every 3 normal attacks, Justitia can attack the enemy with her destructive techniques, causes Fire DMG equal to 300% of her Spell Power.",
+   "scaling": [
+    {
+     "percent": "300%",
+     "values": [
+      300.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 300% of Spell Power"
+    }
+   ],
+   "name_zh": "最后通牒"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Cascade Tactics",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Apostle of Judgment and her mirages have precise coordinated combat ability When multiple summons are on the field, each one increases the DMG dealt by Apostle of Judgment and her mirages by 5%, up to 30%.",
+   "scaling": [],
+   "name_zh": "狂潮战术"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Execution Stake",
+   "id": "relic-1963"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A1",
+  "10A2"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%AE%A1%E5%88%A4%E4%BD%BF%E8%80%85",
+ "revid": 8622,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8622",
+ "rev_timestamp": "2026-02-08T04:15:29Z",
+ "i18n": {
+  "name_zh": "审判使者",
+  "sources": {
+   "derived": 6,
+   "game_db": 8,
+   "glossary": 32,
+   "lore": 1,
+   "names": 21,
+   "translated": 13
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 58705,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 58706,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 58707,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 58708,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "profile.birthplace",
+    "zh": "塔拉歌",
+    "reason": "not translatable (see translate/manual/texts)"
+   },
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

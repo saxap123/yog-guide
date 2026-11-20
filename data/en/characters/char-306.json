@@ -1,0 +1,401 @@
+{
+ "id": "char-306",
+ "name": "Netherblade Maiden",
+ "page_title": "灵刃之主",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Alice",
+  "gender": "Female",
+  "race": null,
+  "birthday": "--08-20",
+  "birthplace": "Veneto, the city of trade",
+  "height_weight": "166cm/48kg",
+  "specialties": [
+   "handicrafts",
+   "sewing",
+   "making desserts"
+  ],
+  "likes": [
+   "modeling",
+   "Doll",
+   "beautiful fabrics",
+   "fluffy plush toy (bond gift)"
+  ],
+  "dislikes": [
+   "getting clothes dirty",
+   "Rainy Days",
+   "bugs"
+  ],
+  "release_date": "2023-01-03"
+ },
+ "element": "Physical",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "Striker Front",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction",
+   "Physical Power %",
+   "Physical Penetration",
+   "Strength",
+   "Physical Mastery",
+   "Crit Damage Boost",
+   "Skill Crit",
+   "Attack Speed",
+   "All Damage Boost",
+   "Physical Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Crit Damage Reduction",
+   "Physical Damage Reduction",
+   "Spell Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals 384% Attack Power as Physical DMG to 1 enemy within melee range.",
+   "scaling": [
+    {
+     "percent": "384%",
+     "values": [
+      384.0
+     ],
+     "stat": "Attack Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 384% of Attack Power"
+    }
+   ],
+   "name_zh": "普通攻击"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Red Queen's Deadly Shears",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Quickly slashes forward 10 times, dealing 200% Physical Power as Physical DMG to enemies within 5 m in front; the last slash releases a large sword wave, dealing Physical DMG equal to 225% Physical Power twice to enemies in its path.",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 200% of Physical Power"
+    },
+    {
+     "percent": "225%",
+     "values": [
+      225.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 225% of Physical Power"
+    }
+   ],
+   "name_zh": "致命剪切"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Dash to the Rabbit Hole",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When there are no enemy units within a range of 3 meters, Alice rushes to the nearest enemy target within 8 meters. And when Alice causes normal attack, she can release a shock wave of Netherblade to the front, causes physical damage equal to 150% of Physical Power to the enemies in the path.",
+   "scaling": [
+    {
+     "percent": "150%",
+     "values": [
+      150.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 150% of Physical Power"
+    }
+   ],
+   "name_zh": "灵刃剑气"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Art of Cut Off",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Shock wave of Netherblade has a 10% of basic crit chance. Every point of Alice's Physical Mastery, can increase her skill Crit Chance by 0.25%, Crit Damage by 5%.",
+   "scaling": [],
+   "name_zh": "裁艺"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Body of Cursed Doll",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Every 2000 points of strength increases physical damage dealt by 1%. (Max not exceed 450%)",
+   "scaling": [],
+   "name_zh": "魔偶之躯"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Cheshire's Chasing Game",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Shock wave of Netherblade can slow the enemies when it deals a crit hit, reduces their movement speed and attack speed by 30%, and increases damage dealt of shock wave to the enemies in [Slowing] state by 20%.",
+   "scaling": [],
+   "name_zh": "追猎游戏"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Mad Hatter's March",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Shock wave of Netherblade released by [Dash to the Rabbit Hole] is +1, the attack range of shock wave increased by 30%.",
+   "scaling": [],
+   "name_zh": "剑气横扫"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "One Man Army",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "More targets means its harder to miss, each enemy within a range of 5 meters will increase damage caused by 3%",
+   "scaling": [],
+   "name_zh": "孤军深入"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Mercilessly executes wounded enemies: DMG dealt to targets with HP below 15% is increased by 20%",
+   "scaling": [],
+   "name_zh": "刽子手"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Berserker's Wrath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The sight of your own blood enrages you, the lower your health, the higher your damage Increases damage by 1% for every 5% HP lost",
+   "scaling": [],
+   "name_zh": "狂战士之怒"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": null,
+ "runes": null,
+ "black_stones": null,
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Signet of Blade",
+   "id": "relic-1960"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《玩偶》",
+   "answers": [
+    "×要多交朋友，别太依赖玩偶",
+    "√洛蒂很可爱，好好对待它"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《手工小礼物》",
+   "answers": [
+    "√手工小布偶",
+    "辟邪的驱灵符"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《模特》",
+   "answers": [
+    "获得专属戒指：恶意之力"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 黑卫配装 template on the page",
+  "no 推荐符文 template on the page",
+  "no 推荐黑石 template on the page",
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%81%B5%E5%88%83%E4%B9%8B%E4%B8%BB",
+ "revid": 8653,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8653",
+ "rev_timestamp": "2026-02-08T04:40:03Z",
+ "i18n": {
+  "name_zh": "灵刃之主",
+  "sources": {
+   "derived": 6,
+   "game_db": 10,
+   "glossary": 49,
+   "lore": 2,
+   "names": 20,
+   "translated": 12
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 56677,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 56679,
+    "match": "loose"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 56680,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 56681,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 56682,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4292,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4293,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[0].name",
+    "zh": "普通攻击",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "skills[8].name",
+    "zh": "刽子手",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   }
+  ],
+  "untranslated_lore": [
+   "lore",
+   "affection"
+  ],
+  "unofficial_names": [
+   {
+    "path": "profile.birthplace",
+    "zh": "威尼托",
+    "en": "Veneto"
+   }
+  ]
+ }
+}

@@ -1,0 +1,180 @@
+{
+  "subject": "隐猎魂息",
+  "group": "gear",
+  "page_revid": 8562,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E9%9A%90%E7%8C%8E%E9%AD%82%E6%81%AF",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E9%9A%90%E7%8C%8E%E9%AD%82%E6%81%AF&format=json",
+  "fetched_at": "2026-11-20T16:21:42+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "隐猎魂息#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/26/0/38/31/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "装备#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/1/29/16/58/25/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "隐猎魂息"
+            }
+          ]
+        },
+        {
+          "property": "专属",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "1500全属性、5%全伤害类型增幅、20元素穿透、20%暴击倍率、120怒气"
+            }
+          ]
+        },
+        {
+          "property": "介绍",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "以夜狩风镇铸魂所造，充满绝影猎杀的寂灭无声。"
+            }
+          ]
+        },
+        {
+          "property": "前缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "9258力量、9258力量、9258力量、9258力量、9258魔力、9258魔力、9258魔力、9258魔力、5物理精通、5法术精通、2299物理强度、2299法术强度"
+            }
+          ]
+        },
+        {
+          "property": "后缀",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "11.5%全伤害类型增幅、11.5%全伤害类型增幅、11.5%全伤害类型增幅、36%暴击倍率、15命中、43火焰穿透、43闪电穿透、43冰霜穿透"
+            }
+          ]
+        },
+        {
+          "property": "品质",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "神话"
+            }
+          ]
+        },
+        {
+          "property": "套装",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "套装技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "无"
+            }
+          ]
+        },
+        {
+          "property": "嵌入技能推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "屠灭：每次普通攻击，降低目标的攻击速度5%，提升自身攻击速度5%，可叠加5层当前敌人生命低于50%时，对其造成的伤害提高(10.00%-20.00%)；狂热征伐：每主动驱散一个负面状态，回复自身(5.00%-10.00%)生命上限，精神专精提升1点，混沌伤害提升5%，持续20秒，可叠加20层"
+            }
+          ]
+        },
+        {
+          "property": "最大等级",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "700"
+            }
+          ]
+        },
+        {
+          "property": "获取途径",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "铸魂"
+            }
+          ]
+        },
+        {
+          "property": "萃取技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "不可萃取"
+            }
+          ]
+        },
+        {
+          "property": "装备名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "隐猎魂息"
+            }
+          ]
+        },
+        {
+          "property": "装备技能",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "拥有闪电球时，每个闪电球都会使自身响应技能 发动几率+1%，且夜行暹罗造成的所有伤害增加10%。；【电刃之印】的昏迷效果触发同时，对目标造成一次12000%法术强度的闪电伤害。"
+            }
+          ]
+        },
+        {
+          "property": "部位",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "武器"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

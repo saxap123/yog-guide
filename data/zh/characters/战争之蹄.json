@@ -1,0 +1,569 @@
+{
+ "id": "char-291",
+ "name": "战争之蹄",
+ "page_title": "战争之蹄",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "金百莉",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "3月31日",
+  "birthplace": "布列塔尼",
+  "height_weight": "171cm/57kg&179cm/81kg",
+  "specialties": [
+   "占星术",
+   "预言术",
+   "动物会话",
+   "玫瑰花束（羁绊礼物）"
+  ],
+  "likes": [
+   "人类的食物",
+   "森林浴",
+   "“普通”"
+  ],
+  "dislikes": [
+   "胡萝卜",
+   "干草",
+   "战争"
+  ],
+  "release_date": "2023年11月29日"
+ },
+ "element": "物理",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "狩魔",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "流星",
+    "id": "faction-2213"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   },
+   {
+    "name": "风涌",
+    "id": "faction-2214"
+   },
+   {
+    "name": "聚变",
+    "id": "faction-2216"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%物理强度",
+   "技能暴击",
+   "暴击倍率",
+   "力量",
+   "全伤害类型增幅",
+   "物理伤害增幅",
+   "物理穿透"
+  ],
+  "secondary": [
+   "物理抗性",
+   "受到法术伤害降低",
+   "受到物理伤害降低",
+   "最大生命值",
+   "体质",
+   "暴击伤害减免"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "三祈矢破",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "朝前方射出三支箭矢，对被击中的敌人造成400%物理强度的物理伤害。(视为技能伤害，且该技能不受冷却时间缩短效果的影响)",
+   "scaling": [
+    {
+     "percent": "400%",
+     "values": [
+      400.0
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "400%物理强度的物理伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "屏息风涌",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "屏息凝神，使自身在接下来10秒内发射的所有箭矢凝聚风之力，在箭矢命中敌人时，产生强烈旋风，对周围2米范围所有敌人造成600%物理强度的物理伤害。",
+   "scaling": [
+    {
+     "percent": "600%",
+     "values": [
+      600.0
+     ],
+     "stat": "物理强度",
+     "effect": "物理伤害",
+     "text": "600%物理强度的物理伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "烟聚风缠",
+   "cooldown_s": 15,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "朝最近的1名敌人释放烟雾弹，持续6秒，范围内的敌人会受到致盲效果影响，且移动速度下降50%。致盲:致盲状态下的单位普攻命中几率降低50%，造成的所有伤害降低15%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "慈悯怒火",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "战争之蹄每隔0.7秒获得1个狂怒球。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "无垢毒息",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每拥有一个狂怒球，【三祈矢破】造成的伤害都会提升10%，最多提升至50%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "砂虐风号",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "释放【三祈矢破】时，每拥有一个狂怒球，都会额外发射一支箭矢，并清空所有狂怒球，最多额外发射7支箭矢。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "圣兽恩泽",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "战争之蹄的技能暴击几率+30",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "致命瞄准",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "抓住敌人的虚弱时刻，对生命值低于35%的目标造成的伤害提升10%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "急速",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "攻击速度提升25%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "强击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "物理强度提升7%，法术强度提升7%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "托尔之凝视",
+    "项链": "辉耀之链",
+    "卡牌": "精魄魔牌",
+    "耳坠": "辉耀之环",
+    "衣服": "托尔之神心",
+    "戒指": "青琅玲珑金戒",
+    "腰带": "托尔之冥思",
+    "圣物": "青琅玲珑金杯",
+    "裤子": "质化织裤",
+    "徽章": "青琅玲珑金辉",
+    "鞋子": "托尔之呼啸",
+    "副手": "青琅玲珑金盾",
+    "武器": "穿杨圣裁",
+    "护手": "幽冥初水"
+   },
+   "alternatives": {
+    "卡牌": [
+     "魔球卡牌"
+    ],
+    "徽章": [
+     "狩猎徽章"
+    ],
+    "护手": [
+     "青琅玲珑金手"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "托尔之凝视": "gear-1710",
+    "辉耀之链": "gear-134",
+    "精魄魔牌": "gear-1291",
+    "魔球卡牌": null,
+    "辉耀之环": "gear-138",
+    "托尔之神心": "gear-1711",
+    "青琅玲珑金戒": "gear-183",
+    "托尔之冥思": "gear-1712",
+    "青琅玲珑金杯": "gear-178",
+    "质化织裤": "gear-1858",
+    "青琅玲珑金辉": "gear-156",
+    "狩猎徽章": "gear-1184",
+    "托尔之呼啸": "gear-1713",
+    "青琅玲珑金盾": "gear-163",
+    "穿杨圣裁": null,
+    "幽冥初水": null,
+    "青琅玲珑金手": "gear-1662"
+   },
+   "unlinked": {
+    "魔球卡牌": {
+     "reason": "game_only",
+     "game_id": "90212",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90212",
+        "field": "name",
+        "text_id": 62169,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62169
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "战争之蹄",
+       "不熄曜日",
+       "夜行暹罗",
+       "千宵月守"
+      ]
+     }
+    },
+    "穿杨圣裁": {
+     "reason": "game_only",
+     "game_id": "90318",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90318",
+        "field": "name",
+        "text_id": 64403,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       64403
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "战争之蹄"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "腐朽者",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "绝刃",
+    "id": "rune-1406",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "雷灭之刃",
+    "id": "rune-1425",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "盎然",
+    "id": "rune-1422",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "怒法",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "断钢/逐日",
+    "id": null,
+    "options": [
+     {
+      "name": "断钢",
+      "id": "rune-1997",
+      "unlinked": null
+     },
+     {
+      "name": "逐日",
+      "id": null,
+      "unlinked": {
+       "reason": "typo_candidate",
+       "game_id": null,
+       "possible_match": {
+        "name": "逐日者",
+        "id": "rune-1409",
+        "source": "similar name in runes.json",
+        "status": "unverified"
+       },
+       "game": null,
+       "wiki_lookup": {
+        "title_found": false,
+        "page": null,
+        "search_hits": [
+         "逐日者",
+         "异常状态",
+         "战争之蹄",
+         "裁决圣锤",
+         "玉面九尾"
+        ]
+       }
+      }
+     }
+    ],
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "铁荆",
+    "id": null,
+    "options": null,
+    "unlinked": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "铁棘",
+      "id": "rune-1420",
+      "source": "similar name in runes.json",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "战争之蹄",
+       "长辉照夜",
+       "玉尘灵仙"
+      ]
+     }
+    }
+   }
+  ],
+  "note": "没断钢用逐日，吃暴击倍率"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "怒兽",
+    "id": "black_stone-03",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "诅咒灵",
+    "id": "black_stone-14",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "每获得1个狂怒球，都会增加【屏息风涌】0.5秒的持续时间，持续时间最多延长15秒，且【三祈矢破】的旋风伤害提升35%。"
+   },
+   {
+    "rank": 2,
+    "text": "获得任意球时，都会将获得的球转化为狂怒球。"
+   },
+   {
+    "rank": 3,
+    "text": "【三祈矢破】产生的旋风伤害提升50%，范围+50%"
+   },
+   {
+    "rank": 4,
+    "text": "【烟聚风缠】范围内敌人会被沉默，移速下降提升至90%。"
+   },
+   {
+    "rank": 5,
+    "text": "释放【屏息风涌】同时，对最近的敌人释放一次【烟聚风缠】"
+   },
+   {
+    "rank": 6,
+    "text": "战争之蹄造成的所有伤害+10%。"
+   }
+  ],
+  "recommendation": "2阶可用，性价比不高"
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "圣蹄图腾",
+   "id": "relic-1950"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E6%88%98%E4%BA%89%E4%B9%8B%E8%B9%84",
+ "revid": 8641,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8641",
+ "rev_timestamp": "2026-02-08T04:30:09Z"
+}

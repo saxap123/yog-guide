@@ -1,0 +1,1115 @@
+{
+ "id": "char-2069",
+ "name": "Radiant Vigil",
+ "page_title": "长辉照夜",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Theiana",
+  "gender": "Female",
+  "race": "Light Envoy",
+  "birthday": "--07-13",
+  "birthplace": "ruins of an ancient battlefield",
+  "height_weight": "162cm/47kg",
+  "specialties": [
+   "chanting",
+   "listening",
+   "teaching"
+  ],
+  "likes": [
+   "sunshine",
+   "peace",
+   "integrity and kindness",
+   "music box (bond gift)"
+  ],
+  "dislikes": [
+   "death",
+   "forgetting",
+   "Chaos"
+  ],
+  "release_date": "2025-07-30"
+ },
+ "element": "Light",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Striker Front",
+   "id": "faction-2193"
+  },
+  "others": [
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Leaders Front",
+    "id": "faction-2209"
+   },
+   {
+    "name": "Occultists Front",
+    "id": "faction-2211"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Field Front",
+    "id": "faction-2212"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   },
+   {
+    "name": "Resonance Front",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Physical Power %",
+   "Crit Damage Boost",
+   "Strength",
+   "All Damage Boost",
+   "Physical Damage Boost"
+  ],
+  "secondary": [
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Rage Recovery",
+   "Crit Damage Reduction",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Rage"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Golden Gleampath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Swing your weapon to deal 1000% Holy Damage based on Physical Strength to a wide area of nearby enemies. (This skill is unaffected by Attack Speed and counts as skill DMG.)",
+   "scaling": [
+    {
+     "percent": "1000%",
+     "values": [
+      1000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 1000% of Physical Power"
+    }
+   ],
+   "name_zh": "金晖满路"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Divine Blade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Condense a holy sword and slam it into the ground ahead, dealing 7000% Holy Damage based on Physical Power to all enemies within range.",
+   "scaling": [
+    {
+     "percent": "7000%",
+     "values": [
+      7000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 7000% of Physical Power"
+    }
+   ],
+   "name_zh": "神召一剑"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Radiant Reflection",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "After casting [Divine Blade], gain 3 charges (charges reset each time an Ultimate is cast and cannot stack). Each charge causes [Golden Gleampath] to summon a wide-area Light Spear in front of you, dealing 3000% Holy DMG based on Physical Strength to enemies hit.",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 3000% of Physical Power"
+    }
+   ],
+   "name_zh": "照影生辉"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Holy Pursuit",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The damage dealt by [Divine Blade] is increased by 75%, and Radiant Vigil deals 25% more damage to boss enemies.",
+   "scaling": [],
+   "name_zh": "圣华追袭"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Starflare Impact",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Each Fury Orb increases the DMG of Radiant Reflection by 10%, up to a maximum of 10 Fury Orbs",
+   "scaling": [],
+   "name_zh": "星流撞日"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Shorebound Refraction",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking DMG, there is a 10% chance to retaliate with a light spear, dealing 3000% Holy DMG based on your Physical Strength. This DMG benefits from Starflare Impact.",
+   "scaling": [
+    {
+     "percent": "3000%",
+     "values": [
+      3000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Holy DMG",
+     "text": "Holy DMG equal to 3000% of Physical Power"
+    }
+   ],
+   "name_zh": "回岸折光"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Crimson Finale",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Critical hit chance of Theiana skills increased by 30%.",
+   "scaling": [],
+   "name_zh": "赤芒绝响"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "One Man Army",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "More targets means its harder to miss, each enemy within a range of 5 meters will increase damage caused by 3%",
+   "scaling": [],
+   "name_zh": "孤军深入"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": null,
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Mercilessly executes wounded enemies: DMG dealt to targets with HP below 15 % is increased by 20%",
+   "scaling": [],
+   "name_zh": "刽子手"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Berserker's Wrath",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "The sight of your own blood enrages you, the lower your health, the higher your damage Increases damage by 1% for every 5% HP lost",
+   "scaling": [],
+   "name_zh": "狂战士之怒"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Level 450",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Moonlight · Regal Amethyst",
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": "Raging Armor",
+    "Ring": "Crimson Band",
+    "Belt": "Primal Iron Girdle",
+    "Relic": "Moonlight · Amethyst Ravenhead",
+    "Trousers": "Joker's Pantaloons",
+    "Emblem": null,
+    "Shoes": "Moonlight · Royal Walkers",
+    "Off-hand": "Necromancer's Deliverance",
+    "Weapon": "Blade of Salvation",
+    "Handguard": "Abyssal Grasps"
+   },
+   "alternatives": {
+    "Belt": [
+     "Waistband of the Wild Hunt"
+    ],
+    "Trousers": [
+     "Elementalist's Britches"
+    ],
+    "Handguard": [
+     "Cowhide Handguards"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "聚能之铠": "gear-1170",
+    "猩红秘戒": "gear-1171",
+    "铁铸束腰": "gear-game-1014",
+    "狂猎之腰": "gear-game-1023",
+    "月辉·紫晶鸦首": "gear-1173",
+    "戏谑者裤腿": "gear-1182",
+    "元素大师之裤": "gear-1174",
+    "月辉·王室金靴": "gear-1177",
+    "死灵法盾": "gear-1178",
+    "佑世之锋": "gear-2299",
+    "深渊之握": "gear-1192",
+    "牛皮护手": "gear-game-3006"
+   },
+   "unlinked": {
+    "铁铸束腰": {
+     "reason": "game_only",
+     "game_id": "1014",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1014",
+        "field": "name",
+        "text_id": 4030,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       4030
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "青鸾巽羽",
+       "月渊龙女",
+       "王国猎手"
+      ]
+     }
+    },
+    "狂猎之腰": {
+     "reason": "game_only",
+     "game_id": "1023",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1023",
+        "field": "name",
+        "text_id": 54203,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       54203
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽",
+       "月渊龙女"
+      ]
+     }
+    },
+    "牛皮护手": {
+     "reason": "game_only",
+     "game_id": "3006",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "3006",
+        "field": "name",
+        "text_id": 4061,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       4061
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "玉尘灵仙",
+       "分解装备",
+       "长辉照夜",
+       "蚀骨魂龙",
+       "青鸾巽羽"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "Level 1000",
+   "tier_kind": "level",
+   "level": 1000,
+   "levels": [
+    1000
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "Helmet": "Soulfeast Helm",
+    "Necklace": "Chain of Radiance",
+    "Card": "Seal-Knot Card",
+    "Earrings": "Ring of Radiance",
+    "Armor": "Armor of Cursed Orbs",
+    "Ring": "Stellar Benediction Ring",
+    "Belt": "Belt of Exocist",
+    "Relic": "Stellar Benediction Key",
+    "Trousers": "Materialized Weave Trousers",
+    "Emblem": "Stellar Benediction Badge",
+    "Shoes": "Royal Family Boots",
+    "Off-hand": "Stellar Benediction Shield",
+    "Weapon": "Bloodveil Longblade",
+    "Handguard": "Netherworld First Water"
+   },
+   "alternatives": {
+    "Necklace": [
+     "Doom Reversal Necklace"
+    ],
+    "Earrings": [
+     "Doom Reversal Earring"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": "Blade of Salvation",
+   "item_ids": {
+    "噬魂血盔": "gear-game-95021",
+    "辉耀之链": "gear-134",
+    "逆厄辉链": "gear-1584",
+    "千印结牌": "gear-game-95019",
+    "辉耀之环": "gear-138",
+    "逆厄辉环": "gear-1581",
+    "法球咒铠": "gear-1686",
+    "瑶星神佑圣戒": "gear-2083",
+    "圣职驱魔": "gear-1689",
+    "瑶星神佑圣钥": "gear-2084",
+    "质化织裤": "gear-1858",
+    "瑶星神佑圣徽": "gear-2085",
+    "宗室礼靴": "gear-1282",
+    "瑶星神佑圣盾": "gear-2086",
+    "血隐长刃": "gear-2291",
+    "幽冥初水": "gear-game-90323",
+    "佑世之锋": "gear-2299"
+   },
+   "unlinked": {
+    "噬魂血盔": {
+     "reason": "game_only",
+     "game_id": "95021",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95021",
+        "field": "name",
+        "text_id": 82516,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       82516
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "长辉照夜",
+       "千宵月守"
+      ]
+     }
+    },
+    "千印结牌": {
+     "reason": "game_only",
+     "game_id": "95019",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "95019",
+        "field": "name",
+        "text_id": 82512,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       82512
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "长辉照夜",
+       "青鸾巽羽"
+      ]
+     }
+    },
+    "幽冥初水": {
+     "reason": "game_only",
+     "game_id": "90323",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90323",
+        "field": "name",
+        "text_id": 69056,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       69056
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "氪金攻略",
+       "拂光破雪",
+       "战争之蹄",
+       "黑衫刃影",
+       "不熄曜日"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Blade of Thunder",
+    "id": "rune-1425",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Exuberant",
+    "id": "rune-1422",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Degenerate",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Magic Wrath",
+    "id": "rune-1408",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "[Forged Steel]/Absolute Blade",
+    "id": null,
+    "options": [
+     {
+      "name": null,
+      "id": null,
+      "unlinked": {
+       "reason": "typo_candidate",
+       "game_id": null,
+       "possible_match": {
+        "name": "断钢",
+        "id": "rune-1997",
+        "source": "similar name in runes.json",
+        "status": "unverified"
+       },
+       "game": null,
+       "wiki_lookup": {
+        "title_found": false,
+        "page": null,
+        "search_hits": [
+         "长辉照夜",
+         "玉尘灵仙",
+         "蚀骨魂龙"
+        ]
+       }
+      }
+     },
+     {
+      "name": "Absolute Blade",
+      "id": "rune-1406",
+      "unlinked": null
+     }
+    ],
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": null,
+    "id": null,
+    "options": null,
+    "unlinked": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "铁棘",
+      "id": "rune-1420",
+      "source": "similar name in runes.json",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "战争之蹄",
+       "长辉照夜",
+       "玉尘灵仙"
+      ]
+     }
+    }
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Raging Beast",
+    "id": "black_stone-03",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Cursed Soul",
+    "id": "black_stone-14",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "The casting speed of [Golden Gleampath] and [Divine Blade] is increased by 20%."
+   },
+   {
+    "rank": 2,
+    "text": "When [Divine Blade] is cast, each Fury Orb you own increases the DMG of [Divine Blade] by 20% (requires learning [Starflare Impact]; the effect cap is also the same as that skill's), and while casting [Divine Blade] you are immune to control effects and knock-up."
+   },
+   {
+    "rank": 3,
+    "text": "The light spear released by [Radiant Reflection] will pierce an additional enemy target."
+   },
+   {
+    "rank": 4,
+    "text": "When [Shorebound Refraction] is triggered, the DMG is negated, the enemy is stunned for 1 second, and inflicted with Physical Armor Break for 4 seconds. Physical Armor Break: Physical Armor -10%, stacking up to 3 times. (This effect cannot reduce Physical Armor below 0)"
+   },
+   {
+    "rank": 5,
+    "text": "All skills of Radiant Vigil can deal damage to enemies in an invincible state."
+   },
+   {
+    "rank": 6,
+    "text": "All DMG dealt by Theiana is increased by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": {
+  "levels": [
+   {
+    "index": 1,
+    "name": "Firstlight",
+    "level_range": "Lv1-Lv2",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 640,
+      "raw": "×640"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Rage Recovery +20"
+   },
+   {
+    "index": 2,
+    "name": "Lightward Guide",
+    "level_range": "Lv3-Lv4",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 860,
+      "raw": "×860"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Max Fury Orb +2"
+   },
+   {
+    "index": 3,
+    "name": "Soluna",
+    "level_range": "Lv5-Lv6",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 2160,
+      "raw": "×2160"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Radiant Reflection DMG is increased by 60%, but the number of charges gained from casting Divine Blade is reduced by 1."
+   },
+   {
+    "index": 4,
+    "name": "Blazeglow",
+    "level_range": "Lv7-Lv9",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 960,
+      "raw": "×960"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "Critical Chance (Skill) +10.00%; Crit Damage Boost +30.00%"
+   },
+   {
+    "index": 5,
+    "name": "Lightchaser",
+    "level_range": "Lv10-Lv12",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1290,
+      "raw": "×1290"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 30,
+      "raw": "×30"
+     }
+    ],
+    "effect": "All DMG dealt by Theiana has a 45% chance to not be deflect. For every 1 point of Physical Mastery, this chance increases by 0.5%."
+   },
+   {
+    "index": 6,
+    "name": "Brightstar",
+    "level_range": "Lv13-Lv17",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1600,
+      "raw": "×1600"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 50,
+      "raw": "×50"
+     }
+    ],
+    "effect": "The casting speed of [Golden Gleampath] and [Divine Blade] is increased by 15%."
+   },
+   {
+    "index": 7,
+    "name": "Moonwhite",
+    "level_range": "Lv18-Lv19",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 3240,
+      "raw": "×3240"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "[Divine Blade] restores 400 Rage upon casting."
+   },
+   {
+    "index": 8,
+    "name": "Sun Halo",
+    "level_range": "Lv20-Lv24",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1800,
+      "raw": "×1800"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "Crit Resistance (Attack) +10.00%; Crit Resistance (Skill) +10.00%"
+   },
+   {
+    "index": 9,
+    "name": "Scorching Sun",
+    "level_range": "Lv25-Lv29",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 3600,
+      "raw": "×3600"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 100,
+      "raw": "×100"
+     }
+    ],
+    "effect": "Physical Damage Reduction +5.00%; Spell Damage Reduction +5.00%"
+   },
+   {
+    "index": 10,
+    "name": "Divine Radiance",
+    "level_range": "Lv30",
+    "cost": [
+     {
+      "item": "Sanguine Stone",
+      "amount": 1850,
+      "raw": "×1850"
+     },
+     {
+      "item": "Blacktide Medal",
+      "amount": 20,
+      "raw": "×20"
+     }
+    ],
+    "effect": "Has a 100% chance to resist the Confused or Taunted effect when inflicted."
+   }
+  ],
+  "total_cost": [
+   {
+    "item": "Sanguine Stone",
+    "amount": 18000,
+    "raw": "×18000"
+   },
+   {
+    "item": "Blacktide Medal",
+    "amount": 410,
+    "raw": "×410"
+   }
+  ]
+ },
+ "relics": [
+  {
+   "name": "Covenant of Light",
+   "id": "relic-2080"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E9%95%BF%E8%BE%89%E7%85%A7%E5%A4%9C",
+ "revid": 8854,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8854",
+ "rev_timestamp": "2026-05-03T15:43:26Z",
+ "i18n": {
+  "name_zh": "长辉照夜",
+  "sources": {
+   "derived": 6,
+   "game_db": 34,
+   "glossary": 103,
+   "lore": 1,
+   "names": 64,
+   "translated": 18
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "game_db",
+    "text_id": 81569,
+    "match": "exact"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 81571,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 81570,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 81572,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 81573,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 81574,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "game_db",
+    "text_id": 81575,
+    "match": "exact"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4292,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "translated"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4293,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 81579,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 81611,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 81612,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "game_db",
+    "text_id": 81613,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 81614,
+    "match": "exact"
+   },
+   "divinity.levels[0].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[1].effect": {
+    "source": "game_db",
+    "text_id": 56827,
+    "match": "exact"
+   },
+   "divinity.levels[2].effect": {
+    "source": "game_db",
+    "text_id": 81576,
+    "match": "exact"
+   },
+   "divinity.levels[3].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[4].effect": {
+    "source": "game_db",
+    "text_id": 81578,
+    "match": "exact"
+   },
+   "divinity.levels[5].effect": {
+    "source": "game_db",
+    "text_id": 81579,
+    "match": "exact"
+   },
+   "divinity.levels[6].effect": {
+    "source": "game_db",
+    "text_id": 81580,
+    "match": "exact"
+   },
+   "divinity.levels[7].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[8].effect": {
+    "source": "translated"
+   },
+   "divinity.levels[9].effect": {
+    "source": "game_db",
+    "text_id": 81787,
+    "match": "exact"
+   }
+  },
+  "missing": [
+   {
+    "path": "skills[8].name",
+    "zh": "刽子手",
+    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+   },
+   {
+    "path": "runes.main[6].options[0]",
+    "zh": "锻钢",
+    "reason": "names.json/runes: probably a typo on the wiki; not corrected"
+   },
+   {
+    "path": "runes.support[0]",
+    "zh": "铁荆",
+    "reason": "names.json/runes: probably a typo on the wiki; not corrected"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.main[6].name",
+    "zh": "锻钢",
+    "en": "Forged Steel"
+   }
+  ]
+ }
+}

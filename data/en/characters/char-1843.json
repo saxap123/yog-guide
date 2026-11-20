@@ -1,0 +1,556 @@
+{
+ "id": "char-1843",
+ "name": "Phantasmal Dream",
+ "page_title": "绮夜梦影",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Sasha Luo",
+  "gender": "Female",
+  "race": "Beast Blood",
+  "birthday": "--05-05",
+  "birthplace": "The Far North",
+  "height_weight": "140cm/30kg",
+  "specialties": [
+   "keen sense of smell",
+   "immense strength",
+   "thinking"
+  ],
+  "likes": [
+   "Forest",
+   "heights",
+   "punctual pocket watch (bond gift)"
+  ],
+  "dislikes": [
+   "sugar-coated brush-offs",
+   "being thrown out"
+  ],
+  "release_date": "2025-02-26"
+ },
+ "element": "Fire",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Guardian Front",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Invokers Front",
+    "id": "faction-2202"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   },
+   {
+    "name": "Return Front",
+    "id": "faction-2196"
+   },
+   {
+    "name": "Cursed Erosion Front",
+    "id": "faction-2219"
+   },
+   {
+    "name": "Resonance Front",
+    "id": "faction-2217"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Max HP",
+   "Constitution",
+   "Physical Resistance",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction"
+  ],
+  "secondary": [
+   "Rage",
+   "Rage Restore",
+   "CD Reduction",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Stir the Blaze",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Swings a great axe, dealing 1200% Spell Power as Fire DMG to enemies in front.",
+   "scaling": [
+    {
+     "percent": "1200%",
+     "values": [
+      1200.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 1200% of Spell Power"
+    }
+   ],
+   "name_zh": "撩动烈焰"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Soul Snatch",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Wield the great axe to gather enemies within an 8-meter radius around and deal fire damage equal to 5000% spell power.",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 5000% of Spell Power"
+    }
+   ],
+   "name_zh": "牵魂夺魄"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Courageous Shout",
+   "cooldown_s": 16,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Taunt enemies within a 6-meter radius around for 4 seconds.",
+   "scaling": [],
+   "name_zh": "勇气呐喊"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Brand Bond",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Release Courageous Shout and simultaneously apply an effect to all teammates, increasing their fire damage by 30% for 8 seconds.",
+   "scaling": [],
+   "name_zh": "烙印相结"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Wolf Blood Boiling",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When damaged by enemies, 10% chance to counter-attack. Deals 2500% spell power fire damage to nearby enemies. 2-second cooldown. If the attacking enemy is taunted, counter-attack chance rises to 20% and cooldown shortens to 1 second.",
+   "scaling": [
+    {
+     "percent": "2500%",
+     "values": [
+      2500.0
+     ],
+     "stat": "Spell Power",
+     "effect": "Fire DMG",
+     "text": "Fire DMG equal to 2500% of Spell Power"
+    }
+   ],
+   "name_zh": "狼血沸腾"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Bloodmoon Whispers",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When Wolf Blood Boiling is triggered, the following Wolf Blood Boiling damage received by the enemy unit that triggered this effect is increased by 50%. This effect can stack up to 3 times and lasts for 4 seconds.",
+   "scaling": [],
+   "name_zh": "血月低语"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Dawn-Moon Rite",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Soul Snatch] DMG dealt is increased by 100%, and its enemy-gathering range +25%; all DMG taken has a 40% chance to be deflected. Deflection: when Deflection triggers, final DMG taken is reduced by 75%)",
+   "scaling": [],
+   "name_zh": "迎晓之仪"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Vitality",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Max HP increased by 6%, Max shield increased by 6%",
+   "scaling": [],
+   "name_zh": "活力"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Evasion",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Normal attack evasion chance increased by 15%",
+   "scaling": [],
+   "name_zh": "躲闪"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Intensive Care",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Healing effect received increased by 10%",
+   "scaling": [],
+   "name_zh": "加护"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Barricade",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Activate barricade to reduce all damage taken by 30% when HP reaches the 75%/45%/15% thresholds, lasts 2.5 seconds",
+   "scaling": [],
+   "name_zh": "护体"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Waiting for a Lv 450 build — suggestions welcome in the comments below",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder: editors ask for a 450 build in the comments",
+   "slots": {
+    "Helmet": null,
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": null,
+    "Ring": null,
+    "Belt": null,
+    "Relic": null,
+    "Trousers": null,
+    "Emblem": null,
+    "Shoes": null,
+    "Off-hand": null,
+    "Weapon": "Blood-stained wolf teeth",
+    "Handguard": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "染血狼牙": "gear-2301"
+   },
+   "unlinked": null,
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "Sunstrider",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Light Guard",
+    "id": "rune-1428",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Athanasia",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Devil Roar",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Fireplayer",
+    "id": "rune-1430",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Poison Fang",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "Thunder Roar",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "Strong Rock",
+    "id": "rune-1417",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "Thanks here to the expert [Guanhai] (Shuijin861) for providing the rune chart"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Wolverine",
+    "id": "black_stone-08",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Gargoyle",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Voltaic Vulpes",
+    "id": "black_stone-11",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "Golden Crow",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "The maximum stackable of Bloodmoon Whispers is increased by 2."
+   },
+   {
+    "rank": 2,
+    "text": "Each 1 point of own Mental Mastery increases the Fire Damage Boost granted by [Brand Bond] by +0.5%. (The extra increase will not exceed 50% at most)"
+   },
+   {
+    "rank": 3,
+    "text": "When the counterattack effect of \"Wolf Blood Boiling\" is triggered, there is a 20% chance of an additional trigger."
+   },
+   {
+    "rank": 4,
+    "text": "When a team member is stunned, charmed or hexed, the effect is instantly dispelled and a magic shield is applied. The shield, sized at 20% of Sasha Luo max HP, lasts 4 seconds. The effect has a 8-second trigger interval."
+   },
+   {
+    "rank": 5,
+    "text": "For targets affected by [Blood Moon Below], each 1 stack of [Blood Moon Below] gives a 10% chance to be unable to trigger dispel effects; at the same time, targets affected by [Blood Moon Below] have a 30% increased chance of being Deflected when dealing DMG to Phantasmal Dream."
+   },
+   {
+    "rank": 6,
+    "text": "All damage dealt by Sasha Luo increases by 10%."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Divine-pearly teeth",
+   "id": "relic-1941"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Guard battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%AE%E5%A4%9C%E6%A2%A6%E5%BD%B1",
+ "revid": 9065,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9065",
+ "rev_timestamp": "2026-07-28T10:14:57Z",
+ "i18n": {
+  "name_zh": "绮夜梦影",
+  "sources": {
+   "derived": 5,
+   "game_db": 15,
+   "glossary": 57,
+   "lore": 1,
+   "names": 36,
+   "translated": 14
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "game_db",
+    "text_id": 78528,
+    "match": "exact"
+   },
+   "skills[2].description": {
+    "source": "game_db",
+    "text_id": 78527,
+    "match": "exact"
+   },
+   "skills[3].description": {
+    "source": "game_db",
+    "text_id": 78529,
+    "match": "exact"
+   },
+   "skills[4].description": {
+    "source": "game_db",
+    "text_id": 78530,
+    "match": "exact"
+   },
+   "skills[5].description": {
+    "source": "game_db",
+    "text_id": 78531,
+    "match": "exact"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 2961,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 2970,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 2992,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 4364,
+    "match": "exact"
+   },
+   "runes.note": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "game_db",
+    "text_id": 78513,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "game_db",
+    "text_id": 78515,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "game_db",
+    "text_id": 78516,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "game_db",
+    "text_id": 78518,
+    "match": "exact"
+   }
+  },
+  "missing": null,
+  "untranslated_lore": [
+   "lore"
+  ],
+  "unofficial_names": [
+   {
+    "path": "runes.note",
+    "zh": "观海",
+    "en": "Guanhai"
+   },
+   {
+    "path": "runes.note",
+    "zh": "水金",
+    "en": "Shuijin"
+   },
+   {
+    "path": "blood_ranks.ranks[4].text",
+    "zh": "血月低于",
+    "en": "Blood Moon Below"
+   },
+   {
+    "path": "blood_ranks.ranks[4].text",
+    "zh": "血月低于",
+    "en": "Blood Moon Below"
+   },
+   {
+    "path": "blood_ranks.ranks[4].text",
+    "zh": "血月低于",
+    "en": "Blood Moon Below"
+   }
+  ]
+ }
+}

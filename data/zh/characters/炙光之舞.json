@@ -1,0 +1,864 @@
+{
+ "id": "char-305",
+ "name": "炙光之舞",
+ "page_title": "炙光之舞",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "凛蝶",
+  "gender": "女",
+  "race": null,
+  "birthday": "7月13日",
+  "birthplace": "贸旧帝国地区",
+  "height_weight": "171cm/58kg",
+  "specialties": [
+   "舞蹈",
+   "编曲",
+   "园艺"
+  ],
+  "likes": [
+   "蝴蝶",
+   "花卉",
+   "音乐",
+   "音乐盒（羁绊礼物）"
+  ],
+  "dislikes": [
+   "大风天气",
+   "没礼貌的人",
+   "冬天"
+  ],
+  "release_date": "2023年03月01日"
+ },
+ "element": "火焰",
+ "rarity": "SS",
+ "factions": {
+  "base": {
+   "name": "守护",
+   "id": "faction-1618"
+  },
+  "others": [
+   {
+    "name": "敌法",
+    "id": "faction-2201"
+   },
+   {
+    "name": "医者",
+    "id": "faction-2204"
+   },
+   {
+    "name": "坚韧",
+    "id": "faction-2207"
+   },
+   {
+    "name": "妖精",
+    "id": "faction-2208"
+   },
+   {
+    "name": "盾御",
+    "id": "faction-2210"
+   },
+   {
+    "name": "力场",
+    "id": "faction-2212"
+   },
+   {
+    "name": "暴怒",
+    "id": "faction-2190"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "法术精通"
+  ],
+  "secondary": null
+ },
+ "note": "跟粉毛暗辅/妖精天使一队，全程无敌",
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "普通攻击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对近战范围内的1名敌人造成200%法术强度的火焰伤害。",
+   "scaling": [
+    {
+     "percent": "200%",
+     "values": [
+      200.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "200%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "炽盛回旋",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "将周围15米范围内(竞技场中为7米)的敌人聚集至自身前方，并造成750%法术强度的火焰伤害(竞技场中造成的伤害减少50%)。且使被攻击到的的敌人受到的火焰和闪电伤害提高10%，持续15秒。",
+   "scaling": [
+    {
+     "percent": "750%",
+     "values": [
+      750.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "750%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "火舞",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "跃向距离队友最近的敌人，落地后对落点周围3.5米范围敌人造成500%法术强度的火焰伤害(竞技场中造成的伤害减少50%)，并将受到伤害的怪物(不会对英雄和BOSS生效)聚集至落点附近并对其施加嘲讽。如果敌人是黑卫，则嘲讽最近的1名敌方黑卫持续1.5秒。",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "500%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "光之触",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每2次普攻后释放，召唤光盾，对身前5米范围内所有敌人造成500%法术强度的火焰伤害(竞技场中造成的伤害减少50%)，且光之触有额外10%+法术精通0.25%暴击几率。",
+   "scaling": [
+    {
+     "percent": "500%",
+     "values": [
+      500.0
+     ],
+     "stat": "法术强度",
+     "effect": "火焰伤害",
+     "text": "500%法术强度的火焰伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "浴火重生",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "光之触额外附加自身体质450%的伤害。且当自身受到致命伤害时会触发一次复活，并恢复自身100%的最大生命值和怒气值。",
+   "scaling": [
+    {
+     "percent": "100%",
+     "values": [
+      100.0
+     ],
+     "stat": "最大生命值",
+     "effect": null,
+     "text": "100%的最大生命值"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "幻魅",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "炽盛回旋命中后，有100%的几率使命中的所有敌人进入嘲讽状态3秒(对BOSS无效)。嘲讽状态下的敌人仅使用普攻，且只会攻击嘲讽释放者。自身受到嘲讽状态敌人的伤害时，该伤害降低50%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "蝶翼之御",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "火舞释放后使所有队友的全伤害减免增加30%，持续3秒，且在持续期间内处于霸体状态(无法被击退、击飞)。同时炙光之舞每拥有4000体质增加1%火焰伤害增幅，上限不超过150%。【火舞】和【炽盛回旋】造成的伤害提升100%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "活力",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升6%，最大护盾值提升6%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "躲闪",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "普通攻击闪避几率提升15%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "加护",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "受到的治疗效果提升10%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "护体",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "生命值低于75%/45%/15%时，触发护体状态，减少30%所受伤害，持续时间2.5秒",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "800减抗装",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "减抗装",
+   "tier_note": null,
+   "slots": {
+    "头盔": "定心精盔",
+    "项链": "扩散魔链",
+    "卡牌": "总攻卡牌",
+    "耳坠": "共生耳环",
+    "衣服": "深渊壁垒",
+    "戒指": "怒焰圣戒",
+    "腰带": "纯净炙金",
+    "圣物": "守护之利刃",
+    "裤子": "共生护腿",
+    "徽章": "怒焰微印",
+    "鞋子": "法师长靴",
+    "副手": "紫怒之盾",
+    "武器": "蹁跹蝶翼",
+    "护手": "铁卫魔手"
+   },
+   "alternatives": {
+    "头盔": [
+     "圣守耀盔"
+    ],
+    "卡牌": [
+     "龙力魔牌"
+    ],
+    "耳坠": [
+     "魔弦耳环"
+    ],
+    "衣服": [
+     "聚能之铠"
+    ],
+    "腰带": [
+     "沐光环绕"
+    ],
+    "圣物": [
+     "凛冬"
+    ],
+    "裤子": [
+     "魔弦护腿"
+    ],
+    "鞋子": [
+     "月辉·东方锦靴"
+    ],
+    "副手": [
+     "夺魂大盾"
+    ],
+    "武器": [
+     "渴血"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "定心精盔": "gear-1688",
+    "圣守耀盔": "gear-1274",
+    "扩散魔链": null,
+    "总攻卡牌": "gear-1692",
+    "龙力魔牌": "gear-1691",
+    "共生耳环": null,
+    "魔弦耳环": null,
+    "深渊壁垒": "gear-1082",
+    "聚能之铠": "gear-1170",
+    "怒焰圣戒": null,
+    "纯净炙金": null,
+    "沐光环绕": "gear-1199",
+    "守护之利刃": null,
+    "凛冬": null,
+    "共生护腿": null,
+    "魔弦护腿": null,
+    "怒焰微印": null,
+    "法师长靴": null,
+    "月辉·东方锦靴": null,
+    "紫怒之盾": null,
+    "夺魂大盾": null,
+    "蹁跹蝶翼": null,
+    "渴血": "gear-1190",
+    "铁卫魔手": null
+   },
+   "unlinked": {
+    "扩散魔链": {
+     "reason": "game_only",
+     "game_id": "90201",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90201",
+        "field": "name",
+        "text_id": 62158,
+        "type": "9"
+       }
+      ],
+      "text_ids": [
+       62158
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": true,
+      "page": "扩散魔链",
+      "search_hits": []
+     }
+    },
+    "共生耳环": {
+     "reason": "game_only",
+     "game_id": "90307",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90307",
+        "field": "name",
+        "text_id": 63589,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       63589
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "炙光之舞",
+       "幸运装备"
+      ]
+     }
+    },
+    "魔弦耳环": {
+     "reason": "game_only",
+     "game_id": "90306",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90306",
+        "field": "name",
+        "text_id": 63588,
+        "type": "14"
+       }
+      ],
+      "text_ids": [
+       63588
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "千宵月守"
+      ]
+     }
+    },
+    "怒焰圣戒": {
+     "reason": "game_only",
+     "game_id": "90292",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90292",
+        "field": "name",
+        "text_id": 63574,
+        "type": "4"
+       }
+      ],
+      "text_ids": [
+       63574
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "炙光之舞"
+      ]
+     }
+    },
+    "纯净炙金": {
+     "reason": "game_only",
+     "game_id": "1020",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "1020",
+        "field": "name",
+        "text_id": 53821,
+        "type": "7"
+       }
+      ],
+      "text_ids": [
+       53821
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞"
+      ]
+     }
+    },
+    "守护之利刃": {
+     "reason": "game_only",
+     "game_id": "13050",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13050",
+        "field": "name",
+        "text_id": 55664,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       55664
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞",
+       "冷却装备",
+       "幸运装备"
+      ]
+     }
+    },
+    "凛冬": {
+     "reason": "game_only",
+     "game_id": "13018",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13018",
+        "field": "name",
+        "text_id": 3942,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3942
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "凛冬祈雪",
+       "凛冬魔女",
+       "炙光之舞",
+       "阵线模拟器",
+       "雪月公主"
+      ]
+     }
+    },
+    "共生护腿": {
+     "reason": "game_only",
+     "game_id": "90310",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90310",
+        "field": "name",
+        "text_id": 63592,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63592
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "炙光之舞"
+      ]
+     }
+    },
+    "魔弦护腿": {
+     "reason": "game_only",
+     "game_id": "90309",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90309",
+        "field": "name",
+        "text_id": 63591,
+        "type": "11"
+       }
+      ],
+      "text_ids": [
+       63591
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "纯白之羽",
+       "炙光之舞",
+       "百花旅者",
+       "爱恋花见"
+      ]
+     }
+    },
+    "怒焰微印": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "怒焰徽印",
+      "id": null,
+      "source": "similar name in game DB",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞"
+      ]
+     }
+    },
+    "法师长靴": {
+     "reason": "game_only",
+     "game_id": "15011",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15011",
+        "field": "name",
+        "text_id": 3978,
+        "type": "6"
+       },
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15027",
+        "field": "name",
+        "text_id": 3978,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       3978
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞"
+      ]
+     }
+    },
+    "月辉·东方锦靴": {
+     "reason": "game_only",
+     "game_id": "15043",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "15043",
+        "field": "name",
+        "text_id": 4004,
+        "type": "6"
+       }
+      ],
+      "text_ids": [
+       4004
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞"
+      ]
+     }
+    },
+    "紫怒之盾": {
+     "reason": "game_only",
+     "game_id": "90263",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90263",
+        "field": "name",
+        "text_id": 63093,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       63093
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞",
+       "传承之龙"
+      ]
+     }
+    },
+    "夺魂大盾": {
+     "reason": "game_only",
+     "game_id": "90013",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90013",
+        "field": "name",
+        "text_id": 55964,
+        "type": "10"
+       }
+      ],
+      "text_ids": [
+       55964
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞"
+      ]
+     }
+    },
+    "蹁跹蝶翼": {
+     "reason": "game_only",
+     "game_id": "90034",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90034",
+        "field": "name",
+        "text_id": 57360,
+        "type": "1"
+       }
+      ],
+      "text_ids": [
+       57360
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "炙光之舞"
+      ]
+     }
+    },
+    "铁卫魔手": {
+     "reason": "game_only",
+     "game_id": "90300",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90300",
+        "field": "name",
+        "text_id": 63582,
+        "type": "8"
+       }
+      ],
+      "text_ids": [
+       63582
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "迷雾山脉-深层幻境攻略",
+       "炙光之舞"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": null,
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "石像鬼",
+    "id": "black_stone-09",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "金乌",
+    "id": "black_stone-16",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": null,
+ "divinity": null,
+ "relics": [
+  {
+   "name": "舞者假面",
+   "id": "relic-1959"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": [
+  {
+   "level": 2,
+   "question": "《练舞》",
+   "answers": [
+    "√没关系，我帮你收拾",
+    "×别在寝室练舞，去活动室"
+   ]
+  },
+  {
+   "level": 5,
+   "question": "《后援会》",
+   "answers": [
+    "√我不装了，就是我",
+    "×当然不是我"
+   ]
+  },
+  {
+   "level": 10,
+   "question": "《永生》",
+   "answers": [
+    "获得专属武器：蹁跹蝶翼"
+   ]
+  }
+ ],
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事"
+ ],
+ "parse_notes": [
+  "no 黑卫血阶 template on the page"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E7%82%99%E5%85%89%E4%B9%8B%E8%88%9E",
+ "revid": 9132,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9132",
+ "rev_timestamp": "2026-08-11T03:22:51Z"
+}

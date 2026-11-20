@@ -1,0 +1,656 @@
+{
+ "id": "char-296",
+ "name": "夜行暹罗",
+ "page_title": "夜行暹罗",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "呜喵",
+  "gender": "女",
+  "race": "人类",
+  "birthday": "4月8日",
+  "birthplace": "科伦达尔",
+  "height_weight": "165cm/51kg",
+  "specialties": [
+   "钓鱼",
+   "爬树",
+   "学猫叫"
+  ],
+  "likes": [
+   "玩偶",
+   "各种做法的鱼",
+   "小狐狸",
+   "毛茸茸的玩偶（羁绊礼物）"
+  ],
+  "dislikes": [
+   "橘子",
+   "香水",
+   "欺负小动物的人"
+  ],
+  "release_date": "2024年05月29日"
+ },
+ "element": "闪电",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "狩魔",
+   "id": "faction-1629"
+  },
+  "others": [
+   {
+    "name": "诡影",
+    "id": "faction-2198"
+   },
+   {
+    "name": "强袭",
+    "id": "faction-2199"
+   },
+   {
+    "name": "智慧",
+    "id": "faction-2200"
+   },
+   {
+    "name": "超导",
+    "id": "faction-2211"
+   },
+   {
+    "name": "聚变",
+    "id": "faction-2216"
+   },
+   {
+    "name": "咒蚀",
+    "id": "faction-2219"
+   },
+   {
+    "name": "雷暴",
+    "id": "faction-2218"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "全伤害类型减免（PVE要95%）",
+   "%法术强度",
+   "技能暴击",
+   "闪电穿透",
+   "暴击倍率",
+   "魔力",
+   "全伤害类型增幅",
+   "法术伤害增幅",
+   "闪电伤害增幅"
+  ],
+  "secondary": [
+   "怒气回复",
+   "最大生命值",
+   "体质",
+   "物理抗性",
+   "暴击伤害减免"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "普攻",
+   "category": "普攻",
+   "name": "飞刃",
+   "cooldown_s": 1.5,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "对敌人投掷出飞刃，穿透路径上的所有目标，造成800%法术强度的闪电伤害。(伤害视为技能伤害，且此效果不会受攻速影响)",
+   "scaling": [
+    {
+     "percent": "800%",
+     "values": [
+      800.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "800%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "必杀技",
+   "category": "必杀技",
+   "name": "奥义·雷狱",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000怒气",
+   "description": "对随机敌人释放雷阵，持续5秒。雷阵范围内每秒释放落雷，对最多5名敌人造成5000%法术强度的雷电伤害。",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "法术强度",
+     "effect": "雷电伤害",
+     "text": "5000%法术强度的雷电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "战斗技",
+   "category": "战斗技",
+   "name": "乱舞手里剑",
+   "cooldown_s": 8,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "每当敌人被添加【麻木】、衰退、【低迷】、【迟缓】、【审判】等特殊状态时，有几率对其释放2枚乱舞手里剑，命中后造成1500%法术强度的闪电伤害。发动几率：15%。(该技能的冷却时间不会低于1秒)",
+   "scaling": [
+    {
+     "percent": "1500%",
+     "values": [
+      1500.0
+     ],
+     "stat": "法术强度",
+     "effect": "闪电伤害",
+     "text": "1500%法术强度的闪电伤害"
+    }
+   ]
+  },
+  {
+   "slot": "辅助技1",
+   "category": "辅助技",
+   "name": "电刃之印",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【奥义·雷狱】命中时，有5%几率对命中的目标造成昏迷效果，持续1.5秒。当自身的感知属性超过目标时，感知的差值越大，该效果的触发几率就越大。且【奥义·雷狱]造成的伤害提升100%",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技2",
+   "category": "辅助技",
+   "name": "咒缚千本",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "【飞刃】可以弹射1次，弹射时伤害衰减50%；【乱舞手里剑】造成的伤害提升50%。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技3",
+   "category": "辅助技",
+   "name": "雷鸣缭杀",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "夜行暹罗的感知+10。",
+   "scaling": []
+  },
+  {
+   "slot": "辅助技4",
+   "category": "辅助技",
+   "name": "雷遁",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "夜行暹罗的技能暴击几率+20%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技1",
+   "category": "通用辅助技",
+   "name": "致命瞄准",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "抓住敌人的虚弱时刻，对生命值低于35%的目标造成的伤害提升10%。",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技2",
+   "category": "通用辅助技",
+   "name": "体质增强",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "最大生命值提升2300点",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技3",
+   "category": "通用辅助技",
+   "name": "急速",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "攻击速度提升25%",
+   "scaling": []
+  },
+  {
+   "slot": "通用辅助技4",
+   "category": "通用辅助技",
+   "name": "强击",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "物理强度提升7%，法术强度提升7%",
+   "scaling": []
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "450级",
+   "tier_kind": "level",
+   "level": 450,
+   "levels": [
+    450
+   ],
+   "qualifier": null,
+   "tier_note": null,
+   "slots": {
+    "头盔": "月辉·烁金荧紫",
+    "项链": "咒石项链",
+    "卡牌": null,
+    "耳坠": null,
+    "衣服": "月辉·轻盈软甲",
+    "戒指": "猩红秘戒",
+    "腰带": "嗜战者束腰",
+    "圣物": "精灵飞羽",
+    "裤子": "戏谑者裤腿",
+    "徽章": "狩猎徽章",
+    "鞋子": "雷霆之怒",
+    "副手": "死灵法盾",
+    "武器": "夜狩风镰",
+    "护手": "妖精秘手"
+   },
+   "alternatives": {
+    "腰带": [
+     "王室荣尊"
+    ],
+    "圣物": [
+     "月辉·夜影蝠翼"
+    ],
+    "护手": [
+     "祭礼手套"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "月辉·烁金荧紫": "gear-1168",
+    "咒石项链": "gear-1169",
+    "月辉·轻盈软甲": "gear-1180",
+    "猩红秘戒": "gear-1171",
+    "嗜战者束腰": "gear-1210",
+    "王室荣尊": "gear-1172",
+    "精灵飞羽": null,
+    "月辉·夜影蝠翼": "gear-1181",
+    "戏谑者裤腿": "gear-1182",
+    "狩猎徽章": "gear-1184",
+    "雷霆之怒": "gear-1183",
+    "死灵法盾": "gear-1178",
+    "夜狩风镰": "gear-1639",
+    "妖精秘手": "gear-1179",
+    "祭礼手套": "gear-1627"
+   },
+   "unlinked": {
+    "精灵飞羽": {
+     "reason": "game_only",
+     "game_id": "13003",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "13003",
+        "field": "name",
+        "text_id": 3927,
+        "type": "5"
+       }
+      ],
+      "text_ids": [
+       3927
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "北境公主",
+       "百花旅者",
+       "分解装备",
+       "夜行暹罗",
+       "黑话解读"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "旅途800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "旅途",
+   "tier_note": null,
+   "slots": {
+    "头盔": "连锁雷帽",
+    "项链": "辉耀之链",
+    "卡牌": "魔球卡牌",
+    "耳坠": "辉耀之环",
+    "衣服": "雷咒长袍",
+    "戒指": "霆霓猩红血戒",
+    "腰带": "感电者",
+    "圣物": "霆霓猩红血玺",
+    "裤子": "戏谑者裤腿",
+    "徽章": "霆霓猩红血印",
+    "鞋子": "雷霆之怒",
+    "副手": "霆霓猩红血盾",
+    "武器": "隐猎魂息",
+    "护手": "妖精秘手"
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "连锁雷帽": null,
+    "辉耀之链": "gear-134",
+    "魔球卡牌": null,
+    "辉耀之环": "gear-138",
+    "雷咒长袍": "gear-1687",
+    "霆霓猩红血戒": "gear-188",
+    "感电者": "gear-1690",
+    "霆霓猩红血玺": "gear-176",
+    "戏谑者裤腿": "gear-1182",
+    "霆霓猩红血印": "gear-145",
+    "雷霆之怒": "gear-1183",
+    "霆霓猩红血盾": "gear-164",
+    "隐猎魂息": "gear-1579",
+    "妖精秘手": "gear-1179"
+   },
+   "unlinked": {
+    "连锁雷帽": {
+     "reason": "game_only",
+     "game_id": "90101",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90101",
+        "field": "name",
+        "text_id": 60209,
+        "type": "2"
+       }
+      ],
+      "text_ids": [
+       60209
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "夜行暹罗",
+       "忘却迷境-凛风雪原"
+      ]
+     }
+    },
+    "魔球卡牌": {
+     "reason": "game_only",
+     "game_id": "90212",
+     "possible_match": null,
+     "game": {
+      "refs": [
+       {
+        "table": "tpl_sc_equipment",
+        "row": "equip",
+        "game_id": "90212",
+        "field": "name",
+        "text_id": 62169,
+        "type": "13"
+       }
+      ],
+      "text_ids": [
+       62169
+      ]
+     },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "忘却迷境",
+       "战争之蹄",
+       "不熄曜日",
+       "夜行暹罗",
+       "千宵月守"
+      ]
+     }
+    }
+   },
+   "empty": false
+  },
+  {
+   "level_tier": "帆船800级",
+   "tier_kind": "level",
+   "level": 800,
+   "levels": [
+    800
+   ],
+   "qualifier": "帆船",
+   "tier_note": null,
+   "slots": {
+    "头盔": "祭仪羽冠",
+    "项链": "辉耀之链",
+    "卡牌": null,
+    "耳坠": "辉耀之环",
+    "衣服": "聚能铠甲",
+    "戒指": "霆霓猩红血戒",
+    "腰带": "感电者",
+    "圣物": "霆霓猩红血玺",
+    "裤子": "奏雷鸣裤",
+    "徽章": "霆霓猩红血印",
+    "鞋子": "宗室礼靴",
+    "副手": "霆霓猩红血盾",
+    "武器": "隐猎魂息",
+    "护手": "霆霓猩红血手"
+   },
+   "alternatives": {
+    "头盔": [
+     "界卫魔面"
+    ],
+    "徽章": [
+     "狩猎徽章"
+    ]
+   },
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "祭仪羽冠": "gear-1271",
+    "界卫魔面": "gear-1849",
+    "辉耀之链": "gear-134",
+    "辉耀之环": "gear-138",
+    "聚能铠甲": null,
+    "霆霓猩红血戒": "gear-188",
+    "感电者": "gear-1690",
+    "霆霓猩红血玺": "gear-176",
+    "奏雷鸣裤": "gear-1860",
+    "霆霓猩红血印": "gear-145",
+    "狩猎徽章": "gear-1184",
+    "宗室礼靴": "gear-1282",
+    "霆霓猩红血盾": "gear-164",
+    "隐猎魂息": "gear-1579",
+    "霆霓猩红血手": "gear-1659"
+   },
+   "unlinked": {
+    "聚能铠甲": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "聚魔铠甲",
+      "id": "gear-1284",
+      "source": "similar name in gear.json",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "夜行暹罗"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": [
+   {
+    "name": "雷霆咆哮",
+    "id": "rune-1411",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "残月",
+    "id": "rune-1426",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "魔哮",
+    "id": "rune-1427",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "逐日者",
+    "id": "rune-1409",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "毒牙",
+    "id": "rune-1410",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "腐朽者",
+    "id": "rune-1424",
+    "options": null,
+    "unlinked": null
+   },
+   {
+    "name": "不灭",
+    "id": "rune-1429",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "support": [
+   {
+    "name": "雷纹",
+    "id": "rune-1416",
+    "options": null,
+    "unlinked": null
+   }
+  ],
+  "note": "在此感谢 观海大佬（水金861）提供符文图"
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "巫妖",
+    "id": "black_stone-02",
+    "count": 4,
+    "raw": null
+   },
+   {
+    "name": "诡眼",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "闪鸣鸟",
+    "id": "black_stone-15",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "迅角兽",
+    "id": "black_stone-17",
+    "count": 8,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "【乱舞手里剑】发射数量+2"
+   },
+   {
+    "rank": 2,
+    "text": "【乱舞手里剑】释放时，夜行暹罗每拥有25点感知，将额外增加1枚手里剑"
+   },
+   {
+    "rank": 3,
+    "text": "响应技能发动率+10%"
+   },
+   {
+    "rank": 4,
+    "text": "【飞刃】命中时有1%几率对目标添加【审判】效果，持续5秒。当自身的感知属性超过目标时，感知的差值越大，该效果的触发几率就越大。(审判:目标的勇猛、感知、强韧属性降低3点，最多叠加10层)"
+   },
+   {
+    "rank": 5,
+    "text": "夜行暹罗受到伤害时，会无敌0.5秒并移动到周围随机位置。 (触发间隔8秒)"
+   },
+   {
+    "rank": 6,
+    "text": "夜行暹罗造成的所有伤害+10%"
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "告死之徽",
+   "id": "relic-1940"
+  }
+ ],
+ "battle_grid": null,
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "立绘2",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": null,
+ "source_url": "https://wiki.biligame.com/bookofyog/%E5%A4%9C%E8%A1%8C%E6%9A%B9%E7%BD%97",
+ "revid": 8701,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8701",
+ "rev_timestamp": "2026-03-12T12:34:36Z"
+}
