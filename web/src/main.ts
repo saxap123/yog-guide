@@ -1,6 +1,7 @@
 import "./style.css";
 import { badgeOf, initTooltip } from "./ui.ts";
 import { renderCard } from "./views/card.ts";
+import { renderGuides } from "./views/guides.ts";
 import { renderList } from "./views/list.ts";
 import { renderRef, type Kind } from "./views/refs.ts";
 import { renderTiers } from "./views/tiers.ts";
@@ -14,6 +15,9 @@ function route() {
   let nav = "chars";
   if (head === "c" && id) {
     renderCard(app, id);
+  } else if (head === "guides") {
+    nav = "guides";
+    renderGuides(app, id);
   } else if (head === "tiers") {
     nav = "tiers";
     renderTiers(app);

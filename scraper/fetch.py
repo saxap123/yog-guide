@@ -22,6 +22,7 @@ No parsing, no translation: the files hold the API answer as-is.
 
 Usage:  python scraper/fetch.py            (from the yog-guide folder)
         python scraper/fetch.py --force    (ignore stored revids)
+        python scraper/fetch.py --guides-only    (refresh the guide source cache)
 """
 
 from __future__ import annotations
@@ -70,6 +71,7 @@ ROOT = Path(__file__).resolve().parent.parent
 RAW = ROOT / "data" / "raw"
 MANIFEST = RAW / "manifest.json"
 COMPLETENESS = RAW / "completeness.json"
+GUIDE_DATA = ROOT / "translate" / "manual" / "guides.json"
 
 _UNSAFE = '<>:"/\\|?*'
 
@@ -150,9 +152,10 @@ class Api:
             cont = data["continue"]
 
 
-def load_manifest() -> dict:
-    if MANIFEST.exists():
-        with open(MANIFEST, encoding="utf-8") as f:
+def load_manifest(path: Path | None = None) -> dict:
+    path = path or MANIFEST
+    if path.exists():
+        with open(path, encoding="utf-8") as f:
             man = json.load(f)
     else:
         man = {"source": WIKI_BASE, "license": "CC BY-NC-SA 4.0", "pages": {}, "failed": {}}
@@ -229,13 +232,14 @@ def fetch_contents(api: Api, titles: list[str]) -> dict[str, dict]:
     return result
 
 
-def _fail(man: dict, key: str, reason: str) -> None:
+def _fail(man: dict, key: str, reason: str, manifest_path: Path | None = None) -> None:
     man["failed"][key] = {"reason": reason, "at": now_iso()}
-    write_json(MANIFEST, man)
+    write_json(manifest_path or MANIFEST, man)
 
 
 def download_group(api: Api, man: dict, group: str, titles: list[str], force: bool,
-                   meta: dict[str, dict] | None = None, extra: dict | None = None) -> dict[str, dict]:
+                   meta: dict[str, dict] | None = None, extra: dict | None = None, *,
+                   manifest_path: Path | None = None) -> dict[str, dict]:
     log(f"[{group}] {len(titles)} titles: checking revids")
     meta = meta if meta is not None else page_meta(api, titles)
     todo = []
@@ -244,7 +248,7 @@ def download_group(api: Api, man: dict, group: str, titles: list[str], force: bo
         key = f"{group}/{title}"
         m = meta.get(title)
         if m is None or m["missing"]:
-            _fail(man, key, "page missing on wiki")
+            _fail(man, key, "page missing on wiki", manifest_path)
             log(f"  {title}: MISSING")
             continue
         old = man["pages"].get(key)
@@ -261,14 +265,14 @@ def download_group(api: Api, man: dict, group: str, titles: list[str], force: bo
             contents = fetch_contents(api, part)
         except Exception as e:  # noqa: BLE001 - record and continue
             for t in part:
-                _fail(man, f"{group}/{t}", str(e))
+                _fail(man, f"{group}/{t}", str(e), manifest_path)
             log(f"  batch of {len(part)} FAILED ({e})")
             continue
         for title in part:
             key = f"{group}/{title}"
             c = contents.get(title)
             if c is None:
-                _fail(man, key, "no content returned")
+                _fail(man, key, "no content returned", manifest_path)
                 log(f"  {title}: FAILED (no content returned)")
                 continue
             fetched = now_iso()
@@ -289,7 +293,7 @@ def download_group(api: Api, man: dict, group: str, titles: list[str], force: bo
                                  "fetched_at": fetched}
             man["failed"].pop(key, None)
             done += 1
-        write_json(MANIFEST, man)
+        write_json(manifest_path or MANIFEST, man)
         log(f"  [{group}] {min(i + BATCH, len(todo))}/{len(todo)} fetched")
     log(f"[{group}] downloaded {done}, unchanged {skipped}")
     return meta
@@ -357,12 +361,40 @@ def download_rendered(api: Api, man: dict, title: str) -> None:
     log(f"[rendered] {title}")
 
 
+def download_guide_sources(api: Api, force: bool) -> int:
+    """Download the current wiki revisions and compare them with the reviewed guide sources."""
+    with GUIDE_DATA.open(encoding="utf-8") as f:
+        sources = json.load(f)["wiki"]
+    path = RAW / "guides" / "manifest.json"
+    man = load_manifest(path)
+    man["run_started"] = now_iso()
+    download_group(api, man, "guides", list(sources), force, manifest_path=path)
+    changes = []
+    for title, reviewed in sources.items():
+        key = f"guides/{title}"
+        if key in man["failed"]:
+            log(f"  {title}: {man['failed'][key]['reason']}")
+            continue
+        current = man["pages"][key]["revid"]
+        if current != reviewed["revid"]:
+            changes.append(title)
+            log(f"  {title}: reviewed revision {reviewed['revid']}, current revision {current}")
+    man["run_finished"] = now_iso()
+    man["api_requests_last_run"] = api.requests
+    write_json(path, man)
+    log(f"Guides: {len(changes)} source revisions to review, {len(man['failed'])} failed")
+    return 1 if man["failed"] else 0
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--force", action="store_true", help="re-download everything")
+    ap.add_argument("--guides-only", action="store_true", help="refresh sources for the progression guides")
     args = ap.parse_args()
 
     api = Api()
+    if args.guides_only:
+        return download_guide_sources(api, args.force)
     man = load_manifest()
     man["run_started"] = now_iso()
     man.setdefault("category_non_articles", {})

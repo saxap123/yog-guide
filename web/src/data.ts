@@ -1,5 +1,6 @@
 // Site data: generated at build time by scripts/prepare-data.ts from ../data/en (embedded, no fetches).
 import raw from "./generated/data.json";
+import type { GuideData } from "./guide-data.ts";
 
 export type Origin = "o" | "t" | "w";
 
@@ -31,6 +32,7 @@ interface Data {
   stones: Rec[];
   factions: Rec[];
   tiers: Rec[];
+  guides: GuideData;
 }
 
 export const DATA = raw as unknown as Data;

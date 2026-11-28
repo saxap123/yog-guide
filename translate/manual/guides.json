@@ -1,0 +1,648 @@
+{
+  "guides": [
+    {
+      "id": "start-here",
+      "title": "Start Here",
+      "summary": "First-day priorities, campaign rewards, summons, and Ancient Tree progression.",
+      "sources": [
+        "新手起号",
+        "角色养成",
+        "天赋推荐",
+        "隐藏奖励"
+      ],
+      "sections": [
+        {
+          "title": "Start with the Normal campaign",
+          "items": [
+            "Push the Normal campaign as far as your team can go. Normal clears raise offline earnings. Come back for three-star rewards, Hard, [[t:黑潮]], and Commander-only clears when you need their rewards.",
+            "When you stall, try controlling the Commander manually to interrupt the boss. Clear another stretch of tower stages, level the team, and try the campaign again. Clearing Normal Chapter 14 opens Misty Mountains, where deeper clears raise offline earnings again."
+          ]
+        },
+        {
+          "title": "Check the one-time gear picks",
+          "items": [
+            "Chapter 1-6-4 offers [[g:聚能之铠]]. The wiki recommends it as a versatile early armor pick.",
+            "Check [[g:战狂]] at 2-21-4, [[g:邪徒]] at 3-3-4, and [[g:妖精秘手]] at 3-6-4. The wiki lists other ways to obtain these pieces, with a resource cost.",
+            "The wiki flags [[g:夺魂之戒]] at 4-8-4 and [[g:蔷薇之心]] at 4-13-4. It lists a skin purchase as the alternative source if you miss the campaign reward."
+          ]
+        },
+        {
+          "title": "Build an inexpensive starter team",
+          "items": [
+            "Put your best damage dealer on the field and use easier-to-awaken S-rank Blackguards to build support-slot bonuses. The wiki suggests building up an S-rank [[f:狩魔]] support first, adding [[f:前锋]] support, and considering [[c:神之嫡子]] and [[c:灵刃之主]] as later SS-rank options.",
+            "Before summoning, check the selected banner’s wish and pity rules. The beginner article describes carryover within a recurring banner of the same name. Individual banners can have their own rules."
+          ]
+        },
+        {
+          "title": "Level the Ancient Tree",
+          "items": [
+            "Before level 400, the lowest-level Blackguard in your main slots sets the Tree’s cap. Upgrade and awaken easier-to-rank cards in those slots, then put rarer cards in linked slots so they can use the Tree’s recorded level.",
+            "From level 400 onward, invest directly in the Ancient Tree. Level skills before investing in specialization, which the wiki describes as a base-stat upgrade. For talents, start with the stat the Blackguard’s skills scale on, then choose offense or survivability by role.",
+            "The hidden-reward article shows a small Diamond pickup in a screenshot. Use the linked source to find its location."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gear-to-lock",
+      "title": "Gear to Lock",
+      "summary": "Search the wiki’s decomposition keep list by English name, Chinese name, or slot.",
+      "sources": [
+        "分解装备"
+      ],
+      "sections": [
+        {
+          "title": "Before bulk decomposition",
+          "items": [
+            "Lock the listed items in your inventory before running bulk decomposition. The wiki flags them for unique effects, such as [[t:物理强度]], [[t:法术强度]], [[t:全伤害类型减免]], [[t:技能冷却]], and [[t:吸血]], that can stay useful beyond the item’s level.",
+            "Keep uncertain Misty Mountains clear drops until you’ve checked their effects. The three-star flag marks items the wiki recommends fusing. Open the gear entry to see the effect and who uses it when that information is available."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "monthly-resources",
+      "title": "Monthly Resources",
+      "summary": "What to save for event milestones and what to buy in the Black Market.",
+      "sources": [
+        "每月资源",
+        "首页"
+      ],
+      "officialAnnouncements": true,
+      "sections": [
+        {
+          "title": "Save resources for the events that use them",
+          "items": [
+            "Crafting and synthesis events reward spending materials in batches. Set aside affix-stone fragments and equipment-leveling materials until you can check which actions count for the upcoming event.",
+            "For the Blackguard leaderboard event (黑卫之巅), compare ticket prices and milestone rewards before buying entries. Pick a milestone target if you’re playing for rewards.",
+            "Heart of Summon rewards Blackguard summons. If your team can already progress, save summon currency and calculate how many pulls you need from the current event screen. Budget [[t:圣血晶石]] separately for banners that require them.",
+            "For FP-spending events such as Blaze the Trail and The Sakura Season, check the overlap before using stored FP. One action may contribute to more than one event."
+          ]
+        },
+        {
+          "title": "Black Market and redeem codes",
+          "items": [
+            "The wiki prioritizes lock materials and the food item 熏制肉排 in the Black Market. Check the next refresh price before refreshing again.",
+            "Use the wiki’s homepage to look up listed codes and their restrictions. Confirm expiry and server or platform eligibility in your client or the official announcement."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "upgrades",
+      "title": "Gear Upgrades",
+      "summary": "Forge, fuse, enhance, and transfer gear without spending scarce materials too early.",
+      "sources": [
+        "锻造",
+        "装备改造",
+        "转移继承",
+        "黑石强化"
+      ],
+      "sections": [
+        {
+          "title": "Forge and fuse",
+          "items": [
+            "A blueprint unlocks a forging recipe. Forging earns experience toward blueprint choices. The wiki says one blueprint can contribute up to 200 experience and that lineup [[t:幸运]] affects the quality roll.",
+            "Pick a base worth keeping before using rare modification materials. For gear whose effect improves with fusion, the wiki suggests fusing same-name, same-quality feeder copies into a level-capped base. The feeder copies do not need to share the base’s level cap.",
+            "Plan your target prefixes and suffixes before rerolling. Save scarce [[t:神话]]-tier materials for pieces you expect to keep, and check the affix ranges and exclusions shown in the modification screen."
+          ]
+        },
+        {
+          "title": "Transfer enhancement, transfer affixes, or inherit",
+          "items": [
+            "Enhancement transfer moves the donor enhancement level to the target and resets the donor’s enhancement. Affix transfer replaces the target affixes and empties the donor’s affixes. The wiki lists [[t:史诗]] as the minimum quality for affix transfer.",
+            "Inheritance consumes the donor. The wiki’s eligibility checklist calls for an inscribed donor capped at level 700 or higher, a target with an equal or higher cap, and matching slot and affix groups. Preview what will carry over before confirming."
+          ]
+        },
+        {
+          "title": "Enhance Black Stones",
+          "items": [
+            "Eligible Black Stones come from deeper Misty Mountains floors. The wiki recommends starting with +3 on several good stones, then committing more shards to exceptional rolls. Its examples pair [[t:魔力]] with [[t:法术强度]] or [[t:力量]] with [[t:物理强度]], and prioritize [[t:体质]] for tanks.",
+            "Enhancement raises a random eligible stat. Check the stone’s quality, existing stats, and the cost of the next upgrade before spending shards."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stages-and-farming",
+      "title": "Stages & Farming",
+      "summary": "Misty Mountains, Forgotten Realm, Journey Stories, and Black Abyss.",
+      "sources": [
+        "迷雾山脉-迷雾幻境攻略",
+        "迷雾山脉-时空幻境",
+        "迷雾山脉-深层幻境攻略",
+        "忘却迷境攻略",
+        "旅途故事",
+        "旅途故事-黑云踏雪攻略",
+        "旅途故事-吾心如火攻略",
+        "旅途故事-璀璨新星攻略",
+        "旅途故事-好梦入眠攻略",
+        "追忆之帆-黑渊攻略"
+      ],
+      "sections": [
+        {
+          "title": "Misty Mountains",
+          "items": [
+            "Once Normal Chapter 14 is clear, push Misty Mountains while your team can beat the floor timer. The wiki distinguishes a kill that earns the clear from a kill fast enough to unlock the next floor. Use the in-game timer to judge whether to retreat or finish.",
+            "The time-space variant (时空幻境) unlocks after floor 750 according to the wiki. It has a separate entry allowance and exchange currency. Check the encounter modifiers before committing the team.",
+            "Deep Mist requires completing the third Forgotten Realm area and reaching 50% exploration there. Use Commander skills on elite enemies and let your Blackguards handle regular enemies. The earlier bands have random Black Stone drops. The table below shows the targeted bands after floor 850."
+          ]
+        },
+        {
+          "title": "Forgotten Realm",
+          "items": [
+            "Prepare three teams and give them enough durability for consecutive fights. Rear spawns can reach your back line, and the last fight of the first area copies your lineup.",
+            "In the second and third areas, control effects help break the boss’s shield. The wiki recommends [[c:纯净史莱姆]] as a budget option for shield breaking. Build your teams to survive the shield phase before chasing more damage."
+          ]
+        },
+        {
+          "title": "Journey Stories and Black Abyss",
+          "items": [
+            "The four Journey Story walkthroughs below cover separate encounters and drop pools. Choose a story based on the gear you need, then check its unlock requirements.",
+            "In Black Abyss, the boss’s element can vary after entry. The wiki gives example lineups for Frost, Lightning, Fire, and Physical teams. Prepare more than one element and keep the ticket cost in mind."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "teams-and-pvp",
+      "title": "Teams & PvP",
+      "summary": "Awakening, support slots, Front stars, and how to read the arena rankings.",
+      "sources": [
+        "黑卫觉醒",
+        "阵线升星",
+        "阵线模拟器",
+        "PVP节奏榜"
+      ],
+      "sections": [
+        {
+          "title": "Awaken your Blackguards",
+          "items": [
+            "S and SS Blackguards use same-class cards and duplicates to awaken, raising their level caps. SP Blackguards progress through awakening qualities with their level. The wiki lists [[t:永恒]] as an important milestone for damage reduction and later rune slots."
+          ]
+        },
+        {
+          "title": "Plan the Fronts before spending stars",
+          "items": [
+            "Both deployed and support-slot Blackguards contribute Fronts. The wiki suggests stacking a basic [[f:狩魔]] bonus early and adding [[f:前锋]] or [[f:秘术]] as your roster grows.",
+            "Extra Fronts normally need matching picks on at least two Blackguards. Use the wiki simulator to check the thresholds before investing, and use the English Fronts reference to look up the effects."
+          ]
+        },
+        {
+          "title": "Read PvP rankings by role",
+          "items": [
+            "Decide what the team needs first: opening control, protection and recovery, or burst damage. The PvP source calls out effects such as opening silence, Rage denial, team control immunity, and healing denial.",
+            "Check whether a ranking assumes late-game gear, blood ranks, or a specific partner. The English PvE rankings answer a different team-building question. See the dated PvP source below for the roster ranking."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combat",
+      "title": "Combat & Gear by Effect",
+      "summary": "Scaling, damage types, status effects, and situational gear lookups.",
+      "sources": [
+        "伤害类型",
+        "异常状态",
+        "怒气装备",
+        "回怒装备",
+        "冷却装备",
+        "幸运装备",
+        "黑话解读"
+      ],
+      "sections": [
+        {
+          "title": "Read the skill’s scaling and damage type",
+          "items": [
+            "The stat a skill scales from and the damage type it deals are separate fields. A skill can scale from [[t:法术强度]] and deal physical damage. Use its scaling to choose the base stat and its damage type to choose the appropriate damage bonus.",
+            "The wiki describes [[t:法术伤害增幅]] as applying to Fire, Frost, and Lightning. Basic attack effects and other skills can use different accuracy and crit checks. Check the skill text when choosing between attack crit and [[t:技能暴击]]."
+          ]
+        },
+        {
+          "title": "Look up effects by the problem you’re solving",
+          "items": [
+            "Use [[t:初始怒气]] to bring the first ultimate forward, [[t:怒气恢复]] to support later ultimates, or [[t:技能冷却]] when the skill timer is the bottleneck. Use the linked wiki lists to find gear, then check its English effect in the item catalog.",
+            "[[t:冰缓]] reduces attack speed and Rage recovery. [[t:点燃]] applies fire damage over time. [[t:感电]] makes a target take more Lightning damage as stacks accumulate. Numbers depend on the item or skill applying the effect.",
+            "Chinese guides often shorten stats and roles. For example, 物强 and 法强 mean [[t:物理强度]] and [[t:法术强度]]. 主C means the main damage dealer, and CD refers to cooldown."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "additional-systems",
+      "title": "Additional Systems",
+      "summary": "Collection rewards, beasts, enchantments, treasures, and guild upgrades.",
+      "sources": [
+        "魂器",
+        "幻兽",
+        "附魔",
+        "宝物",
+        "公会跃升"
+      ],
+      "sections": [
+        {
+          "title": "Soul items, beasts, and enchantments",
+          "items": [
+            "The wiki lists a collection reward (魂器) at 75% SS collection progress. Claim it in the collection interface and check the effect before equipping it to an SP Blackguard.",
+            "The beast table (幻兽) groups options by basic-attack element, scaling stat, and whether they have an active skill. Compare active utility and cooldown alongside damage.",
+            "The enchantment reference (附魔) lists point thresholds and level-by-level effects. Pick an effect relevant to the team, then check how many points you need to activate it."
+          ]
+        },
+        {
+          "title": "Treasures and guild progression",
+          "items": [
+            "Look up treasures (宝物) by acquisition area, eligible Front, and kill requirements. Some effects improve farming or drops, while others add combat stats.",
+            "For guild progression (公会跃升), the wiki lists the Gold dungeon, eligible codes, and trading as sources of Gold. Compare the next upgrade’s cost with its practical effect and check whether older team guides assume any guild upgrade levels."
+          ]
+        }
+      ]
+    }
+  ],
+  "wiki": {
+    "新手起号": {
+      "label": "New account guide",
+      "revid": 8271,
+      "date": "2025-12-08"
+    },
+    "角色养成": {
+      "label": "Character progression",
+      "revid": 6720,
+      "date": "2025-05-16"
+    },
+    "天赋推荐": {
+      "label": "Talent priorities",
+      "revid": 5551,
+      "date": "2025-01-16"
+    },
+    "隐藏奖励": {
+      "label": "Hidden rewards",
+      "revid": 3866,
+      "date": "2024-08-18"
+    },
+    "分解装备": {
+      "label": "Decomposition keep list",
+      "revid": 7009,
+      "date": "2025-07-23"
+    },
+    "每月资源": {
+      "label": "Monthly resources",
+      "revid": 5542,
+      "date": "2025-01-16"
+    },
+    "首页": {
+      "label": "Wiki calendar and redeem codes",
+      "revid": 9310,
+      "date": "2026-11-25"
+    },
+    "锻造": {
+      "label": "Forging",
+      "revid": 9139,
+      "date": "2026-08-11"
+    },
+    "装备改造": {
+      "label": "Gear modification",
+      "revid": 5790,
+      "date": "2025-02-13"
+    },
+    "转移继承": {
+      "label": "Transfer and inheritance",
+      "revid": 5552,
+      "date": "2025-01-16"
+    },
+    "黑石强化": {
+      "label": "Black Stone enhancement",
+      "revid": 5857,
+      "date": "2025-02-14"
+    },
+    "迷雾山脉-迷雾幻境攻略": {
+      "label": "Misty Mountains walkthrough",
+      "revid": 8321,
+      "date": "2025-12-24"
+    },
+    "迷雾山脉-时空幻境": {
+      "label": "Time-space variant",
+      "revid": 4279,
+      "date": "2024-08-19"
+    },
+    "迷雾山脉-深层幻境攻略": {
+      "label": "Deep Mist walkthrough",
+      "revid": 5912,
+      "date": "2025-02-15"
+    },
+    "忘却迷境攻略": {
+      "label": "Forgotten Realm walkthrough",
+      "revid": 8812,
+      "date": "2026-04-26"
+    },
+    "旅途故事": {
+      "label": "Journey Story requirements and drops",
+      "revid": 8799,
+      "date": "2026-04-04"
+    },
+    "旅途故事-黑云踏雪攻略": {
+      "label": "Journey Story: 黑云踏雪",
+      "revid": 7424,
+      "date": "2025-08-25"
+    },
+    "旅途故事-吾心如火攻略": {
+      "label": "Journey Story: 吾心如火",
+      "revid": 7425,
+      "date": "2025-08-25"
+    },
+    "旅途故事-璀璨新星攻略": {
+      "label": "Journey Story: 璀璨新星",
+      "revid": 7426,
+      "date": "2025-08-25"
+    },
+    "旅途故事-好梦入眠攻略": {
+      "label": "Journey Story: 好梦入眠",
+      "revid": 8809,
+      "date": "2026-04-19"
+    },
+    "追忆之帆-黑渊攻略": {
+      "label": "Black Abyss walkthrough",
+      "revid": 8801,
+      "date": "2026-04-04"
+    },
+    "黑卫觉醒": {
+      "label": "Blackguard awakening",
+      "revid": 5598,
+      "date": "2025-01-20"
+    },
+    "阵线升星": {
+      "label": "Front stars",
+      "revid": 5548,
+      "date": "2025-01-16"
+    },
+    "阵线模拟器": {
+      "label": "Front simulator",
+      "revid": 9242,
+      "date": "2026-10-09",
+      "interactive": true
+    },
+    "PVP节奏榜": {
+      "label": "PvP rankings",
+      "revid": 9311,
+      "date": "2026-11-25"
+    },
+    "伤害类型": {
+      "label": "Damage types",
+      "revid": 9085,
+      "date": "2026-08-02"
+    },
+    "异常状态": {
+      "label": "Status effects",
+      "revid": 4895,
+      "date": "2024-10-01"
+    },
+    "怒气装备": {
+      "label": "Initial Rage gear",
+      "revid": 7007,
+      "date": "2025-07-23"
+    },
+    "回怒装备": {
+      "label": "Rage Restore gear",
+      "revid": 9049,
+      "date": "2026-07-20"
+    },
+    "冷却装备": {
+      "label": "Skill Cooldown gear",
+      "revid": 7006,
+      "date": "2025-07-23"
+    },
+    "幸运装备": {
+      "label": "Luck gear",
+      "revid": 9086,
+      "date": "2026-08-05"
+    },
+    "黑话解读": {
+      "label": "Chinese wiki shorthand",
+      "revid": 8201,
+      "date": "2025-12-04"
+    },
+    "魂器": {
+      "label": "Collection items",
+      "revid": 6448,
+      "date": "2025-03-28"
+    },
+    "幻兽": {
+      "label": "Beasts",
+      "revid": 9277,
+      "date": "2026-11-14"
+    },
+    "附魔": {
+      "label": "Enchantments",
+      "revid": 9276,
+      "date": "2026-11-14"
+    },
+    "宝物": {
+      "label": "Treasures",
+      "revid": 9275,
+      "date": "2026-11-14"
+    },
+    "公会跃升": {
+      "label": "Guild progression",
+      "revid": 9038,
+      "date": "2026-07-13"
+    }
+  },
+  "keep": [
+    {
+      "name": "决斗大师的帽子",
+      "slot": "头盔"
+    },
+    {
+      "name": "极限法帽",
+      "slot": "头盔",
+      "fuse": 3
+    },
+    {
+      "name": "蛮族面具",
+      "slot": "头盔",
+      "fuse": 3
+    },
+    {
+      "name": "聚能之铠",
+      "slot": "衣服"
+    },
+    {
+      "name": "深渊壁垒",
+      "slot": "衣服",
+      "fuse": 3
+    },
+    {
+      "name": "嗜战者束腰",
+      "slot": "腰带"
+    },
+    {
+      "name": "炎护腰带",
+      "slot": "腰带"
+    },
+    {
+      "name": "蛇绕腰带",
+      "slot": "腰带"
+    },
+    {
+      "name": "荆棘束带",
+      "slot": "腰带"
+    },
+    {
+      "name": "龙吟裹腰",
+      "slot": "腰带"
+    },
+    {
+      "name": "祈祷系带",
+      "slot": "腰带"
+    },
+    {
+      "name": "元素大师之裤",
+      "slot": "裤子"
+    },
+    {
+      "name": "戏谑者裤腿",
+      "slot": "裤子"
+    },
+    {
+      "name": "雷霆之怒",
+      "slot": "鞋子"
+    },
+    {
+      "name": "智者足具",
+      "slot": "鞋子",
+      "fuse": 3
+    },
+    {
+      "name": "狂猎",
+      "slot": "武器",
+      "fuse": 3
+    },
+    {
+      "name": "渴血",
+      "slot": "武器",
+      "fuse": 3
+    },
+    {
+      "name": "屠灭",
+      "slot": "武器",
+      "fuse": 3
+    },
+    {
+      "name": "狂热征伐",
+      "slot": "武器",
+      "fuse": 3
+    },
+    {
+      "name": "咒石项链",
+      "slot": "项链"
+    },
+    {
+      "name": "海晶项链",
+      "slot": "项链"
+    },
+    {
+      "name": "指路吊坠",
+      "slot": "项链"
+    },
+    {
+      "name": "猩红秘戒",
+      "slot": "戒指"
+    },
+    {
+      "name": "曜晶之戒",
+      "slot": "戒指"
+    },
+    {
+      "name": "精灵飞羽",
+      "slot": "圣物",
+      "fuse": 3
+    },
+    {
+      "name": "血手",
+      "slot": "圣物",
+      "fuse": 3
+    },
+    {
+      "name": "漆黑十字",
+      "slot": "圣物",
+      "fuse": 3
+    },
+    {
+      "name": "始祖之血",
+      "slot": "圣物",
+      "fuse": 3
+    },
+    {
+      "name": "魔涌之徽",
+      "slot": "徽章"
+    },
+    {
+      "name": "狩猎徽章",
+      "slot": "徽章"
+    },
+    {
+      "name": "破阵大盾",
+      "slot": "副手"
+    },
+    {
+      "name": "恶魔大盾",
+      "slot": "副手"
+    },
+    {
+      "name": "牛皮护手",
+      "slot": "护手"
+    },
+    {
+      "name": "白骨护手",
+      "slot": "护手"
+    },
+    {
+      "name": "祭礼手套",
+      "slot": "护手"
+    }
+  ],
+  "deepMist": [
+    {
+      "floors": "851–860",
+      "stones": [
+        "恐熊",
+        "巫妖",
+        "怒兽",
+        "猎蛛"
+      ]
+    },
+    {
+      "floors": "861–870",
+      "stones": [
+        "蝮蛇",
+        "诡眼",
+        "幽鬼",
+        "雷影狼"
+      ]
+    },
+    {
+      "floors": "871–880",
+      "stones": [
+        "石像鬼",
+        "雪甲虫",
+        "感电狐"
+      ]
+    },
+    {
+      "floors": "881–890",
+      "stones": [
+        "霜蹄",
+        "冰凤",
+        "诅咒灵"
+      ]
+    },
+    {
+      "floors": "891–900",
+      "stones": [
+        "闪鸣鸟",
+        "金乌",
+        "迅角兽",
+        "炎龙"
+      ]
+    }
+  ]
+}

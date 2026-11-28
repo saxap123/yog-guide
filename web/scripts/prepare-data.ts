@@ -15,6 +15,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { prepareGuides } from "./prepare-guides.ts";
 
 type O = "o" | "t" | "w";
 type J = any; // eslint-disable-line @typescript-eslint/no-explicit-any
@@ -280,6 +281,9 @@ const out = {
   stones: stones.items,
   factions: factions.items,
   tiers: tiers.items,
+  guides: prepareGuides(ROOT, gloss, namesJson, {
+    characters, gear: gear.items, factions: factions.items, stones: stones.items,
+  }),
   unofficial_count: Object.keys(unofficialTable).length,
 };
 

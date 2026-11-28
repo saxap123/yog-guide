@@ -227,6 +227,22 @@ npm run preview    # http://localhost:4173
   or click a slot for the item card (effects, source marks, alternatives, extract). The build table is below,
   collapsed.
 
+## Progression guides
+
+Edit `translate/manual/guides.json` to update the Guides section. The source list keeps the wiki title,
+reviewed revision, and revision date for each article. These are English adaptations, with links back
+to BWIKI under the data license. The keep list and Deep Mist floor bands are structured in the same file.
+
+Use `[[t:中文]]` for a glossary term, `[[g:名称]]` for gear, `[[c:名称]]` for a character, and
+`[[f:名称]]` for a Front. The web data step resolves them from `data/glossary.json`, `data/names.json`,
+and the English catalog. Use the Chinese wiki title as the key so links and labels follow the catalog.
+If an item has no English entry, its original Chinese name links to the wiki.
+
+Run `python scraper/fetch.py --guides-only` to fetch the listed sources with the existing batched
+MediaWiki client. The command caches wikitext and revisions in `data/raw/guides/` and reports revisions
+that differ from the ones cited by the guides. After reviewing changes, edit the guide and update its
+source revision and date. Build with `npm run build:none` in `web/` to check the result without game assets.
+
 ## Step 5: publishing and updates
 
 ```bash
