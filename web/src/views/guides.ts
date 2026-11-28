@@ -20,7 +20,7 @@ function articleList(): string {
     <p class="lead">Get started, protect valuable gear, and find your next upgrade.</p>
     <div class="grid guide-grid">
       ${DATA.guides.articles.map((article) => `
-        <a class="ccard" href="#/guides/${esc(article.id)}">
+        <a class="ccard guide-card" href="#/guides/${esc(article.id)}">
           <span class="ccard-name">${esc(article.title)}</span>
           <span class="guide-card-summary">${esc(article.summary)}</span>
         </a>`).join("")}
