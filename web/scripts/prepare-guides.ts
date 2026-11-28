@@ -1,7 +1,7 @@
 /** Resolve guide terms and cross-links using the same source data as the catalog. */
 import fs from "node:fs";
 import path from "node:path";
-import type { GuideArticle, GuideData, GuideName } from "../src/guide-data.ts";
+import type { GuideArticle, GuideData, GuideName, GuideScreenshot } from "../src/guide-data.ts";
 
 interface NameEntry {
   en?: string | null;
@@ -13,9 +13,15 @@ interface CatalogEntry {
   name_zh?: string;
 }
 
+interface ScreenshotSource extends Omit<GuideScreenshot, "src" | "source" | "notes"> {
+  file: string;
+  wikiFile: string;
+  notes: string[];
+}
+
 interface GuideSource {
   guides: (Omit<GuideArticle, "sections" | "sources"> & {
-    sections: { title: string; items: string[] }[];
+    sections: { title: string; items: string[]; screenshots?: ScreenshotSource[] }[];
     sources: string[];
   })[];
   wiki: Record<string, Omit<GuideArticle["sources"][number], "title">>;
@@ -80,7 +86,15 @@ export function prepareGuides(
   return {
     articles: source.guides.map((guide) => ({
       ...guide,
-      sections: guide.sections.map(({ title, items }) => ({ title, items: items.map(paragraph) })),
+      sections: guide.sections.map(({ title, items, screenshots }) => ({
+        title,
+        items: items.map(paragraph),
+        screenshots: screenshots?.map(({ file, wikiFile, notes, ...image }) => {
+          const src = `guide-images/${guide.id}/${file}`;
+          if (!fs.existsSync(path.join(root, "web/public", src))) throw new Error(`Missing guide screenshot: ${src}`);
+          return { ...image, src, source: `${wikiUrl("文件")}:${encodeURIComponent(wikiFile)}`, notes: notes.map(paragraph) };
+        }),
+      })),
       sources: guide.sources.map((title) => {
         const reference = source.wiki[title];
         if (!reference?.revid) throw new Error(`Missing wiki revision for guide source: ${title}`);

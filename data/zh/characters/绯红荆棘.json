@@ -732,7 +732,12 @@
    "id": "relic-1951"
   }
  ],
- "battle_grid": null,
+ "battle_grid": [
+  {
+   "template": "刺杀战格",
+   "recommended": null
+  }
+ ],
  "portraits": null,
  "lore": {
   "story": null,
@@ -778,7 +783,7 @@
  ],
  "parse_notes": null,
  "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%AF%E7%BA%A2%E8%8D%86%E6%A3%98",
- "revid": 8836,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8836",
- "rev_timestamp": "2026-05-01T06:30:05Z"
+ "revid": 9340,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9340",
+ "rev_timestamp": "2026-11-27T12:23:09Z"
 }

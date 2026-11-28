@@ -8,13 +8,13 @@ Regenerate: `python parse_zh/build.py`; check: `python -m unittest discover -s t
 
 | file | records | built from |
 |---|---|---|
-| characters/*.json | 76 | wikitext of Category:黑卫 pages (mwparserfromhell) |
+| characters/*.json | 77 | wikitext of Category:黑卫 pages (mwparserfromhell) |
 | gear.json | 241 | SMW `browsebysubject` of Category:装备 |
 | relics.json | 60 | SMW of Category:遗物 (+ `介绍` from wikitext, the template does not store it) |
 | runes.json | 27 | SMW of Category:符文 (+ colour names of `边` from wikitext) |
 | black_stones.json | 18 | tabs of page 黑石 + texts of 模板:推荐黑石 |
 | factions.json | 45 | Category:阵线 pages (name/type) + tabs of page 阵线 (thresholds) |
-| tiers.json | 152 | PVE节奏榜, PVP节奏榜 (every character × 2 modes) |
+| tiers.json | 154 | PVE节奏榜, PVP节奏榜 (every character × 2 modes) |
 
 ## Conventions
 
@@ -37,6 +37,7 @@ Regenerate: `python parse_zh/build.py`; check: `python -m unittest discover -s t
 |---|---|---|---|
 | 不熄曜日 | SP | divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 不祥怨灵 | S | profile.race, profile.birthday, profile.birthplace, profile.height_weight, profile.specialties, profile.likes, profile.dislikes, affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
+| 云梦归人 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 传承之龙 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 冰封之心 | SS | profile.race, affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, blood_ranks, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 角色故事 |
 | 凌空械羽 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
@@ -47,7 +48,7 @@ Regenerate: `python parse_zh/build.py`; check: `python -m unittest discover -s t
 | 双鸣追猎 | SP | divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 司正天座 | SP | battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 唤霜海灵 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
-| 圣翼降临 | SP | divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
+| 圣翼降临 | SP | divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 地精妖术师 | B | profile.race, profile.birthday, profile.birthplace, profile.height_weight, profile.specialties, profile.likes, profile.dislikes, factions.others, affix_recommendations.primary, affix_recommendations.secondary, note, skills, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, lore, affection | — |
 | 墨凝清影 | SP | divinity, battle_grid, portraits, lore.story, lore.deeds | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事 |
 | 夜宴霆光 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
@@ -55,7 +56,7 @@ Regenerate: `python parse_zh/build.py`; check: `python -m unittest discover -s t
 | 天邪魅影 | SP | note, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 夺魂之镰 | S | affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits | 立绘1, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
 | 妖刀 | SS | profile.race, builds, runes, black_stones, blood_ranks, divinity, battle_grid, portraits, lore.story, lore.deeds | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事 |
-| 婆娑轮舞 | SP | note, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
+| 婆娑轮舞 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 审判使者 | SS | profile.race, affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
 | 密林之眼 | S | affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, affection | 立绘1, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
 | 封魔利爪 | S | affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, affection | 立绘1, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
@@ -64,7 +65,7 @@ Regenerate: `python parse_zh/build.py`; check: `python -m unittest discover -s t
 | 异国商人 | S | affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, affection | 立绘1, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
 | 御刃神锋 | SS | profile.race, affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
 | 战争之蹄 | SP | note, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
-| 拂光破雪 | SP | note, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
+| 拂光破雪 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 月渊龙女 | SP | note, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 构装守卫 | S | profile.race, profile.birthday, profile.birthplace, profile.height_weight, profile.specialties, profile.dislikes, affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, blood_ranks, divinity, relics, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
 | 欢愉魔女 | S | affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, affection | 立绘1, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
@@ -79,7 +80,7 @@ Regenerate: `python parse_zh/build.py`; check: `python -m unittest discover -s t
 | 玉尘灵仙 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 立绘2, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 玉面九尾 | SP | divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 王国猎手 | S | affix_recommendations.primary, affix_recommendations.secondary, note, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, affection | 立绘1, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
-| 璨然银龙 | SP | note, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
+| 璨然银龙 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 白龙 | S | affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, affection | 立绘1, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
 | 百花旅者 | SS | profile.race, runes, blood_ranks, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
 | 神之嫡子 | SS | profile.race, note, builds, runes, black_stones, blood_ranks, divinity, battle_grid, portraits, lore.story, lore.deeds | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事 |
@@ -89,11 +90,11 @@ Regenerate: `python parse_zh/build.py`; check: `python -m unittest discover -s t
 | 纯净史莱姆 | S | affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, affection | 立绘1, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
 | 纯白之羽 | SS | profile.race, affix_recommendations.primary, affix_recommendations.secondary, note, runes, blood_ranks, divinity, battle_grid, portraits, lore.story, lore.deeds | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事 |
 | 纵火妖精 | S | affix_recommendations.primary, affix_recommendations.secondary, note, builds, runes, black_stones, blood_ranks, divinity, relics, battle_grid, portraits, affection | 立绘1, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A1, 10A2 |
-| 绚彩星绘 | SP | note, divinity, battle_grid, portraits, lore.story, lore.deeds | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事 |
-| 绞刃流火 | SP | note, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
+| 绚彩星绘 | SP | note, divinity, relics, battle_grid, portraits, lore.story, lore.deeds | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事 |
+| 绞刃流火 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 绮夜梦影 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 绯晶战影 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
-| 绯红荆棘 | SP | note, divinity, battle_grid, portraits, lore.story, lore.deeds | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 5Q, 10Q |
+| 绯红荆棘 | SP | note, divinity, portraits, lore.story, lore.deeds | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 5Q, 10Q |
 | 绿森山灵 | SP | note, divinity, battle_grid, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 自由炮手 | SP | note, runes, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
 | 蚀骨魂龙 | SP | note, divinity, portraits, lore.story, lore.deeds, affection | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 5Q, 5A1, 5A2, 10Q, 10A |
@@ -112,7 +113,7 @@ Regenerate: `python parse_zh/build.py`; check: `python -m unittest discover -s t
 | 魂棺语者 | SP | note, divinity, portraits, lore.story, lore.deeds | 立绘1, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 2A1, 2A2, 10Q, 10A |
 | 黑衫刃影 | SP | note, divinity, portraits, lore.story, lore.deeds | 立绘1, 立绘2, 立绘3, 事迹一, 事迹二, 事迹三, 事迹四, 事迹五, 事迹六, 角色故事, 2Q, 5Q, 10Q, 10A |
 
-Totals (characters with the field empty): portraits 75, divinity 70, affection 62, note 62, battle_grid 60, lore.story 56, lore.deeds 56, runes 38, blood_ranks 34, affix_recommendations.secondary 29, builds 29, affix_recommendations.primary 28, black_stones 28, relics 25, profile.race 17, profile.birthday 8, profile.birthplace 8, profile.height_weight 8, profile.specialties 8, profile.dislikes 8, profile.likes 7, factions.others 2, skills 2, lore 2
+Totals (characters with the field empty): portraits 76, divinity 71, affection 63, note 63, lore.story 57, lore.deeds 57, battle_grid 54, runes 38, blood_ranks 34, affix_recommendations.secondary 29, builds 29, affix_recommendations.primary 28, black_stones 28, relics 26, profile.race 17, profile.birthday 8, profile.birthplace 8, profile.height_weight 8, profile.specialties 8, profile.dislikes 8, profile.likes 7, factions.others 2, skills 2, lore 2
 
 ### Builds with no items at all
 
@@ -122,12 +123,12 @@ Totals (characters with the field empty): portraits 75, divinity 70, affection 6
 ### Builds with empty slots
 
 - 不熄曜日 «450级»: 卡牌, 耳坠
+- 云梦归人 «蹲»: 头盔, 项链, 卡牌, 耳坠, 衣服, 戒指, 腰带, 圣物, 裤子, 徽章, 鞋子, 副手, 护手
 - 传承之龙 «450级»: 卡牌, 耳坠
 - 凌空械羽 «450级»: 卡牌, 耳坠
 - 北境公主 «450级弹射流»: 耳坠
 - 北境公主 «450工具人»: 耳坠
 - 双鸣追猎 «450级»: 卡牌, 耳坠
-- 司正天座 «蹲»: 头盔, 卡牌, 衣服, 戒指, 腰带, 鞋子, 副手, 护手
 - 圣翼降临 «450级»: 卡牌, 耳坠
 - 墨凝清影 «450级»: 卡牌, 耳坠
 - 墨凝清影 «800级»: 卡牌
@@ -178,6 +179,7 @@ Totals (characters with the field empty): portraits 75, divinity 70, affection 6
 - 不祥怨灵: no 推荐符文 template on the page
 - 不祥怨灵: no 黑卫血阶 template on the page
 - 不祥怨灵: no 黑卫遗物 template on the page
+- 云梦归人: 推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set
 - 冰封之心: no 黑卫配装 template on the page
 - 冰封之心: no 推荐符文 template on the page
 - 冰封之心: no 黑卫血阶 template on the page
@@ -301,6 +303,7 @@ Totals (characters with the field empty): portraits 75, divinity 70, affection 6
 - 纵火妖精: no 推荐符文 template on the page
 - 纵火妖精: no 黑卫血阶 template on the page
 - 纵火妖精: no 黑卫遗物 template on the page
+- 绚彩星绘: 黑卫遗物 is on the page but no relic in Category:遗物 has 黑卫名称 = this character
 - 自由炮手: no 推荐符文 template on the page
 - 诅咒之王: no 黑卫配装 template on the page
 - 诅咒之王: no 推荐符文 template on the page
@@ -317,10 +320,10 @@ Lookup order for a name not in the category downloads: wiki `action=query&titles
 
 | | before (category pages only) | after (+ pages found by lookup) |
 |---|---|---|
-| build item names linked | 891 / 1108 | 895 / 1110 |
-| distinct unlinked build item names | 105 | 103 |
-| …of the unlinked build item names: found in the game DB (game_id recorded) | — | 99 |
-| recommended rune names linked | 249 / 257 | 253 / 261 |
+| build item names linked | 897 / 1118 | 901 / 1120 |
+| distinct unlinked build item names | 107 | 105 |
+| …of the unlinked build item names: found in the game DB (game_id recorded) | — | 98 |
+| recommended rune names linked | 249 / 258 | 253 / 262 |
 
 «before» = step 2: names exactly as written on the pages, only the category pages of step 1. «after» = names split on `，` + pages found by the lookup. Totals differ because a split name counts twice.
 
@@ -332,6 +335,7 @@ Lookup order for a name not in the category downloads: wiki `action=query&titles
 | 狩猎徽章 | already in Category (gear); was unlinked only because of a 「，」 in the build | 狩猎徽章 |
 | 界卫魔面 | already in Category (gear); was unlinked only because of a 「，」 in the build | 界卫魔面 |
 | 祭仪羽冠 | already in Category (gear); was unlinked only because of a 「，」 in the build | 祭仪羽冠 |
+| 蔷薇之心 | not an item page (no 装备图鉴/符文图鉴/遗物图鉴 template) — not linked | 蔷薇之心 |
 | 霆霓猩红血印 | already in Category (gear); was unlinked only because of a 「，」 in the build | 霆霓猩红血印 |
 
 ### Still unlinked, with reasons
@@ -343,7 +347,7 @@ Lookup order for a name not in the category downloads: wiki `action=query&titles
 | 光耀星华 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90360 text 78078 | 圣翼降临 | 圣翼降临 / «800级» / 武器 |
 | 共生护腿 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90310 text 63592 | 迷雾山脉-深层幻境攻略, 炙光之舞 | 炙光之舞 / «800减抗装» / 裤子 |
 | 共生耳环 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90307 text 63589 | 迷雾山脉-深层幻境攻略, 炙光之舞, 幸运装备 | 炙光之舞 / «800减抗装» / 耳坠 |
-| 决斗大师的帽子 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#11022 text 3832 | 百花旅者, 璨然银龙, 分解装备 | 璨然银龙 / «450级» / 头盔; 璨然银龙 / «800级» / 头盔; 百花旅者 / «血包» / 头盔 |
+| 决斗大师的帽子 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#11022 text 3832 | 百花旅者, 分解装备, 璨然银龙 | 璨然银龙 / «450级» / 头盔; 璨然银龙 / «800级» / 头盔; 百花旅者 / «血包» / 头盔 |
 | 凛冬 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#13018 text 3942 | 凛冬祈雪, 凛冬魔女, 炙光之舞 | 炙光之舞 / «800减抗装» / 圣物 |
 | 千印结牌 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#95019 text 82512 | 长辉照夜, 青鸾巽羽 | 长辉照夜 / «1000级» / 卡牌; 青鸾巽羽 / «1000级» / 卡牌 |
 | 古老魔盾 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#5020 text 53826 | 玉面九尾, 百花旅者, 墨凝清影 | 墨凝清影 / «450级» / 副手; 爱恋花见 / «＜3血阶» / 副手; 玉面九尾 / «450级CD装» / 副手; 百花旅者 / «血包» / 副手 (+1) |
@@ -353,7 +357,7 @@ Lookup order for a name not in the category downloads: wiki `action=query&titles
 | 天殛绝刃 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90388 text 90567 | 夜宴霆光 | 夜宴霆光 / «450级» / 武器 |
 | 夺魂大盾 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90013 text 55964 | 炙光之舞 | 炙光之舞 / «800减抗装» / 副手 |
 | 守护之利刃 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#13050 text 55664 | 炙光之舞, 冷却装备, 幸运装备 | 炙光之舞 / «800减抗装» / 圣物 |
-| 幽冥初水 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90323 text 69056 | 氪金攻略, 拂光破雪, 战争之蹄 | 不熄曜日 / «800级» / 护手; 传承之龙 / «800级» / 护手; 凌空械羽 / «800级» / 护手; 千宵月守 / «1000级» / 护手 (+10) |
+| 幽冥初水 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90323 text 69056 | 氪金攻略, 战争之蹄, 黑衫刃影 | 不熄曜日 / «800级» / 护手; 传承之龙 / «800级» / 护手; 凌空械羽 / «800级» / 护手; 千宵月守 / «1000级» / 护手 (+10) |
 | 怒焰圣戒 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90292 text 63574 | 迷雾山脉-深层幻境攻略, 炙光之舞 | 炙光之舞 / «800减抗装» / 戒指 |
 | 急速之牌 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90210 text 62167 | 忘却迷境, 北境公主, 百花旅者 | 北境公主 / «450级弹射流» / 卡牌; 北境公主 / «450工具人» / 卡牌; 百花旅者 / «血包» / 卡牌 |
 | 恋血钩坠 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90046 text 58796 | 王国猎手 | 王国猎手 / «帆船辅助» / 项链 |
@@ -364,7 +368,7 @@ Lookup order for a name not in the category downloads: wiki `action=query&titles
 | 月辉·东方锦靴 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#15043 text 4004 | 炙光之舞 | 炙光之舞 / «800减抗装» / 鞋子 |
 | 月辉·凝辉 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#10092 text 3800 | 锻造, 玉面九尾, 爱恋花见 | 爱恋花见 / «＜3血阶» / 武器; 爱恋花见 / «≥3血阶» / 武器; 玉面九尾 / «450级CD装» / 武器; 迷迭妖精 / «450级CD流» / 武器 |
 | 月辉·疾雷之书 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#10087 text 3795 | 锻造, 纯白之羽, 冷却装备 | 纯白之羽 / «大招无敌流» / 武器 |
-| 月辉·白羽橙晶 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#13034 text 3958 | 圣翼降临, 冷却装备 | 圣翼降临 / «450级» / 圣物 |
+| 月辉·白羽橙晶 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#13034 text 3958 | 冷却装备, 圣翼降临 | 圣翼降临 / «450级» / 圣物 |
 | 月辉·达特穆尔酋长披风 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#12078 text 3914 | 锻造, 百花旅者, 璨然银龙 | 璨然银龙 / «450级» / 衣服; 百花旅者 / «血包» / 衣服 |
 | 极寒御手 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90020 text 56456 | 北境公主 | 北境公主 / «450级弹射流» / 护手 |
 | 极寒飞雪 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#2016 text 4050 | 不熄曜日 | 不熄曜日 / «450级» / 戒指 |
@@ -387,7 +391,6 @@ Lookup order for a name not in the category downloads: wiki `action=query&titles
 | 狂铁驭手 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#3033 text 55196 | 婆娑轮舞 | 婆娑轮舞 / «450级» / 护手 |
 | 猎杀时刻 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#2031 text 54368 | 迷雾山脉, 迷雾山脉-迷雾幻境, 魂棺语者 | 月渊龙女 / «450级» / 戒指; 绯晶战影 / «450配装» / 戒指; 蚀骨魂龙 / «450级» / 戒指; 魂棺语者 / «450配装» / 戒指 |
 | 猎猫之戒 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90177 text 61835 | 传承之龙 | 传承之龙 / «450级» / 戒指 |
-| 盾形徽章 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#13009 text 3933 | 怒气装备, 司正天座 | 司正天座 / «蹲» / 圣物 |
 | 碎星项链 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#4013 text 8335 | 百花旅者, 怒气装备 | 百花旅者 / «血包» / 项链 |
 | 祈祷系带 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#1029 text 54209 | 分解装备, 魂棺语者, 绯晶战影 | 绯晶战影 / «450配装» / 腰带; 魂棺语者 / «450配装» / 腰带 |
 | 神圣守护 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#11020 text 3830 | 纯白之羽 | 纯白之羽 / «大招无敌流» / 头盔 |
@@ -432,31 +435,34 @@ Lookup order for a name not in the category downloads: wiki `action=query&titles
 | 魔弹鹰鸣 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90221 text 62178 | 传承之龙 | 传承之龙 / «800级» / 头盔 |
 | 魔法师之链 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#4017 text 8339 | 青鸾巽羽, 回怒装备 | 青鸾巽羽 / «450/700级» / 项链 |
 | 魔球卡牌 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90212 text 62169 | 忘却迷境, 战争之蹄, 不熄曜日 | 不熄曜日 / «800级» / 卡牌; 千宵月守 / «450/700级» / 卡牌; 夜行暹罗 / «旅途800级» / 卡牌; 战争之蹄 / «800级» / 卡牌 |
-| 魔眼吊坠 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#4006 text 4071 | 千宵月守 | 千宵月守 / «450/700级» / 项链 |
-| 黑色汪洋 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90324 text 69057 | 拂光破雪, 不熄曜日, 绞刃流火 | 不熄曜日 / «800级» / 项链; 千宵月守 / «1000级» / 项链; 拂光破雪 / «800级» / 项链; 月渊龙女 / «1000级» / 项链 (+4) |
+| 魔眼吊坠 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#4006 text 4071 | 千宵月守, 萃取石图鉴 | 千宵月守 / «450/700级» / 项链 |
+| 黑色汪洋 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90324 text 69057 | 不熄曜日, 蚀骨魂龙, 拂光破雪 | 不熄曜日 / «800级» / 项链; 千宵月守 / «1000级» / 项链; 拂光破雪 / «800级» / 项链; 月渊龙女 / «1000级» / 项链 (+4) |
 | 黑金护甲 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#95012 text 82498 | 青鸾巽羽, 千宵月守, 月渊龙女 | 千宵月守 / «1000级» / 衣服; 月渊龙女 / «1000级» / 衣服; 青鸾巽羽 / «1000级» / 衣服 |
 | 龙猎大盾 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#5026 text 54127 | 秽翼魔女, 怒气装备 | 秽翼魔女 / «1000级PVP» / 副手 |
 | 龙脊寒枪 | gear | no wiki page; exists in the game DB | — | tpl_sc_equipment#90385 text 87822 | 璨然银龙 | 璨然银龙 / «450级» / 武器; 璨然银龙 / «800级» / 武器 |
-| 任意太古装备 | gear | not an item name | — | — | 霓裳若仙, 爱恋花见, 千宵月守 | 千宵月守 / «1000级» / 卡牌; 爱恋花见 / «＜3血阶» / 卡牌; 霓裳若仙 / «700/1000级» / 头盔; 霓裳若仙 / «700/1000级» / 卡牌 (+3) |
+| 任意太古装备 | gear | not an item name | — | — | 霓裳若仙, 爱恋花见, 司正天座 | 千宵月守 / «1000级» / 卡牌; 司正天座 / «蹲» / 卡牌; 司正天座 / «蹲» / 鞋子; 爱恋花见 / «＜3血阶» / 卡牌 (+5) |
+| 拂晓 | gear | found nowhere (wiki, game DB) | — | — | 圣翼降临, 胜利昭告, 拂光破雪 | 云梦归人 / «蹲» / 武器 |
+| 神圣智手 | gear | found nowhere (wiki, game DB) | — | — | 司正天座 | 司正天座 / «蹲» / 护手 |
+| 蔷薇之心 | gear | found nowhere (wiki, game DB) | — | — | — | 司正天座 / «蹲» / 戒指 |
 | 宗室礼鞋 | gear | probably a typo — candidate below (unverified) | 宗室礼靴 (gear-1282; similar name in gear.json) | — | 绯红荆棘 | 绯红荆棘 / «帆船800级» / 鞋子 |
 | 怒焰微印 | gear | probably a typo — candidate below (unverified) | 怒焰徽印 (no id; similar name in game DB) | — | 炙光之舞 | 炙光之舞 / «800减抗装» / 徽章 |
 | 聚能铠甲 | gear | probably a typo — candidate below (unverified) | 聚魔铠甲 (gear-1284; similar name in gear.json) | — | 夜行暹罗 | 夜行暹罗 / «帆船800级» / 衣服 |
 | 逐日 | runes | probably a typo — candidate below (unverified) | 逐日者 (rune-1409; similar name in runes.json) | — | 逐日者, 异常状态, 战争之蹄 | 战争之蹄 / 主符文 (option of «断钢/逐日») |
-| 铁荆 | runes | probably a typo — candidate below (unverified) | 铁棘 (rune-1420; similar name in runes.json) | — | 战争之蹄, 长辉照夜, 玉尘灵仙 | 婆娑轮舞 / 辅助符文; 战争之蹄 / 辅助符文; 玉尘灵仙 / 辅助符文; 长辉照夜 / 辅助符文 |
+| 铁荆 | runes | probably a typo — candidate below (unverified) | 铁棘 (rune-1420; similar name in runes.json) | — | 战争之蹄, 长辉照夜, 玉尘灵仙 | 云梦归人 / 辅助符文; 婆娑轮舞 / 辅助符文; 战争之蹄 / 辅助符文; 玉尘灵仙 / 辅助符文 (+1) |
 | 锻钢 | runes | probably a typo — candidate below (unverified) | 断钢 (rune-1997; similar name in runes.json) | — | 长辉照夜, 玉尘灵仙, 蚀骨魂龙 | 玉尘灵仙 / 主符文 (option of «锻钢/绝刃»); 蚀骨魂龙 / 主符文 (option of «锻钢/绝刃»); 长辉照夜 / 主符文 (option of «锻钢/绝刃») |
 
-Totals: no wiki page; exists in the game DB: 99, probably a typo — candidate below (unverified): 6, not an item name: 1
+Totals: no wiki page; exists in the game DB: 98, probably a typo — candidate below (unverified): 6, found nowhere (wiki, game DB): 3, not an item name: 1
 
-Game DB used: `data/raw/game_db/08.database` (45283 text entries, 1226 item names in equipment/rune/heirloom/blackStone tables). Only ids are written to data/zh; see `docs/GAMEDB.md`.
+Existing game IDs and lookup matches were reused from the checked-in September snapshot results. The unpacked database was unavailable for new matches.
 
 ## Build tab labels (`tier_kind`)
 
-- level: 61, special: 13
+- level: 61, special: 14
 - special «≥3血阶» ×1: for blood rank 3 or higher
 - special «大招无敌流» ×1: playstyle: ultimate + invincibility
 - special «帆船辅助» ×1: support build for 帆船 (sailing mode)
 - special «血包» ×1: 'blood pack' build (healing / HP support role)
-- special «蹲» ×2: placeholder ('waiting'): build not filled in yet
+- special «蹲» ×3: placeholder ('waiting'): build not filled in yet
 - special «蹲一个450配装，欢迎下方评论区留言» ×6: placeholder: editors ask for a 450 build in the comments
 - special «＜3血阶» ×1: for blood rank below 3
 
@@ -504,6 +510,6 @@ Linked item whose `部位` differs from the build slot:
 
 ## Tier lists
 
-- PVE: ranked 44, not_ranked 32
-- PVP: ranked 45, not_ranked 31
+- PVE: ranked 29, not_ranked 48
+- PVP: ranked 46, not_ranked 31
 

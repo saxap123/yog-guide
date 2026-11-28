@@ -1,0 +1,45 @@
+{
+  "subject": "蔷薇之心",
+  "group": "extra_items",
+  "page_revid": 4783,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E8%94%B7%E8%96%87%E4%B9%8B%E5%BF%83",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E8%94%B7%E8%96%87%E4%B9%8B%E5%BF%83&format=json",
+  "fetched_at": "2026-11-28T07:32:45+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "蔷薇之心#0##",
+      "data": [
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/25/19/7/7/0"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2024/9/25/19/7/27/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "蔷薇之心"
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

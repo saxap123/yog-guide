@@ -35,7 +35,7 @@ function route() {
 document.getElementById("legend")!.innerHTML = `
   <h2>Sources</h2>
   <ul class="legend-list">
-    <li>${badgeOf("o")} English from the game files (official names and texts)</li>
+    <li>${badgeOf("o")} English from the game files or publisher announcements</li>
     <li>${badgeOf("t")} our translation of the wiki text</li>
     <li>${badgeOf("w")} wiki data as written (numbers, levels, dates)</li>
     <li><span class="disc">≠ game</span> the game text has other numbers than the wiki (hover for both)</li>

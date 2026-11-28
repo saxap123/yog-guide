@@ -30,11 +30,11 @@ const load = (p: string): J => JSON.parse(fs.readFileSync(p, "utf8"));
 
 // ---- lookups ------------------------------------------------------------------------------
 const namesJson = load(path.join(ROOT, "data", "names.json"));
-const names = new Map<string, Set<string>>();
+const names = new Map<string, Map<string, O>>();
 for (const [cat, d] of Object.entries<J>(namesJson)) {
   if (cat === "meta") continue;
   for (const [zh, e] of Object.entries<J>(d)) {
-    if (e.en) (names.get(zh) ?? names.set(zh, new Set()).get(zh)!).add(e.en);
+    if (e.en) (names.get(zh) ?? names.set(zh, new Map()).get(zh)!).set(e.en, e.source === "translated" ? "t" : "o");
   }
 }
 const gloss: Record<string, J> = load(path.join(ROOT, "data", "glossary.json")).terms;
@@ -91,7 +91,8 @@ function leafOrigin(zh: unknown, en: string, p: string, ctx: Ctx): O {
   if (ts) return ts.source === "game_db" ? "o" : ts.source === "translated" ? "t" : "w";
   if (ctx.gameOnly) return HAN.test(String(zh ?? "")) || /[a-z]/i.test(en) ? "o" : "w";
   if (typeof zh !== "string" || !HAN.test(zh)) return "w";
-  if (names.get(zh)?.has(en)) return "o";
+  const nameOrigin = names.get(zh)?.get(en);
+  if (nameOrigin) return nameOrigin;
   const g = gloss[zh];
   if (g?.en === en) return g.source === "game_db" ? "o" : "t";
   if (tm[zh] === en) return "t";
@@ -281,6 +282,7 @@ const out = {
   stones: stones.items,
   factions: factions.items,
   tiers: tiers.items,
+  pve_sections: tiers.meta.sections?.PVE ?? {},
   guides: prepareGuides(ROOT, gloss, namesJson, {
     characters, gear: gear.items, factions: factions.items, stones: stones.items,
   }),

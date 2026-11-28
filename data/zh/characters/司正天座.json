@@ -18,14 +18,14 @@
    "整洁",
    "公正",
    "拼图",
-   "（羁绊礼物）"
+   "守时怀表（羁绊礼物）"
   ],
   "dislikes": [
    "杂乱",
    "不公的行为",
    "模棱两可"
   ],
-  "release_date": "2026年11月2日"
+  "release_date": "2026年11月02日"
  },
  "element": "光明",
  "rarity": "SP",
@@ -229,59 +229,66 @@
    "qualifier": null,
    "tier_note": "placeholder ('waiting'): build not filled in yet",
    "slots": {
-    "头盔": null,
+    "头盔": "圣守耀盔",
     "项链": "辉耀之链",
-    "卡牌": null,
+    "卡牌": "任意太古装备",
     "耳坠": "辉耀之环",
-    "衣服": null,
-    "戒指": null,
-    "腰带": null,
-    "圣物": "盾形徽章",
+    "衣服": "法球咒铠",
+    "戒指": "蔷薇之心",
+    "腰带": "圣职驱魔",
+    "圣物": "活体火焰",
     "裤子": "死眠短裤",
-    "徽章": "抵抗勋章",
-    "鞋子": null,
-    "副手": null,
-    "武器": "清光昭雪",
-    "护手": null
+    "徽章": "穿魂夺魄秘徽",
+    "鞋子": "任意太古装备",
+    "副手": "穿魂夺魄秘盾",
+    "武器": "混沌利刃",
+    "护手": "神圣智手"
    },
    "alternatives": null,
    "extracts": null,
-   "signature_weapon": null,
+   "signature_weapon": "清光昭雪",
    "item_ids": {
+    "圣守耀盔": "gear-1274",
     "辉耀之链": "gear-134",
+    "任意太古装备": null,
     "辉耀之环": "gear-138",
-    "盾形徽章": null,
+    "法球咒铠": "gear-1686",
+    "蔷薇之心": null,
+    "圣职驱魔": "gear-1689",
+    "活体火焰": "gear-1198",
     "死眠短裤": null,
-    "抵抗勋章": "gear-1204",
+    "穿魂夺魄秘徽": "gear-1598",
+    "穿魂夺魄秘盾": "gear-1597",
+    "混沌利刃": "gear-2435",
+    "神圣智手": null,
     "清光昭雪": "gear-2465"
    },
    "unlinked": {
-    "盾形徽章": {
-     "reason": "game_only",
-     "game_id": "13009",
+    "任意太古装备": {
+     "reason": "not_an_item",
+     "game_id": null,
      "possible_match": null,
-     "game": {
-      "refs": [
-       {
-        "table": "tpl_sc_equipment",
-        "row": "equip",
-        "game_id": "13009",
-        "field": "name",
-        "text_id": 3933,
-        "type": "5"
-       }
-      ],
-      "text_ids": [
-       3933
-      ]
-     },
+     "game": null,
      "wiki_lookup": {
       "title_found": false,
       "page": null,
       "search_hits": [
-       "怒气装备",
-       "司正天座"
+       "霓裳若仙",
+       "爱恋花见",
+       "司正天座",
+       "千宵月守"
       ]
+     }
+    },
+    "蔷薇之心": {
+     "reason": "nowhere",
+     "game_id": null,
+     "possible_match": null,
+     "game": null,
+     "wiki_lookup": {
+      "title_found": true,
+      "page": "蔷薇之心",
+      "search_hits": []
      }
     },
     "死眠短裤": {
@@ -303,6 +310,19 @@
        82540
       ]
      },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "司正天座"
+      ]
+     }
+    },
+    "神圣智手": {
+     "reason": "nowhere",
+     "game_id": null,
+     "possible_match": null,
+     "game": null,
      "wiki_lookup": {
       "title_found": false,
       "page": null,
@@ -397,7 +417,7 @@
   "ranks": [
    {
     "rank": 1,
-    "text": "【无垢之境】造成的伤害会附加司正天座最大生命值2%的神圣伤害。"
+    "text": "【无垢之境】造成的伤害会附加司正天座最大生命值20%的神圣伤害，且命中时有45%几率使敌人的物理强度和法术强度减少6%，持续6秒，最多叠加10层。"
    },
    {
     "rank": 2,
@@ -405,7 +425,7 @@
    },
    {
     "rank": 3,
-    "text": "【溯光】每次受伤转化的最大生命值最多（根据技能等级）提升至45%。"
+    "text": "【溯光】每次受伤转化的最大生命值最多（根据技能等级）提升至75%，且每次受伤时，会获得50物理护甲和法术护甲。"
    },
    {
     "rank": 4,
@@ -413,7 +433,7 @@
    },
    {
     "rank": 5,
-    "text": "免疫即死效果"
+    "text": "免疫即死效果，且【天光乍破】叠加耀斑同时，会使其受到的治疗效果下降10%，最多叠加10层，持续6秒。"
    },
    {
     "rank": 6,
@@ -651,7 +671,7 @@
  ],
  "parse_notes": null,
  "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%B8%E6%AD%A3%E5%A4%A9%E5%BA%A7",
- "revid": 9259,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9259",
- "rev_timestamp": "2026-11-08T13:46:36Z"
+ "revid": 9328,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9328",
+ "rev_timestamp": "2026-11-27T11:50:12Z"
 }

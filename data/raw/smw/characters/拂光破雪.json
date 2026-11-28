@@ -1,10 +1,10 @@
 {
   "subject": "拂光破雪",
   "group": "characters",
-  "page_revid": 8618,
+  "page_revid": 9337,
   "source_url": "https://wiki.biligame.com/bookofyog/%E6%8B%82%E5%85%89%E7%A0%B4%E9%9B%AA",
   "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E6%8B%82%E5%85%89%E7%A0%B4%E9%9B%AA&format=json",
-  "fetched_at": "2026-11-20T16:12:16+00:00",
+  "fetched_at": "2026-11-28T07:24:21+00:00",
   "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
   "response": {
     "query": {
@@ -114,7 +114,7 @@
           "dataitem": [
             {
               "type": 6,
-              "item": "1/2026/2/8/4/13/30/0"
+              "item": "1/2026/11/27/12/22/55/0"
             }
           ]
         },
@@ -317,6 +317,15 @@
             {
               "type": 2,
               "item": "当攻击范围内没有敌人时，会快速的朝最近的敌人冲刺，最大冲刺距离为10米。"
+            }
+          ]
+        },
+        {
+          "property": "推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "0"
             }
           ]
         },

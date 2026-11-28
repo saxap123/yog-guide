@@ -8,7 +8,7 @@ const tipAttr = (text: string) => `data-tip="${esc(text)}" tabindex="0"`;
 
 export const ORIGIN_LABEL: Record<Origin, string> = { o: "official", t: "translated", w: "wiki" };
 export const ORIGIN_TIP: Record<Origin, string> = {
-  o: "Official: English from the game files (snapshot 2026-09-22) — official name, game text with the wiki's values, or game term.",
+  o: "Official English from the game files or publisher announcements.",
   t: "Translated: our translation of the BWIKI text (no official English for it).",
   w: "Wiki: BWIKI data as written or rendered mechanically (numbers, levels, dates, scaling).",
 };
@@ -144,7 +144,7 @@ export const ELEMENT_CLASS: Record<string, string> = {
 
 export function tierChip(tier: string | undefined): string {
   if (!tier || tier === "not_ranked") return `<span class="tier tier-nr">Not ranked yet</span>`;
-  return `<span class="tier tier-${esc(tier.toLowerCase())}">${esc(tier)}</span>`;
+  return `<span class="tier tier-${esc(tier.toLowerCase().replaceAll(".", "-"))}">${esc(tier)}</span>`;
 }
 
 // ---- images (step 4b): generated manifest, placeholders when an image is missing ------------

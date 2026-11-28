@@ -1,10 +1,10 @@
 {
   "subject": "始见新生",
   "group": "relics",
-  "page_revid": 7610,
+  "page_revid": 9341,
   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F",
   "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F&format=json",
-  "fetched_at": "2026-11-20T16:23:40+00:00",
+  "fetched_at": "2026-11-28T07:24:30+00:00",
   "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
   "response": {
     "query": {
@@ -24,6 +24,10 @@
           "dataitem": [
             {
               "type": 9,
+              "item": "含有受损文件链接的页面#14##"
+            },
+            {
+              "type": 9,
               "item": "遗物#14##"
             }
           ]
@@ -33,7 +37,7 @@
           "dataitem": [
             {
               "type": 6,
-              "item": "1/2025/10/14/7/44/6/0"
+              "item": "1/2026/11/27/12/24/26/0"
             }
           ]
         },
@@ -51,7 +55,7 @@
           "dataitem": [
             {
               "type": 2,
-              "item": "1500全属性、15%火焰伤害增幅"
+              "item": "1500全属性、15%物理伤害增幅"
             }
           ]
         },
@@ -114,7 +118,7 @@
           "dataitem": [
             {
               "type": 2,
-              "item": "始见新生"
+              "item": "白露为霜"
             }
           ]
         },
@@ -123,7 +127,7 @@
           "dataitem": [
             {
               "type": 2,
-              "item": "绚彩星绘佩戴时，造成的所有伤害增加5%+25%；【焰火戏法】触发时，立刻使自己恢复120点怒气值。"
+              "item": "云梦归人佩戴时，造成的所有伤害增加5%+25%；进入战斗的前5秒，云梦归人处于无敌状态。"
             }
           ]
         },
@@ -132,7 +136,7 @@
           "dataitem": [
             {
               "type": 2,
-              "item": "绚彩星绘"
+              "item": "云梦归人"
             }
           ]
         }

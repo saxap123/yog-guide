@@ -49,6 +49,7 @@
   "符文绿": {"en": "Rune Green", "category": "rune_colour"},
   "符文蓝": {"en": "Rune Blue", "category": "rune_colour"},
   "前锋战格": {"en": "Striker battle grid", "category": "battle_grid", "note": "前锋 as in the game's 前锋阵线 Striker Front"},
+  "刺杀战格": {"en": "Assassin battle grid", "category": "battle_grid"},
   "守护战格": {"en": "Guard battle grid", "category": "battle_grid", "note": "守护 as in the game's tpl_typeDes 守护 Guard"},
   "秘术战格": {"en": "Mystic battle grid", "category": "battle_grid", "note": "秘术 as in the game's tpl_typeDes 秘术 Mystic"},
   "黑市-长城圣殿": {"en": "Black Market - Great Temple", "category": "source", "note": "composed of the game terms 黑市, 长城圣殿"},

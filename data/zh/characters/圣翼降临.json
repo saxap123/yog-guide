@@ -346,8 +346,8 @@
       "title_found": false,
       "page": null,
       "search_hits": [
-       "圣翼降临",
-       "冷却装备"
+       "冷却装备",
+       "圣翼降临"
       ]
      }
     }
@@ -516,7 +516,12 @@
    "id": "relic-1944"
   }
  ],
- "battle_grid": null,
+ "battle_grid": [
+  {
+   "template": "刺杀战格",
+   "recommended": null
+  }
+ ],
  "portraits": null,
  "lore": {
   "story": null,
@@ -545,7 +550,7 @@
   "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
  ],
  "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E7%BF%BC%E9%99%8D%E4%B8%B4",
- "revid": 8619,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8619",
- "rev_timestamp": "2026-02-08T04:14:00Z"
+ "revid": 9338,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9338",
+ "rev_timestamp": "2026-11-27T12:22:59Z"
 }

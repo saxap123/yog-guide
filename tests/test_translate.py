@@ -100,10 +100,11 @@ class TestMirror(unittest.TestCase):
 
 
 class TestGameOnlyGear(unittest.TestCase):
-    def test_99_items_linked(self):
+    def test_game_only_items_linked(self):
         gear = load(os.path.join(EN, "gear.json"))
         go = {g["id"]: g for g in gear["items"] if g.get("source") == "game_db"}
-        self.assertEqual(len(go), 99)
+        self.assertTrue(go)
+        self.assertEqual(len(go), gear["game_only_items"])
         for g in go.values():
             self.assertTrue(g["name_zh"] and g["game"]["game_id"] and g["used_in"], g["id"])
             self.assertIsNone(g.get("source_url"))
@@ -126,10 +127,13 @@ class TestNamesGlossary(unittest.TestCase):
             if cat == "meta":
                 continue
             for zh, e in d.items():
-                self.assertIn(zh, self.blob, (cat, zh))
+                self.assertTrue(zh in self.blob, (cat, zh))
                 if e.get("en"):
-                    self.assertEqual(e["source"], "game_db", (cat, zh))
-                    self.assertTrue(e.get("text_id"), (cat, zh))
+                    self.assertIn(e["source"], {"game_db", "publisher", "translated"}, (cat, zh))
+                    if e["source"] == "game_db":
+                        self.assertTrue(e.get("text_id"), (cat, zh))
+                    if e["source"] == "publisher":
+                        self.assertTrue(e.get("source_url"), (cat, zh))
                 else:
                     self.assertEqual(e.get("status"), "unverified", (cat, zh))
         self.assertIsNone(NAMES["characters"]["司正天座"]["en"])

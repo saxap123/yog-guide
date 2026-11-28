@@ -34,7 +34,7 @@ SKILL_SLOTS = ["普攻", "必杀技", "战斗技", "辅助技1", "辅助技2", "
                "通用辅助技1", "通用辅助技2", "通用辅助技3", "通用辅助技4"]
 STONES = ["恐熊", "巫妖", "怒兽", "猎蛛", "蝮蛇", "诡眼", "幽鬼", "雷影狼", "石像鬼",
           "雪甲虫", "感电狐", "霜蹄", "冰凤", "诅咒灵", "闪鸣鸟", "金乌", "迅角兽", "炎龙"]
-GRID_TEMPLATES = ["前锋战格", "守护战格", "秘术战格"]
+GRID_TEMPLATES = ["前锋战格", "守护战格", "秘术战格", "刺杀战格"]
 DEEDS = ["事迹一", "事迹二", "事迹三", "事迹四", "事迹五", "事迹六"]
 
 
@@ -937,6 +937,7 @@ def parse_character(page, gear_link, gear_by_id, rune_link, faction_link, stone_
 def build_tiers(chars):
     out = []
     ranked = {}
+    sections = {}
     for mode in ("PVE", "PVP"):
         page = load(os.path.join(RAW, "pages", f"{mode}节奏榜.json"))
         as_of = (page.get("rev_timestamp") or "")[:10] or None
@@ -946,14 +947,24 @@ def build_tiers(chars):
             R.problem(f"{mode}节奏榜", f"{len(tables)} tables found")
             continue
         rows = [r for r in tables[0].contents.filter_tags(recursive=False) if r.tag == "tr"]
+        section_note = None
         for r in rows:
-            cells = [c for c in r.contents.filter_tags(recursive=False) if c.tag == "td"]
+            tags = r.contents.filter_tags(recursive=False)
+            cells = [c for c in tags if c.tag == "td"]
             if not cells:
                 continue
             tier = tu.clean(cells[0].contents)
-            if not tier or not re.fullmatch(r"T\d+", tier):
+            if not tier and len(cells) == 1:
+                heading = next((c for c in tags if c.tag == "th"), None)
+                if heading:
+                    section_note = tu.clean(heading.contents)
+                    continue
+            if not tier or not re.fullmatch(r"T\d+(?:\.\d+)?", tier):
                 R.problem(f"{mode}节奏榜", f"row without tier label: {tier!r}")
                 continue
+            if section_note:
+                sections.setdefault(mode, {})[tier] = section_note
+                section_note = None
             for c in cells[1:]:
                 links = [lk for lk in c.contents.filter_wikilinks(recursive=True)]
                 target = None
@@ -962,8 +973,9 @@ def build_tiers(chars):
                     if m:
                         target = m.group(1).strip()
                 if target is None:
-                    if tu.clean(c.contents):
-                        R.problem(f"{mode}节奏榜", f"{tier}: cell without character link: {tu.clean(c.contents)!r}")
+                    text = tu.clean(c.contents)
+                    if text and text != "保留":
+                        R.problem(f"{mode}节奏榜", f"{tier}: cell without character link: {text!r}")
                     continue
                 ps = c.contents.filter_tags(recursive=True, matches=lambda n: n.tag == "p")
                 note = tu.clean(ps[0].contents) if ps else None
@@ -977,7 +989,9 @@ def build_tiers(chars):
     for mode in ("PVE", "PVP"):
         page = load(os.path.join(RAW, "pages", f"{mode}节奏榜.json"))
         as_of = (page.get("rev_timestamp") or "")[:10] or None
-        for name in sorted(chars):
+        ranked_names = [name for name, list_mode in ranked if list_mode == mode and name in chars]
+        unranked_names = sorted(name for name in chars if (name, mode) not in ranked)
+        for name in ranked_names + unranked_names:
             r = ranked.get((name, mode))
             out.append({
                 "character": name,
@@ -988,7 +1002,7 @@ def build_tiers(chars):
                 "as_of": as_of,
                 **prov(page),
             })
-    return out
+    return out, sections
 
 
 # ------------------------------------------------------------------ main
@@ -1066,13 +1080,13 @@ def main(out=OUT, quiet=False):
         chars.append(rec)
         dump(rec, os.path.join(out, "characters", tu.safe_filename(page["title"]) + ".json"))
 
-    tiers = build_tiers(char_ids)
+    tiers, sections = build_tiers(char_ids)
     dump(wrap(gear, "gear_item"), os.path.join(out, "gear.json"))
     dump(wrap(relics, "relic"), os.path.join(out, "relics.json"))
     dump(wrap(runes, "rune"), os.path.join(out, "runes.json"))
     dump(wrap(stones, "black_stone"), os.path.join(out, "black_stones.json"))
     dump(wrap(factions, "faction"), os.path.join(out, "factions.json"))
-    dump(wrap(tiers, "tier_entry"), os.path.join(out, "tiers.json"))
+    dump({**wrap(tiers, "tier_entry"), "sections": sections}, os.path.join(out, "tiers.json"))
 
     import report  # noqa: E402
     report.write(os.path.join(out, "REPORT.md"), R, chars, gear, relics, runes, stones, factions, tiers, empty_fields,

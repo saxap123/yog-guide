@@ -279,7 +279,8 @@ def main() -> None:
         c = json.loads(f.read_text(encoding="utf-8"))
         cats[c["category"]] = len(c["members"])
     L = ["# Step 1 / 1b report — raw data", "",
-         f"Generated: {inv['generated_at']}  ",
+         f"Generated: {inv['generated_at']}",
+         "",
          f"Source: {man['source']} (license {man['license']})", "",
          "## Downloaded", "",
          "| folder | source | wikitext pages | SMW subjects |", "|---|---|---|---|"]

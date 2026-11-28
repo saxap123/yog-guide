@@ -1,5 +1,5 @@
 import { DATA } from "../data.ts";
-import type { GuideArticle, GuideName } from "../guide-data.ts";
+import type { GuideArticle, GuideName, GuideScreenshot } from "../guide-data.ts";
 import { esc, zh } from "../ui.ts";
 
 const WIKI = "https://wiki.biligame.com/bookofyog/";
@@ -25,6 +25,21 @@ function articleList(): string {
           <span class="guide-card-summary">${esc(article.summary)}</span>
         </a>`).join("")}
     </div>`;
+}
+
+function screenshot({ title, alt, width, height, src, source, notes }: GuideScreenshot): string {
+  return `
+    <figure class="guide-screenshot">
+      <a class="guide-screenshot-image" href="${esc(src)}" target="_blank" rel="noopener"
+        aria-label="Open full-size screenshot of ${esc(title)}">
+        <img src="${esc(src)}" width="${width}" height="${height}" alt="${esc(alt)}" loading="lazy" decoding="async">
+      </a>
+      <figcaption>
+        <h3>${esc(title)}</h3>
+        <ul>${notes.map((note) => `<li>${note.map((part) => name(part)).join("")}</li>`).join("")}</ul>
+        <a class="ext small" href="${esc(source)}" target="_blank" rel="noopener">Wiki image source</a>
+      </figcaption>
+    </figure>`;
 }
 
 function keepTable(): string {
@@ -84,7 +99,7 @@ function sourceLinks(article: GuideArticle): string {
           const revision = WIKI + "index.php?oldid=" + source.revid;
           const href = source.interactive ? WIKI + encodeURIComponent(source.title) : revision;
           return `<li><a class="ext" href="${esc(href)}" target="_blank" rel="noopener">${esc(source.label)}</a>
-            <span class="muted"> · <time datetime="${esc(source.date)}">${esc(source.date)}</time></span>
+            <span class="muted">${source.author ? ` · <span lang="zh">${esc(source.author)}</span>` : ""} · <time datetime="${esc(source.date)}">${esc(source.date)}</time></span>
             ${source.interactive ? ` · <a href="${esc(revision)}" target="_blank" rel="noopener">Wiki revision</a>` : ""}</li>`;
         }).join("")}
         ${article.officialAnnouncements
@@ -148,6 +163,7 @@ export function renderGuides(app: HTMLElement, id?: string): void {
         <section>
           <h2>${esc(section.title)}</h2>
           <ul>${section.items.map((item) => `<li>${item.map((part) => name(part)).join("")}</li>`).join("")}</ul>
+          ${section.screenshots?.map(screenshot).join("") ?? ""}
         </section>`).join("")}
       ${article.id === "gear-to-lock" ? keepTable() : ""}
       ${article.id === "stages-and-farming" ? deepMistTable() : ""}

@@ -15,6 +15,7 @@
  */
 import fs from "node:fs";
 import path from "node:path";
+import { spawnSync } from "node:child_process";
 
 type J = any; // eslint-disable-line @typescript-eslint/no-explicit-any
 type Mode = "icons" | "full" | "none";
@@ -27,6 +28,7 @@ const SRC = process.env.YOG_IMAGE_SRC ? path.resolve(process.env.YOG_IMAGE_SRC) 
 const OUT = path.join(WEB, "public", "img");
 const MANIFEST = path.join(WEB, "src", "generated", "images.json");
 const REPORT = path.join(ROOT, "docs", "IMAGES_REPORT.md");
+const PUBLISHED_REF = "refs/remotes/origin/gh-pages";
 const SIZE = { avatar: 96, portrait: 512, icon: 96 };
 const EXT = /\.(png|jpe?g|webp|tga|bmp)$/i;
 
@@ -55,6 +57,36 @@ const SHARED_RUNE_ICON = "item_runestone_secondary_02";
 const QUALITY_CELL: Record<string, number> = { Epic: 3, Legend: 4, Mythic: 6, Eternal: 7, Archaic: 8 };
 let frameNote = "";
 const manifest: Manifest = { mode, source: path.relative(ROOT, SRC).replaceAll("\\", "/"), avatars: {}, portraits: {}, icons: {}, shared: {}, frames: {} };
+
+function usePublishedImages(): boolean {
+  const git = (args: string[]) => spawnSync("git", args, { cwd: ROOT, maxBuffer: 32 * 1024 * 1024 });
+  const published = git(["show", `${PUBLISHED_REF}:img/manifest.json`]);
+  const index = published.status === 0
+    ? JSON.parse(published.stdout.toString("utf8"))
+    : load(path.join(import.meta.dirname, "published-images.json"));
+  const ref = published.status === 0 ? PUBLISHED_REF : index.revision;
+  const archive = git(["archive", "--format=tar", ref, "img"]);
+  if (archive.status !== 0) return false;
+
+  fs.mkdirSync(path.dirname(OUT), { recursive: true });
+  const extracted = spawnSync("tar", ["-xf", "-", "-C", path.dirname(OUT)], { input: archive.stdout });
+  if (extracted.status !== 0) throw new Error("Could not extract published game images (git and tar are required)");
+  for (const url of [...Object.values(index.avatars), ...Object.values(index.icons),
+    ...Object.values(index.frames as Manifest["frames"]).flatMap((frame) => [frame.plate, frame.border])]) {
+    if (!fs.existsSync(path.join(WEB, "public", url as string))) throw new Error(`Published image missing: ${url}`);
+  }
+  for (const { id, kind, gameId } of wants) {
+    if (!gameId) continue;
+    if (kind === "character" && index.avatars[id]) manifest.avatars[id] = index.avatars[id];
+    if (kind !== "character" && index.icons[id]) {
+      manifest.icons[id] = index.icons[id];
+      if (index.shared[id]) manifest.shared[id] = index.shared[id];
+    }
+  }
+  manifest.source = ref;
+  manifest.frames = index.frames;
+  return true;
+}
 
 // clean only our own output folder
 fs.rmSync(OUT, { recursive: true, force: true });
@@ -100,7 +132,8 @@ for (const g of load(path.join(EN, "gear.json")).items) {
   wants.push({ kind: "gear", id: g.id, label: `${g.name ?? "—"} (${g.page_title ?? g.name_zh})`, gameId: m ? m[1] : gid("gear", g.page_title) });
 }
 for (const r of load(path.join(EN, "relics.json")).items) {
-  wants.push({ kind: "relic", id: r.id, label: `${r.name ?? "—"} (${r.page_title})`, gameId: gid("relics", r.page_title) });
+  const zh = r.i18n?.name_zh ?? r.page_title;
+  wants.push({ kind: "relic", id: r.id, label: `${r.name ?? "—"} (${zh})`, gameId: gid("relics", zh) });
 }
 for (const r of load(path.join(EN, "runes.json")).items) {
   wants.push({ kind: "rune", id: r.id, label: `${r.name ?? "—"} (${r.page_title})`, gameId: gid("runes", r.page_title) });
@@ -126,7 +159,7 @@ function scan(dir: string) {
     else if (EXT.test(e.name)) files.push({ path: p, base: e.name.replace(EXT, "").toLowerCase(), rel: path.relative(SRC, p) });
   }
 }
-const srcOk = mode !== "none" && fs.existsSync(SRC);
+const srcOk = mode !== "none" && dbOk && fs.existsSync(SRC);
 if (srcOk) scan(SRC);
 const heroFiles = files.filter((f) => /heroicon/i.test(f.rel));
 const iconFiles = files.filter((f) => /(^|[\\/])01\.icon([\\/]|$)/i.test(f.rel));
@@ -314,13 +347,19 @@ function report() {
   fs.writeFileSync(REPORT, L.join("\n"));
 }
 
-await convert();
+const reused = mode !== "none" && !srcOk && usePublishedImages();
+if (srcOk) {
+  await convert();
+  report();
+}
 fs.writeFileSync(MANIFEST, JSON.stringify(manifest));
-report();
+if (mode === "icons" && fs.existsSync(OUT)) fs.writeFileSync(path.join(OUT, "manifest.json"), JSON.stringify(manifest));
 const n = (k: Want["kind"]) => hits.filter((h) => h.want.kind === k).length;
 console.log(
   `images (${mode}): avatars ${Object.keys(manifest.avatars).length}/${n("character")}, portraits ${Object.keys(manifest.portraits).length}, ` +
     `icons ${Object.keys(manifest.icons).length}/${n("gear") + n("relic") + n("rune") + n("stone")}` +
-    (mode !== "none" && !srcOk ? ` — image folder not found: ${SRC}` : ""),
+    (reused ? ` — reused published images from ${manifest.source}` : mode !== "none" && !srcOk
+      ? ` — unpacked game images or tables unavailable; fetch origin/gh-pages for the published assets` : ""),
 );
-if (mode === "full") console.log("IMAGES=full: full portraits are for local builds only — do not publish this dist/.");
+if (mode === "full") console.log(srcOk ? "IMAGES=full: full portraits are for local builds only — do not publish this dist/."
+  : "IMAGES=full: the unpacked game images and tables are required for full portraits.");

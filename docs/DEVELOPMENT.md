@@ -159,7 +159,8 @@ python -m unittest discover -s tests -v
 
 - **Names** (`data/names.json`): characters, skills, gear, relics, runes, 黑石, 阵线. Chinese
   name → game table row (`title_id` / `name_id`) → dictionary English, `source: "game_db"`,
-  `game_id`, `text_id`. Not found → `en: null`, `status: "unverified"` (+ `possible_match`,
+  `game_id`, `text_id`. `translate/manual/names.json` supplies publisher names and translations
+  when the snapshot has no match. Other names have `en: null`, `status: "unverified"` (+ `possible_match`,
   never applied). Alias: 璨然银龙 is 燦然银龙 in the game. Black stones drop the game's
   `Gem·` prefix (kept in `en_game`); factions are the game's `X阵线` rows ("Resonance Front").
 - **Glossary** (`data/glossary.json`): stats, affixes, statuses, slots, qualities, elements,
@@ -214,6 +215,11 @@ npm run preview    # http://localhost:4173
   `npm run build` = `IMAGES=icons` (avatars 96 px, item icons 96 px); `npm run build:full` (+ portraits
   512 px on the character page — local builds only); `npm run build:none` (no game images). The `IMAGES`
   environment variable works too (PowerShell: `$env:IMAGES="full"; npm run build`).
+  When the unpacked game images or tables are unavailable, local builds reuse the avatars and icons
+  already published on `gh-pages`. The build reads the local Git copy and bundles the images so the
+  preview also works offline. To get the assets in a shallow checkout, run
+  `git fetch origin +refs/heads/gh-pages:refs/remotes/origin/gh-pages` and rebuild. Full portraits
+  require the unpacked game assets.
   Missing image → placeholder: first letter of the name (characters) or the item's slot (items).
   Characters: avatar = `heroicons/square_<id>` (head crop, cut square from the centre); portrait =
   `portrait_<id>` or the largest (bytes) of its layer files `portrait_<id>_0..3` (the others are effect
@@ -237,6 +243,11 @@ Use `[[t:中文]]` for a glossary term, `[[g:名称]]` for gear, `[[c:名称]]` 
 `[[f:名称]]` for a Front. The web data step resolves them from `data/glossary.json`, `data/names.json`,
 and the English catalog. Use the Chinese wiki title as the key so links and labels follow the catalog.
 If an item has no English entry, its original Chinese name links to the wiki.
+
+Guide sections can list `screenshots` with the image filename, dimensions, wiki file name, alt text,
+and translated notes. Keep these images under `web/public/guide-images/<guide-id>/` so they are served
+in the offline build. The beginner guide includes the source screenshots by 夜月 with their original
+callouts and English captions.
 
 Run `python scraper/fetch.py --guides-only` to fetch the listed sources with the existing batched
 MediaWiki client. The command caches wikitext and revisions in `data/raw/guides/` and reports revisions
@@ -263,9 +274,10 @@ python -m yog update --deploy   # the same, then publish web/dist to GitHub Page
   removed, PvE tier changes, records with only a new wiki revision. Until an update finishes, its starting
   state is kept in `translate/work/update_baseline.json`, so a re-run after a fix still compares with the
   last finished update.
-- Deploy: `npm run deploy` (in `web/`, `web/scripts/deploy.ts`) copies `web/dist` into a fresh one-commit
+- Deploy: `npm run deploy` (in `web/`, `web/scripts/deploy.ts`) copies `web/dist`, including the generated
+  image manifest, into a fresh one-commit
   branch `gh-pages` and force-pushes it to `origin`. It refuses a `dist/` built with `IMAGES=full`. There is
-  no GitHub Actions build: the site needs `data/raw/game_db`, which exists only locally.
+  no GitHub Actions build. Extracting fresh game art requires `data/raw/game_db`.
 - Not in git (`.gitignore`): `data/raw/game_db`, `web/public/img`, `web/dist`, `web/src/generated`,
   `translate/work`, `docs/screenshots` (they show game art), `node_modules`.
 - Runes whose own icon (`item_RuneStone_secondary_02_<N>`) is not in the game files show the generic rune

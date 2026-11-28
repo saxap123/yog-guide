@@ -371,10 +371,10 @@
       "page": null,
       "search_hits": [
        "氪金攻略",
-       "拂光破雪",
        "战争之蹄",
        "黑衫刃影",
-       "不熄曜日"
+       "不熄曜日",
+       "传承之龙"
       ]
      }
     }
@@ -689,11 +689,6 @@
   "unofficial_names": [
    {
     "path": "runes.main[6].name",
-    "zh": "逐日",
-    "en": "Sun Chasing"
-   },
-   {
-    "path": "runes.note",
     "zh": "逐日",
     "en": "Sun Chasing"
    }

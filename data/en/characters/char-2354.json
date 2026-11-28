@@ -551,6 +551,7 @@
       "search_hits": [
        "霓裳若仙",
        "爱恋花见",
+       "司正天座",
        "千宵月守"
       ]
      }
@@ -1179,13 +1180,6 @@
   ],
   "untranslated_lore": [
    "lore"
-  ],
-  "unofficial_names": [
-   {
-    "path": "runes.note",
-    "zh": "万象",
-    "en": "Myriad Forms"
-   }
   ]
  }
 }

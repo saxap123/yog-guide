@@ -3,7 +3,7 @@
     {
       "id": "start-here",
       "title": "Start Here",
-      "summary": "First-day priorities, campaign rewards, summons, and Ancient Tree progression.",
+      "summary": "First-day priorities, campaign controls, starter teams, and what to buy in the Black Market.",
       "sources": [
         "新手起号",
         "角色养成",
@@ -16,6 +16,24 @@
           "items": [
             "Push the Normal campaign as far as your team can go. Normal clears raise offline earnings. Come back for three-star rewards, Hard, [[t:黑潮]], and Commander-only clears when you need their rewards.",
             "When you stall, try controlling the Commander manually to interrupt the boss. Clear another stretch of tower stages, level the team, and try the campaign again. Clearing Normal Chapter 14 opens Misty Mountains, where deeper clears raise offline earnings again."
+          ],
+          "screenshots": [
+            {
+              "title": "Campaign screen and Idle Reward Chest",
+              "alt": "Campaign battle with the Idle Reward Chest open. Red boxes mark the stage banner, retreat, Fatigue, reward rates, Quick Idle, deployed Blackguards, and battle controls.",
+              "file": "campaign.webp",
+              "wikiFile": "挂机宝箱.png",
+              "width": 2560,
+              "height": 1434,
+              "notes": [
+                "The top banner shows Arklance on Normal difficulty, Chapter 1, stage 9, substage 4. The retreat button beside it resets the stage when used during a boss fight.",
+                "Fatigue (FP) refills at the daily reset and can also be restored with items. Kills and chests use FP automatically when they drop loot. At zero FP, they grant no equipment or items. The EXP meter to the right tracks bonus experience from kills and resets daily.",
+                "The row beneath the meters shows offline reward rates. Some gear and items drop while you’re offline, so you can close the game. Tick the box beside Claim to send loot to your Bag automatically when the chest fills up.",
+                "Each Quick Idle costs 50 FP and gives 3 hours of Echoes and 1 hour of Mana Crystals. At zero FP it gives no rewards. The author recommends using the daily Quick Idle attempts while you’re leveling.",
+                "On the right, Boss starts boss fights automatically, Auto makes the Commander move automatically, and Skill lets deployed Blackguards cast on their own. Turn on 2× and 3× together for 6× speed.",
+                "The portraits at the bottom show your deployed Blackguards. Tap the chest between them to open this panel. The City button returns you to town, and the Bag is available inside a stage."
+              ]
+            }
           ]
         },
         {
@@ -39,6 +57,116 @@
             "Before level 400, the lowest-level Blackguard in your main slots sets the Tree’s cap. Upgrade and awaken easier-to-rank cards in those slots, then put rarer cards in linked slots so they can use the Tree’s recorded level.",
             "From level 400 onward, invest directly in the Ancient Tree. Level skills before investing in specialization, which the wiki describes as a base-stat upgrade. For talents, start with the stat the Blackguard’s skills scale on, then choose offense or survivability by role.",
             "The hidden-reward article shows a small Diamond pickup in a screenshot. Use the linked source to find its location."
+          ]
+        },
+        {
+          "title": "What to buy in the Black Market",
+          "items": [
+            "The General Shop refresh button uses Ancient Coins from daily activity rewards. The first refresh costs 400. The author recommends stopping when the price rises.",
+            "The Academy Cup earns up to 600 Academy Coins per hour in the guide. Clear out the Rune Edge Reroll Stones before buying equipment.",
+            "Event shop stock changes with the event. The Sakura Shop screenshot below shows one rotation and the author’s priorities for it.",
+            "For the Great Temple, the author saves 430 Blacktide Medals for the Bounty Guide (90), Echo Resonator (110), Ancient Tyrant skin (30), and Mana Crystal Sensor (200). Using the Corridor Navigator (110) instead of the skin costs 510 in total and delays the Sensor."
+          ],
+          "screenshots": [
+            {
+              "title": "Black Market tabs and refresh button",
+              "alt": "Black Market with the General Shop selected. The tabs on the left and refresh button at the top have red outlines and yellow notes.",
+              "file": "shop-01.webp", "wikiFile": "商铺1.png", "width": 2560, "height": 1413,
+              "notes": [
+                "The circular arrow at the top refreshes the General Shop. This is the main source of Locking Stones and Smoked Meat Chops.",
+                "The Corridor and Glory shops are the main places to buy SS Blackguard fragments.",
+                "The author usually skips the Guild and Misty shops and puts Guild Coins toward skill upgrades and Misty Coins toward relic upgrades.",
+                "In the Academy Shop, always buy the Rune Edge Reroll Stones and buy equipment if you urgently need it.",
+                "The Event Shop has limited-time stock. If you’re unsure what to buy, the author suggests checking with experienced players. Save up for Great Temple purchases because Blacktide Medals have few sources."
+              ]
+            },
+            {
+              "title": "General Shop purchases",
+              "alt": "Page 2 of the General Shop, highlighting Locking Stones, Smoked Meat Chops, discounted Restoration Stones, and the page arrows.",
+              "file": "shop-02.webp", "wikiFile": "商铺2.png", "width": 2559, "height": 1430,
+              "notes": [
+                "Buy out the Locking Stones (锁定石) and Smoked Meat Chops (熏制肉排), boxed together in the top row.",
+                "Buy discounted items, such as the boxed Restoration Stones, when you need them.",
+                "Use the arrows at the bottom to check both pages. On page 1, buy Addition Stones, Removal Stones, Attribute Stones, Socket Drills, and Sweep Tickets as needed."
+              ]
+            },
+            {
+              "title": "Corridor Shop",
+              "alt": "Corridor Shop page with a grid of SS Blackguard fragments and an annotation across the top.",
+              "file": "shop-03.webp", "wikiFile": "商铺3.png", "width": 2560, "height": 1411,
+              "notes": ["Buy fragments for the SS Blackguard you need. Combine 90 matching fragments for one copy."]
+            },
+            {
+              "title": "Glory Shop",
+              "alt": "Glory Shop page with SS Blackguard fragments and an annotation across the top.",
+              "file": "shop-05.webp", "wikiFile": "商铺5.png", "width": 2560, "height": 1425,
+              "notes": ["Exchange for fragments of the SS Blackguard you need. Combine 90 matching fragments for one copy."]
+            },
+            {
+              "title": "Misty Shop gear, page 1",
+              "alt": "Misty Shop page 1 with the Ancient Arcanist’s Barrier boxed in the bottom row.",
+              "file": "shop-06.webp", "wikiFile": "商铺6.png", "width": 2560, "height": 1430,
+              "notes": ["If you want to skip farming [[g:死灵法盾]], you can buy [[g:古老魔盾]] as a substitute, though the author advises against it. Skip the other items on this page."]
+            },
+            {
+              "title": "Misty Shop PvP gear, page 2",
+              "alt": "Misty Shop page 2 with the Dragonkin boots and Dragonbane shield boxed in the top row.",
+              "file": "shop-07.webp", "wikiFile": "商铺7.png", "width": 2559, "height": 1419,
+              "notes": ["The boxed Dragonkin Stride boots (龙裔步伐) and [[g:龙猎大盾]] are PvP gear. Exchange for them only when you need them. Skip the other items on this page."]
+            },
+            {
+              "title": "Time Shop Black Stones and gear",
+              "alt": "The Time Shop tab beside Misty Shop. Boxes mark the Raging Beast Black Stone, Mirage Stones, and a column of headgear.",
+              "file": "shop-08.webp", "wikiFile": "商铺8.png", "width": 2560, "height": 1419,
+              "notes": [
+                "Use the tabs above the items to switch between Misty Shop and Time Shop.",
+                "Buy the high-grade Raging Beast Black Stone when you can, unless you’re building a team without Physical damage dealers.",
+                "Consider Mirage Stones (幻境之石) later. If you can’t farm the headgear you need, prioritize the boxed headpieces. Buy the other gear according to your build."
+              ]
+            },
+            {
+              "title": "Academy Shop equipment",
+              "alt": "Academy Shop page 1. Red boxes mark the belt and two pieces recommended for Soul of Divinity.",
+              "file": "shop-09.webp", "wikiFile": "商铺9.png", "width": 2560, "height": 1411,
+              "notes": ["Buy the Rune Edge Reroll Stones first. After that, consider one [[g:王室荣尊]] as a stopgap. For [[c:神之嫡子]], the author suggests at most one copy each of [[g:蛇灵之怒]] and the Soulblood Ring (魂血源戒) if you need them."]
+            },
+            {
+              "title": "Academy Shop Rune Edge Reroll Stones",
+              "alt": "Academy Shop page 4, with the sold-out Rune Edge Reroll Stone boxed on the bottom row.",
+              "file": "shop-10.webp", "wikiFile": "商铺10.png", "width": 2538, "height": 1396,
+              "notes": ["Buy out the Rune Edge Reroll Stones (符文洗边石). The author stresses that they’re scarce in the mid- and late game."]
+            },
+            {
+              "title": "Event Shop and Sakura exchanges",
+              "alt": "Sakura Shop II under the Event Shop. The annotated boxes mark the event tabs, currency, rune chest, and first- and second-priority exchanges.",
+              "file": "shop-11.webp", "wikiFile": "商铺11.png", "width": 2560, "height": 1427,
+              "notes": [
+                "The author describes the Sakura Shop opening near the start and middle of each month, with a separate tab for limited-time events. Spend FP to earn the Sakura currency shown at the top right.",
+                "Early on, you can exchange for up to two Precision Cast Rune Chests (精铸符文宝箱). The author usually skips them later.",
+                "First priority is the Lunar Cleansing Stone (月辉洗涤石), boxed in red. The cyan boxes show the second priority, which includes Advanced Adjustment, Adjustment, Addition, and Removal Stones."
+              ]
+            },
+            {
+              "title": "Great Temple Defense Strength and first exchanges",
+              "alt": "Great Temple page 1 with the Defense Strength bar, Pureblood Crystals, Bounty Guide, Echo Resonator, and Corridor Navigator highlighted.",
+              "file": "shop-12.webp", "wikiFile": "商铺12.png", "width": 2560, "height": 1432,
+              "notes": [
+                "Defense Strength is shown at the top and determines what you can buy. At level 1, buy the Bounty Guide (悬赏指引仪). It unlocks level 2, when you can buy the Echo Resonator (回响共鸣器). Save the Corridor Navigator (回廊路向仪) for later so it doesn’t slow early progression.",
+                "After the Bounty Guide, Echo Resonator, and a cheap skin take you to level 3, you can raise Defense Strength quickly by buying Pureblood Crystals (纯血晶石) one at a time. Make each purchase separately and stop at level 5."
+              ]
+            },
+            {
+              "title": "Great Temple Mana Crystal Sensor",
+              "alt": "Great Temple page 2 with the Mana Crystal Sensor boxed in the top-left corner and the page arrows marked.",
+              "file": "shop-13.webp", "wikiFile": "商铺13.png", "width": 2553, "height": 1442,
+              "notes": ["Go to page 2 and prioritize the Mana Crystal Sensor (魔晶感应器) as soon as Defense Strength reaches level 3. It increases Mana Crystal earnings while idling."]
+            },
+            {
+              "title": "Great Temple Ancient Tyrant skin",
+              "alt": "Great Temple page 6 with the Ancient Tyrant skin boxed in the bottom row.",
+              "file": "shop-14.webp", "wikiFile": "商铺14.png", "width": 2550, "height": 1427,
+              "notes": ["After the Bounty Guide and Echo Resonator, the Ancient Tyrant skin (古代暴君) on page 6 is the cheapest way to reach Defense Strength level 3 and unlock the Mana Crystal Sensor."]
+            }
           ]
         }
       ]
@@ -261,6 +389,7 @@
   "wiki": {
     "新手起号": {
       "label": "New account guide",
+      "author": "夜月",
       "revid": 8271,
       "date": "2025-12-08"
     },

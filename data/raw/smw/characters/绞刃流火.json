@@ -1,10 +1,10 @@
 {
   "subject": "绞刃流火",
   "group": "characters",
-  "page_revid": 8951,
+  "page_revid": 9336,
   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9E%E5%88%83%E6%B5%81%E7%81%AB",
   "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BB%9E%E5%88%83%E6%B5%81%E7%81%AB&format=json",
-  "fetched_at": "2026-11-20T16:13:23+00:00",
+  "fetched_at": "2026-11-28T07:24:25+00:00",
   "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
   "response": {
     "query": {
@@ -118,7 +118,7 @@
           "dataitem": [
             {
               "type": 6,
-              "item": "1/2026/5/28/1/48/35/0"
+              "item": "1/2026/11/27/12/22/51/0"
             }
           ]
         },
@@ -308,6 +308,15 @@
             {
               "type": 2,
               "item": "对前方小范围敌人进行剪切，造成2次3500%法术强度的火焰伤害。"
+            }
+          ]
+        },
+        {
+          "property": "推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "0"
             }
           ]
         },

@@ -1752,22 +1752,22 @@
   },
   {
    "id": "relic-2057",
-   "name": "First Light of Rebirth",
+   "name": "Dew Turns to Frost",
    "page_title": "始见新生",
    "type": "Exclusive",
    "quality": "Mythic",
    "max_level": 700,
    "character": {
-    "name": "Twinkle Palette",
-    "id": "char-2050"
+    "name": "Dreambound Wanderer",
+    "id": "char-2502"
    },
    "exclusive": [
     "1500 All Attrs",
-    "15% Fire Damage Boost"
+    "15% Physical Damage Boost"
    ],
    "skills": [
-    "When wearing the Miluie, all damage dealt is increased by 5% + 25%.",
-    "When Pyro Trickery is triggered, immediately restore 120 Rage."
+    "When equipped by Dreambound Wanderer, increases all damage dealt by 5%+25%.",
+    "Dreambound Wanderer is invulnerable for the first 5 seconds of battle."
    ],
    "advanced_fixed_skill": null,
    "advanced_random_skills": null,
@@ -1806,36 +1806,29 @@
    "obtain": [
     "Black Market - Great Temple"
    ],
-   "description": "交换生命的天秤，曾经的伙伴是否一如始终?",
-   "description_source": "wikitext",
+   "description": null,
+   "description_source": null,
    "source_url": "https://wiki.biligame.com/bookofyog/%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F",
-   "revid": 7610,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7610",
+   "revid": 9341,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9341",
    "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F&format=json",
    "i18n": {
-    "name_zh": "始见新生",
+    "name_zh": "白露为霜",
     "sources": {
-     "game_db": 2,
      "glossary": 33,
-     "lore": 1,
-     "names": 2
+     "names": 2,
+     "translated": 2
     },
     "text_sources": {
      "skills[0]": {
-      "source": "game_db",
-      "text_id": 80285,
-      "match": "exact"
+      "source": "translated"
      },
      "skills[1]": {
-      "source": "game_db",
-      "text_id": 80332,
-      "match": "exact"
+      "source": "translated"
      }
     },
     "missing": null,
-    "untranslated_lore": [
-     "description"
-    ]
+    "untranslated_lore": null
    }
   },
   {

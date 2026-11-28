@@ -391,11 +391,11 @@
       "title_found": false,
       "page": null,
       "search_hits": [
-       "拂光破雪",
        "不熄曜日",
-       "绞刃流火",
        "蚀骨魂龙",
-       "青鸾巽羽"
+       "拂光破雪",
+       "青鸾巽羽",
+       "千宵月守"
       ]
      }
     },
@@ -450,10 +450,10 @@
       "page": null,
       "search_hits": [
        "氪金攻略",
-       "拂光破雪",
        "战争之蹄",
        "黑衫刃影",
-       "不熄曜日"
+       "不熄曜日",
+       "传承之龙"
       ]
      }
     }
@@ -581,7 +581,12 @@
    "id": "relic-1965"
   }
  ],
- "battle_grid": null,
+ "battle_grid": [
+  {
+   "template": "Assassin battle grid",
+   "recommended": null
+  }
+ ],
  "portraits": null,
  "lore": {
   "story": null,
@@ -608,18 +613,18 @@
  ],
  "parse_notes": null,
  "source_url": "https://wiki.biligame.com/bookofyog/%E6%8B%82%E5%85%89%E7%A0%B4%E9%9B%AA",
- "revid": 8618,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8618",
- "rev_timestamp": "2026-02-08T04:13:30Z",
+ "revid": 9337,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9337",
+ "rev_timestamp": "2026-11-27T12:22:55Z",
  "i18n": {
   "name_zh": "拂光破雪",
   "sources": {
    "derived": 5,
-   "game_db": 14,
-   "glossary": 85,
+   "game_db": 12,
+   "glossary": 86,
    "lore": 1,
    "names": 68,
-   "translated": 18
+   "translated": 20
   },
   "text_sources": {
    "skills[0].description": {
@@ -703,18 +708,6 @@
   "missing": null,
   "untranslated_lore": [
    "lore"
-  ],
-  "unofficial_names": [
-   {
-    "path": "runes.note",
-    "zh": "观海",
-    "en": "Guanhai"
-   },
-   {
-    "path": "runes.note",
-    "zh": "水金",
-    "en": "Shuijin"
-   }
   ]
  }
 }

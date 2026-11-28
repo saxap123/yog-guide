@@ -1,10 +1,10 @@
 {
   "subject": "婆娑轮舞",
   "group": "characters",
-  "page_revid": 8620,
+  "page_revid": 9339,
   "source_url": "https://wiki.biligame.com/bookofyog/%E5%A9%86%E5%A8%91%E8%BD%AE%E8%88%9E",
   "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A9%86%E5%A8%91%E8%BD%AE%E8%88%9E&format=json",
-  "fetched_at": "2026-11-20T16:11:49+00:00",
+  "fetched_at": "2026-11-28T07:24:18+00:00",
   "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
   "response": {
     "query": {
@@ -114,7 +114,7 @@
           "dataitem": [
             {
               "type": 6,
-              "item": "1/2026/2/8/4/14/33/0"
+              "item": "1/2026/11/27/12/23/5/0"
             }
           ]
         },
@@ -295,6 +295,15 @@
             {
               "type": 2,
               "item": "对周围大范围的敌人造成最多5次300%物理强度的物理伤害，技能释放期间技能回避+100%，不会受妖术嘲讽效果影响，无法被击退击飞。且不会受回避衰减影响。"
+            }
+          ]
+        },
+        {
+          "property": "推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "0"
             }
           ]
         },

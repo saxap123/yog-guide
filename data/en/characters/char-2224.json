@@ -374,10 +374,10 @@
       "page": null,
       "search_hits": [
        "氪金攻略",
-       "拂光破雪",
        "战争之蹄",
        "黑衫刃影",
-       "不熄曜日"
+       "不熄曜日",
+       "传承之龙"
       ]
      }
     }
@@ -656,18 +656,6 @@
   ],
   "untranslated_lore": [
    "lore"
-  ],
-  "unofficial_names": [
-   {
-    "path": "runes.note",
-    "zh": "魂萝莉",
-    "en": "Hunluoli"
-   },
-   {
-    "path": "runes.note",
-    "zh": "幻檉",
-    "en": "Huancheng"
-   }
   ]
  }
 }

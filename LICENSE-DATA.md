@@ -29,4 +29,7 @@ Wiki typos are kept as written.
 
 **Not covered.** Official English names and game texts (marked `source: "game_db"` / “official”) are
 © HangZhou QiHeShe Technology and are included only as short names and descriptions for reference.
-Game art is not in this repository; the website shows game icons © HangZhou QiHeShe Technology.
+Game imagery in the character and item icons and the guide screenshots is © HangZhou QiHeShe
+Technology. The beginner screenshots under `web/public/guide-images/start-here/` are sourced from
+[新手起号 by 夜月](https://wiki.biligame.com/bookofyog/index.php?oldid=8271). Each figure links to the
+original image, and its English caption translates the author’s callouts.

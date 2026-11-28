@@ -4,12 +4,22 @@ export interface GuideName {
   href?: string;
 }
 
+export interface GuideScreenshot {
+  title: string;
+  alt: string;
+  width: number;
+  height: number;
+  src: string;
+  source: string;
+  notes: GuideName[][];
+}
+
 export interface GuideArticle {
   id: string;
   title: string;
   summary: string;
-  sections: { title: string; items: GuideName[][] }[];
-  sources: { title: string; label: string; revid: number; date: string; interactive?: boolean }[];
+  sections: { title: string; items: GuideName[][]; screenshots?: GuideScreenshot[] }[];
+  sources: { title: string; label: string; revid: number; date: string; interactive?: boolean; author?: string }[];
   officialAnnouncements?: boolean;
 }
 

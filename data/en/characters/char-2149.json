@@ -386,11 +386,11 @@
       "title_found": false,
       "page": null,
       "search_hits": [
-       "拂光破雪",
        "不熄曜日",
-       "绞刃流火",
        "蚀骨魂龙",
-       "青鸾巽羽"
+       "拂光破雪",
+       "青鸾巽羽",
+       "千宵月守"
       ]
      }
     },
@@ -418,10 +418,10 @@
       "page": null,
       "search_hits": [
        "氪金攻略",
-       "拂光破雪",
        "战争之蹄",
        "黑衫刃影",
-       "不熄曜日"
+       "不熄曜日",
+       "传承之龙"
       ]
      }
     }
@@ -531,7 +531,12 @@
    "id": "relic-2161"
   }
  ],
- "battle_grid": null,
+ "battle_grid": [
+  {
+   "template": "Assassin battle grid",
+   "recommended": null
+  }
+ ],
  "portraits": null,
  "lore": {
   "story": null,
@@ -558,15 +563,15 @@
  ],
  "parse_notes": null,
  "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9E%E5%88%83%E6%B5%81%E7%81%AB",
- "revid": 8951,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8951",
- "rev_timestamp": "2026-05-28T01:48:35Z",
+ "revid": 9336,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9336",
+ "rev_timestamp": "2026-11-27T12:22:51Z",
  "i18n": {
   "name_zh": "绞刃流火",
   "sources": {
    "derived": 5,
    "game_db": 16,
-   "glossary": 82,
+   "glossary": 83,
    "lore": 1,
    "names": 64,
    "translated": 14
@@ -659,18 +664,6 @@
   ],
   "untranslated_lore": [
    "lore"
-  ],
-  "unofficial_names": [
-   {
-    "path": "blood_ranks.ranks[1].text",
-    "zh": "焰影劫",
-    "en": "Flame Shadow Calamity"
-   },
-   {
-    "path": "blood_ranks.ranks[2].text",
-    "zh": "焰影劫",
-    "en": "Flame Shadow Calamity"
-   }
   ]
  }
 }

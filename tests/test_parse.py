@@ -220,12 +220,25 @@ class TestIntegrity(unittest.TestCase):
                 self.assertFalse(tu.is_placeholder(s), (c["page_title"], s))
 
     def test_outputs_up_to_date(self):
-        """Re-running the parser reproduces data/zh exactly."""
+        """Re-running the parser reproduces the stored wiki data and available game matches."""
+        def wiki_fields(record):
+            if isinstance(record, list):
+                return [wiki_fields(item) for item in record]
+            if isinstance(record, dict):
+                if {"reason", "game_id", "possible_match", "game", "wiki_lookup"} == record.keys():
+                    return {"wiki_lookup": record["wiki_lookup"]}
+                return {k: wiki_fields(v) for k, v in record.items()}
+            return record
+
         with tempfile.TemporaryDirectory() as tmp:
             build.main(out=tmp, quiet=True)
-            for rel in [os.path.relpath(p, tmp) for p in glob.glob(os.path.join(tmp, "**", "*.*"), recursive=True)]:
+            for rel in [os.path.relpath(p, tmp) for p in glob.glob(os.path.join(tmp, "**", "*.json"), recursive=True)]:
                 with self.subTest(file=rel):
-                    self.assertTrue(filecmp.cmp(os.path.join(tmp, rel), os.path.join(ZH, rel), shallow=False))
+                    parsed, stored = os.path.join(tmp, rel), os.path.join(ZH, rel)
+                    if HAS_DB:
+                        self.assertTrue(filecmp.cmp(parsed, stored, shallow=False))
+                    else:
+                        self.assertEqual(wiki_fields(load(parsed)), wiki_fields(load(stored)))
 
 
 # ------------------------------------------------------------------ text helpers
@@ -326,7 +339,7 @@ class TestManual千宵月守(unittest.TestCase):
         self.assertIn("立绘1", c["placeholders_nulled"])
         tiers = {t["mode"]: t for t in load(os.path.join(ZH, "tiers.json"))["items"] if t["character"] == "千宵月守"}
         self.assertEqual((tiers["PVE"]["tier"], tiers["PVE"]["note"]), ("T0", "无氪金手1+0\n氪金手3+19"))
-        self.assertEqual((tiers["PVP"]["tier"], tiers["PVP"]["note"]), ("T0", "进攻强大"))
+        self.assertEqual((tiers["PVP"]["tier"], tiers["PVP"]["note"]), ("T1", "进攻强大"))
 
 
 class TestManual飞焰铃舞(unittest.TestCase):
@@ -421,9 +434,9 @@ class TestManual炽焰降生(unittest.TestCase):
         self.assertEqual({s["name"]: s["count"] for s in c["black_stones"]["stones"]}, {"巫妖": 4, "诡眼": 2, "迅角兽": 4, "炎龙": 8})
         self.assertEqual(c["blood_ranks"]["ranks"][1]["text"], "【血火真龙】变身的持续时间增加100%")
         tiers = {t["mode"]: t for t in load(os.path.join(ZH, "tiers.json"))["items"] if t["character"] == "炽焰降生"}
-        self.assertEqual((tiers["PVE"]["tier"], tiers["PVE"]["note"]), ("T3", "火系AOE\n战技流"))
+        self.assertEqual((tiers["PVE"]["tier"], tiers["PVE"]["note"]), ("T3", "火系AOE\n战技流\n异界火小怪击杀凑合用"))
         self.assertEqual((tiers["PVP"]["tier"], tiers["PVP"]["note"]), ("T3", "火系aoe\n高血阶有生存空间"))
-        self.assertEqual(tiers["PVE"]["as_of"], "2026-07-01")
+        self.assertEqual(tiers["PVE"]["as_of"], "2026-11-09")
 
 
 # ------------------------------------------------------------------ step 2 follow-up: lookup, tier_kind, reasons

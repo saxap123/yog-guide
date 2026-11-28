@@ -31,7 +31,16 @@
         "license": {"const": "CC BY-NC-SA 4.0"},
         "source": {"type": "string"},
         "count": {"type": "integer", "minimum": 0},
-        "items": {"type": "array"}
+        "items": {"type": "array"},
+        "sections": {
+          "type": "object",
+          "propertyNames": {"enum": ["PVE", "PVP"]},
+          "additionalProperties": {
+            "type": "object",
+            "propertyNames": {"pattern": "^T[0-9]+(\\.[0-9]+)?$"},
+            "additionalProperties": {"type": "string", "minLength": 1}
+          }
+        }
       }
     }
   }

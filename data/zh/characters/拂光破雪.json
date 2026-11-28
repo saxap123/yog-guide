@@ -380,11 +380,11 @@
       "title_found": false,
       "page": null,
       "search_hits": [
-       "拂光破雪",
        "不熄曜日",
-       "绞刃流火",
        "蚀骨魂龙",
-       "青鸾巽羽"
+       "拂光破雪",
+       "青鸾巽羽",
+       "千宵月守"
       ]
      }
     },
@@ -439,10 +439,10 @@
       "page": null,
       "search_hits": [
        "氪金攻略",
-       "拂光破雪",
        "战争之蹄",
        "黑衫刃影",
-       "不熄曜日"
+       "不熄曜日",
+       "传承之龙"
       ]
      }
     }
@@ -570,7 +570,12 @@
    "id": "relic-1965"
   }
  ],
- "battle_grid": null,
+ "battle_grid": [
+  {
+   "template": "刺杀战格",
+   "recommended": null
+  }
+ ],
  "portraits": null,
  "lore": {
   "story": null,
@@ -597,7 +602,7 @@
  ],
  "parse_notes": null,
  "source_url": "https://wiki.biligame.com/bookofyog/%E6%8B%82%E5%85%89%E7%A0%B4%E9%9B%AA",
- "revid": 8618,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8618",
- "rev_timestamp": "2026-02-08T04:13:30Z"
+ "revid": 9337,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9337",
+ "rev_timestamp": "2026-11-27T12:22:55Z"
 }

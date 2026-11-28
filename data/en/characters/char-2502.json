@@ -1,0 +1,526 @@
+{
+ "id": "char-2502",
+ "name": "Dreambound Wanderer",
+ "page_title": "云梦归人",
+ "in_category_黑卫": true,
+ "profile": {
+  "real_name": "Huaxinfeng",
+  "gender": "Female",
+  "race": "Beast Blood",
+  "birthday": "--03-03",
+  "birthplace": "the Far East",
+  "height_weight": "160cm/48kg",
+  "specialties": [
+   "running fast",
+   "keen hearing"
+  ],
+  "likes": [
+   "Commander",
+   "older sister",
+   "home",
+   "royal chess pieces (bond gift)"
+  ],
+  "dislikes": [
+   "carrots",
+   "noise",
+   "Training"
+  ],
+  "release_date": "2026-11-27"
+ },
+ "element": "Physical",
+ "rarity": "SP",
+ "factions": {
+  "base": {
+   "name": "Assassin Front",
+   "id": "faction-2194"
+  },
+  "others": [
+   {
+    "name": "Rangers Front",
+    "id": "faction-2197"
+   },
+   {
+    "name": "Avengers Front",
+    "id": "faction-2199"
+   },
+   {
+    "name": "Nullifiers Front",
+    "id": "faction-2201"
+   },
+   {
+    "name": "Souleaters Front",
+    "id": "faction-2203"
+   },
+   {
+    "name": "Vanguards Front",
+    "id": "faction-2207"
+   },
+   {
+    "name": "Defenders Front",
+    "id": "faction-2210"
+   },
+   {
+    "name": "Meteor Front",
+    "id": "faction-2213"
+   },
+   {
+    "name": "Rage Front",
+    "id": "faction-2190"
+   }
+  ]
+ },
+ "affix_recommendations": {
+  "primary": [
+   "All Damage Reduction (PVE needs 95%)",
+   "Physical Power %",
+   "Skill Crit",
+   "Crit Damage Boost",
+   "Strength",
+   "All Damage Boost",
+   "Physical Damage Boost",
+   "CD Reduction",
+   "Physical Penetration"
+  ],
+  "secondary": [
+   "Physical Resistance",
+   "Rage",
+   "Spell Damage Reduction",
+   "Physical Damage Reduction",
+   "Max HP",
+   "Constitution",
+   "Rage Restore",
+   "Crit Damage Reduction"
+  ]
+ },
+ "note": null,
+ "skills": [
+  {
+   "slot": "Normal Attack",
+   "category": "Normal Attack",
+   "name": "Water-Cleaving Draw",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Deals Physical DMG equal to 4000% of Physical Power to enemies in a small area in front. Attack Speed affects this skill, and its damage counts as Basic Attack DMG.",
+   "scaling": [
+    {
+     "percent": "4000%",
+     "values": [
+      4000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 4000% of Physical Power"
+    }
+   ],
+   "name_zh": "抽刀断水"
+  },
+  {
+   "slot": "Ultimate Skill",
+   "category": "Ultimate Skill",
+   "name": "Duel of Blades",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "1000 Rage",
+   "description": "Challenges an enemy to a Duel to the Death for 6 seconds. The duelists can only damage each other and cannot regenerate Rage naturally. Damage, healing, Rage recovery, shields, and crowd control from other units have no effect. The duel ends immediately if either duelist dies. The caster deals 100% more damage during the duel.",
+   "scaling": [],
+   "name_zh": "剑道争锋"
+  },
+  {
+   "slot": "Combat Skill",
+   "category": "Combat Skill",
+   "name": "Silent Thunder",
+   "cooldown_s": 12,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "If no enemy is in melee range, dashes to the nearest enemy and Silences them for 2 seconds. If an enemy is in range, deals Physical DMG equal to 5000% of Physical Power and Silences them for 2 seconds.",
+   "scaling": [
+    {
+     "percent": "5000%",
+     "values": [
+      5000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 5000% of Physical Power"
+    }
+   ],
+   "name_zh": "大音希声"
+  },
+  {
+   "slot": "Support Skill 1",
+   "category": "Support Skill",
+   "name": "Unstoppable Momentum",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Killing an enemy Blackguard during [Duel of Blades] steals 10% of their Physical Power and Spell Power. Killing a monster increases the caster's Physical Power by the corresponding amount.",
+   "scaling": [
+    {
+     "percent": "10%",
+     "values": [
+      10.0
+     ],
+     "stat": "Physical Power",
+     "effect": null,
+     "text": "10% of Physical Power"
+    }
+   ],
+   "name_zh": "势如破竹"
+  },
+  {
+   "slot": "Support Skill 2",
+   "category": "Support Skill",
+   "name": "Opportune Counter",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When hit during [Duel of Blades], has a 10% chance to counter, negate that hit, and deal Physical DMG equal to 20000% of Physical Power to the attacker. Each 10 points of Bravery above the opponent's increases the trigger chance by 1%.",
+   "scaling": [
+    {
+     "percent": "20000%",
+     "values": [
+      20000.0
+     ],
+     "stat": "Physical Power",
+     "effect": "Physical DMG",
+     "text": "Physical DMG equal to 20000% of Physical Power"
+    }
+   ],
+   "name_zh": "后发制人"
+  },
+  {
+   "slot": "Support Skill 3",
+   "category": "Support Skill",
+   "name": "Footprints in Snow",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "[Silent Thunder] also makes the target take 30% more Basic Attack DMG for 6 seconds.",
+   "scaling": [],
+   "name_zh": "飞鸿踏雪"
+  },
+  {
+   "slot": "Support Skill 4",
+   "category": "Support Skill",
+   "name": "Sincerity",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Dreambound Wanderer gains 10 Bravery.",
+   "scaling": [],
+   "name_zh": "赤诚"
+  },
+  {
+   "slot": "General Support Skill 1",
+   "category": "General Support Skill",
+   "name": "Bully",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with lower spell power or physical power by 12%",
+   "scaling": [],
+   "name_zh": "恃强凌弱"
+  },
+  {
+   "slot": "General Support Skill 2",
+   "category": "General Support Skill",
+   "name": "Lethal Ambush",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Increases damage dealt to enemies with full health by 15%",
+   "scaling": [],
+   "name_zh": "致命伏击"
+  },
+  {
+   "slot": "General Support Skill 3",
+   "category": "General Support Skill",
+   "name": "Cloak of Shadows",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "Debuff duration reduced by 30%",
+   "scaling": [],
+   "name_zh": "暗影斗篷"
+  },
+  {
+   "slot": "General Support Skill 4",
+   "category": "General Support Skill",
+   "name": "Shadowmeld",
+   "cooldown_s": 0,
+   "cooldown_raw": null,
+   "cost": "0",
+   "description": "When taking damage, there is a 10% chance to trigger Shadowmeld, immune to the damage, and immune to all damage for the next 0.2 sec. (Trigger interval 10 sec).",
+   "scaling": [],
+   "name_zh": "影遁"
+  }
+ ],
+ "builds": [
+  {
+   "level_tier": "Waiting (not filled in yet)",
+   "tier_kind": "special",
+   "level": null,
+   "levels": null,
+   "qualifier": null,
+   "tier_note": "placeholder ('waiting'): build not filled in yet",
+   "slots": {
+    "Helmet": null,
+    "Necklace": null,
+    "Card": null,
+    "Earrings": null,
+    "Armor": null,
+    "Ring": null,
+    "Belt": null,
+    "Relic": null,
+    "Trousers": null,
+    "Emblem": null,
+    "Shoes": null,
+    "Off-hand": null,
+    "Weapon": "Daybreak",
+    "Handguard": null
+   },
+   "alternatives": null,
+   "extracts": null,
+   "signature_weapon": null,
+   "item_ids": {
+    "拂晓": null
+   },
+   "unlinked": {
+    "拂晓": {
+     "reason": "nowhere",
+     "game_id": null,
+     "possible_match": null,
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "圣翼降临",
+       "胜利昭告",
+       "拂光破雪",
+       "遗物",
+       "云梦归人"
+      ]
+     }
+    }
+   },
+   "empty": false
+  }
+ ],
+ "runes": {
+  "main": null,
+  "support": [
+   {
+    "name": null,
+    "id": null,
+    "options": null,
+    "unlinked": {
+     "reason": "typo_candidate",
+     "game_id": null,
+     "possible_match": {
+      "name": "铁棘",
+      "id": "rune-1420",
+      "source": "similar name in runes.json",
+      "status": "unverified"
+     },
+     "game": null,
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "战争之蹄",
+       "长辉照夜",
+       "玉尘灵仙"
+      ]
+     }
+    }
+   }
+  ],
+  "note": null
+ },
+ "black_stones": {
+  "stones": [
+   {
+    "name": "Raging Beast",
+    "id": "black_stone-03",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Evil Eye",
+    "id": "black_stone-06",
+    "count": 2,
+    "raw": null
+   },
+   {
+    "name": "Cursed Soul",
+    "id": "black_stone-14",
+    "count": 8,
+    "raw": null
+   },
+   {
+    "name": "Skitoceros",
+    "id": "black_stone-17",
+    "count": 4,
+    "raw": null
+   }
+  ],
+  "note": null
+ },
+ "blood_ranks": {
+  "ranks": [
+   {
+    "rank": 1,
+    "text": "Each cast of [Water-Cleaving Draw] also increases [Opportune Counter] damage by 40%, stacking up to 5 times."
+   },
+   {
+    "rank": 2,
+    "text": "Every 5 casts of [Water-Cleaving Draw] trigger [Counterblade] without consuming the stacks from Blood Rank 1."
+   },
+   {
+    "rank": 3,
+    "text": "If neither duelist dies before [Duel of Blades] ends, the Blackguard with the higher remaining HP percentage steals 5% of the target's Power stats. Against a monster, the caster always gains 5% Physical Power instead."
+   },
+   {
+    "rank": 4,
+    "text": "Power stolen by [Duel of Blades] is granted to all allied Blackguards."
+   },
+   {
+    "rank": 5,
+    "text": "On offense in the Arena, [Silent Thunder] can target an enemy Blackguard, and Dreambound Wanderer can damage invulnerable enemies."
+   },
+   {
+    "rank": 6,
+    "text": "Dreambound Wanderer deals 10% more damage."
+   }
+  ],
+  "recommendation": null
+ },
+ "divinity": null,
+ "relics": [
+  {
+   "name": "Dew Turns to Frost",
+   "id": "relic-2057"
+  }
+ ],
+ "battle_grid": [
+  {
+   "template": "Assassin battle grid",
+   "recommended": null
+  }
+ ],
+ "portraits": null,
+ "lore": {
+  "story": null,
+  "deeds": null
+ },
+ "affection": null,
+ "placeholders_nulled": [
+  "立绘1",
+  "事迹一",
+  "事迹二",
+  "事迹三",
+  "事迹四",
+  "事迹五",
+  "事迹六",
+  "角色故事",
+  "2Q",
+  "2A1",
+  "2A2",
+  "5Q",
+  "5A1",
+  "5A2",
+  "10Q",
+  "10A"
+ ],
+ "parse_notes": [
+  "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
+ ],
+ "source_url": "https://wiki.biligame.com/bookofyog/%E4%BA%91%E6%A2%A6%E5%BD%92%E4%BA%BA",
+ "revid": 9334,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9334",
+ "rev_timestamp": "2026-11-27T12:22:08Z",
+ "i18n": {
+  "name_zh": "云梦归人",
+  "sources": {
+   "derived": 6,
+   "game_db": 4,
+   "glossary": 65,
+   "lore": 1,
+   "names": 20,
+   "translated": 33
+  },
+  "text_sources": {
+   "skills[0].description": {
+    "source": "translated"
+   },
+   "skills[1].description": {
+    "source": "translated"
+   },
+   "skills[2].description": {
+    "source": "translated"
+   },
+   "skills[3].description": {
+    "source": "translated"
+   },
+   "skills[4].description": {
+    "source": "translated"
+   },
+   "skills[5].description": {
+    "source": "translated"
+   },
+   "skills[6].description": {
+    "source": "translated"
+   },
+   "skills[7].description": {
+    "source": "game_db",
+    "text_id": 4305,
+    "match": "exact"
+   },
+   "skills[8].description": {
+    "source": "game_db",
+    "text_id": 4306,
+    "match": "exact"
+   },
+   "skills[9].description": {
+    "source": "game_db",
+    "text_id": 4308,
+    "match": "exact"
+   },
+   "skills[10].description": {
+    "source": "game_db",
+    "text_id": 54718,
+    "match": "exact"
+   },
+   "blood_ranks.ranks[0]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[1]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[2]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[3]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[4]": {
+    "source": "translated"
+   },
+   "blood_ranks.ranks[5]": {
+    "source": "translated"
+   }
+  },
+  "missing": [
+   {
+    "path": "runes.support[0]",
+    "zh": "铁荆",
+    "reason": "names.json/runes: probably a typo on the wiki; not corrected"
+   }
+  ],
+  "untranslated_lore": [
+   "lore"
+  ]
+ }
+}

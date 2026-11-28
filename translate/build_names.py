@@ -1,4 +1,4 @@
-"""Step 3.1: data/names.json — Chinese wiki names -> official English names from the game.
+"""Step 3.1: data/names.json — Chinese wiki names -> English names and their sources.
 
 Every name is linked through the table row of the game (`name_id`, `title_id`) to the
 dictionary, never by free string search:
@@ -11,7 +11,8 @@ dictionary, never by free string search:
     black stone tpl_sc_blackStone.name = 黑石·<wiki name> (name_id); English prefix 'Gem·' removed
     faction    tpl_sc_typeLevelTeam.name = <wiki name>阵线 or <wiki name> (name_id)
 
-Not found -> en: null, status: "unverified". Only names used in data/zh are written.
+Names without a game match can come from translate/manual/names.json. The rest have en: null
+and status: "unverified". Only names used in data/zh are written.
 """
 from __future__ import annotations
 
@@ -28,6 +29,7 @@ import gamedict  # noqa: E402
 ROOT = gamedict.ROOT
 ZH = os.path.join(ROOT, "data", "zh")
 OUT = os.path.join(ROOT, "data", "names.json")
+MANUAL = os.path.join(ROOT, "translate", "manual", "names.json")
 
 # wiki spelling -> game spelling (checked by hand in the game tables; never guessed).
 ALIASES = {"characters": {"璨然银龙": "燦然银龙"}}
@@ -291,18 +293,14 @@ def build():
                                             "note": "same Chinese text in the dictionary but no table row "
                                                     "links to it; not used"}
 
-    # ---- summary -----------------------------------------------------------------------
-    counts = {}
-    for k, d in names.items():
-        found = sum(1 for e in d.values() if e.get("en"))
-        counts[k] = {"total": len(d), "game_db": found, "unverified": len(d) - found}
+    counts = apply_manual_names(names)
     out = {
         "meta": {
-            "description": "Chinese wiki names -> official English names from the game dictionary",
+            "description": "Chinese wiki names -> English names and their sources",
             "game_snapshot": gamedict.SNAPSHOT_DATE,
             "wiki": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/ (CC BY-NC-SA 4.0)",
-            "rule": "linked through the table row (name_id/title_id) -> totalLanguageDicText.json; "
-                    "not found -> en null, status unverified",
+            "rule": "game table and dictionary first, then sourced names in translate/manual/names.json; "
+                    "unmatched names have en null",
             "generated_by": "translate/build_names.py",
             "counts": counts,
         },
@@ -312,6 +310,25 @@ def build():
         json.dump(out, f, ensure_ascii=False, indent=1)
         f.write("\n")
     return out
+
+
+def apply_manual_names(names):
+    with open(MANUAL, encoding="utf-8") as f:
+        manual = json.load(f)
+    for category, entries in manual.items():
+        for zh, fallback in entries.items():
+            entry = names[category].get(zh)
+            if entry is not None and entry.get("en") is None:
+                entry.update(fallback, status="verified" if fallback["source"] == "publisher" else "translated")
+                for key in ("note", "possible_match", "dictionary_only"):
+                    entry.pop(key, None)
+    counts = {}
+    for k, d in names.items():
+        counts[k] = {"total": len(d), "game_db": 0, "unverified": 0}
+        for e in d.values():
+            source = e["source"] if e.get("en") else "unverified"
+            counts[k][source] = counts[k].get(source, 0) + 1
+    return counts
 
 
 if __name__ == "__main__":

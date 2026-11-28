@@ -1,0 +1,15 @@
+{
+  "title": "模板:附魔推荐",
+  "pageid": 2463,
+  "ns": 10,
+  "revid": 9267,
+  "rev_timestamp": "2026-11-14T10:24:57Z",
+  "wikitext": "{{#set:\n|黑卫名称={{{黑卫名称|}}}\n|附魔主推={{{主推|}}}\n|附魔次选={{{次选|}}}\n|附魔备注={{{备注|}}}\n}}\n<div class=\"sy-box-1\">\n<div class=\"sy-box-1-n\">\n<div class=\"sy-title-1\">附魔推荐</div>\n<div class=\"sy-divider\"></div>\n<div class=\"sy-content\">\n<div class=\"BOX-title-2 border-color-ccc\">主推奥典</div>\n<div class=\"BOX-N py-1\">\n<div style=\"width:100%;overflow:hidden\">{{#if:{{{主推|}}}|{{#arraymap:{{{主推|}}}|、|@@|<span class=\"fm-tag fm-main\">@@</span>|&nbsp;}}|暂无}}</div>\n</div>\n{{#if:{{{主推理由|}}}|\n<div class=\"BOX-title-2 border-color-ccc\">主推理由</div>\n<div class=\"BOX-N py-1\"><div style=\"width:100%;overflow:hidden\">{{{主推理由|}}}</div></div>\n|}}\n<div class=\"BOX-title-2 border-color-ccc\">次选奥典</div>\n<div class=\"BOX-N py-1\">\n<div style=\"width:100%;overflow:hidden\">{{#if:{{{次选|}}}|{{#arraymap:{{{次选|}}}|、|@@|<span class=\"fm-tag fm-alt\">@@</span>|&nbsp;}}|暂无}}</div>\n</div>\n{{#if:{{{次选理由|}}}|\n<div class=\"BOX-title-2 border-color-ccc\">次选理由</div>\n<div class=\"BOX-N py-1\"><div style=\"width:100%;overflow:hidden\">{{{次选理由|}}}</div></div>\n|}}\n{{#if:{{{备注|}}}|\n<div class=\"BOX-title-2 border-color-ccc\">备注</div>\n<div class=\"BOX-N py-1\"><div style=\"width:100%;overflow:hidden\">{{{备注|}}}</div></div>\n|}}\n</div>\n</div>\n</div>\n{{#css:\n.fm-tag{display:inline-block;padding:0 8px;margin:2px 0;border-radius:4px;font-size:12px;line-height:20px}\n.fm-main{background:#E8B04B;color:#FFF;font-weight:700}\n.fm-alt{background:#D9D1C8;color:#545454}\n}}",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E9%99%84%E9%AD%94%E6%8E%A8%E8%8D%90",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9267",
+  "fetched_at": "2026-11-28T07:24:11+00:00",
+  "templates": [],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

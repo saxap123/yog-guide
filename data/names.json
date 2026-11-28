@@ -1,30 +1,35 @@
 {
  "meta": {
-  "description": "Chinese wiki names -> official English names from the game dictionary",
+  "description": "Chinese wiki names -> English names and their sources",
   "game_snapshot": "2026-09-22",
   "wiki": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/ (CC BY-NC-SA 4.0)",
-  "rule": "linked through the table row (name_id/title_id) -> totalLanguageDicText.json; not found -> en null, status unverified",
+  "rule": "game table and dictionary first, then sourced names in translate/manual/names.json; unmatched names have en null",
   "generated_by": "translate/build_names.py",
   "counts": {
    "characters": {
-    "total": 76,
+    "total": 77,
     "game_db": 75,
-    "unverified": 1
+    "unverified": 1,
+    "publisher": 1
    },
    "skills": {
-    "total": 501,
+    "total": 507,
     "game_db": 483,
-    "unverified": 18
+    "unverified": 17,
+    "translated": 7
    },
    "gear": {
-    "total": 353,
-    "game_db": 339,
-    "unverified": 14
+    "total": 355,
+    "game_db": 338,
+    "unverified": 14,
+    "publisher": 1,
+    "translated": 2
    },
    "relics": {
     "total": 60,
-    "game_db": 58,
-    "unverified": 2
+    "game_db": 57,
+    "unverified": 2,
+    "publisher": 1
    },
    "runes": {
     "total": 30,
@@ -67,6 +72,13 @@
     "en": "Nameless Soul",
     "text_id": 1970
    }
+  },
+  "云梦归人": {
+   "en": "Dreambound Wanderer",
+   "game_id": null,
+   "source": "publisher",
+   "status": "verified",
+   "source_url": "https://steamcommunity.com/app/1097430/allnews/"
   },
   "传承之龙": {
    "en": "Legendary Dragon",
@@ -2028,12 +2040,12 @@
    ]
   },
   "赤诚": {
-   "en": null,
+   "en": "Sincerity",
    "game_id": null,
-   "source": null,
-   "status": "unverified",
-   "note": "no skill of this name in tpl_heroSkill / tpl_passive_skill",
+   "source": "translated",
+   "status": "translated",
    "characters": [
+    "云梦归人",
     "司正天座"
    ]
   },
@@ -2244,6 +2256,7 @@
    "table": "tpl_heroSkill",
    "source": "game_db",
    "characters": [
+    "云梦归人",
     "圣翼降临",
     "夺魂之镰",
     "妖刀",
@@ -2264,6 +2277,7 @@
    "table": "tpl_heroSkill",
    "source": "game_db",
    "characters": [
+    "云梦归人",
     "圣翼降临",
     "夺魂之镰",
     "妖刀",
@@ -2284,6 +2298,7 @@
    "table": "tpl_heroSkill",
    "source": "game_db",
    "characters": [
+    "云梦归人",
     "圣翼降临",
     "夺魂之镰",
     "妖刀",
@@ -2304,6 +2319,7 @@
    "table": "tpl_heroSkill",
    "source": "game_db",
    "characters": [
+    "云梦归人",
     "圣翼降临",
     "夺魂之镰",
     "妖刀",
@@ -6363,6 +6379,60 @@
    "characters": [
     "黑衫刃影"
    ]
+  },
+  "抽刀断水": {
+   "en": "Water-Cleaving Draw",
+   "game_id": null,
+   "source": "translated",
+   "status": "translated",
+   "characters": [
+    "云梦归人"
+   ]
+  },
+  "剑道争锋": {
+   "en": "Duel of Blades",
+   "game_id": null,
+   "source": "translated",
+   "status": "translated",
+   "characters": [
+    "云梦归人"
+   ]
+  },
+  "大音希声": {
+   "en": "Silent Thunder",
+   "game_id": null,
+   "source": "translated",
+   "status": "translated",
+   "characters": [
+    "云梦归人"
+   ]
+  },
+  "势如破竹": {
+   "en": "Unstoppable Momentum",
+   "game_id": null,
+   "source": "translated",
+   "status": "translated",
+   "characters": [
+    "云梦归人"
+   ]
+  },
+  "后发制人": {
+   "en": "Opportune Counter",
+   "game_id": null,
+   "source": "translated",
+   "status": "translated",
+   "characters": [
+    "云梦归人"
+   ]
+  },
+  "飞鸿踏雪": {
+   "en": "Footprints in Snow",
+   "game_id": null,
+   "source": "translated",
+   "status": "translated",
+   "characters": [
+    "云梦归人"
+   ]
   }
  },
  "gear": {
@@ -7192,6 +7262,14 @@
    "source": "game_db",
    "in_wiki_gear": true
   },
+  "拂晓": {
+   "en": "Daybreak",
+   "game_id": null,
+   "source": "publisher",
+   "status": "verified",
+   "in_wiki_gear": false,
+   "source_url": "https://steamcommunity.com/app/1097430/allnews/"
+  },
   "指路吊坠": {
    "en": "Spiral Guide",
    "game_id": "4012",
@@ -8002,14 +8080,6 @@
    "source": "game_db",
    "in_wiki_gear": true
   },
-  "盾形徽章": {
-   "en": "Badge of the Bulwark",
-   "game_id": "13009",
-   "text_id": 3933,
-   "table": "tpl_sc_equipment",
-   "source": "game_db",
-   "in_wiki_gear": false
-  },
   "盾护之牌": {
    "en": "Card of Shield",
    "game_id": "90213",
@@ -8128,6 +8198,13 @@
    "text_id": 3830,
    "table": "tpl_sc_equipment",
    "source": "game_db",
+   "in_wiki_gear": false
+  },
+  "神圣智手": {
+   "en": "Sacred Wisdom Gauntlets",
+   "game_id": null,
+   "source": "translated",
+   "status": "translated",
    "in_wiki_gear": false
   },
   "祭仪羽冠": {
@@ -8482,6 +8559,13 @@
    "table": "tpl_sc_equipment",
    "source": "game_db",
    "in_wiki_gear": true
+  },
+  "蔷薇之心": {
+   "en": "Heart of the Rose",
+   "game_id": null,
+   "source": "translated",
+   "status": "translated",
+   "in_wiki_gear": false
   },
   "薄暮幽寂影手": {
    "en": null,
@@ -9448,13 +9532,6 @@
    "table": "tpl_sc_heirloom",
    "source": "game_db"
   },
-  "始见新生": {
-   "en": "First Light of Rebirth",
-   "game_id": "1046",
-   "text_id": 80277,
-   "table": "tpl_sc_heirloom",
-   "source": "game_db"
-  },
   "巨龙之息": {
    "en": "Draconic Breath",
    "game_id": "1009",
@@ -9596,6 +9673,13 @@
    "text_id": 64429,
    "table": "tpl_sc_heirloom",
    "source": "game_db"
+  },
+  "白露为霜": {
+   "en": "Dew Turns to Frost",
+   "game_id": null,
+   "source": "publisher",
+   "status": "verified",
+   "source_url": "https://steamcommunity.com/app/1097430/allnews/"
   },
   "神龙之吟": {
    "en": "Song of the Divine Dragon",
