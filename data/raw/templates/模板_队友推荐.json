@@ -1,0 +1,15 @@
+{
+  "title": "模板:队友推荐",
+  "pageid": 2464,
+  "ns": 10,
+  "revid": 9268,
+  "rev_timestamp": "2026-11-14T10:25:28Z",
+  "wikitext": "{{#set:\n|黑卫名称={{{黑卫名称|}}}\n|队友1={{{角色1|}}}\n|队友1定位={{{定位1|}}}\n|队友1理由={{{理由1|}}}\n|队友2={{{角色2|}}}\n|队友2定位={{{定位2|}}}\n|队友2理由={{{理由2|}}}\n|队友3={{{角色3|}}}\n|队友3定位={{{定位3|}}}\n|队友3理由={{{理由3|}}}\n|队友4={{{角色4|}}}\n|队友4定位={{{定位4|}}}\n|队友4理由={{{理由4|}}}\n|队友5={{{角色5|}}}\n|队友5定位={{{定位5|}}}\n|队友5理由={{{理由5|}}}\n|队友6={{{角色6|}}}\n|队友6定位={{{定位6|}}}\n|队友6理由={{{理由6|}}}\n|队友备注={{{备注|}}}\n}}\n<div class=\"sy-box-1\">\n<div class=\"sy-box-1-n\">\n<div class=\"sy-title-1\">队友推荐</div>\n<div class=\"sy-divider\"></div>\n<div class=\"sy-content\">\n<table class=\"heiwei-table dy-table\" style=\"width:100%;margin-top:0\">\n<tr><th style=\"width:28%\">角色</th><th style=\"width:16%\">定位</th><th>搭配理由</th></tr>\n{{#if:{{{角色1|}}}|<tr><td class=\"dy-name\">{{#ifexist:File:{{{角色1}}}icon.png|[[file:{{{角色1}}}icon.png|52px|link={{{角色1}}}]]&nbsp;|}}[[{{{角色1}}}]]</td><td class=\"dy-pos\">{{{定位1|}}}</td><td>{{{理由1|}}}</td></tr>|}}\n{{#if:{{{角色2|}}}|<tr><td class=\"dy-name\">{{#ifexist:File:{{{角色2}}}icon.png|[[file:{{{角色2}}}icon.png|52px|link={{{角色2}}}]]&nbsp;|}}[[{{{角色2}}}]]</td><td class=\"dy-pos\">{{{定位2|}}}</td><td>{{{理由2|}}}</td></tr>|}}\n{{#if:{{{角色3|}}}|<tr><td class=\"dy-name\">{{#ifexist:File:{{{角色3}}}icon.png|[[file:{{{角色3}}}icon.png|52px|link={{{角色3}}}]]&nbsp;|}}[[{{{角色3}}}]]</td><td class=\"dy-pos\">{{{定位3|}}}</td><td>{{{理由3|}}}</td></tr>|}}\n{{#if:{{{角色4|}}}|<tr><td class=\"dy-name\">{{#ifexist:File:{{{角色4}}}icon.png|[[file:{{{角色4}}}icon.png|52px|link={{{角色4}}}]]&nbsp;|}}[[{{{角色4}}}]]</td><td class=\"dy-pos\">{{{定位4|}}}</td><td>{{{理由4|}}}</td></tr>|}}\n{{#if:{{{角色5|}}}|<tr><td class=\"dy-name\">{{#ifexist:File:{{{角色5}}}icon.png|[[file:{{{角色5}}}icon.png|52px|link={{{角色5}}}]]&nbsp;|}}[[{{{角色5}}}]]</td><td class=\"dy-pos\">{{{定位5|}}}</td><td>{{{理由5|}}}</td></tr>|}}\n{{#if:{{{角色6|}}}|<tr><td class=\"dy-name\">{{#ifexist:File:{{{角色6}}}icon.png|[[file:{{{角色6}}}icon.png|52px|link={{{角色6}}}]]&nbsp;|}}[[{{{角色6}}}]]</td><td class=\"dy-pos\">{{{定位6|}}}</td><td>{{{理由6|}}}</td></tr>|}}\n</table>\n{{#if:{{{备注|}}}|\n<div class=\"BOX-title-2 border-color-ccc\" style=\"margin-top:10px\">备注</div>\n<div class=\"BOX-N py-1\"><div style=\"width:100%;overflow:hidden\">{{{备注|}}}</div></div>\n|}}\n</div>\n</div>\n</div>\n{{#css:\n.dy-table td.dy-name{white-space:nowrap;font-weight:700}\n.dy-table td.dy-name img{vertical-align:middle;border-radius:4px}\n.dy-table td.dy-pos{text-align:center;color:#3B4255}\n.dy-table td{vertical-align:middle}\n}}",
+  "redirected_from": null,
+  "group": "templates",
+  "source_url": "https://wiki.biligame.com/bookofyog/%E6%A8%A1%E6%9D%BF:%E9%98%9F%E5%8F%8B%E6%8E%A8%E8%8D%90",
+  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9268",
+  "fetched_at": "2026-11-28T07:24:11+00:00",
+  "templates": [],
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog"
+}

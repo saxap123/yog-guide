@@ -2,10 +2,10 @@
  "kind": "gear_item",
  "license": "CC BY-NC-SA 4.0",
  "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
- "count": 340,
+ "count": 339,
  "language": "en",
  "translation": "see data/names.json, data/glossary.json, translate/README.md",
- "game_only_items": 99,
+ "game_only_items": 98,
  "game_only_note": "items with source game_db are named in wiki builds but have no wiki page; data from the game files dated 2026-09-22 (no source_url/revid). Their skill value ranges use the wiki format, which equals the wiki text for 75 of 159 wiki items checked (the others differ in wording, typos or fixed values on the wiki).",
  "items": [
   {
@@ -23304,56 +23304,6 @@
    ],
    "i18n": {
     "name_zh": "猎猫之戒",
-    "sources": {
-     "glossary": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "id": "gear-game-13009",
-   "name": "Badge of the Bulwark",
-   "name_zh": "盾形徽章",
-   "page_title": null,
-   "slot": "Relic",
-   "slot_zh": "圣物",
-   "quality": null,
-   "quality_zh": null,
-   "max_level": 350,
-   "skill": "Reduces Physical damage taken by (5.00%-10.00%) when health is >50%",
-   "skill_zh": "佩戴者生命在50%以上时，受到的物理伤害降低(5.00%-10.00%)",
-   "game": {
-    "table": "tpl_sc_equipment",
-    "game_id": "13009",
-    "name_text_id": 3933,
-    "type": "5",
-    "quality": "0",
-    "equipmentGrade": "4|6|8|10",
-    "skill_affixes": [
-     {
-      "affix_id": "53009",
-      "affix_name": "技能-圣物-盾形徽章",
-      "text_id": 7672,
-      "min": "0.05",
-      "max": "0.1",
-      "percent": true
-     }
-    ],
-    "snapshot": "2026-09-22"
-   },
-   "used_in": [
-    "司正天座 / 蹲 / 圣物"
-   ],
-   "source": "game_db",
-   "notes": [
-    "quality not fixed in tpl_sc_equipment (quality=0); the item can drop in the grades listed in game.equipmentGrade",
-    "skill values rendered from affix min_1/max_1 in the wiki's '(a%-b%)' format",
-    "stats (basic/prefix/suffix affixes) are random rolls in the game tables and are not listed"
-   ],
-   "i18n": {
-    "name_zh": "盾形徽章",
     "sources": {
      "glossary": 1
     },

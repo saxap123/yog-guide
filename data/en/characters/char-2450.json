@@ -18,7 +18,7 @@
    "tidiness",
    "fairness",
    "jigsaw puzzles",
-   "(bond gift)"
+   "punctual pocket watch (bond gift)"
   ],
   "dislikes": [
    "clutter",
@@ -178,7 +178,7 @@
   {
    "slot": "Support Skill 4",
    "category": "Support Skill",
-   "name": null,
+   "name": "Sincerity",
    "cooldown_s": 0,
    "cooldown_raw": null,
    "cost": "0",
@@ -240,59 +240,66 @@
    "qualifier": null,
    "tier_note": "placeholder ('waiting'): build not filled in yet",
    "slots": {
-    "Helmet": null,
+    "Helmet": "Holy Guardian Helmet",
     "Necklace": "Chain of Radiance",
     "Card": null,
     "Earrings": "Ring of Radiance",
-    "Armor": null,
-    "Ring": null,
-    "Belt": null,
-    "Relic": "Badge of the Bulwark",
+    "Armor": "Armor of Cursed Orbs",
+    "Ring": "Heart of the Rose",
+    "Belt": "Belt of Exocist",
+    "Relic": "Eternal Flame",
     "Trousers": "Deathslumber Shorts",
-    "Emblem": "Emblem of Resistance",
+    "Emblem": "Soul Stealer's Emblem",
     "Shoes": null,
-    "Off-hand": null,
-    "Weapon": null,
-    "Handguard": null
+    "Off-hand": "Soul Stealer's Shield",
+    "Weapon": "Chaos Blade",
+    "Handguard": "Sacred Wisdom Gauntlets"
    },
    "alternatives": null,
    "extracts": null,
    "signature_weapon": null,
    "item_ids": {
+    "圣守耀盔": "gear-1274",
     "辉耀之链": "gear-134",
+    "任意太古装备": null,
     "辉耀之环": "gear-138",
-    "盾形徽章": "gear-game-13009",
+    "法球咒铠": "gear-1686",
+    "蔷薇之心": null,
+    "圣职驱魔": "gear-1689",
+    "活体火焰": "gear-1198",
     "死眠短裤": "gear-game-95033",
-    "抵抗勋章": "gear-1204",
+    "穿魂夺魄秘徽": "gear-1598",
+    "穿魂夺魄秘盾": "gear-1597",
+    "混沌利刃": "gear-2435",
+    "神圣智手": null,
     "清光昭雪": "gear-2465"
    },
    "unlinked": {
-    "盾形徽章": {
-     "reason": "game_only",
-     "game_id": "13009",
+    "任意太古装备": {
+     "reason": "not_an_item",
+     "game_id": null,
      "possible_match": null,
-     "game": {
-      "refs": [
-       {
-        "table": "tpl_sc_equipment",
-        "row": "equip",
-        "game_id": "13009",
-        "field": "name",
-        "text_id": 3933,
-        "type": "5"
-       }
-      ],
-      "text_ids": [
-       3933
-      ]
-     },
+     "game": null,
      "wiki_lookup": {
       "title_found": false,
       "page": null,
       "search_hits": [
-       "怒气装备",
-       "司正天座"
+       "霓裳若仙",
+       "爱恋花见",
+       "司正天座",
+       "千宵月守"
       ]
+     }
+    },
+    "蔷薇之心": {
+     "reason": "nowhere",
+     "game_id": null,
+     "possible_match": null,
+     "game": null,
+     "wiki_lookup": {
+      "title_found": true,
+      "page": "蔷薇之心",
+      "search_hits": []
      }
     },
     "死眠短裤": {
@@ -314,6 +321,19 @@
        82540
       ]
      },
+     "wiki_lookup": {
+      "title_found": false,
+      "page": null,
+      "search_hits": [
+       "司正天座"
+      ]
+     }
+    },
+    "神圣智手": {
+     "reason": "nowhere",
+     "game_id": null,
+     "possible_match": null,
+     "game": null,
      "wiki_lookup": {
       "title_found": false,
       "page": null,
@@ -408,7 +428,7 @@
   "ranks": [
    {
     "rank": 1,
-    "text": "DMG dealt by [Realm of Purity] additionally deals Holy DMG equal to 2% of [Celestial Magistrate]'s Max HP."
+    "text": "[Realm of Purity] deals additional Holy DMG equal to 20% of Lumina's Max HP. Hits have a 45% chance to reduce the enemy's Physical Power and Spell Power by 6% for 6 seconds. Stacks up to 10 times."
    },
    {
     "rank": 2,
@@ -416,7 +436,7 @@
    },
    {
     "rank": 3,
-    "text": "The Max HP converted by [Tracing Light] each time damage is taken is raised to at most 45% (depending on skill level)."
+    "text": "[Tracing Light] raises the cap on Max HP gained from each hit to 75%, depending on skill level. Each hit also grants 50 Physical Armor and Spell Armor."
    },
    {
     "rank": 4,
@@ -424,7 +444,7 @@
    },
    {
     "rank": 5,
-    "text": "Immune to instant-death effects"
+    "text": "Immune to instant death. When [First Light] applies Flare, it also reduces the target's healing received by 10% for 6 seconds. Stacks up to 10 times."
    },
    {
     "rank": 6,
@@ -662,9 +682,9 @@
  ],
  "parse_notes": null,
  "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%B8%E6%AD%A3%E5%A4%A9%E5%BA%A7",
- "revid": 9259,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9259",
- "rev_timestamp": "2026-11-08T13:46:36Z",
+ "revid": 9328,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9328",
+ "rev_timestamp": "2026-11-27T11:50:12Z",
  "i18n": {
   "name_zh": "司正天座",
   "sources": {
@@ -672,8 +692,8 @@
    "game_db": 13,
    "glossary": 78,
    "lore": 1,
-   "names": 29,
-   "translated": 37
+   "names": 34,
+   "translated": 40
   },
   "text_sources": {
    "note": {
@@ -807,12 +827,17 @@
     "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
    },
    {
-    "path": "skills[6].name",
-    "zh": "赤诚",
-    "reason": "names.json/skills: no skill of this name in tpl_heroSkill / tpl_passive_skill"
+    "path": "builds[0].slots.卡牌",
+    "zh": "任意太古装备",
+    "reason": "names.json/gear: not an item name (wiki text)"
    },
    {
-    "path": "builds[0].slots.武器",
+    "path": "builds[0].slots.鞋子",
+    "zh": "任意太古装备",
+    "reason": "names.json/gear: not an item name (wiki text)"
+   },
+   {
+    "path": "builds[0].signature_weapon",
     "zh": "清光昭雪",
     "reason": "names.json/gear: not in tpl_sc_equipment"
    },
@@ -824,68 +849,6 @@
   ],
   "untranslated_lore": [
    "lore"
-  ],
-  "unofficial_names": [
-   {
-    "path": "skills[3].description",
-    "zh": "无垢之境",
-    "en": "Realm of Purity"
-   },
-   {
-    "path": "skills[5].description",
-    "zh": "昭如日月",
-    "en": "Bright as Sun and Moon"
-   },
-   {
-    "path": "skills[5].description",
-    "zh": "司正天座",
-    "en": "Celestial Magistrate"
-   },
-   {
-    "path": "skills[6].description",
-    "zh": "司正天座",
-    "en": "Celestial Magistrate"
-   },
-   {
-    "path": "blood_ranks.ranks[0].text",
-    "zh": "无垢之境",
-    "en": "Realm of Purity"
-   },
-   {
-    "path": "blood_ranks.ranks[0].text",
-    "zh": "司正天座",
-    "en": "Celestial Magistrate"
-   },
-   {
-    "path": "blood_ranks.ranks[1].text",
-    "zh": "昭如日月",
-    "en": "Bright as Sun and Moon"
-   },
-   {
-    "path": "blood_ranks.ranks[2].text",
-    "zh": "溯光",
-    "en": "Tracing Light"
-   },
-   {
-    "path": "blood_ranks.ranks[5].text",
-    "zh": "司正天座",
-    "en": "Celestial Magistrate"
-   },
-   {
-    "path": "divinity.levels[2].effect",
-    "zh": "溯光",
-    "en": "Tracing Light"
-   },
-   {
-    "path": "divinity.levels[6].effect",
-    "zh": "无垢之境",
-    "en": "Realm of Purity"
-   },
-   {
-    "path": "divinity.levels[9].effect",
-    "zh": "昭如日月",
-    "en": "Bright as Sun and Moon"
-   }
   ]
  }
 }

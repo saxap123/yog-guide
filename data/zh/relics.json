@@ -1110,22 +1110,22 @@
   },
   {
    "id": "relic-2057",
-   "name": "始见新生",
+   "name": "白露为霜",
    "page_title": "始见新生",
    "type": "专属",
    "quality": "神话",
    "max_level": 700,
    "character": {
-    "name": "绚彩星绘",
-    "id": "char-2050"
+    "name": "云梦归人",
+    "id": "char-2502"
    },
    "exclusive": [
     "1500全属性",
-    "15%火焰伤害增幅"
+    "15%物理伤害增幅"
    ],
    "skills": [
-    "绚彩星绘佩戴时，造成的所有伤害增加5%+25%",
-    "【焰火戏法】触发时，立刻使自己恢复120点怒气值。"
+    "云梦归人佩戴时，造成的所有伤害增加5%+25%",
+    "进入战斗的前5秒，云梦归人处于无敌状态。"
    ],
    "advanced_fixed_skill": null,
    "advanced_random_skills": null,
@@ -1164,11 +1164,11 @@
    "obtain": [
     "黑市-长城圣殿"
    ],
-   "description": "交换生命的天秤，曾经的伙伴是否一如始终?",
-   "description_source": "wikitext",
+   "description": null,
+   "description_source": null,
    "source_url": "https://wiki.biligame.com/bookofyog/%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F",
-   "revid": 7610,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=7610",
+   "revid": 9341,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9341",
    "smw_api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%A7%8B%E8%A7%81%E6%96%B0%E7%94%9F&format=json"
   },
   {

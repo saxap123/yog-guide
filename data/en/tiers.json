@@ -2,171 +2,28 @@
  "kind": "tier_entry",
  "license": "CC BY-NC-SA 4.0",
  "source": "BWIKI 依盖之书 https://wiki.biligame.com/bookofyog/",
- "count": 152,
+ "count": 154,
+ "sections": {
+  "PVE": {
+   "T0": "The standard Light/Dark team is the best pick for most timed DPS checks where you can stay in place."
+  }
+ },
  "language": "en",
  "translation": "see data/names.json, data/glossary.json, translate/README.md",
  "items": [
   {
-   "character": "Everlasting Sol",
-   "character_id": "char-1631",
+   "character": "Ethereal Raiment",
+   "character_id": "char-2354",
    "mode": "PVE",
-   "tier": "T1",
-   "note": "Orb mechanics",
-   "as_of": "2026-07-01",
+   "tier": "T0",
+   "note": "Early progression damage dealer, prevents death\n4+19 recommended\nLarge independent damage boost",
+   "as_of": "2026-11-09",
    "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "不熄曜日",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "霓裳若仙",
    "i18n": {
-    "name_zh": "不熄曜日",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Ominous Wraith",
-   "character_id": "char-1808",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "不祥怨灵",
-   "i18n": {
-    "name_zh": "不祥怨灵",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Legendary Dragon",
-   "character_id": "char-288",
-   "mode": "PVE",
-   "tier": "T5",
-   "note": "[Eternal Winter] [Great Magic Missile] speedrun\nExcellent Front support",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "传承之龙",
-   "i18n": {
-    "name_zh": "传承之龙",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
-     {
-      "path": "note",
-      "zh": "永冬",
-      "en": "Eternal Winter"
-     },
-     {
-      "path": "note",
-      "zh": "大魔弹",
-      "en": "Great Magic Missile"
-     }
-    ]
-   }
-  },
-  {
-   "character": "Frozen Heart",
-   "character_id": "char-309",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "冰封之心",
-   "i18n": {
-    "name_zh": "冰封之心",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Skyborne Machina",
-   "character_id": "char-2059",
-   "mode": "PVE",
-   "tier": "T3",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "凌空械羽",
-   "i18n": {
-    "name_zh": "凌空械羽",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "The Winter Witch",
-   "character_id": "char-300",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "凛冬魔女",
-   "i18n": {
-    "name_zh": "凛冬魔女",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Northland Princess",
-   "character_id": "char-1696",
-   "mode": "PVE",
-   "tier": "T6",
-   "note": "Frost-element buffer\nResistance shred via gear",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "北境公主",
-   "i18n": {
-    "name_zh": "北境公主",
+    "name_zh": "霓裳若仙",
     "sources": {
      "names": 1,
      "translated": 1
@@ -186,10 +43,10 @@
    "mode": "PVE",
    "tier": "T0",
    "note": "Without paid off-hand: 1+0\nWith paid off-hand: 3+19",
-   "as_of": "2026-07-01",
+   "as_of": "2026-11-09",
    "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "千宵月守",
    "i18n": {
     "name_zh": "千宵月守",
@@ -207,765 +64,15 @@
    }
   },
   {
-   "character": "Twin Bulwark",
-   "character_id": "char-1719",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "双子之盾",
-   "i18n": {
-    "name_zh": "双子之盾",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Double Shot Pursuit",
-   "character_id": "char-1885",
-   "mode": "PVE",
-   "tier": "T6",
-   "note": "Better choices exist for Frost",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "双鸣追猎",
-   "i18n": {
-    "name_zh": "双鸣追猎",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": null,
-   "character_id": "char-2450",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "司正天座",
-   "i18n": {
-    "name_zh": "司正天座",
-    "sources": {},
-    "text_sources": null,
-    "missing": [
-     {
-      "path": "character",
-      "zh": "司正天座",
-      "reason": "names.json/characters: not in tpl_sc_hero (game files dated 2026-09-22; wiki release 2026年11月2日)"
-     }
-    ],
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Marine Rime",
-   "character_id": "char-1232",
-   "mode": "PVE",
-   "tier": "T6",
-   "note": "DMG is on the low side\nResistance shred via gear",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "唤霜海灵",
-   "i18n": {
-    "name_zh": "唤霜海灵",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Flabellum Seraph",
-   "character_id": "char-1484",
-   "mode": "PVE",
-   "tier": "T3",
-   "note": "Single-target DPS\nJourney, Sailing",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "圣翼降临",
-   "i18n": {
-    "name_zh": "圣翼降临",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Goblin Enchanter",
-   "character_id": "char-301",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "地精妖术师",
-   "i18n": {
-    "name_zh": "地精妖术师",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Blooming Ink Deer",
-   "character_id": "char-295",
-   "mode": "PVE",
-   "tier": "T2",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "墨凝清影",
-   "i18n": {
-    "name_zh": "墨凝清影",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Banquet Thunderlight",
-   "character_id": "char-2414",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "夜宴霆光",
-   "i18n": {
-    "name_zh": "夜宴霆光",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Shamneko in Night",
-   "character_id": "char-296",
-   "mode": "PVE",
-   "tier": "T2",
-   "note": "Lightning-element AOE",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "夜行暹罗",
-   "i18n": {
-    "name_zh": "夜行暹罗",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Sinister Shade",
-   "character_id": "char-2381",
-   "mode": "PVE",
-   "tier": "T2",
-   "note": "Early progression, Otherrealm map clearing\nWeak single-target ability",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "天邪魅影",
-   "i18n": {
-    "name_zh": "天邪魅影",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Crimson Scythe",
-   "character_id": "char-1805",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "夺魂之镰",
-   "i18n": {
-    "name_zh": "夺魂之镰",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Asura's Katana",
-   "character_id": "char-307",
-   "mode": "PVE",
-   "tier": "T4",
-   "note": "Tanks mobs in Rift\n11 [Thorn] healing reduction",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "妖刀",
-   "i18n": {
-    "name_zh": "妖刀",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
-     {
-      "path": "note",
-      "zh": "刺",
-      "en": "Thorn"
-     }
-    ]
-   }
-  },
-  {
-   "character": "Lady Swan Lake",
-   "character_id": "char-297",
-   "mode": "PVE",
-   "tier": "T5",
-   "note": "Breaks Invincible in Rift",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "婆娑轮舞",
-   "i18n": {
-    "name_zh": "婆娑轮舞",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Apostle of Judgment",
-   "character_id": "char-303",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "审判使者",
-   "i18n": {
-    "name_zh": "审判使者",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Woodland Dryad",
-   "character_id": "char-1725",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "密林之眼",
-   "i18n": {
-    "name_zh": "密林之眼",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Shrouded Slasher",
-   "character_id": "char-1806",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "封魔利爪",
-   "i18n": {
-    "name_zh": "封魔利爪",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Verdant Ranger",
-   "character_id": "char-1724",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "巡林游侠",
-   "i18n": {
-    "name_zh": "巡林游侠",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Imperial Sword",
-   "character_id": "char-1723",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "帝国之剑",
-   "i18n": {
-    "name_zh": "帝国之剑",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Exotic Merchant",
-   "character_id": "char-1809",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "异国商人",
-   "i18n": {
-    "name_zh": "异国商人",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Vanguard of Valkyrie",
-   "character_id": "char-302",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "御刃神锋",
-   "i18n": {
-    "name_zh": "御刃神锋",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Centaur Minerva",
-   "character_id": "char-291",
-   "mode": "PVE",
-   "tier": "T3",
-   "note": "Blacktide [Eternal Winter] speedrun",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "战争之蹄",
-   "i18n": {
-    "name_zh": "战争之蹄",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
-     {
-      "path": "note",
-      "zh": "永冬",
-      "en": "Eternal Winter"
-     }
-    ]
-   }
-  },
-  {
-   "character": "Flicker Pierce",
-   "character_id": "char-1648",
-   "mode": "PVE",
-   "tier": "T2",
-   "note": "Frost-element AOE\nHuge boost from the paid off-hand",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "拂光破雪",
-   "i18n": {
-    "name_zh": "拂光破雪",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Moondepth Dragonmaiden",
-   "character_id": "char-2394",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "月渊龙女",
-   "i18n": {
-    "name_zh": "月渊龙女",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Construct Guard",
-   "character_id": "char-1073",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "构装守卫",
-   "i18n": {
-    "name_zh": "构装守卫",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Pleasure Succubus",
-   "character_id": "char-1800",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "欢愉魔女",
-   "i18n": {
-    "name_zh": "欢愉魔女",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Fleur of the Heart",
-   "character_id": "char-1804",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "深庭玫瑰",
-   "i18n": {
-    "name_zh": "深庭玫瑰",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Chief Raven",
-   "character_id": "char-1812",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "渡鸦魁首",
-   "i18n": {
-    "name_zh": "渡鸦魁首",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Grey Archmage",
-   "character_id": "char-1801",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "灰袍法师",
-   "i18n": {
-    "name_zh": "灰袍法师",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Netherblade Maiden",
-   "character_id": "char-306",
-   "mode": "PVE",
-   "tier": "T6",
-   "note": "Front support utility pick",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "灵刃之主",
-   "i18n": {
-    "name_zh": "灵刃之主",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Dance of Searing Blaze",
-   "character_id": "char-305",
-   "mode": "PVE",
-   "tier": "T4",
-   "note": "Fire-element buffer\nResistance shred via gear",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "炙光之舞",
-   "i18n": {
-    "name_zh": "炙光之舞",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Nirvana Ignis",
-   "character_id": "char-284",
-   "mode": "PVE",
-   "tier": "T3",
-   "note": "Fire-element AOE\nBattle Skill build",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "炽焰降生",
-   "i18n": {
-    "name_zh": "炽焰降生",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Solus Commander",
-   "character_id": "char-1807",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "烈阳将军",
-   "i18n": {
-    "name_zh": "烈阳将军",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
    "character": "Blossom Amour",
    "character_id": "char-2166",
    "mode": "PVE",
    "tier": "T0",
-   "note": "Rage regen, high DMG boost",
-   "as_of": "2026-07-01",
+   "note": "Restores Rage and greatly boosts damage\n3+12",
+   "as_of": "2026-11-09",
    "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "爱恋花见",
    "i18n": {
     "name_zh": "爱恋花见",
@@ -983,51 +90,18 @@
    }
   },
   {
-   "character": "Jadeform Immortal",
-   "character_id": "char-1702",
+   "character": "Dance of Searing Blaze",
+   "character_id": "char-305",
    "mode": "PVE",
-   "tier": "T3",
-   "note": "Excellent mechanics\nNeeds the little deer [Little Deer]",
-   "as_of": "2026-07-01",
+   "tier": "T0",
+   "note": "Boosts damage and reduces resistance",
+   "as_of": "2026-11-09",
    "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "玉尘灵仙",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "炙光之舞",
    "i18n": {
-    "name_zh": "玉尘灵仙",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
-     {
-      "path": "note",
-      "zh": "小鹿",
-      "en": "Little Deer"
-     }
-    ]
-   }
-  },
-  {
-   "character": "Foxy Archduchess",
-   "character_id": "char-286",
-   "mode": "PVE",
-   "tier": "T5",
-   "note": "Lightning-element DMG boost",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "玉面九尾",
-   "i18n": {
-    "name_zh": "玉面九尾",
+    "name_zh": "炙光之舞",
     "sources": {
      "names": 1,
      "translated": 1
@@ -1042,22 +116,27 @@
    }
   },
   {
-   "character": "Kingdom Huntress",
-   "character_id": "char-1811",
+   "character": "Moondepth Dragonmaiden",
+   "character_id": "char-2394",
    "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
+   "tier": "T0.5",
+   "note": "Highest damage without supports\nRequired for Ice Sailing 2\nHigh investment, requires 6+30",
+   "as_of": "2026-11-09",
    "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "王国猎手",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "月渊龙女",
    "i18n": {
-    "name_zh": "王国猎手",
+    "name_zh": "月渊龙女",
     "sources": {
-     "names": 1
+     "names": 1,
+     "translated": 1
     },
-    "text_sources": null,
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
     "missing": null,
     "untranslated_lore": null
    }
@@ -1067,683 +146,14 @@
    "character_id": "char-2373",
    "mode": "PVE",
    "tier": "T1",
-   "note": "Great map clearer\nNeeds Sanguine 3",
-   "as_of": "2026-07-01",
+   "note": "Strong map clearing\nRequired for Ice Sailing 2\nBest pick for Otherrealm Ice kills\nRequires Blood Rank 3",
+   "as_of": "2026-11-09",
    "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "璨然银龙",
    "i18n": {
     "name_zh": "璨然银龙",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "White Dragon",
-   "character_id": "char-299",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "白龙",
-   "i18n": {
-    "name_zh": "白龙",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Traveler of Flowers",
-   "character_id": "char-304",
-   "mode": "PVE",
-   "tier": "T5",
-   "note": "Bounce + [Highland] survival build",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "百花旅者",
-   "i18n": {
-    "name_zh": "百花旅者",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
-     {
-      "path": "note",
-      "zh": "高岭",
-      "en": "Highland"
-     }
-    ]
-   }
-  },
-  {
-   "character": "Soul of Divinity",
-   "character_id": "char-298",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "神之嫡子",
-   "i18n": {
-    "name_zh": "神之嫡子",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Esoteric Sylph",
-   "character_id": "char-1726",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "秘境仙灵",
-   "i18n": {
-    "name_zh": "秘境仙灵",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Mystic Instructor",
-   "character_id": "char-1810",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "秘术导师",
-   "i18n": {
-    "name_zh": "秘术导师",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Falling Samele",
-   "character_id": "char-1569",
-   "mode": "PVE",
-   "tier": "T6",
-   "note": "Needed for attribute dungeons\nNot essential",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "秽翼魔女",
-   "i18n": {
-    "name_zh": "秽翼魔女",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Pure Slime",
-   "character_id": "char-1720",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "纯净史莱姆",
-   "i18n": {
-    "name_zh": "纯净史莱姆",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Bright Seraphim",
-   "character_id": "char-308",
-   "mode": "PVE",
-   "tier": "T2",
-   "note": "Keeps allies alive\nSailing, Rift",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "纯白之羽",
-   "i18n": {
-    "name_zh": "纯白之羽",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Arson Fairy",
-   "character_id": "char-1813",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "纵火妖精",
-   "i18n": {
-    "name_zh": "纵火妖精",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Twinkle Palette",
-   "character_id": "char-2050",
-   "mode": "PVE",
-   "tier": "T2",
-   "note": "Fire-element DMG boost\nCrit Damage Boost",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "绚彩星绘",
-   "i18n": {
-    "name_zh": "绚彩星绘",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Blazing Shear",
-   "character_id": "char-2149",
-   "mode": "PVE",
-   "tier": "T3",
-   "note": "Single-target DPS\nAbsolutely needs a Rage regen support",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "绞刃流火",
-   "i18n": {
-    "name_zh": "绞刃流火",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Phantasmal Dream",
-   "character_id": "char-1843",
-   "mode": "PVE",
-   "tier": "T6",
-   "note": "Needed for attribute dungeons",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "绮夜梦影",
-   "i18n": {
-    "name_zh": "绮夜梦影",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Crimson Warshadow",
-   "character_id": "char-2339",
-   "mode": "PVE",
-   "tier": "T4",
-   "note": "DMG-type tank",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "绯晶战影",
-   "i18n": {
-    "name_zh": "绯晶战影",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Thorny Bramble",
-   "character_id": "char-290",
-   "mode": "PVE",
-   "tier": "T2",
-   "note": "Ultimate build\nSpeedrun",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "绯红荆棘",
-   "i18n": {
-    "name_zh": "绯红荆棘",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Green Whisper",
-   "character_id": "char-2330",
-   "mode": "PVE",
-   "tier": "T1",
-   "note": "Lightning-element AOE",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "绿森山灵",
-   "i18n": {
-    "name_zh": "绿森山灵",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Coltish Artillerist",
-   "character_id": "char-278",
-   "mode": "PVE",
-   "tier": "T5",
-   "note": "Battle Skill build",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "自由炮手",
-   "i18n": {
-    "name_zh": "自由炮手",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Wightbone Dragon",
-   "character_id": "char-2016",
-   "mode": "PVE",
-   "tier": "T2",
-   "note": "Guaranteed crit\nNeeds high Sanguine",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "蚀骨魂龙",
-   "i18n": {
-    "name_zh": "蚀骨魂龙",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Judgement Hammer",
-   "character_id": "char-294",
-   "mode": "PVE",
-   "tier": "T6",
-   "note": "Needed for attribute dungeons",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "裁决圣锤",
-   "i18n": {
-    "name_zh": "裁决圣锤",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "King of the Damned",
-   "character_id": "char-1803",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "诅咒之王",
-   "i18n": {
-    "name_zh": "诅咒之王",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Salvia Fairy",
-   "character_id": "char-289",
-   "mode": "PVE",
-   "tier": "T2",
-   "note": "Rage regen",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "迷迭妖精",
-   "i18n": {
-    "name_zh": "迷迭妖精",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Golden Hatch",
-   "character_id": "char-2141",
-   "mode": "PVE",
-   "tier": "T4",
-   "note": "DMG-type support",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "金蜂破茧",
-   "i18n": {
-    "name_zh": "金蜂破茧",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Silverblade Oath",
-   "character_id": "char-2224",
-   "mode": "PVE",
-   "tier": "T3",
-   "note": "Single-target Normal Attack\nJourney, Sailing",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "银刃之誓",
-   "i18n": {
-    "name_zh": "银刃之誓",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Unseen Shadow",
-   "character_id": "char-1802",
-   "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "长夜之影",
-   "i18n": {
-    "name_zh": "长夜之影",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Radiant Vigil",
-   "character_id": "char-2069",
-   "mode": "PVE",
-   "tier": "T1",
-   "note": "Light-element character\nHigh investment, high return",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "长辉照夜",
-   "i18n": {
-    "name_zh": "长辉照夜",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Schneemond Princess",
-   "character_id": "char-292",
-   "mode": "PVE",
-   "tier": "T4",
-   "note": "Frost-element buffer\nTeam DMG boost",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "雪月公主",
-   "i18n": {
-    "name_zh": "雪月公主",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Tundra Thunder",
-   "character_id": "char-1615",
-   "mode": "PVE",
-   "tier": "T6",
-   "note": "Needed for attribute dungeons",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "雷鸣掠空",
-   "i18n": {
-    "name_zh": "雷鸣掠空",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Ethereal Raiment",
-   "character_id": "char-2354",
-   "mode": "PVE",
-   "tier": "T0",
-   "note": "Early-progression DPS / undying\nHigh independent DMG boost",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "霓裳若仙",
-   "i18n": {
-    "name_zh": "霓裳若仙",
     "sources": {
      "names": 1,
      "translated": 1
@@ -1762,11 +172,11 @@
    "character_id": "char-2172",
    "mode": "PVE",
    "tier": "T1",
-   "note": "Free-to-play powerhouse\nEarly progression for newcomers",
-   "as_of": "2026-07-01",
+   "note": "Strong on a budget\nEarly progression\nBest pick for Otherrealm physical-only and bow boss kills",
+   "as_of": "2026-11-09",
    "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "青鸾巽羽",
    "i18n": {
     "name_zh": "青鸾巽羽",
@@ -1784,39 +194,18 @@
    }
   },
   {
-   "character": "Flamebell Dance",
-   "character_id": "char-2425",
+   "character": "Banquet Thunderlight",
+   "character_id": "char-2414",
    "mode": "PVE",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-07-01",
+   "tier": "T1",
+   "note": "Boosts Lightning damage and lowers Armor\nRequired for Lightning Sailing 2\nBest pick for Otherrealm Lightning kills",
+   "as_of": "2026-11-09",
    "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "飞焰铃舞",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "夜宴霆光",
    "i18n": {
-    "name_zh": "飞焰铃舞",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Coffin Morrigan",
-   "character_id": "char-287",
-   "mode": "PVE",
-   "tier": "T4",
-   "note": "Healing block / Physical resistance shred",
-   "as_of": "2026-07-01",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "魂棺语者",
-   "i18n": {
-    "name_zh": "魂棺语者",
+    "name_zh": "夜宴霆光",
     "sources": {
      "names": 1,
      "translated": 1
@@ -1831,18 +220,44 @@
    }
   },
   {
-   "character": "Shadowy Mirage",
-   "character_id": "char-293",
+   "character": "Green Whisper",
+   "character_id": "char-2330",
    "mode": "PVE",
-   "tier": "T4",
-   "note": "Better choices exist for Lightning",
-   "as_of": "2026-07-01",
+   "tier": "T1",
+   "note": "Lightning AoE\nAlternative for Otherrealm Lightning kills",
+   "as_of": "2026-11-09",
    "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9034,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9034",
-   "character_zh": "黑衫刃影",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "绿森山灵",
    "i18n": {
-    "name_zh": "黑衫刃影",
+    "name_zh": "绿森山灵",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Radiant Vigil",
+   "character_id": "char-2069",
+   "mode": "PVE",
+   "tier": "T1",
+   "note": "Poor for early progression\nPremium handguard makes a big difference\nRequires 3+19",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "长辉照夜",
+   "i18n": {
+    "name_zh": "长辉照夜",
     "sources": {
      "names": 1,
      "translated": 1
@@ -1859,13 +274,13 @@
   {
    "character": "Everlasting Sol",
    "character_id": "char-1631",
-   "mode": "PVP",
-   "tier": "T4",
-   "note": "Missiles one-shot enemies\nNeeds to be paired with the angel [Angel]",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "mode": "PVE",
+   "tier": "T1",
+   "note": "Orb mechanics\nAn early-progression option without a strong Light/Dark unit\nCan handle Otherrealm Fire and bow kill objectives with investment and practice",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "不熄曜日",
    "i18n": {
     "name_zh": "不熄曜日",
@@ -1879,26 +294,482 @@
      }
     },
     "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
-     {
-      "path": "note",
-      "zh": "天使",
-      "en": "Angel"
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Sinister Shade",
+   "character_id": "char-2381",
+   "mode": "PVE",
+   "tier": "T2",
+   "note": "Early progression and Otherrealm clearing\nWeak single-target damage\nBest pick for Otherrealm Fire kills on regular enemies",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "天邪魅影",
+   "i18n": {
+    "name_zh": "天邪魅影",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
      }
-    ]
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Shamneko in Night",
+   "character_id": "char-296",
+   "mode": "PVE",
+   "tier": "T2",
+   "note": "Lightning AoE\nAlternative for Otherrealm Lightning kills",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "夜行暹罗",
+   "i18n": {
+    "name_zh": "夜行暹罗",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Wightbone Dragon",
+   "character_id": "char-2016",
+   "mode": "PVE",
+   "tier": "T2",
+   "note": "Guaranteed critical hits\nBest pick for Otherrealm Physical kills at high investment\nRequires 5+",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "蚀骨魂龙",
+   "i18n": {
+    "name_zh": "蚀骨魂龙",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Blooming Ink Deer",
+   "character_id": "char-295",
+   "mode": "PVE",
+   "tier": "T2",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "墨凝清影",
+   "i18n": {
+    "name_zh": "墨凝清影",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Bright Seraphim",
+   "character_id": "char-308",
+   "mode": "PVE",
+   "tier": "T2",
+   "note": "Keeps allies alive\nSailing and Rifts\nRequired for Fire Sailing 2",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "纯白之羽",
+   "i18n": {
+    "name_zh": "纯白之羽",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Salvia Fairy",
+   "character_id": "char-289",
+   "mode": "PVE",
+   "tier": "T2",
+   "note": "Rage regen",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "迷迭妖精",
+   "i18n": {
+    "name_zh": "迷迭妖精",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Traveler of Flowers",
+   "character_id": "char-304",
+   "mode": "PVE",
+   "tier": "T2",
+   "note": "HP support\nRequired for Ice Sailing 2",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "百花旅者",
+   "i18n": {
+    "name_zh": "百花旅者",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Schneemond Princess",
+   "character_id": "char-292",
+   "mode": "PVE",
+   "tier": "T2",
+   "note": "Damage boost\nViable in Ice Sailing 2",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "雪月公主",
+   "i18n": {
+    "name_zh": "雪月公主",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Jadeform Immortal",
+   "character_id": "char-1702",
+   "mode": "PVE",
+   "tier": "T3",
+   "note": "Strong mechanics\nAlternative for Otherrealm physical-only boss kills\nPair with Little Deer",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "玉尘灵仙",
+   "i18n": {
+    "name_zh": "玉尘灵仙",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Twinkle Palette",
+   "character_id": "char-2050",
+   "mode": "PVE",
+   "tier": "T3",
+   "note": "Boosts Fire damage\nAlternative for Otherrealm Fire-only boss kills\nCrit multiplier",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "绚彩星绘",
+   "i18n": {
+    "name_zh": "绚彩星绘",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Silverblade Oath",
+   "character_id": "char-2224",
+   "mode": "PVE",
+   "tier": "T3",
+   "note": "Single-target Basic Attacks\nBest Front support",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "银刃之誓",
+   "i18n": {
+    "name_zh": "银刃之誓",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Thorny Bramble",
+   "character_id": "char-290",
+   "mode": "PVE",
+   "tier": "T3",
+   "note": "Ultimate build\nSpeedruns\nViable for Otherrealm Fire-only bosses and Assassin objectives",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "绯红荆棘",
+   "i18n": {
+    "name_zh": "绯红荆棘",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Flicker Pierce",
+   "character_id": "char-1648",
+   "mode": "PVE",
+   "tier": "T3",
+   "note": "Ice AoE\nCan fill in for Otherrealm Ice kills",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "拂光破雪",
+   "i18n": {
+    "name_zh": "拂光破雪",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Nirvana Ignis",
+   "character_id": "char-284",
+   "mode": "PVE",
+   "tier": "T3",
+   "note": "Fire AoE\nCombat Skill build\nCan fill in for Otherrealm Fire kills on regular enemies",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "炽焰降生",
+   "i18n": {
+    "name_zh": "炽焰降生",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Blazing Shear",
+   "character_id": "char-2149",
+   "mode": "PVE",
+   "tier": "T3",
+   "note": "Single-target damage\nRequires Rage support\nBest pick for Otherrealm Fire-only boss kills\nAssassins as a class focus on PvP\nThe wiki recommends the Dragon Assassin as the PvE exception",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "绞刃流火",
+   "i18n": {
+    "name_zh": "绞刃流火",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Netherblade Maiden",
+   "character_id": "char-306",
+   "mode": "PVE",
+   "tier": "T4",
+   "note": "Front support utility pick",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "灵刃之主",
+   "i18n": {
+    "name_zh": "灵刃之主",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Soul of Divinity",
+   "character_id": "char-298",
+   "mode": "PVE",
+   "tier": "T4",
+   "note": "Front support utility pick",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "神之嫡子",
+   "i18n": {
+    "name_zh": "神之嫡子",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Asura's Katana",
+   "character_id": "char-307",
+   "mode": "PVE",
+   "tier": "T4",
+   "note": "Magic immunity from Combat Skill\nStack Cooldown Reduction for continuous Combat Skill use\nSpell tank",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "妖刀",
+   "i18n": {
+    "name_zh": "妖刀",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
    }
   },
   {
    "character": "Ominous Wraith",
    "character_id": "char-1808",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "不祥怨灵",
    "i18n": {
     "name_zh": "不祥怨灵",
@@ -1911,27 +782,43 @@
    }
   },
   {
+   "character": "Dreambound Wanderer",
+   "character_id": "char-2502",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "云梦归人",
+   "i18n": {
+    "name_zh": "云梦归人",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
    "character": "Legendary Dragon",
    "character_id": "char-288",
-   "mode": "PVP",
-   "tier": "T4",
-   "note": "Ultimate Freeze build",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "传承之龙",
    "i18n": {
     "name_zh": "传承之龙",
     "sources": {
-     "names": 1,
-     "translated": 1
+     "names": 1
     },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
+    "text_sources": null,
     "missing": null,
     "untranslated_lore": null
    }
@@ -1939,25 +826,20 @@
   {
    "character": "Frozen Heart",
    "character_id": "char-309",
-   "mode": "PVP",
-   "tier": "T5",
-   "note": "Opens with Freeze",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "冰封之心",
    "i18n": {
     "name_zh": "冰封之心",
     "sources": {
-     "names": 1,
-     "translated": 1
+     "names": 1
     },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
+    "text_sources": null,
     "missing": null,
     "untranslated_lore": null
    }
@@ -1965,25 +847,20 @@
   {
    "character": "Skyborne Machina",
    "character_id": "char-2059",
-   "mode": "PVP",
-   "tier": "T5",
-   "note": "Squishy",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "凌空械羽",
    "i18n": {
     "name_zh": "凌空械羽",
     "sources": {
-     "names": 1,
-     "translated": 1
+     "names": 1
     },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
+    "text_sources": null,
     "missing": null,
     "untranslated_lore": null
    }
@@ -1991,13 +868,13 @@
   {
    "character": "The Winter Witch",
    "character_id": "char-300",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "凛冬魔女",
    "i18n": {
     "name_zh": "凛冬魔女",
@@ -2012,13 +889,13 @@
   {
    "character": "Northland Princess",
    "character_id": "char-1696",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "北境公主",
    "i18n": {
     "name_zh": "北境公主",
@@ -2031,41 +908,15 @@
    }
   },
   {
-   "character": "Nightmoon Warden",
-   "character_id": "char-2308",
-   "mode": "PVP",
-   "tier": "T0",
-   "note": "Strong on offense",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "千宵月守",
-   "i18n": {
-    "name_zh": "千宵月守",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
    "character": "Twin Bulwark",
    "character_id": "char-1719",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "双子之盾",
    "i18n": {
     "name_zh": "双子之盾",
@@ -2080,25 +931,20 @@
   {
    "character": "Double Shot Pursuit",
    "character_id": "char-1885",
-   "mode": "PVP",
-   "tier": "T3",
-   "note": "Strong vs groups, weak vs single targets\nInfinite ultimate build paired with Schneemond Princess",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "双鸣追猎",
    "i18n": {
     "name_zh": "双鸣追猎",
     "sources": {
-     "names": 1,
-     "translated": 1
+     "names": 1
     },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
+    "text_sources": null,
     "missing": null,
     "untranslated_lore": null
    }
@@ -2106,13 +952,13 @@
   {
    "character": null,
    "character_id": "char-2450",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "司正天座",
    "i18n": {
     "name_zh": "司正天座",
@@ -2131,25 +977,20 @@
   {
    "character": "Marine Rime",
    "character_id": "char-1232",
-   "mode": "PVP",
-   "tier": "T1",
-   "note": "Confused control\nRage reduction at battle start",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "唤霜海灵",
    "i18n": {
     "name_zh": "唤霜海灵",
     "sources": {
-     "names": 1,
-     "translated": 1
+     "names": 1
     },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
+    "text_sources": null,
     "missing": null,
     "untranslated_lore": null
    }
@@ -2157,25 +998,20 @@
   {
    "character": "Flabellum Seraph",
    "character_id": "char-1484",
-   "mode": "PVP",
-   "tier": "T2",
-   "note": "Bind control, instantly kills the main carry",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "圣翼降临",
    "i18n": {
     "name_zh": "圣翼降临",
     "sources": {
-     "names": 1,
-     "translated": 1
+     "names": 1
     },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
+    "text_sources": null,
     "missing": null,
     "untranslated_lore": null
    }
@@ -2183,13 +1019,13 @@
   {
    "character": "Goblin Enchanter",
    "character_id": "char-301",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "地精妖术师",
    "i18n": {
     "name_zh": "地精妖术师",
@@ -2202,114 +1038,15 @@
    }
   },
   {
-   "character": "Blooming Ink Deer",
-   "character_id": "char-295",
-   "mode": "PVP",
-   "tier": "T2",
-   "note": "Team-wide control immunity\nPhysical DMG boost",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "墨凝清影",
-   "i18n": {
-    "name_zh": "墨凝清影",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Banquet Thunderlight",
-   "character_id": "char-2414",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "夜宴霆光",
-   "i18n": {
-    "name_zh": "夜宴霆光",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Shamneko in Night",
-   "character_id": "char-296",
-   "mode": "PVP",
-   "tier": "T5",
-   "note": "Stun\nAOE burst",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "夜行暹罗",
-   "i18n": {
-    "name_zh": "夜行暹罗",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Sinister Shade",
-   "character_id": "char-2381",
-   "mode": "PVP",
-   "tier": "T0",
-   "note": "AOE field clear\nExcellent mechanics",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "天邪魅影",
-   "i18n": {
-    "name_zh": "天邪魅影",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
    "character": "Crimson Scythe",
    "character_id": "char-1805",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "夺魂之镰",
    "i18n": {
     "name_zh": "夺魂之镰",
@@ -2322,53 +1059,22 @@
    }
   },
   {
-   "character": "Asura's Katana",
-   "character_id": "char-307",
-   "mode": "PVP",
-   "tier": "T3",
-   "note": "Spell DMG immunity\nWorks wonders on both offense and defense",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "妖刀",
-   "i18n": {
-    "name_zh": "妖刀",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
    "character": "Lady Swan Lake",
    "character_id": "char-297",
-   "mode": "PVP",
-   "tier": "T3",
-   "note": "Asura's Katana that breaks Invincible\nNeeds paid off-hand",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "婆娑轮舞",
    "i18n": {
     "name_zh": "婆娑轮舞",
     "sources": {
-     "names": 1,
-     "translated": 1
+     "names": 1
     },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
+    "text_sources": null,
     "missing": null,
     "untranslated_lore": null
    }
@@ -2376,13 +1082,13 @@
   {
    "character": "Apostle of Judgment",
    "character_id": "char-303",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "审判使者",
    "i18n": {
     "name_zh": "审判使者",
@@ -2397,13 +1103,13 @@
   {
    "character": "Woodland Dryad",
    "character_id": "char-1725",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "密林之眼",
    "i18n": {
     "name_zh": "密林之眼",
@@ -2418,13 +1124,13 @@
   {
    "character": "Shrouded Slasher",
    "character_id": "char-1806",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "封魔利爪",
    "i18n": {
     "name_zh": "封魔利爪",
@@ -2439,13 +1145,13 @@
   {
    "character": "Verdant Ranger",
    "character_id": "char-1724",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "巡林游侠",
    "i18n": {
     "name_zh": "巡林游侠",
@@ -2460,13 +1166,13 @@
   {
    "character": "Imperial Sword",
    "character_id": "char-1723",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "帝国之剑",
    "i18n": {
     "name_zh": "帝国之剑",
@@ -2481,13 +1187,13 @@
   {
    "character": "Exotic Merchant",
    "character_id": "char-1809",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "异国商人",
    "i18n": {
     "name_zh": "异国商人",
@@ -2502,13 +1208,13 @@
   {
    "character": "Vanguard of Valkyrie",
    "character_id": "char-302",
-   "mode": "PVP",
+   "mode": "PVE",
    "tier": "not_ranked",
    "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "御刃神锋",
    "i18n": {
     "name_zh": "御刃神锋",
@@ -2523,16 +1229,562 @@
   {
    "character": "Centaur Minerva",
    "character_id": "char-291",
-   "mode": "PVP",
-   "tier": "T4",
-   "note": "Blind build\nHigh DMG",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
    "character_zh": "战争之蹄",
    "i18n": {
     "name_zh": "战争之蹄",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Construct Guard",
+   "character_id": "char-1073",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "构装守卫",
+   "i18n": {
+    "name_zh": "构装守卫",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Pleasure Succubus",
+   "character_id": "char-1800",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "欢愉魔女",
+   "i18n": {
+    "name_zh": "欢愉魔女",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Fleur of the Heart",
+   "character_id": "char-1804",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "深庭玫瑰",
+   "i18n": {
+    "name_zh": "深庭玫瑰",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Chief Raven",
+   "character_id": "char-1812",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "渡鸦魁首",
+   "i18n": {
+    "name_zh": "渡鸦魁首",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Grey Archmage",
+   "character_id": "char-1801",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "灰袍法师",
+   "i18n": {
+    "name_zh": "灰袍法师",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Solus Commander",
+   "character_id": "char-1807",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "烈阳将军",
+   "i18n": {
+    "name_zh": "烈阳将军",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Foxy Archduchess",
+   "character_id": "char-286",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "玉面九尾",
+   "i18n": {
+    "name_zh": "玉面九尾",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Kingdom Huntress",
+   "character_id": "char-1811",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "王国猎手",
+   "i18n": {
+    "name_zh": "王国猎手",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "White Dragon",
+   "character_id": "char-299",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "白龙",
+   "i18n": {
+    "name_zh": "白龙",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Esoteric Sylph",
+   "character_id": "char-1726",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "秘境仙灵",
+   "i18n": {
+    "name_zh": "秘境仙灵",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Mystic Instructor",
+   "character_id": "char-1810",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "秘术导师",
+   "i18n": {
+    "name_zh": "秘术导师",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Falling Samele",
+   "character_id": "char-1569",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "秽翼魔女",
+   "i18n": {
+    "name_zh": "秽翼魔女",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Pure Slime",
+   "character_id": "char-1720",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "纯净史莱姆",
+   "i18n": {
+    "name_zh": "纯净史莱姆",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Arson Fairy",
+   "character_id": "char-1813",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "纵火妖精",
+   "i18n": {
+    "name_zh": "纵火妖精",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Phantasmal Dream",
+   "character_id": "char-1843",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "绮夜梦影",
+   "i18n": {
+    "name_zh": "绮夜梦影",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Crimson Warshadow",
+   "character_id": "char-2339",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "绯晶战影",
+   "i18n": {
+    "name_zh": "绯晶战影",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Coltish Artillerist",
+   "character_id": "char-278",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "自由炮手",
+   "i18n": {
+    "name_zh": "自由炮手",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Judgement Hammer",
+   "character_id": "char-294",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "裁决圣锤",
+   "i18n": {
+    "name_zh": "裁决圣锤",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "King of the Damned",
+   "character_id": "char-1803",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "诅咒之王",
+   "i18n": {
+    "name_zh": "诅咒之王",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Golden Hatch",
+   "character_id": "char-2141",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "金蜂破茧",
+   "i18n": {
+    "name_zh": "金蜂破茧",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Unseen Shadow",
+   "character_id": "char-1802",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "长夜之影",
+   "i18n": {
+    "name_zh": "长夜之影",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Tundra Thunder",
+   "character_id": "char-1615",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "雷鸣掠空",
+   "i18n": {
+    "name_zh": "雷鸣掠空",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Flamebell Dance",
+   "character_id": "char-2425",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "飞焰铃舞",
+   "i18n": {
+    "name_zh": "飞焰铃舞",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Coffin Morrigan",
+   "character_id": "char-287",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "魂棺语者",
+   "i18n": {
+    "name_zh": "魂棺语者",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Shadowy Mirage",
+   "character_id": "char-293",
+   "mode": "PVE",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-09",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVE%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9273,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9273",
+   "character_zh": "黑衫刃影",
+   "i18n": {
+    "name_zh": "黑衫刃影",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Ethereal Raiment",
+   "character_id": "char-2354",
+   "mode": "PVP",
+   "tier": "T0",
+   "note": "Team-wide undying\nTeam-wide Confused immunity",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "霓裳若仙",
+   "i18n": {
+    "name_zh": "霓裳若仙",
     "sources": {
      "names": 1,
      "translated": 1
@@ -2547,18 +1799,18 @@
    }
   },
   {
-   "character": "Flicker Pierce",
-   "character_id": "char-1648",
+   "character": "Radiant Dragon",
+   "character_id": "char-2373",
    "mode": "PVP",
-   "tier": "T5",
-   "note": "Squishy",
-   "as_of": "2026-08-12",
+   "tier": "T0",
+   "note": "Random instant kills\nLate game; needs top-tier endgame gear",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "拂光破雪",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "璨然银龙",
    "i18n": {
-    "name_zh": "拂光破雪",
+    "name_zh": "璨然银龙",
     "sources": {
      "names": 1,
      "translated": 1
@@ -2578,10 +1830,10 @@
    "mode": "PVP",
    "tier": "T0",
    "note": null,
-   "as_of": "2026-08-12",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
    "character_zh": "月渊龙女",
    "i18n": {
     "name_zh": "月渊龙女",
@@ -2594,18 +1846,18 @@
    }
   },
   {
-   "character": "Construct Guard",
-   "character_id": "char-1073",
+   "character": "Radiant Vigil",
+   "character_id": "char-2069",
    "mode": "PVP",
-   "tier": "T5",
-   "note": "Team-wide cleanse and control immunity",
-   "as_of": "2026-08-12",
+   "tier": "T0",
+   "note": "Well-rounded\nControl immunity at max Divinity",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "构装守卫",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "长辉照夜",
    "i18n": {
-    "name_zh": "构装守卫",
+    "name_zh": "长辉照夜",
     "sources": {
      "names": 1,
      "translated": 1
@@ -2615,189 +1867,6 @@
       "source": "translated"
      }
     },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Pleasure Succubus",
-   "character_id": "char-1800",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "欢愉魔女",
-   "i18n": {
-    "name_zh": "欢愉魔女",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Fleur of the Heart",
-   "character_id": "char-1804",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "深庭玫瑰",
-   "i18n": {
-    "name_zh": "深庭玫瑰",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Chief Raven",
-   "character_id": "char-1812",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "渡鸦魁首",
-   "i18n": {
-    "name_zh": "渡鸦魁首",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Grey Archmage",
-   "character_id": "char-1801",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "灰袍法师",
-   "i18n": {
-    "name_zh": "灰袍法师",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Netherblade Maiden",
-   "character_id": "char-306",
-   "mode": "PVP",
-   "tier": "T6",
-   "note": "Knockback\nPhysical DMG",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "灵刃之主",
-   "i18n": {
-    "name_zh": "灵刃之主",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Dance of Searing Blaze",
-   "character_id": "char-305",
-   "mode": "PVP",
-   "tier": "T5",
-   "note": "Taunt\nCD build",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "炙光之舞",
-   "i18n": {
-    "name_zh": "炙光之舞",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Nirvana Ignis",
-   "character_id": "char-284",
-   "mode": "PVP",
-   "tier": "T3",
-   "note": "Fire-element AOE\nHas room to survive at high Sanguine",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "炽焰降生",
-   "i18n": {
-    "name_zh": "炽焰降生",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Solus Commander",
-   "character_id": "char-1807",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "烈阳将军",
-   "i18n": {
-    "name_zh": "烈阳将军",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
     "missing": null,
     "untranslated_lore": null
    }
@@ -2806,12 +1875,12 @@
    "character": "Blossom Amour",
    "character_id": "char-2166",
    "mode": "PVP",
-   "tier": "T1",
+   "tier": "T0",
    "note": "Rage regen\nTime rewind",
-   "as_of": "2026-08-12",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
    "character_zh": "爱恋花见",
    "i18n": {
     "name_zh": "爱恋花见",
@@ -2829,20 +1898,19 @@
    }
   },
   {
-   "character": "Jadeform Immortal",
-   "character_id": "char-1702",
+   "character": null,
+   "character_id": "char-2450",
    "mode": "PVP",
-   "tier": "T2",
-   "note": "High DMG\nBreaks Invincible",
-   "as_of": "2026-08-12",
+   "tier": "T1",
+   "note": "Durable tank\nGuardian Commander",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "玉尘灵仙",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "司正天座",
    "i18n": {
-    "name_zh": "玉尘灵仙",
+    "name_zh": "司正天座",
     "sources": {
-     "names": 1,
      "translated": 1
     },
     "text_sources": {
@@ -2850,315 +1918,13 @@
       "source": "translated"
      }
     },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Foxy Archduchess",
-   "character_id": "char-286",
-   "mode": "PVP",
-   "tier": "T5",
-   "note": "Lightning-element DMG boost",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "玉面九尾",
-   "i18n": {
-    "name_zh": "玉面九尾",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Kingdom Huntress",
-   "character_id": "char-1811",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "王国猎手",
-   "i18n": {
-    "name_zh": "王国猎手",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Radiant Dragon",
-   "character_id": "char-2373",
-   "mode": "PVP",
-   "tier": "T0",
-   "note": "Random instant kills\nLate game; needs top-tier endgame gear",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "璨然银龙",
-   "i18n": {
-    "name_zh": "璨然银龙",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "White Dragon",
-   "character_id": "char-299",
-   "mode": "PVP",
-   "tier": "T5",
-   "note": "Stun control",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "白龙",
-   "i18n": {
-    "name_zh": "白龙",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Traveler of Flowers",
-   "character_id": "char-304",
-   "mode": "PVP",
-   "tier": "T4",
-   "note": "Stun / Freeze\n[Highland] saves allies",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "百花旅者",
-   "i18n": {
-    "name_zh": "百花旅者",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
+    "missing": [
      {
-      "path": "note",
-      "zh": "高岭",
-      "en": "Highland"
+      "path": "character",
+      "zh": "司正天座",
+      "reason": "names.json/characters: not in tpl_sc_hero (game files dated 2026-09-22; wiki release 2026年11月2日)"
      }
-    ]
-   }
-  },
-  {
-   "character": "Soul of Divinity",
-   "character_id": "char-298",
-   "mode": "PVP",
-   "tier": "T2",
-   "note": "Stun control\n[Highland] saves allies",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "神之嫡子",
-   "i18n": {
-    "name_zh": "神之嫡子",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
-     {
-      "path": "note",
-      "zh": "高岭",
-      "en": "Highland"
-     }
-    ]
-   }
-  },
-  {
-   "character": "Esoteric Sylph",
-   "character_id": "char-1726",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "秘境仙灵",
-   "i18n": {
-    "name_zh": "秘境仙灵",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Mystic Instructor",
-   "character_id": "char-1810",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "秘术导师",
-   "i18n": {
-    "name_zh": "秘术导师",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Falling Samele",
-   "character_id": "char-1569",
-   "mode": "PVP",
-   "tier": "T2",
-   "note": "Fire-element, Leaders Front\nNeeds [Life Surge]",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "秽翼魔女",
-   "i18n": {
-    "name_zh": "秽翼魔女",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
-     {
-      "path": "note",
-      "zh": "生命跃升",
-      "en": "Life Surge"
-     }
-    ]
-   }
-  },
-  {
-   "character": "Pure Slime",
-   "character_id": "char-1720",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "纯净史莱姆",
-   "i18n": {
-    "name_zh": "纯净史莱姆",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Bright Seraphim",
-   "character_id": "char-308",
-   "mode": "PVP",
-   "tier": "T2",
-   "note": "Ultimate build\nNeeds a Light support at Sanguine 3 + Divinity 12",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "纯白之羽",
-   "i18n": {
-    "name_zh": "纯白之羽",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Arson Fairy",
-   "character_id": "char-1813",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "纵火妖精",
-   "i18n": {
-    "name_zh": "纵火妖精",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
+    ],
     "untranslated_lore": null
    }
   },
@@ -3168,10 +1934,10 @@
    "mode": "PVP",
    "tier": "T1",
    "note": "Knock-up immunity\nDeflect, healing",
-   "as_of": "2026-08-12",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
    "character_zh": "绚彩星绘",
    "i18n": {
     "name_zh": "绚彩星绘",
@@ -3194,10 +1960,10 @@
    "mode": "PVP",
    "tier": "T1",
    "note": "Silence at battle start",
-   "as_of": "2026-08-12",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
    "character_zh": "绞刃流火",
    "i18n": {
     "name_zh": "绞刃流火",
@@ -3215,18 +1981,18 @@
    }
   },
   {
-   "character": "Phantasmal Dream",
-   "character_id": "char-1843",
+   "character": "Coffin Morrigan",
+   "character_id": "char-287",
    "mode": "PVP",
-   "tier": "T3",
-   "note": "Deflect\nTaunt",
-   "as_of": "2026-08-12",
+   "tier": "T1",
+   "note": "Healing block\nAdds all-DMG Reduction, DMG sharing",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "绮夜梦影",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "魂棺语者",
    "i18n": {
-    "name_zh": "绮夜梦影",
+    "name_zh": "魂棺语者",
     "sources": {
      "names": 1,
      "translated": 1
@@ -3241,18 +2007,18 @@
    }
   },
   {
-   "character": "Crimson Warshadow",
-   "character_id": "char-2339",
+   "character": "Tundra Thunder",
+   "character_id": "char-1615",
    "mode": "PVP",
-   "tier": "T4",
-   "note": "Squishy\nRevives allies after 3 seconds",
-   "as_of": "2026-08-12",
+   "tier": "T1",
+   "note": "Durable tank with crowd control removal and immunity\nGuardian Commander",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "绯晶战影",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "雷鸣掠空",
    "i18n": {
-    "name_zh": "绯晶战影",
+    "name_zh": "雷鸣掠空",
     "sources": {
      "names": 1,
      "translated": 1
@@ -3267,18 +2033,18 @@
    }
   },
   {
-   "character": "Thorny Bramble",
-   "character_id": "char-290",
+   "character": "Sinister Shade",
+   "character_id": "char-2381",
    "mode": "PVP",
-   "tier": "T3",
-   "note": "High burst\nNeeds the angel [Angel]",
-   "as_of": "2026-08-12",
+   "tier": "T1",
+   "note": "AOE field clear\nExcellent mechanics",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "绯红荆棘",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "天邪魅影",
    "i18n": {
-    "name_zh": "绯红荆棘",
+    "name_zh": "天邪魅影",
     "sources": {
      "names": 1,
      "translated": 1
@@ -3289,50 +2055,178 @@
      }
     },
     "missing": null,
-    "untranslated_lore": null,
-    "unofficial_names": [
-     {
-      "path": "note",
-      "zh": "天使",
-      "en": "Angel"
-     }
-    ]
+    "untranslated_lore": null
    }
   },
   {
-   "character": "Green Whisper",
-   "character_id": "char-2330",
+   "character": "Marine Rime",
+   "character_id": "char-1232",
    "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
+   "tier": "T1",
+   "note": "Confused control\nRage reduction at battle start",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "绿森山灵",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "唤霜海灵",
    "i18n": {
-    "name_zh": "绿森山灵",
+    "name_zh": "唤霜海灵",
     "sources": {
-     "names": 1
+     "names": 1,
+     "translated": 1
     },
-    "text_sources": null,
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
     "missing": null,
     "untranslated_lore": null
    }
   },
   {
-   "character": "Coltish Artillerist",
-   "character_id": "char-278",
+   "character": "Nightmoon Warden",
+   "character_id": "char-2308",
    "mode": "PVP",
-   "tier": "T6",
-   "note": "Reduces all-DMG Reduction",
-   "as_of": "2026-08-12",
+   "tier": "T1",
+   "note": "Strong on offense",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "自由炮手",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "千宵月守",
    "i18n": {
-    "name_zh": "自由炮手",
+    "name_zh": "千宵月守",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Salvia Fairy",
+   "character_id": "char-289",
+   "mode": "PVP",
+   "tier": "T1",
+   "note": "Sheep (polymorph) control\nRage regen",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "迷迭妖精",
+   "i18n": {
+    "name_zh": "迷迭妖精",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Schneemond Princess",
+   "character_id": "char-292",
+   "mode": "PVP",
+   "tier": "T2",
+   "note": "Rage regen / DMG boost / Freeze\nBlocks extra Rage regen",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "雪月公主",
+   "i18n": {
+    "name_zh": "雪月公主",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Falling Samele",
+   "character_id": "char-1569",
+   "mode": "PVP",
+   "tier": "T2",
+   "note": "Fire-element, Leaders Front\nNeeds [Life Surge]",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "秽翼魔女",
+   "i18n": {
+    "name_zh": "秽翼魔女",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Bright Seraphim",
+   "character_id": "char-308",
+   "mode": "PVP",
+   "tier": "T2",
+   "note": "Ultimate build\nNeeds a Light support at Sanguine 3 + Divinity 12",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "纯白之羽",
+   "i18n": {
+    "name_zh": "纯白之羽",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Soul of Divinity",
+   "character_id": "char-298",
+   "mode": "PVP",
+   "tier": "T2",
+   "note": "Stun control\n[Highland] saves allies",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "神之嫡子",
+   "i18n": {
+    "name_zh": "神之嫡子",
     "sources": {
      "names": 1,
      "translated": 1
@@ -3352,10 +2246,10 @@
    "mode": "PVP",
    "tier": "T2",
    "note": "AOE burst\nStrong on offense",
-   "as_of": "2026-08-12",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
    "character_zh": "蚀骨魂龙",
    "i18n": {
     "name_zh": "蚀骨魂龙",
@@ -3373,232 +2267,18 @@
    }
   },
   {
-   "character": "Judgement Hammer",
-   "character_id": "char-294",
+   "character": "Jadeform Immortal",
+   "character_id": "char-1702",
    "mode": "PVP",
-   "tier": "T4",
-   "note": "Freeze control\nFreeze immunity / Skill Crit resistance / DMG sharing",
-   "as_of": "2026-08-12",
+   "tier": "T2",
+   "note": "High DMG\nBreaks Invincible",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "裁决圣锤",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "玉尘灵仙",
    "i18n": {
-    "name_zh": "裁决圣锤",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "King of the Damned",
-   "character_id": "char-1803",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "诅咒之王",
-   "i18n": {
-    "name_zh": "诅咒之王",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Salvia Fairy",
-   "character_id": "char-289",
-   "mode": "PVP",
-   "tier": "T1",
-   "note": "Sheep (polymorph) control\nRage regen",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "迷迭妖精",
-   "i18n": {
-    "name_zh": "迷迭妖精",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Golden Hatch",
-   "character_id": "char-2141",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "金蜂破茧",
-   "i18n": {
-    "name_zh": "金蜂破茧",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Silverblade Oath",
-   "character_id": "char-2224",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "银刃之誓",
-   "i18n": {
-    "name_zh": "银刃之誓",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Unseen Shadow",
-   "character_id": "char-1802",
-   "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "长夜之影",
-   "i18n": {
-    "name_zh": "长夜之影",
-    "sources": {
-     "names": 1
-    },
-    "text_sources": null,
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Radiant Vigil",
-   "character_id": "char-2069",
-   "mode": "PVP",
-   "tier": "T0",
-   "note": "Well-rounded\nControl immunity at max Divinity",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "长辉照夜",
-   "i18n": {
-    "name_zh": "长辉照夜",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Schneemond Princess",
-   "character_id": "char-292",
-   "mode": "PVP",
-   "tier": "T1",
-   "note": "Rage regen / DMG boost / Freeze\nBlocks extra Rage regen",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "雪月公主",
-   "i18n": {
-    "name_zh": "雪月公主",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Tundra Thunder",
-   "character_id": "char-1615",
-   "mode": "PVP",
-   "tier": "T1",
-   "note": "Cleanse + control-immune tank\nThe only Guardian Front / Leaders Front character",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "雷鸣掠空",
-   "i18n": {
-    "name_zh": "雷鸣掠空",
-    "sources": {
-     "names": 1,
-     "translated": 1
-    },
-    "text_sources": {
-     "note": {
-      "source": "translated"
-     }
-    },
-    "missing": null,
-    "untranslated_lore": null
-   }
-  },
-  {
-   "character": "Ethereal Raiment",
-   "character_id": "char-2354",
-   "mode": "PVP",
-   "tier": "T0",
-   "note": "Team-wide undying\nTeam-wide Confused immunity",
-   "as_of": "2026-08-12",
-   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "霓裳若仙",
-   "i18n": {
-    "name_zh": "霓裳若仙",
+    "name_zh": "玉尘灵仙",
     "sources": {
      "names": 1,
      "translated": 1
@@ -3618,10 +2298,10 @@
    "mode": "PVP",
    "tier": "T2",
    "note": "Top-tier DPS\nStrong on offense",
-   "as_of": "2026-08-12",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
    "character_zh": "青鸾巽羽",
    "i18n": {
     "name_zh": "青鸾巽羽",
@@ -3639,39 +2319,44 @@
    }
   },
   {
-   "character": "Flamebell Dance",
-   "character_id": "char-2425",
+   "character": "Blooming Ink Deer",
+   "character_id": "char-295",
    "mode": "PVP",
-   "tier": "not_ranked",
-   "note": null,
-   "as_of": "2026-08-12",
+   "tier": "T2",
+   "note": "Team-wide control immunity\nPhysical DMG boost",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "飞焰铃舞",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "墨凝清影",
    "i18n": {
-    "name_zh": "飞焰铃舞",
+    "name_zh": "墨凝清影",
     "sources": {
-     "names": 1
+     "names": 1,
+     "translated": 1
     },
-    "text_sources": null,
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
     "missing": null,
     "untranslated_lore": null
    }
   },
   {
-   "character": "Coffin Morrigan",
-   "character_id": "char-287",
+   "character": "Flabellum Seraph",
+   "character_id": "char-1484",
    "mode": "PVP",
-   "tier": "T1",
-   "note": "Healing block\nAdds all-DMG Reduction, DMG sharing",
-   "as_of": "2026-08-12",
+   "tier": "T2",
+   "note": "Bind control, instantly kills the main carry",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
-   "character_zh": "魂棺语者",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "圣翼降临",
    "i18n": {
-    "name_zh": "魂棺语者",
+    "name_zh": "圣翼降临",
     "sources": {
      "names": 1,
      "translated": 1
@@ -3691,10 +2376,10 @@
    "mode": "PVP",
    "tier": "T3",
    "note": "Blocks revival\nHigh survivability on defense",
-   "as_of": "2026-08-12",
+   "as_of": "2026-11-25",
    "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
-   "revid": 9140,
-   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9140",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
    "character_zh": "黑衫刃影",
    "i18n": {
     "name_zh": "黑衫刃影",
@@ -3707,6 +2392,1229 @@
       "source": "translated"
      }
     },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Phantasmal Dream",
+   "character_id": "char-1843",
+   "mode": "PVP",
+   "tier": "T3",
+   "note": "Deflect\nTaunt",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "绮夜梦影",
+   "i18n": {
+    "name_zh": "绮夜梦影",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Thorny Bramble",
+   "character_id": "char-290",
+   "mode": "PVP",
+   "tier": "T3",
+   "note": "High burst\nNeeds the angel [Angel]",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "绯红荆棘",
+   "i18n": {
+    "name_zh": "绯红荆棘",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Lady Swan Lake",
+   "character_id": "char-297",
+   "mode": "PVP",
+   "tier": "T3",
+   "note": "Asura's Katana that breaks Invincible\nNeeds paid off-hand",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "婆娑轮舞",
+   "i18n": {
+    "name_zh": "婆娑轮舞",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Nirvana Ignis",
+   "character_id": "char-284",
+   "mode": "PVP",
+   "tier": "T3",
+   "note": "Fire-element AOE\nHas room to survive at high Sanguine",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "炽焰降生",
+   "i18n": {
+    "name_zh": "炽焰降生",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Asura's Katana",
+   "character_id": "char-307",
+   "mode": "PVP",
+   "tier": "T3",
+   "note": "Spell DMG immunity\nWorks wonders on both offense and defense",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "妖刀",
+   "i18n": {
+    "name_zh": "妖刀",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Double Shot Pursuit",
+   "character_id": "char-1885",
+   "mode": "PVP",
+   "tier": "T3",
+   "note": "Strong vs groups, weak vs single targets\nInfinite ultimate build paired with Schneemond Princess",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "双鸣追猎",
+   "i18n": {
+    "name_zh": "双鸣追猎",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Crimson Warshadow",
+   "character_id": "char-2339",
+   "mode": "PVP",
+   "tier": "T4",
+   "note": "Squishy\nRevives allies after 3 seconds",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "绯晶战影",
+   "i18n": {
+    "name_zh": "绯晶战影",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Everlasting Sol",
+   "character_id": "char-1631",
+   "mode": "PVP",
+   "tier": "T4",
+   "note": "Missiles one-shot enemies\nNeeds to be paired with the angel [Angel]",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "不熄曜日",
+   "i18n": {
+    "name_zh": "不熄曜日",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Judgement Hammer",
+   "character_id": "char-294",
+   "mode": "PVP",
+   "tier": "T4",
+   "note": "Freeze control\nFreeze immunity / Skill Crit resistance / DMG sharing",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "裁决圣锤",
+   "i18n": {
+    "name_zh": "裁决圣锤",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Legendary Dragon",
+   "character_id": "char-288",
+   "mode": "PVP",
+   "tier": "T4",
+   "note": "Ultimate Freeze build",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "传承之龙",
+   "i18n": {
+    "name_zh": "传承之龙",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Traveler of Flowers",
+   "character_id": "char-304",
+   "mode": "PVP",
+   "tier": "T4",
+   "note": "Stun / Freeze\n[Highland] saves allies",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "百花旅者",
+   "i18n": {
+    "name_zh": "百花旅者",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Centaur Minerva",
+   "character_id": "char-291",
+   "mode": "PVP",
+   "tier": "T4",
+   "note": "Blind build\nHigh DMG",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "战争之蹄",
+   "i18n": {
+    "name_zh": "战争之蹄",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Shamneko in Night",
+   "character_id": "char-296",
+   "mode": "PVP",
+   "tier": "T5",
+   "note": "Stun\nAOE burst",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "夜行暹罗",
+   "i18n": {
+    "name_zh": "夜行暹罗",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Flicker Pierce",
+   "character_id": "char-1648",
+   "mode": "PVP",
+   "tier": "T5",
+   "note": "Squishy",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "拂光破雪",
+   "i18n": {
+    "name_zh": "拂光破雪",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Skyborne Machina",
+   "character_id": "char-2059",
+   "mode": "PVP",
+   "tier": "T5",
+   "note": "Squishy",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "凌空械羽",
+   "i18n": {
+    "name_zh": "凌空械羽",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Foxy Archduchess",
+   "character_id": "char-286",
+   "mode": "PVP",
+   "tier": "T5",
+   "note": "Lightning-element DMG boost",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "玉面九尾",
+   "i18n": {
+    "name_zh": "玉面九尾",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Construct Guard",
+   "character_id": "char-1073",
+   "mode": "PVP",
+   "tier": "T5",
+   "note": "Team-wide cleanse and control immunity",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "构装守卫",
+   "i18n": {
+    "name_zh": "构装守卫",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "White Dragon",
+   "character_id": "char-299",
+   "mode": "PVP",
+   "tier": "T5",
+   "note": "Stun control",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "白龙",
+   "i18n": {
+    "name_zh": "白龙",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Dance of Searing Blaze",
+   "character_id": "char-305",
+   "mode": "PVP",
+   "tier": "T5",
+   "note": "Taunt\nCD build",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "炙光之舞",
+   "i18n": {
+    "name_zh": "炙光之舞",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Frozen Heart",
+   "character_id": "char-309",
+   "mode": "PVP",
+   "tier": "T5",
+   "note": "Opens with Freeze",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "冰封之心",
+   "i18n": {
+    "name_zh": "冰封之心",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Coltish Artillerist",
+   "character_id": "char-278",
+   "mode": "PVP",
+   "tier": "T6",
+   "note": "Reduces all-DMG Reduction",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "自由炮手",
+   "i18n": {
+    "name_zh": "自由炮手",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Netherblade Maiden",
+   "character_id": "char-306",
+   "mode": "PVP",
+   "tier": "T6",
+   "note": "Knockback\nPhysical DMG",
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "灵刃之主",
+   "i18n": {
+    "name_zh": "灵刃之主",
+    "sources": {
+     "names": 1,
+     "translated": 1
+    },
+    "text_sources": {
+     "note": {
+      "source": "translated"
+     }
+    },
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Ominous Wraith",
+   "character_id": "char-1808",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "不祥怨灵",
+   "i18n": {
+    "name_zh": "不祥怨灵",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Dreambound Wanderer",
+   "character_id": "char-2502",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "云梦归人",
+   "i18n": {
+    "name_zh": "云梦归人",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "The Winter Witch",
+   "character_id": "char-300",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "凛冬魔女",
+   "i18n": {
+    "name_zh": "凛冬魔女",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Northland Princess",
+   "character_id": "char-1696",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "北境公主",
+   "i18n": {
+    "name_zh": "北境公主",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Twin Bulwark",
+   "character_id": "char-1719",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "双子之盾",
+   "i18n": {
+    "name_zh": "双子之盾",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Goblin Enchanter",
+   "character_id": "char-301",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "地精妖术师",
+   "i18n": {
+    "name_zh": "地精妖术师",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Banquet Thunderlight",
+   "character_id": "char-2414",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "夜宴霆光",
+   "i18n": {
+    "name_zh": "夜宴霆光",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Crimson Scythe",
+   "character_id": "char-1805",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "夺魂之镰",
+   "i18n": {
+    "name_zh": "夺魂之镰",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Apostle of Judgment",
+   "character_id": "char-303",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "审判使者",
+   "i18n": {
+    "name_zh": "审判使者",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Woodland Dryad",
+   "character_id": "char-1725",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "密林之眼",
+   "i18n": {
+    "name_zh": "密林之眼",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Shrouded Slasher",
+   "character_id": "char-1806",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "封魔利爪",
+   "i18n": {
+    "name_zh": "封魔利爪",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Verdant Ranger",
+   "character_id": "char-1724",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "巡林游侠",
+   "i18n": {
+    "name_zh": "巡林游侠",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Imperial Sword",
+   "character_id": "char-1723",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "帝国之剑",
+   "i18n": {
+    "name_zh": "帝国之剑",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Exotic Merchant",
+   "character_id": "char-1809",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "异国商人",
+   "i18n": {
+    "name_zh": "异国商人",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Vanguard of Valkyrie",
+   "character_id": "char-302",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "御刃神锋",
+   "i18n": {
+    "name_zh": "御刃神锋",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Pleasure Succubus",
+   "character_id": "char-1800",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "欢愉魔女",
+   "i18n": {
+    "name_zh": "欢愉魔女",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Fleur of the Heart",
+   "character_id": "char-1804",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "深庭玫瑰",
+   "i18n": {
+    "name_zh": "深庭玫瑰",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Chief Raven",
+   "character_id": "char-1812",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "渡鸦魁首",
+   "i18n": {
+    "name_zh": "渡鸦魁首",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Grey Archmage",
+   "character_id": "char-1801",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "灰袍法师",
+   "i18n": {
+    "name_zh": "灰袍法师",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Solus Commander",
+   "character_id": "char-1807",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "烈阳将军",
+   "i18n": {
+    "name_zh": "烈阳将军",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Kingdom Huntress",
+   "character_id": "char-1811",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "王国猎手",
+   "i18n": {
+    "name_zh": "王国猎手",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Esoteric Sylph",
+   "character_id": "char-1726",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "秘境仙灵",
+   "i18n": {
+    "name_zh": "秘境仙灵",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Mystic Instructor",
+   "character_id": "char-1810",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "秘术导师",
+   "i18n": {
+    "name_zh": "秘术导师",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Pure Slime",
+   "character_id": "char-1720",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "纯净史莱姆",
+   "i18n": {
+    "name_zh": "纯净史莱姆",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Arson Fairy",
+   "character_id": "char-1813",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "纵火妖精",
+   "i18n": {
+    "name_zh": "纵火妖精",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Green Whisper",
+   "character_id": "char-2330",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "绿森山灵",
+   "i18n": {
+    "name_zh": "绿森山灵",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "King of the Damned",
+   "character_id": "char-1803",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "诅咒之王",
+   "i18n": {
+    "name_zh": "诅咒之王",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Golden Hatch",
+   "character_id": "char-2141",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "金蜂破茧",
+   "i18n": {
+    "name_zh": "金蜂破茧",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Silverblade Oath",
+   "character_id": "char-2224",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "银刃之誓",
+   "i18n": {
+    "name_zh": "银刃之誓",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Unseen Shadow",
+   "character_id": "char-1802",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "长夜之影",
+   "i18n": {
+    "name_zh": "长夜之影",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
+    "missing": null,
+    "untranslated_lore": null
+   }
+  },
+  {
+   "character": "Flamebell Dance",
+   "character_id": "char-2425",
+   "mode": "PVP",
+   "tier": "not_ranked",
+   "note": null,
+   "as_of": "2026-11-25",
+   "source_url": "https://wiki.biligame.com/bookofyog/PVP%E8%8A%82%E5%A5%8F%E6%A6%9C",
+   "revid": 9311,
+   "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9311",
+   "character_zh": "飞焰铃舞",
+   "i18n": {
+    "name_zh": "飞焰铃舞",
+    "sources": {
+     "names": 1
+    },
+    "text_sources": null,
     "missing": null,
     "untranslated_lore": null
    }

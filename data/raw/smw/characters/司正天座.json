@@ -1,10 +1,10 @@
 {
   "subject": "司正天座",
   "group": "characters",
-  "page_revid": 9259,
+  "page_revid": 9328,
   "source_url": "https://wiki.biligame.com/bookofyog/%E5%8F%B8%E6%AD%A3%E5%A4%A9%E5%BA%A7",
   "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%8F%B8%E6%AD%A3%E5%A4%A9%E5%BA%A7&format=json",
-  "fetched_at": "2026-11-20T16:11:25+00:00",
+  "fetched_at": "2026-11-28T07:24:15+00:00",
   "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
   "response": {
     "query": {
@@ -105,10 +105,6 @@
           "dataitem": [
             {
               "type": 9,
-              "item": "含有受损文件链接的页面#14##"
-            },
-            {
-              "type": 9,
               "item": "黑卫#14##"
             }
           ]
@@ -118,7 +114,7 @@
           "dataitem": [
             {
               "type": 6,
-              "item": "1/2026/11/8/14/29/58/0"
+              "item": "1/2026/11/27/11/50/12/0"
             }
           ]
         },
@@ -136,7 +132,16 @@
           "dataitem": [
             {
               "type": 2,
-              "item": "2026年11月2日"
+              "item": "2026年11月02日"
+            }
+          ]
+        },
+        {
+          "property": "专武",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "清光昭雪"
             }
           ]
         },
@@ -343,7 +348,7 @@
           "dataitem": [
             {
               "type": 2,
-              "item": "整洁、公正、拼图、<span style=\"color:red\">（羁绊礼物）</span>"
+              "item": "整洁、公正、拼图、<span style=\"color:red\">守时怀表（羁绊礼物）</span>"
             }
           ]
         },
@@ -658,7 +663,7 @@
           "dataitem": [
             {
               "type": 2,
-              "item": "【无垢之境】造成的伤害会附加司正天座最大生命值2%的神圣伤害。"
+              "item": "【无垢之境】造成的伤害会附加司正天座最大生命值20%的神圣伤害，且命中时有45%几率使敌人的物理强度和法术强度减少6%，持续6秒，最多叠加10层。"
             }
           ]
         },
@@ -676,7 +681,7 @@
           "dataitem": [
             {
               "type": 2,
-              "item": "【溯光】每次受伤转化的最大生命值最多（根据技能等级）提升至45%。"
+              "item": "【溯光】每次受伤转化的最大生命值最多（根据技能等级）提升至75%，且每次受伤时，会获得50物理护甲和法术护甲。"
             }
           ]
         },
@@ -694,7 +699,7 @@
           "dataitem": [
             {
               "type": 2,
-              "item": "免疫即死效果"
+              "item": "免疫即死效果，且【天光乍破】叠加耀斑同时，会使其受到的治疗效果下降10%，最多叠加10层，持续6秒。"
             }
           ]
         },

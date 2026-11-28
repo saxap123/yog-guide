@@ -623,12 +623,7 @@
   "recommendation": null
  },
  "divinity": null,
- "relics": [
-  {
-   "name": "始见新生",
-   "id": "relic-2057"
-  }
- ],
+ "relics": null,
  "battle_grid": null,
  "portraits": null,
  "lore": {
@@ -670,7 +665,9 @@
   "事迹六",
   "角色故事"
  ],
- "parse_notes": null,
+ "parse_notes": [
+  "黑卫遗物 is on the page but no relic in Category:遗物 has 黑卫名称 = this character"
+ ],
  "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%9A%E5%BD%A9%E6%98%9F%E7%BB%98",
  "revid": 8606,
  "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8606",

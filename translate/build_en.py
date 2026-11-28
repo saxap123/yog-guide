@@ -127,7 +127,7 @@ class Translator:
             return None
         self.used_names[cat].add(zh)
         if e.get("en"):
-            self._src(path, "names")
+            self._src(path, "translated" if e.get("source") == "translated" else "names")
             return e["en"]
         self._miss(path, zh, "names.json/%s: %s" % (cat, e.get("note") or "unverified"))
         return None
@@ -741,6 +741,15 @@ def collection(zh_coll, items, extra=None):
     return out
 
 
+def tier_collection(T, zh_coll, items):
+    sections = {}
+    for mode, notes in zh_coll.get("sections", {}).items():
+        T.start(f"{mode} tier list")
+        sections[mode] = {tier: T.text(note, "editorial", f"sections.{mode}.{tier}") for tier, note in notes.items()}
+        T.finish()
+    return collection(zh_coll, items, {"sections": sections})
+
+
 def build():
     T = Translator()
     chars = [jload(p) for p in sorted(glob.glob(os.path.join(ZH, "characters", "*.json")))]
@@ -794,7 +803,7 @@ def build():
     jdump(collection(run, run_items), os.path.join(EN, "runes.json"))
     jdump(collection(sto, sto_items), os.path.join(EN, "black_stones.json"))
     jdump(collection(fac, fac_items), os.path.join(EN, "factions.json"))
-    jdump(collection(tie, tie_items), os.path.join(EN, "tiers.json"))
+    jdump(tier_collection(T, tie, tie_items), os.path.join(EN, "tiers.json"))
 
     jdump({"about": "texts of the very same skill/effect exist in the game but differ from the wiki "
                     "(numbers or wording), so the wiki text was translated instead",

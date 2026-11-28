@@ -396,10 +396,10 @@
       "page": null,
       "search_hits": [
        "氪金攻略",
-       "拂光破雪",
        "战争之蹄",
        "黑衫刃影",
-       "不熄曜日"
+       "不熄曜日",
+       "传承之龙"
       ]
      }
     }
@@ -692,16 +692,6 @@
     "path": "profile.likes[3]",
     "zh": "伯戈涅",
     "en": "Bergogne"
-   },
-   {
-    "path": "runes.note",
-    "zh": "观海",
-    "en": "Guanhai"
-   },
-   {
-    "path": "runes.note",
-    "zh": "水金",
-    "en": "Shuijin"
    }
   ]
  }

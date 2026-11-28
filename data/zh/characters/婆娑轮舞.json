@@ -423,7 +423,12 @@
    "id": "relic-1947"
   }
  ],
- "battle_grid": null,
+ "battle_grid": [
+  {
+   "template": "刺杀战格",
+   "recommended": null
+  }
+ ],
  "portraits": null,
  "lore": {
   "story": null,
@@ -452,7 +457,7 @@
   "推荐符文: 主符文 is empty, so the wiki page shows «暂无» although 辅助符文 is set"
  ],
  "source_url": "https://wiki.biligame.com/bookofyog/%E5%A9%86%E5%A8%91%E8%BD%AE%E8%88%9E",
- "revid": 8620,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8620",
- "rev_timestamp": "2026-02-08T04:14:33Z"
+ "revid": 9339,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9339",
+ "rev_timestamp": "2026-11-27T12:23:05Z"
 }

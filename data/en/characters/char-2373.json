@@ -334,8 +334,8 @@
       "page": null,
       "search_hits": [
        "百花旅者",
-       "璨然银龙",
        "分解装备",
+       "璨然银龙",
        "回怒装备",
        "怒气装备"
       ]
@@ -513,8 +513,8 @@
       "page": null,
       "search_hits": [
        "百花旅者",
-       "璨然银龙",
        "分解装备",
+       "璨然银龙",
        "回怒装备",
        "怒气装备"
       ]
@@ -543,11 +543,11 @@
       "title_found": false,
       "page": null,
       "search_hits": [
-       "拂光破雪",
        "不熄曜日",
-       "绞刃流火",
        "蚀骨魂龙",
-       "青鸾巽羽"
+       "拂光破雪",
+       "青鸾巽羽",
+       "千宵月守"
       ]
      }
     },
@@ -602,10 +602,10 @@
       "page": null,
       "search_hits": [
        "氪金攻略",
-       "拂光破雪",
        "战争之蹄",
        "黑衫刃影",
-       "不熄曜日"
+       "不熄曜日",
+       "传承之龙"
       ]
      }
     }
@@ -733,7 +733,12 @@
    "id": "relic-2379"
   }
  ],
- "battle_grid": null,
+ "battle_grid": [
+  {
+   "template": "Assassin battle grid",
+   "recommended": null
+  }
+ ],
  "portraits": null,
  "lore": {
   "story": null,
@@ -760,15 +765,15 @@
  ],
  "parse_notes": null,
  "source_url": "https://wiki.biligame.com/bookofyog/%E7%92%A8%E7%84%B6%E9%93%B6%E9%BE%99",
- "revid": 9028,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9028",
- "rev_timestamp": "2026-06-27T07:00:34Z",
+ "revid": 9335,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9335",
+ "rev_timestamp": "2026-11-27T12:22:45Z",
  "i18n": {
   "name_zh": "璨然银龙",
   "sources": {
    "derived": 5,
    "game_db": 18,
-   "glossary": 88,
+   "glossary": 89,
    "lore": 1,
    "names": 65,
    "translated": 13

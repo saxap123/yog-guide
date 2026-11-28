@@ -442,11 +442,11 @@
       "title_found": false,
       "page": null,
       "search_hits": [
-       "拂光破雪",
        "不熄曜日",
-       "绞刃流火",
        "蚀骨魂龙",
-       "青鸾巽羽"
+       "拂光破雪",
+       "青鸾巽羽",
+       "千宵月守"
       ]
      }
     },
@@ -563,10 +563,10 @@
       "page": null,
       "search_hits": [
        "氪金攻略",
-       "拂光破雪",
        "战争之蹄",
        "黑衫刃影",
-       "不熄曜日"
+       "不熄曜日",
+       "传承之龙"
       ]
      }
     }
@@ -826,13 +826,6 @@
   ],
   "untranslated_lore": [
    "lore"
-  ],
-  "unofficial_names": [
-   {
-    "path": "black_stones.note",
-    "zh": "金币跃迁",
-    "en": "Gold Coin Leap"
-   }
   ]
  }
 }

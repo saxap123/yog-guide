@@ -52,9 +52,9 @@
     },
     "characters/璨然银龙": {
       "title": "璨然银龙",
-      "revid": 9028,
+      "revid": 9335,
       "file": "characters/璨然银龙.json",
-      "fetched_at": "2026-11-20T15:52:18+00:00"
+      "fetched_at": "2026-11-28T07:23:27+00:00"
     },
     "characters/炽焰降生": {
       "title": "炽焰降生",
@@ -106,9 +106,9 @@
     },
     "characters/绯红荆棘": {
       "title": "绯红荆棘",
-      "revid": 8836,
+      "revid": 9340,
       "file": "characters/绯红荆棘.json",
-      "fetched_at": "2026-11-20T15:52:37+00:00"
+      "fetched_at": "2026-11-28T07:23:27+00:00"
     },
     "characters/绯晶战影": {
       "title": "绯晶战影",
@@ -130,9 +130,9 @@
     },
     "characters/拂光破雪": {
       "title": "拂光破雪",
-      "revid": 8618,
+      "revid": 9337,
       "file": "characters/拂光破雪.json",
-      "fetched_at": "2026-11-20T15:52:45+00:00"
+      "fetched_at": "2026-11-28T07:23:27+00:00"
     },
     "characters/构装守卫": {
       "title": "构装守卫",
@@ -178,9 +178,9 @@
     },
     "characters/绞刃流火": {
       "title": "绞刃流火",
-      "revid": 8951,
+      "revid": 9336,
       "file": "characters/绞刃流火.json",
-      "fetched_at": "2026-11-20T15:53:03+00:00"
+      "fetched_at": "2026-11-28T07:23:27+00:00"
     },
     "characters/金蜂破茧": {
       "title": "金蜂破茧",
@@ -262,9 +262,9 @@
     },
     "characters/婆娑轮舞": {
       "title": "婆娑轮舞",
-      "revid": 8620,
+      "revid": 9339,
       "file": "characters/婆娑轮舞.json",
-      "fetched_at": "2026-11-20T15:53:38+00:00"
+      "fetched_at": "2026-11-28T07:23:27+00:00"
     },
     "characters/绮夜梦影": {
       "title": "绮夜梦影",
@@ -304,9 +304,9 @@
     },
     "characters/圣翼降临": {
       "title": "圣翼降临",
-      "revid": 8619,
+      "revid": 9338,
       "file": "characters/圣翼降临.json",
-      "fetched_at": "2026-11-20T15:53:52+00:00"
+      "fetched_at": "2026-11-28T07:23:27+00:00"
     },
     "characters/蚀骨魂龙": {
       "title": "蚀骨魂龙",
@@ -328,9 +328,9 @@
     },
     "characters/司正天座": {
       "title": "司正天座",
-      "revid": 9259,
+      "revid": 9328,
       "file": "characters/司正天座.json",
-      "fetched_at": "2026-11-20T15:54:02+00:00"
+      "fetched_at": "2026-11-28T07:23:27+00:00"
     },
     "characters/天邪魅影": {
       "title": "天邪魅影",
@@ -460,15 +460,15 @@
     },
     "pages/PVE节奏榜": {
       "title": "PVE节奏榜",
-      "revid": 9034,
+      "revid": 9273,
       "file": "pages/PVE节奏榜.json",
-      "fetched_at": "2026-11-20T15:54:59+00:00"
+      "fetched_at": "2026-11-28T07:24:04+00:00"
     },
     "pages/PVP节奏榜": {
       "title": "PVP节奏榜",
-      "revid": 9140,
+      "revid": 9311,
       "file": "pages/PVP节奏榜.json",
-      "fetched_at": "2026-11-20T15:55:02+00:00"
+      "fetched_at": "2026-11-28T07:24:04+00:00"
     },
     "pages/装备": {
       "title": "装备",
@@ -2326,9 +2326,9 @@
     },
     "relics/始见新生": {
       "title": "始见新生",
-      "revid": 7610,
+      "revid": 9341,
       "file": "relics/始见新生.json",
-      "fetched_at": "2026-11-20T16:10:28+00:00"
+      "fetched_at": "2026-11-28T07:23:50+00:00"
     },
     "relics/狮首之怒": {
       "title": "狮首之怒",
@@ -2896,9 +2896,9 @@
     },
     "pages/首页": {
       "title": "首页",
-      "revid": 9243,
+      "revid": 9310,
       "file": "pages/首页.json",
-      "fetched_at": "2026-11-20T16:10:50+00:00"
+      "fetched_at": "2026-11-28T07:24:04+00:00"
     },
     "black_stones/黑石": {
       "title": "黑石",
@@ -2920,9 +2920,9 @@
     },
     "rendered/首页": {
       "title": "首页",
-      "revid": 9243,
+      "revid": 9310,
       "file": "rendered/首页.json",
-      "fetched_at": "2026-11-20T16:29:19+00:00"
+      "fetched_at": "2026-11-28T07:24:31+00:00"
     },
     "extra_items/扩散魔链": {
       "title": "扩散魔链",
@@ -2953,10 +2953,46 @@
       "revid": 605,
       "file": "extra_items/霆霓猩红血印.json",
       "fetched_at": "2026-11-20T17:04:57+00:00"
+    },
+    "characters/云梦归人": {
+      "title": "云梦归人",
+      "revid": 9334,
+      "file": "characters/云梦归人.json",
+      "fetched_at": "2026-11-28T07:23:27+00:00"
+    },
+    "templates/模板:刺杀战格": {
+      "title": "模板:刺杀战格",
+      "revid": 9333,
+      "file": "templates/模板_刺杀战格.json",
+      "fetched_at": "2026-11-28T07:24:11+00:00"
+    },
+    "templates/模板:萃取推荐": {
+      "title": "模板:萃取推荐",
+      "revid": 9279,
+      "file": "templates/模板_萃取推荐.json",
+      "fetched_at": "2026-11-28T07:24:11+00:00"
+    },
+    "templates/模板:队友推荐": {
+      "title": "模板:队友推荐",
+      "revid": 9268,
+      "file": "templates/模板_队友推荐.json",
+      "fetched_at": "2026-11-28T07:24:11+00:00"
+    },
+    "templates/模板:附魔推荐": {
+      "title": "模板:附魔推荐",
+      "revid": 9267,
+      "file": "templates/模板_附魔推荐.json",
+      "fetched_at": "2026-11-28T07:24:11+00:00"
+    },
+    "extra_items/蔷薇之心": {
+      "title": "蔷薇之心",
+      "revid": 4783,
+      "file": "extra_items/蔷薇之心.json",
+      "fetched_at": "2026-11-28T07:32:43+00:00"
     }
   },
   "failed": {},
-  "run_started": "2026-11-20T16:28:30+00:00",
+  "run_started": "2026-11-28T07:23:16+00:00",
   "category_non_articles": {
     "Category:黑卫": [],
     "Category:装备": [],
@@ -2964,8 +3000,8 @@
     "Category:符文": [],
     "Category:阵线": []
   },
-  "run_finished": "2026-11-20T16:29:19+00:00",
-  "api_requests_last_run": 21,
+  "run_finished": "2026-11-28T07:24:31+00:00",
+  "api_requests_last_run": 34,
   "smw": {
     "smw/characters/不熄曜日": {
       "page_revid": 8639,
@@ -3018,9 +3054,9 @@
       "fetched_at": "2026-11-20T16:11:22+00:00"
     },
     "smw/characters/司正天座": {
-      "page_revid": 9259,
+      "page_revid": 9328,
       "file": "smw/characters/司正天座.json",
-      "fetched_at": "2026-11-20T16:11:25+00:00"
+      "fetched_at": "2026-11-28T07:24:15+00:00"
     },
     "smw/characters/唤霜海灵": {
       "page_revid": 9062,
@@ -3028,9 +3064,9 @@
       "fetched_at": "2026-11-20T16:11:27+00:00"
     },
     "smw/characters/圣翼降临": {
-      "page_revid": 8619,
+      "page_revid": 9338,
       "file": "smw/characters/圣翼降临.json",
-      "fetched_at": "2026-11-20T16:11:30+00:00"
+      "fetched_at": "2026-11-28T07:24:17+00:00"
     },
     "smw/characters/地精妖术师": {
       "page_revid": 6482,
@@ -3068,9 +3104,9 @@
       "fetched_at": "2026-11-20T16:11:47+00:00"
     },
     "smw/characters/婆娑轮舞": {
-      "page_revid": 8620,
+      "page_revid": 9339,
       "file": "smw/characters/婆娑轮舞.json",
-      "fetched_at": "2026-11-20T16:11:49+00:00"
+      "fetched_at": "2026-11-28T07:24:18+00:00"
     },
     "smw/characters/审判使者": {
       "page_revid": 8622,
@@ -3113,9 +3149,9 @@
       "fetched_at": "2026-11-20T16:12:13+00:00"
     },
     "smw/characters/拂光破雪": {
-      "page_revid": 8618,
+      "page_revid": 9337,
       "file": "smw/characters/拂光破雪.json",
-      "fetched_at": "2026-11-20T16:12:16+00:00"
+      "fetched_at": "2026-11-28T07:24:21+00:00"
     },
     "smw/characters/月渊龙女": {
       "page_revid": 9143,
@@ -3188,9 +3224,9 @@
       "fetched_at": "2026-11-20T16:12:53+00:00"
     },
     "smw/characters/璨然银龙": {
-      "page_revid": 9028,
+      "page_revid": 9335,
       "file": "smw/characters/璨然银龙.json",
-      "fetched_at": "2026-11-20T16:12:56+00:00"
+      "fetched_at": "2026-11-28T07:24:23+00:00"
     },
     "smw/characters/白龙": {
       "page_revid": 8654,
@@ -3243,9 +3279,9 @@
       "fetched_at": "2026-11-20T16:13:21+00:00"
     },
     "smw/characters/绞刃流火": {
-      "page_revid": 8951,
+      "page_revid": 9336,
       "file": "smw/characters/绞刃流火.json",
-      "fetched_at": "2026-11-20T16:13:23+00:00"
+      "fetched_at": "2026-11-28T07:24:25+00:00"
     },
     "smw/characters/绮夜梦影": {
       "page_revid": 9065,
@@ -3258,9 +3294,9 @@
       "fetched_at": "2026-11-20T16:13:28+00:00"
     },
     "smw/characters/绯红荆棘": {
-      "page_revid": 8836,
+      "page_revid": 9340,
       "file": "smw/characters/绯红荆棘.json",
-      "fetched_at": "2026-11-20T16:13:31+00:00"
+      "fetched_at": "2026-11-28T07:24:27+00:00"
     },
     "smw/characters/绿森山灵": {
       "page_revid": 8797,
@@ -4643,9 +4679,9 @@
       "fetched_at": "2026-11-20T16:23:37+00:00"
     },
     "smw/relics/始见新生": {
-      "page_revid": 7610,
+      "page_revid": 9341,
       "file": "smw/relics/始见新生.json",
-      "fetched_at": "2026-11-20T16:23:40+00:00"
+      "fetched_at": "2026-11-28T07:24:30+00:00"
     },
     "smw/relics/巨龙之息": {
       "page_revid": 6376,
@@ -5251,6 +5287,16 @@
       "page_revid": 605,
       "file": "smw/extra_items/霆霓猩红血印.json",
       "fetched_at": "2026-11-20T17:05:07+00:00"
+    },
+    "smw/characters/云梦归人": {
+      "page_revid": 9334,
+      "file": "smw/characters/云梦归人.json",
+      "fetched_at": "2026-11-28T07:24:13+00:00"
+    },
+    "smw/extra_items/蔷薇之心": {
+      "page_revid": 4783,
+      "file": "smw/extra_items/蔷薇之心.json",
+      "fetched_at": "2026-11-28T07:32:45+00:00"
     }
   }
 }

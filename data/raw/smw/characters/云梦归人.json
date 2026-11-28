@@ -1,0 +1,632 @@
+{
+  "subject": "云梦归人",
+  "group": "characters",
+  "page_revid": 9334,
+  "source_url": "https://wiki.biligame.com/bookofyog/%E4%BA%91%E6%A2%A6%E5%BD%92%E4%BA%BA",
+  "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E4%BA%91%E6%A2%A6%E5%BD%92%E4%BA%BA&format=json",
+  "fetched_at": "2026-11-28T07:24:13+00:00",
+  "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
+  "response": {
+    "query": {
+      "subject": "云梦归人#0##",
+      "data": [
+        {
+          "property": "10A",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度答案"
+            }
+          ]
+        },
+        {
+          "property": "10Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "10级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "2A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "2A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "2Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "5A1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案1"
+            }
+          ]
+        },
+        {
+          "property": "5A2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度答案2"
+            }
+          ]
+        },
+        {
+          "property": "5Q",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "5级好感度问题"
+            }
+          ]
+        },
+        {
+          "property": "_ASK",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "云梦归人#0##_QUERY1dcd40e729eb449540c37b9bb99495a6"
+            }
+          ]
+        },
+        {
+          "property": "_CDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/11/27/11/33/35/0"
+            }
+          ]
+        },
+        {
+          "property": "_INST",
+          "dataitem": [
+            {
+              "type": 9,
+              "item": "含有受损文件链接的页面#14##"
+            },
+            {
+              "type": 9,
+              "item": "黑卫#14##"
+            }
+          ]
+        },
+        {
+          "property": "_MDAT",
+          "dataitem": [
+            {
+              "type": 6,
+              "item": "1/2026/11/27/12/22/8/0"
+            }
+          ]
+        },
+        {
+          "property": "_SKEY",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "云梦归人"
+            }
+          ]
+        },
+        {
+          "property": "上线日期",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2026年11月27日"
+            }
+          ]
+        },
+        {
+          "property": "事迹一",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹1"
+            }
+          ]
+        },
+        {
+          "property": "事迹三",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹3"
+            }
+          ]
+        },
+        {
+          "property": "事迹二",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹2"
+            }
+          ]
+        },
+        {
+          "property": "事迹五",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹5"
+            }
+          ]
+        },
+        {
+          "property": "事迹六",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹6"
+            }
+          ]
+        },
+        {
+          "property": "事迹四",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "事迹4"
+            }
+          ]
+        },
+        {
+          "property": "其他阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "游侠、强袭、敌法、噬魂、坚韧、盾御、流星、暴怒"
+            }
+          ]
+        },
+        {
+          "property": "具体身高/体重",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "160cm/48kg"
+            }
+          ]
+        },
+        {
+          "property": "出生地",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "遥远东方"
+            }
+          ]
+        },
+        {
+          "property": "名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "云梦归人"
+            }
+          ]
+        },
+        {
+          "property": "喜爱的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "指挥官、姐姐、家、<span style=\"color:red\">王权棋子（羁绊礼物）</span>"
+            }
+          ]
+        },
+        {
+          "property": "基础阵线",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "刺杀"
+            }
+          ]
+        },
+        {
+          "property": "姓名",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "花信风"
+            }
+          ]
+        },
+        {
+          "property": "属性",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "物理"
+            }
+          ]
+        },
+        {
+          "property": "必杀技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "指定一名敌方角色进入“生死决斗”6秒。期间双方仅会受到彼此造成的伤害，期间也无法自然回怒。来自其他单位的伤害、治疗、怒气恢复、护盾、控制均无效。决斗期间任一方死亡，决斗立刻结束。决斗持续期间自身的伤害提升100%。"
+            }
+          ]
+        },
+        {
+          "property": "怒兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "性别",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "女"
+            }
+          ]
+        },
+        {
+          "property": "战斗技",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "当近战攻击范围内没有敌人时，会快速的朝最近的敌人冲刺，并对其施加2秒的沉默，如果范围内有敌人，则对该敌人造成5000%物理强度的物理伤害和2秒的沉默。"
+            }
+          ]
+        },
+        {
+          "property": "推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "0"
+            }
+          ]
+        },
+        {
+          "property": "普攻",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对前方小范围敌人造成4000%物理强度的物理伤害。(本技能会受攻速影响，造成的伤害视为普攻伤害）"
+            }
+          ]
+        },
+        {
+          "property": "生日",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "3月3日"
+            }
+          ]
+        },
+        {
+          "property": "种族",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "野兽血裔"
+            }
+          ]
+        },
+        {
+          "property": "称号",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "云梦归人"
+            }
+          ]
+        },
+        {
+          "property": "稀有度",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "SP"
+            }
+          ]
+        },
+        {
+          "property": "立绘1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "立绘1"
+            }
+          ]
+        },
+        {
+          "property": "血阶1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【抽刀断水】每次释放后还会增加40%[后发制人\n】造成的伤害，最多叠加5次。"
+            }
+          ]
+        },
+        {
+          "property": "血阶2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "每释放5次【抽刀断水】必定会触发一次【后发之刃】且不会消耗血阶1的叠层效果。"
+            }
+          ]
+        },
+        {
+          "property": "血阶3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【剑道争锋】持续时间结束时，如果未完成击杀，则血量剩余百分比更多的黑卫将偷取目标5%的所有强度。(如果是怪物则必定增加自己5%物理强\n度)"
+            }
+          ]
+        },
+        {
+          "property": "血阶4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【剑道争锋】偷取的强度会对己方所有黑卫起效。"
+            }
+          ]
+        },
+        {
+          "property": "血阶5",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "在竞技场进攻时【大音希声】可以指定对方一名黑卫，且云梦归人可以对无敌状态的敌人造成伤害。"
+            }
+          ]
+        },
+        {
+          "property": "血阶6",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "云梦归人造成的所有伤害+10%。"
+            }
+          ]
+        },
+        {
+          "property": "角色故事",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "角色故事"
+            }
+          ]
+        },
+        {
+          "property": "讨厌的东西",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "胡萝卜、噪音、训练"
+            }
+          ]
+        },
+        {
+          "property": "诅咒灵",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "8"
+            }
+          ]
+        },
+        {
+          "property": "诡眼",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "2"
+            }
+          ]
+        },
+        {
+          "property": "辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【剑道争锋】持续期间击杀对方黑卫时，会偷取目标10%物理强度和法术强度。(如果目标是怪物，则增加自己对应物理强度)"
+            }
+          ]
+        },
+        {
+          "property": "辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【剑道争锋】持续期间受到攻击时，10%几率触发反击，抵消当次受到的伤害，并对攻击者造成20000%物理强度的物理伤害。当勇猛高于对手时，每超出10点就增加1%触发几率。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "【大音希声】还会额外对目标施加普攻易伤，使其受到的普攻伤害提升30%，持续6秒。"
+            }
+          ]
+        },
+        {
+          "property": "辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "云梦归人的勇猛+10。"
+            }
+          ]
+        },
+        {
+          "property": "辅助符文",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "铁荆"
+            }
+          ]
+        },
+        {
+          "property": "迅角兽",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "4"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对法术强度或物理强度低于自身的敌人造成伤害提高12%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "对生命值为满的敌人造成伤害提高15%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技3",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到减益效果的持续时间减少30%"
+            }
+          ]
+        },
+        {
+          "property": "通用辅助技4",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "受到伤害时，有10%几率触发影遁，免疫该次伤害，并在接下来0.2秒内免疫所有伤害，触发间隔10秒"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐1",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "全伤害类型减免<span style=\"color:red\">（PVE要95%）</span>、%物理强度、技能暴击、暴击倍率、力量、全伤害类型增幅、物理伤害增幅、CD减少、物理穿透"
+            }
+          ]
+        },
+        {
+          "property": "配装-词条推荐2",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "物理抗性、怒气、受到法术伤害降低、受到物理伤害降低、最大生命值、体质、怒气恢复、暴击伤害减免"
+            }
+          ]
+        },
+        {
+          "property": "黑卫名称",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "云梦归人"
+            }
+          ]
+        }
+      ],
+      "sobj": [
+        {
+          "subject": "云梦归人#0##_QUERY1dcd40e729eb449540c37b9bb99495a6",
+          "data": [
+            {
+              "property": "_ASKDE",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "1"
+                }
+              ]
+            },
+            {
+              "property": "_ASKFO",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "template"
+                }
+              ]
+            },
+            {
+              "property": "_ASKSI",
+              "dataitem": [
+                {
+                  "type": 1,
+                  "item": "3"
+                }
+              ]
+            },
+            {
+              "property": "_ASKST",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "[[分类:遗物]] [[黑卫名称::云梦归人]]"
+                }
+              ]
+            },
+            {
+              "property": "_SKEY",
+              "dataitem": [
+                {
+                  "type": 2,
+                  "item": "云梦归人# QUERY1dcd40e729eb449540c37b9bb99495a6"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "serializer": "SMW\\Serializers\\SemanticDataSerializer",
+      "version": 2
+    }
+  }
+}

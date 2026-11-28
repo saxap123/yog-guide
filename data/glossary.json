@@ -2186,6 +2186,11 @@
    "text_id": 1833,
    "category": "in_text",
    "count": 1
+  },
+  "刺杀战格": {
+   "en": "Assassin battle grid",
+   "category": "battle_grid",
+   "source": "translated"
   }
  }
 }

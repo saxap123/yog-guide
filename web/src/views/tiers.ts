@@ -3,7 +3,7 @@ import { avatar, badge, ELEMENT_CLASS, esc, nameHtml, noData, tierChip, val, zh 
 
 export function renderTiers(app: HTMLElement) {
   const groups = new Map<string, Rec[]>(TIER_ORDER.map((t) => [t, []]));
-  for (const t of DATA.tiers) (groups.get(t.tier) ?? groups.set(t.tier, []).get(t.tier)!).push(t);
+  for (const t of DATA.tiers) groups.get(t.tier)?.push(t);
 
   const entry = (t: Rec) => {
     const c = t.character_id ? CHAR.get(t.character_id) : undefined;
@@ -26,7 +26,8 @@ export function renderTiers(app: HTMLElement) {
       .map(
         ([tier, xs]) => `<section class="tgroup">
           <h2>${tierChip(tier)} <span class="count">${xs.length}</span></h2>
-          <ul class="tlist">${xs.sort((a, b) => (a.character ?? a.character_zh).localeCompare(b.character ?? b.character_zh)).map(entry).join("")}</ul>
+          ${DATA.pve_sections[tier] ? `<p class="tnote">${esc(DATA.pve_sections[tier])}</p>` : ""}
+          <ul class="tlist">${xs.map(entry).join("")}</ul>
         </section>`,
       )
       .join("")}`;

@@ -12,14 +12,15 @@ gear, relic, rune, black stone and front (阵线) lists.
 - Each build is shown as a paper doll — hover or tap a slot for the item, its effects and alternatives.
 - Every line says where its English comes from: **official** (the game's own English), **translated**
   (our translation of the wiki), **wiki** (wiki data as written). Empty fields say «No data yet».
-- PvP is not covered.
+- **Guides** covers new accounts, gear to lock before decomposition, monthly resources, upgrades,
+  farming, Fronts, PvP basics, and additional systems. The PvP guide links to the dated wiki rankings.
 
 ## Sources
 
 - **BWIKI 依盖之书** — <https://wiki.biligame.com/bookofyog/> — all builds, tier lists and item data.
   Each record links to the exact wiki revision it comes from.
-- **Official English names and texts** — from the game's own files (snapshot of 2026-09-22), used only
-  where the wiki text and the game text match.
+- **Official English names and texts** — from the game files (snapshot of 2026-09-22) and publisher
+  announcements. Game effect text is used where it matches the wiki.
 - What changed in each update: [data/CHANGELOG.md](data/CHANGELOG.md).
 
 Something wrong or out of date? The wiki is the source: fix it there, and it will reach this guide with

@@ -19,5 +19,8 @@ web/public/img/
 # screenshots of the site show game art
 docs/screenshots/
 
+# local wiki source cache for guide editorial review
+data/raw/guides/
+
 # local logs of the scraper
 data/raw/*.log

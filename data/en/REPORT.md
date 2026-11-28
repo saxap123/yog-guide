@@ -1,23 +1,23 @@
 # Step 3 report — names, glossary, translation (data/zh → data/en)
 
-Wiki data: BWIKI 依盖之书 <https://wiki.biligame.com/bookofyog/> (CC BY-NC-SA 4.0). Official English: game files dated 2026-09-22 (`data/raw/game_db`, local, read-only, git-ignored). Only strings that are used are kept (`data/names.json`, `data/glossary.json`, `data/en`).
+Wiki data: BWIKI 依盖之书 <https://wiki.biligame.com/bookofyog/> (CC BY-NC-SA 4.0). Official English: game files dated 2026-09-22 and publisher announcements. Only strings that are used are kept (`data/names.json`, `data/glossary.json`, `data/en`).
 
 Regenerate: `python translate/build_names.py && python translate/build_glossary.py && python translate/build_en.py && python translate/check_numbers.py && python translate/write_report.py`.
 
 ## Names (`data/names.json`)
 
-Rule: Chinese wiki name → game table row (`name_id` / `title_id`) → `totalLanguageDicText.json`. Names are never translated by us: not found → `en: null`, `status: unverified`.
+Names come from the game tables and dictionary when available. `translate/manual/names.json` supplies publisher spellings and translations for newer names.
 
-| category | names | from the game | translated | empty (unverified) |
-|---|---|---|---|---|
-| characters | 76 | 75 (98.7%) | 0 | 1 (1.3%) |
-| skills | 501 | 483 (96.4%) | 0 | 18 (3.6%) |
-| items (gear) | 353 | 339 (96.0%) | 0 | 14 (4.0%) |
-| relics | 60 | 58 (96.7%) | 0 | 2 (3.3%) |
-| runes | 30 | 27 (90.0%) | 0 | 3 (10.0%) |
-| 黑石 (black stones) | 18 | 18 (100.0%) | 0 | 0 (0.0%) |
-| 阵线 (factions) | 45 | 45 (100.0%) | 0 | 0 (0.0%) |
-| **all** | 1083 | 1045 (96.5%) | 0 | 38 (3.5%) |
+| category | names | from the game | publisher | translated | empty (unverified) |
+|---|---|---|---|---|---|
+| characters | 77 | 75 (97.4%) | 1 | 0 | 1 (1.3%) |
+| skills | 507 | 483 (95.3%) | 0 | 7 | 17 (3.4%) |
+| items (gear) | 355 | 338 (95.2%) | 1 | 2 | 14 (3.9%) |
+| relics | 60 | 57 (95.0%) | 1 | 0 | 2 (3.3%) |
+| runes | 30 | 27 (90.0%) | 0 | 0 | 3 (10.0%) |
+| 黑石 (black stones) | 18 | 18 (100.0%) | 0 | 0 | 0 (0.0%) |
+| 阵线 (factions) | 45 | 45 (100.0%) | 0 | 0 | 0 (0.0%) |
+| **all** | 1092 | 1043 (95.5%) | 3 | 9 | 37 (3.4%) |
 
 Aliases: 璨然银龙 = 燦然银龙 (game spelling).
 
@@ -36,7 +36,6 @@ Aliases: 璨然银龙 = 燦然银龙 (game spelling).
 | skills | 洄游天平 | no skill of this name in tpl_heroSkill / tpl_passive_skill | — | — |
 | skills | 溯光 | no skill of this name in tpl_heroSkill / tpl_passive_skill | — | — |
 | skills | 天光乍破 | no skill of this name in tpl_heroSkill / tpl_passive_skill | — | — |
-| skills | 赤诚 | no skill of this name in tpl_heroSkill / tpl_passive_skill | — | — |
 | skills | 呦呦鹿鸣 | no skill of this name in tpl_heroSkill / tpl_passive_skill | — | Inky Deer Sounds (73546) |
 | skills | 笔底春花 | no skill of this name in tpl_heroSkill / tpl_passive_skill | 笔底春风 | — |
 | skills | 法术延迟 | no skill of this name in tpl_heroSkill / tpl_passive_skill | — | — |
@@ -66,7 +65,7 @@ Aliases: 璨然银龙 = 燦然银龙 (game spelling).
 
 ## Glossary (`data/glossary.json`)
 
-312 terms: from the game dictionary (exact Chinese match) 241 (77.2%), translated by us 65 (20.8%), unverified (wiki typos / garbled values, `en: null`) 6.
+313 terms: from the game dictionary (exact Chinese match) 241 (77.0%), translated by us 66 (21.1%), unverified (wiki typos / garbled values, `en: null`) 6.
 
 | category | game_db | translated | unverified |
 |---|---|---|---|
@@ -80,9 +79,9 @@ Aliases: 璨然银龙 = 燦然银龙 (game spelling).
 | element | 6 | 0 | 0 |
 | item_flag | 0 | 5 | 0 |
 | quality | 4 | 0 | 0 |
+| battle_grid | 0 | 4 | 0 |
 | resource | 1 | 2 | 0 |
 | rune_colour | 0 | 3 | 0 |
-| battle_grid | 0 | 3 | 0 |
 | material | 2 | 0 | 0 |
 | relic_type | 2 | 0 | 0 |
 | faction_type | 2 | 0 | 0 |
@@ -95,147 +94,28 @@ Unverified terms: 冰霜传统 (probably a typo on the wiki; not corrected, poss
 | source | strings | share |
 |---|---|---|
 | official English text of the game (values filled from the wiki, numbers checked) | 1772 | 7.8% |
-| names.json (official names) | 3683 | 16.3% |
-| glossary.json (terms, stat lines) | 14865 | 65.7% |
-| mechanical (dates, scaling parts) | 392 | 1.7% |
-| our translation of the wiki text | 1508 | 6.7% |
+| names.json (official names) | 3709 | 16.3% |
+| glossary.json (terms, stat lines) | 14935 | 65.6% |
+| mechanical (dates, scaling parts) | 398 | 1.7% |
+| our translation of the wiki text | 1535 | 6.7% |
 | lore — kept in Chinese, not translated | 214 | 0.9% |
-| empty (`null`, listed in `i18n.missing`) | 185 | 0.8% |
+| empty (`null`, listed in `i18n.missing`) | 187 | 0.8% |
 
 English strings that still contain a Chinese name: 0.
 
-Unofficial names (step 4): names that have no official English and used to stay in Chinese inside English strings are translated by meaning in `translate/manual/unofficial_names.json` (people and places romanized, wiki typos translated as written) and listed per record in `i18n.unofficial_names`: 135 replacements of 59 distinct names in 102 strings.
+Unofficial names (step 4): names that have no official English and used to stay in Chinese inside English strings are translated by meaning in `translate/manual/unofficial_names.json` (people and places romanized, wiki typos translated as written) and listed per record in `i18n.unofficial_names`: 89 replacements of 44 distinct names in 66 strings.
 
-Empty strings by reason: names.json/skills 78, not translatable (see translate/manual/texts) 67, names.json/gear 22, names.json/runes 8, names.json/relics 4, names.json/characters 4, glossary 2.
+Empty strings by reason: names.json/skills 77, not translatable (see translate/manual/texts) 67, names.json/gear 24, names.json/runes 9, names.json/relics 4, names.json/characters 4, glossary 2.
 
 ## Items that exist only in the game
 
-99 items named in wiki builds have no wiki page; they are in `data/en/gear.json` with `source: "game_db"` (id `gear-game-<game id>`), linked from 205 build entries (`builds[].item_ids`). With slot: 99, with a fixed quality in the game table: 23, with a skill text: 75 (skill English withheld because the game's English has other numbers than its Chinese: 12).
+98 items named in wiki builds have no wiki page; they are in `data/en/gear.json` with `source: "game_db"` (id `gear-game-<game id>`), linked from 204 build entries (`builds[].item_ids`). With slot: 98, with a fixed quality in the game table: 23, with a skill text: 74 (skill English withheld because the game's English has other numbers than its Chinese: 12).
 
 items with source game_db are named in wiki builds but have no wiki page; data from the game files dated 2026-09-22 (no source_url/revid). Their skill value ranges use the wiki format, which equals the wiki text for 75 of 159 wiki items checked (the others differ in wording, typos or fixed values on the wiki).
 
 ## Number check (`translate/check_numbers.py`, also `tests/test_translate.py`)
 
-String pairs compared: 23842. Number/percent mismatches zh ↔ en: **0**. (English `null` is not compared: 197.)
-
-### Wiki vs game: texts of the same skill/effect that differ
-
-The game has a text for this very skill / blood rank / item / relic / faction, but it is not the wiki text with values filled in, so the wiki text was translated. Stricter than «numbers equal»: a different wording also counts (e.g. wiki 提升 *increase* vs game 下降 *decrease* with the same 10%). Punctuation and doubled characters are ignored.
-
-| kind | numbers differ | wording differs |
-|---|---|---|
-| blood_rank | 26 | 28 |
-| faction | 5 | 5 |
-| gear_skill | 15 | 42 |
-| relic_skill | 1 | 14 |
-| skill | 55 | 144 |
-
-Same wording, different numbers (102) — numbers as written; the game's `{n}` values are filled per level and not shown:
-
-| record | field | wiki numbers | game literal numbers |
-|---|---|---|---|
-| 不熄曜日 | blood_ranks.ranks[3] | 6 25 0.5 | 6 25 0.5 |
-| 传承之龙 | skills[5].description | 30 | — |
-| 冰封之心 | skills[3].description | 6 0.1 15 0.2 3 | 0.1 15 0.2 3 |
-| 凌空械羽 | skills[3].description | 60 | — |
-| 双鸣追猎 | skills[1].description | 0.2 2 12 2 | 0.2 4 2 |
-| 双鸣追猎 | skills[4].description | 20 10 3 1000 | 20 10 3 |
-| 双鸣追猎 | blood_ranks.ranks[0] | 1 | 1 |
-| 双鸣追猎 | blood_ranks.ranks[1] | 3 1 1 | 3 1 1 |
-| 双鸣追猎 | blood_ranks.ranks[3] | 1 0.2 1 400 | 1 0.2 1 500 |
-| 唤霜海灵 | skills[0].description | 250 10 15 25 | 10 15 25 |
-| 唤霜海灵 | skills[2].description | 50 370 | 50 |
-| 唤霜海灵 | skills[4].description | 2 5 1 10 100 | 2 5 1 100 |
-| 唤霜海灵 | skills[5].description | 2 200 20 | 2 20 |
-| 唤霜海灵 | skills[6].description | 30 | — |
-| 唤霜海灵 | blood_ranks.ranks[0] | 50 1 | 50 1 |
-| 圣翼降临 | skills[1].description | 1 5 3000 | 1 5 |
-| 圣翼降临 | blood_ranks.ranks[2] | 1 5 | 1 5 |
-| 墨凝清影 | skills[3].description | 6000 10 2 | 10 2 |
-| 夜宴霆光 | skills[3].description | 3 1.5 0.5 16000 | 3 1.5 0.5 |
-| 夜行暹罗 | skills[4].description | 1 50 50 | 1 50 |
-| 天邪魅影 | skills[2].description | 10 3 6 3500 1.5 | 10 3 6 1.5 |
-| 天邪魅影 | blood_ranks.ranks[1] | 50 | 50 |
-| 天邪魅影 | blood_ranks.ranks[2] | 2 3 1 0.5 | 2 3 1 0.5 |
-| 婆娑轮舞 | skills[3].description | 100 15 | 15 |
-| 婆娑轮舞 | skills[6].description | 30 | — |
-| 审判使者 | skills[2].description | 8 300 30 0.5 60 2 | 8 30 0.5 60 2 |
-| 审判使者 | skills[6].description | 5 30 | 30 |
-| 御刃神锋 | skills[3].description | 10 1 3 30 | 1 3 |
-| 御刃神锋 | skills[5].description | 1 1 3 5 16 | 1 1 3 5 |
-| 战争之蹄 | skills[0].description | 400 | — |
-| 战争之蹄 | skills[2].description | 1 6 50 50 15 | 1 50 50 15 |
-| 战争之蹄 | skills[5].description | 7 | — |
-| 战争之蹄 | skills[6].description | 30 | — |
-| 战争之蹄 | blood_ranks.ranks[0] | 1 0.5 15 35 | 1 0.5 15 35 |
-| 战争之蹄 | blood_ranks.ranks[2] | 50 50 | 50 50 |
-| 战争之蹄 | blood_ranks.ranks[4] |  | — |
-| 拂光破雪 | blood_ranks.ranks[2] | 100 10 1 25 | 100 10 1 25 |
-| 月渊龙女 | skills[2].description | 5 3000 0.5 | 5 1 |
-| 月渊龙女 | blood_ranks.ranks[0] | 200 35 | 20 35 |
-| 灵刃之主 | skills[1].description | 10 5 200 225 | 10 5 |
-| 炙光之舞 | skills[3].description | 2 5 500 50 10 0.25 | 2 5 50 10 0.25 |
-| 炽焰降生 | skills[5].description | 4000 25 1 | 25 1 |
-| 炽焰降生 | blood_ranks.ranks[4] | 10 | 10 |
-| 爱恋花见 | skills[0].description | 1 1000 6 | 1 6 |
-| 爱恋花见 | blood_ranks.ranks[1] | 1 2 | 1 2 |
-| 玉尘灵仙 | skills[3].description | 3 3500 1 1 5 15 50 | 3 1 1 5 15 50 |
-| 玉尘灵仙 | skills[5].description | 10 2 1500 3 | 10 2 3 |
-| 玉尘灵仙 | skills[6].description | 30 | — |
-| 玉尘灵仙 | blood_ranks.ranks[3] | 1 1000 75 | 1 1000 75 |
-| 玉面九尾 | skills[3].description | 1 3 30 2 1 1 10000 | 1 3 30 2 1 1 |
-| 百花旅者 | skills[1].description | 500 100 | 100 |
-| 神之嫡子 | skills[2].description | 1 3 10 36.8 | 1 3 10 |
-| 秽翼魔女 | skills[0].description | 600 | — |
-| 秽翼魔女 | skills[2].description | 1 800 | 1 |
-| 秽翼魔女 | skills[6].description | 30 | — |
-| 秽翼魔女 | blood_ranks.ranks[0] | 50 | 50 |
-| 绚彩星绘 | blood_ranks.ranks[3] | 20 1 150 | 20 1 150 |
-| 绮夜梦影 | blood_ranks.ranks[1] | 1 0.5 50 | 1 0.75 50 |
-| 绯晶战影 | skills[2].description | 30000 1 25 4 | 1 25 3 |
-| 绯晶战影 | blood_ranks.ranks[0] | 1 0.1 | 1 0.1 |
-| 绿森山灵 | blood_ranks.ranks[3] | 60 | 60 |
-| 自由炮手 | skills[2].description | 3 4000 | 3 |
-| 自由炮手 | blood_ranks.ranks[1] | 10 5 | 10 5 |
-| 裁决圣锤 | skills[3].description | 1.5 5 5 5 1 1 | 1.5 5 1 1 |
-| 诅咒之王 | skills[4].description | 10 0.5 5 0.5 | 0.5 5 0.5 |
-| 迷迭妖精 | skills[1].description | 1 2500 2 | 1 2 |
-| 迷迭妖精 | skills[2].description | 100 1000 | 1000 |
-| 金蜂破茧 | skills[1].description | 0.3 1000 0.1 300 0 | 0.3 0.1 300 0 |
-| 金蜂破茧 | blood_ranks.ranks[0] | 1 50 | 1 50 |
-| 雪月公主 | skills[3].description | 2 30 1 | 2 1 |
-| 霓裳若仙 | skills[1].description | 1 5 0.5 5 9000 3 | 1 5 0.5 5 3 |
-| 霓裳若仙 | skills[5].description | 6000 8 1 10 | 8 1 10 |
-| 青鸾巽羽 | skills[0].description | 1 2000 | 1 |
-| 青鸾巽羽 | skills[4].description | 100 | — |
-| 青鸾巽羽 | skills[6].description | 1 12 1 10 | 1 12 1 |
-| 飞焰铃舞 | blood_ranks.ranks[3] | 1000 100 20 | 1000 100 20 |
-| 魂棺语者 | skills[5].description | 10 5 5 1 1 | 10 1 1 |
-| 黑衫刃影 | skills[0].description | 3 250 1 2 3 | 3 1 2 3 |
-| 黑衫刃影 | skills[6].description | 30 | — |
-| 黑衫刃影 | blood_ranks.ranks[0] | 6 | 6 |
-| 黑衫刃影 | blood_ranks.ranks[2] | 100 7.5 10 | 100 7.5 10 |
-| 云图点睛 | skill | 1 1 1 6 10 | 1 1 1 |
-| 咒石项链 | skill | 15 10 | 15 10 |
-| 圣战辉牌 | skill | 6 9 11 50 6 100 200 | 6 9 11 50 100 200 |
-| 夜幕暗盔 | skill | 0.3 | 0.3 |
-| 寒刃霜天 | skill | 15 6 10 | 15 |
-| 巫毒咒牌 | skill | 10 20 4 0.5 | 4 0.5 |
-| 染血狼牙 | skill | 1 2 | 1 2 |
-| 烈刃炎上 | skill | 1 0.5 6 10 | 1 0.5 |
-| 电涌蚀心裤 | skill | 35 1 0.5 3 | 35 1 0.5 3 |
-| 界卫魔面 | skill | 10 11 15 30 6 3 | 10 11 15 30 3 |
-| 紫傀异面 | skill | 1 1 20 1 400 6 566 8 | 1 1 20 1 8 |
-| 蔚蓝魅影 | skill | 75 45 15 30 2.5 | 75 45 15 30 2.5 |
-| 虚灵腰环 | skill | 5 1 0.8 3 30 5 | 5 1 30 5 |
-| 血火荣耀 | skill | 5 1 | 5 1 |
-| 飓风凛甲 | skill | 1 3 4 1 50 100 | 1 3 4 1 50 100 |
-| 霜冻之灾 | skills[0] | 15 30 | 15 |
-| 咒蚀 | thresholds[0] | 2 3 4 1 3 1.5 0.5 | 1 |
-| 回能 | thresholds[0] | 2 3 4 50 75 100 5 1 | 5 1 |
-| 暴怒 | thresholds[0] | 2 3 4 5 6 1 1.5 2 3 3 5 30 0 0 0 0 100 100 30 | 5 30 100 30 |
-| 超导 | thresholds[0] | 2 3 4 5 3 6 10 10 5 0 0 0 1 4 30 5 140 | 5 4 30 5 140 |
-| 魔导 | thresholds[0] | 2 3 4 5 6 50 1 1.5 2 3 4 4 14 14 14 14 8 | 50 1 |
+String pairs compared: 23979. Number/percent mismatches zh ↔ en: **0**. (English `null` is not compared: 199.)
 
 ## Empty English strings
 
@@ -243,12 +123,12 @@ Per record in `i18n.missing`. Summary by field:
 
 | field | reason | count |
 |---|---|---|
-| skills | names.json/skills | 78 |
+| skills | names.json/skills | 77 |
 | profile | not translatable (see translate/manual/texts) | 38 |
 | suffixes | not translatable (see translate/manual/texts) | 28 |
-| builds | names.json/gear | 12 |
+| builds | names.json/gear | 14 |
 | name | names.json/gear | 10 |
-| runes | names.json/runes | 8 |
+| runes | names.json/runes | 9 |
 | character | names.json/characters | 3 |
 | relics | names.json/relics | 2 |
 | obtain | glossary | 2 |

@@ -1,5 +1,6 @@
 // Site data: generated at build time by scripts/prepare-data.ts from ../data/en (embedded, no fetches).
 import raw from "./generated/data.json";
+import type { GuideData } from "./guide-data.ts";
 
 export type Origin = "o" | "t" | "w";
 
@@ -31,6 +32,8 @@ interface Data {
   stones: Rec[];
   factions: Rec[];
   tiers: Rec[];
+  pve_sections: Record<string, string | null>;
+  guides: GuideData;
 }
 
 export const DATA = raw as unknown as Data;
@@ -48,7 +51,8 @@ export const PVE = new Map(DATA.tiers.map((t) => [t.character_id as string, t]))
 export const PVE_AS_OF = DATA.tiers[0]?.as_of as string | undefined;
 export const PVE_SOURCE = DATA.tiers[0]?.permalink as string | undefined;
 
-export const TIER_ORDER = ["T0", "T1", "T2", "T3", "T4", "T5", "T6", "not_ranked"];
+export const TIER_ORDER = [...new Set(DATA.tiers.map((t) => t.tier as string))]
+  .sort((a, b) => (a === "not_ranked" ? Infinity : Number(a.slice(1))) - (b === "not_ranked" ? Infinity : Number(b.slice(1))));
 export const tierRank = (t: string | undefined) => {
   const i = TIER_ORDER.indexOf(t ?? "not_ranked");
   return i < 0 ? TIER_ORDER.length : i;

@@ -435,10 +435,10 @@
       "page": null,
       "search_hits": [
        "氪金攻略",
-       "拂光破雪",
        "战争之蹄",
        "黑衫刃影",
-       "不熄曜日"
+       "不熄曜日",
+       "传承之龙"
       ]
      }
     }
@@ -695,13 +695,6 @@
   ],
   "untranslated_lore": [
    "lore"
-  ],
-  "unofficial_names": [
-   {
-    "path": "blood_ranks.ranks[3].text",
-    "zh": "雷密耀空",
-    "en": "Thunderlit Sky"
-   }
   ]
  }
 }

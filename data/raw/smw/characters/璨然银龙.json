@@ -1,10 +1,10 @@
 {
   "subject": "璨然银龙",
   "group": "characters",
-  "page_revid": 9028,
+  "page_revid": 9335,
   "source_url": "https://wiki.biligame.com/bookofyog/%E7%92%A8%E7%84%B6%E9%93%B6%E9%BE%99",
   "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%92%A8%E7%84%B6%E9%93%B6%E9%BE%99&format=json",
-  "fetched_at": "2026-11-20T16:12:56+00:00",
+  "fetched_at": "2026-11-28T07:24:23+00:00",
   "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
   "response": {
     "query": {
@@ -118,7 +118,7 @@
           "dataitem": [
             {
               "type": 6,
-              "item": "1/2026/6/27/7/0/34/0"
+              "item": "1/2026/11/27/12/22/45/0"
             }
           ]
         },
@@ -308,6 +308,15 @@
             {
               "type": 2,
               "item": "造成普攻伤害时，有几率触发一次强力的额外攻击，对小范围目标造成4500%法术强度的冰霜伤害。(该技能造成的伤害视为普攻伤害)发动率：25%"
+            }
+          ]
+        },
+        {
+          "property": "推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "0"
             }
           ]
         },

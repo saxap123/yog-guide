@@ -1,10 +1,10 @@
 {
   "subject": "绯红荆棘",
   "group": "characters",
-  "page_revid": 8836,
+  "page_revid": 9340,
   "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%AF%E7%BA%A2%E8%8D%86%E6%A3%98",
   "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E7%BB%AF%E7%BA%A2%E8%8D%86%E6%A3%98&format=json",
-  "fetched_at": "2026-11-20T16:13:31+00:00",
+  "fetched_at": "2026-11-28T07:24:27+00:00",
   "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
   "response": {
     "query": {
@@ -118,7 +118,7 @@
           "dataitem": [
             {
               "type": 6,
-              "item": "1/2026/5/1/6/30/5/0"
+              "item": "1/2026/11/27/12/23/9/0"
             }
           ]
         },
@@ -308,6 +308,15 @@
             {
               "type": 2,
               "item": "快速移动到生命最低的敌方单位处，并对路径上所有敌人造成5000%法术强度的火焰伤害。"
+            }
+          ]
+        },
+        {
+          "property": "推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "0"
             }
           ]
         },

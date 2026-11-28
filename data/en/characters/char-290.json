@@ -743,7 +743,12 @@
    "id": "relic-1951"
   }
  ],
- "battle_grid": null,
+ "battle_grid": [
+  {
+   "template": "Assassin battle grid",
+   "recommended": null
+  }
+ ],
  "portraits": null,
  "lore": {
   "story": null,
@@ -789,15 +794,15 @@
  ],
  "parse_notes": null,
  "source_url": "https://wiki.biligame.com/bookofyog/%E7%BB%AF%E7%BA%A2%E8%8D%86%E6%A3%98",
- "revid": 8836,
- "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=8836",
- "rev_timestamp": "2026-05-01T06:30:05Z",
+ "revid": 9340,
+ "permalink": "https://wiki.biligame.com/bookofyog/index.php?oldid=9340",
+ "rev_timestamp": "2026-11-27T12:23:09Z",
  "i18n": {
   "name_zh": "绯红荆棘",
   "sources": {
    "derived": 7,
    "game_db": 19,
-   "glossary": 100,
+   "glossary": 101,
    "lore": 2,
    "names": 79,
    "translated": 14

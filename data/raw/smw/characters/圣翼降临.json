@@ -1,10 +1,10 @@
 {
   "subject": "圣翼降临",
   "group": "characters",
-  "page_revid": 8619,
+  "page_revid": 9338,
   "source_url": "https://wiki.biligame.com/bookofyog/%E5%9C%A3%E7%BF%BC%E9%99%8D%E4%B8%B4",
   "api_request": "https://wiki.biligame.com/bookofyog/api.php?action=browsebysubject&subject=%E5%9C%A3%E7%BF%BC%E9%99%8D%E4%B8%B4&format=json",
-  "fetched_at": "2026-11-20T16:11:30+00:00",
+  "fetched_at": "2026-11-28T07:24:17+00:00",
   "license": "CC BY-NC-SA 4.0, source: BWIKI bookofyog",
   "response": {
     "query": {
@@ -114,7 +114,7 @@
           "dataitem": [
             {
               "type": 6,
-              "item": "1/2026/2/8/4/14/0/0"
+              "item": "1/2026/11/27/12/22/59/0"
             }
           ]
         },
@@ -304,6 +304,15 @@
             {
               "type": 2,
               "item": "受到必杀技伤害时，有几率对攻击者释放剑阵，剑阵持续2秒，每0.5秒会对范围内敌人造成2000%法术强度的闪电伤害，并对其施加【衰退】效果，同时削弱其10%的全伤害减免，持续5秒。发动率:25%(衰退:目标造成的所有伤害降低15%)"
+            }
+          ]
+        },
+        {
+          "property": "推荐",
+          "dataitem": [
+            {
+              "type": 2,
+              "item": "0"
             }
           ]
         },

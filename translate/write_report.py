@@ -50,7 +50,7 @@ def build():
     w = L.append
     w("# Step 3 report — names, glossary, translation (data/zh → data/en)\n")
     w("Wiki data: BWIKI 依盖之书 <https://wiki.biligame.com/bookofyog/> (CC BY-NC-SA 4.0). "
-      "Official English: game files dated %s (`data/raw/game_db`, local, read-only, git-ignored). "
+      "Official English: game files dated %s and publisher announcements. "
       "Only strings that are used are kept (`data/names.json`, `data/glossary.json`, `data/en`)."
       % names["meta"]["game_snapshot"])
     w("")
@@ -59,10 +59,10 @@ def build():
 
     # ---- names ----------------------------------------------------------------------
     w("## Names (`data/names.json`)\n")
-    w("Rule: Chinese wiki name → game table row (`name_id` / `title_id`) → `totalLanguageDicText.json`. "
-      "Names are never translated by us: not found → `en: null`, `status: unverified`.\n")
-    w("| category | names | from the game | translated | empty (unverified) |")
-    w("|---|---|---|---|---|")
+    w("Names come from the game tables and dictionary when available. "
+      "`translate/manual/names.json` supplies publisher spellings and translations for newer names.\n")
+    w("| category | names | from the game | publisher | translated | empty (unverified) |")
+    w("|---|---|---|---|---|---|")
     T = Counter()
     for cat, d in names.items():
         if cat == "meta":
@@ -70,11 +70,13 @@ def build():
         n = len(d)
         g = sum(1 for e in d.values() if e.get("en") and e.get("source") == "game_db")
         tr = sum(1 for e in d.values() if e.get("en") and e.get("source") == "translated")
-        T.update({"n": n, "g": g, "t": tr})
-        w("| %s | %d | %d (%s) | %d | %d (%s) |" % (CAT_TITLE.get(cat, cat), n, g, pct(g, n), tr, n - g - tr,
-                                                    pct(n - g - tr, n)))
-    w("| **all** | %d | %d (%s) | %d | %d (%s) |\n" % (T["n"], T["g"], pct(T["g"], T["n"]), T["t"],
-                                                     T["n"] - T["g"] - T["t"], pct(T["n"] - T["g"] - T["t"], T["n"])))
+        pub = sum(1 for e in d.values() if e.get("en") and e.get("source") == "publisher")
+        missing = n - g - tr - pub
+        T.update({"n": n, "g": g, "p": pub, "t": tr, "missing": missing})
+        w("| %s | %d | %d (%s) | %d | %d | %d (%s) |" % (CAT_TITLE.get(cat, cat), n, g, pct(g, n), pub, tr,
+                                                         missing, pct(missing, n)))
+    w("| **all** | %d | %d (%s) | %d | %d | %d (%s) |\n" % (T["n"], T["g"], pct(T["g"], T["n"]), T["p"], T["t"],
+                                                          T["missing"], pct(T["missing"], T["n"])))
     alias = [(zh, e["game_name"]) for zh, e in names["characters"].items() if e.get("game_name")]
     if alias:
         w("Aliases: " + ", ".join("%s = %s (game spelling)" % a for a in alias) + ".\n")

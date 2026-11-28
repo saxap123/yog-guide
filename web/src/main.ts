@@ -1,6 +1,7 @@
 import "./style.css";
 import { badgeOf, initTooltip } from "./ui.ts";
 import { renderCard } from "./views/card.ts";
+import { renderGuides } from "./views/guides.ts";
 import { renderList } from "./views/list.ts";
 import { renderRef, type Kind } from "./views/refs.ts";
 import { renderTiers } from "./views/tiers.ts";
@@ -14,6 +15,9 @@ function route() {
   let nav = "chars";
   if (head === "c" && id) {
     renderCard(app, id);
+  } else if (head === "guides") {
+    nav = "guides";
+    renderGuides(app, id);
   } else if (head === "tiers") {
     nav = "tiers";
     renderTiers(app);
@@ -31,7 +35,7 @@ function route() {
 document.getElementById("legend")!.innerHTML = `
   <h2>Sources</h2>
   <ul class="legend-list">
-    <li>${badgeOf("o")} English from the game files (official names and texts)</li>
+    <li>${badgeOf("o")} English from the game files or publisher announcements</li>
     <li>${badgeOf("t")} our translation of the wiki text</li>
     <li>${badgeOf("w")} wiki data as written (numbers, levels, dates)</li>
     <li><span class="disc">≠ game</span> the game text has other numbers than the wiki (hover for both)</li>

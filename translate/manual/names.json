@@ -1,0 +1,22 @@
+{
+ "characters": {
+  "云梦归人": {"en": "Dreambound Wanderer", "source": "publisher", "source_url": "https://steamcommunity.com/app/1097430/allnews/"}
+ },
+ "skills": {
+  "抽刀断水": {"en": "Water-Cleaving Draw", "source": "translated"},
+  "剑道争锋": {"en": "Duel of Blades", "source": "translated"},
+  "大音希声": {"en": "Silent Thunder", "source": "translated"},
+  "势如破竹": {"en": "Unstoppable Momentum", "source": "translated"},
+  "后发制人": {"en": "Opportune Counter", "source": "translated"},
+  "飞鸿踏雪": {"en": "Footprints in Snow", "source": "translated"},
+  "赤诚": {"en": "Sincerity", "source": "translated"}
+ },
+ "gear": {
+  "拂晓": {"en": "Daybreak", "source": "publisher", "source_url": "https://steamcommunity.com/app/1097430/allnews/"},
+  "蔷薇之心": {"en": "Heart of the Rose", "source": "translated"},
+  "神圣智手": {"en": "Sacred Wisdom Gauntlets", "source": "translated"}
+ },
+ "relics": {
+  "白露为霜": {"en": "Dew Turns to Frost", "source": "publisher", "source_url": "https://steamcommunity.com/app/1097430/allnews/"}
+ }
+}
