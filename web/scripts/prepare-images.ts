@@ -7,7 +7,8 @@
  *
  * Source: data/raw/game_db/03.ui/image_ab/ (heroicons = portraits/avatars, 01.icon = item icons),
  * or the folder in YOG_IMAGE_SRC. Matching:
- *   character -> data/names.json game_id = tpl_sc_hero id -> files named by icon_portrait / id / avatarID
+ *   character -> data/names.json game_id = tpl_sc_hero id -> files named by the hero's own id, then avatarID,
+ *     then icon_portrait (fallback only: several heroes share a placeholder icon_portrait such as 502)
  *   gear, relic, rune, black stone -> names.json game_id (gear-game-<id> for game-only gear)
  *     -> iconID of tpl_sc_equipment / tpl_sc_heirloom / tpl_sc_rune / tpl_sc_blackStone -> file of that name
  * Output: web/public/img/** (WebP, git-ignored), src/generated/images.json (manifest),
@@ -155,7 +156,8 @@ for (const w of wants) {
   if (!dbOk) { h.note = "game tables not found"; continue; }
   if (!row) { h.note = `no row ${w.gameId} in ${TABLE[w.kind]}`; continue; }
   if (w.kind === "character") {
-    const keys = [...new Set([row.icon_portrait, row.id, row.avatarID].filter((k) => k && k !== "0"))].map((k) => k.toLowerCase());
+    // own id first: icon_portrait is a shared placeholder for some heroes (502 on 封魔利爪, 王国猎手, 渡鸦魁首 …)
+    const keys = [...new Set([row.id, row.avatarID, row.icon_portrait].filter((k) => k && k !== "0"))].map((k) => k.toLowerCase());
     h.key = keys.join(" / ");
     // heroicons/ per hero (checked by eye on 741, 719, 708, 402):
     //   square_<k>    300x196 head-and-shoulders crop -> avatar (square crop from the centre)

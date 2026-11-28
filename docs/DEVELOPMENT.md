@@ -208,7 +208,7 @@ npm run preview    # http://localhost:4173
   typos translated as written, never corrected); the site marks them «unofficial name».
 - Images (step 4b): `web/scripts/prepare-images.ts` reads (only reads) `data/raw/game_db/03.ui/image_ab/`
   (`heroicons`, `01.icon`; or the folder in `YOG_IMAGE_SRC`), matches them to the data — characters by
-  `tpl_sc_hero` id (`icon_portrait` / id / `avatarID`), gear / relics / runes / 黑石 by game id → `iconID` —
+  `tpl_sc_hero` id (own id, then `avatarID`, then `icon_portrait` — the last is a shared placeholder for some heroes), gear / relics / runes / 黑石 by game id → `iconID` —
   and writes WebP to `web/public/img/` (git-ignored, generated per build) + `src/generated/images.json`;
   unmatched records go to `docs/IMAGES_REPORT.md`.
   `npm run build` = `IMAGES=icons` (avatars 96 px, item icons 96 px); `npm run build:full` (+ portraits
