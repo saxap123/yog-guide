@@ -38,6 +38,7 @@
         },
         {
           "title": "Check the one-time gear picks",
+          "showIcons": true,
           "items": [
             "Chapter 1-6-4 offers [[g:聚能之铠]]. The wiki recommends it as a versatile early armor pick.",
             "Check [[g:战狂]] at 2-21-4, [[g:邪徒]] at 3-3-4, and [[g:妖精秘手]] at 3-6-4. The wiki lists other ways to obtain these pieces, with a resource cost.",
@@ -46,6 +47,7 @@
         },
         {
           "title": "Build an inexpensive starter team",
+          "showIcons": true,
           "items": [
             "Put your best damage dealer on the field and use easier-to-awaken S-rank Blackguards to build support-slot bonuses. The wiki suggests building up an S-rank [[f:狩魔]] support first, adding [[f:前锋]] support, and considering [[c:神之嫡子]] and [[c:灵刃之主]] as later SS-rank options.",
             "Before summoning, check the selected banner’s wish and pity rules. The beginner article describes carryover within a recurring banner of the same name. Individual banners can have their own rules."

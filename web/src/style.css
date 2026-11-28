@@ -337,6 +337,9 @@ td:last-child { width: 1%; white-space: nowrap; }
 .guide-back { margin-bottom: 0.4em; }
 .guide-article ul { margin: 0.6rem 0 1rem; padding-left: 1.35rem; }
 .guide-article li + li { margin-top: 0.4rem; }
+.guide-name-icon { display: inline-flex; align-items: center; gap: 0.4em; max-width: 100%; vertical-align: middle; }
+.guide-name-icon > :is(.ico, .ava) { width: 24px; height: 24px; }
+.guide-table .guide-name-icon > .ico { width: 30px; height: 30px; }
 .guide-screenshot { margin: 1.25rem 0; border: 1px solid var(--line); border-radius: var(--radius); background: var(--bg2); }
 .guide-screenshot-image { display: block; }
 .guide-screenshot img { display: block; width: 100%; height: auto; border-radius: var(--radius) var(--radius) 0 0; }
@@ -353,6 +356,8 @@ td:last-child { width: 1%; white-space: nowrap; }
 .guide-table thead { background: var(--bg3); }
 .guide-table tbody tr + tr { border-top: 1px solid var(--line); }
 .guide-table th[scope="row"] { white-space: nowrap; font-weight: 500; }
+.guide-stone-table { table-layout: fixed; }
+.guide-stone-table th:first-child { width: 6rem; }
 .guide-table .zh { display: inline-block; }
 .guide-article .guide-inline { display: flex; flex-wrap: wrap; gap: 0.35em 1em; list-style: none; padding: 0; margin: 0; }
 .guide-inline li + li { margin-top: 0; }

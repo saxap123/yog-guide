@@ -2,6 +2,7 @@ export interface GuideName {
   text: string;
   zh?: string;
   href?: string;
+  icon?: { kind: "gear" | "characters" | "black_stones"; id: string };
 }
 
 export interface GuideScreenshot {

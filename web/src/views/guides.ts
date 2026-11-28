@@ -1,17 +1,28 @@
-import { DATA } from "../data.ts";
+import { CHAR, DATA, GEAR, STONE } from "../data.ts";
 import type { GuideArticle, GuideName, GuideScreenshot } from "../guide-data.ts";
-import { esc, zh } from "../ui.ts";
+import { avatar, esc, IMG, itemIcon, zh } from "../ui.ts";
 
 const WIKI = "https://wiki.biligame.com/bookofyog/";
 const ANNOUNCEMENTS = "https://steamcommunity.com/app/1097430/announcements/";
 
+function nameIcon(icon: GuideName["icon"]): string {
+  if (!icon) return "";
+  const { kind, id } = icon;
+  if (kind === "characters") return IMG.avatars[id] ? avatar(CHAR.get(id)) : "";
+  const record = (kind === "gear" ? GEAR : STONE).get(id);
+  return record && IMG.icons[id] ? itemIcon(record, "Item") : "";
+}
+
 function name(part: GuideName, bilingual = false): string {
   const text = esc(part.text);
   const label = part.zh ? `<span${part.text === part.zh ? ' lang="zh"' : ""}>${text}</span>` : text;
+  const chinese = bilingual && part.zh !== part.text ? " " + zh(part.zh) : "";
+  const icon = nameIcon(part.icon);
+  const content = icon ? `<span class="guide-name-icon">${icon}<span>${label}${chinese}</span></span>` : label;
   const link = part.href
-    ? `<a href="${esc(part.href)}"${part.href.startsWith("#") ? "" : ' class="ext" target="_blank" rel="noopener"'}>${label}</a>`
-    : label;
-  return link + (bilingual && part.zh !== part.text ? " " + zh(part.zh) : "");
+    ? `<a href="${esc(part.href)}"${part.href.startsWith("#") ? "" : ' class="ext" target="_blank" rel="noopener"'}>${content}</a>`
+    : content;
+  return link + (icon ? "" : chinese);
 }
 
 function articleList(): string {
@@ -79,7 +90,7 @@ function deepMistTable(): string {
       </div>
       <p class="muted guide-result" data-guide-count role="status">${DATA.guides.deepMist.length} floor bands</p>
       <div class="guide-table-wrap">
-        <table class="guide-table" aria-labelledby="deep-mist-heading">
+        <table class="guide-table guide-stone-table" aria-labelledby="deep-mist-heading">
           <thead><tr><th scope="col">Floors</th><th scope="col">Listed Black Stones</th></tr></thead>
           <tbody>${DATA.guides.deepMist.map(({ floors, stones }) => `
             <tr><th scope="row">${esc(floors)}</th>

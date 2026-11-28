@@ -21,7 +21,7 @@ interface ScreenshotSource extends Omit<GuideScreenshot, "src" | "source" | "not
 
 interface GuideSource {
   guides: (Omit<GuideArticle, "sections" | "sources"> & {
-    sections: { title: string; items: string[]; screenshots?: ScreenshotSource[] }[];
+    sections: { title: string; items: string[]; showIcons?: boolean; screenshots?: ScreenshotSource[] }[];
     sources: string[];
   })[];
   wiki: Record<string, Omit<GuideArticle["sources"][number], "title">>;
@@ -50,17 +50,19 @@ export function prepareGuides(
   };
   const wikiUrl = (title: string) => "https://wiki.biligame.com/bookofyog/" + encodeURIComponent(title);
 
-  function named(kind: NamedKind, title: string): GuideName {
+  function named(kind: NamedKind, title: string, showIcon = false): GuideName {
     const en = names[kind][title]?.en ?? undefined;
     const exact = catalog[kind].filter((row) => row.name_zh === title);
     const byName = en && exact.length === 0 ? catalog[kind].filter((row) => row.name === en) : [];
     const matches = exact.length ? exact : byName;
     const match = matches.length === 1 ? matches[0] : undefined;
+    const id = match?.id;
     const english = match?.name ?? en;
     return {
       text: english ?? title,
       zh: title,
-      href: match?.id ? `#/${routes[kind]}/${encodeURIComponent(match.id)}` : wikiUrl(title),
+      href: id ? `#/${routes[kind]}/${encodeURIComponent(id)}` : wikiUrl(title),
+      icon: showIcon && id && kind !== "factions" ? { kind, id } : undefined,
     };
   }
 
@@ -70,14 +72,14 @@ export function prepareGuides(
     return en;
   }
 
-  function paragraph(text: string): GuideName[] {
+  function paragraph(text: string, showIcons = false): GuideName[] {
     const tokens = text.split(/\[\[([tcfg]):([^\]]+)\]\]/g);
     const kinds = { c: "characters", f: "factions", g: "gear" } as const;
     const parts: GuideName[] = [{ text: tokens[0] }];
     for (let i = 1; i < tokens.length; i += 3) {
       const token = tokens[i] as "t" | keyof typeof kinds;
       const title = tokens[i + 1];
-      parts.push(token === "t" ? { text: glossaryTerm(title) } : named(kinds[token], title));
+      parts.push(token === "t" ? { text: glossaryTerm(title) } : named(kinds[token], title, showIcons));
       parts.push({ text: tokens[i + 2] });
     }
     return parts.filter((part) => part.text);
@@ -86,13 +88,13 @@ export function prepareGuides(
   return {
     articles: source.guides.map((guide) => ({
       ...guide,
-      sections: guide.sections.map(({ title, items, screenshots }) => ({
+      sections: guide.sections.map(({ title, items, showIcons, screenshots }) => ({
         title,
-        items: items.map(paragraph),
+        items: items.map((item) => paragraph(item, showIcons)),
         screenshots: screenshots?.map(({ file, wikiFile, notes, ...image }) => {
           const src = `guide-images/${guide.id}/${file}`;
           if (!fs.existsSync(path.join(root, "web/public", src))) throw new Error(`Missing guide screenshot: ${src}`);
-          return { ...image, src, source: `${wikiUrl("文件")}:${encodeURIComponent(wikiFile)}`, notes: notes.map(paragraph) };
+          return { ...image, src, source: `${wikiUrl("文件")}:${encodeURIComponent(wikiFile)}`, notes: notes.map((note) => paragraph(note)) };
         }),
       })),
       sources: guide.sources.map((title) => {
@@ -102,10 +104,10 @@ export function prepareGuides(
       }),
     })),
     keep: source.keep.map(({ name, slot, fuse }) => ({
-      name: named("gear", name), slot: glossaryTerm(slot), fuse,
+      name: named("gear", name, true), slot: glossaryTerm(slot), fuse,
     })),
     deepMist: source.deepMist.map(({ floors, stones }) => ({
-      floors, stones: stones.map((name) => named("black_stones", name)),
+      floors, stones: stones.map((name) => named("black_stones", name, true)),
     })),
   };
 }
